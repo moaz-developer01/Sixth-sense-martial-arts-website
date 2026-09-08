@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Sixth Sense Martial Arts logo</title>
+  <circle cx="30" cy="30" r="26" fill="#8B0000"/>
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#E4181C" stroke-width="2"/>
+  <path d="M18 34 L26 42 L44 20" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="66" y="27" font-family="Arial, sans-serif" font-weight="700" font-size="19" letter-spacing="1" fill="#0A0A0A">SIXTH SENSE</text>
+  <text x="66" y="46" font-family="Arial, sans-serif" font-weight="400" font-size="13" letter-spacing="3" fill="#E4181C">MARTIAL ARTS</text>
+</svg>

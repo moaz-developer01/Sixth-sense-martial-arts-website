@@ -93,3 +93,160 @@ A second correction added structure that was missing from the original brief:
 - Closing section and footer both now use `background: transparent` as specified.
 
 **Unresolved conflict, flagged rather than silently resolved:** the brief asks for "Closing + Footer" to total 616px, but the closing section's own image is specified at 550x732, which alone is larger than that budget. By hand-calculation (not a live measurement): the sixteen sections with forced heights sum to approximately 7492px; adding a header at ~62px brings it to ~7554px. The closing section plus footer, sized naturally around their real content (the 732px-tall image dominates), comes to roughly 1090px rather than 616px. That puts the estimated total around **8580-8600px**, about 470-490px over the 8107px target, and that gap is attributable entirely to this one conflict. This is a hand calculation using the exact CSS values, not a rendered measurement; ask for `document.body.scrollHeight` in a real browser at 1432px width for the authoritative number.
+
+## Internal links are file-relative for local `file://` preview
+
+All internal `href` values in `dist/` point at `*.html` files relative to the
+page (`best-martial-arts.html`, `privacy-policy.html`, `terms-of-service.html`,
+`adult-bjj-classes.html`, …) rather than at clean URLs (`/best-martial-arts/`).
+Root-relative paths resolve against the drive root under `file:///D:/…`, which
+broke every internal link when previewing without a server.
+
+**At deploy time**, switch these back to clean URLs to match the canonical tags
+and the live site's URL structure:
+
+| Local (now)                    | Deploy to                   |
+| ------------------------------ | --------------------------- |
+| `best-martial-arts.html`       | `/best-martial-arts/`       |
+| `blogs.html`                   | `/blogs/`                   |
+| `adult-bjj-classes.html`       | `/adult-bjj-classes/`       |
+| `adult-muay-thai-classes.html` | `/adult-muay-thai-classes/` |
+| `kids-bjj-classes.html`        | `/kids-bjj-classes/`        |
+| `teen-bjj-classes.html`        | `/teen-bjj-classes/`        |
+| `teen-muay-thai-classes.html`  | `/teen-muay-thai-classes/`  |
+| `privacy-policy.html`          | `/privacy-policy/`          |
+| `terms-of-service.html`        | `/terms-and-conditions/`    |
+
+The canonical tags already point at the live clean URLs and were left untouched.
+`dist/.htaccess` has the rewrite that serves `/best-martial-arts/` from
+`best-martial-arts.html`, so clean URLs work on the server either way.
+
+Note: the footer "Terms of Service" link targets `terms-of-service.html`, which
+is the file that exists in `dist/`. The live site uses `/terms-and-conditions/`.
+Either rename the file or map it in `.htaccess` before launch.
+
+## The blog listing is generated - never edit dist/blogs.html by hand
+
+`dist/blogs.html` (and `dist/blogs-2.html`, `-3.html`, …) are build output. Any
+manual edit is overwritten on the next run. The sitemap is generated too.
+
+**To add a post:**
+
+1. Add the post's `.html` file to `dist/`.
+2. Add its entry to `project-docs/posts.json`:
+   ```json
+   {
+     "slug": "your-post-slug",
+     "title": "The post's H1",
+     "image": "images/your-featured-image.webp",
+     "date": "2025-03-14T12:00:00+00:00",
+     "category": "Martial Arts"
+   }
+   ```
+   `slug` must match the filename without `.html`. `date` drives the ordering -
+   use the full ISO timestamp from the post's `article:published_time`, because
+   several posts share a publication day and a date-only value makes the sort a
+   tie. An `excerpt` field is no longer needed: the cards render the image and
+   the title only (see below). Existing entries keep theirs harmlessly.
+3. Run:
+   ```
+   node project-docs/build-blog.js
+   ```
+
+Posts sort newest first, repaginate at 9 per page, and the sitemap rewrites
+itself. Page 1 stays `blogs.html` so `/blogs/` remains the clean canonical;
+later pages are `blogs-2.html` onward with `rel="prev"` / `rel="next"` and a
+canonical pointing at their own URL. Listing pages left over from a previous,
+longer run are deleted automatically.
+
+`dist/blogs-template.html` is the shell the script fills, via three markers:
+`<!-- HEAD-LINKS -->`, `<!-- POSTS -->` and `<!-- PAGINATION -->`. Edit the
+template to change the listing's layout, then re-run the script.
+
+**Note:** the template lives in `dist/` as specified, which means it is
+publicly reachable at `/blogs-template.html` and would render as a broken page
+with visible markers. Before launch, either move it out of `dist/` (and update
+`TEMPLATE_FILE` in the script) or block it in `robots.txt` and `.htaccess`.
+
+## Blog posts carry no tag section (standing rule)
+
+Blog posts do **not** have a tag / tag-pill section at the foot of the article.
+This was decided after the section was built and removed three separate times;
+it is not wanted on any post, present or future.
+
+- Do not add `<div class="ap-tags">`, `.ap-tags-label` or `.ap-tag-list` markup
+  to any post.
+- The matching CSS has been deleted from `dist/styles.css`. Do not restore it.
+- If a future content spec lists tag pills for a post, that instruction is
+  superseded by this rule - leave them out and say so.
+
+The reference pages on sixthsensemma.com do show tag pills. They are
+deliberately not reproduced.
+
+## Listing cards show image + title only (standing rule)
+
+The blog listing cards on `dist/blogs.html` deliberately show **only** the
+featured image and the post title. There is no excerpt / summary paragraph
+beneath the heading.
+
+- `cardHtml()` in `project-docs/build-blog.js` must not emit a
+  `.bl-card-excerpt` paragraph.
+- The matching CSS has been deleted from `dist/styles.css`. Do not restore it.
+- The `excerpt` field in `posts.json` is now unused. It is left in place on the
+  existing nine entries but nothing renders it, and new entries do not need it.
+
+This sits alongside the "no tag section on blog posts" rule above: both are
+elements that were built, shown to the client, and removed on request.
+
+## Homepage lives at dist/index.html (2026-09-13)
+
+The homepage is `dist/index.html`, the only filename every web server resolves
+at `/` without configuration. `.htaccess` also sets `DirectoryIndex index.html`
+explicitly.
+
+History, so this doesn't recur: `index.html` was 0 bytes from the initial commit
+onward. The working homepage markup had been recovered into
+`dist/Home Preview.html` (see the one-file-per-page memory note on the earlier
+data loss) and never renamed back. It has now been moved to `index.html`
+byte-for-byte (md5 unchanged), and `Home Preview.html` no longer exists. Do not
+recreate a second homepage file under any other name.
+
+Every page's header "Home" link and header logo point at `index.html`, as does
+the "Back to Home" button on the four stub pages. `build-blog.js` lists `/` at
+priority 1.0 - the single highest value in `sitemap.xml`.
+
+## Deployment: switching internal links to clean URLs
+
+Locally, every internal link uses the `.html` form (`index.html`,
+`adult-bjj-classes.html`, `blogs-2.html`, ...) so the site works when files are
+opened straight from the filesystem.
+
+**At deploy time, rewrite internal links back to clean URLs:**
+
+| local form | deployed form |
+|---|---|
+| `index.html` | `/` |
+| `adult-bjj-classes.html` | `/adult-bjj-classes/` |
+| `blogs.html` | `/blogs/` |
+| `blogs-2.html` | `/blogs/page/2/` |
+| `some-post.html` | `/some-post/` |
+
+`index.html` then serves at `/` automatically via `DirectoryIndex`, and the
+`.htaccess` clean-URL rule serves `/some-post/` from `some-post.html`.
+
+**No canonical changes are needed.** Every canonical, `og:url`, JSON-LD `@id` /
+`url` / `item`, and every `<loc>` in `sitemap.xml` already uses the clean
+absolute form (`https://sixthsensemma.com/`, `https://sixthsensemma.com/blogs/`,
+...). None of them contain `.html`.
+
+Two things to handle in that same pass:
+
+- **Pagination URLs differ in shape, not just suffix.** `blogs-2.html` maps to
+  `/blogs/page/2/`, not `/blogs-2/`. The `.htaccess` rule as written would serve
+  `/blogs-2/` but not `/blogs/page/2/`, so either add a rewrite for
+  `^blogs/page/(\d+)/?$ -> /blogs-$1.html`, or the canonical/`rel` URLs on the
+  listing pages will point somewhere that 404s.
+- **Consider a 301 from `/index.html` to `/`** so the homepage isn't reachable
+  at two URLs. The canonical already names `/`, so this is tidiness rather than
+  an SEO risk. Match on `THE_REQUEST` rather than the rewritten path, otherwise
+  the redirect loops against `DirectoryIndex`.

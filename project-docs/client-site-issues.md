@@ -1,0 +1,492 @@
+# Issues found on the live site — sixthsensemma.com
+
+Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
+against the live pages, not taken from notes. Counts come from scanning the
+live HTML of **32 pages**: the homepage, the 5 program pages and all 26 blog
+posts.
+
+Each issue is tagged:
+
+- **SECURITY** — the site or its visitors are at risk
+- **SEO** — hurts how the site ranks or appears in search results
+- **CONTENT** — wrong, broken or confusing for a visitor
+- **GEOGRAPHIC TARGETING** — content aimed at the wrong location for a local business
+
+The rebuilt site already fixes or works around every issue here. The client
+still needs to act on the live WordPress site, most urgently the first two.
+
+---
+
+## Summary
+
+| # | Issue | Tag | Pages affected | Priority |
+|---|---|---|---|---|
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 32 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 32 | Urgent |
+| 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
+| 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
+| 5 | Internal links pointing at the wrong post | SEO | 3 | High |
+| 6 | Two separate Kali Sticks posts | SEO | 2 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
+| 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
+| 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 11 | Medium |
+| 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
+| 12 | ChatGPT interface code pasted into a post | CONTENT | 1 | Medium |
+| 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
+| 14 | Orlando post targets a city 1,100 miles away and promotes competitors | GEOGRAPHIC TARGETING | 1 | High |
+| 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
+| 16 | Empty headings | SEO | 2 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 8 | Low |
+| 18 | Image alt text typo | SEO | 1 | Low |
+| 19 | Duplicate WordPress tags | SEO | 2 | Low |
+| 20 | Suspicious "last modified" dates | SEO | 8 | Low — to confirm |
+| 21 | Numbered list skips a number | CONTENT | 1 | Low |
+| 22 | "H2:" formatting marker left in a visible heading | CONTENT, SEO | 1 | Medium |
+| 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
+| 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
+| 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
+| 26 | Images reused from another article under its filenames | CONTENT | 1 | Low |
+
+**26 issues in total.**
+
+---
+
+## SECURITY
+
+### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
+
+Every one of the 32 pages checked contains a block of links to French online
+casino sites. It sits just inside `<body>`, above the header, in an element
+pushed off-screen with `position:absolute; left:-35255px` so visitors never see
+it. Search engines do.
+
+Domains linked:
+`shinywilds-fr.fr`, `blitzcasino.org`, `oscarspinfr.fr`, `quickwin-casino.app`,
+`rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
+`fr-winmachancecasino.com`
+
+**Affected:** all 32 pages checked — homepage, all 5 program pages, all 26 posts.
+
+**Why it matters:** this is a hacked WordPress site. Hidden outbound links to
+gambling sites are a classic SEO-spam injection and can get the site flagged or
+penalised by Google. Whatever put it there may have other access too.
+
+**What to do:** treat as a compromise, not a content fix. Scan the install for
+malware; check the active theme (`header.php`, `functions.php`), all plugins,
+and the database (`wp_options`, `wp_posts`) for the injected code; remove
+unknown admin users; update WordPress core, theme and plugins; change every
+password and the database credentials. Deleting the visible block alone will
+not stop it coming back.
+
+---
+
+## CONTENT
+
+### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
+
+The tap-to-call links use `tel:4639727800`. The real number is
+**(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
+taps "call" on a phone dials a different number.
+
+**Affected:** all 32 pages. It appears twice on the homepage and on each blog
+post, and once on each program page.
+
+**What to do:** change every link to `tel:+14699727800`. It is in the site-wide
+header and footer, so it should be a single template edit.
+
+### 3. Kids FAQ copied onto adult and teen BJJ pages — CONTENT — High
+
+The FAQ on the Adult BJJ and Teen BJJ pages was copied from the Kids BJJ page
+without being rewritten. Six of the ten questions on each are about young
+children and their parents, for example "Will My Child Become A Bully?",
+"Do Parents Need To Stay?" and "My Child Is Addicted To Video Games, Will This
+Be Suitable?".
+
+**Affected:**
+- `/adult-bjj-classes/` — 6 of 10 questions about children or parents
+- `/teen-bjj-classes/` — 6 of 10 questions about children or parents
+
+**Not affected:** `/adult-muay-thai-classes/` and `/teen-muay-thai-classes/`
+have FAQs correctly written for their audience.
+
+**What to do:** rewrite those six questions for adults and for teens.
+
+### 8. "Contact us" links that go to the Teen BJJ page — CONTENT — Medium
+
+Two posts have a contact call-to-action that sends visitors to the Teen BJJ
+program page instead of a contact page or form.
+
+**Affected:**
+- `/muay-thai-stance/` — link text "Contect Us:" (also misspelled)
+- `/kick-boxing-classes/` — link text "Contact us", in the "Call to Action" section
+
+**What to do:** point both at the real contact page or booking form, and fix
+the spelling.
+
+### 12. ChatGPT interface code pasted into a post — CONTENT — Medium
+
+Two passages were copied straight out of the ChatGPT website, bringing its page
+code with them (`gizmo-bot-avatar`, `bg-token-main-surface-primary`). The text
+reads normally, but the stray code wraps it and it shows exactly how the post
+was drafted to anyone who views the source.
+
+**Affected:** `/martial-arts-for-adults/`: the opening line of "Self-Defense
+Skills and Personal Safety", and the whole Conclusion.
+
+**What to do:** re-paste those two passages as plain text.
+
+### 13. "Table" placeholder text left above tables — CONTENT — Medium
+
+The word "Table", sometimes bold, sits on its own line above tables. It is a
+leftover from drafting and shows on the page.
+
+**Affected:** 22 instances across 4 posts
+
+| Post | Count |
+|---|---|
+| `/martial-arts-karate-gi/` | 8 |
+| `/is-boxing-a-martial-art/` | 7 |
+| `/japanese-martial-arts-sign/` | 6 |
+| `/what-martial-art-destroys-boxers/` | 1 |
+
+**What to do:** delete the placeholder lines.
+
+### 17. Spelling errors and garbled headings — CONTENT — Low
+
+| Post | Error |
+|---|---|
+| `/nogi-brazilian-jiu-jitsu/` | "Mixed **Martials** Arts (MMA)?" |
+| `/brazilian-jiu-jitsu-belt-ranks/` | "Promotion in Brazilian Jiu Jitsu Belt Ranks **Brazillian** Arts Globally" — misspelled and garbled; "Progress with **Degreed** or the Honorary Red Belt" |
+| `/brazilian-jiu-jitsu-mat/` | "Choosing Suitable Mats for Sale Brazilian Jiu Jitsu" — garbled keyword phrase |
+| `/martial-arts-classes-2/` | FAQ answer: "both **May Thai** and Brazilian Jiu-Jitsu classes" |
+| `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
+| `/muay-thai-stance/` | "**Contect** Us:" |
+| `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
+
+The FAQ heading is also written inconsistently across posts: "FAQ's", "FAQ’s"
+and "FAQ’S", sometimes as a main heading and sometimes as a sub-heading.
+
+### 21. Numbered list skips a number — CONTENT — Low
+
+The post's five numbered reasons are displayed as 1, 3, 4, 5. Reason 2,
+"Reduced Maintenance and Replacement Costs Over Time", has no number, so the
+list reads as if a reason is missing even though the title promises five.
+
+**Affected:** `/brazilian-jiu-jitsu-mat/`, the five reasons.
+
+**What to do:** make all five reasons one numbered list, or add the number 2 to
+the second reason.
+
+### 22. "H2:" formatting marker left in a visible heading — CONTENT, SEO — Medium
+
+A heading reads, on the page, **"H2: Picking the Most Suitable Martial Arts
+Class"**. The "H2:" is a formatting note from the draft, meaning "make this a
+main heading". It was pasted into the heading text instead of being removed.
+Visitors see it, and search engines read it as part of the heading.
+
+**Affected:** `/martial-arts-classes-2/`, in the "Tips for Choosing the Right
+Class" section.
+
+**What to do:** delete "H2: " from the heading. Because this suggests the post
+was pasted from an outline, check the other posts for leftover markers such as
+"H2:", "H3:" or "Table" (see issue 13).
+
+### 25. YouTube video that never loads, bare link shown instead — CONTENT — Medium
+
+A YouTube video block was added, but WordPress never turned it into a player.
+The page shows the bare link
+`https://youtu.be/oGmkxo72IzA?si=dJe1JCz-2qOo6Jnv` as plain, unclickable text.
+The link includes a `?si=` share-tracking code copied from the YouTube app.
+
+**Affected:** `/martial-arts-classes-2/`, at the end of "Benefits of Martial Arts
+Classes".
+
+**What to do:** re-add the video with the YouTube block, using the clean link
+`https://www.youtube.com/watch?v=oGmkxo72IzA`, and check that the player appears.
+Or remove the block. The video is a third-party channel ("Plainly Put"), so
+confirm it's meant to be there.
+
+---
+
+## SEO
+
+### 4. Broken `%…%` page title — SEO — High — recurring template bug
+
+The page title is wrapped in stray percent signs, a broken template variable
+from an SEO plugin. It shows in Google results, browser tabs and social-share
+previews as, for example,
+`%Brazilian Jiu Jitsu Belt Ranks 2025: Path to Black Belt%`.
+
+**Affected — 2 pages:**
+
+| Post | Title as served | Published |
+|---|---|---|
+| `/brazilian-jiu-jitsu-belt-ranks/` | `%Brazilian Jiu Jitsu Belt Ranks 2025: Path to Black Belt%` | 2025-03-28 12:43 UTC |
+| `/brazilian-jiu-jitsu-mat/` | `%Brazilian Jiu Jitsu Mat: Top 5 Reasons Gyms Go Premium%` | 2025-03-28 13:37 UTC |
+
+On both pages all three title tags are broken: `<title>`, `og:title` and
+`twitter:title`.
+
+**This is a template bug, not a one-off typo.** It appears on two separate
+posts, both published on the same day within an hour of each other, which
+points to the SEO plugin's title template or a setting in use at that time
+rather than a mistake typed into one post.
+
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 32
+live pages were scanned; only the two posts above are affected today.
+
+**What to do:** find the title template or variable in the SEO plugin that
+outputs the `%` signs and fix it there, then re-save both posts. Because the
+cause is a template, **check every post** (including drafts, and any post
+published or edited later) for the same `%…%` title, not only these two.
+
+### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
+
+Two separate posts both target the keyword "Martial Arts Classes":
+
+| URL | Title | Published |
+|---|---|---|
+| `/martial-arts-classes/` | "Premier Martial Arts Classes for Self Defense and Valuable Life Skills" | 2025-01-24 |
+| `/martial-arts-classes-2/` | "Martial Arts Classes: Transform Your Life with Power" | 2025-03-29 |
+
+The `-2` suffix is what WordPress adds when a new post is given a web address
+that is already taken. The second post was written for the same keyword without
+noticing the first one existed. The two now compete with each other in search
+results (keyword cannibalisation), so neither ranks as well as one strong post
+would. Both also overlap with the program pages (see issue 7).
+
+**What to do:** merge them into one post under `/martial-arts-classes/`, keeping
+the best sections of each. Then add a 301 redirect from
+`/martial-arts-classes-2/` to it. Update any internal links that point at the
+`-2` address.
+
+### 5. Internal links pointing at the wrong post — SEO — High
+
+Link text names one post, but the link goes to a different one.
+
+| On page | Link text | Goes to | Should go to |
+|---|---|---|---|
+| `/japanese-martial-arts-sign/` | "What Martial Art Destroys Boxers? Comparing Fighting Techniques for Ultimate Dominance" | `/best-martial-arts/` | `/what-martial-art-destroys-boxers/` |
+| `/martial-arts-karate-gi/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` (the post with that title) |
+| `/nogi-brazilian-jiu-jitsu/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
+
+On the Japanese post, the Boxers post becomes unreachable from that page, and
+both links on it lead to the same place.
+
+### 6. Two separate Kali Sticks posts — SEO — High
+
+Two different posts cover the same topic, and one has a leftover `-2` in its URL.
+
+- `/martial-arts-kali-sticks/` — "Martial Arts Kali Sticks Training for Real Defense"
+- `/martial-arts-kali-stick-2/` — "Martial Arts Kali Sticks Master the Techniques History and Powerful Benefits"
+
+They compete for the same searches. As issue 5 shows, the site's own links
+already confuse them.
+
+**What to do:** merge them into one post and redirect the other URL to it with
+a 301.
+
+### 7. Near-duplicate posts competing for the same searches — SEO — High
+
+Several posts target the same keywords as each other, or as a program page.
+Google then has to pick one and ranks all of them weaker.
+
+| Topic | Competing pages |
+|---|---|
+| Best martial arts for self-defense | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` |
+| BJJ belts and rank progression | `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` |
+| Kali sticks | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
+| Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
+| Martial arts for kids | `/martial-arts-for-kids/` · `/kids-bjj-classes/` (program page) |
+| Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
+| Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
+| Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
+
+**What to do:** for each group, pick one page to rank, and merge or clearly
+separate the others. Blog posts about classes should link to the program page
+rather than compete with it.
+
+### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
+
+An identical seven-question FAQ, starting "What is the best martial art for
+beginners?", appears word for word on 13 posts, each with the same FAQ
+structured data. That is duplicate content, and search engines are unlikely to
+show FAQ rich results for any of them.
+
+**Affected:** `/best-martial-arts/`, `/what-martial-art-destroys-boxers/`,
+`/martial-arts-kali-stick-2/`, `/martial-arts-karate-gi/`,
+`/is-boxing-a-martial-art/`, `/martial-arts-for-adults/`,
+`/japanese-martial-arts-sign/`, `/martial-arts-classes/`,
+`/martial-arts-for-kids/`, `/best-martial-arts-for-self-defense/`,
+`/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
+`/martial-arts-belt-levels/`
+
+The thirteen newer posts each have their own FAQ, so the fix is to do the same for
+these thirteen.
+
+### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
+
+Single words in answers are linked to Wikipedia articles that don't match the
+meaning.
+
+**Clearly wrong:**
+
+| Post | Link text | Goes to |
+|---|---|---|
+| `/nogi-brazilian-jiu-jitsu/` | "Nogi" | *Nogi, Tochigi* — a town in Japan, nothing to do with no-gi grappling |
+| `/brazilian-jiu-jitsu-belts/` | "train" (the verb, as in "seen train in BJJ") | *Train* — the article about railway trains |
+| `/brazilian-jiu-jitsu-belt-ranks/` | "Chinese martial arts" | *Chinese martial arts* — loose fit on a BJJ article |
+| `/muay-thai-punching-bag/` | "stronger" (FAQ: "You’ll notice stronger legs, arms, and core") | *Stronger* — a Wikipedia **disambiguation page** listing songs, albums and films called "Stronger"; nothing to do with strength training |
+
+**Generic, low value** (one common word linked to a broad article):
+`/martial-arts-for-kids/` "enrollment" · `/martial-arts-weapons/` "spirituality"
+· `/different-types-of-martial-arts/` "growth" · `/martial-arts-belt-levels/`
+"experience" · `/kick-boxing-gloves/` "reduction" · `/kick-boxing-bag/` "strength"
+· `/brazilian-jiu-jitsu-orlando/` "reach" (FAQ answer on height) → *Reach*, a Wikipedia disambiguation page listing unrelated meanings
+
+**What to do:** remove the four clearly wrong links; replace or remove the
+generic ones.
+
+### 11. Blurry, upscaled featured images — SEO — Medium
+
+The page stretches a small image to a much larger size, so it looks soft, and
+the large declared size misleads the browser.
+
+| Post | File actually served | Displayed at |
+|---|---|---|
+| `/muay-thai-stance/` | 300×188 thumbnail | 999×624 |
+| `/kick-boxing-classes/` | 800×500 | 1020×638 |
+
+A full 800×500 version of the Muay Thai Stance image exists on the server; the
+page just isn't using it.
+
+### 15. Duplicated headings — SEO, CONTENT — Low
+
+The same heading text is repeated inside a single post.
+
+**`/martial-arts-belt-levels/`** — three repeats:
+- "Common Belt Colors and Their Meanings" appears twice
+- "Variations in Belt Systems Across Martial Arts Disciplines" appears as a main
+  heading and again as a sub-heading inside its own section
+- "Requirements for Advancing Through Belt Levels" appears the same way
+
+**`/kick-boxing-gloves/`** — "Factors to Consider When Choosing Kick boxing
+Gloves" appears twice.
+
+### 16. Empty headings — SEO — Low
+
+Heading tags with no text in them.
+
+**Affected — 2 headings on 2 posts:**
+- `/best-martial-arts-for-self-defense/` — an empty sub-heading (H3) between
+  Taekwondo's "Training Focus" and "Jeet Kune Do"
+- `/best-martial-arts/` — a main heading (H2) holding only an image, with no text
+
+### 23. Heading level skipped (H4 with no H3 above it) — SEO — Low
+
+The sub-heading "Another Inspiring Tale" is an H4, but it sits directly under
+the H2 "Transformational Journeys in Martial Arts" with no H3 between them. That
+breaks the heading outline that screen readers and search engines use to
+understand the page.
+
+**Affected:** `/martial-arts-classes-2/`.
+
+**What to do:** change "Another Inspiring Tale" to an H3.
+
+### 18. Image alt text typo — SEO — Low
+
+Three images are described as "**marble** arts for kids" instead of "martial
+arts for kids". Alt text is read by screen readers and used by image search.
+
+**Affected:** `/martial-arts-for-kids/`, on 3 of its 4 images.
+
+### 19. Duplicate WordPress tags — SEO — Low
+
+Tags were created twice, producing duplicate tag archive pages.
+
+- `self-defense` and `self-defense-2`, used on `/different-types-of-martial-arts/`
+- `brazilian-jiu-jitsu` and `brazilian-jiu-jitsu-2`, used on `/brazilian-jiu-jitsu-belts/`
+
+**What to do:** merge each pair and redirect the `-2` archive.
+
+### 20. Suspicious "last modified" dates — SEO — Low, to confirm
+
+On several posts, the "date modified" in the page's structured data matched the
+exact day the page was fetched. That suggests a plugin rewriting the date on
+every load rather than when the content changes. Constantly changing dates can
+make search engines distrust the freshness signal.
+
+**Observed on:** `/martial-arts-kali-stick-2/`,
+`/best-martial-arts-for-self-defense/`, `/martial-arts-weapons/`,
+`/different-types-of-martial-arts/`, `/martial-arts-belt-levels/`,
+`/kick-boxing-gloves/`, `/muay-thai-stance/`
+
+Separately, `/best-martial-arts/` gives two different modified dates in two
+places: `2025-06-09` in its social tags and `2025-02-05` in its structured data.
+
+**What to do:** check whether an SEO or caching plugin is setting the modified
+date automatically. Treat this one as a question for whoever manages the plugins
+rather than a confirmed fault.
+
+---
+
+## GEOGRAPHIC TARGETING
+
+### 14. Orlando post targets a city 1,100 miles away and promotes competitors — GEOGRAPHIC TARGETING — High
+
+`/brazilian-jiu-jitsu-orlando/` ("Brazilian Jiu Jitsu Orlando: Classes, Gyms &
+Tips", published 2025-04-14) is written for people looking to train in
+**Orlando, Florida**. Sixth Sense Martial Arts is in **Coppell, Texas**, roughly
+1,100 miles away. Its keyword "Brazilian Jiu Jitsu Orlando" is repeated
+throughout, and all nine of its WordPress tags are Orlando phrases ("BJJ
+Orlando", "Orlando martial arts" and so on).
+
+The post also recommends three competitor academies in Orlando by name, each
+with its own section: **Gracie Barra Orlando**, **The Jungle MMA & Fitness** and
+**American Top Team East Orlando**. A fourth section names three more:
+Carlson Gracie Central Florida, Fusion X-Cel and "Orlando Brazilian Jiu Jitsu".
+The names are plain text, not links, but the post still tells readers to visit
+them. It never mentions Sixth Sense's own classes or location.
+
+`/martial-arts-classes/` also links to this post, sending Coppell readers to it.
+
+**Why it matters:**
+- It can't bring in local students: anyone who finds it is looking for a gym in
+  Orlando.
+- The few readers it does reach are pointed at competitors.
+- For local search, a Coppell business publishing Orlando pages muddies the
+  signal of where the business actually is.
+
+**What to do:** review whether this post should exist at all. The simplest fix
+is to unpublish it and 301-redirect the URL to the Coppell BJJ program page
+(`/adult-bjj-classes/`), then remove the link from `/martial-arts-classes/`. If
+the content is worth keeping, rewrite it for Coppell and the Dallas–Fort Worth
+area, and replace the competitor sections with Sixth Sense's own programs.
+
+### 26. Images reused from another article under its filenames — CONTENT — Low
+
+All three images in `/brazilian-jiu-jitsu-orlando/` are stored under names from
+a different article: `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-3.png`, `-4` and `-5`.
+The social-sharing image is a fourth file from the same set,
+`Parts-of-a-Brazilian-Jiu-Jitsu-Gi-6.png`. The pictures show this post's own
+section titles, so readers aren't affected. But the media library is hard to
+manage, and the filenames tell search engines the images are about gi parts, not
+Orlando training.
+
+**What to do:** a housekeeping item. Name uploads after the post they belong to.
+If this post is kept, re-upload its images with descriptive names.
+
+---
+
+## How these were checked
+
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 32 pages.
+- **FAQ comparisons:** extracted every question and answer from each page and
+  compared them word for word.
+- **Links:** followed each one and compared its link text with its target.
+- **Image sizes:** compared each file's real pixel size with the size the page
+  declares.
+- **Counts** (placeholders, duplicated headings, typos): taken from the live
+  page source, not estimated.

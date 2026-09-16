@@ -1,4 +1,4 @@
-# Sixth Sense Martial Arts Website
+![alt text](image.png)# Sixth Sense Martial Arts Website
 
 ## Project purpose
 

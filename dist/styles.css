@@ -1754,8 +1754,14 @@ p { margin: 0 0 1rem; }
 }
 .blogs-page .bl-card img {
   width: 100%;
-  height: 250px;
+  /* 16/10 instead of a fixed 250px height (about 10/7 at desktop, which cut ~16% of the
+     width off every 1024x597 image). The wider box crops less. */
+  height: auto;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
+  /* Most featured images have the post title burned in on the left; a centred crop cut
+     off its first letters. Keep the crop, anchor it to the left edge. */
+  object-position: left center;
   vertical-align: bottom;
 }
 .blogs-page .bl-card-body { padding: 18px 2px 0; }
@@ -1870,7 +1876,10 @@ p { margin: 0 0 1rem; }
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  object-position: center 28%;
+  /* Featured images carry the post title and site URL burned in along the bottom edge
+     (and on the left). "center 28%" took most of the crop from the bottom and cut that
+     text off; anchor to the bottom-left so any crop comes from the top and right. */
+  object-position: left bottom;
   border-radius: 12px;
 }
 
@@ -2265,6 +2274,11 @@ p { margin: 0 0 1rem; }
     gap: 0;
   }
   .article-page .ap-body {
+    /* width: 100% is load-bearing. With only auto margins the grid item is sized
+       shrink-to-fit, which cannot go below its min-content width - so a wide table
+       propped the whole column open past the screen and the page scrolled sideways
+       instead of the table's own overflow-x wrapper. */
+    width: 100%;
     max-width: 68ch;
     margin: 0 auto;
   }

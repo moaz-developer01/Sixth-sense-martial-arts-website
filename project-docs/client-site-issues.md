@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **32 pages**: the homepage, the 5 program pages and all 26 blog
+live HTML of **33 pages**: the homepage, the 5 program pages and all 27 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 32 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 32 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 33 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 33 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,7 +30,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 11 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 12 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT interface code pasted into a post | CONTENT | 1 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -46,7 +46,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Images reused from another article under its filenames | CONTENT | 1 | Low |
+| 26 | Images reused from another article under its filenames | CONTENT | 2 | Low |
 
 **26 issues in total.**
 
@@ -56,7 +56,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 32 pages checked contains a block of links to French online
+Every one of the 33 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -66,7 +66,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 32 pages checked — homepage, all 5 program pages, all 26 posts.
+**Affected:** all 33 pages checked — homepage, all 5 program pages, all 27 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -89,7 +89,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 32 pages. It appears twice on the homepage and on each blog
+**Affected:** all 33 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -233,7 +233,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 32
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 33
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -323,7 +323,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The thirteen newer posts each have their own FAQ, so the fix is to do the same for
+The fourteen newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -345,6 +345,7 @@ meaning.
 · `/different-types-of-martial-arts/` "growth" · `/martial-arts-belt-levels/`
 "experience" · `/kick-boxing-gloves/` "reduction" · `/kick-boxing-bag/` "strength"
 · `/brazilian-jiu-jitsu-orlando/` "reach" (FAQ answer on height) → *Reach*, a Wikipedia disambiguation page listing unrelated meanings
+· `/muay-thai-clothing/` "sport" (FAQ: "In sport, signed or historic shorts…") → *Sport*, the general encyclopedia article; adds nothing for the reader
 
 **What to do:** remove the four clearly wrong links; replace or remove the
 generic ones.
@@ -467,22 +468,28 @@ area, and replace the competitor sections with Sixth Sense's own programs.
 
 ### 26. Images reused from another article under its filenames — CONTENT — Low
 
-All three images in `/brazilian-jiu-jitsu-orlando/` are stored under names from
-a different article: `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-3.png`, `-4` and `-5`.
-The social-sharing image is a fourth file from the same set,
-`Parts-of-a-Brazilian-Jiu-Jitsu-Gi-6.png`. The pictures show this post's own
-section titles, so readers aren't affected. But the media library is hard to
-manage, and the filenames tell search engines the images are about gi parts, not
-Orlando training.
+Two posts store all their images under names from a different article,
+"Parts of a Brazilian Jiu Jitsu Gi":
 
-**What to do:** a housekeeping item. Name uploads after the post they belong to.
-If this post is kept, re-upload its images with descriptive names.
+| Post | Article images | Social-sharing image |
+|---|---|---|
+| `/brazilian-jiu-jitsu-orlando/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-3.png`, `-4`, `-5` | `-6` |
+| `/muay-thai-clothing/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-7.png`, `-8`, `-9` | `-10` |
+
+The pictures show each post's own section titles, so readers aren't affected.
+But the numbered series (3 to 10) shows one upload name being reused across
+posts. That makes the media library hard to manage, and the filenames tell
+search engines the images are about gi parts, not Orlando training or Muay Thai
+clothing.
+
+**What to do:** a housekeeping item. Name uploads after the post they belong to,
+and re-upload these posts' images with descriptive names.
 
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 32 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 33 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

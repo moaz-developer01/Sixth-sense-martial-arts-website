@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **33 pages**: the homepage, the 5 program pages and all 27 blog
+live HTML of **34 pages**: the homepage, the 5 program pages and all 28 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 33 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 33 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 34 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 34 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,7 +30,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 12 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 13 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT interface code pasted into a post | CONTENT | 1 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -46,9 +46,10 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Images reused from another article under its filenames | CONTENT | 2 | Low |
+| 26 | Images reused from another article under its filenames | CONTENT (asset management) | 3 | Low |
+| 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 
-**26 issues in total.**
+**27 issues in total.**
 
 ---
 
@@ -56,7 +57,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 33 pages checked contains a block of links to French online
+Every one of the 34 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -66,7 +67,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 33 pages checked — homepage, all 5 program pages, all 27 posts.
+**Affected:** all 34 pages checked — homepage, all 5 program pages, all 28 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -89,7 +90,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 33 pages. It appears twice on the homepage and on each blog
+**Affected:** all 34 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -178,6 +179,27 @@ list reads as if a reason is missing even though the title promises five.
 **What to do:** make all five reasons one numbered list, or add the number 2 to
 the second reason.
 
+### 27. Gi sizing chart has overlapping height ranges — CONTENT — Medium
+
+The "BJJ Gi Sizing Guide (A0–A5 & Brand Variations)" table is something readers
+will actually use to pick a size, but two rows contradict each other:
+
+| Size | Height Range (as published) |
+|---|---|
+| A3 | **6′0″–6′3″** |
+| A4 | **6′2″–6′4″** |
+
+Anyone between 6′2″ and 6′3″ falls into both A3 and A4. Every other height row
+starts where the one before ends (A0 ends at 5′4″ where A1 begins, and so on).
+The weight column has a gap too: A0 ends at 120 lbs and A1 starts at 125 lbs, so
+121–124 lbs has no size.
+
+**Affected:** `/brazilian-jiu-jitsu-gi/`, the sizing table.
+
+**What to do:** fix the A3/A4 boundary so the height ranges don't overlap, close
+the weight gap, and consider a note that sizes vary by brand, so readers should
+check the maker's own chart.
+
 ### 22. "H2:" formatting marker left in a visible heading — CONTENT, SEO — Medium
 
 A heading reads, on the page, **"H2: Picking the Most Suitable Martial Arts
@@ -233,7 +255,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 33
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 34
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -323,7 +345,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The fourteen newer posts each have their own FAQ, so the fix is to do the same for
+The fifteen newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -346,6 +368,11 @@ meaning.
 "experience" · `/kick-boxing-gloves/` "reduction" · `/kick-boxing-bag/` "strength"
 · `/brazilian-jiu-jitsu-orlando/` "reach" (FAQ answer on height) → *Reach*, a Wikipedia disambiguation page listing unrelated meanings
 · `/muay-thai-clothing/` "sport" (FAQ: "In sport, signed or historic shorts…") → *Sport*, the general encyclopedia article; adds nothing for the reader
+· `/brazilian-jiu-jitsu-gi/` "support" (FAQ: "strong support in the BJJ community") → *Support*, a Wikipedia disambiguation page
+
+A missed opportunity on the same post: it discusses IBJJF rules, competition
+gi legality and gi colours several times, but never links to the IBJJF itself
+(ibjjf.com). That link would help readers, unlike the Wikipedia ones.
 
 **What to do:** remove the four clearly wrong links; replace or remove the
 generic ones.
@@ -466,30 +493,36 @@ is to unpublish it and 301-redirect the URL to the Coppell BJJ program page
 the content is worth keeping, rewrite it for Coppell and the Dallas–Fort Worth
 area, and replace the competitor sections with Sixth Sense's own programs.
 
-### 26. Images reused from another article under its filenames — CONTENT — Low
+### 26. Images reused from another article under its filenames — CONTENT (asset management) — Low
 
-Two posts store all their images under names from a different article,
-"Parts of a Brazilian Jiu Jitsu Gi":
+The "Parts-of-a-Brazilian-Jiu-Jitsu-Gi" image series was made for
+`/brazilian-jiu-jitsu-gi/`. Two other posts store all their images under that
+same series name, with filenames that don't match their content:
 
-| Post | Article images | Social-sharing image |
-|---|---|---|
-| `/brazilian-jiu-jitsu-orlando/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-3.png`, `-4`, `-5` | `-6` |
-| `/muay-thai-clothing/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-7.png`, `-8`, `-9` | `-10` |
+| Post | Article images | Social-sharing image | Filenames match content? |
+|---|---|---|---|
+| `/brazilian-jiu-jitsu-gi/` (the original) | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi.jpg`, `…-Gi.png`, `…-Gi-1.png` | `…-Gi-2.png` | Yes |
+| `/brazilian-jiu-jitsu-orlando/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-3.png`, `-4`, `-5` | `-6` | No |
+| `/muay-thai-clothing/` | `Parts-of-a-Brazilian-Jiu-Jitsu-Gi-7.png`, `-8`, `-9` | `-10` | No |
+
+The Gi post itself uses two files that differ only by extension (`.jpg` and
+`.png`), which is easy to mix up.
 
 The pictures show each post's own section titles, so readers aren't affected.
-But the numbered series (3 to 10) shows one upload name being reused across
-posts. That makes the media library hard to manage, and the filenames tell
-search engines the images are about gi parts, not Orlando training or Muay Thai
-clothing.
+But one upload name has been reused as a numbered series across three posts
+(Gi, then -1 to -10). That makes the media library hard to manage. The filenames
+also tell search engines the Orlando and Muay Thai Clothing images are about gi
+parts.
 
-**What to do:** a housekeeping item. Name uploads after the post they belong to,
-and re-upload these posts' images with descriptive names.
+**What to do:** a housekeeping item. Name each upload after the post it belongs
+to, re-upload the Orlando and Muay Thai Clothing images with descriptive names,
+and avoid two files that differ only by extension.
 
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 33 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 34 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

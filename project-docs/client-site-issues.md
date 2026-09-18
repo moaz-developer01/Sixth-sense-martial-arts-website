@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **38 pages**: the homepage, the 5 program pages and all 32 blog
+live HTML of **39 pages**: the homepage, the 5 program pages and all 33 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 38 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 38 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 39 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 39 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -40,7 +40,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 17 | Spelling errors and garbled headings | CONTENT | 10 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
-| 20 | Suspicious "last modified" dates | SEO | 8 | Low — to confirm |
+| 20 | Suspicious "last modified" dates | SEO | 9 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
 | 22 | "H2:" formatting marker left in a visible heading | CONTENT, SEO | 1 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
@@ -49,8 +49,10 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 26 | Images reused from other articles under their filenames | CONTENT (asset management) | 8 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
+| 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
+| 30 | Zero-width spaces in tag names | SEO | 1 | Low |
 
-**28 issues in total.**
+**30 issues in total.**
 
 ---
 
@@ -58,7 +60,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 38 pages checked contains a block of links to French online
+Every one of the 39 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -68,7 +70,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 38 pages checked — homepage, all 5 program pages, all 32 posts.
+**Affected:** all 39 pages checked — homepage, all 5 program pages, all 33 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -91,7 +93,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 38 pages. It appears twice on the homepage and on each blog
+**Affected:** all 39 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -266,13 +268,69 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 38
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 39
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
 outputs the `%` signs and fix it there, then re-save both posts. Because the
 cause is a template, **check every post** (including drafts, and any post
 published or edited later) for the same `%…%` title, not only these two.
+
+### 29. A whole second article duplicated inside another post — CONTENT, SEO — High
+
+`/what-is-muay-thai/` contains the **entire** "Jiu Jitsu Guard Position"
+article, pasted in above its own content. The Muay Thai article's own first
+paragraph does not start until roughly two thirds of the way down the page.
+
+| | Words |
+|---|---|
+| Whole page | about 5,980 |
+| The duplicated Jiu Jitsu article | 3,481 |
+| The actual Muay Thai article | 2,489 |
+
+The duplicated block is word-for-word identical to `/jiu-jitsu-guard-position/`,
+including its 15 H2 sections, its roughly 50 sub-headings, its three images and
+its "Conclusion". So the page has two H1-level topics, two "Conclusion"
+sections, and the Jiu Jitsu images appear on a Muay Thai page.
+
+**Why it matters:**
+- A reader who clicks "What Is Muay Thai?" reads about 3,500 words on BJJ guard
+  positions before reaching a single word about Muay Thai. Most will leave.
+- It is duplicate content against `/jiu-jitsu-guard-position/`: two URLs
+  carrying the same 3,481 words, so search engines must pick one and may rank
+  neither well.
+- The page's topic is muddled. Its own keyword ("what is muay thai") is
+  outweighed by guard-position text, which works against the ranking the post
+  was written for.
+- The FAQ shown on the page belongs to the Jiu Jitsu article, so the Muay Thai
+  content has no FAQ of its own.
+
+**What to do:** edit `/what-is-muay-thai/` and delete the duplicated block —
+everything from the Jiu Jitsu opening question down to its "Conclusion"
+paragraph — leaving the Muay Thai content that follows. Check the page in the
+block editor: the Muay Thai text sits in separate blocks after it, so removing
+the earlier ones is enough. Then check the other recent posts for the same
+paste error.
+
+**In the rebuild:** `dist/what-is-muay-thai.html` contains only the Muay Thai
+article. The duplicated block, its three images and its FAQ were all left out,
+and the post has no FAQ section as a result.
+
+### 30. Zero-width spaces in tag names — SEO — Low
+
+Five of the seven tags on `/what-is-muay-thai/` end with an invisible
+zero-width space (U+200B): "what is muay thai", "what is muay thai boxing",
+"what is muay thai fighting", "what is muay thai kickboxing" and "what is the
+difference between muay thai and kickboxing". The other two are clean.
+
+They are invisible on the page, but they are part of the tag name and its URL
+slug, so WordPress treats a clean tag and a zero-width-space tag as two
+different tags. That is how duplicate tag archives get created (see issue 19).
+The character is a tell-tale of text pasted from a keyword research tool.
+
+**What to do:** retype those five tag names, delete the duplicates left behind,
+and watch for the same character when pasting keywords into titles and headings
+as well.
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -506,7 +564,11 @@ make search engines distrust the freshness signal.
 **Observed on:** `/martial-arts-kali-stick-2/`,
 `/best-martial-arts-for-self-defense/`, `/martial-arts-weapons/`,
 `/different-types-of-martial-arts/`, `/martial-arts-belt-levels/`,
-`/kick-boxing-gloves/`, `/muay-thai-stance/`
+`/kick-boxing-gloves/`, `/muay-thai-stance/`, `/what-is-muay-thai/`
+
+`/what-is-muay-thai/` is the clearest case: it was published 2025-05-08, but its
+modified date read `2026-09-18T03:01:08` — the same day it was fetched, and hours
+ahead of the fetch in UTC terms.
 
 Separately, `/best-martial-arts/` gives two different modified dates in two
 places: `2025-06-09` in its social tags and `2025-02-05` in its structured data.
@@ -596,7 +658,7 @@ descriptive names, and avoid two files that differ only by extension.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 38 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 39 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -183,6 +183,31 @@ it is not wanted on any post, present or future.
 The reference pages on sixthsensemma.com do show tag pills. They are
 deliberately not reproduced.
 
+## Post table of contents: H2s, falling back to H3s (2026-09-18)
+
+The "On this page" list in each post's sidebar is **static HTML, written into
+the page when the post is built**. There is no JavaScript that builds it:
+`dist/main.js` contains no TOC code at all, and the site deliberately avoids
+JS-injected content. So the rule below lives in the page generator, not in a
+script shipped to the browser.
+
+**The rule:** build the TOC from the article body's `<h2>` headings. If the body
+contains **no** `<h2>` at all, build it from the `<h3>` headings instead.
+
+- 30 of the 31 posts have H2 sections and are unaffected.
+- `/mixed-martial-arts-training-gloves/` has no H2 anywhere in the article: the
+  client wrote 13 `<h3>` sections with 37 `<h4>`s beneath them, skipping the H2
+  level entirely. Its heading levels are reproduced exactly as written (see the
+  client issue log); only the TOC compensates, giving 13 entries instead of an
+  empty list.
+- The fallback picks one level for the whole list, never a mix, and it never
+  changes the heading levels in the article.
+- The FAQ heading is not part of the TOC on any post.
+
+If a future post has the same problem, the same fallback applies. Do not
+"fix" such a post by promoting its H3s to H2s: that would change the client's
+content.
+
 ## Listing cards show image + title only (standing rule)
 
 The blog listing cards on `dist/blogs.html` deliberately show **only** the

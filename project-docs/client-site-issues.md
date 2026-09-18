@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **37 pages**: the homepage, the 5 program pages and all 31 blog
+live HTML of **38 pages**: the homepage, the 5 program pages and all 32 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 37 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 37 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 38 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 38 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,14 +30,14 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 16 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 17 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT interface code pasted into a post | CONTENT | 1 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away and promotes competitors | GEOGRAPHIC TARGETING | 1 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 9 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 10 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Suspicious "last modified" dates | SEO | 8 | Low — to confirm |
@@ -46,7 +46,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Images reused from other articles under their filenames | CONTENT (asset management) | 7 | Low |
+| 26 | Images reused from other articles under their filenames | CONTENT (asset management) | 8 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 
@@ -58,7 +58,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 37 pages checked contains a block of links to French online
+Every one of the 38 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -68,7 +68,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 37 pages checked — homepage, all 5 program pages, all 31 posts.
+**Affected:** all 38 pages checked — homepage, all 5 program pages, all 32 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -91,7 +91,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 37 pages. It appears twice on the homepage and on each blog
+**Affected:** all 38 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -166,6 +166,7 @@ leftover from drafting and shows on the page.
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
+| `/jiu-jitsu-guard-position/` | Six parallel section headings, but only two have a separator: "Open Guard **–** Mobility and Grip Strategy" and "Guard Retention Techniques **–** How to Keep Your Guard Strong" have an en dash, while "Closed Guard Classic Control and Attacks" and "Butterfly Guard Dynamic Sweeps and Control" have nothing, and "Half Guard&nbsp; Balance of Defense and Offense" and "Guard in MMA vs BJJ&nbsp; Key Differences" have a leftover double space (a non-breaking space) where the dash was deleted. Several of its sub-headings are also sentences or uncapitalised questions ("Guard vs top position who really has the advantage?", "Common open-guard grips include collars, sleeves, and pants.") |
 
 The FAQ heading is also written inconsistently across posts: "FAQ's", "FAQ’s"
 and "FAQ’S", sometimes as a main heading and sometimes as a sub-heading.
@@ -265,7 +266,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 37
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 38
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -355,7 +356,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The eighteen newer posts each have their own FAQ, so the fix is to do the same for
+The nineteen newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -382,6 +383,14 @@ meaning.
 · `/mixed-martial-arts-brands/` "powerful" (FAQ: "His powerful left hand") → *Powerful*, a Wikipedia disambiguation page for songs and albums
 · `/muay-thai-fitness-workout/` "stamina" (FAQ: "maintaining stamina outside of striking sessions") → *Stamina*, a Wikipedia disambiguation page, not the article on physical endurance
 · `/mixed-martial-arts-training-gloves/` "Strength" (FAQ: "Strength, speed, and technique all add to that power") → *Strength*, another Wikipedia disambiguation page
+· `/jiu-jitsu-guard-position/` "grip" (FAQ: "wrapped around the opponent's arm while grip their sleeve") → *Grip*, another Wikipedia disambiguation page
+
+**The pattern:** the last eight posts each end with one of these, always a single
+word inside the final FAQ answer, always pointing at a Wikipedia disambiguation
+page (Reach, Sport, Stronger, Support, Powerful, Stamina, Strength, Grip). It
+looks like a habit of dropping one outbound link into each new post to look
+authoritative. None of them help a reader, and a disambiguation page is never a
+useful destination. The simplest fix is to remove all of them.
 
 A missed opportunity on the same post: it discusses IBJJF rules, competition
 gi legality and gi colours several times, but never links to the IBJJF itself
@@ -564,6 +573,7 @@ posts the filenames describe the wrong subject.
 | `/mixed-martial-arts-brands/` | `…-Punching-Bag-5.png`, `-6`, `-7` | `-8` | No |
 | `/muay-thai-fitness-workout/` | `…-Punching-Bag-4.jpg`, `-10.png`, `-2.jpg` | `-3.jpg` | No |
 | `/mixed-martial-arts-training-gloves/` | `…-Punching-Bag-13.png`, `-9.png`, `-11.png`, `-12.png` | `-13.png` | No |
+| `/jiu-jitsu-guard-position/` | `…-Punching-Bag-17.png`, `-14.png`, `-15.png`, `-16.png` | `-17.png` | No |
 
 The Fitness Workout post makes this worse: it draws its three images from
 scattered numbers in the series (4, 10, 2) rather than a block, and the series
@@ -574,7 +584,7 @@ The Gi post also uses two files that differ only by extension (`.jpg` and
 `.png`), which is easy to mix up.
 
 The pictures show each post's own section titles, so readers aren't affected.
-But six posts now carry filenames describing another post's subject, which
+But seven posts now carry filenames describing another post's subject, which
 makes the media library hard to manage and tells search engines the wrong
 subject for those images.
 
@@ -586,7 +596,7 @@ descriptive names, and avoid two files that differ only by extension.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 37 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 38 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

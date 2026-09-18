@@ -238,5 +238,12 @@
     "image": "images/what-is-mt-01.jpg",
     "date": "2025-05-08T12:51:03+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "muay-thai-gear",
+    "title": "Protect Yourself Better with Muay Thai Gear",
+    "image": "images/mt-gear-01.jpg",
+    "date": "2025-05-16T08:53:44+00:00",
+    "category": "Martial Arts"
   }
 ]

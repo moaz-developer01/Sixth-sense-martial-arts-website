@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **39 pages**: the homepage, the 5 program pages and all 33 blog
+live HTML of **40 pages**: the homepage, the 5 program pages and all 34 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 39 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 39 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 40 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 40 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,9 +30,9 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 17 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 18 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
-| 12 | ChatGPT interface code pasted into a post | CONTENT | 1 | Medium |
+| 12 | ChatGPT markup pasted into posts | CONTENT | 2 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away and promotes competitors | GEOGRAPHIC TARGETING | 1 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
@@ -50,7 +50,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Zero-width spaces in tag names | SEO | 1 | Low |
+| 30 | Zero-width spaces in tag names | SEO | 2 | Low |
 
 **30 issues in total.**
 
@@ -60,7 +60,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 39 pages checked contains a block of links to French online
+Every one of the 40 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -70,7 +70,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 39 pages checked — homepage, all 5 program pages, all 33 posts.
+**Affected:** all 40 pages checked — homepage, all 5 program pages, all 34 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -93,7 +93,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 39 pages. It appears twice on the homepage and on each blog
+**Affected:** all 40 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -128,7 +128,7 @@ program page instead of a contact page or form.
 **What to do:** point both at the real contact page or booking form, and fix
 the spelling.
 
-### 12. ChatGPT interface code pasted into a post — CONTENT — Medium
+### 12. ChatGPT markup pasted into posts — CONTENT — Medium
 
 Two passages were copied straight out of the ChatGPT website, bringing its page
 code with them (`gizmo-bot-avatar`, `bg-token-main-surface-primary`). The text
@@ -138,7 +138,14 @@ was drafted to anyone who views the source.
 **Affected:** `/martial-arts-for-adults/`: the opening line of "Self-Defense
 Skills and Personal Safety", and the whole Conclusion.
 
-**What to do:** re-paste those two passages as plain text.
+**A second, quieter case:** on `/muay-thai-gear/`, four of the eight FAQ answers
+carry `data-start` and `data-end` attributes on their paragraphs. Those are
+added by ChatGPT's web interface when text is copied from it. Nothing shows on
+the page, but it is the same copy-paste route as above and it confirms the FAQ
+answers were pasted straight from a chat window.
+
+**What to do:** re-paste those two passages as plain text, and paste future
+answers through a plain-text editor so the attributes are stripped.
 
 ### 13. "Table" placeholder text left above tables — CONTENT — Medium
 
@@ -268,7 +275,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 39
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 40
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -318,19 +325,22 @@ and the post has no FAQ section as a result.
 
 ### 30. Zero-width spaces in tag names — SEO — Low
 
-Five of the seven tags on `/what-is-muay-thai/` end with an invisible
-zero-width space (U+200B): "what is muay thai", "what is muay thai boxing",
-"what is muay thai fighting", "what is muay thai kickboxing" and "what is the
-difference between muay thai and kickboxing". The other two are clean.
+Tags on two posts end with an invisible zero-width space (U+200B):
+
+| Post | Tags with the character |
+|---|---|
+| `/what-is-muay-thai/` | 5 of 7: "what is muay thai", "what is muay thai boxing", "what is muay thai fighting", "what is muay thai kickboxing", "what is the difference between muay thai and kickboxing" |
+| `/muay-thai-gear/` | 6 of 13: "gear for muay thai", "muay thai gear bag", "muay thai gear bangkok", "muay thai gear fairtex", "muay thai gear usa", "muay thai training gear" |
 
 They are invisible on the page, but they are part of the tag name and its URL
 slug, so WordPress treats a clean tag and a zero-width-space tag as two
 different tags. That is how duplicate tag archives get created (see issue 19).
-The character is a tell-tale of text pasted from a keyword research tool.
+The character is a tell-tale of text pasted from a keyword research tool, and it
+now shows on two consecutive posts, so it is a habit rather than a one-off.
 
-**What to do:** retype those five tag names, delete the duplicates left behind,
-and watch for the same character when pasting keywords into titles and headings
-as well.
+**What to do:** retype those eleven tag names, delete the duplicates left
+behind, and watch for the same character when pasting keywords into titles and
+headings as well. Pasting into a plain-text editor first strips it.
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -414,7 +424,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The nineteen newer posts each have their own FAQ, so the fix is to do the same for
+The twenty newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -442,10 +452,12 @@ meaning.
 · `/muay-thai-fitness-workout/` "stamina" (FAQ: "maintaining stamina outside of striking sessions") → *Stamina*, a Wikipedia disambiguation page, not the article on physical endurance
 · `/mixed-martial-arts-training-gloves/` "Strength" (FAQ: "Strength, speed, and technique all add to that power") → *Strength*, another Wikipedia disambiguation page
 · `/jiu-jitsu-guard-position/` "grip" (FAQ: "wrapped around the opponent's arm while grip their sleeve") → *Grip*, another Wikipedia disambiguation page
+· `/muay-thai-gear/` "technique." (Conclusion: "respect your gear as much as your technique.") → *Technique*, another Wikipedia disambiguation page. The link also swallows the sentence's full stop, so the underline runs past the last word
 
-**The pattern:** the last eight posts each end with one of these, always a single
+**The pattern:** the last nine posts each end with one of these, always a single
 word inside the final FAQ answer, always pointing at a Wikipedia disambiguation
-page (Reach, Sport, Stronger, Support, Powerful, Stamina, Strength, Grip). It
+page (Reach, Sport, Stronger, Support, Powerful, Stamina, Strength, Grip,
+Technique). It
 looks like a habit of dropping one outbound link into each new post to look
 authoritative. None of them help a reader, and a disambiguation page is never a
 useful destination. The simplest fix is to remove all of them.
@@ -658,7 +670,7 @@ descriptive names, and avoid two files that differ only by extension.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 39 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 40 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

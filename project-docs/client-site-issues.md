@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **42 pages**: the homepage, the 5 program pages and all 36 blog
+live HTML of **43 pages**: the homepage, the 5 program pages and all 37 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 42 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 42 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 43 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 43 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,11 +30,11 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 18 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 19 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
-| 14 | Orlando post targets a city 1,100 miles away and promotes competitors | GEOGRAPHIC TARGETING | 1 | High |
+| 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
 | 17 | Spelling errors and garbled headings | CONTENT | 10 | Low |
@@ -46,15 +46,16 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 9 | Low |
+| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 10 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Zero-width spaces in tag names, plus a "reddit" keyword tag | SEO | 3 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
 | 32 | Testimonials that cannot be verified | CONTENT | 1 | Low — for the client to decide |
+| 33 | The brand name written in lowercase throughout a post | CONTENT, SEO | 1 | Medium |
 
-**32 issues in total.**
+**33 issues in total.**
 
 ---
 
@@ -62,7 +63,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 42 pages checked contains a block of links to French online
+Every one of the 43 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -72,7 +73,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 42 pages checked — homepage, all 5 program pages, all 36 posts.
+**Affected:** all 43 pages checked — homepage, all 5 program pages, all 37 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -95,7 +96,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 42 pages. It appears twice on the homepage and on each blog
+**Affected:** all 43 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -191,6 +192,34 @@ phrase "Mixed Martial Arts Brands" in "MMA Brands vs Traditional Martial Arts
 Brands" would produce exactly this. It is worth checking other posts for
 headings where a keyword phrase has been substituted in, since the same edit
 would have run across the site.
+
+### 33. The brand name written in lowercase throughout a post — CONTENT, SEO — Medium
+
+On `/muay-thai-training/` the business name is written **"sixth sense mma"** in
+lowercase every time it appears — six times, and not once correctly. Every other
+post on the site writes "Sixth Sense MMA".
+
+| Where | Text as published |
+|---|---|
+| H2 | "Why **sixth sense mma** is the Right Place to Grow Through Muay Thai" |
+| H2 | "Why Choose **sixth sense mma** for Your Muay Thai Journey" |
+| H3 | "What You'll Experience at **sixth sense mma**:" |
+| Body text | "At *sixth sense mma*, Muay Thai is more than…" |
+| Body text | "…and at *sixth sense mma*, the focus is always…" |
+| Image alt text | "Growth Through Self Discovery **sixth sense mma**" |
+
+**Why it matters:** two of the six are section headings, which are among the
+most visible text on the page and carry weight in search. A brand that writes
+its own name inconsistently looks careless to a reader comparing gyms, and it
+weakens the brand signal search engines build from repeated, consistent naming.
+
+**What to do:** correct all six to "Sixth Sense MMA", and check the other posts
+for the same slip. Note the site also alternates between "Sixth Sense MMA" and
+"Sixth Sense Martial Arts" elsewhere; settling on one form for body copy would
+be worth doing at the same time.
+
+**In the rebuild:** the lowercase spelling is reproduced exactly as published,
+in all six places, and the build fails if it is silently corrected.
 
 ### 21. Numbered list skips a number — CONTENT — Low
 
@@ -335,7 +364,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 42
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 43
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -491,7 +520,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty-two newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-three newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -520,6 +549,7 @@ meaning.
 · `/mixed-martial-arts-training-gloves/` "Strength" (FAQ: "Strength, speed, and technique all add to that power") → *Strength*, another Wikipedia disambiguation page
 · `/jiu-jitsu-guard-position/` "grip" (FAQ: "wrapped around the opponent's arm while grip their sleeve") → *Grip*, another Wikipedia disambiguation page
 · `/muay-thai-gear/` "technique." (Conclusion: "respect your gear as much as your technique.") → *Technique*, another Wikipedia disambiguation page. The link also swallows the sentence's full stop, so the underline runs past the last word
+· `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 
 **One post gets it right.** `/muay-thai-vs-kickboxing/` links the word
 "kickboxing" to Wikipedia's *Kickboxing* article — the anchor text and the
@@ -698,6 +728,24 @@ is to unpublish it and 301-redirect the URL to the Coppell BJJ program page
 the content is worth keeping, rewrite it for Coppell and the Dallas–Fort Worth
 area, and replace the competitor sections with Sixth Sense's own programs.
 
+**The same mismatch, smaller, in tags on `/muay-thai-training/`.** The post
+itself is fine — it never names a city — but three of its twelve tags point
+somewhere else entirely:
+
+- "muay thai training new york"
+- "muay thai training nyc"
+- "thailand training muay thai"
+
+A reader searching any of those wants a gym in New York or a training camp in
+Thailand, not Coppell. Tags create their own archive pages on the site, so these
+publish three thin pages aimed at the wrong place. The post also carries
+"muay thai training near me", which only works if the rest of the site makes the
+location obvious.
+
+**What to do:** delete those three tags and the archive pages they created.
+Keep tags to what the business actually offers and where it offers it, and use
+the city name you want to rank for — Coppell, or Dallas–Fort Worth.
+
 ### 26. Images reused from other articles under their filenames — CONTENT (asset management) — Low
 
 Two image names have each been reused as a long numbered series across several
@@ -752,7 +800,7 @@ extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 42 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 43 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

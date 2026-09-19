@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **40 pages**: the homepage, the 5 program pages and all 34 blog
+live HTML of **41 pages**: the homepage, the 5 program pages and all 35 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 40 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 40 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 41 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 41 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -32,7 +32,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 18 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
-| 12 | ChatGPT markup pasted into posts | CONTENT | 2 | Medium |
+| 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away and promotes competitors | GEOGRAPHIC TARGETING | 1 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
@@ -50,9 +50,10 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Zero-width spaces in tag names | SEO | 2 | Low |
+| 30 | Zero-width spaces in tag names, plus a "reddit" keyword tag | SEO | 3 | Low |
+| 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
 
-**30 issues in total.**
+**31 issues in total.**
 
 ---
 
@@ -60,7 +61,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 40 pages checked contains a block of links to French online
+Every one of the 41 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -70,7 +71,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 40 pages checked — homepage, all 5 program pages, all 34 posts.
+**Affected:** all 41 pages checked — homepage, all 5 program pages, all 35 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -93,7 +94,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 40 pages. It appears twice on the homepage and on each blog
+**Affected:** all 41 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -138,11 +139,13 @@ was drafted to anyone who views the source.
 **Affected:** `/martial-arts-for-adults/`: the opening line of "Self-Defense
 Skills and Personal Safety", and the whole Conclusion.
 
-**A second, quieter case:** on `/muay-thai-gear/`, four of the eight FAQ answers
-carry `data-start` and `data-end` attributes on their paragraphs. Those are
-added by ChatGPT's web interface when text is copied from it. Nothing shows on
-the page, but it is the same copy-paste route as above and it confirms the FAQ
-answers were pasted straight from a chat window.
+**Two quieter cases:** on `/muay-thai-gear/`, four of the eight FAQ answers, and
+on `/muay-thai-vs-kickboxing/`, four of the seven, carry `data-start` and
+`data-end` attributes. Those are added by ChatGPT's web interface when text is
+copied from it — on the Kickboxing post they appear on `<strong>` tags inside
+the answers as well. Nothing shows on the page, but it is the same copy-paste
+route as above, on two consecutive posts, and it confirms the FAQ answers were
+pasted straight from a chat window.
 
 **What to do:** re-paste those two passages as plain text, and paste future
 answers through a plain-text editor so the attributes are stripped.
@@ -249,6 +252,33 @@ Classes".
 Or remove the block. The video is a third-party channel ("Plainly Put"), so
 confirm it's meant to be there.
 
+### 31. A section gives self-defence legal advice with no jurisdiction named — CONTENT — Medium, for the client to review
+
+`/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
+Self-Defense Scenarios" that makes statements about what the law allows. It
+says laws "typically emphasize the use of **reasonable force** and the
+importance of de-escalating a situation whenever possible", that "a point in
+legal defense is to avoid ground fighting", and that readers should
+"familiarize yourself with local laws before applying any martial technique".
+
+**Why it is worth a look:**
+- Self-defence law differs by state, and the page names no state or country,
+  while the academy serves Coppell, Texas.
+- It reads as guidance on what a reader may lawfully do in a violent
+  encounter, published by a business that teaches them to fight. A reader could
+  act on it.
+- There is no disclaimer anywhere on the page.
+
+**What to do:** this is a judgement call for the client, not a factual error to
+correct, so nothing was changed. The usual fix is a short line at the top or
+foot of that section saying the information is general, is not legal advice,
+and that laws vary by state — and, if they want to keep the specifics, having
+someone qualified read the section first. The same check is worth applying to
+any other post that touches on law.
+
+**In the rebuild:** the section is reproduced word for word, with nothing added,
+softened or caveated.
+
 ---
 
 ## SEO
@@ -275,7 +305,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 40
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 41
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -331,6 +361,13 @@ Tags on two posts end with an invisible zero-width space (U+200B):
 |---|---|
 | `/what-is-muay-thai/` | 5 of 7: "what is muay thai", "what is muay thai boxing", "what is muay thai fighting", "what is muay thai kickboxing", "what is the difference between muay thai and kickboxing" |
 | `/muay-thai-gear/` | 6 of 13: "gear for muay thai", "muay thai gear bag", "muay thai gear bangkok", "muay thai gear fairtex", "muay thai gear usa", "muay thai training gear" |
+| `/muay-thai-vs-kickboxing/` | 1 of 9: "dutch kickboxing vs muay thai" |
+
+**A related tagging problem on the same post:** `/muay-thai-vs-kickboxing/` is
+tagged "muay thai vs kickboxing **reddit**". That phrase is a keyword-tool
+export, not a topic: someone searching it wants a Reddit thread, and this page
+cannot give them one. Tags should describe what the post is about, not copy
+every phrase a research tool returns.
 
 They are invisible on the page, but they are part of the tag name and its URL
 slug, so WordPress treats a clean tag and a zero-width-space tag as two
@@ -424,7 +461,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-one newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -453,6 +490,13 @@ meaning.
 · `/mixed-martial-arts-training-gloves/` "Strength" (FAQ: "Strength, speed, and technique all add to that power") → *Strength*, another Wikipedia disambiguation page
 · `/jiu-jitsu-guard-position/` "grip" (FAQ: "wrapped around the opponent's arm while grip their sleeve") → *Grip*, another Wikipedia disambiguation page
 · `/muay-thai-gear/` "technique." (Conclusion: "respect your gear as much as your technique.") → *Technique*, another Wikipedia disambiguation page. The link also swallows the sentence's full stop, so the underline runs past the last word
+
+**One post gets it right.** `/muay-thai-vs-kickboxing/` links the word
+"kickboxing" to Wikipedia's *Kickboxing* article — the anchor text and the
+destination match, and the page is the real article rather than a
+disambiguation list. It is the only outbound link of this kind across all 35
+posts that works as intended, which shows the others could have been done the
+same way rather than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
 word inside the final FAQ answer, always pointing at a Wikipedia disambiguation
@@ -670,7 +714,7 @@ descriptive names, and avoid two files that differ only by extension.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 40 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 41 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

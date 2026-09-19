@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **41 pages**: the homepage, the 5 program pages and all 35 blog
+live HTML of **42 pages**: the homepage, the 5 program pages and all 36 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 41 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 41 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 42 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 42 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -46,14 +46,15 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Images reused from other articles under their filenames | CONTENT (asset management) | 8 | Low |
+| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 9 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Zero-width spaces in tag names, plus a "reddit" keyword tag | SEO | 3 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
+| 32 | Testimonials that cannot be verified | CONTENT | 1 | Low — for the client to decide |
 
-**31 issues in total.**
+**32 issues in total.**
 
 ---
 
@@ -61,7 +62,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 41 pages checked contains a block of links to French online
+Every one of the 42 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -71,7 +72,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 41 pages checked — homepage, all 5 program pages, all 35 posts.
+**Affected:** all 42 pages checked — homepage, all 5 program pages, all 36 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -94,7 +95,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 41 pages. It appears twice on the homepage and on each blog
+**Affected:** all 42 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -252,6 +253,35 @@ Classes".
 Or remove the block. The video is a third-party channel ("Plainly Put"), so
 confirm it's meant to be there.
 
+### 32. Testimonials that cannot be verified, and no review schema — CONTENT — Low, for the client to decide
+
+`/sambo-martial-art/` ends with a "Reviews for Sixth Sense MMA" section holding
+five short testimonials, each signed with a first name and an initial: Ahmed R.,
+Sana K., Ali M., Maria S. and Faisal H. They are plain text typed into the post,
+not pulled from Google, Facebook or any review platform, so a reader has no way
+to check them and the business has no record behind them. There are no star
+ratings or dates.
+
+Two small things in the markup: every quote opens and closes with the **same**
+opening curly quote (`&#8220;` at both ends), and the names sit on a line break
+inside the quote's own paragraph rather than being marked up as attributions.
+
+**Why it matters:** testimonials a business writes into its own page carry
+little weight with readers, and Google's review guidelines specifically exclude
+self-serving reviews from rich results. Marking them up as Review or
+AggregateRating structured data to chase stars in search results risks a manual
+action.
+
+**What to do:** if these are real, the stronger move is to collect them on
+Google Business Profile and link to the profile, where the reviews are public
+and verifiable. If they are placeholder copy, remove them. Either way, do not
+add Review or AggregateRating schema for reviews hosted on your own page.
+
+**In the rebuild:** the five testimonials are reproduced exactly as written,
+with no stars, ratings or dates invented, and **no Review or AggregateRating
+structured data was added** — the page carries only BlogPosting, FAQPage and
+BreadcrumbList.
+
 ### 31. A section gives self-defence legal advice with no jurisdiction named — CONTENT — Medium, for the client to review
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
@@ -305,7 +335,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 41
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 42
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -461,7 +491,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty-one newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-two newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -701,20 +731,28 @@ now mixes `.jpg` and `.png` at the same numbers, so `…-Punching-Bag-2.jpg` and
 The Gi post also uses two files that differ only by extension (`.jpg` and
 `.png`), which is easy to mix up.
 
+**A third habit, on `/sambo-martial-art/`:** one of its three images is uploaded
+as `2-1024x536.jpg` — a bare number. A filename like that says nothing about the
+picture to a search engine, and in a media library of hundreds of uploads it is
+impossible to find again. The post's other two images are named
+`sambo-mar-art.jpg` and `sambo-mar-art-1.jpg`, which is better but still tells
+you nothing about which section each belongs to.
+
 The pictures show each post's own section titles, so readers aren't affected.
 But seven posts now carry filenames describing another post's subject, which
 makes the media library hard to manage and tells search engines the wrong
 subject for those images.
 
-**What to do:** a housekeeping item. Name each upload after the post it belongs
-to; re-upload the Orlando, Muay Thai Clothing and MMA Brands images with
-descriptive names, and avoid two files that differ only by extension.
+**What to do:** a housekeeping item. Name each upload after the post and the
+section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands and
+Sambo images with descriptive names; avoid two files that differ only by
+extension, and never leave an upload named as a bare number.
 
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 41 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 42 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

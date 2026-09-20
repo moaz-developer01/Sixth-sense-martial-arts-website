@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **44 pages**: the homepage, the 5 program pages and all 38 blog
+live HTML of **45 pages**: the homepage, the 5 program pages and all 39 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 44 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 44 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 45 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 45 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -54,8 +54,10 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
 | 32 | Testimonials that cannot be verified | CONTENT | 2 | Low — for the client to decide |
 | 33 | The brand name written four different ways | CONTENT, SEO | 2 | Medium |
+| 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
+| 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 
-**33 issues in total.**
+**35 issues in total.**
 
 ---
 
@@ -63,7 +65,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 44 pages checked contains a block of links to French online
+Every one of the 45 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -73,7 +75,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 44 pages checked — homepage, all 5 program pages, all 38 posts.
+**Affected:** all 45 pages checked — homepage, all 5 program pages, all 39 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -96,7 +98,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 44 pages. It appears twice on the homepage and on each blog
+**Affected:** all 45 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -343,6 +345,63 @@ carry far more weight.
 **In the rebuild:** these five are likewise reproduced word for word, doubled
 quote marks and all, with no Review schema.
 
+### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
+
+On `/muay-thai-weight-classes/` the H1 is published with the block editor's own
+attributes still attached:
+
+```
+<h1 class="wp-block wp-block-post-title block-editor-block-list__block
+    editor-post-title editor-post-title__input rich-text"
+    role="textbox" contenteditable="true" aria-label="Add title"
+    aria-multiline="true">
+```
+
+`contenteditable="true"` means **a visitor can click the headline and type over
+it** in their own browser. Nothing is saved, but it looks broken, and anyone can
+screenshot the page with a headline of their choosing. `role="textbox"` and
+`aria-label="Add title"` are worse for screen reader users: the page's main
+heading is announced as an empty edit field labelled "Add title", not as the
+title of the article.
+
+This is editor chrome that escaped into the published page, most likely by
+pasting markup copied out of the editor rather than typing the title into the
+title field.
+
+**Affected:** `/muay-thai-weight-classes/`, the H1.
+
+**What to do:** retype the title in the editor's title field so WordPress
+outputs a plain `<h1>`. Check any other post where the title was pasted in, and
+search the database for `contenteditable` to catch the rest.
+
+**In the rebuild:** the page uses the site's own clean `<h1>`, and the build
+fails if any editor attribute survives.
+
+### 35. Weight chart figures that disagree with each other — CONTENT — Medium, to verify
+
+`/muay-thai-weight-classes/` publishes four tables of weight limits, which is
+exactly the kind of content readers act on. Three things in them do not line up,
+and none was changed in the rebuild:
+
+- **The top division is named twice, differently.** The main chart's heaviest
+  entry is "Heavyweight, ~95.3+ kg / ~210+ lbs", but the speed-versus-power
+  table calls the same bracket "Super Heavyweight (210+ lbs)".
+- **Every figure in the main chart is approximate** ("~47.6 kg", "~105 lbs").
+  Competition limits are exact numbers a fighter has to make, so a reader
+  checking whether they fit a division cannot rely on a tilde.
+- **The stadium comparison gives Lumpinee and Rajadamnern the same 105–160 lbs
+  range**, which is narrower than the divisions those stadiums actually run, and
+  it stops well below the chart's own heavier classes. Worth checking against
+  each organisation's published limits.
+
+**What to do:** have someone who competes check the tables against the current
+Lumpinee, Rajadamnern and ONE Championship limits, replace the approximations
+with exact figures, and use one name per division throughout. A "last checked"
+date next to the chart would help, since these limits change.
+
+**In the rebuild:** every number, unit and tilde is copied exactly as published.
+Nothing was converted, rounded or corrected.
+
 ### 31. A section gives self-defence legal advice with no jurisdiction named — CONTENT — Medium, for the client to review
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
@@ -396,7 +455,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 44
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 45
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -558,7 +617,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty-four newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-five newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -590,12 +649,13 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 
-**One post gets it right.** `/muay-thai-vs-kickboxing/` links the word
-"kickboxing" to Wikipedia's *Kickboxing* article — the anchor text and the
-destination match, and the page is the real article rather than a
-disambiguation list. It is the only outbound link of this kind across all 35
-posts that works as intended, which shows the others could have been done the
-same way rather than needing to be removed.
+**Three posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
+Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
+*Martial arts*, and `/muay-thai-weight-classes/` links "ONE Championship" to
+*ONE Championship*. In each the anchor text and the destination match, and the
+target is a real article rather than a disambiguation list. Three out of the
+twenty across 39 posts, which shows the rest could have been done the same way
+rather than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
 word inside the final FAQ answer, always pointing at a Wikipedia disambiguation
@@ -839,7 +899,7 @@ extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 44 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 45 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

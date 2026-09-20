@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **45 pages**: the homepage, the 5 program pages and all 39 blog
+live HTML of **46 pages**: the homepage, the 5 program pages and all 40 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 45 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 45 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 46 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 46 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,7 +30,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 20 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 21 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -40,7 +40,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 17 | Spelling errors and garbled headings | CONTENT | 10 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
-| 20 | Suspicious "last modified" dates | SEO | 9 | Low — to confirm |
+| 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
 | 22 | "H2:" formatting marker left in a visible heading | CONTENT, SEO | 1 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
@@ -50,14 +50,15 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 4 | Low |
+| 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 2 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 3 | Low — for the client to decide |
 | 33 | The brand name written four different ways | CONTENT, SEO | 2 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
+| 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 
-**35 issues in total.**
+**36 issues in total.**
 
 ---
 
@@ -65,7 +66,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 45 pages checked contains a block of links to French online
+Every one of the 46 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -75,7 +76,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 45 pages checked — homepage, all 5 program pages, all 39 posts.
+**Affected:** all 46 pages checked — homepage, all 5 program pages, all 40 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -98,7 +99,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 45 pages. It appears twice on the homepage and on each blog
+**Affected:** all 46 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -345,6 +346,50 @@ carry far more weight.
 **In the rebuild:** these five are likewise reproduced word for word, doubled
 quote marks and all, with no Review schema.
 
+**A third set, on `/muay-thai-gym-bag/`:** three reviews — Ali R. (Canada),
+Maya S. (USA) and Tariq K. (UAE) — again static text with no stars, dates or
+link to any review platform. Two things about them:
+
+- **The markup is inside out.** Each reviewer's *name* sits alone in a
+  `<blockquote>`, while the quotation itself is an ordinary paragraph after it.
+  A blockquote should hold the quotation, with the name as its attribution.
+- **None of them is about the subject of the post.** The page is a buying guide
+  for gym bags; all three reviews praise the gym's training and coaches. One
+  even says "I joined Sixth Sense MMA while visiting family in USA", which reads
+  oddly on a US business's own site.
+
+The post's "Real User Testimonials" section, despite its name, quotes nobody: it
+is two paragraphs of "many fighters say…" with no attribution at all, which is
+weaker than saying nothing.
+
+**In the rebuild:** the three reviews are reproduced word for word with no
+Review schema. The names are rendered as paragraphs rather than blockquotes,
+because the site has no blockquote styling and adding some would mean new CSS.
+
+### 36. A four-letter acronym that spells nothing — CONTENT — Low
+
+`/muay-thai-gym-bag/` introduces four features as lettered sub-headings under
+"Features for a Muay Thai Gym Bag":
+
+> **A** – Aesthetics · **G** – Gear Protection · **S** – Smell Control ·
+> **R** – Room/Storage
+
+The letters read **A, G, S, R**, which is not a word. The section never says
+what the acronym is meant to be, so a reader sees four letters that look like
+they should spell something and do not. Reordered as **G, A, S, R** — Gear
+protection, Aesthetics, Smell control, Room — they spell "GASR", which is
+probably the intention, or the writer may have meant a different fourth word.
+
+**Affected:** `/muay-thai-gym-bag/`, the four H4 sub-headings.
+
+**What to do:** decide what the acronym is supposed to be, reorder the sections
+to match, and say it in the paragraph above them ("we call this the GASR test")
+so the letters have a purpose. If there is no acronym, drop the letters and use
+plain sub-headings.
+
+**In the rebuild:** the letters are reproduced in the published order, A G S R,
+and the build fails if that order changes.
+
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
 On `/muay-thai-weight-classes/` the H1 is published with the block editor's own
@@ -455,7 +500,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 45
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 46
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -512,6 +557,7 @@ Tags on two posts end with an invisible zero-width space (U+200B):
 | `/what-is-muay-thai/` | 5 of 7: "what is muay thai", "what is muay thai boxing", "what is muay thai fighting", "what is muay thai kickboxing", "what is the difference between muay thai and kickboxing" |
 | `/muay-thai-gear/` | 6 of 13: "gear for muay thai", "muay thai gear bag", "muay thai gear bangkok", "muay thai gear fairtex", "muay thai gear usa", "muay thai training gear" |
 | `/muay-thai-vs-kickboxing/` | 1 of 9: "dutch kickboxing vs muay thai" |
+| `/muay-thai-gym-bag/` | 1 of 9: "muay thai gear bag" |
 
 **A related tagging problem on the same post:** `/muay-thai-vs-kickboxing/` is
 tagged "muay thai vs kickboxing **reddit**". That phrase is a keyword-tool
@@ -617,7 +663,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty-five newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-six newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -648,6 +694,7 @@ meaning.
 · `/muay-thai-gear/` "technique." (Conclusion: "respect your gear as much as your technique.") → *Technique*, another Wikipedia disambiguation page. The link also swallows the sentence's full stop, so the underline runs past the last word
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
+· `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
 
 **Three posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
 Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
@@ -788,6 +835,17 @@ ahead of the fetch in UTC terms.
 Separately, `/best-martial-arts/` gives two different modified dates in two
 places: `2025-06-09` in its social tags and `2025-02-05` in its structured data.
 
+`/muay-thai-gym-bag/` disagrees with itself on **both** dates:
+
+| | Social tags (`article:*`) | Structured data |
+|---|---|---|
+| Published | 2025-06-11 10:12:13 | 2025-06-10 10:12:13 |
+| Modified | 2025-07-04 06:10:57 | 2025-06-10 06:10:57 |
+
+The times match to the second while the dates differ, which points at something
+rewriting one of the two rather than at a genuine edit. Google reads both, so
+the two sources should agree.
+
 **What to do:** check whether an SEO or caching plugin is setting the modified
 date automatically. Treat this one as a question for whoever manages the plugins
 rather than a confirmed fault.
@@ -899,7 +957,7 @@ extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 45 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 46 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

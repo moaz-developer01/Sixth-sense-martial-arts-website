@@ -280,5 +280,12 @@
     "image": "images/mt-weight-01.jpg",
     "date": "2025-05-24T11:04:42+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "muay-thai-gym-bag",
+    "title": "Best Muay Thai Gym Bag for Tough & Long Training",
+    "image": "images/mt-gym-bag-01.png",
+    "date": "2025-06-11T10:12:13+00:00",
+    "category": "Martial Arts"
   }
 ]

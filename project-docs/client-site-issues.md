@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **43 pages**: the homepage, the 5 program pages and all 37 blog
+live HTML of **44 pages**: the homepage, the 5 program pages and all 38 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 43 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 43 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 44 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 44 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,7 +30,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 19 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 20 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -50,10 +50,10 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Zero-width spaces in tag names, plus a "reddit" keyword tag | SEO | 3 | Low |
+| 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 4 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 1 | Low — for the client to decide |
-| 33 | The brand name written in lowercase throughout a post | CONTENT, SEO | 1 | Medium |
+| 32 | Testimonials that cannot be verified | CONTENT | 2 | Low — for the client to decide |
+| 33 | The brand name written four different ways | CONTENT, SEO | 2 | Medium |
 
 **33 issues in total.**
 
@@ -63,7 +63,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 43 pages checked contains a block of links to French online
+Every one of the 44 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -73,7 +73,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 43 pages checked — homepage, all 5 program pages, all 37 posts.
+**Affected:** all 44 pages checked — homepage, all 5 program pages, all 38 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -96,7 +96,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 43 pages. It appears twice on the homepage and on each blog
+**Affected:** all 44 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -193,7 +193,7 @@ Brands" would produce exactly this. It is worth checking other posts for
 headings where a keyword phrase has been substituted in, since the same edit
 would have run across the site.
 
-### 33. The brand name written in lowercase throughout a post — CONTENT, SEO — Medium
+### 33. The brand name written four different ways — CONTENT, SEO — Medium
 
 On `/muay-thai-training/` the business name is written **"sixth sense mma"** in
 lowercase every time it appears — six times, and not once correctly. Every other
@@ -213,13 +213,28 @@ most visible text on the page and carry weight in search. A brand that writes
 its own name inconsistently looks careless to a reader comparing gyms, and it
 weakens the brand signal search engines build from repeated, consistent naming.
 
-**What to do:** correct all six to "Sixth Sense MMA", and check the other posts
-for the same slip. Note the site also alternates between "Sixth Sense MMA" and
-"Sixth Sense Martial Arts" elsewhere; settling on one form for body copy would
-be worth doing at the same time.
+**A second post, with four spellings on one page.** `/muay-thai-muay-boran/`
+manages to write the name four different ways:
 
-**In the rebuild:** the lowercase spelling is reproduced exactly as published,
-in all six places, and the build fails if it is silently corrected.
+| Form | Where |
+|---|---|
+| **sixthsensemma** (run together, lowercase) | H2: "Train Muay Thai Muay Boran the Right Way at sixthsensemma" |
+| **sixth sense mma** (lowercase, spaced) | Alt text of the "Fist, Elbow, Knee, and Shin Use" image |
+| **sixthsense mma** (half run together) | Alt text of the "Regional Styles" image |
+| **Sixth Sense MMA** (correct) | Two headings and the body text |
+
+So across these two posts the business name appears as "sixth sense mma",
+"sixthsensemma", "sixthsense mma" and "Sixth Sense MMA", with the wrong forms in
+section headings both times.
+
+**What to do:** correct every instance to "Sixth Sense MMA" on both posts, and
+check the rest of the site for the same slip — image alt text included, since
+two of these hide there. Note the site also alternates between "Sixth Sense MMA"
+and "Sixth Sense Martial Arts" elsewhere; settling on one form for body copy
+would be worth doing at the same time.
+
+**In the rebuild:** every spelling is reproduced exactly as published, and the
+build fails if any of them is silently corrected.
 
 ### 21. Numbered list skips a number — CONTENT — Low
 
@@ -311,6 +326,23 @@ with no stars, ratings or dates invented, and **no Review or AggregateRating
 structured data was added** — the page carries only BlogPosting, FAQPage and
 BreadcrumbList.
 
+**A second set, on `/muay-thai-muay-boran/`:** five more testimonials, this time
+as a bulleted list under a "Customer reviews:" heading, signed John M. (USA),
+Emma L. (UK), Lucas F. (Brazil), Sophie K. (Australia) and Michael T. (Canada).
+Again static text, no stars, no dates, nothing linking to a review platform.
+Two of them have typing errors that suggest hasty drafting: Sophie K.'s opens
+with a doubled quote mark (`""Great coaching`) and ends a sentence with two full
+stops ("a deep belief of community.."), and Michael T.'s also has ".." mid-quote.
+"a deep belief of community" reads oddly too.
+
+The country labels are worth a thought of their own: a Coppell gym showing
+reviews from the UK, Brazil, Australia and Canada tells a local reader nothing
+about whether people near them train there. Reviews from Dallas–Fort Worth would
+carry far more weight.
+
+**In the rebuild:** these five are likewise reproduced word for word, doubled
+quote marks and all, with no Review schema.
+
 ### 31. A section gives self-defence legal advice with no jurisdiction named — CONTENT — Medium, for the client to review
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
@@ -364,7 +396,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 43
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 44
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -412,7 +444,7 @@ paste error.
 article. The duplicated block, its three images and its FAQ were all left out,
 and the post has no FAQ section as a result.
 
-### 30. Zero-width spaces in tag names — SEO — Low
+### 30. Bad tags: zero-width spaces, a "reddit" keyword, a misspelling — SEO — Low
 
 Tags on two posts end with an invisible zero-width space (U+200B):
 
@@ -427,6 +459,12 @@ tagged "muay thai vs kickboxing **reddit**". That phrase is a keyword-tool
 export, not a topic: someone searching it wants a Reddit thread, and this page
 cannot give them one. Tags should describe what the post is about, not copy
 every phrase a research tool returns.
+
+**A misspelt tag on `/muay-thai-muay-boran/`:** "is **muat** boran more powerful
+than muay thai" — "muat" for "muay". The typo is in the tag name and therefore
+in its URL, `/tag/is-muat-boran-more-powerful-than-muay-thai/`, so the site
+publishes an archive page built around a misspelling. That post's other five
+tags are clean and none carries a zero-width space.
 
 They are invisible on the page, but they are part of the tag name and its URL
 slug, so WordPress treats a clean tag and a zero-width-space tag as two
@@ -520,7 +558,7 @@ show FAQ rich results for any of them.
 `/martial-arts-weapons/`, `/different-types-of-martial-arts/`,
 `/martial-arts-belt-levels/`
 
-The twenty-three newer posts each have their own FAQ, so the fix is to do the same for
+The twenty-four newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
 ### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
@@ -550,6 +588,7 @@ meaning.
 · `/jiu-jitsu-guard-position/` "grip" (FAQ: "wrapped around the opponent's arm while grip their sleeve") → *Grip*, another Wikipedia disambiguation page
 · `/muay-thai-gear/` "technique." (Conclusion: "respect your gear as much as your technique.") → *Technique*, another Wikipedia disambiguation page. The link also swallows the sentence's full stop, so the underline runs past the last word
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
+· `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 
 **One post gets it right.** `/muay-thai-vs-kickboxing/` links the word
 "kickboxing" to Wikipedia's *Kickboxing* article — the anchor text and the
@@ -800,7 +839,7 @@ extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 43 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 44 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

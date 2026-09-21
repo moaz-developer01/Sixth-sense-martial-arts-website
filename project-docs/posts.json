@@ -329,5 +329,12 @@
     "image": "images/wrestling-01.jpg",
     "date": "2025-06-21T11:19:35+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "muay-thai-thai-boxing",
+    "title": "What Muay Thai Thai Boxing Can Teach You About Confidence",
+    "image": "images/mt-thai-boxing-01.jpg",
+    "date": "2025-06-21T11:30:49+00:00",
+    "category": "Martial Arts"
   }
 ]

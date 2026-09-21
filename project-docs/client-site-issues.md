@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **52 pages**: the homepage, the 5 program pages and all 46 blog
+live HTML of **53 pages**: the homepage, the 5 program pages and all 47 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 52 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 52 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 53 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 53 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 4 | High |
@@ -30,12 +30,12 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 21 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 25 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 26 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
-| 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
-| 15 | Duplicated headings | SEO, CONTENT | 3 | Low |
+| 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
+| 15 | Duplicated headings and captions | SEO, CONTENT | 4 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
 | 17 | Spelling errors and garbled headings | CONTENT | 13 | Low |
 | 18 | Image alt text typos | SEO | 2 | Low |
@@ -52,8 +52,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 7 | Low — for the client to decide |
-| 33 | The brand name written four different ways | CONTENT, SEO | 4 | Medium |
+| 32 | Testimonials that cannot be verified | CONTENT | 8 | Low — for the client to decide |
+| 33 | The brand name written four different ways | CONTENT, SEO | 5 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
@@ -61,8 +61,9 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 3 | **High — client must confirm** |
 | 40 | Invisible and broken link markup (empty anchors, ChatGPT tracking parameters) | SEO, ACCESSIBILITY, CONTENT | 2 | **High** |
+| 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 
-**40 issues in total.**
+**41 issues in total.**
 
 ---
 
@@ -70,7 +71,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 52 pages checked contains a block of links to French online
+Every one of the 53 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -80,7 +81,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 52 pages checked — homepage, all 5 program pages, all 46 posts.
+**Affected:** all 53 pages checked — homepage, all 5 program pages, all 47 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -103,7 +104,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 52 pages. It appears twice on the homepage and on each blog
+**Affected:** all 53 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -243,6 +244,13 @@ Here to Help" and "Why Choose Sixth Sense MMA?" — then writes it **"sixth sens
 mma"**, in bold, in the first sentence under the second of them: "At **sixth
 sense mma**, we care about quality, comfort, and your training needs." The
 lowercase form is the emphasised text directly below a correctly-cased heading.
+
+**A fifth post, in alt text twice.** `/muay-thai-thai-boxing/` writes the name
+correctly nine times in its copy, then lowercase in both of its in-article image
+descriptions: "Mental Toughness and Muay Thai: Strengthening Your Mind **sixth
+sense mma**" and "Getting Started with Muay Thai Building Confidence from Day
+One **sixth sense mma**". Alt text is exactly where these keep hiding — the same
+slip as on `/muay-thai-muay-boran/`.
 
 **A fourth post, where the brand is also the broken link.** On
 `/is-wrestling-a-martial-art/` the Contact Us paragraph reads "Reach out to us
@@ -455,6 +463,30 @@ about Kali instruction, on a page advertising Kali classes.
 **In the rebuild:** all four are reproduced word for word, with no Review schema.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
+
+**An eighth set, on `/muay-thai-thai-boxing/`, and one of them relocates the
+gym.** Four reviews under a "Customer reviews:" heading — Jessica M.
+(Australia), David L. (UK), Sophie T. (France) and Liam H. (Canada) — static
+text, no stars, no dates, no review platform. The first one reads:
+
+> "I trained at Sixth Sense MMA during my **3-month stay in Pakistan** —
+> honestly, it's better than many gyms back home. The trainers are world-class!"
+
+Sixth Sense MMA is in Coppell, Texas. A published review placing the gym in
+Pakistan is the strongest signal yet that these testimonials were written to a
+template rather than collected from students, and it is logged again under
+issue 14 because of what it tells search engines about where the business is.
+
+The same post has a separate section, "Stories from Practitioners: Real
+Confidence Transformations", which despite its heading contains no stories and
+no practitioners: four bolded labels ("Overcoming Self-Doubt:", "Mental
+Resilience:", "Holistic Growth:", "Lasting Impact:") each followed by a general
+sentence about what "individuals" and "practitioners" experience. Nobody is
+named and nothing is quoted, so the heading promises specifics the section never
+delivers.
+
+**In the rebuild:** all four reviews and all four story labels are reproduced
+word for word, with nothing invented or named, and no Review schema.
 
 **A seventh set, on `/martial-blade-concepts/`, and one blockquote is never
 closed.** Four reviews — Ahsan R., Bilal Khan, Sarah M. and Usman Javed — again
@@ -749,6 +781,50 @@ rather than the three-part problem above.
 non-breaking space and is given an `aria-label` naming its destination; the
 split "s" link is left split.
 
+### 41. A page whose title promises techniques and whose content is about confidence — SEO — Medium
+
+`/muay-thai-thai-boxing/` sells one thing in search results and delivers
+another.
+
+| Where | What it says |
+|---|---|
+| `<title>` | "Muay Thai Thai Boxing **Training & Techniques**" |
+| Meta description | "Discover Muay Thai Thai Boxing basics, **training tips, and techniques** to improve your skills, fitness, and self-defense." |
+| H1 | "What Muay Thai Thai Boxing Can Teach You About **Confidence**" |
+| The article | All 21 sections are about confidence |
+
+Not one of the 21 sections teaches a technique. They are "Origins of Muay Thai
+and Its links to Confidence", "Mental Toughness and Muay Thai", "Overcoming Fear
+and Building Courage", "Psychological Impact of Muay Thai on Self-Image",
+"Confidence Beyond the Ring", and so on. The closest the page comes to
+technique is "Mastering Technique: How Skill Development Fuels Confidence",
+which is about how mastering technique *feels*, not how to do it.
+
+**Why it matters:** the title and description are the advert; the page is the
+product. Someone searching for Muay Thai techniques clicks a result promising
+techniques, finds an essay about self-esteem, and leaves. Google reads that
+pattern — click, quick return to the results — as the page failing the query,
+and the page ends up ranking for neither intent: not for "techniques", because
+it has none, and not for confidence, because nothing in its title or description
+mentions it.
+
+**What to do:** pick one. Either retitle the page to match what it actually says
+— the H1 already does this well — and rewrite the description around confidence,
+mindset and self-esteem; or keep the title and rewrite the body to teach the
+techniques it promises. The first is a ten-minute change and keeps a genuinely
+decent article.
+
+**A note on the keyword itself.** The target phrase, "muay thai thai boxing", is
+redundant: *Muay Thai* translates as *Thai boxing*, so the phrase reads "Thai
+boxing Thai boxing". It survives in the URL, the title, the description and the
+H1. Real searchers type "muay thai" or "thai boxing", rarely both together, so
+the phrase optimises for a query with little volume while reading awkwardly to
+anyone who sees it.
+
+**In the rebuild:** the title, description, H1 and every section are reproduced
+exactly as published. This is a strategy problem for the client, not a markup
+error to fix.
+
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
 On `/muay-thai-weight-classes/` the H1 is published with the block editor's own
@@ -880,7 +956,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 52
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 53
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1121,6 +1197,7 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
+· `/muay-thai-thai-boxing/` "discipline" → *Discipline*, the **same disambiguation page** already linked from `/muay-thai-training/`. A second word now joins "strength" in being linked twice to the same list
 · `/is-wrestling-a-martial-art/` "strength" → *Strength*, the **same disambiguation page** already linked from `/kick-boxing-bag/` and `/muay-thai-vs-mma/`. Three posts now send readers to one disambiguation list from the same single word
 · `/martial-blade-concepts/` "reliability" (FAQ: "built for real situations where speed and **reliability** matter most") → *Reliability*, a Wikipedia disambiguation page covering engineering, statistics, psychometrics and computer networking. The link also swallows the leading space, so the underline starts before the word
 · `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
@@ -1131,8 +1208,8 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Four out of the twenty-five
-across 46 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Four out of the twenty-six
+across 47 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1178,6 +1255,18 @@ Gloves" appears twice.
 
 **`/muay-thai-vs-mma/`** — "New Skills to Learn" appears twice in a row, the
 second time as "New Skills to Learn (Bullet Points)" (see issue 22).
+
+**`/muay-thai-thai-boxing/`** — both of its in-article images carry a visible
+caption that simply repeats the heading immediately above the image, word for
+word: "Mental Toughness and Muay Thai: Strengthening Your Mind" and "Getting
+Started with Muay Thai Building Confidence from Day One". A caption should say
+something about the picture; these are the only image captions anywhere on the
+site, and both are duplicates. Either write a caption that describes the image
+or delete the caption.
+
+**In the rebuild:** both captions are reproduced, using the caption markup the
+project already uses for the captioned tables on `/martial-arts-for-kids/`, so
+no new CSS was needed.
 
 ### 16. Empty headings — SEO — Low
 
@@ -1295,7 +1384,7 @@ rather than a confirmed fault.
 
 ## GEOGRAPHIC TARGETING
 
-### 14. Orlando post targets a city 1,100 miles away and promotes competitors — GEOGRAPHIC TARGETING — High
+### 14. Content that points readers at the wrong place on the map — GEOGRAPHIC TARGETING — High
 
 `/brazilian-jiu-jitsu-orlando/` ("Brazilian Jiu Jitsu Orlando: Classes, Gyms &
 Tips", published 2025-04-14) is written for people looking to train in
@@ -1343,6 +1432,26 @@ location obvious.
 **What to do:** delete those three tags and the archive pages they created.
 Keep tags to what the business actually offers and where it offers it, and use
 the city name you want to rank for — Coppell, or Dallas–Fort Worth.
+
+**A published review that puts the gym in Pakistan.** The first of the four
+testimonials on `/muay-thai-thai-boxing/` reads:
+
+> "I trained at Sixth Sense MMA during my **3-month stay in Pakistan** —
+> honestly, it's better than many gyms back home. The trainers are world-class!"
+> — Jessica M. (Australia)
+
+Sixth Sense MMA is in Coppell, Texas. The other three reviews on the same page
+are signed from the UK, France and Canada, and none of them mentions Texas or
+Coppell. For a business whose customers all live within driving distance, a
+review section that names four other countries and locates the gym in a fifth is
+worse than having none: a local reader learns nothing about whether people near
+them train there, and a search engine trying to confirm where this business
+operates is handed Pakistan.
+
+**What to do:** remove or rewrite that review. If these are real people who
+trained at the Coppell gym, say so plainly; if they are placeholder copy, delete
+them. Replace them with reviews from Dallas–Fort Worth students, ideally
+collected on Google Business Profile and linked to (see issue 32).
 
 ### 26. Images reused from other articles under their filenames — CONTENT (asset management) — Low
 
@@ -1428,7 +1537,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 52 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 53 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

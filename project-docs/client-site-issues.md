@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **50 pages**: the homepage, the 5 program pages and all 44 blog
+live HTML of **51 pages**: the homepage, the 5 program pages and all 45 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 50 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 50 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 51 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 51 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,7 +30,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 21 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 23 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 24 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -46,22 +46,23 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 12 | Low |
+| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 13 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
-| 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 6 | Low — for the client to decide |
+| 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
+| 32 | Testimonials that cannot be verified | CONTENT | 7 | Low — for the client to decide |
 | 33 | The brand name written four different ways | CONTENT, SEO | 3 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy) | 2 | **High — client must confirm** |
+| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 3 | **High — client must confirm** |
+| 40 | Seven invisible links carrying ChatGPT tracking parameters | SEO, ACCESSIBILITY, CONTENT | 1 | **High** |
 
-**39 issues in total.**
+**40 issues in total.**
 
 ---
 
@@ -69,7 +70,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 50 pages checked contains a block of links to French online
+Every one of the 51 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -79,7 +80,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 50 pages checked — homepage, all 5 program pages, all 44 posts.
+**Affected:** all 51 pages checked — homepage, all 5 program pages, all 45 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -102,7 +103,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 50 pages. It appears twice on the homepage and on each blog
+**Affected:** all 51 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -446,6 +447,23 @@ about Kali instruction, on a page advertising Kali classes.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
 
+**A seventh set, on `/martial-blade-concepts/`, and one blockquote is never
+closed.** Four reviews — Ahsan R., Bilal Khan, Sarah M. and Usman Javed — again
+static, no stars, no dates, no review platform. The fourth `<blockquote>` opens
+and is **never closed**: it runs past the end of its own review, swallows the
+"Call to Action" heading and the closing paragraph, and only ends because the
+article does. In a browser that means the gym's closing sales pitch is marked up
+as part of a customer's quotation.
+
+Two of these reviews describe knife-defence instruction ("I joined to learn
+knife defense", "MBC at Sixth Sense MMA gave me solid, real-life skills"), which
+is the same concern as issue 39: testimonials describing a service being
+received.
+
+**In the rebuild:** the four reviews are reproduced word for word with no Review
+schema; the three closed blockquotes are unwrapped and the unclosed one's
+opening tag is dropped, so the Call to Action stands as its own section.
+
 ### 36. A four-letter acronym that spells nothing — CONTENT — Low
 
 `/muay-thai-gym-bag/` introduces four features as lettered sub-headings under
@@ -590,19 +608,108 @@ exist, and "certified instructors" is a claim about credentials. That is a
 consumer-protection problem before it is an SEO one, and the testimonials make
 it worse, because they describe a service being received.
 
+**`/martial-blade-concepts/` is the third, and it adds a trademark question.**
+The page is written as a sales page for MBC classes: "Why Train in Martial Blade
+Concepts at **Sixth Sense MMA**", "**Certified** & Highly Skilled Instructors",
+"What You'll Learn in **Our** Martial Blade Concepts **Classes**", "Combining MBC
+with Other Martial Arts Styles", a "Programs for Every Age Group" table, four
+testimonials from students describing MBC training, and a "Contact Us | Start
+Your Martial Blade Training Today" section.
+
+Martial Blade Concepts is not a generic term for knife defence. It is a
+proprietary system created by **Michael Janich**, with its own instructor
+certification programme. The page's own hidden links (issue 40) point at
+`martialbladeconcepts.com/seminar-schedule` and at an Illinois trainer's page
+that names Janich directly, so the page itself identifies whose system it is
+advertising.
+
+That makes "Certified & Highly Skilled Instructors" a specific claim: certified
+by whom, in what. If the gym holds MBC instructor certification, this is fine
+and the certifying body should be named on the page. If it does not, the page
+advertises classes in another instructor's named system and describes its staff
+as certified in it — a trademark and misrepresentation exposure, not just an
+accuracy problem. MBC is also not one of the five programs the site has pages
+for, exactly as with Kali and Sambo.
+
 **What to do — the client must answer first:**
 
-1. Does Sixth Sense MMA run Kali classes? Sambo classes?
+1. Does Sixth Sense MMA run Kali classes? Sambo classes? Martial Blade Concepts
+   classes?
+1. For MBC specifically: does anyone on staff hold Michael Janich's MBC
+   instructor certification? If yes, name it on the page. If no, the words
+   "Martial Blade Concepts", "MBC" and "certified" cannot stay as they are.
 2. If yes: add them to the programs list and the schedule, and be able to name
    the certifying body behind "certified Kali instructors".
-3. If no: rewrite both posts as what they actually are — articles about the
-   art — and remove every first-person service claim, the age-group programs
-   table, the free-trial invitation and the testimonials.
+3. If no: rewrite the posts as what they actually are — articles about the art —
+   and remove every first-person service claim, the age-group programs table,
+   the free-trial invitation and the testimonials.
 
-**In the rebuild:** every claim is reproduced word for word, exactly as
-published. Nothing was softened, removed or qualified, and the build fails if
-any of the three headline claims is altered. This issue is the flag; the page
-itself is a faithful copy.
+**In the rebuild:** every claim on all three posts is reproduced word for word,
+exactly as published. Nothing was softened, removed or qualified, and the build
+fails if any of the headline claims is altered. This issue is the flag; the
+pages themselves are faithful copies.
+
+**Knife-law claims on the MBC post** are logged separately under issue 31:
+"Learn Legal, Controlled Knife Usage" and "Disengagement & Legal De-escalation"
+are claims about what the law permits, made without naming a state.
+
+### 40. Seven invisible links carrying ChatGPT tracking parameters — SEO, ACCESSIBILITY, CONTENT — High
+
+`/martial-blade-concepts/` contains seven `<a>` elements whose entire anchor
+text is a single non-breaking space. Nothing is visible on the page: no word, no
+underline, nothing to click deliberately. Every one carries
+`?utm_source=chatgpt.com`.
+
+| # | Destination | What it is |
+|---|---|---|
+| 1, 2 | `sofrep.com/news/martial-blade-concepts-effective-modern-self-defense-everyone/` | A special-operations news site's MBC article — linked twice |
+| 3, 4 | `defencelab.fi/en/mbc` | A **Finnish** self-defence company's MBC page — linked twice |
+| 5 | `swatmag.com/article/martial-blade-concepts-progressive-knife-skills-course/` | A tactical magazine's course write-up |
+| 6 | `teamspartan.com/…Michael_Janich_Martial_Blade_Concepts_Defensive_Knife_Skills_Level_2.htm` | An **Illinois firearms trainer** selling MBC Level 2 courses |
+| 7 | `martialbladeconcepts.com/seminar-schedule` | The **official MBC seminar schedule** |
+
+Three separate problems:
+
+**1. Accessibility and SEO.** A link with no text is an empty link. Screen
+readers announce it as "link" with nothing to identify it, or read the URL
+aloud, which is a WCAG 2.4.4 (Link Purpose) failure. Keyboard users tab onto a
+focus ring around nothing. And a link a visitor cannot see but a crawler can
+follow is the shape of a hidden link, which search engines treat as a
+manipulation signal whether or not that was the intent.
+
+**2. It publicly shows the article was written by ChatGPT and not read
+afterwards.** `utm_source=chatgpt.com` is the parameter ChatGPT adds to the
+citations it returns. Seven of them, with their anchor text stripped to a
+non-breaking space, is what you get when an AI answer is pasted into the editor
+whole. Anyone who views the page source — a competitor, a prospective student,
+a journalist — can see it, and it sits on a page selling safety training, where
+"we didn't read what we published" is the worst possible impression.
+
+**3. It hands link equity to competitors.** Six of the seven point at other
+people selling the same training: a Finnish defence company, an Illinois
+firearms and knife instructor, a tactical magazine's course listing, and the
+official MBC seminar schedule. A reader who follows them lands on someone else's
+booking page. The gym is passing authority, and any traffic, straight to its own
+competition.
+
+**What to do:** remove all seven. They add nothing for a reader — there is
+nothing to click — and each of the three problems is solved by deletion. If any
+source is genuinely worth citing, cite it with visible anchor text, no `utm`
+parameter, and a reason for the reader to follow it.
+
+**Related, on the same page:** its eight FAQ questions are search-engine
+"people also ask" results for the wrong *Blade*. Four of them — "What martial
+arts does Blade know?", "What is Blade's weakness?", "Who taught Blade to
+fight?", "What knife does the CIA carry?" — are about the Marvel character and
+spycraft trivia, not about Martial Blade Concepts or the gym's classes. Same
+root cause: generated content published without a read-through.
+
+**In the rebuild:** all seven links are reproduced exactly as published —
+same destinations, same `utm_source=chatgpt.com`, same non-breaking-space anchor
+text, same positions — because the brief is a faithful replica. Each one is
+given `rel="noopener"` and an `aria-label` naming its destination, so a screen
+reader at least announces where it goes. The FAQ is reproduced verbatim,
+Blade questions and all.
 
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
@@ -661,7 +768,7 @@ date next to the chart would help, since these limits change.
 **In the rebuild:** every number, unit and tilde is copied exactly as published.
 Nothing was converted, rounded or corrected.
 
-### 31. A section gives self-defence legal advice with no jurisdiction named — CONTENT — Medium, for the client to review
+### 31. Self-defence and weapon-law claims with no jurisdiction named — CONTENT — Medium, for the client to review
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
 Self-Defense Scenarios" that makes statements about what the law allows. It
@@ -685,8 +792,29 @@ and that laws vary by state — and, if they want to keep the specifics, having
 someone qualified read the section first. The same check is worth applying to
 any other post that touches on law.
 
-**In the rebuild:** the section is reproduced word for word, with nothing added,
-softened or caveated.
+**A second post, about knives.** `/martial-blade-concepts/` goes further,
+because the subject is a weapon. Two of its section headings are legal claims in
+themselves — "**Learn Legal, Controlled Knife Usage**" and "**Disengagement &
+Legal De-escalation**" — and the body under them tells readers they will learn
+to use a blade within legal limits and when disengaging is the legally safer
+choice.
+
+Knife law varies far more than unarmed self-defence law does, and it varies on
+details a class cannot generalise about: blade length, locking mechanisms,
+concealed versus open carry, whether carry is lawful at all in a given city, and
+whether defensive use of a knife counts as deadly force. A page that promises to
+teach "legal" knife use, names no state and carries no disclaimer is making a
+promise it cannot keep for every reader — and the gym is in Coppell, Texas,
+while the page is readable anywhere.
+
+**What to do, for both posts:** add a short line to each section saying the
+information is general, is not legal advice, and that weapon and self-defence law
+varies by state and city; and have the knife sections read by someone qualified
+before they stay up. The client should get that from a lawyer in their state,
+not from a rebuild note.
+
+**In the rebuild:** both sections are reproduced word for word, with nothing
+added, softened or caveated.
 
 ---
 
@@ -714,7 +842,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 50
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 51
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -954,6 +1082,7 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
+· `/martial-blade-concepts/` "reliability" (FAQ: "built for real situations where speed and **reliability** matter most") → *Reliability*, a Wikipedia disambiguation page covering engineering, statistics, psychometrics and computer networking. The link also swallows the leading space, so the underline starts before the word
 · `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
@@ -962,8 +1091,8 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Four out of the twenty-three
-across 44 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Four out of the twenty-four
+across 45 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1231,6 +1360,14 @@ exist in the media library under the same name. A filename is one of the few
 parts of an image a search engine can read, and "Add a subheading" says nothing
 about Muay Thai.
 
+**The Kali series stretched across a third post.** All three images on
+`/martial-blade-concepts/` are `Martial-Arts-Kali-Sticks-3`, `-4` and `-5` —
+the same upload series used by `/martial-arts-kali-sticks/`, now serving a post
+about knife defence. The pictures themselves are different files (checked byte
+for byte), but every filename tells a search engine "Kali sticks" on a page
+about blades, and the numbering implies the two posts share one batch of
+uploads.
+
 **A whole post built from another post's uploads.** Every image on
 `/muay-thai-backpack/` — the featured image and both in-article images — is
 served from the `Muay-Thai-Gym-Bag` series: `Muay-Thai-Gym-Bag-5`,
@@ -1251,7 +1388,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 50 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 51 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

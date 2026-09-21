@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **55 pages**: the homepage, the 5 program pages and all 49 blog
+live HTML of **56 pages**: the homepage, the 5 program pages and all 50 blog
 posts.
 
 Each issue is tagged:
@@ -22,11 +22,11 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 55 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 55 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 56 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 56 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
-| 5 | Internal links pointing at the wrong post | SEO | 5 | High |
+| 5 | Internal links pointing at the wrong post, one at a wp-admin screen | SEO | 6 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
 | 7 | Near-duplicate posts competing for the same searches | SEO | 23 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
@@ -38,7 +38,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 4 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 15 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 16 | Low |
 | 18 | Image alt text typos | SEO | 2 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -53,15 +53,15 @@ issue 40, which is now sending link equity to a competing gym.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, misspellings | SEO | 6 | Low |
 | 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 10 | Low — for the client to decide |
-| 33 | The brand name written four different ways | CONTENT, SEO | 7 | Medium |
+| 32 | Testimonials that cannot be verified | CONTENT | 11 | Low — for the client to decide |
+| 33 | The brand name written five different ways | CONTENT, SEO | 8 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 4 | **High — client must confirm** |
-| 40 | Invisible ChatGPT citation links, one of them to a competing gym | SEO, ACCESSIBILITY, CONTENT | 4 | **CRITICAL** |
+| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 5 | **High — client must confirm** |
+| 40 | Invisible ChatGPT citation links, one of them to a competing gym | SEO, ACCESSIBILITY, CONTENT | 4 posts, 11 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as H2 section headings, competing with the page's own FAQ | SEO, CONTENT | 1 | Medium |
 
@@ -73,7 +73,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 55 pages checked contains a block of links to French online
+Every one of the 56 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -83,7 +83,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 55 pages checked — homepage, all 5 program pages, all 49 posts.
+**Affected:** all 56 pages checked — homepage, all 5 program pages, all 50 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -106,7 +106,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 55 pages. It appears twice on the homepage and on each blog
+**Affected:** all 56 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -189,6 +189,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/mma-fighting-styles/` | The contact block prints "📧 **Email**: **[**info@sixthsensemma.com" — an opening square bracket that is never closed, sitting in front of the address, so the email reads as "[info@…". Two sentences in the weight-classes intro also run together without their spaces: "divided into divisions according to weight range.**To** guarantee fair matches" and "compete in weight based classes.**Here's** a breakdown". The claim under the men's list is garbled too: "eight official men's divisions in UFC––minus the combined divisions shared with women (fly, bantam, featherweight)", which is not how the UFC's divisions work — men's and women's flyweight, bantamweight and featherweight are separate divisions, not shared ones |
 | `/are-there-multiple-styles-of-muay-boran/` | A regional style is published as "**Muay Lopbur**", missing its final letter — and the post's own FAQ spells it "Muay Lopburi" correctly two screens further down, as does `/muay-thai-muay-boran/`, so the page contradicts itself. A section heading reads "**Why choose  sixth sense mma is  trusted partner**": the brand in lowercase, "is" where "is your" belongs, and a non-breaking space in two of its gaps. Two sentences also run together without their spaces — "authentic Muay Boran training.**you** can contact us" and "more than just **skillit** builds character" |
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
 | `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
@@ -208,7 +209,7 @@ Brands" would produce exactly this. It is worth checking other posts for
 headings where a keyword phrase has been substituted in, since the same edit
 would have run across the site.
 
-### 33. The brand name written four different ways — CONTENT, SEO — Medium
+### 33. The brand name written five different ways — CONTENT, SEO — Medium
 
 On `/muay-thai-training/` the business name is written **"sixth sense mma"** in
 lowercase every time it appears — six times, and not once correctly. Every other
@@ -248,6 +249,23 @@ Here to Help" and "Why Choose Sixth Sense MMA?" — then writes it **"sixth sens
 mma"**, in bold, in the first sentence under the second of them: "At **sixth
 sense mma**, we care about quality, comfort, and your training needs." The
 lowercase form is the emphasised text directly below a correctly-cased heading.
+
+**A fifth spelling: "SixthSense", run together.** `/mma-fighting-styles/` uses
+it **seven times** and never once writes the name correctly — not in the body,
+not in the headings, not in the reviews it quotes:
+
+| Where | Text as published |
+|---|---|
+| H2 | "Real MMA Training in Every Style at **SixthSense**" |
+| H3 | "Why Choose **SixthSense** MMA Real Benefits We Offer" |
+| Review | "**SixthSense** MMA made it possible." |
+| Review | "Training at **SixthSense** changed my life." |
+| Review | "**SixthSense** MMA taught him focus, discipline, and self control." |
+
+So the site now writes its own name five ways: **Sixth Sense MMA**, **sixth
+sense mma**, **sixthsensemma**, **sixthsense mma** and **SixthSense**. This post
+is the first where the wrong form is the *only* form, which means a reader who
+arrives here never sees the name spelled correctly.
 
 **A seventh post, in a section heading, with the grammar broken too.**
 `/are-there-multiple-styles-of-muay-boran/` heads its sales section "Why choose
@@ -484,6 +502,23 @@ about Kali instruction, on a page advertising Kali classes.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
 
+**An eleventh set, on `/mma-fighting-styles/`, published under the heading "Real
+Reviews".** Six of them — Umar A., Hamza R., Sana M., Zeeshan L., Rabia F. and
+Nadia M. — each a single sentence in quotation marks with a first name and an
+initial. Static text, no stars, no dates, nothing linking to a review platform,
+and no way for a reader to identify or contact any of these people.
+
+The heading is the problem here. Every other post on the site calls this section
+"Customer reviews" or "Testimonials"; this one calls it "What Our Students Say
+**Real Reviews**". Labelling unverifiable text as *real* invites exactly the
+scrutiny the text cannot survive, and if any of the six is not a real student,
+the word turns an ordinary marketing liberty into a false statement. Either
+verify them and drop the adjective, or collect them on Google Business Profile
+where "real" is demonstrable.
+
+**In the rebuild:** all six are reproduced word for word, heading included, with
+no Review schema.
+
 **A tenth set, on `/are-there-multiple-styles-of-muay-boran/` — and these are
 the right shape too.** Four reviews under a heading that reads "Customer
 Review**:**", singular with a colon: Kelly Kim (Coppell, TX), Ian Jee's Parent
@@ -696,6 +731,26 @@ exist, and "certified instructors" is a claim about credentials. That is a
 consumer-protection problem before it is an SEO one, and the testimonials make
 it worse, because they describe a service being received.
 
+**`/mma-fighting-styles/` is the broadest claim on the site.** Its final section
+is headed "**Real MMA Training in Every Style at SixthSense**", directly after
+eleven numbered sections covering Boxing, Muay Thai, Brazilian Jiu Jitsu,
+Kickboxing, Wrestling, Taekwondo, Karate, Judo, Kung Fu, Capoeira and Sambo. The
+heading tells a reader the gym teaches all eleven. Its own program pages cover
+**two**: Adult BJJ and Adult Muay Thai (plus the kids' and teens' versions of
+those).
+
+**Capoeira, Kung Fu, Taekwondo, Karate and Judo appear nowhere else on the
+site** — no program page, no schedule, no instructor, no other post. A visitor
+reading this page could reasonably arrive expecting a Capoeira class.
+
+The reviews underneath make it concrete: "I never thought I could learn this
+many styles in one place. SixthSense MMA made it possible." That is a
+testimonial to a service the site does not otherwise evidence.
+
+Counting this one, **five posts** advertise disciplines the gym's own programs
+list does not include, and between them they name Sambo, Kali, Martial Blade
+Concepts, Tai Chi and now nine more.
+
 **`/is-tai-chi-a-martial-art/` is the fourth.** Two of its section headings are
 "What Sets **Sixth Sense MMA** Apart in **Tai Chi Martial Arts Training**" and
 "Why Choose **Sixth Sense MMA** for **Real** Tai Chi Martial Arts Training", and
@@ -765,10 +820,12 @@ site is not just leaking that its articles were generated and published unread;
 it is passing authority, and any reader who finds the link, to a direct
 competitor.
 
-**The three posts:** `/martial-blade-concepts/` (seven links),
-`/is-tai-chi-a-martial-art/` (one, inside a table cell) and
-`/are-there-multiple-styles-of-muay-boran/` (two, one of them the competitor).
-Ten invisible links in total. Nobody has been checking, so **search the whole
+**The four posts:** `/martial-blade-concepts/` (seven links),
+`/is-tai-chi-a-martial-art/` (one, inside a table cell),
+`/are-there-multiple-styles-of-muay-boran/` (two, one of them the competitor) and
+`/mma-fighting-styles/` (one, citing another martial arts blog for the UFC
+weight limits). **Eleven invisible links in total**, and they turned up on four
+of the last six posts checked. Nobody has been checking, so **search the whole
 site for `utm_source=chatgpt.com` before assuming these are all of them**, and
 check every new post before it goes live.
 
@@ -877,6 +934,19 @@ recommending a competitor.
 **In the rebuild:** both are reproduced exactly as published — same
 destinations, same parameters, same invisible anchors, same positions — with
 `rel="noopener"` and an `aria-label` naming each destination.
+
+**A fourth page.** `/mma-fighting-styles/` has one, at the end of the paragraph
+under the men's weight divisions:
+
+> …minus the combined divisions shared with women (fly, bantam, featherweight)`<a href="https://thekarateblog.com/ufc-weight-classes-divisions/?utm_source=chatgpt.com"> </a>`
+
+Same shape as the others: a non-breaking space for anchor text, the tracking
+parameter intact. The destination is another martial arts blog's page on UFC
+weight classes — not a competing gym this time, but still a content site
+competing for the same searches, and still a citation nobody removed.
+
+**In the rebuild:** reproduced exactly, with `rel="noopener"` and an
+`aria-label` naming where it goes.
 
 **A second page with the same empty-anchor bug, without the tracking
 parameters.** `/is-wrestling-a-martial-art/` has one link whose anchor text is a
@@ -1119,7 +1189,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 55
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 56
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1240,9 +1310,20 @@ Link text names one post, but the link goes to a different one.
 | `/japanese-martial-arts-sign/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
 | `/is-wrestling-a-martial-art/` | "wrestling" | `/martial-arts-kali-stick-2/` | a post about wrestling — there isn't one, so the link should not be there |
 | `/is-tai-chi-a-martial-art/` | "CONTACT US" (the red call-to-action button) | `/what-martial-art-destroys-boxers/` | the contact page |
+| `/mma-fighting-styles/` | "Muay Thai" | `/wp-admin/post.php?post=3729&action=edit` — **the WordPress editor**, not a page at all | the Muay Thai post |
 
 On the Japanese post, the Boxers post becomes unreachable from that page, and
 both links on it lead to the same place.
+
+**A published link into the WordPress admin.** On `/mma-fighting-styles/`, the
+words "Muay Thai" in the second section link to
+`https://sixthsensemma.com/wp-admin/post.php?post=3729&action=edit`. That is the
+editing screen for post 3729 — someone linked to the page they had open in
+another tab instead of to the published URL. For a visitor the link is broken:
+it bounces them to a WordPress login screen. It also publishes the admin path
+and an internal post ID, which is information a public page has no reason to
+carry. It is the only one of its kind found so far, but it is worth grepping the
+whole site for `wp-admin` before assuming that.
 
 **The Tai Chi one is the worst of these**, because it is not a text link inside a
 paragraph but the page's main call-to-action button. A reader who has read to
@@ -1402,7 +1483,7 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
 a real article rather than a disambiguation list. Four out of the twenty-six
-across 49 posts, which shows the rest could have been done the same way rather
+across 50 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1764,7 +1845,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 55 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 56 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

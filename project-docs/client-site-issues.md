@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **47 pages**: the homepage, the 5 program pages and all 41 blog
+live HTML of **48 pages**: the homepage, the 5 program pages and all 42 blog
 posts.
 
 Each issue is tagged:
@@ -21,13 +21,13 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 47 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 47 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 48 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 48 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 19 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 22 | Medium |
@@ -37,7 +37,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 11 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 12 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -46,20 +46,21 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 11 | Low |
+| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 12 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 4 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 5 | Low — for the client to decide |
 | 33 | The brand name written four different ways | CONTENT, SEO | 3 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
+| 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 
-**37 issues in total.**
+**38 issues in total.**
 
 ---
 
@@ -67,7 +68,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 47 pages checked contains a block of links to French online
+Every one of the 48 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -77,7 +78,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 47 pages checked — homepage, all 5 program pages, all 41 posts.
+**Affected:** all 48 pages checked — homepage, all 5 program pages, all 42 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -100,7 +101,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 47 pages. It appears twice on the homepage and on each blog
+**Affected:** all 48 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -183,6 +184,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
 | `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
 | `/jiu-jitsu-guard-position/` | Six parallel section headings, but only two have a separator: "Open Guard **–** Mobility and Grip Strategy" and "Guard Retention Techniques **–** How to Keep Your Guard Strong" have an en dash, while "Closed Guard Classic Control and Attacks" and "Butterfly Guard Dynamic Sweeps and Control" have nothing, and "Half Guard&nbsp; Balance of Defense and Offense" and "Guard in MMA vs BJJ&nbsp; Key Differences" have a leftover double space (a non-breaking space) where the dash was deleted. Several of its sub-headings are also sentences or uncapitalised questions ("Guard vs top position who really has the advantage?", "Common open-guard grips include collars, sleeves, and pants.") |
@@ -393,6 +395,23 @@ products on a page that closes by asking the reader to buy from Sixth Sense MMA.
 **In the rebuild:** the three reviews are reproduced word for word, with no
 reviewer names invented, no stars added and no Review schema.
 
+**A fifth set, on `/muay-thai-fighting-stance/`, cut off mid-sentence.** Three
+reviews, signed Ali R., Zainab K. and Usman M., and every one of them is
+truncated with an ellipsis where the rest of the quote should be:
+
+> "Training at Sixth Sense MMA has completely changed my Muay Thai game…"
+> — Ali R.
+
+After each cut-off quote comes a sentence about the reviewer written in the
+third person by the business ("Ali noticed real improvements in his movement and
+control…"), so the page summarises a review it does not actually show. Whatever
+the intention, what is published is three quotations with their endings missing.
+No stars, no dates, no link to a review platform, and the first names with an
+initial follow the same pattern as the Sambo set.
+
+**In the rebuild:** reproduced exactly, ellipses and all, with no attempt to
+complete the quotes and no Review schema.
+
 ### 36. A four-letter acronym that spells nothing — CONTENT — Low
 
 `/muay-thai-gym-bag/` introduces four features as lettered sub-headings under
@@ -447,6 +466,60 @@ Thai, and add the missing punctuation after "bag".
 
 **In the rebuild:** reproduced exactly as published, run-together sentence and
 all.
+
+### 38. Document outline breaks: half a post sits under a heading it has nothing to do with — SEO, CONTENT — Medium
+
+`/muay-thai-fighting-stance/` has six H2 sections. After the last one, "How
+Fighters Use Their Stance in Real Matches", the post keeps going for another
+eight sections — but every one of them is an H3, so as far as any machine
+reading the page is concerned they are all subsections of "How Fighters Use
+Their Stance in Real Matches":
+
+| Section | Level published | What it actually is |
+|---|---|---|
+| Who We Are | H3 | About the business |
+| Get in Touch With Sixth Sense MMA | H3 | Contact CTA |
+| Customer reviews | H3 | Testimonials |
+| Why Choose Sixth Sense MMA? | H3 | Sales section |
+| Expert Coaches | H3 | Sub-point of "Why Choose" |
+| Beginner to Pro Friendly | H3 | Sub-point of "Why Choose" |
+| Stance-Focused Training | H3 | Sub-point of "Why Choose" |
+| Supportive Community | H3 | Sub-point of "Why Choose" |
+
+Two separate problems are visible in that table. The whole brand-and-reviews
+block hangs off an unrelated article section, and the four "Why Choose"
+sub-points sit at the *same* level as the heading they belong to, so nothing in
+the markup says they are its sub-points.
+
+**Two more markup slips in the same block:**
+
+- **One `<blockquote>` wraps the entire section.** It opens at the first review
+  and does not close until after "Supportive Community", so it swallows the
+  three reviews, the "Why Choose Sixth Sense MMA?" heading, its four
+  sub-headings, their paragraphs *and* a table. A blockquote means "this is a
+  quotation from elsewhere"; a heading and a table are not a quotation.
+- **A table with one row and an empty cell, used as a text box.** Under "Expert
+  Coaches" there is a one-row, two-column table whose first cell holds a
+  sentence ("Train under experienced Muay Thai professionals…") and whose second
+  cell is empty. It is a sentence in a box, not tabular data. Screen readers
+  announce it as a table and offer to navigate its (non-existent) columns.
+
+**Why it matters:** the heading outline is how search engines and screen readers
+work out what a page is about and how it is organised. An outline that says
+"Who We Are" is part of "How Fighters Use Their Stance in Real Matches" is
+telling them something untrue about half the page, and the "Why Choose" section
+loses the structure that would let a reader skim its four selling points.
+
+**What to do:** promote "Who We Are", "Get in Touch", "Customer reviews" and
+"Why Choose Sixth Sense MMA?" to H2, drop the four sub-points to H3 beneath the
+last of them, delete the stray blockquote, and replace the one-row table with an
+ordinary paragraph.
+
+**In the rebuild:** the outline is reproduced exactly as published — nothing was
+promoted or demoted — because the brief is a faithful replica. The blockquote is
+unwrapped and its children kept (the site has no blockquote styling, so it would
+render as an ordinary block anyway), and the one-row table is kept as a table but
+left without an invented header row.
 
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
@@ -558,7 +631,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 47
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 48
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -701,6 +774,28 @@ Google then has to pick one and ranks all of them weaker.
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
+| **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
+
+**The Muay Thai stance pair is the clearest case on the site, alongside the two
+Martial Arts Classes posts (issue 24), and carries the same HIGH priority.**
+`/muay-thai-stance/` ("Master the Perfect Muay Thai Stance for Victory") and
+`/muay-thai-fighting-stance/` ("Muay Thai Fighting Stance Training Easy Drills
+to Improve Your Form") are not two angles on a topic; they are the same article
+written twice. Both open by defining the stance, both cover foot placement,
+weight distribution, guard position, orthodox versus southpaw, common mistakes
+and drills. Someone searching "muay thai stance" and someone searching "muay
+thai fighting stance" want the same page, and Google has to choose between two
+of them.
+
+The newer post even links to the older one — "specialize in Muay Thai" points at
+`/muay-thai-stance/` — which tells Google the two are related without telling it
+which one to rank.
+
+**What to do about this pair:** keep one URL, merge anything unique from the
+other into it, and 301-redirect the retired URL to the survivor. `/muay-thai-
+stance/` is the shorter, cleaner URL and the older post, so it is the natural
+survivor unless the analytics say otherwise. Do not simply delete the loser: a
+301 keeps whatever links and ranking history it has.
 
 **What to do:** for each group, pick one page to rank, and merge or clearly
 separate the others. Blog posts about classes should link to the program page
@@ -755,13 +850,14 @@ meaning.
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
-**Three posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
+**Four posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
 Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
-*Martial arts*, and `/muay-thai-weight-classes/` links "ONE Championship" to
-*ONE Championship*. In each the anchor text and the destination match, and the
-target is a real article rather than a disambiguation list. Three out of the
-twenty-one across 41 posts, which shows the rest could have been done the same way
-rather than needing to be removed.
+*Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
+*ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
+*Muay Thai*. In each the anchor text and the destination match, and the target is
+a real article rather than a disambiguation list. Four out of the twenty-two
+across 42 posts, which shows the rest could have been done the same way rather
+than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
 word inside the final FAQ answer, always pointing at a Wikipedia disambiguation
@@ -1007,6 +1103,17 @@ But seven posts now carry filenames describing another post's subject, which
 makes the media library hard to manage and tells search engines the wrong
 subject for those images.
 
+**Three images still carrying Canva's default name.** All three images on
+`/muay-thai-fighting-stance/` are uploaded as `Add-a-subheading`:
+`Add-a-subheading-2-1024x536.png` (the featured image),
+`Add-a-subheading-4-1-1024x536.png` and `Add-a-subheading-1024x536.png`. That is
+Canva's placeholder design name, saved and uploaded unchanged. The numbering
+also runs out of order — the featured image is "-2", the second is "-4-1" and
+the third has no number at all — which suggests more files in the same series
+exist in the media library under the same name. A filename is one of the few
+parts of an image a search engine can read, and "Add a subheading" says nothing
+about Muay Thai.
+
 **A whole post built from another post's uploads.** Every image on
 `/muay-thai-backpack/` — the featured image and both in-article images — is
 served from the `Muay-Thai-Gym-Bag` series: `Muay-Thai-Gym-Bag-5`,
@@ -1027,7 +1134,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 47 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 48 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **51 pages**: the homepage, the 5 program pages and all 45 blog
+live HTML of **52 pages**: the homepage, the 5 program pages and all 46 blog
 posts.
 
 Each issue is tagged:
@@ -21,23 +21,23 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 51 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 51 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 52 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 52 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
-| 5 | Internal links pointing at the wrong post | SEO | 3 | High |
+| 5 | Internal links pointing at the wrong post | SEO | 4 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
 | 7 | Near-duplicate posts competing for the same searches | SEO | 21 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 24 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 25 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 3 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 12 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 13 | Low |
 | 18 | Image alt text typos | SEO | 2 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -53,14 +53,14 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
 | 32 | Testimonials that cannot be verified | CONTENT | 7 | Low — for the client to decide |
-| 33 | The brand name written four different ways | CONTENT, SEO | 3 | Medium |
+| 33 | The brand name written four different ways | CONTENT, SEO | 4 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 3 | **High — client must confirm** |
-| 40 | Seven invisible links carrying ChatGPT tracking parameters | SEO, ACCESSIBILITY, CONTENT | 1 | **High** |
+| 40 | Invisible and broken link markup (empty anchors, ChatGPT tracking parameters) | SEO, ACCESSIBILITY, CONTENT | 2 | **High** |
 
 **40 issues in total.**
 
@@ -70,7 +70,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 51 pages checked contains a block of links to French online
+Every one of the 52 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -80,7 +80,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 51 pages checked — homepage, all 5 program pages, all 45 posts.
+**Affected:** all 52 pages checked — homepage, all 5 program pages, all 46 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -103,7 +103,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 51 pages. It appears twice on the homepage and on each blog
+**Affected:** all 52 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -186,6 +186,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
 | `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
 | `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
@@ -243,7 +244,15 @@ mma"**, in bold, in the first sentence under the second of them: "At **sixth
 sense mma**, we care about quality, comfort, and your training needs." The
 lowercase form is the emphasised text directly below a correctly-cased heading.
 
-**What to do:** correct every instance to "Sixth Sense MMA" on all three posts, and
+**A fourth post, where the brand is also the broken link.** On
+`/is-wrestling-a-martial-art/` the Contact Us paragraph reads "Reach out to us
+today via **sixth sense mma** to explore our classes" — lowercase, and
+underlined with a `<u>` tag so it looks like a link. It is not one: the actual
+`<a>` next to it wraps a single non-breaking space (see issue 40), so the
+underlined brand name is unclickable and the real link is invisible. The post
+gets the name right eight other times.
+
+**What to do:** correct every instance to "Sixth Sense MMA" on all four posts, and
 check the rest of the site for the same slip — image alt text included, since
 two of these hide there. Note the site also alternates between "Sixth Sense MMA"
 and "Sixth Sense Martial Arts" elsewhere; settling on one form for body copy
@@ -653,7 +662,7 @@ pages themselves are faithful copies.
 "Learn Legal, Controlled Knife Usage" and "Disengagement & Legal De-escalation"
 are claims about what the law permits, made without naming a state.
 
-### 40. Seven invisible links carrying ChatGPT tracking parameters — SEO, ACCESSIBILITY, CONTENT — High
+### 40. Invisible and broken link markup — SEO, ACCESSIBILITY, CONTENT — High
 
 `/martial-blade-concepts/` contains seven `<a>` elements whose entire anchor
 text is a single non-breaking space. Nothing is visible on the page: no word, no
@@ -710,6 +719,35 @@ text, same positions — because the brief is a faithful replica. Each one is
 given `rel="noopener"` and an `aria-label` naming its destination, so a screen
 reader at least announces where it goes. The FAQ is reproduced verbatim,
 Blade questions and all.
+
+---
+
+**A second page with the same empty-anchor bug, without the tracking
+parameters.** `/is-wrestling-a-martial-art/` has one link whose anchor text is a
+single non-breaking space, in its Contact Us paragraph:
+
+> Reach out to us today via`<a href="https://sixthsensemma.com/"> </a>``<u>sixth
+> sense mma</u>` to explore our classes…
+
+The link wraps the space *before* the brand name; the brand name itself is
+wrapped in `<u>`, which underlines it without linking it. So the page shows an
+underlined phrase that cannot be clicked, next to a clickable gap that cannot be
+seen. A reader trying to reach the contact page clicks the underlined words and
+nothing happens.
+
+**Two links where one word should be.** On the same post, "martial art" and its
+final "s" are two separate `<a>` elements pointing at the same URL, so the word
+"martial arts" is split across two links in the markup. It looks right on screen
+but it is two links, and the second one's entire text is the letter **s**.
+
+**What to do:** move the link onto the words — `<a href="/contact/">Sixth Sense
+MMA</a>` — delete the `<u>`, and merge the two "martial art"/"s" anchors into
+one. There are no tracking parameters on this post, so this is a markup fix
+rather than the three-part problem above.
+
+**In the rebuild:** both are reproduced as published. The empty anchor keeps its
+non-breaking space and is given an `aria-label` naming its destination; the
+split "s" link is left split.
 
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
@@ -842,7 +880,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 51
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 52
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -953,6 +991,7 @@ Link text names one post, but the link goes to a different one.
 | `/martial-arts-karate-gi/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` (the post with that title) |
 | `/nogi-brazilian-jiu-jitsu/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
 | `/japanese-martial-arts-sign/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
+| `/is-wrestling-a-martial-art/` | "wrestling" | `/martial-arts-kali-stick-2/` | a post about wrestling — there isn't one, so the link should not be there |
 
 On the Japanese post, the Boxers post becomes unreachable from that page, and
 both links on it lead to the same place.
@@ -1082,6 +1121,7 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
+· `/is-wrestling-a-martial-art/` "strength" → *Strength*, the **same disambiguation page** already linked from `/kick-boxing-bag/` and `/muay-thai-vs-mma/`. Three posts now send readers to one disambiguation list from the same single word
 · `/martial-blade-concepts/` "reliability" (FAQ: "built for real situations where speed and **reliability** matter most") → *Reliability*, a Wikipedia disambiguation page covering engineering, statistics, psychometrics and computer networking. The link also swallows the leading space, so the underline starts before the word
 · `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
@@ -1091,8 +1131,8 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Four out of the twenty-four
-across 45 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Four out of the twenty-five
+across 46 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1388,7 +1428,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 51 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 52 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

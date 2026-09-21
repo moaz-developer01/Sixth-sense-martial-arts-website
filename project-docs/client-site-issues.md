@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **49 pages**: the homepage, the 5 program pages and all 43 blog
+live HTML of **50 pages**: the homepage, the 5 program pages and all 44 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 49 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 49 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 50 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 50 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -38,7 +38,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 15 | Duplicated headings | SEO, CONTENT | 3 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
 | 17 | Spelling errors and garbled headings | CONTENT | 12 | Low |
-| 18 | Image alt text typo | SEO | 1 | Low |
+| 18 | Image alt text typos | SEO | 2 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
@@ -52,15 +52,16 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 5 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 6 | Low — for the client to decide |
 | 33 | The brand name written four different ways | CONTENT, SEO | 3 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
+| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy) | 2 | **High — client must confirm** |
 
-**38 issues in total.**
+**39 issues in total.**
 
 ---
 
@@ -68,7 +69,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 49 pages checked contains a block of links to French online
+Every one of the 50 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -78,7 +79,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 49 pages checked — homepage, all 5 program pages, all 43 posts.
+**Affected:** all 50 pages checked — homepage, all 5 program pages, all 44 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -101,7 +102,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 49 pages. It appears twice on the homepage and on each blog
+**Affected:** all 50 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -430,6 +431,21 @@ initial follow the same pattern as the Sambo set.
 **In the rebuild:** reproduced exactly, ellipses and all, with no attempt to
 complete the quotes and no Review schema.
 
+**A sixth set, on `/martial-arts-kali-sticks/`.** Four testimonials, each with a
+headline and a first name or an initial — Ayaan Malik, Sarah K., Junaid R. and
+Aliya N. Static text again, no stars, no dates, no review platform behind them.
+The markup is inconsistent even within the section: each name sits in a
+`<blockquote>`, but two of the four quotations are inside that blockquote with
+the name and the other two are ordinary paragraphs after it, so identical-looking
+testimonials are marked up two different ways on one page.
+
+These matter more than the others because of issue 39: they are testimonials
+about Kali instruction, on a page advertising Kali classes.
+
+**In the rebuild:** all four are reproduced word for word, with no Review schema.
+The blockquotes are unwrapped and their children kept, as on the other posts,
+because the site has no blockquote styling.
+
 ### 36. A four-letter acronym that spells nothing — CONTENT — Low
 
 `/muay-thai-gym-bag/` introduces four features as lettered sub-headings under
@@ -538,6 +554,55 @@ promoted or demoted — because the brief is a faithful replica. The blockquote 
 unwrapped and its children kept (the site has no blockquote styling, so it would
 render as an ordinary block anyway), and the one-row table is kept as a table but
 left without an invented header row.
+
+### 39. Posts advertising classes and certified instructors the gym may not have — CONTENT (accuracy) — High, the client must confirm before this goes live
+
+Two posts read as service pages for disciplines that are not among the gym's
+five programs (Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ, Teen Muay Thai).
+They do not describe the art in general terms; they state, in the present tense,
+that Sixth Sense MMA teaches it.
+
+**`/martial-arts-kali-sticks/`** is built as a sales page for Kali classes. Its
+first H2 is "Why Choose Sixth Sense MMA for Kali Stick Training", and under it:
+
+| Heading or claim | What it tells a reader |
+|---|---|
+| "Certified and Experienced Kali Instructors" | The gym employs instructors certified in Kali |
+| "Structured Class Curriculum for All Levels" | There is a written Kali curriculum, beginner to advanced |
+| "Small Class Sizes for Personalized Attention" | Kali classes run, and have a class size |
+| "Martial Arts Programs by Age Group" | A table listing Kali under "16+ Years — Adult Training (Kali, BJJ, Muay Thai)" |
+| "Sparring and Controlled Contact for Advanced Students" | There are advanced Kali students |
+| "Open Mat Days & Small Group Instruction" | Scheduled Kali sessions |
+
+It also carries four testimonials from people describing their Kali training at
+the gym (issue 32), and a "Get in Touch with Sixth Sense MMA" section inviting
+the reader to "book a free trial".
+
+**`/sambo-martial-art/`** does the same for Sambo: "our **Sambo programs** are
+designed to sharpen your reflexes", "Sixth Sense MMA provides **expert Sambo
+training with highly qualified instructors**", and five testimonials about
+Sambo training at the gym.
+
+**Why it matters:** these are not marketing adjectives, they are checkable
+statements about what a business sells and who it employs. If the gym does not
+teach Kali or Sambo, a visitor can book a free trial for a class that does not
+exist, and "certified instructors" is a claim about credentials. That is a
+consumer-protection problem before it is an SEO one, and the testimonials make
+it worse, because they describe a service being received.
+
+**What to do — the client must answer first:**
+
+1. Does Sixth Sense MMA run Kali classes? Sambo classes?
+2. If yes: add them to the programs list and the schedule, and be able to name
+   the certifying body behind "certified Kali instructors".
+3. If no: rewrite both posts as what they actually are — articles about the
+   art — and remove every first-person service claim, the age-group programs
+   table, the free-trial invitation and the testimonials.
+
+**In the rebuild:** every claim is reproduced word for word, exactly as
+published. Nothing was softened, removed or qualified, and the build fails if
+any of the three headline claims is altered. This issue is the flag; the page
+itself is a faithful copy.
 
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
@@ -649,7 +714,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 49
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 50
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -759,9 +824,20 @@ Link text names one post, but the link goes to a different one.
 | `/japanese-martial-arts-sign/` | "What Martial Art Destroys Boxers? Comparing Fighting Techniques for Ultimate Dominance" | `/best-martial-arts/` | `/what-martial-art-destroys-boxers/` |
 | `/martial-arts-karate-gi/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` (the post with that title) |
 | `/nogi-brazilian-jiu-jitsu/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
+| `/japanese-martial-arts-sign/` | "Martial Arts Kali Sticks: Techniques, History, and Benefits" | `/martial-arts-kali-sticks/` | `/martial-arts-kali-stick-2/` |
 
 On the Japanese post, the Boxers post becomes unreachable from that page, and
 both links on it lead to the same place.
+
+So **three** posts use the `-2` post's exact title as link text and send the
+reader to the other Kali post instead. The result is that
+`/martial-arts-kali-stick-2/` — the post whose title they are quoting — is
+linked from nowhere on the site.
+
+**In the rebuild:** the three links point where the live site points them, at
+`martial-arts-kali-sticks.html`, because the brief is a faithful replica. Fixing
+the link text (or the target) is the client's call, and it should be settled at
+the same time as the merge in issue 6, which would make the question moot.
 
 ### 6. Two separate Kali Sticks posts — SEO — High
 
@@ -773,8 +849,19 @@ Two different posts cover the same topic, and one has a leftover `-2` in its URL
 They compete for the same searches. As issue 5 shows, the site's own links
 already confuse them.
 
+**Now confirmed by reading both posts in full.** They are not two angles on one
+subject: both open by defining Kali and Filipino stick fighting, both list the
+drills (Sinawali and the rest), both cover benefits, who should train, and both
+close with a Sixth Sense MMA sales section. The newer one even links to itself
+in its own closing paragraph. This is the **fourth confirmed duplicate pair** on
+the site, alongside the two Martial Arts Classes posts (issue 24), the two Muay
+Thai stance posts and the Best Martial Arts pair, and it carries the same
+**HIGH** priority.
+
 **What to do:** merge them into one post and redirect the other URL to it with
-a 301.
+a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
+site's own three internal links already point at, and the `-2` suffix on the
+other is a WordPress artefact that should not be a public URL in any case.
 
 ### 7. Near-duplicate posts competing for the same searches — SEO — High
 
@@ -785,7 +872,7 @@ Google then has to pick one and ranks all of them weaker.
 |---|---|
 | Best martial arts for self-defense | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` |
 | BJJ belts and rank progression | `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` |
-| Kali sticks | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
 | Martial arts for kids | `/martial-arts-for-kids/` · `/kids-bjj-classes/` (program page) |
@@ -876,7 +963,7 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
 a real article rather than a disambiguation list. Four out of the twenty-three
-across 43 posts, which shows the rest could have been done the same way rather
+across 44 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -984,6 +1071,13 @@ Three images are described as "**marble** arts for kids" instead of "martial
 arts for kids". Alt text is read by screen readers and used by image search.
 
 **Affected:** `/martial-arts-for-kids/`, on 3 of its 4 images.
+
+**A stray letter on another:** the featured image of `/martial-arts-kali-sticks/`
+has the alt text "**z**Martial Arts Kali Sticks" — a keystroke left at the front
+of the description. It is the first image on the page and the one used for
+social sharing.
+
+**In the rebuild:** reproduced exactly, stray "z" included.
 
 ### 19. Duplicate WordPress tags — SEO — Low
 
@@ -1157,7 +1251,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 49 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 50 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

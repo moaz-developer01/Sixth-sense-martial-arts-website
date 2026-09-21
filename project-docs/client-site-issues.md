@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **48 pages**: the homepage, the 5 program pages and all 42 blog
+live HTML of **49 pages**: the homepage, the 5 program pages and all 43 blog
 posts.
 
 Each issue is tagged:
@@ -21,28 +21,28 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 48 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 48 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 49 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 49 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 19 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 21 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 22 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 23 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
-| 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
+| 15 | Duplicated headings | SEO, CONTENT | 3 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
 | 17 | Spelling errors and garbled headings | CONTENT | 12 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
-| 22 | "H2:" formatting marker left in a visible heading | CONTENT, SEO | 1 | Medium |
+| 22 | Editing notes left inside visible headings | CONTENT, SEO | 2 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
@@ -68,7 +68,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 48 pages checked contains a block of links to French online
+Every one of the 49 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -78,7 +78,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 48 pages checked — homepage, all 5 program pages, all 42 posts.
+**Affected:** all 49 pages checked — homepage, all 5 program pages, all 43 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -101,7 +101,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 48 pages. It appears twice on the homepage and on each blog
+**Affected:** all 49 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -282,7 +282,7 @@ The weight column has a gap too: A0 ends at 120 lbs and A1 starts at 125 lbs, so
 the weight gap, and consider a note that sizes vary by brand, so readers should
 check the maker's own chart.
 
-### 22. "H2:" formatting marker left in a visible heading — CONTENT, SEO — Medium
+### 22. Editing notes left inside visible headings — CONTENT, SEO — Medium
 
 A heading reads, on the page, **"H2: Picking the Most Suitable Martial Arts
 Class"**. The "H2:" is a formatting note from the draft, meaning "make this a
@@ -295,6 +295,24 @@ Class" section.
 **What to do:** delete "H2: " from the heading. Because this suggests the post
 was pasted from an outline, check the other posts for leftover markers such as
 "H2:", "H3:" or "Table" (see issue 13).
+
+**A second one: "(Bullet Points)".** On `/muay-thai-vs-mma/`, a published
+heading reads **"New Skills to Learn (Bullet Points)"**. "(Bullet Points)" is a
+note to whoever was writing the section — *put this part in bullets* — and it
+was never deleted. It sits directly beneath a heading that already says "New
+Skills to Learn", so the page carries the same heading twice in a row, the
+second time with the instruction still attached:
+
+> ### New Skills to Learn
+> …
+> ### New Skills to Learn (Bullet Points)
+
+Same cause as the "H2:" marker above — an outline pasted in and published
+without a read-through — and it confirms the check suggested there is worth
+doing across the site.
+
+**What to do:** delete "(Bullet Points)" and merge the two sections, or give the
+second one a heading that says what it actually covers.
 
 ### 25. YouTube video that never loads, bare link shown instead — CONTENT — Medium
 
@@ -631,7 +649,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 48
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 49
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -775,6 +793,7 @@ Google then has to pick one and ranks all of them weaker.
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
+| Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
 
 **The Muay Thai stance pair is the clearest case on the site, alongside the two
 Martial Arts Classes posts (issue 24), and carries the same HIGH priority.**
@@ -848,6 +867,7 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
+· `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
 **Four posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
@@ -855,8 +875,8 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Four out of the twenty-two
-across 42 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Four out of the twenty-three
+across 43 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -899,6 +919,9 @@ The same heading text is repeated inside a single post.
 
 **`/kick-boxing-gloves/`** — "Factors to Consider When Choosing Kick boxing
 Gloves" appears twice.
+
+**`/muay-thai-vs-mma/`** — "New Skills to Learn" appears twice in a row, the
+second time as "New Skills to Learn (Bullet Points)" (see issue 22).
 
 ### 16. Empty headings — SEO — Low
 
@@ -1134,7 +1157,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 48 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 49 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

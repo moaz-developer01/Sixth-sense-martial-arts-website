@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **46 pages**: the homepage, the 5 program pages and all 40 blog
+live HTML of **47 pages**: the homepage, the 5 program pages and all 41 blog
 posts.
 
 Each issue is tagged:
@@ -21,8 +21,8 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 46 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 46 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 47 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 47 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post | SEO | 3 | High |
@@ -30,14 +30,14 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 17 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 21 | Medium |
+| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 22 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; New York and Thailand tags elsewhere | GEOGRAPHIC TARGETING | 2 | High |
 | 15 | Duplicated headings | SEO, CONTENT | 2 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 10 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 11 | Low |
 | 18 | Image alt text typo | SEO | 1 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -46,19 +46,20 @@ still needs to act on the live WordPress site, most urgently the first two.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 10 | Low |
+| 26 | Poor image filenames: reused, duplicated by extension, or a bare number | CONTENT (asset management) | 11 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, a misspelling | SEO | 5 | Low |
 | 31 | Self-defence legal claims with no jurisdiction or disclaimer | CONTENT | 1 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 3 | Low — for the client to decide |
-| 33 | The brand name written four different ways | CONTENT, SEO | 2 | Medium |
+| 32 | Testimonials that cannot be verified | CONTENT | 4 | Low — for the client to decide |
+| 33 | The brand name written four different ways | CONTENT, SEO | 3 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
+| 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 
-**36 issues in total.**
+**37 issues in total.**
 
 ---
 
@@ -66,7 +67,7 @@ still needs to act on the live WordPress site, most urgently the first two.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 46 pages checked contains a block of links to French online
+Every one of the 47 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -76,7 +77,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 46 pages checked — homepage, all 5 program pages, all 40 posts.
+**Affected:** all 47 pages checked — homepage, all 5 program pages, all 41 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -99,7 +100,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 46 pages. It appears twice on the homepage and on each blog
+**Affected:** all 47 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -182,6 +183,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
 | `/jiu-jitsu-guard-position/` | Six parallel section headings, but only two have a separator: "Open Guard **–** Mobility and Grip Strategy" and "Guard Retention Techniques **–** How to Keep Your Guard Strong" have an en dash, while "Closed Guard Classic Control and Attacks" and "Butterfly Guard Dynamic Sweeps and Control" have nothing, and "Half Guard&nbsp; Balance of Defense and Offense" and "Guard in MMA vs BJJ&nbsp; Key Differences" have a leftover double space (a non-breaking space) where the dash was deleted. Several of its sub-headings are also sentences or uncapitalised questions ("Guard vs top position who really has the advantage?", "Common open-guard grips include collars, sleeves, and pants.") |
 
@@ -230,7 +232,14 @@ So across these two posts the business name appears as "sixth sense mma",
 "sixthsensemma", "sixthsense mma" and "Sixth Sense MMA", with the wrong forms in
 section headings both times.
 
-**What to do:** correct every instance to "Sixth Sense MMA" on both posts, and
+**A third post, mixing two spellings in three lines.** `/muay-thai-backpack/`
+gets the name right in both of its headings — "Contact Sixth Sense MMA – We're
+Here to Help" and "Why Choose Sixth Sense MMA?" — then writes it **"sixth sense
+mma"**, in bold, in the first sentence under the second of them: "At **sixth
+sense mma**, we care about quality, comfort, and your training needs." The
+lowercase form is the emphasised text directly below a correctly-cased heading.
+
+**What to do:** correct every instance to "Sixth Sense MMA" on all three posts, and
 check the rest of the site for the same slip — image alt text included, since
 two of these hide there. Note the site also alternates between "Sixth Sense MMA"
 and "Sixth Sense Martial Arts" elsewhere; settling on one form for body copy
@@ -366,6 +375,24 @@ weaker than saying nothing.
 Review schema. The names are rendered as paragraphs rather than blockquotes,
 because the site has no blockquote styling and adding some would mean new CSS.
 
+**A fourth set, on `/muay-thai-backpack/`, with nobody's name on it.** The
+"Customer Reviews" section holds three reviews, and the line above each one is
+not a person but a product: "Fairtex Backpack (AB1) – Best for Daily Training",
+"Venum Challenger Pro Evo – Great for Gym & Work" and "Hayabusa Ryoko
+Duffel-Backpack – Ideal Hybrid Gear Bag". The reviews are written in the first
+person — "I use this bag for daily training", "I've used it during travel and
+long gym days" — but no reviewer is named anywhere, so the section reads as the
+business reviewing products in an unnamed individual's voice. No stars, no
+dates, no link to a review platform. The markup is inside out in the same way as
+the gym bag post: the product name sits alone in a `<blockquote>` and the review
+itself is an ordinary paragraph after it.
+
+Worth noting separately: these are favourable reviews of three other brands'
+products on a page that closes by asking the reader to buy from Sixth Sense MMA.
+
+**In the rebuild:** the three reviews are reproduced word for word, with no
+reviewer names invented, no stars added and no Review schema.
+
 ### 36. A four-letter acronym that spells nothing — CONTENT — Low
 
 `/muay-thai-gym-bag/` introduces four features as lettered sub-headings under
@@ -389,6 +416,37 @@ plain sub-headings.
 
 **In the rebuild:** the letters are reproduced in the published order, A G S R,
 and the build fails if that order changes.
+
+### 37. Two paragraphs run together, and a Muay Thai post that closes about MMA — CONTENT — Low
+
+The Conclusion on `/muay-thai-backpack/` is one paragraph with two conclusions
+jammed into it, no space at the join:
+
+> …helps you stay ready for every session. Train smart and stay
+> prepared!**The** right MMA backpack is more than just a bag it's an essential
+> part of your training gear…
+
+Two drafts of the same closing appear to have been pasted one after the other:
+the first four sentences finish the article, then it starts finishing it again.
+The second half also drops a mark of punctuation — "just a bag it's an essential
+part" needs a dash, comma or full stop after "bag".
+
+The subject changes at the same join. The post is about **Muay Thai** backpacks
+throughout — the title, the H1 and all nine sections — and the closing half
+talks about an "**MMA** backpack" and lists "gloves, wraps, rash guards, shoes",
+which is a grappling and MMA kit list rather than a Muay Thai one: no shin
+guards, and rash guards are not Muay Thai gear. It reads as a conclusion written
+for a different post.
+
+**Why it matters:** the conclusion is the last thing a reader sees and a common
+source of search snippets. A visible run-together typo and a switch of subject
+cost more there than they would mid-article.
+
+**What to do:** delete one of the two closings, keep the one that is about Muay
+Thai, and add the missing punctuation after "bag".
+
+**In the rebuild:** reproduced exactly as published, run-together sentence and
+all.
 
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
@@ -500,7 +558,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 46
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 47
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -695,13 +753,14 @@ meaning.
 · `/muay-thai-training/` "discipline" → *Discipline*, a Wikipedia disambiguation page covering academic fields and punishment, neither of which is the martial-arts sense meant here
 · `/muay-thai-muay-boran/` "energy" → *Energy*, the physics article; the sentence is about a fighter's energy, not joules
 · `/muay-thai-gym-bag/` "passion" → *Passion*, a Wikipedia disambiguation page listing films, albums and the Passion of Jesus
+· `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
 **Three posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
 Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, and `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*. In each the anchor text and the destination match, and the
 target is a real article rather than a disambiguation list. Three out of the
-twenty across 39 posts, which shows the rest could have been done the same way
+twenty-one across 41 posts, which shows the rest could have been done the same way
 rather than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -948,16 +1007,27 @@ But seven posts now carry filenames describing another post's subject, which
 makes the media library hard to manage and tells search engines the wrong
 subject for those images.
 
+**A whole post built from another post's uploads.** Every image on
+`/muay-thai-backpack/` — the featured image and both in-article images — is
+served from the `Muay-Thai-Gym-Bag` series: `Muay-Thai-Gym-Bag-5`,
+`Muay-Thai-Gym-Bag-3` and `Muay-Thai-Gym-Bag-4`. The three files are genuinely
+different pictures (checked byte for byte against the three used on
+`/muay-thai-gym-bag/` — no two are the same file), so this is a naming problem
+rather than duplicated content. But the filename is one of the few parts of an
+image a search engine can read, and all three tell it "gym bag" on a post about
+backpacks — two posts that already sit close enough together in search to be
+worth keeping distinct.
+
 **What to do:** a housekeeping item. Name each upload after the post and the
-section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands and
-Sambo images with descriptive names; avoid two files that differ only by
-extension, and never leave an upload named as a bare number.
+section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
+Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
+differ only by extension, and never leave an upload named as a bare number.
 
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 46 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 47 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

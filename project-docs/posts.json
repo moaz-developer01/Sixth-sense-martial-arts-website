@@ -357,5 +357,12 @@
     "image": "images/mma-styles-01.jpg",
     "date": "2025-07-11T22:48:12+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "kickboxing-techniques",
+    "title": "Top 9 Kickboxing Techniques Every Fighter Must Know",
+    "image": "images/kb-techniques-01.png",
+    "date": "2025-07-12T14:32:15+00:00",
+    "category": "Martial Arts"
   }
 ]

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **56 pages**: the homepage, the 5 program pages and all 50 blog
+live HTML of **57 pages**: the homepage, the 5 program pages and all 51 blog
 posts.
 
 Each issue is tagged:
@@ -22,16 +22,16 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 56 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 56 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 57 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 57 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
-| 5 | Internal links pointing at the wrong post, one at a wp-admin screen | SEO | 6 | High |
+| 5 | Internal links pointing at the wrong post, two at wp-admin screens | SEO | 7 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
 | 7 | Near-duplicate posts competing for the same searches | SEO | 23 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound Wikipedia links to unrelated pages | SEO, CONTENT | 26 | Medium |
+| 10 | Outbound links to unrelated or weak sources | SEO, CONTENT | 28 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
@@ -53,7 +53,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, misspellings | SEO | 6 | Low |
 | 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 11 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 12 | Low — for the client to decide |
 | 33 | The brand name written five different ways | CONTENT, SEO | 8 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -64,8 +64,11 @@ issue 40, which is now sending link equity to a competing gym.
 | 40 | Invisible ChatGPT citation links, one of them to a competing gym | SEO, ACCESSIBILITY, CONTENT | 4 posts, 11 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as H2 section headings, competing with the page's own FAQ | SEO, CONTENT | 1 | Medium |
+| 43 | A broken image: the page links a file that is not in the media library | CONTENT | 1 | Medium |
+| 44 | The same topic published under two URL spellings, kick-boxing and kickboxing | SEO | 4 | Medium |
+| 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 
-**42 issues in total.**
+**45 issues in total.**
 
 ---
 
@@ -73,7 +76,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 56 pages checked contains a block of links to French online
+Every one of the 57 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -83,7 +86,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 56 pages checked — homepage, all 5 program pages, all 50 posts.
+**Affected:** all 57 pages checked — homepage, all 5 program pages, all 51 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -106,7 +109,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 56 pages. It appears twice on the homepage and on each blog
+**Affected:** all 57 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -501,6 +504,17 @@ about Kali instruction, on a page advertising Kali classes.
 **In the rebuild:** all four are reproduced word for word, with no Review schema.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
+
+**A twelfth set, on `/kickboxing-techniques/`, and the longest yet.** Ten
+testimonials under "What Our Students Say" — Aiden M., Jasmin T., Khalid R.,
+Mark B., Sophie H., Leo W., Daniella K., Rahim U., Emily Z. and Andre L. Each is
+one sentence, each signed with a first name and an initial, none carries a date,
+a rating, a city or a link to any review platform. Ten unverifiable quotations in
+a row is more than any other post on the site, and quantity works against them:
+one anonymous testimonial reads as a testimonial, ten in identical format read as
+a list someone wrote in one sitting.
+
+**In the rebuild:** all ten are reproduced word for word, with no Review schema.
 
 **An eleventh set, on `/mma-fighting-styles/`, published under the heading "Real
 Reviews".** Six of them — Umar A., Hamza R., Sana M., Zeeshan L., Rabia F. and
@@ -1058,6 +1072,97 @@ reading order.
 **In the rebuild:** all five stay H2s, exactly as published, and so appear in
 the table of contents.
 
+### 43. A broken image: the page links a file that is not in the media library — CONTENT — Medium
+
+`/kickboxing-techniques/` has four `<img>` tags. Three load. The fourth, between
+the "9-Uppercut" section and "Kickboxing Footwork Techniques", points at
+
+```
+https://sixthsensemma.com/wp-content/uploads/2025/07/Uppercut-1024x536.jpg
+```
+
+which returns **404 Not Found**. The file is not in the media library at that
+path, under that name, or at the un-resized `Uppercut.jpg`. The live page
+therefore renders a broken image placeholder, or a blank gap, depending on the
+browser — in the middle of the article, directly under the last of the nine
+numbered techniques.
+
+The tag itself looks normal: `class="wp-image-4141"`, alt text "Uppercut by
+sixthsensemma.com", a title attribute. So the image was uploaded at some point
+and attachment 4141 was inserted into the post; the file behind it has since been
+deleted, renamed, or lost in a migration. Nobody has opened the page since.
+
+**Why it matters:** it is visible damage on a page that sells professional
+coaching, and it is the kind of thing a visitor notices immediately. It also
+wastes a request on every page load.
+
+**What to do:** re-upload the image, or delete the tag. Then check the media
+library for other attachments whose files are missing — if one went, others from
+the same batch may have gone with it. WordPress will not warn about this.
+
+**In the rebuild:** there are no bytes to copy, and pointing at a dead URL would
+publish the same broken image here, so **the tag was dropped** and this entry is
+the record of it. The other three images on the page are reproduced normally.
+This is the only place in the rebuild where something visible on the live page
+was deliberately left out, and it was left out because it is not visible on the
+live page either.
+
+### 44. The same topic published under two URL spellings — SEO — Medium
+
+Kickboxing is spelled two different ways in the site's own URLs:
+
+| URL | Title |
+|---|---|
+| `/kick-boxing-classes/` | Transform Your Fitness Journey with Kick Boxing Classes |
+| `/kick-boxing-gloves/` | The Best Kick boxing Gloves for Ultimate Performance |
+| `/kick-boxing-bag/` | Unleash Power: Top Kick Boxing Bag Picks |
+| `/kickboxing-techniques/` | Top 9 kickboxing techniques every fighter should master |
+
+Three hyphenated, one not. The word itself is inconsistent inside the titles too
+— "Kick Boxing", "Kick boxing" and "kickboxing" — which issue 17 already records
+for the headings.
+
+**Why it matters:** "kickboxing" as one word is what people search and what the
+sport is called; "kick boxing" as two is a much rarer spelling. Splitting a small
+site's coverage of one topic across two URL conventions means neither spelling
+accumulates the authority, internal links point at whichever form the writer
+remembered that day, and anyone auditing the site later has to check both.
+
+**What to do:** settle on **kickboxing**, one word, for every future URL, title
+and heading. Existing URLs are worth changing only with 301 redirects in place —
+the three hyphenated posts have been live long enough that the redirects matter
+more than the slugs do. At minimum, stop creating new ones in the other spelling
+and make the titles consistent, which costs nothing.
+
+### 45. A "Top 9" list that contains the same technique twice — CONTENT — Medium
+
+`/kickboxing-techniques/` promises nine techniques in its H1, numbers nine
+sections 1 to 9, and lists nine rows in its summary table. But **items 3 and 8
+are the same punch**:
+
+| # | Heading | Table row |
+|---|---|---|
+| 3 | "3-Hook Punch" | Hook Punch — "Horizontal arc, bent elbow" — Jaw, temple |
+| 8 | "8-Hook" | Hook — "Short-range, body rotation" — Head/body (close range) |
+
+A hook and a hook punch are one technique. The two sections describe it twice in
+different words, and the table repeats the duplication rather than catching it,
+so a reader who checks the table against the headings finds the same error in
+both places. The article delivers **eight** distinct techniques under a heading
+that says nine.
+
+**Why it matters:** the number is the promise the headline makes. A reader who
+counts finds the gym cannot count its own list, on a page whose subject is
+technical precision. It also wastes one of nine slots that could have covered a
+technique kickboxers actually need — the teep, the elbow, the check, the cross.
+
+**What to do:** merge sections 3 and 8 into one hook section, renumber, and add a
+ninth technique — or change the title to eight. The table has to be corrected at
+the same time.
+
+**In the rebuild:** both sections and both table rows are reproduced exactly as
+published.
+
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
 On `/muay-thai-weight-classes/` the H1 is published with the block editor's own
@@ -1189,7 +1294,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 56
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 57
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1311,6 +1416,7 @@ Link text names one post, but the link goes to a different one.
 | `/is-wrestling-a-martial-art/` | "wrestling" | `/martial-arts-kali-stick-2/` | a post about wrestling — there isn't one, so the link should not be there |
 | `/is-tai-chi-a-martial-art/` | "CONTACT US" (the red call-to-action button) | `/what-martial-art-destroys-boxers/` | the contact page |
 | `/mma-fighting-styles/` | "Muay Thai" | `/wp-admin/post.php?post=3729&action=edit` — **the WordPress editor**, not a page at all | the Muay Thai post |
+| `/kickboxing-techniques/` | "Mixed Martial Arts Training Gloves: Types, Use & Top Brands" | `/wp-admin/post.php?post=3385&action=edit` — the editor again, a different post id | `/mixed-martial-arts-training-gloves/` |
 
 On the Japanese post, the Boxers post becomes unreachable from that page, and
 both links on it lead to the same place.
@@ -1322,8 +1428,12 @@ editing screen for post 3729 — someone linked to the page they had open in
 another tab instead of to the published URL. For a visitor the link is broken:
 it bounces them to a WordPress login screen. It also publishes the admin path
 and an internal post ID, which is information a public page has no reason to
-carry. It is the only one of its kind found so far, but it is worth grepping the
-whole site for `wp-admin` before assuming that.
+carry. **It is not the only one.** `/kickboxing-techniques/` does the same thing with a
+different post id: the words "Mixed Martial Arts Training Gloves: Types, Use &
+Top Brands" link to `/wp-admin/post.php?post=3385&action=edit` instead of to the
+post whose title they quote. Two posts, two admin links, and both were found
+simply by reading the pages — so **grep the whole site for `wp-admin`** rather
+than fixing these two and assuming that is all of them.
 
 **The Tai Chi one is the worst of these**, because it is not a text link inside a
 paragraph but the page's main call-to-action button. A reader who has read to
@@ -1442,7 +1552,7 @@ show FAQ rich results for any of them.
 The twenty-six newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
-### 10. Outbound Wikipedia links to unrelated pages — SEO, CONTENT — Medium
+### 10. Outbound links to unrelated or weak sources — SEO, CONTENT — Medium
 
 Single words in answers are linked to Wikipedia articles that don't match the
 meaning.
@@ -1477,13 +1587,24 @@ meaning.
 · `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
-**Four posts get it right.** `/muay-thai-vs-kickboxing/` links "kickboxing" to
+**An outbound link to a Quora thread.** `/kickboxing-techniques/` links the words
+"side kick" to `quora.com/Is-the-back-kick-and-the-spinning-side-kick-the-same` —
+a user-generated Q&A thread, cited as the authority on the difference between two
+kicks, from a page whose own headline calls the gym's coaching professional. If
+the distinction is worth explaining, the gym's own coaches can explain it; if it
+needs a citation, it should not be an anonymous forum answer.
+
+**Five posts get it right.** `/kickboxing-techniques/` links the word
+"kickboxing." to Wikipedia's *Kickboxing* article — anchor and destination
+matching exactly, though the link swallows the full stop after the word, so the
+underline runs one character past the end of the sentence.
+`/muay-thai-vs-kickboxing/` links "kickboxing" to
 Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Four out of the twenty-six
-across 50 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Five out of the twenty-eight
+across 51 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1845,7 +1966,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 56 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 57 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **57 pages**: the homepage, the 5 program pages and all 51 blog
+live HTML of **58 pages**: the homepage, the 5 program pages and all 52 blog
 posts.
 
 Each issue is tagged:
@@ -22,11 +22,11 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 57 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 57 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 58 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 58 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
-| 5 | Internal links pointing at the wrong post, two at wp-admin screens | SEO | 7 | High |
+| 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
 | 7 | Near-duplicate posts competing for the same searches | SEO | 23 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
@@ -38,12 +38,12 @@ issue 40, which is now sending link equity to a competing gym.
 | 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 4 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 16 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 17 | Low |
 | 18 | Image alt text typos | SEO | 2 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
-| 22 | Editing notes left inside visible headings | CONTENT, SEO | 2 | Medium |
+| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 3 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
@@ -52,18 +52,18 @@ issue 40, which is now sending link equity to a competing gym.
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, misspellings | SEO | 6 | Low |
-| 31 | Self-defence and weapon-law claims with no jurisdiction or disclaimer | CONTENT | 2 | Medium — for the client to review |
-| 32 | Testimonials that cannot be verified | CONTENT | 12 | Low — for the client to decide |
-| 33 | The brand name written five different ways | CONTENT, SEO | 8 | Medium |
+| 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 3 | **High — liability** |
+| 32 | Testimonials that cannot be verified | CONTENT | 13 | Low — for the client to decide |
+| 33 | The brand name written six different ways | CONTENT, SEO | 9 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 5 | **High — client must confirm** |
-| 40 | Invisible ChatGPT citation links, one of them to a competing gym | SEO, ACCESSIBILITY, CONTENT | 4 posts, 11 links | **CRITICAL** |
+| 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 5 posts, 15 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
-| 42 | FAQ questions published as H2 section headings, competing with the page's own FAQ | SEO, CONTENT | 1 | Medium |
+| 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 2 | Medium |
 | 43 | A broken image: the page links a file that is not in the media library | CONTENT | 1 | Medium |
 | 44 | The same topic published under two URL spellings, kick-boxing and kickboxing | SEO | 4 | Medium |
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
@@ -76,7 +76,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 57 pages checked contains a block of links to French online
+Every one of the 58 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -86,7 +86,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 57 pages checked — homepage, all 5 program pages, all 51 posts.
+**Affected:** all 58 pages checked — homepage, all 5 program pages, all 52 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -109,7 +109,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 57 pages. It appears twice on the homepage and on each blog
+**Affected:** all 58 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -192,6 +192,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/neck-bridges/` | Four errors in the headings of one post. "Where Can You Learn **This** Neck Bridges Safely?" — singular determiner, plural noun. "**TOp**  Neck bridge  Exercises" — a capital in the wrong place, plus a non-breaking space in both gaps. "Training Plan & Progressions with trusted **parnter** sixth sense mma" — "partner" misspelt, and the brand in lowercase, in an H2. "**Way** & Wall Assisted Bridges" — "Way" where the sentence wants nothing, or "Wall" written twice. The leaked "H2:" marker on the same post is logged under issue 22 |
 | `/mma-fighting-styles/` | The contact block prints "📧 **Email**: **[**info@sixthsensemma.com" — an opening square bracket that is never closed, sitting in front of the address, so the email reads as "[info@…". Two sentences in the weight-classes intro also run together without their spaces: "divided into divisions according to weight range.**To** guarantee fair matches" and "compete in weight based classes.**Here's** a breakdown". The claim under the men's list is garbled too: "eight official men's divisions in UFC––minus the combined divisions shared with women (fly, bantam, featherweight)", which is not how the UFC's divisions work — men's and women's flyweight, bantamweight and featherweight are separate divisions, not shared ones |
 | `/are-there-multiple-styles-of-muay-boran/` | A regional style is published as "**Muay Lopbur**", missing its final letter — and the post's own FAQ spells it "Muay Lopburi" correctly two screens further down, as does `/muay-thai-muay-boran/`, so the page contradicts itself. A section heading reads "**Why choose  sixth sense mma is  trusted partner**": the brand in lowercase, "is" where "is your" belongs, and a non-breaking space in two of its gaps. Two sentences also run together without their spaces — "authentic Muay Boran training.**you** can contact us" and "more than just **skillit** builds character" |
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
@@ -212,7 +213,7 @@ Brands" would produce exactly this. It is worth checking other posts for
 headings where a keyword phrase has been substituted in, since the same edit
 would have run across the site.
 
-### 33. The brand name written five different ways — CONTENT, SEO — Medium
+### 33. The brand name written six different ways — CONTENT, SEO — Medium
 
 On `/muay-thai-training/` the business name is written **"sixth sense mma"** in
 lowercase every time it appears — six times, and not once correctly. Every other
@@ -252,6 +253,15 @@ Here to Help" and "Why Choose Sixth Sense MMA?" — then writes it **"sixth sens
 mma"**, in bold, in the first sentence under the second of them: "At **sixth
 sense mma**, we care about quality, comfort, and your training needs." The
 lowercase form is the emphasised text directly below a correctly-cased heading.
+
+**A sixth spelling, and a post that uses three of them at once.**
+`/neck-bridges/` never writes the name correctly. It uses **"SixthSenseMMA"**
+(five times), **"SixthSense"** (six more) and **"sixth sense mma"** (three,
+including one in an H2 heading — "Training Plan & Progressions with trusted
+parnter **sixth sense mma**"). Three variants on one page, none of them right.
+
+That brings the site's total to six: **Sixth Sense MMA**, **sixth sense mma**,
+**sixthsensemma**, **sixthsense mma**, **SixthSense** and **SixthSenseMMA**.
 
 **A fifth spelling: "SixthSense", run together.** `/mma-fighting-styles/` uses
 it **seven times** and never once writes the name correctly — not in the body,
@@ -342,7 +352,7 @@ The weight column has a gap too: A0 ends at 120 lbs and A1 starts at 125 lbs, so
 the weight gap, and consider a note that sizes vary by brand, so readers should
 check the maker's own chart.
 
-### 22. Editing notes left inside visible headings — CONTENT, SEO — Medium
+### 22. Editing notes and level markers left inside visible headings — CONTENT, SEO — Medium
 
 A heading reads, on the page, **"H2: Picking the Most Suitable Martial Arts
 Class"**. The "H2:" is a formatting note from the draft, meaning "make this a
@@ -355,6 +365,18 @@ Class" section.
 **What to do:** delete "H2: " from the heading. Because this suggests the post
 was pasted from an outline, check the other posts for leftover markers such as
 "H2:", "H3:" or "Table" (see issue 13).
+
+**The "H2:" marker has happened again.** `/neck-bridges/` opens its article with
+a heading that reads, on the page, **"H2: What Are Neck Bridges?"**. It is the
+same bug as `/martial-arts-classes-2/` above, and this time it is the **first
+heading a reader meets** — the section directly under the introduction, and the
+first entry in the page's table of contents.
+
+Two instances of the identical marker, on posts written months apart, means this
+is not a one-off slip: the drafts are being written with "H2:" prefixes and
+pasted in whole. Every post should be checked for a heading beginning "H1:",
+"H2:", "H3:" or similar before anything else on this list is done, because the
+check takes one search and the fix takes one keystroke each.
 
 **A second one: "(Bullet Points)".** On `/muay-thai-vs-mma/`, a published
 heading reads **"New Skills to Learn (Bullet Points)"**. "(Bullet Points)" is a
@@ -504,6 +526,25 @@ about Kali instruction, on a page advertising Kali classes.
 **In the rebuild:** all four are reproduced word for word, with no Review schema.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
+
+**A thirteenth set, on `/neck-bridges/`, numbered from nothing.** Five reviews,
+each with a name, a country and a discipline: Jason Miller – USA (Amateur MMA
+Fighter), Sophia García – Spain (Fitness Coach), Tobias Lund – Sweden (BJJ
+Practitioner), Aiko Tanaka – Japan (Kickboxer) and Lucas Moreau – France (Muay
+Thai Fighter). More detail than most sets on the site, and still no dates, no
+ratings and no review platform.
+
+Two markup faults worth fixing at the same time. The list is numbered **. , 2,
+3, 4, 5** — the first item's number is missing, leaving a bare full stop in bold
+where "1." belongs. And all five are marked up as `<p class="wp-block-heading">`,
+paragraphs wearing the heading class, with an empty paragraph between each pair.
+
+The geography is the same problem as `/muay-thai-thai-boxing/`: USA, Spain,
+Sweden, Japan and France, for a gym in Coppell, Texas. Only one of the five names
+a country the business operates in.
+
+**In the rebuild:** all five are reproduced word for word, missing number
+included, with no Review schema.
 
 **A twelfth set, on `/kickboxing-techniques/`, and the longest yet.** Ten
 testimonials under "What Our Students Say" — Aiden M., Jasmin T., Khalid R.,
@@ -834,12 +875,12 @@ site is not just leaking that its articles were generated and published unread;
 it is passing authority, and any reader who finds the link, to a direct
 competitor.
 
-**The four posts:** `/martial-blade-concepts/` (seven links),
+**The five posts:** `/martial-blade-concepts/` (seven links),
 `/is-tai-chi-a-martial-art/` (one, inside a table cell),
-`/are-there-multiple-styles-of-muay-boran/` (two, one of them the competitor) and
+`/are-there-multiple-styles-of-muay-boran/` (two, one of them the competitor),
 `/mma-fighting-styles/` (one, citing another martial arts blog for the UFC
-weight limits). **Eleven invisible links in total**, and they turned up on four
-of the last six posts checked. Nobody has been checking, so **search the whole
+weight limits) and `/neck-bridges/` (four). **Fifteen invisible links in
+total**, on five of the last eight posts checked. Nobody has been checking, so **search the whole
 site for `utm_source=chatgpt.com` before assuming these are all of them**, and
 check every new post before it goes live.
 
@@ -949,6 +990,28 @@ recommending a competitor.
 destinations, same parameters, same invisible anchors, same positions — with
 `rel="noopener"` and an `aria-label` naming each destination.
 
+**A fifth page, with four — and one of them sells a product the page
+recommends.** `/neck-bridges/` carries four invisible citation links:
+
+| Destination | What it is |
+|---|---|
+| `fitnessmind.org/neck-bridges/` ×2 | A fitness content site's neck bridge article — the same subject as this page |
+| `fightsense.com/blog/neck-harness-workout/` | Another martial arts site's neck harness workout |
+| `honehealth.com/edge/iron-neck/` | **Hone Health, a commercial hormone-therapy company** |
+
+The last one is attached to the third item in the page's own product list, the
+"Iron‑Neck Device", immediately after the sentence "Many physical therapists
+praise it as a game-changer for neck rehab and strength training". So the page
+recommends a product, then passes authority — invisibly — to a company selling
+health services, with a ChatGPT tracking parameter still on the URL. A reader
+cannot see the link; a search engine can.
+
+That is two of the five sites in this issue that are outright businesses
+(jpboxinggym.com and honehealth.com) rather than articles.
+
+**In the rebuild:** all four are reproduced exactly, with `rel="noopener"` and
+an `aria-label` naming each destination.
+
 **A fourth page.** `/mma-fighting-styles/` has one, at the end of the paragraph
 under the men's weight divisions:
 
@@ -1033,7 +1096,7 @@ anyone who sees it.
 exactly as published. This is a strategy problem for the client, not a markup
 error to fix.
 
-### 42. FAQ questions published as H2 section headings — SEO, CONTENT — Medium
+### 42. FAQ questions published as section headings, competing with the page's own FAQ — SEO, CONTENT — Medium
 
 `/is-tai-chi-a-martial-art/` has 21 H2 sections. Five of them are not sections
 at all, they are FAQ questions that were promoted to headings:
@@ -1068,6 +1131,19 @@ it.
 belong, merging the duplicate, or demote them to H3s under "Practical
 Considerations for Beginners", which is where four of the five already sit in
 reading order.
+
+**The same pattern on `/neck-bridges/`, twice over.** That post has an H3 reading
+"**When should I avoid neck bridges?**" sitting in the middle of the article, and
+a paragraph styled as a heading reading "**Are neck bridges safe for
+beginners?**" followed by two paragraphs of answer. Both are questions with
+answers, placed in the body. And the page's FAQ accordion, a few screens later,
+opens with the question "**Are neck bridges safe for beginners?**" — the same
+question, answered twice on one URL, exactly as on the Tai Chi post.
+
+**What to do:** delete the body copy of the duplicated question and leave it in
+the FAQ, and either move "When should I avoid neck bridges?" into the accordion
+or rewrite it as a statement, since a heading that asks a question in the middle
+of an article reads as a stray FAQ entry.
 
 **In the rebuild:** all five stay H2s, exactly as published, and so appear in
 the table of contents.
@@ -1220,7 +1296,7 @@ date next to the chart would help, since these limits change.
 **In the rebuild:** every number, unit and tilde is copied exactly as published.
 Nothing was converted, rounded or corrected.
 
-### 31. Self-defence and weapon-law claims with no jurisdiction named — CONTENT — Medium, for the client to review
+### 31. Legal and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
 Self-Defense Scenarios" that makes statements about what the law allows. It
@@ -1243,6 +1319,43 @@ foot of that section saying the information is general, is not legal advice,
 and that laws vary by state — and, if they want to keep the specifics, having
 someone qualified read the section first. The same check is worth applying to
 any other post that touches on law.
+
+**Raised to High, and it is no longer only about the law.** This entry began as
+two posts making claims about self-defence and knife law. `/neck-bridges/` adds
+a different kind of exposure: **step-by-step instructions for an exercise that
+can injure the reader's spine**, published with no medical disclaimer of any
+kind.
+
+The page is not vague about the risk. It has a section headed "**Risks & Safety
+Concerns**", and two under it: "**Spinal Compression & Injury**" and "**Nerve
+Damage & Chronic Injuries**". It tells readers that poor form risks "compression,
+nerve irritation, and damage to the spine, discs, or ligaments due to axial and
+shear forces". It then gives a numbered technique walkthrough, a "Sample Weekly
+Routine" table, a "SixthSenseMMA style Plan (2–3 sessions/week)" and a
+progression plan — everything a reader needs to attempt the movement at home,
+unsupervised, having been told exactly what it can do to their neck.
+
+Nowhere does it say: ask a doctor first; do not attempt this if you have an
+existing neck or spinal condition; learn it with a coach watching. A reader with
+an undiagnosed disc problem gets a weekly plan and no warning.
+
+**Why this one is High rather than Medium.** The knife and self-defence posts
+describe what the law might allow. This post instructs a reader to load their
+cervical spine, acknowledges in its own words that doing so can cause nerve
+damage and disc injury, and provides a schedule. If someone follows it and is
+hurt, the page is the instruction that they followed, published by the business
+that would have supervised them.
+
+**What to do:** add a short, plain disclaimer at the top of `/neck-bridges/` and
+above any future exercise-instruction content —
+
+> This article is general information, not medical advice. Neck training loads
+> the cervical spine. Speak to a physician before starting, especially if you
+> have any history of neck, back or nerve problems, and learn these movements
+> under qualified supervision.
+
+— and have a coach or physiotherapist read the technique and progression
+sections before they stay up. The same sentence pattern covers the law posts.
 
 **A second post, about knives.** `/martial-blade-concepts/` goes further,
 because the subject is a weapon. Two of its section headings are legal claims in
@@ -1294,7 +1407,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 57
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 58
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1417,6 +1530,8 @@ Link text names one post, but the link goes to a different one.
 | `/is-tai-chi-a-martial-art/` | "CONTACT US" (the red call-to-action button) | `/what-martial-art-destroys-boxers/` | the contact page |
 | `/mma-fighting-styles/` | "Muay Thai" | `/wp-admin/post.php?post=3729&action=edit` — **the WordPress editor**, not a page at all | the Muay Thai post |
 | `/kickboxing-techniques/` | "Mixed Martial Arts Training Gloves: Types, Use & Top Brands" | `/wp-admin/post.php?post=3385&action=edit` — the editor again, a different post id | `/mixed-martial-arts-training-gloves/` |
+| `/neck-bridges/` | "MMA " | `/wp-admin/post.php?post=4145&action=edit` | the MMA post |
+| `/neck-bridges/` | " tech" + "niqu" + "e" — **one word split across three separate links** | `/wp-admin/post.php?post=4138&action=edit` ×3 | one link, to the technique post |
 
 On the Japanese post, the Boxers post becomes unreachable from that page, and
 both links on it lead to the same place.
@@ -1428,7 +1543,14 @@ editing screen for post 3729 — someone linked to the page they had open in
 another tab instead of to the published URL. For a visitor the link is broken:
 it bounces them to a WordPress login screen. It also publishes the admin path
 and an internal post ID, which is information a public page has no reason to
-carry. **It is not the only one.** `/kickboxing-techniques/` does the same thing with a
+carry. **It is on at least three posts, and `/neck-bridges/` has four of them.** One
+wraps the word "MMA", and the other three wrap **fragments of a single word**:
+the word "technique" is published as ` tech` + `niqu` + `e`, three consecutive
+anchors all pointing at `/wp-admin/post.php?post=4138&action=edit`. That is what
+it looks like when someone selects text in the editor three times and pastes the
+same wrong URL each time. Six admin links across three posts now.
+
+`/kickboxing-techniques/` does the same thing with a
 different post id: the words "Mixed Martial Arts Training Gloves: Types, Use &
 Top Brands" link to `/wp-admin/post.php?post=3385&action=edit` instead of to the
 post whose title they quote. Two posts, two admin links, and both were found
@@ -1604,7 +1726,7 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
 a real article rather than a disambiguation list. Five out of the twenty-eight
-across 51 posts, which shows the rest could have been done the same way rather
+across 52 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1966,7 +2088,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 57 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 58 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

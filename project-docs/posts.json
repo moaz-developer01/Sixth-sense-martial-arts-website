@@ -406,5 +406,12 @@
     "image": "images/jj-near-me-01.jpg",
     "date": "2025-08-02T12:28:47+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "martial-arts-near-me",
+    "title": "Martial arts near me with prices worth checking out",
+    "image": "images/ma-near-me-01.jpg",
+    "date": "2025-08-03T21:34:26+00:00",
+    "category": "Martial Arts"
   }
 ]

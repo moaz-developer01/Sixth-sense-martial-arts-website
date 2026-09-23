@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **63 pages**: the homepage, the 5 program pages and all 57 blog
+live HTML of **64 pages**: the homepage, the 5 program pages and all 58 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 63 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 63 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 64 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 64 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -41,7 +41,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 17 | Spelling errors and garbled headings | CONTENT | 22 | Low |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 4 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
-| 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
+| 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
 | 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 3 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
@@ -60,7 +60,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 7 | **High — client must confirm** |
+| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 8 | **High — client must confirm** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 5 | Medium |
@@ -69,8 +69,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 | 46 | A whole article section published inside a table caption | CONTENT, SEO, ACCESSIBILITY | 1 | Medium |
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
-| 48 | Programs, discounts and membership plans advertised on a blog post but nowhere else | CONTENT (accuracy), TRUST | 1 | **High — client must confirm** |
-| 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 1 | Low |
+| 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
+| 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 2 | Low |
+| 50 | Two "near me" pages competing for the same local searches | SEO | 2 | Medium |
 
 **49 issues in total.**
 
@@ -991,6 +992,34 @@ pages themselves are faithful copies.
 "Learn Legal, Controlled Knife Usage" and "Disengagement & Legal De-escalation"
 are claims about what the law permits, made without naming a state.
 
+**`/martial-arts-near-me/` is the eighth, and the only one that contradicts the
+homepage outright.** It lists four programs under H3s, written as current
+offerings in the present tense. Two of them have no program page:
+
+| Advertised on `/martial-arts-near-me/` | Elsewhere on the site? |
+|---|---|
+| **Brazilian Jiu Jitsu (BJJ) Classes** | **Yes** — adult, teen and kids program pages |
+| **Muay Thai & Kickboxing Training** | **Partly** — adult and teen Muay Thai pages exist; kickboxing has no program page |
+| **Mixed Martial Arts (MMA) Coaching** — "our step-by-step coaching helps each student master essential moves" | **Nowhere.** No program page, no schedule entry, no coach named. The phrase "MMA Coaching" appears on no other page |
+| **Women's Self-Defense Programs** — "our women's self-defense sessions focus on real-life techniques" | **Contradicted.** The homepage lists "Self-Defense for Women **(Coming Soon)**" |
+
+The Women's Self-Defense entry is the sharpest problem in this whole issue,
+because the site does not merely fail to corroborate it — it says the opposite.
+The homepage says the class is not running yet. This page describes it in the
+present tense, in detail, down to what a session covers ("how to escape holds,
+apply practical techniques, and stay prepared"), and invites the reader to book
+a free trial. A visitor who reads both pages cannot tell which is true, and a
+visitor who reads only this one may book a class that does not exist.
+
+**What the client must confirm:** is women's self-defense running now, or still
+coming soon? Whichever it is, both pages must say the same thing. And is there
+MMA coaching on the schedule, given that the gym's own program list stops at BJJ
+and Muay Thai?
+
+**In the rebuild:** both are reproduced word for word and **neither is linked to
+anything**, because there is no page to link them to. The build fails if an
+anchor is ever wrapped around either name.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -1521,7 +1550,7 @@ sentence anywhere in the technique sections was written, extended or clarified
 during the rebuild, and the build fails if any of those headings is reworded.
 This entry is the flag; the page itself is an exact copy of what is live.
 
-### 48. Programs, discounts and membership plans advertised on a blog post but nowhere else — CONTENT (accuracy), TRUST — **High, the client must confirm**
+### 48. Pricing sections that name no price, and programs advertised nowhere else — CONTENT (accuracy), TRUST — **High, the client must confirm**
 
 `/jiu-jitsu-near-me/` is the most commercially specific page on the site. It is
 also the page most likely to convert: someone searching "jiu jitsu near me" is
@@ -1575,10 +1604,57 @@ number reads as evasive.
 program name or guarantee was added, adjusted or invented, and the build fails if
 a currency figure is ever introduced into the body.
 
+#### The same gap again, and worse: `/martial-arts-near-me/`
+
+This is the **second page with the pricing gap**, and it is the more serious of
+the two, because this one puts the promise in the title.
+
+- The SEO title is "Martial arts near me with **honest pricing** and plans".
+- The H1 is "Martial arts near me **with prices worth checking out**".
+- Two of the six sections are about money: "**Pricing and Membership Options**"
+  and "**Flexible Memberships and Trial Classes**".
+- The page contains **zero prices**. Not a figure, not a range, not a starting
+  point. Counted in the raw HTML: no currency amount anywhere in the body.
+
+What the pricing sections say instead:
+
+> We keep pricing clear, honest, and based on your needs no hidden costs,
+> confusing contracts, or pressure to sign up… With monthly, quarterly, and even
+> weekly plans, we make sure your experience feels real, not rushed.
+
+> We offer trial classes and flexible plans that fit your lifestyle, budget, and
+> schedule so you can start training with no commitment and zero pressure… you
+> can join without hidden fees or long-term contracts.
+
+A title that says "prices worth checking out" is a promise a visitor clicks on.
+Arriving to find several hundred words about honesty and no number is the exact
+shape of a page people bounce from, and it is the kind of mismatch between title
+and content that search engines demote on their own. On `/jiu-jitsu-near-me/`
+the gap was inside the page; here it is in the headline.
+
+Two further claims on this page need checking against reality, because they are
+specific enough to hold the client to:
+
+- "**monthly, quarterly, and even weekly plans**" — three named billing tiers.
+  No program page mentions any of them.
+- "**no hidden fees or long-term contracts**" — a contractual statement. If a
+  membership agreement has a minimum term or a cancellation fee, this sentence
+  is not accurate.
+
+**What to do:** publish the rates on both pages, or change the title and the two
+headings so they stop promising something the page does not deliver. "Martial
+arts near me with prices worth checking out" is the one heading on this site that
+cannot stay as written unless a price appears under it.
+
+**In the rebuild:** reproduced exactly, including the title and both headings. No
+price was invented or estimated, and the build fails on any currency figure in
+the body.
+
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
-`/jiu-jitsu-near-me/` embeds a Google Map of the Coppell studio, which is exactly
-right for a "near me" page. The markup is not:
+`/jiu-jitsu-near-me/` and `/martial-arts-near-me/` each embed a Google Map of the
+Coppell studio, which is exactly right for a "near me" page. The markup is not —
+both pages carry the identical iframe, copied from one to the other:
 
 ```html
 <iframe style="border: 0;" src="https://www.google.com/maps/embed?..."
@@ -1597,7 +1673,10 @@ Three problems, all small, all easy:
   loaded eagerly here, on the page most likely to be opened on a phone on mobile
   data.
 
-**What to do:** give the iframe `width="100%"`, a `title`, and `loading="lazy"`,
+All three faults are on both pages, in the same order, with the same attributes
+and the same missing ones.
+
+**What to do:** give both iframes `width="100%"`, a `title`, and `loading="lazy"`,
 copying the pattern already used on the program pages.
 
 **In the rebuild:** the embed is reproduced exactly as published, inline style,
@@ -2359,6 +2438,17 @@ exact day the page was fetched. That suggests a plugin rewriting the date on
 every load rather than when the content changes. Constantly changing dates can
 make search engines distrust the freshness signal.
 
+`/martial-arts-near-me/` disagrees with itself on both dates in the same way
+`/muay-thai-gym-bag/` does — the times match to the second, the dates do not:
+
+| | Social tags (`article:*`) | Structured data |
+|---|---|---|
+| Published | 2025-08-03 21:34:26 | 2025-08-02 09:34:26 |
+| Modified | 2025-08-11 09:59:29 | 2025-08-02 09:59:29 |
+
+Two sources, two answers, on the newest post on the site. The rebuild uses the
+social-tag dates, which are the later and the internally consistent pair.
+
 **Observed on:** `/martial-arts-kali-stick-2/`,
 `/best-martial-arts-for-self-defense/`, `/martial-arts-weapons/`,
 `/different-types-of-martial-arts/`, `/martial-arts-belt-levels/`,
@@ -2579,11 +2669,52 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
+### 50. Two "near me" pages competing for the same local searches — SEO — Medium
+
+`/martial-arts-near-me/` and `/jiu-jitsu-near-me/` were published a day apart and
+are built to the same plan: a local-intent H1, a programs section, a "why choose
+us" section, a pricing section, a Coppell map embed and an FAQ.
+They target overlapping queries — someone typing "jiu jitsu near me" and someone
+typing "martial arts near me" in Coppell are the same prospective member, and
+both pages are written to convert them. Their opening H2s are the same sentence
+with one term swapped.
+
+| | `/martial-arts-near-me/` | `/jiu-jitsu-near-me/` |
+|---|---|---|
+| Published | 2025-08-03 | 2025-08-02 |
+| Words in the article body | 2,531 | 2,790 |
+| Opening H2 | "Looking for Martial Arts Near Me? SixthSense MMA Has You Covered" | "Looking for Jiu Jitsu Near Me? SixthSense MMA Has You Covered" |
+| Programs section | 4 programs, 2 with no program page | 6 offers, 5 with nothing elsewhere on the site |
+| Pricing section | 2 headings, no prices | 2 headings, no prices |
+| Customer reviews | 7 | none |
+| Coppell map embed | Yes | Yes — byte-identical markup, same three faults (issue 49) |
+| Local business schema | No | No |
+
+This is keyword cannibalisation with a local-SEO twist. Google will pick one page
+for the local pack and the other will usually rank for nothing, but which one it
+picks is not the client's choice, and the link equity and reviews are split
+between them. The BJJ page is also the narrower term competing against the
+broader one, on a site whose actual programs are BJJ and Muay Thai.
+
+**What to do:** decide which page is the local landing page. The honest answer is
+`/martial-arts-near-me/`, because it covers everything the gym teaches, and
+`/jiu-jitsu-near-me/` should either become a genuinely BJJ-specific page that
+links up to it, or be merged into it with a redirect. Whichever survives needs
+the prices (issue 48) and LocalBusiness structured data, which neither page has.
+
+This makes the fourth cannibalisation cluster on the site, after the two Kali
+Sticks posts (issue 6), the three Muay Boran posts (issue 7) and the two
+kick-boxing URL spellings (issue 44).
+
+**In the rebuild:** both pages are reproduced as published; the rebuild does not
+merge or redirect pages on its own. Both do carry `SportsActivityLocation`
+structured data, which the live pages lack.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 63 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 64 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

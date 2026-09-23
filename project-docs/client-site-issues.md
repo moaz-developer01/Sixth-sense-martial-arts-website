@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **61 pages**: the homepage, the 5 program pages and all 55 blog
+live HTML of **62 pages**: the homepage, the 5 program pages and all 56 blog
 posts.
 
 Each issue is tagged:
@@ -22,23 +22,23 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 61 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 61 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 62 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 62 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 25 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 26 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound links to unrelated or weak sources | SEO, CONTENT | 29 | Medium |
+| 10 | Outbound links to unrelated, weak or foreign-language sources | SEO, CONTENT | 30 | Medium |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 20 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 21 | Low |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 3 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -51,9 +51,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Bad tags: zero-width spaces, a "reddit" keyword, misspellings | SEO | 6 | Low |
-| 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 4 | **High — liability** |
-| 32 | Testimonials that cannot be verified | CONTENT | 16 | Low — for the client to decide |
+| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings | SEO | 7 | Low |
+| 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
+| 32 | Testimonials that cannot be verified | CONTENT | 17 | Low — for the client to decide |
 | 33 | The brand name written six different ways | CONTENT, SEO | 10 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -63,7 +63,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 7 | **High — client must confirm** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
-| 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 4 | Medium |
+| 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 5 | Medium |
 | 43 | A broken image: the page links a file that is not in the media library | CONTENT | 1 | Medium |
 | 44 | The same topic published under two URL spellings, kick-boxing and kickboxing | SEO | 4 | Medium |
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
@@ -78,7 +78,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 61 pages checked contains a block of links to French online
+Every one of the 62 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -88,7 +88,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 61 pages checked — homepage, all 5 program pages, all 55 posts.
+**Affected:** all 62 pages checked — homepage, all 5 program pages, all 56 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -111,7 +111,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 61 pages. It appears twice on the homepage and on each blog
+**Affected:** all 62 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -194,6 +194,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/mae-mai-muay-thai-what-is-it/` | The opening H2 reads "What Is Mae Mai **muay thai** **?**" — the subject in lowercase mid-heading, and a space before the question mark, in the first section of the article. "What **defines** Luk Mai from Mae Mai?" uses the wrong verb, where "distinguishes" or "separates" is meant. "Why Choose Sixth Sense MMA **Trusted** Partner" is missing its separator. The fifteen technique names all put a space before their colon — "Salab Fan Pla **:**" — the same French convention as `/10-muay-boran-techniques/`, and the page carries 28 narrow no-break spaces inside "Mae Mai" itself, as `/muay-chaiya/` does inside "Muay Chaiya" |
 | `/kidney-punch/` | The H1 reads "Kidney Punch **,** How It Works, Why It Hurts & Its Legality" — a space before the comma, French convention again, in the single most visible line on the page and in every search result for it. The closing H2, "SixthSense MMA **Where** Fighters Train Safely & Legally", is missing its separator |
 | `/muay-chaiya/` | "Techniques & Training **Drill**" is singular where the plural belongs, and the page is threaded with **28 narrow no-break spaces** (U+202F) — a character almost nothing types deliberately — inside "Muay Chaiya", "Wai Khru" and "pra jiad", alongside 22 ordinary no-break spaces. They are invisible on screen but they sit inside the site's own primary keyword, so "Muay Chaiya" in a heading is not the same string as "Muay Chaiya" typed normally. Anyone searching the site's content for the phrase, or matching it programmatically, will miss those instances |
 | `/10-muay-boran-techniques/` | Six H3s put a **space before the colon** — "Mae Mai :", "Look Mai :", "Muay Chaiya :", "Muay Korat :", "Muay Lopburi :", "Muay Thasao :" — which is French typographic convention, not English. Four of them end at the bare colon with nothing after it, so they read as labels with their content missing. Two also carry a stray non-breaking space after the colon. "Why Nine Limbs Is Important for Muay Boran**?**" is a statement punctuated as a question, "Highlighted Look Mai **include**:" does not agree with its subject, and "Learn These Techniques at SixthSense **Real** Training, Real Skills" is missing a separator, with two more non-breaking spaces at its end |
@@ -537,6 +538,20 @@ about Kali instruction, on a page advertising Kali classes.
 **In the rebuild:** all four are reproduced word for word, with no Review schema.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
+
+**A seventeenth set, on `/mae-mai-muay-thai-what-is-it/`, and one of them is
+broken in half.** Six reviews: Adam R., **katherin.** (lowercase, with a full
+stop after it), Rachel M., Daniel P., Sarah A. and Daniel  G. (two spaces before
+the initial). No dates, no ratings, no review platform, and no locations this
+time — the US-state pattern of the last four posts is gone.
+
+Rachel M.'s review is split across two paragraphs: the quotation ends
+`</em>.` on one line and the name "– Rachel M." sits alone in the next, so on
+screen her name appears detached from what she said. The other five keep quote
+and attribution together.
+
+**In the rebuild:** all six are reproduced word for word, the lowercase name, the
+double space and the split paragraph included, with no Review schema.
 
 **A sixteenth set, on `/kidney-punch/`, and two of them are about the subject of
 the page.** Six reviews in a numbered list, all US cities: Rebecca T. (Tampa,
@@ -1246,6 +1261,17 @@ belong, merging the duplicate, or demote them to H3s under "Practical
 Considerations for Beginners", which is where four of the five already sit in
 reading order.
 
+**Two more on `/mae-mai-muay-thai-what-is-it/`, and the FAQ answers both again.**
+"**Can kids learn these at home?**" and "**How long to learn basics?**" are
+published as H2 sections in the middle of the article, in sentence case unlike
+the headings around them, each with a short answer beneath. Both then appear in
+the table of contents beside the real sections.
+
+The page's own FAQ accordion then asks "Can I train Mae Mai at home?" and "How
+long does it take to learn Mae Mai basics?" — the same two questions, reworded,
+answered a second time. That is now the third post in this pattern where the
+body and the FAQ answer the same questions on one URL.
+
 **Three more on `/muay-chaiya/`.** "Is Muay Chaiya safe for older adults?", "Are
 there competitions in Muay Chaiya?" and "How long does it take to learn?" are all
 published as H2 sections in the middle of the article, all in sentence case
@@ -1554,6 +1580,25 @@ and that laws vary by state — and, if they want to keep the specifics, having
 someone qualified read the section first. The same check is worth applying to
 any other post that touches on law.
 
+**A fifth post, about children training unsupervised.**
+`/mae-mai-muay-thai-what-is-it/` has an H2 headed "**Can kids learn these at
+home?**", and its FAQ opens with "Can I train Mae Mai at home?". Both are
+answered encouragingly, on a page that has just listed fifteen striking and
+clinching techniques including elbow strikes to the neck, knee strikes to the
+ribs and arm-twisting takedowns.
+
+This is a much milder case than the neck bridges or kidney punch pages — Mae Mai
+practice is ordinary Muay Thai training, and nothing on the page tells a child to
+do anything dangerous. But it is a section specifically about **children
+practising strikes at home, away from a coach**, published by the gym that would
+otherwise be supervising them, with no line anywhere saying a parent should be
+present or that these are best learned in class.
+
+**What to do:** add one sentence to that section — children should practise with
+an adult present and learn the techniques in class first. It costs nothing, it is
+what the gym would say in person, and it also happens to be an argument for
+booking a class rather than against it.
+
 **A fourth post, and the sharpest case: `/kidney-punch/`.** It describes damage
 to an internal organ — kidney trauma, internal bleeding, the reasons the strike
 is banned — and carries no disclaimer of any kind. It is covered in full under
@@ -1652,7 +1697,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 61
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 62
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1722,6 +1767,21 @@ than muay thai" — "muat" for "muay". The typo is in the tag name and therefore
 in its URL, `/tag/is-muat-boran-more-powerful-than-muay-thai/`, so the site
 publishes an archive page built around a misspelling. That post's other five
 tags are clean and none carries a zero-width space.
+
+**Tags that are not words, on `/mae-mai-muay-thai-what-is-it/`.** The post
+carries four tags, and three of them are not search terms:
+
+| Tag | What is wrong with it |
+|---|---|
+| "**ma muay**" | Not a Muay Thai term and not a phrase anyone searches. Looks like "mae muay" or "muay" truncated |
+| "**mai real**" | Not a term at all. Most likely "mai" plus the start of another word, cut off |
+| "**mai mai thai**" | "mai mai" for "mae mai" — the post's own subject, misspelt |
+| "mae mai muay thai what is it" | The only usable one, and it is the page's whole title rather than a topic |
+
+Three garbled tags out of four, each generating its own archive page at a URL
+built from the mistake. "mai real" in particular is the clearest evidence yet
+that these are pasted from a keyword tool's output without being read — it is
+not a phrase in any language relevant to this site.
 
 **A second misspelt tag, on the other Muay Boran post.**
 `/are-there-multiple-styles-of-muay-boran/` is tagged "how muay boran is
@@ -1861,7 +1921,7 @@ Google then has to pick one and ranks all of them weaker.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
-| **Muay Boran (four posts)** | `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` |
+| **Muay Boran (five posts)** | `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` · `/mae-mai-muay-thai-what-is-it/` |
 
 **There are now three Muay Boran posts, and the overlap has become a cluster —
 raised to MEDIUM.** When this entry was written there were two. The third,
@@ -1880,6 +1940,18 @@ technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
 
+**A fifth: `/mae-mai-muay-thai-what-is-it/`.** Mae Mai already has a section of
+its own on `/10-muay-boran-techniques/` — the H3 "Mae Mai : Basic, powerful
+strikes and defenses" — and is named again on `/muay-chaiya/` under "Look Mai /
+Mae Mai". The new post is a dedicated article on the same concept, and it
+repeats the cluster's shared material a fifth time: what the techniques are, why
+they matter, and how they differ from Luk Mai.
+
+It does bring something the others do not: a complete list of the **fifteen**
+named Mae Mai techniques, where `/10-muay-boran-techniques/` gives ten and
+neither of the others enumerates them at all. That list is worth keeping. The
+introduction wrapped around it is the fifth copy.
+
 **And now a fourth: `/muay-chaiya/`.** Muay Chaiya is one of the four regional
 Muay Boran styles, and it already has a section of its own on
 `/are-there-multiple-styles-of-muay-boran/` and another on
@@ -1893,13 +1965,14 @@ deepest treatment of Chaiya on the site. The problem is that it arrives as the
 fourth page competing for overlapping Muay Boran queries, and the third to run a
 "Muay Boran vs Muay Thai" comparison.
 
-**What to do:** keep `/10-muay-boran-techniques/` as the techniques page and
-`/muay-chaiya/` as the deep dive on that style, since each has something the
-others do not; merge `/muay-thai-muay-boran/` and
+**What to do:** keep `/muay-chaiya/` as the deep dive on that style and
+`/mae-mai-muay-thai-what-is-it/` as the techniques reference, since its list of
+fifteen is the fullest on the site; merge `/muay-thai-muay-boran/` and
 `/are-there-multiple-styles-of-muay-boran/` into a single "what is Muay Boran"
-hub with the regional styles in it, and 301 the retired URL. Then cut the
-duplicated introductions from the two survivors and have them link up to the
-hub. **Medium priority** — below the stance, Kali, Martial Arts Classes and Best
+hub with the regional styles in it, and fold `/10-muay-boran-techniques/` into
+the Mae Mai post, whose list supersedes it. That takes five URLs down to three.
+301 the two retired URLs, cut the duplicated introductions from the survivors,
+and have them all link up to the hub. **Medium priority** — below the stance, Kali, Martial Arts Classes and Best
 Martial Arts pairs, which are the same article written twice, but above the
 partial overlaps.
 
@@ -1946,7 +2019,7 @@ show FAQ rich results for any of them.
 The twenty-six newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
-### 10. Outbound links to unrelated or weak sources — SEO, CONTENT — Medium
+### 10. Outbound links to unrelated, weak or foreign-language sources — SEO, CONTENT — Medium
 
 Single words in answers are linked to Wikipedia articles that don't match the
 meaning.
@@ -1981,6 +2054,17 @@ meaning.
 · `/muay-thai-vs-mma/` "strength" (Conclusion: "if you want to build **strength**, discipline…") → *Strength*, a Wikipedia disambiguation page listing physical strength, strength of materials, statistics, chess and several songs. The site now links three different words — "Strength", "strength" and "stronger" — to three Wikipedia disambiguation pages
 · `/muay-thai-backpack/` "efficiency" (Conclusion: "a quality backpack improves your efficiency, comfort, and confidence") → *Efficiency*, the general article on the ratio of useful output to input. Not a disambiguation page this time, but the physics-and-economics sense has nothing to do with packing a gym bag, and it is the post's only outbound link
 
+**A link to the Italian Wikipedia, from an English-language US site.**
+`/mae-mai-muay-thai-what-is-it/` links the phrase "Mae Mai Muay Thai " to
+`it.wikipedia.org/wiki/Mae_Mai_Muay_Thai` — the **Italian** article. A reader in
+Texas clicks a link in an English sentence and lands on a page written in
+Italian. There is an English Wikipedia article on Muay Boran that covers the same
+ground, and the site links English Wikipedia correctly on five other posts, so
+this is a slip rather than a policy.
+
+It is the only outbound link on the page, so it is also the only place that page
+sends a reader, and it sends them somewhere most of them cannot read.
+
 **An outbound link to a Quora thread.** `/kickboxing-techniques/` links the words
 "side kick" to `quora.com/Is-the-back-kick-and-the-spinning-side-kick-the-same` —
 a user-generated Q&A thread, cited as the authority on the difference between two
@@ -2000,8 +2084,8 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *Martial arts*, `/muay-thai-weight-classes/` links "ONE Championship" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
-a real article rather than a disambiguation list. Six out of the twenty-nine
-across 55 posts, which shows the rest could have been done the same way rather
+a real article rather than a disambiguation list. Six out of the thirty
+across 56 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -2388,7 +2472,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 61 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 62 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

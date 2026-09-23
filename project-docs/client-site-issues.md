@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **59 pages**: the homepage, the 5 program pages and all 53 blog
+live HTML of **60 pages**: the homepage, the 5 program pages and all 54 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 59 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 59 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 60 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 60 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 24 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 25 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated or weak sources | SEO, CONTENT | 29 | Medium |
@@ -36,9 +36,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 12 | ChatGPT markup pasted into posts | CONTENT | 3 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
-| 15 | Duplicated headings and captions | SEO, CONTENT | 4 | Low |
+| 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 18 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 19 | Low |
 | 18 | Image alt text typos | SEO | 2 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
@@ -53,17 +53,17 @@ issue 40, which is now sending link equity to a competing gym.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, a "reddit" keyword, misspellings | SEO | 6 | Low |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 3 | **High — liability** |
-| 32 | Testimonials that cannot be verified | CONTENT | 14 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 15 | Low — for the client to decide |
 | 33 | The brand name written six different ways | CONTENT, SEO | 10 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 6 | **High — client must confirm** |
-| 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 5 posts, 15 links | **CRITICAL** |
+| 39 | Posts advertising classes and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 7 | **High — client must confirm** |
+| 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
-| 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 3 | Medium |
+| 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 4 | Medium |
 | 43 | A broken image: the page links a file that is not in the media library | CONTENT | 1 | Medium |
 | 44 | The same topic published under two URL spellings, kick-boxing and kickboxing | SEO | 4 | Medium |
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
@@ -77,7 +77,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 59 pages checked contains a block of links to French online
+Every one of the 60 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -87,7 +87,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 59 pages checked — homepage, all 5 program pages, all 53 posts.
+**Affected:** all 60 pages checked — homepage, all 5 program pages, all 54 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -110,7 +110,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 59 pages. It appears twice on the homepage and on each blog
+**Affected:** all 60 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -193,6 +193,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/muay-chaiya/` | "Techniques & Training **Drill**" is singular where the plural belongs, and the page is threaded with **28 narrow no-break spaces** (U+202F) — a character almost nothing types deliberately — inside "Muay Chaiya", "Wai Khru" and "pra jiad", alongside 22 ordinary no-break spaces. They are invisible on screen but they sit inside the site's own primary keyword, so "Muay Chaiya" in a heading is not the same string as "Muay Chaiya" typed normally. Anyone searching the site's content for the phrase, or matching it programmatically, will miss those instances |
 | `/10-muay-boran-techniques/` | Six H3s put a **space before the colon** — "Mae Mai :", "Look Mai :", "Muay Chaiya :", "Muay Korat :", "Muay Lopburi :", "Muay Thasao :" — which is French typographic convention, not English. Four of them end at the bare colon with nothing after it, so they read as labels with their content missing. Two also carry a stray non-breaking space after the colon. "Why Nine Limbs Is Important for Muay Boran**?**" is a statement punctuated as a question, "Highlighted Look Mai **include**:" does not agree with its subject, and "Learn These Techniques at SixthSense **Real** Training, Real Skills" is missing a separator, with two more non-breaking spaces at its end |
 | `/neck-bridges/` | Four errors in the headings of one post. "Where Can You Learn **This** Neck Bridges Safely?" — singular determiner, plural noun. "**TOp**  Neck bridge  Exercises" — a capital in the wrong place, plus a non-breaking space in both gaps. "Training Plan & Progressions with trusted **parnter** sixth sense mma" — "partner" misspelt, and the brand in lowercase, in an H2. "**Way** & Wall Assisted Bridges" — "Way" where the sentence wants nothing, or "Wall" written twice. The leaked "H2:" marker on the same post is logged under issue 22 |
 | `/mma-fighting-styles/` | The contact block prints "📧 **Email**: **[**info@sixthsensemma.com" — an opening square bracket that is never closed, sitting in front of the address, so the email reads as "[info@…". Two sentences in the weight-classes intro also run together without their spaces: "divided into divisions according to weight range.**To** guarantee fair matches" and "compete in weight based classes.**Here's** a breakdown". The claim under the men's list is garbled too: "eight official men's divisions in UFC––minus the combined divisions shared with women (fly, bantam, featherweight)", which is not how the UFC's divisions work — men's and women's flyweight, bantamweight and featherweight are separate divisions, not shared ones |
@@ -535,6 +536,19 @@ about Kali instruction, on a page advertising Kali classes.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
 
+**A fifteenth set, on `/muay-chaiya/`, as a bulleted list.** Seven reviews, each
+a list item with a quotation and a first name and US state: David (California),
+Linda (Texas), Marcus (New York), Emily (Illinois), Robert (Florida), Ava
+(Nevada) and Chris (Arizona). US geography again, which is right, and one from
+Texas. Still no dates, ratings or review platform.
+
+Two of them describe services the rest of the site does not evidence — "Love the
+online option—works great with my busy schedule" implies online classes, and
+"Real Muay Chaiya, taught the right way" is the claim issue 39 asks the client
+to confirm.
+
+**In the rebuild:** all seven are reproduced word for word, with no Review schema.
+
 **A fourteenth set, on `/10-muay-boran-techniques/`, and the geography is right
 this time.** Six reviews: Tina K. (California), Jayden H. (**Texas**), Sarah G.
 (Florida), Derek L. (Illinois), Emily R. (Georgia) and Nathan J. (Washington).
@@ -807,6 +821,23 @@ exist, and "certified instructors" is a claim about credentials. That is a
 consumer-protection problem before it is an SEO one, and the testimonials make
 it worse, because they describe a service being received.
 
+**`/muay-chaiya/` asks a narrower question than any of the others: lineage.** Its
+closing H2 is "Why Learn Muay Chaiya with SixthSenseMMA", followed by "7 Benefits
+of Training with SixthSenseMMA" and seven reviews, one of which says "Real Muay
+Chaiya, taught the right way. The culture and technique are unmatched."
+
+Muay Chaiya is not a general style anyone can teach from a book. It is a
+specific southern Thai lineage, traditionally passed down through named masters
+— the page itself says so, with a section on Por Than Mar and a claim that the
+gym "carries the authentic Muay Chaiya lineage". That is a checkable statement
+about provenance, not a marketing adjective.
+
+**What the client needs to confirm:** does any instructor hold Muay Chaiya
+training, and from whom? If the answer is a named teacher in that lineage, put
+the name on the page — it is the strongest thing the page could say. If the
+answer is that the gym teaches Muay Thai and has read about Chaiya, the word
+"authentic" and the lineage claim have to go.
+
 **`/10-muay-boran-techniques/` is a softer case, and worth separating from the
 others.** Its closing H2 is "Learn These Techniques at SixthSense Real Training,
 Real Skills", followed by "Benefits of Training with SixthSense" and six reviews
@@ -915,12 +946,17 @@ site is not just leaking that its articles were generated and published unread;
 it is passing authority, and any reader who finds the link, to a direct
 competitor.
 
-**The five posts:** `/martial-blade-concepts/` (seven links),
+**The six posts:** `/martial-blade-concepts/` (seven links),
 `/is-tai-chi-a-martial-art/` (one, inside a table cell),
 `/are-there-multiple-styles-of-muay-boran/` (two, one of them the competitor),
 `/mma-fighting-styles/` (one, citing another martial arts blog for the UFC
-weight limits) and `/neck-bridges/` (four). **Fifteen invisible links in
-total**, on five of the last eight posts checked. Nobody has been checking, so **search the whole
+weight limits), `/neck-bridges/` (four) and `/muay-chaiya/` (four).
+**Nineteen invisible links in total**, on six of the last ten posts checked.
+
+Counting the destinations rather than the links: the site is invisibly citing
+**two competing gyms or training providers, two commercial businesses and five
+competing martial arts content sites**. Not one of those links is visible to a
+reader, and not one was put there deliberately. Nobody has been checking, so **search the whole
 site for `utm_source=chatgpt.com` before assuming these are all of them**, and
 check every new post before it goes live.
 
@@ -1029,6 +1065,27 @@ recommending a competitor.
 **In the rebuild:** both are reproduced exactly as published — same
 destinations, same parameters, same invisible anchors, same positions — with
 `rel="noopener"` and an `aria-label` naming each destination.
+
+**A sixth page, with four more.** `/muay-chaiya/` carries four invisible
+citation links, all with a non-breaking space for anchor text and all still
+carrying `utm_source=chatgpt.com`:
+
+| Destination | What it is |
+|---|---|
+| `nowmuaythai.com/blog/the-spiritual-side-of-muay-thai-strength-protection-focus` | **A competing Muay Thai content site**, cited for the spiritual side of the art |
+| `sweetscienceoffighting.com/why-do-muay-thai-fighters-wear-armbands-headbands/` | **Another competing martial arts site**, cited for the mongkol and pra jiad |
+| `thecoloursofthailand.com/what-to-do/benefits-of-practicing-muay-thai/` | A Thailand tourism site, cited for the benefits of Muay Thai |
+| `en.wikipedia.org/wiki/Wai_khru_ram_muay` | Wikipedia, cited for the Wai Khru |
+
+The first two are the problem repeating itself: a Muay Thai gym's blog post
+about Muay Chaiya rituals hands authority to two other Muay Thai publishers, on
+the exact subjects a reader might have come to this page for. The fourth shows
+the pattern clearly — the page *could* simply have linked Wikipedia visibly, the
+way it links the Muay Chaiya article two paragraphs earlier. It did that once,
+deliberately, and then pasted four more citations it never looked at.
+
+**In the rebuild:** all four are reproduced exactly, with `rel="noopener"` and an
+`aria-label` naming each destination.
 
 **A fifth page, with four — and one of them sells a product the page
 recommends.** `/neck-bridges/` carries four invisible citation links:
@@ -1171,6 +1228,15 @@ it.
 belong, merging the duplicate, or demote them to H3s under "Practical
 Considerations for Beginners", which is where four of the five already sit in
 reading order.
+
+**Three more on `/muay-chaiya/`.** "Is Muay Chaiya safe for older adults?", "Are
+there competitions in Muay Chaiya?" and "How long does it take to learn?" are all
+published as H2 sections in the middle of the article, all in sentence case
+unlike the headings around them, each followed by a short answer. All three then
+appear in the table of contents beside the real sections. The third is the worst
+case on the site: it is also repeated as an H3 lower down (issue 15) **and**
+asked again in the page's own FAQ accordion, so one question is answered three
+times on one URL.
 
 **And again on `/10-muay-boran-techniques/`.** An H2 in the middle of the
 article reads "**Are these techniques safe for beginners to practice?**" — a
@@ -1491,7 +1557,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 59
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 60
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -1700,7 +1766,7 @@ Google then has to pick one and ranks all of them weaker.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
-| **Muay Boran (three posts)** | `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` |
+| **Muay Boran (four posts)** | `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` |
 
 **There are now three Muay Boran posts, and the overlap has become a cluster —
 raised to MEDIUM.** When this entry was written there were two. The third,
@@ -1719,13 +1785,28 @@ technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
 
-**What to do:** keep `/10-muay-boran-techniques/` as the techniques page, since
-its list is the one thing not duplicated elsewhere; merge the other two into a
-single "what is Muay Boran" page with the regional styles in it, and 301 the
-retired URL. Then have the techniques page link up to the survivor for the
-background it no longer needs to repeat. **Medium priority** — below the stance,
-Kali, Martial Arts Classes and Best Martial Arts pairs, which are the same
-article written twice, but above the partial overlaps.
+**And now a fourth: `/muay-chaiya/`.** Muay Chaiya is one of the four regional
+Muay Boran styles, and it already has a section of its own on
+`/are-there-multiple-styles-of-muay-boran/` and another on
+`/10-muay-boran-techniques/`. The new post is a 3,000-word article on the same
+style, and it repeats the cluster's shared material again: what Muay Boran is,
+how it differs from modern Muay Thai (its own H2 **and** a comparison table), the
+Wai Khru rituals and the traditional gear.
+
+A dedicated post on one regional style is defensible in itself — it is the
+deepest treatment of Chaiya on the site. The problem is that it arrives as the
+fourth page competing for overlapping Muay Boran queries, and the third to run a
+"Muay Boran vs Muay Thai" comparison.
+
+**What to do:** keep `/10-muay-boran-techniques/` as the techniques page and
+`/muay-chaiya/` as the deep dive on that style, since each has something the
+others do not; merge `/muay-thai-muay-boran/` and
+`/are-there-multiple-styles-of-muay-boran/` into a single "what is Muay Boran"
+hub with the regional styles in it, and 301 the retired URL. Then cut the
+duplicated introductions from the two survivors and have them link up to the
+hub. **Medium priority** — below the stance, Kali, Martial Arts Classes and Best
+Martial Arts pairs, which are the same article written twice, but above the
+partial overlaps.
 
 **The Muay Thai stance pair is the clearest case on the site, alongside the two
 Martial Arts Classes posts (issue 24), and carries the same HIGH priority.**
@@ -1825,7 +1906,7 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
 a real article rather than a disambiguation list. Six out of the twenty-nine
-across 53 posts, which shows the rest could have been done the same way rather
+across 54 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -1871,6 +1952,14 @@ Gloves" appears twice.
 
 **`/muay-thai-vs-mma/`** — "New Skills to Learn" appears twice in a row, the
 second time as "New Skills to Learn (Bullet Points)" (see issue 22).
+
+**`/muay-chaiya/`** — "How long does it take to learn?" is published **twice on
+the same page**: once as an H2 section, and again as an H3 about four screens
+lower, each with its own answer. The page's FAQ accordion then asks it a third
+time, as "How long does it take to learn Muay Chaiya?". Three answers to one
+question on one URL. In the rebuild the two headings keep their levels and the
+second takes a suffixed id, `how-long-does-it-take-to-learn-2`, so both anchors
+still resolve.
 
 **`/muay-thai-thai-boxing/`** — both of its in-article images carry a visible
 caption that simply repeats the heading immediately above the image, word for
@@ -2187,7 +2276,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 59 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 60 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

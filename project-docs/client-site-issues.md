@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **62 pages**: the homepage, the 5 program pages and all 56 blog
+live HTML of **63 pages**: the homepage, the 5 program pages and all 57 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 62 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 62 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 63 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 63 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -38,8 +38,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 14 | Orlando post targets a city 1,100 miles away; a review places the gym in Pakistan | GEOGRAPHIC TARGETING | 3 | High |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors and garbled headings | CONTENT | 21 | Low |
-| 18 | Image alt text typos and scrambled descriptions | SEO | 3 | Low |
+| 17 | Spelling errors and garbled headings | CONTENT | 22 | Low |
+| 18 | Image alt text typos and scrambled descriptions | SEO | 4 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 10 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
@@ -53,7 +53,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings | SEO | 7 | Low |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified | CONTENT | 17 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 18 | Low — for the client to decide |
 | 33 | The brand name written six different ways | CONTENT, SEO | 10 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -69,8 +69,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 | 46 | A whole article section published inside a table caption | CONTENT, SEO, ACCESSIBILITY | 1 | Medium |
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
+| 48 | Programs, discounts and membership plans advertised on a blog post but nowhere else | CONTENT (accuracy), TRUST | 1 | **High — client must confirm** |
+| 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 1 | Low |
 
-**47 issues in total.**
+**49 issues in total.**
 
 ---
 
@@ -78,7 +80,7 @@ issue 40, which is now sending link equity to a competing gym.
 
 ### 1. Hidden casino spam links injected into every page — SECURITY — Urgent
 
-Every one of the 62 pages checked contains a block of links to French online
+Every one of the 63 pages checked contains a block of links to French online
 casino sites. It sits just inside `<body>`, above the header, in an element
 pushed off-screen with `position:absolute; left:-35255px` so visitors never see
 it. Search engines do.
@@ -88,7 +90,7 @@ Domains linked:
 `rizzcasino-fr.net`, `spin-million.com`, `cashedcasinoligne.fr`,
 `fr-winmachancecasino.com`
 
-**Affected:** all 62 pages checked — homepage, all 5 program pages, all 56 posts.
+**Affected:** all 63 pages checked — homepage, all 5 program pages, all 57 posts.
 
 **Why it matters:** this is a hacked WordPress site. Hidden outbound links to
 gambling sites are a classic SEO-spam injection and can get the site flagged or
@@ -111,7 +113,7 @@ The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
 taps "call" on a phone dials a different number.
 
-**Affected:** all 62 pages. It appears twice on the homepage and on each blog
+**Affected:** all 63 pages. It appears twice on the homepage and on each blog
 post, and once on each program page.
 
 **What to do:** change every link to `tel:+14699727800`. It is in the site-wide
@@ -194,6 +196,7 @@ leftover from drafting and shows on the page.
 | `/mixed-martial-arts-brands/` | "Mixed Martial Arts **Brands Brands** vs Traditional Martial Arts Brands" — a duplicated word, see below |
 | `/muay-thai-punching-bag/` | "**Alao** Read Our Article:" (for "Also") |
 | `/muay-thai-stance/` | "**Contect** Us:" |
+| `/jiu-jitsu-near-me/` | The H1 reads "**Jiu jitsu** Near Me with Caring Coaches and **Budget friendly**" — "jitsu" and "friendly" both lowercase, and the sentence stops without a noun, so it ends on an adjective that modifies nothing. It is the page title a searcher sees. One H3, "Options for All Levels  Beginner to Advanced", keeps a space, a non-breaking space and another space where its separator was deleted |
 | `/mae-mai-muay-thai-what-is-it/` | The opening H2 reads "What Is Mae Mai **muay thai** **?**" — the subject in lowercase mid-heading, and a space before the question mark, in the first section of the article. "What **defines** Luk Mai from Mae Mai?" uses the wrong verb, where "distinguishes" or "separates" is meant. "Why Choose Sixth Sense MMA **Trusted** Partner" is missing its separator. The fifteen technique names all put a space before their colon — "Salab Fan Pla **:**" — the same French convention as `/10-muay-boran-techniques/`, and the page carries 28 narrow no-break spaces inside "Mae Mai" itself, as `/muay-chaiya/` does inside "Muay Chaiya" |
 | `/kidney-punch/` | The H1 reads "Kidney Punch **,** How It Works, Why It Hurts & Its Legality" — a space before the comma, French convention again, in the single most visible line on the page and in every search result for it. The closing H2, "SixthSense MMA **Where** Fighters Train Safely & Legally", is missing its separator |
 | `/muay-chaiya/` | "Techniques & Training **Drill**" is singular where the plural belongs, and the page is threaded with **28 narrow no-break spaces** (U+202F) — a character almost nothing types deliberately — inside "Muay Chaiya", "Wai Khru" and "pra jiad", alongside 22 ordinary no-break spaces. They are invisible on screen but they sit inside the site's own primary keyword, so "Muay Chaiya" in a heading is not the same string as "Muay Chaiya" typed normally. Anyone searching the site's content for the phrase, or matching it programmatically, will miss those instances |
@@ -538,6 +541,25 @@ about Kali instruction, on a page advertising Kali classes.
 **In the rebuild:** all four are reproduced word for word, with no Review schema.
 The blockquotes are unwrapped and their children kept, as on the other posts,
 because the site has no blockquote styling.
+
+**An eighteenth set, on `/jiu-jitsu-near-me/` — and these are the ones to keep.**
+Seven testimonials, each with a first name and a genuinely local identifier:
+Jason (beginner from **Coppell**), Alicia (jiu jitsu student in **Irving**),
+Malik (MMA hobbyist), Priya (grappler from **Valley Ranch**), Kevin (dad and
+beginner), Leo (competitive blue belt) and Sami (21, new to Texas).
+
+Coppell, Irving and Valley Ranch are all in the gym's actual catchment. After
+seventeen sets signed from Pakistan, Sweden, Japan, France and half the United
+States, this is the first that reads like it came from people who could plausibly
+walk into the building. One even names the search that brought them: "I found
+this spot while Googling 'jiu jitsu near me.'"
+
+They are still unverifiable — no dates, no ratings, nothing linking to a review
+platform — so the recommendation does not change: collect them on Google
+Business Profile, where a Coppell name and a date are visible to everyone. But
+if the client wants a model for how the written ones should read, it is this set.
+
+**In the rebuild:** all seven are reproduced word for word, with no Review schema.
 
 **A seventeenth set, on `/mae-mai-muay-thai-what-is-it/`, and one of them is
 broken in half.** Six reviews: Adam R., **katherin.** (lowercase, with a full
@@ -1499,6 +1521,89 @@ sentence anywhere in the technique sections was written, extended or clarified
 during the rebuild, and the build fails if any of those headings is reworded.
 This entry is the flag; the page itself is an exact copy of what is live.
 
+### 48. Programs, discounts and membership plans advertised on a blog post but nowhere else — CONTENT (accuracy), TRUST — **High, the client must confirm**
+
+`/jiu-jitsu-near-me/` is the most commercially specific page on the site. It is
+also the page most likely to convert: someone searching "jiu jitsu near me" is
+ready to book. It makes six offers a prospective member would act on, and **not
+one of them appears on the five program pages**.
+
+| Advertised on `/jiu-jitsu-near-me/` | Elsewhere on the site? |
+|---|---|
+| **Private Coaching Sessions** — "one-on-one and small group training tailored to your personal goals" | **Nowhere.** No program page mentions private or one-to-one coaching |
+| **Advanced and Competition Prep Classes** — "our advanced and competition prep programs" | **Nowhere.** The phrase "competition prep" appears on no other page of the site |
+| **Discounts for Families, Students, and Military** — "our pricing includes special discounts for families, students, and military personnel" | **Nowhere.** No program page offers any of these three discounts |
+| **Membership Plans for Every Budget** — "unlimited access or more flexible weekly or monthly membership options" | **Nowhere.** The phrase "membership plan" appears on no other page |
+| **Free Trial Class for New Students** | **Yes.** All five program pages carry "Free trial class" and a "Risk-Free Trial Offer" FAQ. This one checks out |
+| **Experienced and Certified Instructors** — "our experienced and certified instructors" | Similar wording elsewhere, but **no certification is ever named**, here or anywhere |
+
+**What the client must confirm, one by one:** do private coaching sessions exist,
+and at what price? Is there a competition prep class on the schedule? Are family,
+student and military discounts real, and what are the terms — percentage, proof
+required, combinable? Are there weekly and monthly membership tiers? Certified by
+whom?
+
+**Why this is High rather than a content nit.** These are not adjectives. A
+visitor reads "special discounts for families, students, and military personnel",
+walks in expecting one, and either gets it or does not. An advertised discount
+that is not honoured is a consumer-trust failure at best, and in Texas a
+potentially actionable deceptive trade practice at worst. The military discount
+is the sharpest of the three — it is the one a customer is most likely to arrive
+expecting, and the one whose refusal causes the most damage.
+
+The instructor line has the same shape as the problems already logged under issue
+39: "certified" is a claim about credentials, and no certifying body is named
+anywhere on the site.
+
+**A second, separate problem on the same page: the pricing sections state no
+prices.** "Affordable, Flexible Pricing" and "Membership Plans for Every Budget"
+run to several hundred words about affordability and contain **no figure at
+all**. The closest the page gets is "there are no hidden fees, no unexpected
+surprises, just clear payment choices" — which promises clarity without
+supplying any. There is no price anywhere on the homepage or on any of the five
+program pages either, so a visitor who reads every commercial page on this site
+still cannot find out what a month costs. That was flagged in the original audit
+and it is still true; this page makes it worse by raising the subject at length
+and then not answering it.
+
+**What to do:** either publish the rates, or replace the pricing sections with
+one honest line — that plans start from a figure, or that pricing is discussed at
+the free trial. A page that talks about money for four paragraphs and names no
+number reads as evasive.
+
+**In the rebuild:** every claim is reproduced word for word. No price, discount,
+program name or guarantee was added, adjusted or invented, and the build fails if
+a currency figure is ever introduced into the body.
+
+### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
+
+`/jiu-jitsu-near-me/` embeds a Google Map of the Coppell studio, which is exactly
+right for a "near me" page. The markup is not:
+
+```html
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?..."
+        width="600" height="450" allowfullscreen="allowfullscreen"></iframe>
+```
+
+Three problems, all small, all easy:
+
+- **Fixed 600px width.** On a phone the article column is about 350px, so the map
+  is wider than the screen and pushes the page sideways. The program pages avoid
+  this by styling their map to `width: 100%`.
+- **No `title` attribute.** A screen reader announces the frame with no
+  indication of what it contains. The program pages' embeds carry
+  `title="Sixth Sense Martial Arts location in Coppell, TX"`.
+- **No `loading="lazy"`.** A Google Maps embed is a heavy third-party request,
+  loaded eagerly here, on the page most likely to be opened on a phone on mobile
+  data.
+
+**What to do:** give the iframe `width="100%"`, a `title`, and `loading="lazy"`,
+copying the pattern already used on the program pages.
+
+**In the rebuild:** the embed is reproduced exactly as published, inline style,
+fixed width and all, because the brief is a faithful replica. It is the only
+inline style anywhere in the rebuilt site.
+
 ### 34. WordPress editor markup published in a page heading — SEO, CONTENT — Medium
 
 On `/muay-thai-weight-classes/` the H1 is published with the block editor's own
@@ -1697,7 +1802,7 @@ posts, both published on the same day within an hour of each other, which
 points to the SEO plugin's title template or a setting in use at that time
 rather than a mistake typed into one post.
 
-**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 62
+**Check done so far:** the `<title>`, `og:title` and `twitter:title` of all 63
 live pages were scanned; only the two posts above are affected today.
 
 **What to do:** find the title template or variable in the SEO plugin that
@@ -2085,7 +2190,7 @@ Wikipedia's *Kickboxing* article, `/sambo-martial-art/` links "martial arts" to
 *ONE Championship*, and `/muay-thai-fighting-stance/` links "Muay Thai" to
 *Muay Thai*. In each the anchor text and the destination match, and the target is
 a real article rather than a disambiguation list. Six out of the thirty
-across 56 posts, which shows the rest could have been done the same way rather
+across 57 posts, which shows the rest could have been done the same way rather
 than needing to be removed.
 
 **The pattern:** the last nine posts each end with one of these, always a single
@@ -2213,6 +2318,12 @@ Three images are described as "**marble** arts for kids" instead of "martial
 arts for kids". Alt text is read by screen readers and used by image search.
 
 **Affected:** `/martial-arts-for-kids/`, on 3 of its 4 images.
+
+**A description that begins with an underscore.** The featured image of
+`/jiu-jitsu-near-me/` has the alt text "**_**Jiu jitsu near me with caring
+coaches and budget friendly by sixthsensemma.com" — a stray underscore before the
+first word, on the image used for social sharing of the site's main local-intent
+page.
 
 **A description with the brand name spliced into the middle of it.** The third
 image on `/kidney-punch/` has the alt text:
@@ -2472,7 +2583,7 @@ differ only by extension, and never leave an upload named as a bare number.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 62 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 63 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

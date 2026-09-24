@@ -413,5 +413,13 @@
     "image": "images/ma-near-me-01.jpg",
     "date": "2025-08-03T21:34:26+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "fight-training-near-me",
+    "title": "Fight Training Near Me with Flexible Pricing Plans",
+    "excerpt": "Fight training near me isn’t just about throwing punches it’s about finding a place that builds your strength, confidence, and something real. Somethi",
+    "image": "images/fight-training-01.jpg",
+    "date": "2025-08-04T08:58:41+00:00",
+    "category": "Martial Arts"
   }
 ]

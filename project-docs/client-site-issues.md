@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **71 pages**: the homepage, the 5 program pages and all 65 blog
+live HTML of **72 pages**: the homepage, the 5 program pages and all 66 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 71 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 71 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 72 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 72 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -47,22 +47,22 @@ issue 40, which is now sending link equity to a competing gym.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 20 | Low — improving |
+| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 21 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
-| 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to six phrasings of one phrase | SEO | 9 | Medium |
+| 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
+| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to fifteen on one post | SEO | 10 | Medium |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one page's that clearly can | CONTENT | 25 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified, and one set that clearly can, now on two pages | CONTENT | 26 | Low — for the client to decide |
 | 33 | The brand name written eight different ways, three of them in one page's headings | CONTENT, SEO | 13 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 13 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 14 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
-| 59 | A published page with no social profile but a "Follow Us" section linking one platform | CONTENT | 1 | Low |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 2 | Low |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 5 | Medium |
@@ -73,16 +73,17 @@ issue 40, which is now sending link equity to a competing gym.
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
 | 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 8 | **CRITICAL** |
 | 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 8 | Low |
-| 50 | Eight "near me" pages competing for the same local searches, including three for one discipline | SEO | 8 | **CRITICAL** |
+| 60 | A page that contradicts itself about a class in adjacent sections | CONTENT (accuracy) | 1 | **High — client must confirm** |
+| 50 | Nine "near me" pages competing for the same local searches, including three for one discipline | SEO | 9 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
 | 52 | A comparison table advertising against unnamed competitors | CONTENT (accuracy) | 1 | Medium |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
 | 54 | Subheadings published as bold paragraphs: bullets on one post, numbers on another | SEO, ACCESSIBILITY | 2 | Medium |
 | 55 | Two pages advertising two different discount schemes | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
-| 56 | An eight-page local set that is inconsistent with itself, one page missing the pricing section the others have | CONTENT, SEO | 8 | Medium |
+| 56 | A nine-page local set that is inconsistent with itself, three now missing the pricing section the others have | CONTENT, SEO | 9 | Medium |
 | 57 | Three blog pages and three program pages chasing the same BJJ local search | SEO | 6 | **CRITICAL** |
 
-**59 issues in total.**
+**60 issues in total.**
 
 ---
 
@@ -1471,6 +1472,23 @@ Names, ranks, who awarded them, one photograph each. It answers the certificatio
 question on thirteen posts at once, it is the first thing a parent looks for, and
 the material already exists — somebody just has to write it down.
 
+**`/self-defense-classes-near-me/` is the fourteenth, and it is the one that
+mostly gets it right.** Its four programme sections map cleanly onto the gym's
+five program pages — Kids (Intro to Jiu Jitsu, Little Champions, Rising
+Champions), Teen (BJJ, Muay Thai), Adult (BJJ Fundamentals, Advanced Techniques,
+Muay Thai, Open Mat) — with age ranges attached. After thirteen posts advertising
+Kali, Sambo, Tai Chi, MBC, boxing, kids' MMA and women-only classes the site
+cannot evidence, this one describes the actual timetable.
+
+Two claims on it still need confirming:
+
+- "**Open Mat Sessions (Flexible Weekly Training)**" — an open mat with a stated
+  weekly frequency. Advertised on `/bjj-classes-near-me/` too, and on no program
+  page. Two pages now, still unconfirmed.
+- The **women's programme**, which the page describes as both running and not
+  running. That contradiction is severe enough to have its own entry: see
+  **issue 60**.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -2585,7 +2603,7 @@ outputs the `%` signs and fix it there, then re-save both posts. Because the
 cause is a template, **check every post** (including drafts, and any post
 published or edited later) for the same `%…%` title, not only these two.
 
-### 29. A whole second article duplicated inside another post — CONTENT, SEO — High
+### 29. Content duplicated inside a post: a whole article on one, a whole section on another — CONTENT, SEO — High
 
 `/what-is-muay-thai/` contains the **entire** "Jiu Jitsu Guard Position"
 article, pasted in above its own content. The Muay Thai article's own first
@@ -2625,7 +2643,54 @@ paste error.
 article. The duplicated block, its three images and its FAQ were all left out,
 and the post has no FAQ section as a result.
 
-### 30. Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and five phrasings of one phrase — SEO — Medium
+#### It has happened again, at section scale: `/self-defense-classes-near-me/`
+
+The site's newest post publishes its **"Adult Self Defense Programs" section
+twice**. Not a repeated heading — the whole section:
+
+| | First copy | Second copy |
+|---|---|---|
+| H2 | Adult Self Defense Programs | Adult Self Defense Programs |
+| H3s | Adult Brazilian Jiu Jitsu Fundamentals · Advanced Techniques & Strategy · Adult Muay Thai Training · Open Mat Sessions (Flexible Weekly Training) | *identical, all four* |
+| Ordered list | 5 items | *identical, all five* |
+| Words | 317 | 317 |
+| Plain text | — | **word-for-word identical** |
+
+The two copies differ in exactly one respect: the second has `<strong>` keyword
+emphasis on phrases like "self defense classes near me" and "fitness" that the
+first does not. That is the tell — someone produced a keyword-emphasised revision
+of the section and pasted it in **instead of replacing** the original.
+
+They are also not adjacent. The first sits between "Teen Self Defense Programs"
+and "Women's Self Defense Classes"; the second sits between "Women's Self
+Defense Classes" and "What to Expect in Our Classes". So the page's structure
+reads: Kids → Teen → **Adult** → Women's → **Adult again** → What to Expect. A
+reader scrolling through meets the adult programmes, then the women's
+programmes, then the adult programmes again, identically worded.
+
+**Three consequences.**
+
+- **The reader loses trust.** Repeating 317 words verbatim is the most visible
+  kind of carelessness there is; it is noticed immediately and it is impossible
+  to read as anything but unchecked.
+- **The page indexes badly.** Two identical H2s with the same text generate two
+  identical anchor targets, and roughly 10% of the page's 2,973 words are a
+  straight repeat.
+- **The four-item section index at the top of the page lists "Adult Self Defense
+  Programs" once**, so the page's own navigation does not match its contents.
+
+**What to do:** delete the **first** copy and keep the second, which is the
+keyword-emphasised revision that was presumably meant to replace it. Then check
+the rest of the September posts for the same paste error — this is now twice, on
+posts eight months apart, and both times it was a paste that added rather than
+replaced.
+
+**In the rebuild:** both copies are reproduced exactly as published, because the
+brief is a faithful replica, and the build fails if either is silently removed.
+This is the one place where the rebuild deliberately keeps a fault that a reader
+will notice.
+
+### 30. Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and fifteen on one post — SEO — Medium
 
 Tags on two posts end with an invisible zero-width space (U+200B):
 
@@ -2715,6 +2780,28 @@ Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
 
+**And fifteen tags on one post.** `/self-defense-classes-near-me/` carries the
+largest tag set on the site:
+
+> adult self defense · anti bullying training · confidence building · fitness and
+> self defense · jiu jitsu classes · kids self defense · Martial Arts Classes ·
+> mma training · muay thai classes · real life self defense · self defense
+> classes · self defense near me · self defense training · teen self defense ·
+> women's self defense
+
+Five of the fifteen are "self defense" plus a word. Unlike the near-me posts
+above these are at least distinct concepts rather than spelling variants, but
+fifteen tags on one post means fifteen new indexable archive pages, each holding
+one post. **The site now has well over a hundred tag archives**, most with a
+single entry, all thinner than the post they point at.
+
+Two smaller things: "**Martial Arts Classes**" is the only tag on the page in
+title case, where the other fourteen are lower case, so WordPress will treat it
+as distinct from the lower-case form if that exists elsewhere; and
+"**women's self defense**" uses a curly apostrophe, which becomes `womens` in
+the slug and is exactly the sort of character that generates a duplicate tag
+later (issue 19).
+
 **What to do:** retype those eleven tag names, delete the duplicates left
 behind, and watch for the same character when pasting keywords into titles and
 headings as well. Pasting into a plain-text editor first strips it. On
@@ -2722,7 +2809,8 @@ headings as well. Pasting into a plain-text editor first strips it. On
 `/mixed-martial-arts-near-me/` keep "mixed martial arts near me"; delete the
 other nine, and check whether their archive pages are indexed and remove them if
 so. Delete the two "mix martial arts" tags first — they are misspellings of the
-sport's name.
+sport's name. Then set a cap — three to five tags per post — and audit the tag
+archives as a whole: most of them should not be indexable.
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -3606,6 +3694,26 @@ file under a short name and fix its alt text at the same time, trim the trailing
 hyphen in whatever export step is adding it, fix "ofmartial", and rename the
 "-1" file after what it shows.
 
+**And straight back to WhatsApp exports on the very next post.** All three
+images on `/self-defense-classes-near-me/`, published eight days after the post
+below, are named:
+
+```
+WhatsApp-Image-2025-09-16-at-4.17.58-PM-1024x536.jpeg
+WhatsApp-Image-2025-09-16-at-4.17.59-PM-1024x536.jpeg
+WhatsApp-Image-2025-09-16-at-4.17.58-PM-1-1024x536.jpeg
+```
+
+Two of the three were sent in the **same second** (4.17.58 PM) and are
+distinguished only by the `-1` suffix WordPress adds on a name collision — the
+same pattern already logged on `/brazilian-jiu-jitsu-near-me/`. They are
+genuinely different pictures, checked byte for byte at 68,458 and 71,740 bytes.
+
+So the improvement noted below did not hold for even one post. The filenames
+publish the date and minute the photographs were sent in a private chat, and say
+nothing about martial arts, self defense or Coppell. The alt text has to carry
+the entire description on its own.
+
 **The newest uploads are noticeably better, which is worth saying.** The three
 images on `/which-martial-art-is-best-for-self-defence/` — the most recently
 published post, uploaded in **September 2025** rather than August — are named:
@@ -3663,12 +3771,15 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. Eight "near me" pages competing for the same local searches, including three for one discipline — SEO — **CRITICAL**
+### 50. Nine "near me" pages competing for the same local searches, including three for one discipline — SEO — **CRITICAL**
 
-`/martial-arts-near-me/`, `/jiu-jitsu-near-me/`, `/fight-training-near-me/`,
-`/bjj-classes-near-me/`, `/martial-arts-gyms-near-me/`, `/mma-gyms-near-me/`,
-`/mixed-martial-arts-near-me/` and `/brazilian-jiu-jitsu-near-me/` were published
-within five days of each other and are built to the same plan: a local-intent H1, a programs section, a "why choose
+Eight of the nine — `/martial-arts-near-me/`, `/jiu-jitsu-near-me/`,
+`/fight-training-near-me/`, `/bjj-classes-near-me/`,
+`/martial-arts-gyms-near-me/`, `/mma-gyms-near-me/`,
+`/mixed-martial-arts-near-me/` and `/brazilian-jiu-jitsu-near-me/` — were
+published within five days of each other and are built to the same plan. The
+ninth, `/self-defense-classes-near-me/`, followed six weeks later and is
+different enough to be worth describing separately: a local-intent H1, a programs section, a "why choose
 us" section, a pricing section, a Coppell map embed and an FAQ.
 They target overlapping queries — someone typing "jiu jitsu near me" and someone
 typing "martial arts near me" in Coppell are the same prospective member, and
@@ -3733,6 +3844,22 @@ So the cluster contains three near-exact pairs:
 **The BJJ group is now three pages, not two,** which is severe enough to have its
 own entry: see issue 57.
 
+**The ninth page, `/self-defense-classes-near-me/`, is the one that should have
+been the template.** Published 16 September, six weeks after the August batch, it
+is structurally the best of the nine: twelve real H2 sections covering kids, teen,
+adult and women's programmes, twenty-two real H3s, genuine Google reviews (issue
+32), and — alone among the nine — **it actually describes the classes the gym
+runs**, by age group, matching the five program pages.
+
+It also targets a phrase none of the other eight does. "Self defense classes near
+me" is a different search from "BJJ near me" or "MMA gyms near me": it is the
+query a parent or a woman new to martial arts types, and it is the one commercial
+term on this site with no competitor page inside the cluster.
+
+**So this one is a keeper, and that changes the recommendation below.** The
+problem is not that a ninth page exists; it is that eight near-identical ones sit
+around it, diluting the exact local authority it needs.
+
 **The MMA pair is as exact as the BJJ pair, and the timestamps prove it was not
 considered.** "MMA" is the abbreviation of "mixed martial arts" — the newer
 page's own first section is headed "What is Mixed Martial Arts (**MMA**)?" — and
@@ -3742,23 +3869,23 @@ first one already covered it, because the first one had barely finished
 publishing.
 
 This is keyword cannibalisation with a local-SEO twist. Google will pick one page
-for the local pack and the other seven will usually rank for nothing, but which
+for the local pack and the other eight will usually rank for nothing, but which
 one it picks is not the client's choice, and the link equity and reviews are
-split eight ways. "Fight training near me" and "martial arts near me" are likewise
+split nine ways. "Fight training near me" and "martial arts near me" are likewise
 the same intent expressed two ways; there is no searcher for whom more than one
 of these pages is the right answer.
 
-**Why this is CRITICAL.** Eight pages, including a **three-page group** for one
+**Why this is CRITICAL.** Nine pages, including a three-page group for one
 discipline and an exact-synonym pair for another, is not an overlap — it is a
-duplicate-content problem on the site's only local-intent conversion pages. All
-eight carry the pricing gap (issue 48), all eight carry unbacked program claims
-(issue 39), all eight carry the same broken map (issue 49), and between them they
-hold **fifty-seven testimonials**, not one of which names a town in the gym's
-catchment — and seven of which place the gym in the United Kingdom (issues 14,
-53). Roughly 23,000 words were written in five days to compete with each other.
-This is the single largest self-inflicted SEO cost on the site, and the synonym
-groups — BJJ/jiu jitsu/Brazilian jiu jitsu and MMA/mixed martial arts — are the
-part of it that can be fixed in an afternoon with three redirects.
+duplicate-content problem on the site's only local-intent conversion pages. Eight
+of the nine carry the pricing gap (issue 48), eight carry unbacked program claims
+(issue 39), eight carry the same broken map (issue 49), and between them they
+hold **sixty testimonials**, only ten of which — the genuine Google set on the
+newest page — name anyone in the gym's catchment (issues 14, 53). Roughly 26,000
+words were written to compete with each other. This is the single largest
+self-inflicted SEO cost on the site, and the synonym groups — BJJ/jiu
+jitsu/Brazilian jiu jitsu and MMA/mixed martial arts — are the part of it that
+can be fixed in an afternoon with three redirects.
 
 **What to do: consolidate five pages into two.**
 
@@ -3778,24 +3905,31 @@ move across. The MMA page is the one to fold in first, because MMA is the
 discipline the gym has no program page for at all (issue 39), so two whole URLs
 are currently ranking for a class the site cannot evidence.
 
+**And keep `/self-defense-classes-near-me/` as a third page, not a fourth
+casualty.** It targets a distinct query, it is the best-structured page in the
+cluster, and it is the only one whose content maps onto the programmes the gym
+actually runs. Fix its duplicated section (issue 29) and its self-contradiction
+about the women's class (issue 60), and it becomes the page the other eight were
+trying to be.
+
 **One BJJ page.** Merge `/bjj-classes-near-me/` and `/jiu-jitsu-near-me/`. These
 are the same subject under two names — the BJJ page says so in its own first
 sentence, "BJJ (Brazilian Jiu-Jitsu) classes near me…". "BJJ classes near me" is
 the higher-volume phrasing, so `/bjj-classes-near-me/` is the likely keeper.
 
 Check Search Console before choosing any keeper rather than guessing: keep
-whichever URL already has impressions and redirect the rest into it. Both
+whichever URL already has impressions and redirect the rest into it. All three
 survivors need the prices (issue 48) and LocalBusiness structured data, which
-none of the eight has. Consolidating also concentrates fifty-seven testimonials
-and every internal link onto two pages instead of scattering them across eight.
+none of the nine has. Consolidating also concentrates sixty testimonials and
+every internal link onto three pages instead of scattering them across nine.
 
 This makes the fourth cannibalisation cluster on the site, after the two Kali
 Sticks posts (issue 6), the three Muay Boran posts (issue 7) and the two
 kick-boxing URL spellings (issue 44) — and it is larger than the other three
 combined.
 
-**In the rebuild:** all eight pages are reproduced as published; the rebuild does
-not merge or redirect pages on its own. All eight do carry
+**In the rebuild:** all nine pages are reproduced as published; the rebuild does
+not merge or redirect pages on its own. All nine do carry
 `SportsActivityLocation` structured data, which the live pages lack.
 
 ### 51. Tags aimed at firefighting and at street violence, on a school that teaches children — SEO, CONTENT (reputation) — **High**
@@ -4171,12 +4305,12 @@ flexibility gives you the freedom to train at your own pace") to the same
 verification list. It is a statement about the membership agreement's term, and
 it is the other claim on these pages that a customer could hold the gym to.
 
-### 56. An eight-page local set that is inconsistent with itself — CONTENT, SEO — Medium
+### 56. A nine-page local set that is inconsistent with itself — CONTENT, SEO — Medium
 
-The eight "near me" pages were written from one template in five days (issue 50),
-which should make them the most consistent group on the site. They are not. A
-visitor who reads two of them gets two different answers about what this gym is
-and how it works.
+The nine "near me" pages — eight written from one template in five days, plus one
+six weeks later (issue 50) — should be the most consistent group on the site.
+They are not. A visitor who reads two of them gets two different answers about
+what this gym is and how it works.
 
 | | Pricing section | Reviews | Real subheadings | Programs section |
 |---|---|---|---|---|
@@ -4188,12 +4322,14 @@ and how it works.
 | `/mma-gyms-near-me/` | 3 headings | 9, no locations | 12 H3s | none |
 | `/mixed-martial-arts-near-me/` | **none** | 8, other cities | **2 H3s** | none |
 | `/brazilian-jiu-jitsu-near-me/` | none; promise in the H1 | 7, **UK cities** | 13 H3s | none |
+| `/self-defense-classes-near-me/` | **none at all** | 10, **genuine Google set** | 22 H3s | 4 age groups, matching the program pages |
 
 **The pricing column is the one that matters most.** Six pages have a pricing
-section and state no price (issue 48). The last two have no pricing section at
+section and state no price (issue 48). The last three have no pricing section at
 all, and one of those puts "Flexible Pricing" in its H1 instead — so the set
 manages to be both price-free *and* inconsistent about whether pricing is even a
-topic. A visitor who lands on
+topic. The newest page is the only one that neither promises pricing nor
+discusses it, which is at least honest. A visitor who lands on
 `/mixed-martial-arts-near-me/` first has no section to scan for cost; one who
 lands on `/martial-arts-gyms-near-me/` finds three headings promising
 transparency and no figure. Neither learns anything, but they fail differently,
@@ -4223,11 +4359,11 @@ customer comparing two of them finds contradictions rather than reinforcement.
 Consistency is what makes a template worth using; this set got the duplication
 without the consistency.
 
-**What to do:** this resolves itself if the set is consolidated to two pages as
-issue 50 recommends — two pages cannot contradict each other in eight ways. If
-the client keeps them all, then at minimum: the same pricing section on every
-page, the same review policy, the same programs list, and real headings
-throughout.
+**What to do:** this resolves itself if the set is consolidated to three pages as
+issue 50 recommends. If the client keeps them all, then at minimum: the same
+pricing section on every page, the same review policy, the same programs list,
+and real headings throughout — and the newest page is the model to copy, because
+it is the only one whose programs section matches what the gym actually offers.
 
 ### 57. Three blog pages and three program pages chasing the same BJJ local search — SEO — **CRITICAL**
 
@@ -4351,6 +4487,11 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
+**Now on two pages.** `/self-defense-classes-near-me/` carries the identical
+section — same heading, same paragraph, same single Facebook button — so the
+pattern below applies to both, and the recommendation to move the links into the
+footer is now worth more.
+
 `/which-martial-art-is-best-for-self-defence/` is the **first post in the
 project with a social media section**, which is a good idea. It reads:
 
@@ -4385,11 +4526,77 @@ the highest-value marketing gap on this list after the pricing. And put the
 social links in the footer so they appear on all sixty-five posts rather than
 one.
 
+### 60. A page that contradicts itself about a class in adjacent sections — CONTENT (accuracy) — **High, the client must confirm**
+
+`/self-defense-classes-near-me/` says the women's self-defence programme is
+running, and then, in the very next section, says it is being prepared.
+
+**Section one — it exists, present tense:**
+
+> ## Women's Self Defense Classes
+> Women often search for self defense classes near me that feel practical and
+> safe. **Sixth Sense MMA offers women's self defense programs** designed to
+> build confidence while teaching easy to use self defense techniques. Sessions
+> focus on staying calm, reacting fast handling real world situations without
+> fear.
+
+**The next H3 on the same page — it does not exist yet, future tense:**
+
+> ### Upcoming Self Defense for Women Program
+> **Sixth Sense MMA is preparing a new women's self defense program** that blends
+> martial arts with real world scenarios. **It will include** lessons on personal
+> safety, situational awareness how to react under stress.
+
+"Offers… Sessions focus on" and "is preparing… It will include" are two
+statements about the same class, 250 words apart, in the same article. A visitor
+cannot tell from this page whether she can book a women's class today.
+
+**And the homepage agrees with neither reading cleanly.** It lists
+"**Self-Defense for Women (Coming Soon)**" — which matches the second section and
+contradicts the first.
+
+So the site now says three things:
+
+| Where | What it says |
+|---|---|
+| Homepage | Self-Defense for Women **(Coming Soon)** |
+| `/self-defense-classes-near-me/`, H2 | Sixth Sense MMA **offers** women's self defense programs |
+| `/self-defense-classes-near-me/`, next H3 | Sixth Sense MMA **is preparing** a new women's self defense program |
+
+**This is the fourth page to assert the women's class as current**, after
+`/martial-arts-near-me/` ("Women's Self-Defense Programs"),
+`/martial-arts-gyms-near-me/` ("Women Only Classes") and `/mma-gyms-near-me/`
+(its FAQ asks "What is unique about the women's-only program"). The difference
+here is that the contradiction is **inside one page**, which makes it the easiest
+of the four to see and the hardest to explain away.
+
+**Why this one matters more than the other service claims (issue 39).** Women's
+self-defence is the offering most likely to be searched for by someone acting on
+a specific worry, and the least likely to be forgiven if she turns up and it does
+not exist. It is also the claim the gym has been making, in four places, for six
+weeks, while its own homepage says the class has not launched.
+
+**What the client must confirm, and this is now overdue:** has the women's
+programme launched or not? Then:
+
+- If **yes** — remove "(Coming Soon)" from the homepage and delete the "Upcoming
+  Self Defense for Women Program" section, or rewrite it as what is new about an
+  existing class.
+- If **no** — remove the present-tense claim from this page and from the three
+  others, and leave only the "upcoming" section, which is honest and still useful
+  as a sign-up prompt.
+
+Either way the four pages and the homepage have to say the same thing. This is a
+half-hour edit and it removes the single clearest accuracy problem on the site.
+
+**In the rebuild:** both contradictory passages are reproduced word for word, and
+the build fails if either is quietly harmonised with the other.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 71 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 72 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

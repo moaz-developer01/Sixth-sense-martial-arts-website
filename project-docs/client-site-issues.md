@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **70 pages**: the homepage, the 5 program pages and all 64 blog
+live HTML of **71 pages**: the homepage, the 5 program pages and all 65 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 70 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 70 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 71 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 71 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 26 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 29 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 32 | **High** |
@@ -43,17 +43,17 @@ issue 40, which is now sending link equity to a competing gym.
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
-| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 3 | Medium |
+| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 4 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 20 | Low |
+| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 20 | Low — improving |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
 | 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to six phrasings of one phrase | SEO | 9 | Medium |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified | CONTENT | 24 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified, and one page's that clearly can | CONTENT | 25 | Low — for the client to decide |
 | 33 | The brand name written eight different ways, three of them in one page's headings | CONTENT, SEO | 13 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -61,6 +61,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 13 | **High — client must confirm** |
+| 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
+| 59 | A published page with no social profile but a "Follow Us" section linking one platform | CONTENT | 1 | Low |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 5 | Medium |
@@ -80,7 +82,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 56 | An eight-page local set that is inconsistent with itself, one page missing the pricing section the others have | CONTENT, SEO | 8 | Medium |
 | 57 | Three blog pages and three program pages chasing the same BJJ local search | SEO | 6 | **CRITICAL** |
 
-**57 issues in total.**
+**59 issues in total.**
 
 ---
 
@@ -594,8 +596,34 @@ Same cause as the "H2:" marker above — an outline pasted in and published
 without a read-through — and it confirms the check suggested there is worth
 doing across the site.
 
+**A third: "Call to Action:".** `/which-martial-art-is-best-for-self-defence/`
+publishes an H2 that reads, on the page:
+
+> ## Call to Action:
+
+"Call to Action" is what a copywriter calls the closing paragraph; it is not what
+the section is about. The paragraph beneath it is a perfectly good CTA — "Are you
+ready to take your Self Defence skills to the next level? Join Sixth Sense MMA
+today…" — with a label describing its own function sitting on top of it, in the
+largest text in that part of the page.
+
+It is the same class of error as "H2:" and "(Bullet Points)": a structural note
+from the draft, published as content. This one is the most visible of the three,
+because it is an H2 rather than an H3 and it appears in the page's table of
+contents. It is also **worse than the others for SEO**, because "Call to Action"
+is the heading Google may show for that section, and nobody searches it.
+
+Two sibling headings on the same page do something milder: "**Customer
+Reviews:**" and "**Benefits:**" both end in a colon, which reads like a label
+rather than a heading, though neither is a leftover instruction.
+
+Three leftover markers now, on three posts written months apart. The check is
+still one search.
+
 **What to do:** delete "(Bullet Points)" and merge the two sections, or give the
-second one a heading that says what it actually covers.
+second one a heading that says what it actually covers. Replace "Call to Action:"
+with something a reader would search — "Start Training in Coppell", or similar —
+and drop the trailing colons from "Customer Reviews:" and "Benefits:".
 
 ### 25. YouTube video that never loads, bare link shown instead — CONTENT — Medium
 
@@ -612,7 +640,7 @@ Classes".
 Or remove the block. The video is a third-party channel ("Plainly Put"), so
 confirm it's meant to be there.
 
-### 32. Testimonials that cannot be verified, and no review schema — CONTENT — Low, for the client to decide
+### 32. Testimonials that cannot be verified, and one page's that clearly can — CONTENT — Low, for the client to decide
 
 `/sambo-martial-art/` ends with a "Reviews for Sixth Sense MMA" section holding
 five short testimonials, each signed with a first name and an initial: Ahmed R.,
@@ -654,6 +682,74 @@ The country labels are worth a thought of their own: a Coppell gym showing
 reviews from the UK, Brazil, Australia and Canada tells a local reader nothing
 about whether people near them train there. Reviews from Dallas–Fort Worth would
 carry far more weight.
+
+#### And one set that reads as genuinely real: `/which-martial-art-is-best-for-self-defence/`
+
+This page carries **twelve** testimonials, and they are a different species from
+every other set on the site. They have **full names** — Muntasir Zaman, Isabella
+Barbosa, Ameera Abbasi, Ben Holland, Sana Haq, Noor Ghaffar, Sagar deep singh,
+Shiraz, Adnan Sheriff, Mohammed Shaazuddin — one display name (FunDadMo, which is
+exactly what a Google account looks like), **no city labels at all**, and they
+say specific, checkable things:
+
+- "The head coach **Matheus** really paid attention to small details" — the
+  **only named coach anywhere in the project**, across 65 posts.
+- "So excited to have a jiu jitsu gym in our neighborhood! **This is what
+  Coppell needed!**" — the only review on the entire site that names the town the
+  gym is actually in.
+- "I had gone for a **free trial session**" — matches the offer the program pages
+  make.
+- "The **pricing** isn't too bad." — a customer who has been told a price, on a
+  site that publishes none (issue 48).
+
+These look like Google reviews copied across, and if they are, they are worth
+more than the other forty-one combined. **The client should confirm and then link
+to the Google Business Profile**, which turns unverifiable text into public
+proof.
+
+**Three problems with how they were copied, though, and one is serious.**
+
+**1. Two reviews are visibly broken.** Isabella Barbosa's is truncated
+mid-sentence and ends on an opening quote mark with nothing after it:
+
+> "So nice space!! The staff are very friendly. I loved "
+
+FunDadMo's has a stray extra closing quote, so the second sentence sits outside
+the quotation:
+
+> "Great hidden jiu jitsu gym for all ages, perfect for learning self defense
+> techniques." The teacher is great and really knows the art."
+
+**2. One attribution line is not a name.** Where the other eleven have a person,
+the third has a sentence of marketing copy:
+
+> **Tamires Piol is a dedicated instructor in effective martial arts for self
+> defense.**
+> "Great environment for kids' Jiu Jitsu and women's BJJ; the coaches provide
+> excellent self defense training!"
+
+So a reviewer's name has been replaced by a keyword-bearing sentence about an
+instructor. A reader cannot tell who left that review.
+
+**3. The reviews appear to have been edited to insert keywords, and this is the
+serious one.** The phrase "**effective martial arts for self defense**" appears
+inside two of the twelve, and "self defense" appears in several more in places
+where it reads as inserted rather than spoken:
+
+> "My kids love their classes. Professional and friendly instructors ensure you
+> learn **effective martial arts for self defense**. Clean and well lit space."
+
+That sentence does not read like a parent. **Editing the text of a real customer
+review to insert search keywords is a different thing from writing fictional
+ones** — it attributes words to a named person that they did not write. If these
+came from Google, the originals are public and the difference is checkable by
+anyone.
+
+**What to do:** get the originals from Google Business Profile and republish them
+word for word, or link to the profile and let Google show them. Restore
+Isabella Barbosa's full review or remove it. Put a name back where Tamires Piol's
+should be. And stop editing review text — the keyword gain is negligible and the
+downside is attributing invented words to named customers.
 
 **In the rebuild:** these five are likewise reproduced word for word, doubled
 quote marks and all, with no Review schema.
@@ -1349,6 +1445,31 @@ and who awarded it? If the answer is a named black belt under a named professor,
 put it on the page. If the certification is something else — a coaching
 qualification, a first-aid certificate — say which, because "fully certified"
 currently implies a BJJ rank whether or not that is intended.
+
+**A partial answer turned up on the newest post, in a place nobody would look.**
+`/which-martial-art-is-best-for-self-defence/` does not name a coach in its own
+copy either — but one of its customer reviews does:
+
+> "Great gym! Came in for a session today and loved the environment and
+> instruction. **The head coach Matheus** really paid attention to small details
+> and made sure to give everyone adequate time and focus."
+> — Muntasir Zaman
+
+Across sixty-five posts, that is **the only place on the site where a coach is
+named**, and it is in a quotation from a customer rather than anywhere the gym
+says it itself. Another review on the same page refers to an instructor named
+Tamires Piol (issue 32).
+
+That is the wrong way round. A prospective student reading thirteen posts that
+say "certified and experienced coaches" learns nothing; the same student reading
+one review learns the head coach's name. **The gym has at least one named coach
+it could be putting on every program page**, with a belt rank and a photograph,
+and instead the name only survives because a customer happened to use it.
+
+**The cheapest fix on this entire list:** put the coaching staff on the site.
+Names, ranks, who awarded them, one photograph each. It answers the certification
+question on thirteen posts at once, it is the first thing a parent looks for, and
+the material already exists — somebody just has to write it down.
 
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
@@ -2712,7 +2833,7 @@ Google then has to pick one and ranks all of them weaker.
 
 | Topic | Competing pages |
 |---|---|
-| Best martial arts for self-defense | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` |
+| **Best martial art for self-defence (confirmed, three pages)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` — see below |
 | BJJ belts and rank progression | `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
@@ -2720,6 +2841,45 @@ Google then has to pick one and ranks all of them weaker.
 | Martial arts for kids | `/martial-arts-for-kids/` · `/kids-bjj-classes/` (program page) |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
+
+#### The self-defence trio, and a spelling that makes it worse — **CRITICAL**
+
+Three posts now answer the same question:
+
+| URL | Title | Published |
+|---|---|---|
+| `/best-martial-arts/` | "Best Martial Arts for Self-Defense: Which Style Suits You?" | 2025-01-21 |
+| `/best-martial-arts-for-self-defense/` | "Best Martial Arts for Self-Defense: Top Disciplines Ranked" | 2025-02-18 |
+| `/which-martial-art-is-best-for-self-defence/` | "Which Martial Art is Best for Self-Defence?" | 2025-09-08 |
+
+The first two were already logged as a pair. The third, published seven months
+later, asks the identical question in a different grammatical shape — and the
+only thing distinguishing its URL from the second is **British spelling**:
+
+```
+/best-martial-arts-for-self-defense/     ← American "defense"
+/which-martial-art-is-best-for-self-defence/  ← British "defence"
+```
+
+**That is the worst possible way to differentiate two pages.** Google treats
+"defense" and "defence" as the same query for a US searcher, so the two pages
+compete directly; but a person who types the British spelling and a person who
+types the American one are the same customer in Coppell, Texas, where nobody
+writes "defence". The site has produced two URLs for one question and
+distinguished them by a spelling its own audience does not use.
+
+This belongs beside the BJJ near-me cluster (issue 57) as the second confirmed
+**CRITICAL** duplication group: three pages, one question, and the newest of the
+three is by some distance the best written (correct brand throughout, real
+reviews, clean asset names, genuine list markup) — which makes it the obvious
+keeper rather than the obvious casualty.
+
+**What to do:** keep
+`/which-martial-art-is-best-for-self-defence/` if Search Console supports it,
+**but move it to the American spelling** — `/which-martial-art-is-best-for-self-defense/`
+— and 301 the other two into it. Check impressions before choosing; whichever
+survives, the URL should use "defense". See issue 58 for the site-wide spelling
+problem this is part of.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
@@ -3446,6 +3606,28 @@ file under a short name and fix its alt text at the same time, trim the trailing
 hyphen in whatever export step is adding it, fix "ofmartial", and rename the
 "-1" file after what it shows.
 
+**The newest uploads are noticeably better, which is worth saying.** The three
+images on `/which-martial-art-is-best-for-self-defence/` — the most recently
+published post, uploaded in **September 2025** rather than August — are named:
+
+```
+Which-Martial-Art-is-Best-for-Self-Defence-by-sixthsensemma.com_-1024x536.jpg
+Muay-Thai-for-Self-Defence-by-sixthsensemma.com_-1024x536.jpg
+Brazilian-Jiu-Jitsu-for-Self-Defence-by-sixthsensemma.com_-1024x536.jpg
+```
+
+Each one describes the section it appears in, each matches its heading, and none
+is reused from another post. After the WhatsApp exports, the Canva placeholders,
+the bare numbers and the duplicated phrases catalogued above, this is the first
+batch in the project that gets asset naming right. Whatever changed between the
+August and September uploads should be kept.
+
+Two small things remain: every filename ends in `by-sixthsensemma.com_` with a
+**trailing underscore**, which is WordPress replacing the final full stop of
+".com"; and appending the domain to every filename adds length without adding
+information, since the file is already on that domain. Neither is worth
+retrofitting.
+
 **Three images still carrying Canva's default name.** All three images on
 `/muay-thai-fighting-stance/` are uploaded as `Add-a-subheading`:
 `Add-a-subheading-2-1024x536.png` (the featured image),
@@ -4114,11 +4296,100 @@ link from the newest to `/bjj-classes-near-me/`; the rebuild does not merge or
 redirect pages on its own. None of the three links to a program page on the live
 site, so none was added.
 
+### 58. British and American spellings of "defence" used across the site, and inside one page — CONTENT, SEO — Medium
+
+Sixth Sense Martial Arts is a business in Coppell, **Texas**, writing for
+customers in Dallas–Fort Worth. Its site spells the word two ways.
+
+| Spelling | Where |
+|---|---|
+| **"defense"** (American) | 52 posts, both program-page sets, the homepage — the overwhelming majority |
+| **"defence"** (British) | `/which-martial-art-is-best-for-self-defence/` and `/sambo-martial-art/` |
+
+The newest post is the problem case. It uses British "Defence" **45 times**,
+including in its H1, its `<title>`, its URL and five of its thirteen headings —
+and American "defense" **12 times** in the same article, including in its own
+meta description, which manages both spellings in one sentence:
+
+> "Learn which martial art is best for self-**defence**. Compare various martial
+> arts for self-**defense**, including most effective techniques for personal
+> protection."
+
+Its "Follow Us on Social Media" paragraph says "our self **defense** community"
+four paragraphs below a heading that says "Self **Defence**". Several of its
+customer reviews say "self defense" while the headings above them say
+"defence" (issue 32).
+
+**Three separate costs.**
+
+**1. It splits the URL.** `/which-martial-art-is-best-for-self-defence/` and
+`/best-martial-arts-for-self-defense/` differ only by this letter, which is how
+two pages ended up competing for one query (issue 7).
+
+**2. It reads as foreign to the local customer.** A parent in Coppell searching
+for self-defense classes does not write "defence", and a page that does reads as
+though it was written somewhere else — which, given the British reviews on
+`/brazilian-jiu-jitsu-near-me/` (issue 14), is a pattern rather than a
+coincidence. For a business whose entire SEO strategy is "near me", looking
+non-local is the specific thing to avoid.
+
+**3. Search volume is not symmetrical.** In the US market, "self defense"
+massively outweighs "self defence". Google will usually serve the American
+spelling for a US searcher regardless, but titles and H1s are shown as written,
+so the visible result carries a spelling the searcher did not type.
+
+**What to do:** standardise on **American "self-defense"** across the site —
+body copy, headings, titles, meta descriptions and URLs. On
+`/which-martial-art-is-best-for-self-defence/` that means changing the slug and
+301-ing the old one, which should be done at the same time as the consolidation
+in issue 7 so the URL only changes once. `/sambo-martial-art/` needs the same
+pass. Add "defence → defense" to whatever style note the writers work from,
+alongside the brand-spelling rule (issue 33).
+
+**In the rebuild:** both spellings are reproduced exactly as published, including
+the meta description that uses both, and the build fails if either count changes.
+
+### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
+
+`/which-martial-art-is-best-for-self-defence/` is the **first post in the
+project with a social media section**, which is a good idea. It reads:
+
+> ### Follow Us on Social Media
+> Stay connected with Sixth Sense MMA through our social media **channels**.
+> Follow us for class updates, training tips, and a closer look at our self
+> defense community.
+> **[Facebook]**
+
+"Channels", plural, followed by one button. **Facebook is the only platform
+linked** — there is no Instagram, YouTube, TikTok, X or LinkedIn link anywhere in
+the page's source, and no social links in the site footer either.
+
+For a martial arts gym that is a real gap rather than a nitpick: **Instagram is
+where this business would live**. Training clips, belt promotions, class photos,
+kids' gradings — the content a gym produces naturally is exactly what Instagram
+rewards, and it is where a parent checks whether a gym looks like somewhere they
+would send their child. A single Facebook link on one blog post out of
+sixty-five is not a social presence.
+
+**On the Facebook link itself:** `facebook.com/sixthsensemartialarts/` returns
+HTTP 400 to an automated request. Facebook does that routinely to anything that
+is not a logged-in browser, so **this does not establish that the page is dead** —
+but it does mean I could not confirm from here that the profile exists, is
+active, or belongs to this business. The client should open it and check, because
+a "Follow Us" button pointing at an empty or abandoned page is worse than no
+button.
+
+**What to do:** confirm the Facebook page is live and maintained. If there is an
+Instagram account, link it here and in the site footer; if there is not, that is
+the highest-value marketing gap on this list after the pricing. And put the
+social links in the footer so they appear on all sixty-five posts rather than
+one.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 70 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 71 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

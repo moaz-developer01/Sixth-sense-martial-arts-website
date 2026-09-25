@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **68 pages**: the homepage, the 5 program pages and all 62 blog
+live HTML of **69 pages**: the homepage, the 5 program pages and all 63 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 68 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 68 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 69 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 69 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -31,14 +31,14 @@ issue 40, which is now sending link equity to a competing gym.
 | 7 | Near-duplicate posts competing for the same searches | SEO | 26 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
-| 10 | Outbound links to unrelated, weak or foreign-language sources | SEO, CONTENT | 31 | Medium |
+| 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 32 | **High** |
 | 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
 | 12 | AI-tool markup pasted into posts: ChatGPT, and now DeepSeek | CONTENT | 4 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
-| 14 | Orlando post targets a city 1,100 miles away; reviews and headings placing a one-location gym across the USA | GEOGRAPHIC TARGETING | 6 | High |
+| 14 | Orlando post targets a city 1,100 miles away; reviews and headings placing a one-location gym across the USA | GEOGRAPHIC TARGETING | 7 | High |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
 | 16 | Empty headings | SEO | 2 | Low |
-| 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 26 | Medium |
+| 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 27 | Medium |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 8 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
@@ -51,9 +51,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | A whole second article duplicated inside another post | CONTENT, SEO | 1 | High |
-| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, five phrasings of one phrase | SEO | 8 | Medium |
+| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to six phrasings of one phrase | SEO | 9 | Medium |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified | CONTENT | 22 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified | CONTENT | 23 | Low — for the client to decide |
 | 33 | The brand name written six different ways, three of them on one page | CONTENT, SEO | 12 | Medium |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -69,16 +69,17 @@ issue 40, which is now sending link equity to a competing gym.
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 | 46 | A whole article section published inside a table caption | CONTENT, SEO, ACCESSIBILITY | 1 | Medium |
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
-| 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 6 | **CRITICAL** |
-| 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 6 | Low |
-| 50 | Six "near me" pages competing for the same local searches, three near-exact pairs | SEO | 6 | **CRITICAL** |
+| 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 7 | **CRITICAL** |
+| 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 7 | Low |
+| 50 | Seven "near me" pages competing for the same local searches, four near-exact pairs | SEO | 7 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
 | 52 | A comparison table advertising against unnamed competitors | CONTENT (accuracy) | 1 | Medium |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
-| 54 | Bullet characters typed into headings and bold paragraphs instead of using lists | SEO, ACCESSIBILITY | 1 | Medium |
+| 54 | Subheadings published as bold paragraphs: bullets on one post, numbers on another | SEO, ACCESSIBILITY | 2 | Medium |
 | 55 | Two pages advertising two different discount schemes | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
+| 56 | A seven-page local set that is inconsistent with itself, one page missing the pricing section the other six have | CONTENT, SEO | 7 | Medium |
 
-**55 issues in total.**
+**56 issues in total.**
 
 ---
 
@@ -337,11 +338,34 @@ names are lower case ("**jansen** J., 27", "**danial** M., 32") and a third is
 garbled across a tag boundary — "**kalin ssan** K., Jiu-Jitsu Competitor",
 where "kalin" sits outside the bold tag that holds "ssan K.".
 
+**A missing noun, and two words fused together, on `/mixed-martial-arts-near-me/`.**
+Its fourth H2 reads:
+
+> What Makes a Great **MMA** Near You?
+
+A great MMA *what*? The noun — "gym" — is absent, so the heading asks an
+incomplete question. This is the second heading in two days built on the site's
+own keyword with a word missing from it, after "MMA Gyms **Near** Isn't Just
+About Location" on `/mma-gyms-near-me/`.
+
+Its second H2 writes the brand as "SixthSense **mma** has you covered" — the
+suffix in lower case inside a heading that capitalises the rest of the name
+correctly. And in the body:
+
+> There are no hidden fees or confusing **contractsjust** honest coaching…
+
+"contracts" and "just" are fused with no space and no punctuation between them —
+in the sentence that makes the page's contractual claim.
+
+The H1 continues the case problem: "Mixed Martial Arts **near me** with Proven
+Real **results**" — two phrases in lower case in a title that capitalises
+everything else, on the third consecutive post to do it.
+
 **What to do:** this is the point to stop fixing individual typos and put a
 proofreading step in front of publication. Whoever is drafting should have a
 native English reader check each post before it goes live. Then correct these
-headings, starting with "BJ Classes", the missing "Me", the missing "W" in the
-FAQ question, and the lower-case "me" in both H1s.
+headings, starting with "BJ Classes", the two missing words, the missing "W" in
+the FAQ question, "contractsjust", and the lower-case words in all three H1s.
 
 ### 33. The brand name written six different ways — CONTENT, SEO — Medium
 
@@ -2054,23 +2078,52 @@ Three commitments on this page also need checking, and two of them are new:
 - "**Discounts for Students, Families & First Responders**" — see **issue 55**,
   because this page and `/jiu-jitsu-near-me/` name **different** groups.
 
+#### The seventh page has no pricing section at all: `/mixed-martial-arts-near-me/`
+
+This one breaks the pattern, and not in a good way. It is the only local landing
+page with **no pricing heading anywhere** — no "Pricing", no "Membership", no
+"Plans". A reader looking for cost on the site's newest page finds no section to
+look in.
+
+It still makes cost claims, just buried in running text with no heading above
+them:
+
+> We keep things upfront, from **pricing** to how we teach. There are no **hidden
+> fees** or confusing contractsjust honest coaching and real support.
+
+> With **no contracts**, a **pressure-free trial**, and **all gear provided**,
+> it's simple to sign-up, either online or in person.
+
+So the page makes four commitments — upfront pricing, no hidden fees, no
+contracts, all gear provided — and states no price, exactly like the six before
+it, but now without even a section heading a reader could scan to.
+
+"**All gear provided**" is new and is worth confirming: it means gloves, wraps
+and pads at no cost, which is a real expense for a gym and the kind of promise a
+beginner turns up relying on. No other page on the site says it.
+
+**Seven for seven.** Every local landing page states no price. Six have a pricing
+section that answers nothing; the seventh does not have one at all. See issue 56
+for what that inconsistency does to the set as a whole.
+
 **What to do, in priority order:** (1) publish a price, even a "from" figure, on
-all six pages — the pay-as-you-go rate is the single most useful number and the
+all seven pages — the pay-as-you-go rate is the single most useful number and the
 easiest to state; (2) if the client will not publish prices, delete the pricing
 sections and the pricing promises from the titles and H1s — a page can decline
 to state a price, but it cannot advertise transparency and then decline, and
 "Transparent Pricing No Hidden Fees" above no prices is the heading that would
 be quoted back first; (3) verify the "no hidden costs", "no fine print", "no
-extra charges", "pause anytime", "no long term contracts" and every discount
-claim against the actual membership agreement.
+extra charges", "pause anytime", "no long term contracts", "all gear provided"
+and every discount claim against the actual membership agreement.
 
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
-All six "near me" pages — `/jiu-jitsu-near-me/`, `/martial-arts-near-me/`,
+All seven "near me" pages — `/jiu-jitsu-near-me/`, `/martial-arts-near-me/`,
 `/fight-training-near-me/`, `/bjj-classes-near-me/`,
-`/martial-arts-gyms-near-me/` and `/mma-gyms-near-me/` — embed a Google Map of
-the Coppell studio, which is exactly right for a "near me" page. The markup is
-not: every one of them carries the same iframe, copied from one to the next:
+`/martial-arts-gyms-near-me/`, `/mma-gyms-near-me/` and
+`/mixed-martial-arts-near-me/` — embed a Google Map of the Coppell studio, which
+is exactly right for a "near me" page. The markup is not: every one of them
+carries the same iframe, copied from one to the next:
 
 ```html
 <iframe style="border: 0;" src="https://www.google.com/maps/embed?..."
@@ -2089,7 +2142,7 @@ Three problems, all small, all easy:
   loaded eagerly here, on the page most likely to be opened on a phone on mobile
   data.
 
-All three faults are on all six pages, in the same order, with the same
+All three faults are on all seven pages, in the same order, with the same
 attributes and the same missing ones. On `/bjj-classes-near-me/` the embed sits
 high in the page, inside "Local, Safe & Clean Environment", so the sideways
 scroll it causes on a phone is the first thing a visitor meets. Only the embed's coordinates differ, and
@@ -2097,7 +2150,7 @@ on `/fight-training-near-me/` the map sits inside the "Location Convenience"
 section, which is the part of the page most likely to be read on a phone while
 someone is standing outside.
 
-**What to do:** give all six iframes `width="100%"`, a `title`, and `loading="lazy"`,
+**What to do:** give all seven iframes `width="100%"`, a `title`, and `loading="lazy"`,
 copying the pattern already used on the program pages.
 
 **In the rebuild:** the embed is reproduced exactly as published, inline style,
@@ -2423,11 +2476,31 @@ keyword-variation habit, applied to taxonomy instead of to posts. It is also why
 this issue moves from Low to Medium — a tag archive is a real indexable URL, and
 the site is generating them faster than it generates content.
 
+**And six of them the next post along.** `/mixed-martial-arts-near-me/` carries
+six tags, and they are six spellings of one phrase:
+
+| Tag | |
+|---|---|
+| mix martial arts gym near me | "**mix**" for "mixed" |
+| mix martial arts near me | "**mix**" for "mixed" |
+| mixed martial arts classes near me | |
+| mixed martial arts gym near me | singular |
+| mixed martial arts gyms near me | plural |
+| mixed martial arts near me | the page's own keyword |
+
+Two of the six use "**mix** martial arts", which is not the name of the sport.
+Two more differ only by the letter s on "gym". Between this post and
+`/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
+one topic, each generating its own indexable archive page.
+
 **What to do:** retype those eleven tag names, delete the duplicates left
 behind, and watch for the same character when pasting keywords into titles and
 headings as well. Pasting into a plain-text editor first strips it. On
-`/mma-gyms-near-me/`, keep one tag — "mma gyms near me" — and delete the other
-four, then check whether their archive pages are indexed and remove them if so.
+`/mma-gyms-near-me/` keep "mma gyms near me" and on
+`/mixed-martial-arts-near-me/` keep "mixed martial arts near me"; delete the
+other nine, and check whether their archive pages are indexed and remove them if
+so. Delete the two "mix martial arts" tags first — they are misspellings of the
+sport's name.
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -2647,7 +2720,7 @@ show FAQ rich results for any of them.
 The twenty-six newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
-### 10. Outbound links to unrelated, weak or foreign-language sources — SEO, CONTENT — Medium
+### 10. Outbound links to unrelated, weak or foreign-language sources, one to an American-football article — SEO, CONTENT — **High**
 
 Single words in answers are linked to Wikipedia articles that don't match the
 meaning.
@@ -2741,8 +2814,45 @@ intention — and, as with the links above, it passes ranking signal off the sit
 for nothing in return. This is a link placed because a word could be linked, not
 because a reader needed it.
 
-**What to do:** remove the four clearly wrong links and the Wikipedia "purpose"
-link; replace or remove the generic ones.
+#### The worst link on the site: "rushing" → American football
+
+`/mixed-martial-arts-near-me/` links the word **rushing** to
+`en.wikipedia.org/wiki/Rushing`. That article is about **rushing in American
+football** — the act of advancing the ball by running with it, gridiron
+statistics, career rushing yards. It has nothing to do with martial arts, and
+nothing to do with the sense in which the page uses the word.
+
+The sentence it sits in is about not hurrying a beginner:
+
+> …you'll grow confident, move with purpose, and feel safe and supported as you
+> improve. It's all about building confidence—not [**rushing**](https://en.wikipedia.org/wiki/Rushing)
+> to prove yourself.
+
+"Rushing" there means *hurrying*. The link goes to a page about a football
+statistic. It is also inside a **FAQ answer**, so it is part of the page's
+`FAQPage` structured data — the one block of content Google is most likely to
+lift into a rich result.
+
+**This beats the previous worst case.** The Nogi post's link to the Japanese town
+of Tochigi was at least a real place name that appeared in the text. This one
+takes a common English verb, matches it to an unrelated sport's jargon article,
+and ships it. No human read the sentence and thought the reader wanted gridiron
+statistics; something matched the string "rushing" to a Wikipedia title.
+
+Taken with the "purpose" link on `/mma-gyms-near-me/` — published the same
+evening, three minutes apart — the pattern is clear: abstract words in closing
+paragraphs are being auto-linked to whatever Wikipedia article shares their name.
+Both pages leak ranking signal to Wikipedia and send readers away at the exact
+moment the page is asking them to book a class.
+
+**Why this issue moves from Medium to High.** Thirty-two pages now carry weak or
+wrong outbound links, and two of them are actively misleading rather than merely
+unhelpful. Every one is `target="_blank"` and passes authority off the site for
+nothing in return.
+
+**What to do:** remove the four clearly wrong links, the Wikipedia "purpose"
+link, and the Wikipedia "rushing" link; replace or remove the generic ones. Then
+find whatever is auto-linking single words and turn it off.
 
 ### 11. Blurry, upscaled featured images — SEO — Medium
 
@@ -3252,33 +3362,34 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. Six "near me" pages competing for the same local searches, three near-exact pairs — SEO — **CRITICAL**
+### 50. Seven "near me" pages competing for the same local searches, four near-exact pairs — SEO — **CRITICAL**
 
 `/martial-arts-near-me/`, `/jiu-jitsu-near-me/`, `/fight-training-near-me/`,
-`/bjj-classes-near-me/`, `/martial-arts-gyms-near-me/` and `/mma-gyms-near-me/`
-were published within four days of each other and are built to the same plan: a local-intent H1, a programs section, a "why choose
+`/bjj-classes-near-me/`, `/martial-arts-gyms-near-me/`, `/mma-gyms-near-me/` and
+`/mixed-martial-arts-near-me/` were published within four days of each other and
+are built to the same plan: a local-intent H1, a programs section, a "why choose
 us" section, a pricing section, a Coppell map embed and an FAQ.
 They target overlapping queries — someone typing "jiu jitsu near me" and someone
 typing "martial arts near me" in Coppell are the same prospective member, and
 both pages are written to convert them. Their opening H2s are the same sentence
 with one term swapped.
 
-| | `/mma-gyms-near-me/` | `/martial-arts-gyms-near-me/` | `/bjj-classes-near-me/` | `/fight-training-near-me/` | `/martial-arts-near-me/` | `/jiu-jitsu-near-me/` |
-|---|---|---|---|---|---|---|
-| Published | 2025-08-05 18:07 | 2025-08-05 13:25 | 2025-08-04 11:06 | 2025-08-04 08:58 | 2025-08-03 | 2025-08-02 |
-| Words in the article body | 2,713 | 3,749 | 2,988 | 3,203 | 2,531 | 2,790 |
-| Opening H2 | "Looking for MMA Gyms Near Me? SixthSense MMA Has You Covered" | "Looking for a Martial Arts Gym Near You?" | "Looking for BJJ classes Near Me? SixthSense MMA Has You Covered" | "Looking for "Fight Training Near Me"? Sixth sense mma has covered" | "Looking for Martial Arts Near Me? SixthSense MMA Has You Covered" | "Looking for Jiu Jitsu Near Me? SixthSense MMA Has You Covered" |
-| Programs section | none; MMA throughout, and MMA has no program page | 5 disciplines, 2 with no program page | 4 disciplines, 2 with no program page | 4 disciplines, 2 with no program page | 4 programs, 2 with no program page | 6 offers, 5 with nothing elsewhere |
-| Pricing section | 3 headings, no prices, "budget" in the title | 3 headings, no prices | 2 headings, no prices, "Transparent Pricing" | 1 heading, no prices, promise in the title | 2 headings, no prices | 2 headings, no prices |
-| Customer reviews | 9 in 3 groups, no locations given | 9, all from other cities (issues 14, 53) | 7, all from other cities (issues 14, 53) | 10, all from other cities (issue 14) | 7 | none |
-| Coppell map embed | Yes | Yes | Yes | Yes | Yes | Yes — the same markup on all six, same three faults (issue 49) |
-| Local business schema | No | No | No | No | No | No |
+| | `/mixed-martial-arts-near-me/` | `/mma-gyms-near-me/` | `/martial-arts-gyms-near-me/` | `/bjj-classes-near-me/` | `/fight-training-near-me/` | `/martial-arts-near-me/` | `/jiu-jitsu-near-me/` |
+|---|---|---|---|---|---|---|---|
+| Published | 2025-08-05 18:10 | 2025-08-05 18:07 | 2025-08-05 13:25 | 2025-08-04 11:06 | 2025-08-04 08:58 | 2025-08-03 | 2025-08-02 |
+| Words in the article body | 2,129 | 2,713 | 3,749 | 2,988 | 3,203 | 2,531 | 2,790 |
+| Opening H2 | "Looking for Mixed Martial Arts Near Me? SixthSense mma has you covered" | "Looking for MMA Gyms Near Me? SixthSense MMA Has You Covered" | "Looking for a Martial Arts Gym Near You?" | "Looking for BJJ classes Near Me? SixthSense MMA Has You Covered" | "Looking for "Fight Training Near Me"? Sixth sense mma has covered" | "Looking for Martial Arts Near Me? SixthSense MMA Has You Covered" | "Looking for Jiu Jitsu Near Me? SixthSense MMA Has You Covered" |
+| Programs section | none; MMA throughout, and MMA has no program page | none; MMA throughout, and MMA has no program page | 5 disciplines, 2 with no program page | 4 disciplines, 2 with no program page | 4 disciplines, 2 with no program page | 4 programs, 2 with no program page | 6 offers, 5 with nothing elsewhere |
+| Pricing section | **none at all** (issue 56) | 3 headings, no prices, "budget" in the title | 3 headings, no prices | 2 headings, no prices, "Transparent Pricing" | 1 heading, no prices, promise in the title | 2 headings, no prices | 2 headings, no prices |
+| Subheadings | 2 H3s in 7 sections; 16 published as bold paragraphs (issue 54) | 12 H3s | 26 H3s | 18 H3s | 16 H3s + 4 H4s | 16 H3s | 17 H3s |
+| Customer reviews | 8, all from other cities (issues 14, 53) | 9 in 3 groups, no locations given | 9, all from other cities (issues 14, 53) | 7, all from other cities (issues 14, 53) | 10, all from other cities (issue 14) | 7 | none |
+| Coppell map embed | Yes | Yes | Yes | Yes | Yes | Yes | Yes — the same markup on all seven, same three faults (issue 49) |
+| Local business schema | No | No | No | No | No | No | No |
 
-Note the opening-H2 row: five of the six are the same sentence with one phrase
-swapped, and the sixth is the same question shortened. They were written from a
-template, four days running — and **two pairs were published on the same day**,
-the BJJ and Fight Training pages hours apart on 4 August, the two "gyms" pages
-five hours apart on 5 August.
+Note the opening-H2 row: six of the seven are the same sentence with one phrase
+swapped, and the seventh is the same question shortened. They were written from a
+template, four days running — and the last two were published **three minutes
+apart**, at 18:07 and 18:10 on 5 August.
 
 **`/bjj-classes-near-me/` and `/jiu-jitsu-near-me/` are the same page.** BJJ *is*
 jiu jitsu — "BJJ" is the abbreviation of "Brazilian Jiu Jitsu", and the newer
@@ -3314,55 +3425,71 @@ So the cluster contains three near-exact pairs:
 | Pair | Why they are the same page |
 |---|---|
 | `/bjj-classes-near-me/` + `/jiu-jitsu-near-me/` | BJJ **is** jiu jitsu; the newer page says so in its first sentence |
+| `/mma-gyms-near-me/` + `/mixed-martial-arts-near-me/` | MMA **is** mixed martial arts; published **three minutes apart** |
 | `/martial-arts-gyms-near-me/` + `/martial-arts-near-me/` | "gyms" adds nothing to "martial arts near me" |
 | `/martial-arts-gyms-near-me/` + `/mma-gyms-near-me/` | Same subject, same structure, five hours apart |
 
+**The MMA pair is as exact as the BJJ pair, and the timestamps prove it was not
+considered.** "MMA" is the abbreviation of "mixed martial arts" — the newer
+page's own first section is headed "What is Mixed Martial Arts (**MMA**)?" — and
+`/mma-gyms-near-me/` was published at 18:07, `/mixed-martial-arts-near-me/` at
+18:10. Three minutes. Nobody writing the second page paused to ask whether the
+first one already covered it, because the first one had barely finished
+publishing.
+
 This is keyword cannibalisation with a local-SEO twist. Google will pick one page
-for the local pack and the other five will usually rank for nothing, but which
+for the local pack and the other six will usually rank for nothing, but which
 one it picks is not the client's choice, and the link equity and reviews are
-split six ways. "Fight training near me" and "martial arts near me" are likewise
+split seven ways. "Fight training near me" and "martial arts near me" are likewise
 the same intent expressed two ways; there is no searcher for whom more than one
 of these pages is the right answer.
 
-**Why this is CRITICAL.** Six pages, containing **three** near-exact pairs, is not
-an overlap — it is a duplicate-content problem on the site's only local-intent
-conversion pages. All six carry the pricing gap (issue 48), all six carry
-unbacked program claims (issue 39), all six carry the same broken map (issue
-49), and between them they hold **forty-two testimonials**, not one of which
-names a town in the gym's catchment (issues 14, 53). Roughly 18,000 words were
-written in four days to compete with each other. This is the single largest
-self-inflicted SEO cost on the site, and the three duplicate pairs are the part
-of it that can be fixed in an afternoon.
+**Why this is CRITICAL.** Seven pages, containing **four** near-exact pairs and
+**two** exact-synonym pairs, is not an overlap — it is a duplicate-content
+problem on the site's only local-intent conversion pages. All seven carry the
+pricing gap (issue 48), all seven carry unbacked program claims (issue 39), all
+seven carry the same broken map (issue 49), and between them they hold **fifty
+testimonials**, not one of which names a town in the gym's catchment (issues 14,
+53). Roughly 20,000 words were written in four days to compete with each other.
+This is the single largest self-inflicted SEO cost on the site, and the two
+synonym pairs — BJJ/jiu jitsu and MMA/mixed martial arts — are the part of it
+that can be fixed in an afternoon with two redirects.
 
 **What to do: consolidate five pages into two.**
 
-**One general martial arts page.** Merge `/martial-arts-near-me/`,
-`/martial-arts-gyms-near-me/`, `/fight-training-near-me/` and `/mma-gyms-near-me/`
-into a single page covering everything the gym teaches.
+**Start with the two synonym pairs, which need no judgement at all.**
+`/bjj-classes-near-me/` and `/jiu-jitsu-near-me/` are one page under two names;
+so are `/mma-gyms-near-me/` and `/mixed-martial-arts-near-me/`. Pick the stronger
+URL in each pair and 301 the other into it. That is two redirects and it removes
+two duplicates immediately.
+
+**Then, one general martial arts page.** Merge `/martial-arts-near-me/`,
+`/martial-arts-gyms-near-me/`, `/fight-training-near-me/` and whichever MMA URL
+survived into a single page covering everything the gym teaches.
 `/martial-arts-near-me/` is the cleanest URL and the broadest term, so it is the
-likely keeper; the other three 301 into it, and their best sections and
-testimonials move across. `/mma-gyms-near-me/` is the one to fold in first,
-because MMA is the discipline the gym has no program page for at all (issue 39),
-so a whole URL is currently ranking for a class the site cannot evidence.
+likely keeper; the others 301 into it, and their best sections and testimonials
+move across. The MMA page is the one to fold in first, because MMA is the
+discipline the gym has no program page for at all (issue 39), so two whole URLs
+are currently ranking for a class the site cannot evidence.
 
 **One BJJ page.** Merge `/bjj-classes-near-me/` and `/jiu-jitsu-near-me/`. These
 are the same subject under two names — the BJJ page says so in its own first
 sentence, "BJJ (Brazilian Jiu-Jitsu) classes near me…". "BJJ classes near me" is
 the higher-volume phrasing, so `/bjj-classes-near-me/` is the likely keeper.
 
-Check Search Console before choosing either keeper rather than guessing: keep
+Check Search Console before choosing any keeper rather than guessing: keep
 whichever URL already has impressions and redirect the rest into it. Both
 survivors need the prices (issue 48) and LocalBusiness structured data, which
-none of the six has. Consolidating also concentrates forty-two testimonials and
-every internal link onto two pages instead of scattering them across six.
+none of the seven has. Consolidating also concentrates fifty testimonials and
+every internal link onto two pages instead of scattering them across seven.
 
 This makes the fourth cannibalisation cluster on the site, after the two Kali
 Sticks posts (issue 6), the three Muay Boran posts (issue 7) and the two
 kick-boxing URL spellings (issue 44) — and it is larger than the other three
 combined.
 
-**In the rebuild:** all six pages are reproduced as published; the rebuild does
-not merge or redirect pages on its own. All six do carry
+**In the rebuild:** all seven pages are reproduced as published; the rebuild does
+not merge or redirect pages on its own. All seven do carry
 `SportsActivityLocation` structured data, which the live pages lack.
 
 ### 51. Tags aimed at firefighting and at street violence, on a school that teaches children — SEO, CONTENT (reputation) — **High**
@@ -3519,16 +3646,34 @@ the **women-only sessions**" — a class the homepage lists as "Coming Soon"
 (issue 39). Monica K. says "I brought my teenage son to their **kids' program**"
 from Orlando, Florida.
 
-**What to do:** on both pages, drop the nationwide framing — "Across the USA",
-"From coast to coast", "from across the U.S." — and change the headings to "Real
-Reviews from Our Students" and "Hear from Our Members". If the reviews are real,
-relabel them with Coppell, Irving, Lewisville, Grapevine and the surrounding
-towns; local names are worth far more on these pages than distant ones. If they
-are not real, they come down; see issue 32. This is a ten-minute edit on each
-page with a disproportionate payoff, because it is the section a visitor reads
-most carefully.
+#### A third page, three minutes later: `/mixed-martial-arts-near-me/`
 
-### 54. Bullet characters typed into headings and bold paragraphs instead of using lists — SEO, ACCESSIBILITY — Medium
+> Here's what some of our **U.S.-based** members have to say:
+
+Eight numbered reviews follow: Emily R. (Chicago, IL), James L. (Dallas, TX),
+Marcus D. (San Diego, CA), Heather S. (Miami, FL), Andre T. (Brooklyn, NY),
+Lisa M. (Seattle, WA), Kevin B. (Phoenix, AZ), Rachel A. (Denver, CO). Dallas is
+the only one in the metroplex, and it is not Coppell.
+
+"U.S.-based" is the softest phrasing of the three, but it is doing the same job:
+telling a reader that this gym's community is national. On a page whose whole
+purpose is the phrase "near me".
+
+**Across all four pages that carry located reviews**, the count is now
+**thirty-four testimonials naming twenty different cities, and not one naming
+Coppell**, Irving, Lewisville, Grapevine or anywhere in the gym's catchment. Four
+pages, four days, the same decision each time.
+
+**What to do:** on all three pages, drop the nationwide framing — "Across the
+USA", "From coast to coast", "from across the U.S.", "U.S.-based" — and change
+the headings to "Real Reviews from Our Students", "Hear from Our Members" and
+"Student Reviews". If the reviews are real, relabel them with Coppell, Irving,
+Lewisville, Grapevine and the surrounding towns; local names are worth far more
+on these pages than distant ones. If they are not real, they come down; see
+issue 32. This is a ten-minute edit on each page with a disproportionate payoff,
+because it is the section a visitor reads most carefully.
+
+### 54. Subheadings published as bold paragraphs instead of headings — SEO, ACCESSIBILITY — Medium
 
 `/martial-arts-gyms-near-me/` is 3,749 words long and contains **no list markup
 at all** — no `<ul>`, no `<ol>`, not one `<li>`. What it has instead is
@@ -3586,6 +3731,46 @@ including the missing space on the first heading and the one bullet sitting
 outside its `<strong>`. The build fails if any of them is converted into list
 markup or silently tidied.
 
+#### The same habit with numbers, on `/mixed-martial-arts-near-me/`
+
+That post looks, from its heading outline, like the flattest page on the site:
+**2,375 words across seven H2 sections with only three H3s**, where the other
+"near me" pages average fifteen or more. Its H2 sections run 300 to 500 words
+with no subheading to break them.
+
+Except the subheadings exist. There are **sixteen** of them, and every one is a
+bold paragraph instead of a heading:
+
+| Section | Numbered bold paragraphs inside it |
+|---|---|
+| What You Can Expect at SixthSense MMA | 1. Respectful Culture Without Ego or Intimidation → 5. A Learning Culture That Encourages Real Growth |
+| What Makes a Great MMA Near You? | 1. Qualified Coaches Who Teach with Honesty and Care → 3. A Clean, Safe, and Respectful Training Space |
+| How Our MMA Training Works | 1. Structured Programs That Fit Your Life → 4. Focused Sparring and Drills That Build Strong Fighters |
+| Why More Locals Are Choosing SixthSense MMA | 1. Honest Coaching With No Hidden Games → 4. Real Results Without the Pressure to Chase Hype |
+
+Four numbered runs, restarting at 1 each time, all written as
+`<p><strong>1. Heading text</strong></p>`.
+
+**The cost is the same as the bullets above, and here it is larger.** A screen
+reader user, or anyone using a browser's heading navigation, sees a page with
+three subheadings in 2,375 words and no way to jump between the sixteen sections
+that actually exist. Google's outline sees the same thing. And the page's own
+table of contents — if one were generated from its headings — would list almost
+nothing.
+
+It is also invisible to fix wrongly: the content is well organised. Only the
+markup is wrong. Sixteen `<p><strong>` become sixteen `<h3>`, and the page goes
+from the flattest on the site to one of the better-structured ones.
+
+**What to do:** convert all sixteen to `<h3>` and drop the numbers, or keep the
+numbers if the sequence matters. Same on the bullet post above. Then check
+whether the editor being used makes bold-paragraph-as-heading the path of least
+resistance, because two consecutive posts did it two different ways.
+
+**In the rebuild:** all sixteen are reproduced as bold paragraphs, exactly as
+published, and the build fails if any is promoted to a heading. The page's flat
+outline is preserved as-is.
+
 ### 55. Two pages advertising two different discount schemes — CONTENT (accuracy), TRUST — **High, the client must confirm**
 
 The site offers discounts on two of its six local landing pages. The two pages
@@ -3640,11 +3825,66 @@ flexibility gives you the freedom to train at your own pace") to the same
 verification list. It is a statement about the membership agreement's term, and
 it is the other claim on these pages that a customer could hold the gym to.
 
+### 56. A seven-page local set that is inconsistent with itself — CONTENT, SEO — Medium
+
+The seven "near me" pages were written from one template in four days (issue 50),
+which should make them the most consistent group on the site. They are not. A
+visitor who reads two of them gets two different answers about what this gym is
+and how it works.
+
+| | Pricing section | Reviews | Real subheadings | Programs section |
+|---|---|---|---|---|
+| `/jiu-jitsu-near-me/` | 2 headings | none | 17 H3s | 6 offers |
+| `/martial-arts-near-me/` | 2 headings | 7, other cities | 16 H3s | 4 programs |
+| `/fight-training-near-me/` | 1 heading | 10, other cities | 16 H3s + 4 H4s | 4 disciplines |
+| `/bjj-classes-near-me/` | 2 headings | 7, other cities | 18 H3s | 4 disciplines |
+| `/martial-arts-gyms-near-me/` | 3 headings | 9, other cities | 26 H3s | 5 disciplines |
+| `/mma-gyms-near-me/` | 3 headings | 9, no locations | 12 H3s | none |
+| `/mixed-martial-arts-near-me/` | **none** | 8, other cities | **2 H3s** | none |
+
+**The pricing column is the one that matters most.** Six pages have a pricing
+section and state no price (issue 48). The seventh has no pricing section at
+all — so the set manages to be both price-free *and* inconsistent about whether
+pricing is even a topic. A visitor who lands on
+`/mixed-martial-arts-near-me/` first has no section to scan for cost; one who
+lands on `/martial-arts-gyms-near-me/` finds three headings promising
+transparency and no figure. Neither learns anything, but they fail differently,
+which makes the gap look accidental rather than deliberate.
+
+**Three other columns disagree just as sharply:**
+
+- **Reviews.** One page has none, five have seven to ten attributed to other
+  cities, one has nine with no location at all. The same gym, the same week,
+  four different approaches to social proof.
+- **Structure.** 26 real subheadings on one page, 2 on another of similar length
+  (issue 54). A reader who found the long page easy to scan will find the short
+  one a wall of text.
+- **Programs.** Two pages have no programs section; the other five list four to
+  six, and no two lists match. `/jiu-jitsu-near-me/` offers private coaching and
+  competition prep; `/martial-arts-gyms-near-me/` offers women-only and kids;
+  `/mma-gyms-near-me/` offers discounts for first responders;
+  `/jiu-jitsu-near-me/` offers discounts for military (issue 55). Read together,
+  they describe several different businesses.
+
+**Why this compounds the other issues rather than duplicating them.** Issues 48,
+50, 54 and 55 each describe one fault repeated across the set. This entry is
+about the *variance*: the pages are similar enough to compete with each other
+(issue 50) but different enough that fixing one does not fix the others, and a
+customer comparing two of them finds contradictions rather than reinforcement.
+Consistency is what makes a template worth using; this set got the duplication
+without the consistency.
+
+**What to do:** this resolves itself if the set is consolidated to two pages as
+issue 50 recommends — two pages cannot contradict each other in seven ways. If
+the client keeps them all, then at minimum: the same pricing section on every
+page, the same review policy, the same programs list, and real headings
+throughout.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 68 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 69 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

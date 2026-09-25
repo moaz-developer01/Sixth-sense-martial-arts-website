@@ -445,5 +445,13 @@
     "image": "images/mma-gyms-01.jpg",
     "date": "2025-08-05T18:07:57+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "mixed-martial-arts-near-me",
+    "title": "Mixed Martial Arts near me with Proven Real results",
+    "excerpt": "Mixed Martial Arts (MMA) is a full-contact sport that mixes traditional and modern styles like Muay Thai, BJJ, kickboxing, boxing, Greco Roman wrestli",
+    "image": "images/mma-near-me-01.jpg",
+    "date": "2025-08-05T18:10:32+00:00",
+    "category": "Martial Arts"
   }
 ]

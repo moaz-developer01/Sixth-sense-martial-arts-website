@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **73 pages**: the homepage, the 5 program pages and all 67 blog
+live HTML of **74 pages**: the homepage, the 5 program pages and all 68 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 73 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 73 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 74 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 74 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches | SEO | 29 | High |
+| 7 | Near-duplicate posts competing for the same searches | SEO | 31 | High |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 32 | **High** |
@@ -36,14 +36,14 @@ issue 40, which is now sending link equity to a competing gym.
 | 12 | AI-tool markup pasted into posts: ChatGPT, and now DeepSeek | CONTENT | 4 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
-| 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
+| 15 | Duplicated headings and captions | SEO, CONTENT | 6 | Low |
 | 16 | Empty headings | SEO | 3 | Low |
 | 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 28 | Medium |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 9 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
-| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 4 | Medium |
+| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 5 | Medium |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
@@ -51,9 +51,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to sixteen on one post | SEO | 11 | Medium |
-| 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one set that clearly can, now on three pages | CONTENT | 27 | Low — for the client to decide |
+| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to twenty-two on one post | SEO | 12 | Medium |
+| 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
+| 32 | Testimonials that cannot be verified, and one set that clearly can, now on four pages | CONTENT | 28 | Low — for the client to decide |
 | 33 | The brand name written eight different ways, three of them in one page's headings | CONTENT, SEO | 13 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -62,7 +62,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 14 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 3 | Low |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 4 | Low |
+| 62 | A section headed "Expert Opinions" that quotes no expert and cites no source | CONTENT (accuracy), SEO | 1 | **High** |
+| 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
@@ -84,7 +86,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 56 | A nine-page local set that is inconsistent with itself, three now missing the pricing section the others have | CONTENT, SEO | 9 | Medium |
 | 57 | Four blog pages and three program pages chasing the same BJJ local search | SEO | 7 | **CRITICAL** |
 
-**61 issues in total.**
+**63 issues in total.**
 
 ---
 
@@ -622,10 +624,21 @@ rather than a heading, though neither is a leftover instruction.
 Three leftover markers now, on three posts written months apart. The check is
 still one search.
 
+**"Call to Action:" has happened again.** `/mma-vs-kickboxing-for-self-defense/`
+publishes the identical H2 — same words, same colon, same position as the final
+section before the social block. Two posts now carry a copywriter's label for a
+section as the section's own heading, and both are in the table of contents.
+
+That makes four distinct leftover markers across five posts: "H2:" twice,
+"(Bullet Points)" once, "Call to Action:" twice. They are written months apart
+by the same process, which is why the one-search check below is still the first
+thing to do.
+
 **What to do:** delete "(Bullet Points)" and merge the two sections, or give the
-second one a heading that says what it actually covers. Replace "Call to Action:"
-with something a reader would search — "Start Training in Coppell", or similar —
-and drop the trailing colons from "Customer Reviews:" and "Benefits:".
+second one a heading that says what it actually covers. Replace **both**
+"Call to Action:" headings with something a reader would search — "Start
+Training in Coppell", or similar — and drop the trailing colons from "Customer
+Reviews:" and "Benefits:".
 
 ### 25. YouTube video that never loads, bare link shown instead — CONTENT — Medium
 
@@ -746,6 +759,10 @@ review to insert search keywords is a different thing from writing fictional
 ones** — it attributes words to a named person that they did not write. If these
 came from Google, the originals are public and the difference is checkable by
 anyone.
+
+**And a fourth page, `/mma-vs-kickboxing-for-self-defense/`,** carrying the same
+ten as the self-defence post. Four pages now publish subsets of one Google
+review set — 10, 11, 10 and 12 — re-cut each time.
 
 **The same set on a third page, edited again — which proves the point.**
 `/self-defense-classes-near-me/` publishes ten of the twelve, and
@@ -2504,7 +2521,7 @@ date next to the chart would help, since these limits change.
 **In the rebuild:** every number, unit and tilde is copied exactly as published.
 Nothing was converted, rounded or corrected.
 
-### 31. Legal and injury-risk content published with no disclaimer — CONTENT — **High, liability**
+### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
 Self-Defense Scenarios" that makes statements about what the law allows. It
@@ -2546,6 +2563,45 @@ present or that these are best learned in class.
 an adult present and learn the techniques in class first. It costs nothing, it is
 what the gym would say in person, and it also happens to be an argument for
 booking a class rather than against it.
+
+**A sixth post, and the first to advise on street fights directly:
+`/mma-vs-kickboxing-for-self-defense/`.** The site's longest article, 6,785
+words, carries two sections written about real violence outside a gym:
+
+**"Limitations of Each in Street Fights"** is a 29-row table comparing what
+kickboxing and MMA cannot do in an unsanctioned fight — "No ground defense when
+down", "Limited to stand-up only", "Weak in close quarters", and so on. It is a
+tactical assessment of how each art fails in a street fight.
+
+**"Protective Attire for Self-Defense Scenarios"** goes further and advises on
+what to wear and use:
+
+> In self-defense situations, protective attire is minimal, often consisting of
+> street clothes… **Sturdy shoes can be helpful**, but gloves and headgear are
+> not typically practical. **The goal is to adapt to the situation and use
+> what's available.**
+
+"Use what's available" in a violent encounter is advice about improvised
+weapons, however lightly it is phrased. Neither section carries a disclaimer,
+and neither mentions de-escalation, leaving, or calling the police — the three
+things every responsible self-defence curriculum puts first.
+
+**Why this one belongs here rather than being waved through as comparison
+content.** The page is not describing how a sport works; it is telling a reader
+how to conduct themselves in a street fight, and it is doing so on a site whose
+five program pages include **Kids BJJ, Teen BJJ and Teen Muay Thai**. A
+thirteen-year-old reading "adapt to the situation and use what's available" is
+being given a different message from the one the gym gives in class.
+
+It also sits three clicks from `/kidney-punch/` (issue 47) and `/neck-bridges/`,
+so the site now has a small cluster of pages about hurting people or getting
+hurt, none of them disclaimed.
+
+**What to do:** add the same short disclaimer used for the other five, and add
+one sentence to "Protective Attire" saying the first goal in any confrontation
+is to leave safely. If the client would rather not carry street-fight content at
+all on a site marketing to children, the two sections can be cut without
+weakening the comparison, which stands on its own as a sports article.
 
 **A fourth post, and the sharpest case: `/kidney-punch/`.** It describes damage
 to an internal organ — kidney trauma, internal bleeding, the reasons the strike
@@ -2740,7 +2796,7 @@ brief is a faithful replica, and the build fails if either is silently removed.
 This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
-### 30. Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and fifteen on one post — SEO — Medium
+### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
 
 Tags on two posts end with an invisible zero-width space (U+200B):
 
@@ -2882,6 +2938,29 @@ That makes the September posts a mixed but improving picture — better asset
 naming (issue 26), real Google reviews (issue 32), a program-page link, local
 tags — alongside the same old habits of over-tagging and competitor targeting.
 
+**Twenty-two on `/mma-vs-kickboxing-for-self-defense/`, and most of them are the
+article's own headings.** A new record, and a different failure from the ones
+above: these are not keyword-tool fragments, they are the post's section titles
+copied into the tag field.
+
+| Tag | Where it comes from |
+|---|---|
+| What Is MMA · What Is Kickboxing · Origins and History · Evolution of MMA · Roots of Kickboxing · How Muay Thai Influences Kickboxing · Techniques and Fighting Styles Compared · Striking in Kickboxing vs MMA · Differences Between MMA and Kickboxing · MMA vs Kickboxing Differences · Ground Game Why MMA Stands Out · Striking and Grappling MMA's Versatility | **Verbatim H2s and H3s from the article** |
+| Superiority · Skill Mastery · Unique Core Strength · Technique Range · Fight Dynamics · Key Techniques · Self-Defense Relevance · Training and Rules · Comparison to Kickboxing | Abstract phrases that are **not search terms at all** |
+| **MMA vs Kickboxing for self defense** | The only real query in the set |
+
+**A tag is a search term, not a section title.** "Origins and History" is a
+heading; nobody types it into Google expecting a Coppell gym. "Superiority" and
+"Unique Core Strength" are not phrases in any language a customer would use.
+Twenty-two tags generate twenty-two indexable archive pages, twenty-one of which
+answer no query, and two of them ("MMA vs Kickboxing Differences" and
+"Differences Between MMA and Kickboxing") duplicate each other as well as
+duplicating the post's two near-identical H2s (issue 15).
+
+This is the clearest instance yet of tags being filled in mechanically rather
+than chosen. Across the last four posts the tag counts run 15, 16, 22 — rising,
+and getting further from anything a reader would type.
+
 **What to do:** retype those eleven tag names, delete the duplicates left
 behind, and watch for the same character when pasting keywords into titles and
 headings as well. Pasting into a plain-text editor first strips it. On
@@ -2891,7 +2970,10 @@ other nine, and check whether their archive pages are indexed and remove them if
 so. Delete the two "mix martial arts" tags first — they are misspellings of the
 sport's name. Then set a cap — three to five tags per post — and audit the tag
 archives as a whole: most of them should not be indexable. **When you cut
-`/teens-bjj-near-me/` down to five, keep the two Coppell tags.**
+`/teens-bjj-near-me/` down to five, keep the two Coppell tags; on
+`/mma-vs-kickboxing-for-self-defense/` keep only "MMA vs Kickboxing for self
+defense" and add local variants.** And add a rule for whoever writes these: if
+the tag is also a heading on the page, it is not a tag.
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -3010,6 +3092,37 @@ Google then has to pick one and ranks all of them weaker.
 | Martial arts for kids | `/martial-arts-for-kids/` · `/kids-bjj-classes/` (program page) |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
+| **Kickboxing "versus" comparisons (confirmed, three posts)** | `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` · `/mma-vs-kickboxing-for-self-defense/` — see below |
+
+#### The comparison-post group
+
+Three posts now compare the same three disciplines in rotating pairs:
+
+| URL | Pair | Words | Published |
+|---|---|---|---|
+| `/muay-thai-vs-kickboxing/` | Muay Thai vs Kickboxing | 2,586 | 2025-05 |
+| `/muay-thai-vs-mma/` | Muay Thai vs MMA | 2,262 | 2025-07 |
+| `/mma-vs-kickboxing-for-self-defense/` | MMA vs Kickboxing | **6,785** | 2025-09 |
+
+Between them they cover all three pairings of Muay Thai, MMA and kickboxing, and
+each repeats the others' ground: what each art is, where it came from, how the
+striking differs, which is better for self-defence. The newest is nearly three
+times the length of either of the others and covers both of their topics inside
+itself — it has sections on Muay Thai's influence on kickboxing and on MMA's
+ground game, which are the subjects of the other two posts.
+
+**It also joins the self-defence cluster.** Its title, its primary keyword and
+five of its seventeen sections are about self-defence, so it competes with
+`/best-martial-arts/`, `/best-martial-arts-for-self-defense/` and
+`/which-martial-art-is-best-for-self-defence/` (the CRITICAL trio above) as well
+as with the two comparison posts. It links two of those three itself.
+
+**What to do:** the newest post is long enough and complete enough to absorb
+both of the older comparisons. Merge `/muay-thai-vs-kickboxing/` and
+`/muay-thai-vs-mma/` into it and 301 them, or — if the client wants separate
+short comparison pages — cut the newest one down so it stops covering their
+topics. The current arrangement has one 6,785-word page competing with two
+2,500-word pages that it already contains.
 
 #### The self-defence trio, and a spelling that makes it worse — **CRITICAL**
 
@@ -3298,6 +3411,25 @@ A full 800×500 version of the Muay Thai Stance image exists on the server; the
 page just isn't using it.
 
 ### 15. Duplicated headings — SEO, CONTENT — Low
+
+**Two H2s saying the same thing, back to back, on `/mma-vs-kickboxing-for-self-defense/`:**
+
+> ## MMA vs Kickboxing Differences
+> …
+> ## Differences Between MMA and Kickboxing
+
+They are adjacent, separated only by one paragraph, an image and an H3. The
+second is followed by the 22-row comparison table, so the section that actually
+delivers the differences is the second one; the first is a short preamble under
+a heading that promises the same thing. A reader who clicks "MMA vs Kickboxing
+Differences" in the table of contents lands above a section that does not
+contain the comparison.
+
+Both are also published as tags (issue 30), so the same phrase now exists as two
+headings and two tag archives on one post.
+
+**What to do:** merge them, or retitle the first to what it actually covers —
+it is an introduction to the comparison rather than the comparison itself.
 
 The same heading text is repeated inside a single post.
 
@@ -4792,11 +4924,113 @@ page that honestly compares the two, not a tag.
 appear anywhere in the rebuilt site. It is recorded here because it is live on
 the client's WordPress.
 
+### 62. A section headed "Expert Opinions" that quotes no expert and cites no source — CONTENT (accuracy), SEO — **High**
+
+`/mma-vs-kickboxing-for-self-defense/` has an H2 reading:
+
+> ## Expert Opinions on MMA vs Kickboxing
+
+**There is no prose under it at all.** The heading is followed immediately by a
+table — the largest on the site, 49 rows — whose two columns are headed "Expert
+Opinions on MMA" and "Expert Opinions on Kickboxing", and whose cells contain
+assertions like:
+
+| Aspect | Expert Opinions on MMA | Expert Opinions on Kickboxing |
+|---|---|---|
+| Self-Defense Preference | Tilt towards MMA for versatility | Praised for striking but limited without ground |
+| Trainer Recommendations | Recommend MMA for diverse skills | Focus on speed and striking proficiency |
+
+**Not one expert is named.** I searched the whole page: no person, no coach, no
+fighter, no academy, no publication, no study, no date, no external link. The
+only individuals named anywhere on the page are the gym's own customers in the
+reviews. "Experts" is the subject of forty-nine rows of assertions and the word
+is never attached to anybody.
+
+**Three problems, and the first is the one that matters.**
+
+**1. It is an unverifiable appeal to authority.** "Experts tilt towards MMA" is
+a factual claim about what a body of people believes. Presented without a single
+name or source it is indistinguishable from the site's own opinion wearing a
+borrowed hat. A reader deciding which class to book is being told the experts
+agree with the gym that sells both classes.
+
+**2. Google treats this exactly as it sounds.** Unsourced expert attribution is
+a textbook E-E-A-T failure — the "expertise" and "trustworthiness" halves of
+what Google's quality raters are told to assess. A section literally headed
+"Expert Opinions" with no expert is the version of this that is easiest for an
+automated system to spot.
+
+**3. It is a wasted opportunity, and the material exists.** This gym has a head
+coach who taught BJJ in Brazil (issues 32, 39). "Coach Matheus, who taught BJJ
+in São Paulo for X years, says…" would be a genuine expert opinion, would be
+verifiable, and would be worth more than forty-nine rows of anonymous assertion.
+The site keeps having real credentials and not using them.
+
+**What to do:** either name real people — the gym's own coaches count, with
+their ranks and backgrounds — or rename the section to what it actually is, a
+comparison summary. "Expert Opinions" with no expert should not survive either
+way. If the client wants outside authority, cite named fighters, coaches or
+governing bodies with links, which is also how the section would earn any SEO
+value.
+
+**In the rebuild:** the heading and the table are reproduced exactly as
+published, no expert or source was invented, and the build fails if anything is
+inserted between the heading and its table.
+
+### 63. A 7,000-word article with three images and five wall-of-text tables — CONTENT, UX — Medium
+
+`/mma-vs-kickboxing-for-self-defense/` is **6,785 words**, nearly twice the
+length of the next-longest post on the site and roughly a 34-minute read. That
+is not a fault in itself. What it carries is:
+
+| | Count |
+|---|---|
+| Words | 6,785 |
+| Content images | **3** |
+| Tables | 5, of 22, 22, 21, 29 and **49** rows |
+| Table cells | 66, 66, 63, 87 and **147** |
+| List items | 148 across 44 lists |
+
+**Three images across 6,785 words is one picture every 2,260 words.** The site's
+other posts average one per 700–900. Two of the three sit in the first fifth of
+the article; **the last 5,300 words carry no image at all** — including the five
+tables, the street-fight section and the reviews.
+
+**The tables are the harder problem.** A 49-row, three-column table of prose
+assertions is not a table in any useful sense: nothing in it is scannable, no
+column is sortable or comparable at a glance, and on a phone it becomes a
+429-cell horizontal scroll. Four of the five run past 20 rows. Together the five
+tables hold **429 cells**, most containing a full clause.
+
+Combined with 148 list items, the page's structure is: a short paragraph, a
+long table, a short paragraph, a long list, repeated seventeen times. There is
+very little connected prose for a 7,000-word article, which is why it reads as
+assembled rather than written.
+
+**Why it is worth flagging rather than admiring the word count.** Long-form does
+rank, but it ranks when readers stay on the page. This one gives a reader almost
+no visual rest across half an hour of reading, and the sections most likely to be
+read — the self-defence comparison and the street-fight limitations — are the
+two biggest tables.
+
+**What to do:** three things, in order of value. Break the two 22-row tables and
+the 29-row one into three or four smaller tables each, grouped by theme. Convert
+the 49-row "Expert Opinions" table to prose, which it should have been anyway
+(issue 62). And add four or five images through the second half — the gym has a
+camera and the sections name exactly what to photograph: gear, gloves, a ground
+position, a class.
+
+**In the rebuild:** the article is reproduced in full at its published length,
+all five tables wrapped in the shared `overflow-x: auto` container so the wide
+ones scroll rather than breaking the layout on a phone. The sticky table of
+contents scrolls internally, which it needs to at 17 entries, and the reading
+progress bar tracks correctly across the full length.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 73 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 74 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

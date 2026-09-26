@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **72 pages**: the homepage, the 5 program pages and all 66 blog
+live HTML of **73 pages**: the homepage, the 5 program pages and all 67 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 72 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 72 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 73 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 73 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -37,7 +37,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 5 | Low |
-| 16 | Empty headings | SEO | 2 | Low |
+| 16 | Empty headings | SEO | 3 | Low |
 | 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 28 | Medium |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 9 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
@@ -51,9 +51,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to fifteen on one post | SEO | 10 | Medium |
+| 30 | Bad tags: zero-width spaces, keyword-tool fragments, misspellings, and up to sixteen on one post | SEO | 11 | Medium |
 | 31 | Self-defence, weapon-law and injury-risk content with no disclaimer | CONTENT | 5 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one set that clearly can, now on two pages | CONTENT | 26 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified, and one set that clearly can, now on three pages | CONTENT | 27 | Low — for the client to decide |
 | 33 | The brand name written eight different ways, three of them in one page's headings | CONTENT, SEO | 13 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
@@ -62,7 +62,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 14 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 2 | Low |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 3 | Low |
+| 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
 | 41 | A page whose title promises techniques and whose content is about confidence | SEO | 1 | Medium |
 | 42 | FAQ questions published as section headings, competing with the page's own FAQ | SEO, CONTENT | 5 | Medium |
@@ -74,16 +75,16 @@ issue 40, which is now sending link equity to a competing gym.
 | 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 8 | **CRITICAL** |
 | 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 8 | Low |
 | 60 | A page that contradicts itself about a class in adjacent sections | CONTENT (accuracy) | 1 | **High — client must confirm** |
-| 50 | Nine "near me" pages competing for the same local searches, including three for one discipline | SEO | 9 | **CRITICAL** |
+| 50 | Ten "near me" pages competing for the same local searches, including four for one discipline | SEO | 10 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
 | 52 | A comparison table advertising against unnamed competitors | CONTENT (accuracy) | 1 | Medium |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
 | 54 | Subheadings published as bold paragraphs: bullets on one post, numbers on another | SEO, ACCESSIBILITY | 2 | Medium |
 | 55 | Two pages advertising two different discount schemes | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
 | 56 | A nine-page local set that is inconsistent with itself, three now missing the pricing section the others have | CONTENT, SEO | 9 | Medium |
-| 57 | Three blog pages and three program pages chasing the same BJJ local search | SEO | 6 | **CRITICAL** |
+| 57 | Four blog pages and three program pages chasing the same BJJ local search | SEO | 7 | **CRITICAL** |
 
-**60 issues in total.**
+**61 issues in total.**
 
 ---
 
@@ -746,11 +747,43 @@ ones** — it attributes words to a named person that they did not write. If the
 came from Google, the originals are public and the difference is checkable by
 anyone.
 
+**The same set on a third page, edited again — which proves the point.**
+`/self-defense-classes-near-me/` publishes ten of the twelve, and
+`/teens-bjj-near-me/` publishes eleven: the same ten plus **Thiago Prado**. So
+the set is being re-cut and re-pasted per page.
+
+Two things confirm the editing:
+
+**1. The keyword phrasing changes between pages.** Sana Haq's review reads
+"effective martial arts for **self defense**" on two pages and "effective martial
+arts for **Self-defense**" — capitalised and hyphenated — on the teens post. The
+same sentence, attributed to the same person, published three ways. Whatever is
+inserting these phrases is matching each page's target keyword, which is the
+clearest possible evidence that customer text is being rewritten for SEO.
+
+**2. The name-replaced-by-copy pattern repeats.** Where Tamires Piol's
+attribution was a sentence of marketing copy, Thiago Prado's is too:
+
+> **Thiago Prado specializes in teaching effective martial arts for Self-defense .**
+> "I already trained with Coach Matheus when he was an instructor in Brazil and
+> he is a great teacher for all ages. Without a doubt, if I had the opportunity I
+> would go to the US to train with him again."
+
+Note the space before the full stop. And note what the review itself says, which
+is the most useful sentence about this gym anywhere on the site: **Coach Matheus
+was an instructor in Brazil**, and a former student there rates him highly enough
+to say he would fly to train with him again.
+
+That is a credential. It is sitting in a customer quotation on one blog post,
+while thirteen other posts say "certified and experienced coaches" and name
+nobody (issue 39).
+
 **What to do:** get the originals from Google Business Profile and republish them
 word for word, or link to the profile and let Google show them. Restore
-Isabella Barbosa's full review or remove it. Put a name back where Tamires Piol's
-should be. And stop editing review text — the keyword gain is negligible and the
-downside is attributing invented words to named customers.
+Isabella Barbosa's full review or remove it. Put names back where Tamires Piol's
+and Thiago Prado's should be. And stop editing review text — the keyword gain is
+negligible and the downside is attributing invented words to named customers,
+now demonstrably three different ways on three pages.
 
 **In the rebuild:** these five are likewise reproduced word for word, doubled
 quote marks and all, with no Review schema.
@@ -1471,6 +1504,23 @@ and instead the name only survives because a customer happened to use it.
 Names, ranks, who awarded them, one photograph each. It answers the certification
 question on thirteen posts at once, it is the first thing a parent looks for, and
 the material already exists — somebody just has to write it down.
+
+**And a second data point turned up, again inside a review.**
+`/teens-bjj-near-me/` carries a testimonial from Thiago Prado:
+
+> "I already trained with **Coach Matheus when he was an instructor in Brazil**
+> and he is a great teacher for all ages. Without a doubt, if I had the
+> opportunity I would go to the US to train with him again."
+
+So the site now establishes, entirely through customer quotations, that the head
+coach is named **Matheus** and that he taught BJJ **in Brazil** before Coppell.
+For a Brazilian Jiu Jitsu school that is close to the ideal credential, and it
+appears nowhere the gym says it in its own voice.
+
+**The instruction stands and gets easier:** an "Our Coaches" page with Matheus's
+name, belt, the academy he trained under and a photograph would retire the
+unnamed-certification claim on fourteen posts in one edit — and the strongest
+material for it is already published on the site, written by his students.
 
 **`/self-defense-classes-near-me/` is the fourteenth, and it is the one that
 mostly gets it right.** Its four programme sections map cleanly onto the gym's
@@ -2802,6 +2852,36 @@ as distinct from the lower-case form if that exists elsewhere; and
 the slug and is exactly the sort of character that generates a duplicate tag
 later (issue 19).
 
+**Sixteen on `/teens-bjj-near-me/`, a new record — but two of them are the best
+tags on the site.** The post carries sixteen tags, beating the fifteen above:
+
+> best bjj classes near me · bjj for teens · bjj self defense for teens ·
+> **bjj trial classes coppell** · **brazilian jiu jitsu classes coppell tx** ·
+> *gracie barra jiu jitsu teens* · jiu jitsu training near me · martial arts
+> classes for teens · self defense for teenagers · teen bjj classes · teen
+> fitness and martial arts · teen martial arts training · teen mma training ·
+> teens bjj near me · teens brazilian jiu jitsu · youth brazilian jiu jitsu
+
+One of them is a competitor's brand and has its own entry: see **issue 61**.
+
+**The genuinely good news, and it is the first of its kind in sixty-seven
+posts.** Two of these tags name the town:
+
+- **bjj trial classes coppell**
+- **brazilian jiu jitsu classes coppell tx**
+
+Every other tag on the site — across all sixty-seven posts and several hundred
+tags — targets a national term. "Coppell" has appeared in a tag **exactly
+twice**, both on this post, both in September. For a single-location business
+whose entire commercial problem is local visibility (issues 14, 50, 53), this is
+the direction the tagging should have taken from the start. It is worth saying
+plainly: **whoever added those two got it right, and the rest of the site should
+copy them.**
+
+That makes the September posts a mixed but improving picture — better asset
+naming (issue 26), real Google reviews (issue 32), a program-page link, local
+tags — alongside the same old habits of over-tagging and competitor targeting.
+
 **What to do:** retype those eleven tag names, delete the duplicates left
 behind, and watch for the same character when pasting keywords into titles and
 headings as well. Pasting into a plain-text editor first strips it. On
@@ -2810,7 +2890,8 @@ headings as well. Pasting into a plain-text editor first strips it. On
 other nine, and check whether their archive pages are indexed and remove them if
 so. Delete the two "mix martial arts" tags first — they are misspellings of the
 sport's name. Then set a cap — three to five tags per post — and audit the tag
-archives as a whole: most of them should not be indexable.
+archives as a whole: most of them should not be indexable. **When you cut
+`/teens-bjj-near-me/` down to five, keep the two Coppell tags.**
 
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
@@ -3256,10 +3337,43 @@ no new CSS was needed.
 
 Heading tags with no text in them.
 
-**Affected — 2 headings on 2 posts:**
+**Affected — 3 headings on 3 posts:**
 - `/best-martial-arts-for-self-defense/` — an empty sub-heading (H3) between
   Taekwondo's "Training Focus" and "Jeet Kune Do"
 - `/best-martial-arts/` — a main heading (H2) holding only an image, with no text
+- `/teens-bjj-near-me/` — an empty H3 between "How BJJ Compares to Other Martial
+  Arts" and the comparison table
+
+The newest one is the most instructive, because its markup shows how it
+happened:
+
+```html
+<h3 class="wp-block-heading"><strong>How BJJ Compares to Other Martial Arts</strong></h3>
+<h3 class="wp-block-heading"><strong>&nbsp;</strong></h3>
+<figure class="wp-block-table">…
+```
+
+The second H3 contains a `<strong>` holding a single no-break space — not an
+empty tag, a tag with invisible content, which is why it survives WordPress's own
+empty-block cleanup. Somebody pressed Return after the heading, the editor
+created a second heading block, and a stray space kept it alive. It sits directly
+above the comparison table, so the page's outline reads: heading, **blank
+heading**, table.
+
+**What it costs:** an empty heading is announced by a screen reader as a heading
+with no name, which is a dead end for anyone navigating by headings; and it
+breaks the document outline for the section that follows it, so the comparison
+table appears to belong to a heading that says nothing.
+
+**What to do:** delete the three empty headings. Then, because this one is a
+`<strong>` with a space rather than a truly empty tag, search the site for
+`<h2>`, `<h3>` and `<h4>` elements whose text is only whitespace — a plain
+"empty heading" check will miss them.
+
+**In the rebuild:** all three are **skipped rather than reproduced**, which is
+the one place the rebuild deliberately departs from the live markup, because an
+empty heading is an accessibility fault rather than content. The build asserts
+that exactly one heading was skipped on this post.
 
 ### 23. Heading level skipped (H4 with no H3 above it) — SEO — Low
 
@@ -3771,7 +3885,7 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. Nine "near me" pages competing for the same local searches, including three for one discipline — SEO — **CRITICAL**
+### 50. Ten "near me" pages competing for the same local searches, including four for one discipline — SEO — **CRITICAL**
 
 Eight of the nine — `/martial-arts-near-me/`, `/jiu-jitsu-near-me/`,
 `/fight-training-near-me/`, `/bjj-classes-near-me/`,
@@ -3844,6 +3958,14 @@ So the cluster contains three near-exact pairs:
 **The BJJ group is now three pages, not two,** which is severe enough to have its
 own entry: see issue 57.
 
+**A tenth followed the next day: `/teens-bjj-near-me/`.** It is the fourth page
+targeting BJJ local search and belongs with the other three under issue 57 —
+but, like the self-defence page above, it earns its place. It is the only page
+in the cluster written for **one audience** (parents of teenagers), it carries
+the site's only two **local** tags (issue 30), and it is the only post in the
+whole batch that **links its own program page**, `/teen-bjj-classes/`. That is
+the behaviour the other nine should have copied.
+
 **The ninth page, `/self-defense-classes-near-me/`, is the one that should have
 been the template.** Published 16 September, six weeks after the August batch, it
 is structurally the best of the nine: twelve real H2 sections covering kids, teen,
@@ -3869,9 +3991,9 @@ first one already covered it, because the first one had barely finished
 publishing.
 
 This is keyword cannibalisation with a local-SEO twist. Google will pick one page
-for the local pack and the other eight will usually rank for nothing, but which
+for the local pack and the other nine will usually rank for nothing, but which
 one it picks is not the client's choice, and the link equity and reviews are
-split nine ways. "Fight training near me" and "martial arts near me" are likewise
+split ten ways. "Fight training near me" and "martial arts near me" are likewise
 the same intent expressed two ways; there is no searcher for whom more than one
 of these pages is the right answer.
 
@@ -3912,24 +4034,35 @@ actually runs. Fix its duplicated section (issue 29) and its self-contradiction
 about the women's class (issue 60), and it becomes the page the other eight were
 trying to be.
 
+**Keep `/teens-bjj-near-me/` as a fourth.** Of the four BJJ pages it is the only
+one with a distinct audience rather than a synonym of the others' keyword, and
+"BJJ for teens" is a search a parent makes deliberately. It should be the one
+that survives the BJJ consolidation in issue 57 alongside a single general BJJ
+page — and it should keep pointing at `/teen-bjj-classes/`, which is the model
+for how all of these pages should treat the program pages.
+
+**So the ten become four:** one general martial arts page, one general BJJ page,
+one self-defence page, one teens BJJ page. Each with a distinct audience, each
+linking the program page that books the class.
+
 **One BJJ page.** Merge `/bjj-classes-near-me/` and `/jiu-jitsu-near-me/`. These
 are the same subject under two names — the BJJ page says so in its own first
 sentence, "BJJ (Brazilian Jiu-Jitsu) classes near me…". "BJJ classes near me" is
 the higher-volume phrasing, so `/bjj-classes-near-me/` is the likely keeper.
 
 Check Search Console before choosing any keeper rather than guessing: keep
-whichever URL already has impressions and redirect the rest into it. All three
+whichever URL already has impressions and redirect the rest into it. All four
 survivors need the prices (issue 48) and LocalBusiness structured data, which
-none of the nine has. Consolidating also concentrates sixty testimonials and
-every internal link onto three pages instead of scattering them across nine.
+none of the ten has. Consolidating also concentrates seventy-one testimonials and
+every internal link onto four pages instead of scattering them across ten.
 
 This makes the fourth cannibalisation cluster on the site, after the two Kali
 Sticks posts (issue 6), the three Muay Boran posts (issue 7) and the two
 kick-boxing URL spellings (issue 44) — and it is larger than the other three
 combined.
 
-**In the rebuild:** all nine pages are reproduced as published; the rebuild does
-not merge or redirect pages on its own. All nine do carry
+**In the rebuild:** all ten pages are reproduced as published; the rebuild does
+not merge or redirect pages on its own. All ten do carry
 `SportsActivityLocation` structured data, which the live pages lack.
 
 ### 51. Tags aimed at firefighting and at street violence, on a school that teaches children — SEO, CONTENT (reputation) — **High**
@@ -4365,16 +4498,24 @@ pricing section on every page, the same review policy, the same programs list,
 and real headings throughout — and the newest page is the model to copy, because
 it is the only one whose programs section matches what the gym actually offers.
 
-### 57. Three blog pages and three program pages chasing the same BJJ local search — SEO — **CRITICAL**
+### 57. Four blog pages and three program pages chasing the same BJJ local search — SEO — **CRITICAL**
 
 Brazilian Jiu Jitsu, jiu jitsu and BJJ are three names for one martial art. The
-site now has **three blog pages** targeting local search for it:
+site now has **four blog pages** targeting local search for it:
 
-| URL | Published | Words | Reviews |
-|---|---|---|---|
-| `/jiu-jitsu-near-me/` | 2025-08-02 | 2,790 | none |
-| `/bjj-classes-near-me/` | 2025-08-04 | 2,988 | 7, US cities |
-| `/brazilian-jiu-jitsu-near-me/` | 2025-08-06 | 3,065 | 7, **UK cities** |
+| URL | Published | Words | Reviews | Distinct audience? |
+|---|---|---|---|---|
+| `/jiu-jitsu-near-me/` | 2025-08-02 | 2,790 | none | No |
+| `/bjj-classes-near-me/` | 2025-08-04 | 2,988 | 7, US cities | No |
+| `/brazilian-jiu-jitsu-near-me/` | 2025-08-06 | 3,065 | 7, **UK cities** | No |
+| `/teens-bjj-near-me/` | 2025-09-17 | 2,140 | 11, genuine Google set | **Yes — teens** |
+
+**The fourth is the one to keep.** The first three are the same page under three
+names. The teens post is not: it is written for parents of 7-to-15-year-olds, it
+has age-banded programme tables, and "BJJ for teens near me" is a query a parent
+types on purpose. It also does the one thing none of the other three does —
+**it links `/teen-bjj-classes/`**, the program page that actually books the
+class.
 
 Four days, three pages, one discipline, one gym, one address. And the pages know
 about each other: `/brazilian-jiu-jitsu-near-me/` links the phrase "BJJ classes
@@ -4411,11 +4552,12 @@ issues has to fix each of them three times.
 
 **What to do, in order:**
 
-1. **Pick one blog page and 301 the other two into it.** Check Search Console
-   first; on volume alone "bjj classes near me" and "brazilian jiu jitsu near me"
-   are the stronger phrasings, so `/bjj-classes-near-me/` or
-   `/brazilian-jiu-jitsu-near-me/` is the likely keeper. Move the best sections
-   and any genuine reviews across.
+1. **Pick one general blog page and 301 the other two into it, and keep the teens
+   page separate.** Check Search Console first; on volume alone "bjj classes near
+   me" and "brazilian jiu jitsu near me" are the stronger phrasings, so
+   `/bjj-classes-near-me/` or `/brazilian-jiu-jitsu-near-me/` is the likely
+   keeper. Move the best sections and any genuine reviews across.
+   `/teens-bjj-near-me/` stays: it is a different audience, not a synonym.
 2. **Make the survivor point at the program pages.** Its job is to answer "what
    is BJJ and is it for me", then send the reader to `/adult-bjj-classes/`,
    `/teen-bjj-classes/` or `/kids-bjj-classes/` to book. None of the three
@@ -4427,10 +4569,11 @@ issues has to fix each of them three times.
 That takes six pages down to four with a clear job each, and it is the single
 highest-value SEO change available on this site.
 
-**In the rebuild:** all three pages are reproduced as published, including the
-link from the newest to `/bjj-classes-near-me/`; the rebuild does not merge or
-redirect pages on its own. None of the three links to a program page on the live
-site, so none was added.
+**In the rebuild:** all four pages are reproduced as published, including the
+link from `/brazilian-jiu-jitsu-near-me/` to `/bjj-classes-near-me/` and the one
+from `/teens-bjj-near-me/` to `/teen-bjj-classes/`; the rebuild does not merge or
+redirect pages on its own. Three of the four link no program page on the live
+site, so none was added to those three.
 
 ### 58. British and American spellings of "defence" used across the site, and inside one page — CONTENT, SEO — Medium
 
@@ -4487,10 +4630,11 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on two pages.** `/self-defense-classes-near-me/` carries the identical
-section — same heading, same paragraph, same single Facebook button — so the
-pattern below applies to both, and the recommendation to move the links into the
-footer is now worth more.
+**Now on three pages.** `/self-defense-classes-near-me/` and
+`/teens-bjj-near-me/` both carry the identical section — same heading, same
+paragraph, same single Facebook button — so the pattern below applies to all
+three. Three copies of a hand-placed social block on three posts out of
+sixty-seven is exactly the case for putting the links in the footer instead.
 
 `/which-martial-art-is-best-for-self-defence/` is the **first post in the
 project with a social media section**, which is a good idea. It reads:
@@ -4592,11 +4736,67 @@ half-hour edit and it removes the single clearest accuracy problem on the site.
 **In the rebuild:** both contradictory passages are reproduced word for word, and
 the build fails if either is quietly harmonised with the other.
 
+### 61. A competitor's brand name published as a tag — SEO, LEGAL (trademark) — **High**
+
+`/teens-bjj-near-me/` is tagged:
+
+> **gracie barra jiu jitsu teens**
+
+**Gracie Barra is not a generic term.** It is one of the largest Brazilian Jiu
+Jitsu organisations in the world — founded by Carlos Gracie Jr, several hundred
+schools across dozens of countries, and a registered trademark with its own
+uniform, curriculum and certification system. There are Gracie Barra academies in
+the Dallas–Fort Worth area. It is a **direct competitor**, named on this gym's
+own site.
+
+**What the tag does.** WordPress publishes an archive page at
+`/tag/gracie-barra-jiu-jitsu-teens/` containing this post, so the site now hosts
+a URL built around a competitor's brand. Anyone searching "Gracie Barra jiu jitsu
+teens" is looking for **Gracie Barra**, not Sixth Sense MMA.
+
+**Three reasons to remove it, in order of seriousness.**
+
+**1. Trademark.** Using a competitor's registered mark as a keyword to attract
+their customers is the kind of thing that draws a cease-and-desist. It is not
+automatically unlawful — nominative use, honest comparison and the like are
+defensible — but a bare tag makes no comparison and offers no commentary. It
+exists only to intercept searches for the other brand. That is the least
+defensible version of the practice, and a franchise the size of Gracie Barra has
+the resources and the habit of policing its name.
+
+**2. It will not work anyway.** Google has been demoting competitor-brand
+keyword pages for years, and someone searching a specific academy by name is
+looking for that academy. The realistic outcome is a thin archive page that
+ranks for nothing.
+
+**3. It sends the wrong signal on the page that least needs it.** This is the
+post aimed at parents choosing a teenager's first martial arts school —
+precisely the audience most likely to be comparing Sixth Sense with Gracie Barra
+and most likely to notice.
+
+**This is the second competitor reference found on the site.** The first was
+worse and quieter: an **invisible** link to `jpboxinggym.com`, a competing gym,
+hidden in `/are-there-multiple-styles-of-muay-boran/` (issue 40, CRITICAL). That
+one passed link equity to a rival; this one targets a rival's search traffic.
+Different mechanisms, same underlying habit — competitor names finding their way
+into this site's SEO without anyone deciding they should.
+
+**What to do:** delete the tag, and delete its archive page if it has been
+indexed. Then check the other tag archives and the remaining posts for other
+brand names — Gracie, Alliance, Atos, 10th Planet, Renzo and the like are all
+plausible keyword-tool suggestions and none of them belongs on this site. If the
+client does want to compete with Gracie Barra on search, the way to do it is a
+page that honestly compares the two, not a tag.
+
+**In the rebuild:** no tag section is published on any post, so the tag does not
+appear anywhere in the rebuilt site. It is recorded here because it is live on
+the client's WordPress.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 72 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 73 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **74 pages**: the homepage, the 5 program pages and all 68 blog
+live HTML of **75 pages**: the homepage, the 5 program pages and all 69 blog
 posts.
 
 Each issue is tagged:
@@ -22,8 +22,8 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 74 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 74 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 75 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 75 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
@@ -51,19 +51,19 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to twenty-two on one post | SEO | 12 | Medium |
+| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to twenty-two on one post | SEO | 13 | Medium |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one set that clearly can, now on four pages | CONTENT | 28 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified, and one set that clearly can, now on five pages | CONTENT | 29 | Low — for the client to decide |
 | 33 | The brand name written eight different ways, three of them in one page's headings | CONTENT, SEO | 13 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 14 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 15 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 4 | Low |
-| 62 | A section headed "Expert Opinions" that quotes no expert and cites no source | CONTENT (accuracy), SEO | 1 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 5 | Low |
+| 62 | Unnamed "experts" cited as authority: a whole section on one page, a credential claim on another | CONTENT (accuracy), SEO | 2 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
@@ -76,7 +76,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
 | 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 8 | **CRITICAL** |
 | 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 8 | Low |
-| 60 | A page that contradicts itself about a class in adjacent sections | CONTENT (accuracy) | 1 | **High — client must confirm** |
+| 60 | A whole page advertising a class the homepage says has not launched | CONTENT (accuracy) | 2 | **CRITICAL — client must confirm** |
 | 50 | Ten "near me" pages competing for the same local searches, including four for one discipline | SEO | 10 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
 | 52 | A comparison table advertising against unnamed competitors | CONTENT (accuracy) | 1 | Medium |
@@ -761,8 +761,16 @@ came from Google, the originals are public and the difference is checkable by
 anyone.
 
 **And a fourth page, `/mma-vs-kickboxing-for-self-defense/`,** carrying the same
-ten as the self-defence post. Four pages now publish subsets of one Google
-review set — 10, 11, 10 and 12 — re-cut each time.
+ten as the self-defence post, and a **fifth**, `/womens-self-defense-class/`,
+carrying the same ten again. Five pages now publish subsets of one Google review
+set — 12, 11, 10, 10 and 10 — re-cut each time.
+
+The women's page is the one where the reuse shows. It is about women's
+self-defence, and the ten reviews it carries are the generic set: "My kids love
+their classes", "Coach is super awesome… with kids", "Huge facility". **Not one
+of the ten is from a woman describing a self-defence class.** A reader who has
+just been told the programme is running (issue 60) is shown ten testimonials
+that say nothing about it.
 
 **The same set on a third page, edited again — which proves the point.**
 `/self-defense-classes-near-me/` publishes ten of the twelve, and
@@ -1521,6 +1529,35 @@ and instead the name only survives because a customer happened to use it.
 Names, ranks, who awarded them, one photograph each. It answers the certification
 question on thirteen posts at once, it is the first thing a parent looks for, and
 the material already exists — somebody just has to write it down.
+
+**`/womens-self-defense-class/` is the fifteenth, and it carries the site's only
+outcome assurance.** The page is covered in full under issue 60, because its
+central claim — that the women's programme is running — contradicts the
+homepage. It belongs here for a narrower reason: twice, in the gym's own voice,
+it tells the reader what training will achieve rather than what it offers.
+
+> These classes are designed to build your confidence and **ensure that you have
+> the skills needed to protect yourself in everyday situations.**
+
+> They bring years of experience and **ensure that you learn proper techniques
+> and strategies to stay safe.**
+
+"Ensure that you have the skills needed to protect yourself" is a promise about
+a future encounter. No training can guarantee that, and on a self-defence page
+it is the claim most likely to be repeated back after something has gone wrong.
+Every other post on the site says training "helps you", "builds confidence" or
+"prepares you"; these two sentences say it *ensures*.
+
+**What to do:** change both to "help you build the skills" and "help you learn
+proper techniques". It costs the page nothing — the sentences read the same to a
+customer — and it removes the only unqualified outcome promise on the site.
+
+**To the credit of this page, two things it does not do.** It makes **no
+statistical claim** — no assault rates, no percentages, no "one in four", none
+of the alarming framing this topic usually attracts. And it makes **no legal
+claim** at all, unlike `/muay-thai-vs-kickboxing/` and
+`/mma-vs-kickboxing-for-self-defense/` (issue 31). For a women's self-defence
+page those are the two easiest mistakes to make, and it makes neither.
 
 **And a second data point turned up, again inside a review.**
 `/teens-bjj-near-me/` carries a testimonial from Thiago Prado:
@@ -2885,6 +2922,31 @@ Two of the six use "**mix** martial arts", which is not the name of the sport.
 Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
+
+**The best tag set on the site, on `/womens-self-defense-class/`.** Fifteen
+tags, and **seven of them name Coppell or the local intent**:
+
+> Advanced self defense for women · **Beginner women's self defense Coppell** ·
+> Brazilian Jiu Jitsu self defense for women · **Fitness and self defense
+> classes Coppell** · **Learn self defense Coppell TX** · MMA women's self
+> defense training · Personal safety training for women · Self defense
+> techniques for women · Self defense training for women · Situational awareness
+> for women · Sixth Sense MMA self defense · Women's empowerment through self
+> defense · **Women's martial arts Coppell** · **Women's self defense classes
+> near me** · **Women's self defense Coppell TX**
+
+Every one is a phrase a person might actually type, none repeats a section
+heading, and the local ones are exactly what a single-location business needs.
+Set against the twenty-two heading-titles on
+`/mma-vs-kickboxing-for-self-defense/` and the fifteen unfocused ones on
+`/self-defense-classes-near-me/`, this is what the rest of the site should look
+like. Two small things: fifteen is still more than the three-to-five a post
+needs, and six of them use a curly apostrophe, which produces `womens` in the
+slug and is how duplicate tags get created later (issue 19).
+
+**This is the second post to use Coppell tags**, after `/teens-bjj-near-me/`.
+Both are September posts. Whatever changed in September, the tagging is the part
+that improved most.
 
 **And fifteen tags on one post.** `/self-defense-classes-near-me/` carries the
 largest tag set on the site:
@@ -4762,11 +4824,12 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on three pages.** `/self-defense-classes-near-me/` and
-`/teens-bjj-near-me/` both carry the identical section — same heading, same
-paragraph, same single Facebook button — so the pattern below applies to all
-three. Three copies of a hand-placed social block on three posts out of
-sixty-seven is exactly the case for putting the links in the footer instead.
+**Now on five pages.** `/self-defense-classes-near-me/`, `/teens-bjj-near-me/`,
+`/mma-vs-kickboxing-for-self-defense/` and `/womens-self-defense-class/` all
+carry the identical section — same heading, same paragraph, same single Facebook
+button — alongside the original. Five copies of a hand-placed social block on
+five posts out of sixty-nine, all from September, is exactly the case for
+putting the links in the footer where all sixty-nine would get them.
 
 `/which-martial-art-is-best-for-self-defence/` is the **first post in the
 project with a social media section**, which is a good idea. It reads:
@@ -4802,7 +4865,7 @@ the highest-value marketing gap on this list after the pricing. And put the
 social links in the footer so they appear on all sixty-five posts rather than
 one.
 
-### 60. A page that contradicts itself about a class in adjacent sections — CONTENT (accuracy) — **High, the client must confirm**
+### 60. A whole page advertising a class the homepage says has not launched — CONTENT (accuracy) — **CRITICAL, the client must confirm**
 
 `/self-defense-classes-near-me/` says the women's self-defence programme is
 running, and then, in the very next section, says it is being prepared.
@@ -4868,6 +4931,75 @@ half-hour edit and it removes the single clearest accuracy problem on the site.
 **In the rebuild:** both contradictory passages are reproduced word for word, and
 the build fails if either is quietly harmonised with the other.
 
+#### And now a whole page devoted to it: `/womens-self-defense-class/`
+
+The site has published a **dedicated page** for the women's programme. It is
+1,728 words, has its own URL, its own nine-section structure, its own three
+images and its own FAQ, and it advertises the class **entirely in the present
+tense with no hedge of any kind anywhere on it**:
+
+> At Sixth Sense MMA, **we offer** comprehensive self-defense classes tailored
+> specifically for women. These classes **are designed** to teach women of all
+> ages and skill levels how to defend themselves in real-world situations.
+
+> At Sixth Sense MMA, **we offer** different types of self-defense classes
+> designed to suit a range of experience levels.
+
+> At Sixth Sense MMA, **our women's self-defense classes teach** a wide range of
+> essential skills.
+
+> If you're ready to take control of your personal safety and **join our
+> women's self-defense classes**, getting in touch with us is easy.
+
+I searched the whole page: there is **no "coming soon", no "upcoming", no
+"launching", no future tense** — unlike `/self-defense-classes-near-me/`, which
+at least contradicted itself and so contained a grain of the truth.
+
+**It goes further and describes two tiers as running.** The page has H3s for
+"**Beginner Self-Defense Classes**" and "**Advanced Self-Defense Classes**",
+tells the reader what each covers, and states that "most sessions last between
+**45 minutes to an hour**". Its FAQ asks "**Do you offer advanced self-defense
+training?**" — a question only worth asking if the beginner class already exists.
+A prospective student is given a class length, two levels and a syllabus.
+
+**This is the fifth page asserting the programme, and by far the strongest.**
+
+| Page | What it says |
+|---|---|
+| **Homepage** | Self-Defense for Women **(Coming Soon)** |
+| `/martial-arts-near-me/` | "Women's Self-Defense Programs" listed among current programmes |
+| `/martial-arts-gyms-near-me/` | "Women Only Classes" listed among current programmes |
+| `/mma-gyms-near-me/` | FAQ: "What is unique about the **women's-only program**…" |
+| `/self-defense-classes-near-me/` | "offers women's self defense programs" **and** "is preparing a new" — contradicts itself |
+| **`/womens-self-defense-class/`** | **A whole page. Two tiers, a syllabus, a class length, no hedge** |
+
+**Why this moves from High to CRITICAL.** Four mentions inside other articles
+could be described as loose wording. A dedicated landing page with a syllabus
+and a class length cannot: it is the page a woman searching "women's self
+defense class Coppell" will land on, and it tells her to get in touch and join.
+Its fifteen tags include "Women's self defense classes near me", "Women's self
+defense Coppell TX" and "Beginner women's self defense Coppell" — it is built to
+be found by exactly the person most likely to turn up.
+
+**If the class is not running, this is the single most consequential inaccuracy
+on the site.** Women's self-defence is sought out by people acting on a specific
+worry, often after an incident. Someone who books on this page and is told at
+the door that the class does not exist yet has been let down in a way that no
+amount of good instruction afterwards repairs — and she is the customer least
+likely to try a second time.
+
+**What the client must confirm, today:** has the women's programme launched?
+
+- **If yes** — remove "(Coming Soon)" from the homepage immediately. It is
+  costing bookings on the one page built to convert them.
+- **If no** — this page must not stay live as written. Rewrite it in the future
+  tense with a waiting-list sign-up, which is honest and still captures the
+  search traffic, and fix the four other pages at the same time.
+
+Either way, six places on this site now say three different things about one
+class, and the newest and most persuasive of them is the one with no
+qualification at all.
+
 ### 61. A competitor's brand name published as a tag — SEO, LEGAL (trademark) — **High**
 
 `/teens-bjj-near-me/` is tagged:
@@ -4924,7 +5056,7 @@ page that honestly compares the two, not a tag.
 appear anywhere in the rebuilt site. It is recorded here because it is live on
 the client's WordPress.
 
-### 62. A section headed "Expert Opinions" that quotes no expert and cites no source — CONTENT (accuracy), SEO — **High**
+### 62. Unnamed "experts" cited as authority — CONTENT (accuracy), SEO — **High**
 
 `/mma-vs-kickboxing-for-self-defense/` has an H2 reading:
 
@@ -4976,6 +5108,25 @@ value.
 **In the rebuild:** the heading and the table are reproduced exactly as
 published, no expert or source was invented, and the build fails if anything is
 inserted between the heading and its table.
+
+**A second, smaller instance on `/womens-self-defense-class/`,** under the H3
+"Experienced Instructors":
+
+> Our instructors are skilled martial artists and **self-defense experts**. They
+> bring years of experience and ensure that you learn proper techniques and
+> strategies to stay safe.
+
+"Self-defense experts" is a credential claim, and as with "fully certified"
+elsewhere (issue 39) nobody is named, no qualification is given and no
+certifying body is mentioned. On a page about protecting oneself from assault,
+the reader is being asked to trust unnamed expertise with her personal safety.
+
+The same sentence also carries the page's strongest promise — see the
+"ensure" wording noted under issue 39 — so one sentence makes an unverifiable
+credential claim and an outcome assurance at the same time.
+
+**The fix is the same one the site keeps needing:** name the coach, give the
+rank, say who awarded it. The material exists (issues 32, 39).
 
 ### 63. A 7,000-word article with three images and five wall-of-text tables — CONTENT, UX — Medium
 
@@ -5030,7 +5181,7 @@ progress bar tracks correctly across the full length.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 74 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 75 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

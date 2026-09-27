@@ -493,5 +493,13 @@
     "image": "images/mma-vs-kb-01.jpg",
     "date": "2025-09-17T08:59:38+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "womens-self-defense-class",
+    "title": "Women’s Self Defense Class by Sixth Sense MMA",
+    "excerpt": "Women’s Self Defense Class At Sixth Sense MMA, we offer comprehensive self-defense classes tailored specifically for women. These classes are designed",
+    "image": "images/womens-sd-01.jpg",
+    "date": "2025-09-17T09:33:08+00:00",
+    "category": "Martial Arts"
   }
 ]

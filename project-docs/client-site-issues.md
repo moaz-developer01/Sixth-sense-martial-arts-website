@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **79 pages**: the homepage, the 5 program pages and all 73 blog
+live HTML of **80 pages**: the homepage, the 5 program pages and all 74 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 79 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 79 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 80 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 80 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: six on one question, five on Muay Boran | SEO | 35 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, two on kids | SEO | 36 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -38,7 +38,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 7 | Low |
 | 16 | Empty headings | SEO | 3 | Low |
-| 17 | Spelling errors, garbled headings, and a post with "Whether" deleted from five sentences | CONTENT | 31 | Medium |
+| 17 | Spelling errors, garbled headings, and two posts with the opening conjunction deleted from sentences | CONTENT | 32 | Medium |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 10 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
@@ -51,19 +51,19 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to thirty on one post | SEO | 17 | Medium |
+| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, and three that contradict their own page | SEO | 18 | Medium |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one set that clearly can, now on eight pages | CONTENT | 32 | Low — for the client to decide |
-| 33 | The brand name written ten different ways, one in a page title and one in an H2 | CONTENT, SEO | 15 | **High** |
+| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set on the newest post | CONTENT | 33 | Low — for the client to decide |
+| 33 | The brand name written ten different ways, and the head coach's name two ways on one page | CONTENT, SEO | 16 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 19 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 20 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 13 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 9 | Low |
-| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has turned a customer review into an advert | SEO, CONTENT | 4 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 10 | Low |
+| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has turned a customer review into an advert | SEO, CONTENT | 5 | **High** |
 | 62 | Unnamed "experts" cited as authority, and four sourceless "he said / they mentioned" attributions | CONTENT (accuracy), SEO | 3 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
@@ -80,7 +80,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 60 | A whole page advertising a class the homepage says has not launched | CONTENT (accuracy) | 2 | **CRITICAL — client must confirm** |
 | 50 | Ten "near me" pages competing for the same local searches, including four for one discipline | SEO | 10 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
-| 52 | Comparison tables against competitors — the newest names two local businesses and publishes their prices | CONTENT (accuracy), LEGAL | 3 | **CRITICAL** |
+| 52 | Comparison sections against competitors — one names two local businesses and publishes their prices | CONTENT (accuracy), LEGAL | 4 | **CRITICAL** |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
 | 54 | Subheadings published as bold paragraphs: bullets on one post, numbers on another | SEO, ACCESSIBILITY | 2 | Medium |
 | 55 | Two pages advertising two different discount schemes | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
@@ -89,8 +89,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 65 | A "Top Ten Martial Arts" list that is five disciplines counted twice | CONTENT (accuracy), SEO | 1 | **High** |
 | 66 | Two WordPress placeholder pages, live and indexable, linked from a published article | SEO, CONTENT | 3 | **High** |
 | 67 | A conclusion written as keyword salad rather than English | CONTENT, SEO | 1 | **High** |
+| 68 | A published URL that misspells its own keyword | SEO | 1 | Medium |
+| 69 | A minimum age that contradicts the gym's own programme, its own page and its own tags | CONTENT (accuracy) | 1 | **High** |
 
-**67 issues in total.**
+**69 issues in total.**
 
 ---
 
@@ -251,6 +253,7 @@ leftover from drafting and shows on the page.
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
 | `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
 | `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
+| `/martial-arts-for-kids-strenght/` | **The same fault as `/muay-boran/` below, on the post published the next day, and it starts in the opening sentence:** "**You're wondering what martial arts for kids is all about you're in the right spot**" needs "If" in front of it. The article's very first line reads as a sentence beginning halfway through. Together with the five on `/muay-boran/`, this is now a pattern rather than a slip: the leading conjunction of an "If X, then Y" or "Whether X or Y" construction is being dropped by whatever produces these drafts, and nobody reads the first line back |
 | `/muay-boran/` | **The word "Whether" has been deleted from the front of five separate sentences**, each of which is an "X or Y" construction that cannot stand without it: "**you're into martial arts** or just curious these techniques show the depth of muay boran", "**you want to stay fit** or learn to protect yourself muay boran delivers", "**you prefer a defensive approach** or raw power there's something for everyone", "**you're kicking a bag** or practicing grapples it's all about growth", and "**it's mastering strikes** or joining our Coppell community the ride's been eye-opening". The word appears **nowhere on the page**, which rules out a typo and points at a find-and-replace or a truncation in whatever produced the draft. Each one reads as a sentence that starts in the middle. Two paragraphs also run together with no full stop: "our classes stand out with personal **attentionOur** free trial waits" |
 | `/best-self-defense/` | The page's **first H2 has its words the wrong way round**: "**Best self defense for Martial Arts**", where the sentence wants "Best Martial Arts for Self Defense". As written it says the martial arts are being defended against, and it drops into lower case mid-heading ("self defense") while capitalising "Martial Arts" after it. It is the opening section heading of the article, it is in the table of contents, and it is the phrase the page is built to rank for — the H1 two lines above it gets the same words the right way round. One paragraph below also runs two sentences together with no space at the join: "even if they're larger or **stronger.By** mastering these techniques" |
 | `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
@@ -516,6 +519,28 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**And the head coach's name is now spelt two ways on a single page.** On
+`/martial-arts-for-kids-strenght/`, the gym's own copy writes:
+
+> Led by coach **Mattheus** Galvao these sessions help…
+> Coaches like **Mattheus** Galvao bring years of hands-on…
+> coaches like **Mattheus** can spot form issues…
+
+while all five customer reviews on the same page write **Matheus**:
+
+> "Coach **Matheus** is a jiu jitsu master from Brazil…"
+> "Professor **Matheus** is amazing with the kids."
+
+Three occurrences with a double T in the site's own words, four with a single T
+in the customers'. `/muay-boran/`, published the day before, uses **Matheus**
+throughout — so the correct spelling is the single T, and the page that gets it
+wrong is the one the gym wrote itself.
+
+This belongs with the brand-name problem rather than beside it: a school whose
+public copy misspells its own head coach's name, in the same article where five
+customers spell it correctly, has the same absence of a style sheet that
+produced the ten brand variants. **Add both to the same check.**
 
 **A tenth form, in an H2, and it is the worst-formed one yet.**
 `/top-ten-martial-arts-for-self-defense/` publishes this as a section heading:
@@ -838,7 +863,38 @@ anyone.
 **And a fourth page, `/mma-vs-kickboxing-for-self-defense/`,** carrying the same
 ten as the self-defence post, a **fifth**, `/womens-self-defense-class/`, and a
 **sixth**, `/best-fighting-style-for-self-defense/`, carrying the same ten
-**And the newest post carries none at all, which is worth noting.**
+**A second, completely different review set appears on the newest post — and it
+is better than the one on the other eight.** `/martial-arts-for-kids-strenght/`
+publishes five reviews, and **not one of the eleven catalogued below appears on
+it**:
+
+> **Stacie Arce** — "My son has been coming since December and grown so much.
+> Coach Matheus is a jiu jitsu master from Brazil but more important than that,
+> he is a skilled coach."
+> **Danilo De souza** — "Family friendly and professional. My kids love Coach
+> Matheus and **Coach Milly**."
+> **Márcio Rabelo** · **juwaryiyya** · **Kaivan Askari**
+
+**Why this set is better for this page.** Four of the five talk about children,
+on a post about children. Three name the coach. One names a second coach,
+**Milly**, who appears nowhere else on the site. And juwaryiyya's review
+explains the L-shaped room that three other pages mention as a feature without
+saying why it matters:
+
+> "I also feel very comfortable as a Muslim woman because of how the room is
+> shaped like an L giving privacy and comfort for sisters."
+
+That is a specific, credible reason to choose this gym, written by a customer,
+and it is on one page out of seventy-four.
+
+**What this changes about the recommendation below.** The problem was never that
+the eleven reviews are fake — it is that the same eleven are re-cut across eight
+pages with no source. This page shows the alternative: **pick the reviews that
+speak to each page's reader.** A second set exists, so the material is there.
+Pull both sets from the Google Business Profile with a plugin that cites the
+source, and match them to the page.
+
+**And `/muay-boran/` carries none at all, which is worth noting.**
 `/muay-boran/`, published 17 October, is the first post in months with **no
 customer reviews section**. It is also 3,242 words and reads as the most
 professional page on the site. Whatever this set of eleven testimonials is
@@ -1687,6 +1743,55 @@ as a rich result.
 The page also names eight other styles — Boxing, Kickboxing, Krav Maga, Karate,
 Judo, Taekwondo, Wrestling and Wing Chun — but those are discussed generically
 rather than offered, so they do not add to this list.
+
+**`/martial-arts-for-kids-strenght/` is the twentieth, and the audience makes it
+worse than the count suggests.** Its H2 "Popular Types of Martial Arts for Kids"
+gives a section each to **six** disciplines:
+
+| Discipline | Programme page? |
+|---|---|
+| Karate Basics | **No** |
+| Taekwondo Features | **No** |
+| Judo Techniques | **No** |
+| Aikido Approaches | **No** |
+| Brazilian Jiu Jitsu Methods | Yes |
+| Muay Thai Elements | Yes |
+
+**Every one of the six is written in neutral third person** — "Karate is a
+classic pick for kids martial arts", "Aikido takes a calmer route" — with
+nothing anywhere in the section saying which the gym teaches and which it does
+not. A parent reading it has no way to tell.
+
+**The answer arrives 4,000 characters later and does not match.** Under "Martial
+Arts Classes at Sixth Sense MMA", the page says "Our brazilian jiu jitsu focus
+fits right into those trends", and its three class headings are all jiu jitsu:
+Intro to Jiu Jitsu, Little Champions, Rising Champions. **Muay Thai is not
+offered on this page either** — so of the six disciplines described, the gym's
+own classes section delivers **one**.
+
+Then the FAQ contradicts that in turn:
+
+> **Q: Which martial arts styles are offered for kids at Sixth Sense MMA?**
+> A: We specialize in Brazilian Jiu Jitsu (BJJ) for kids... **Classes also
+> introduce elements from Judo and Muay Thai** for a complete experience.
+
+So the page gives three different answers to "what do you actually teach": six
+disciplines described neutrally, one in the classes section, and three in the
+FAQ — one of which, **Judo**, has no programme page and is named as taught
+inside `FAQPage` structured data.
+
+**Why this one is more consequential than the informational posts.** The other
+nineteen entries in this issue are articles someone reads out of interest. This
+is a decision page for a parent choosing a class for their child. Four of the
+six options it presents cannot be booked, and the page never says so. The most
+likely outcome is not a complaint — it is a parent deciding the taekwondo
+sounded right and going somewhere else.
+
+**What to do:** keep all six sections, they are genuinely useful, but add one
+sentence to each of the four: "We don't teach karate at Sixth Sense — if it
+sounds right for your child, look for a local dojo." Then say plainly, in the
+"Popular Types" section rather than 4,000 characters below it, that the gym
+teaches Brazilian Jiu Jitsu and Muay Thai. Correct the FAQ's Judo claim.
 
 **`/muay-boran/` is the nineteenth, and it is the first to advertise Muay Boran
 as a class of its own.** The three earlier Muay Boran posts treat the art as
@@ -3285,6 +3390,30 @@ Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
 
+**Six tags on `/martial-arts-for-kids-strenght/`, and three of them contradict
+the page they are attached to.** The set:
+
+> jiu jitsu near me for kids · kids martial arts · **martial arts for 5 year
+> olds** · **martial arts for 6 year olds** · martial arts near me for kids ·
+> **toddler bjj**
+
+Mechanically this is the cleanest set in the document — six tags, no zero-width
+spaces, no duplicates, no misspellings, all six squarely on topic, and three
+carrying "near me" or an age qualifier that a parent would genuinely type. As a
+piece of keyword work it is the best on the site.
+
+**And then the page tells those searchers to go away.** Three of the six target
+children aged 5, 6 and younger, on a page whose H3 and FAQ both state a minimum
+age of **seven** (issue 69). The tags are right — the gym takes children from
+four — and the copy is wrong, which is the unusual direction for this site.
+
+Note also there is **no local tag at all**: no Coppell, no TX, on a page whose
+body names Coppell four times and publishes the full address. The two previous
+posts had the opposite problem. Nothing on this site does both at once.
+
+**What to do:** keep all six tags and fix the copy (issue 69), then add two
+local ones — "kids martial arts Coppell", "kids BJJ Coppell TX".
+
 **Twenty-two well-chosen tags on `/muay-boran/`, and the local signal finally
 lands in the body copy.** The tag set:
 
@@ -3672,7 +3801,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: six on one question, five on Muay Boran — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, two on kids — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -3684,7 +3813,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
-| Martial arts for kids | `/martial-arts-for-kids/` · `/kids-bjj-classes/` (program page) |
+| **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **Kickboxing "versus" comparisons (confirmed, three posts)** | `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` · `/mma-vs-kickboxing-for-self-defense/` — see below |
@@ -3853,6 +3982,35 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The kids pair: two posts, one keyword, one audience — **CRITICAL**
+
+`/martial-arts-for-kids/` (16 February 2025) and
+`/martial-arts-for-kids-strenght/` (18 October 2025) target the same phrase for
+the same reader: a parent deciding whether to enrol their child. This is not
+partial overlap or a different angle. The second is the first, rewritten eight
+months later and 3,379 words long.
+
+**The newer page links the older one**, with the anchor text "martial art for
+kids" — so the site itself tells Google the two are about the same thing,
+without saying which should rank.
+
+**The newer one is the stronger page** on structure (14 H2s, 31 H3s, a full NAP
+block, Coppell four times) and the **weaker** on accuracy: its URL misspells
+"strength" (issue 68), it states a minimum age two years above the real one
+(issue 69), it spells the head coach's name wrong (issue 33), and it describes
+four disciplines the gym does not teach (issue 39).
+
+**What to do: consolidate into one page and keep the correctly spelled slug.**
+`/martial-arts-for-kids/` already has the clean URL and eight months of history,
+so it is the natural survivor. Merge the newer page's structure and its NAP
+block into it, fix the age and the coach's name on the way in, and **301
+`/martial-arts-for-kids-strenght/` into it** — which resolves issue 68 at the
+same time.
+
+Whichever survives must link `/kids-bjj-classes/`, which neither currently does.
+A parent who reads either post and wants to book has no route to the booking
+page from it.
 
 #### And now a sixth, with the slug the whole cluster should have had — raised to **CRITICAL**
 
@@ -5056,6 +5214,33 @@ There is also an internal contradiction: the "Lifestyle Fit" row promises
 "Flexible plans suitable for real lifestyles" on a page that publishes no plans
 and no prices (issue 48).
 
+#### A fourth comparison, and this one gets it right — worth reading alongside
+
+`/martial-arts-for-kids-strenght/` has an H2 called "**How We Compare to Other
+Gyms**" and **no table at all** — just prose and two sub-sections. More
+importantly, **it names nobody**:
+
+> Sixth Sense MMA holds its own against **the usual suspects** in Coppell and
+> beyond… that personal touch you won't find in **every strip mall dojo**. Sure
+> **big chains** might flash flashy ads…
+
+> **Bigger gyms** often pack in 20 plus kids per session leaving little room for
+> one on one tweaks. At Sixth Sense MMA we cap groups at 10 or so…
+
+> **Many spots** stick to one style like basic karate drills but we mix in bjj
+> grappling with open mats…
+
+"The usual suspects", "strip mall dojo", "big chains", "many spots". It still
+asserts things about competitors as a class — 20-plus children per session, one
+style only — which remain unsubstantiated, and "strip mall dojo" is a sneer the
+client may not want in their own voice. But **no business is named, no
+competitor's price is published, and nothing is sourced to hearsay.**
+
+Published the day after `/muay-boran/`, it is the same section written the
+careful way. **When the three tables below are rewritten, this is the register
+to rewrite them into** — and the two specific numeric claims ("20 plus kids",
+"one style") should come out even here.
+
 #### The third table names the competitors. Read this one first. — **CRITICAL**
 
 The two tables described below hedge behind "Typical Gym" and "Other Providers".
@@ -5641,7 +5826,10 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on nine pages**, the newest being `/muay-boran/`, which carries the same
+**Now on ten pages.** `/martial-arts-for-kids-strenght/` carries the tenth copy,
+word for word identical to the ninth including the internal link inside it.
+
+And `/muay-boran/` carries the same
 heading, the same paragraph and the same single Facebook button as the eight
 before it — with the same internal link inside it as the eighth. The copies have
 stopped drifting and simply propagate now.
@@ -6046,6 +6234,19 @@ the anchor four characters early, twice on one page.
   same off-by-a-few-characters bug could be sitting in any post the plugin has
   touched.
 
+**A fifth page, and the heaviest yet.** `/martial-arts-for-kids-strenght/`
+carries **ten** auto-inserted internal links in 3,379 words, and the anchor text
+runs long on most of them — "Brazilian jiu jitsu or bjj is all about ground
+fighting", "Martial arts training brings self defense skills and builds",
+"martial arts for kids Sixth Sense MMA in Coppell". The last of those swallows
+the brand name and the town.
+
+Two of the ten matter beyond the anchor text. One points at
+**`/martial-arts-for-kids/`**, this page's own near-duplicate (issue 7), which
+is the plugin reinforcing a cannibalisation pair. Another wraps "martial arts
+styles like **karate** or bjj" — putting a link on a discipline the gym does not
+teach, in a page section that is otherwise carefully left unlinked.
+
 **A fourth page.** `/muay-boran/` carries five `data-wpil-monitor-id` links and
 three of them run long again — "Muay thai boran faded as a battlefield art",
 "styles shape martial art skills but muay boran", "know muay boran isn't just
@@ -6302,11 +6503,118 @@ Nothing of value is lost. Then **check the other posts' conclusions for the same
 pattern**, because a phrase list pasted into a closing section is a process, not
 a one-off.
 
+### 68. A published URL that misspells its own keyword — SEO — Medium
+
+The post "Martial Arts for Kids Building Strength and Confidence" is published at:
+
+```
+https://sixthsensemma.com/martial-arts-for-kids-strenght/
+```
+
+**"strenght"** — the H and T transposed. The page's own H1, title tag and body
+copy all spell "Strength" correctly; only the URL is wrong.
+
+**Why it matters more than a typo normally would.**
+
+- **The URL is visible in search results.** Google shows the breadcrumb path
+  under the title. A misspelling there is the one kind of error a reader
+  attributes to the business rather than to a machine.
+- **It is permanent once indexed.** Changing a URL after it has accumulated
+  links and history costs you those signals unless the redirect is done
+  properly, which is why this needs deciding now rather than later.
+- **It is not a keyword the page can use.** "strenght" has no search volume. The
+  slug therefore carries "martial-arts-for-kids" and then a dead word, where it
+  could have carried "strength", which the page is genuinely about.
+- **It suggests nothing checks slugs.** This is the second URL-level fault
+  logged, after the two kick-boxing spellings at issue 44 and the `-2` suffix at
+  issue 24. Slugs are auto-generated from the title and then edited by hand, and
+  nobody is reading them back.
+
+**What to do:** create the correctly spelled slug
+`/martial-arts-for-kids-strength/`, **301 the misspelt one to it**, and update
+any internal links. Do it before the page accumulates external links. Then add
+a slug check to whatever pre-publish routine exists — the same read-through that
+would catch issue 22.
+
+**In the rebuild:** the misspelt slug is kept exactly, in the filename, the
+canonical, the Open Graph URL and the sitemap, because correcting it would stop
+the page being a replica of what is live. The build fails if it is silently
+fixed.
+
+---
+
+### 69. A minimum age that contradicts the gym's own programme, its own page and its own tags — CONTENT (accuracy) — **High**
+
+`/martial-arts-for-kids-strenght/` is written for parents choosing a first
+class for their child. It states a minimum age of **seven**, three times.
+
+**In an H3 of its own:**
+
+> ### Starting at Ages 7 and Up
+> **Starting martial arts at ages 7 is a great time to jump in.** Kids this age
+> are ready to learn self control and concentration without it feeling
+> overwhelming.
+
+**Again in the comparison section:**
+
+> ours layers in family sessions and skill tweaks **for ages 7 up**
+
+**And a third time in the FAQ, inside `FAQPage` structured data**, where Google
+may surface it as a rich result:
+
+> **Q: What age can my child start martial arts training at Sixth Sense MMA?**
+> A: **Children can begin training as early as age 7.**
+
+**The gym takes children from four.** The homepage's own programme list, which
+is the only place on the site that publishes ages, says so plainly:
+
+> Kids Program — Intro To Jiu Jitsu, Self-Defense & Anti-Bullying —
+> **Intro to Jiu Jitsu, Ages (4 - 12)**
+> **Little Champions**, Kids Brazilian Jiu-Jitsu, **Ages (4 - 7)**
+> **Rising Champions**, Brazilian Jiu-Jitsu Advanced Techniques, **Ages (8 - 12)**
+
+**The page contradicts itself three times over, without leaving the page.**
+
+1. **Its own three class headings are those three programmes**, in that order:
+   "Intro to Jiu Jitsu for Beginners", "**Little Champions Level**", "Rising
+   Champions Advanced". Whoever wrote this post had the homepage's programme
+   list in front of them — the names match exactly — and that list says "Ages
+   (4 - 12)" on the line above. The page reproduces the structure and drops the
+   ages.
+2. **"Little Champions" is the 4-to-7 group.** The post describes it three
+   sections below the heading that tells parents the minimum is seven.
+3. **Three of its six tags target exactly the children it turns away:**
+   "**martial arts for 5 year olds**", "**martial arts for 6 year olds**" and
+   "**toddler bjj**".
+
+So the page is optimised to be found by the parent of a five-year-old, and then
+tells that parent their child is two years too young. Whoever wrote the tags and
+whoever wrote the copy were working from different information.
+
+**Why this is High and not Medium.** Every other accuracy issue in this document
+costs the client credibility. This one costs them **enrolments, individually and
+silently**. A parent who reads "ages 7 and up" does not ring up to check — they
+close the tab. The gym never learns it happened, and the four-to-six age band is
+the one most likely to stay for years.
+
+**What to do:** change all three instances to the real range — **"from age 4"** —
+and name the two groups with their ages, Little Champions (4 to 7) and Rising
+Champions (8 to 12), which this page already describes without them. The FAQ
+answer matters most, because it is the one Google may quote.
+
+**A related gap found while checking this.** The ages are published **only on
+the homepage**. `/kids-bjj-classes/` and `/teen-bjj-classes/` — the two pages a
+parent lands on from a search, and the two that take the booking — state **no
+age range at all**. So the one place the correct information exists is the page
+a searching parent is least likely to see, and the programme pages leave the
+question open. Put "Ages 4-12" on the Kids BJJ page and the equivalent on Teen
+BJJ; it is a one-line change on each and it closes both halves of this issue.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 79 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 80 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

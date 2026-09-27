@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **76 pages**: the homepage, the 5 program pages and all 70 blog
+live HTML of **77 pages**: the homepage, the 5 program pages and all 71 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 76 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 76 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 77 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 77 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches, four of them on one question | SEO | 32 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches, five of them on one question | SEO | 33 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 32 | **High** |
@@ -38,7 +38,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 7 | Low |
 | 16 | Empty headings | SEO | 3 | Low |
-| 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 28 | Medium |
+| 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 29 | Medium |
 | 18 | Image alt text typos and scrambled descriptions | SEO | 9 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
@@ -47,23 +47,23 @@ issue 40, which is now sending link equity to a competing gym.
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
-| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 21 | Low |
+| 26 | Poor image filenames: reused, WhatsApp exports, misspelt, duplicated, or a bare number | CONTENT (asset management) | 22 | Low |
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to twenty-two on one post | SEO | 14 | Medium |
+| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to twenty-two on one post | SEO | 15 | Medium |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, and one set that clearly can, now on six pages | CONTENT | 30 | Low — for the client to decide |
+| 32 | Testimonials that cannot be verified, and one set that clearly can, now on seven pages | CONTENT | 31 | Low — for the client to decide |
 | 33 | The brand name written nine different ways, one of them in a page title | CONTENT, SEO | 14 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 16 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 17 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 12 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 6 | Low |
-| 64 | An auto-linking plugin that cuts words in half to place internal links | SEO, CONTENT | 1 | Medium |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 7 | Low |
+| 64 | An auto-linking plugin that cuts words in half, and wraps whole clauses, to place internal links | SEO, CONTENT | 2 | Medium |
 | 62 | Unnamed "experts" cited as authority: a whole section on one page, a credential claim on another | CONTENT (accuracy), SEO | 2 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
@@ -248,6 +248,7 @@ leftover from drafting and shows on the page.
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
 | `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
 | `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
+| `/best-self-defense/` | The page's **first H2 has its words the wrong way round**: "**Best self defense for Martial Arts**", where the sentence wants "Best Martial Arts for Self Defense". As written it says the martial arts are being defended against, and it drops into lower case mid-heading ("self defense") while capitalising "Martial Arts" after it. It is the opening section heading of the article, it is in the table of contents, and it is the phrase the page is built to rank for — the H1 two lines above it gets the same words the right way round. One paragraph below also runs two sentences together with no space at the join: "even if they're larger or **stronger.By** mastering these techniques" |
 | `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
 | `/jiu-jitsu-guard-position/` | Six parallel section headings, but only two have a separator: "Open Guard **–** Mobility and Grip Strategy" and "Guard Retention Techniques **–** How to Keep Your Guard Strong" have an en dash, while "Closed Guard Classic Control and Attacks" and "Butterfly Guard Dynamic Sweeps and Control" have nothing, and "Half Guard&nbsp; Balance of Defense and Offense" and "Guard in MMA vs BJJ&nbsp; Key Differences" have a leftover double space (a non-breaking space) where the dash was deleted. Several of its sub-headings are also sentences or uncapitalised questions ("Guard vs top position who really has the advantage?", "Common open-guard grips include collars, sleeves, and pants.") |
@@ -782,8 +783,33 @@ anyone.
 **And a fourth page, `/mma-vs-kickboxing-for-self-defense/`,** carrying the same
 ten as the self-defence post, a **fifth**, `/womens-self-defense-class/`, and a
 **sixth**, `/best-fighting-style-for-self-defense/`, carrying the same ten
-again. Six pages now publish subsets of one Google review set — 12, 11, 10, 10,
-10 and 10 — re-cut each time.
+again, and a **seventh**, `/best-self-defense/`, which goes back up to eleven.
+Seven pages now publish subsets of one Google review set — 12, 11, 10, 10, 10,
+10 and 11 — re-cut each time.
+
+**Two of the eleven on the seventh page are published broken**, and they are
+broken in the copy itself, not in the rebuild:
+
+> **Isabella Barbosa**
+> "So nice space!! The staff are very friendly. I loved "
+
+The sentence stops after "I loved", and what should be the closing quotation
+mark is a second **opening** one. A named customer is quoted saying half a
+sentence.
+
+> **FunDadMo**
+> "Great hidden jiu jitsu gym for all ages, perfect for learning self defense
+> techniques." The teacher is great and really knows the art."
+
+The quotation closes after "techniques", then a second sentence runs on outside
+it and closes with a quotation mark that opens nothing. Both faults are
+consistent with text pasted from Google and trimmed by hand.
+
+This matters more than a typo would, because these are **real people's words
+under their real names**. Publishing half of what someone said, and attaching a
+stray sentence to it, is the one category of error on this site where the fix is
+not optional. Both are reproduced exactly in the rebuild, because correcting a
+customer's quotation is not the rebuild's call to make.
 
 The sixth is edited again, too: Muntasir Zaman's review opens "Great gym! **I
 came in** for a session today" here, where the other five publish "Great gym!
@@ -1592,6 +1618,27 @@ as a rich result.
 The page also names eight other styles — Boxing, Kickboxing, Krav Maga, Karate,
 Judo, Taekwondo, Wrestling and Wing Chun — but those are discussed generically
 rather than offered, so they do not add to this list.
+
+**`/best-self-defense/` is the seventeenth, and it makes the claim in a tag
+rather than in the copy.** The body is careful: Krav Maga is named twice as one
+of the "top choices for individuals who are serious about learning self
+defense", but always in the third person, and the page never says the gym
+teaches it. The section that lists what Sixth Sense MMA offers names only
+Brazilian Jiu Jitsu, Muay Thai and MMA.
+
+The tag does not keep that distinction. One of the page's nine tags is:
+
+> **krav maga self defense**
+
+A tag is an entry point. It exists so that someone searching Krav Maga finds
+this page, and what they find is a gym that does not teach it — the same
+mismatch already logged for Kali, Sambo, Martial Blade Concepts, Tai Chi,
+Boxing and MMA, but reached from the other direction: here it is the tag
+promising the service rather than the article.
+
+**What to do:** remove the "krav maga self defense" tag. The two body mentions
+are accurate as written and can stay. If the gym ever does offer Krav Maga, the
+tag can come back alongside a program page.
 
 **It carries the strongest outcome assurances on the site.** The word "ensure"
 appears eight times, and four of them promise a result rather than a service:
@@ -2987,6 +3034,44 @@ Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
 
+**A clean set that still advertises the wrong thing, on `/best-self-defense/`.**
+Nine tags, no zero-width spaces, no section titles, no misspellings, none of the
+twenty-two-tag sprawl logged below:
+
+> best self defense · bjj for self defense · brazilian jiu jitsu self defense ·
+> **krav maga self defense** · martial arts for self defense · mixed martial
+> arts training · mma for self defense · muay thai self defense · self defense
+> martial arts
+
+Mechanically this is one of the better sets on the site. Substantively it has
+the problem logged at issue 39: **"krav maga self defense" targets an art the
+gym does not teach.** It is also a set with no local signal at all — nine tags,
+not one naming Coppell or Texas, on a page whose entire purpose is to bring
+local people to a single-location gym. Set beside the fifteen-tag Coppell set
+on the post published thirty-six minutes earlier, the two pages look like the
+work of two different people who never spoke.
+
+**On the body copy, the same near miss as the page before it.** `/best-self-defense/`
+does contain the word "Coppell" — exactly once, in Ben Holland's customer
+review: *"So excited to have a jiu jitsu gym in our neighborhood! This is what
+Coppell needed!"*
+
+That is a real local signal and it is worth having, but it is a **customer's
+sentence, not the gym's**. Across 1,858 words the article itself never names the
+town, the state, the neighbourhood or the address. Nor does the meta
+description, which on this page drops the "in Coppell, TX" the previous post's
+carries. So of the three places a local page can say where it is — body, meta,
+tags — this one says it in none of them, and gets there only because a customer
+said it for them.
+
+**Two posts, thirty-six minutes apart, and the pattern is the same both times:**
+the local intent lives in the tags or in the reviews, never in the prose. The
+September batch is genuinely more local-minded than the fifty posts before it —
+that much is real and worth the credit. But "Coppell" appearing in a quotation
+is not the same as the page saying where the gym is. **One sentence in the
+opening paragraph fixes it on both pages**, and it is the single cheapest SEO
+change available anywhere in this document.
+
 **And the most local set yet, on `/best-fighting-style-for-self-defense/` —
 though the article does not live up to it.** Fifteen tags, **eleven naming
 Coppell or local intent**:
@@ -3231,14 +3316,14 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches, four of them on one question — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches, five of them on one question — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
 
 | Topic | Competing pages |
 |---|---|
-| **Best martial art for self-defence (confirmed, FOUR pages)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` — see below |
+| **Best martial art for self-defence (confirmed, FIVE pages)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` — see below |
 | BJJ belts and rank progression | `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
@@ -3278,16 +3363,17 @@ short comparison pages — cut the newest one down so it stops covering their
 topics. The current arrangement has one 6,785-word page competing with two
 2,500-word pages that it already contains.
 
-#### The self-defence quartet, and a spelling that makes it worse — **CRITICAL**
+#### The self-defence quintet, and a spelling that makes it worse — **CRITICAL**
 
-Four posts now answer the same question:
+Five posts now answer the same question:
 
 | URL | Title | Published |
 |---|---|---|
 | `/best-martial-arts/` | "Best Martial Arts for Self-Defense: Which Style Suits You?" | 2025-01-21 |
 | `/best-martial-arts-for-self-defense/` | "Best Martial Arts for Self-Defense: Top Disciplines Ranked" | 2025-02-18 |
 | `/which-martial-art-is-best-for-self-defence/` | "Which Martial Art is Best for Self-Defence?" | 2025-09-08 |
-| `/best-fighting-style-for-self-defense/` | "Best Fighting Style for Self Defense" | 2025-09-17 |
+| `/best-fighting-style-for-self-defense/` | "Best Fighting Style for Self Defense" | 2025-09-17, 10:26 |
+| `/best-self-defense/` | "Best Self Defense Martial Arts for Protection" | 2025-09-17, 11:02 |
 
 The first two were already logged as a pair. The third, published seven months
 later, asks the identical question in a different grammatical shape. **The
@@ -3295,6 +3381,19 @@ fourth, nine days after the third, asks it again** — "best fighting style" is
 "best martial art" with one noun swapped, and its own FAQ opens with the
 question "**What is the best martial art for self defense?**", which is the
 second post's exact title.
+
+**The fifth was published thirty-six minutes after the fourth.** Not thirty-six
+days — thirty-six minutes. `/best-fighting-style-for-self-defense/` went live at
+10:26 on 17 September 2025 and `/best-self-defense/` at 11:02 the same morning.
+Its H1 is "Best Self Defense **Martial Arts** for Protection", so it is not even
+a different noun this time; it is the same three words in a different order.
+
+The two are near-identical in construction as well as subject. Both open on
+choosing a martial art for protection, both run one section each on Brazilian
+Jiu Jitsu, Muay Thai and MMA, both carry a "Why Choose Sixth Sense MMA" section,
+a numbered benefits list, the same Google reviews and the same Facebook-only
+social block. Where the fourth runs to 2,392 words, the fifth runs to 1,858 —
+the shorter, thinner version of the page published half an hour earlier.
 
 And the only thing distinguishing the third URL from the second is **British
 spelling**:
@@ -3318,12 +3417,18 @@ BJJ cluster (issue 57), the newest page cites its own direct competitors as
 sources — which is the clearest possible demonstration that these should be one
 page.
 
-This belongs beside the BJJ near-me cluster (issue 57) as the second confirmed
-**CRITICAL** duplication group: **four pages, one question**, spread across two
-spellings of "defence" and two nouns for "martial art". Between them they run to
-roughly 11,000 words answering something a single page should answer once.
+**The fifth links none of them**, which is arguably worse: it sits in the middle
+of a five-page cluster and points instead at `/womens-self-defense-class/`,
+`/self-defense-classes-near-me/` and `/different-types-of-martial-arts/`. Nothing
+on the site tells a reader or a crawler which of the five pages is the answer.
 
-**What to do: consolidate all four into one page with three 301 redirects.**
+This belongs beside the BJJ near-me cluster (issue 57) as the second confirmed
+**CRITICAL** duplication group: **five pages, one question**, spread across two
+spellings of "defence" and three phrasings of "martial art". Between them they
+run to roughly 13,000 words answering something a single page should answer
+once.
+
+**What to do: consolidate all five into one page with four 301 redirects.**
 
 Check Search Console first, but on the evidence `/best-martial-arts-for-self-defense/`
 is the strongest candidate to keep: it is the plainest phrasing of the query, it
@@ -3340,8 +3445,14 @@ cannot be the keeper without a slug change. See issue 58 for the site-wide
 spelling problem this is part of.
 
 **This is now the largest duplication group on the site after the near-me
-cluster**, and unlike that one it needs no judgement about audience: all four
+cluster**, and unlike that one it needs no judgement about audience: all five
 pages answer one question for one reader.
+
+**The two September pages should be merged first, and today.** Whatever the
+client decides about the older three, publishing two articles on the same
+subject thirty-six minutes apart is not a strategy that anyone chose; it reads
+like two drafts of one brief both going live. `/best-self-defense/` is the
+shorter and weaker of the two and is the obvious one to fold in.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
@@ -4152,6 +4263,35 @@ publish the date and minute the photographs were sent in a private chat, and say
 nothing about martial arts, self defense or Coppell. The alt text has to carry
 the entire description on its own.
 
+**And a third post, one day later than the improvement noted below.** All three
+images on `/best-self-defense/` are WhatsApp exports again:
+
+```
+WhatsApp-Image-2025-09-17-at-3.22.08-PM-1024x536.jpeg
+WhatsApp-Image-2025-09-17-at-3.22.07-PM-1-1024x536.jpeg
+WhatsApp-Image-2025-09-17-at-3.22.07-PM-1024x536.jpeg
+```
+
+The same pattern for the third time: two of the three sent in the same second
+(3.22.07 PM), separated only by the `-1` suffix WordPress adds on a name
+collision. They are different photographs — verified byte for byte at 40,889 and
+101,003 bytes — but nothing in the filenames says so.
+
+**The three-times-in-a-row part is the finding.** `/is-tai-chi-a-martial-art/`
+in June, `/self-defense-classes-near-me/` in September, and this one the next
+day. The filenames publish the date and the minute a photograph was sent in a
+private chat, and say nothing about martial arts, self defense or Coppell.
+
+**Quality, not just naming.** WhatsApp re-compresses every image it sends. These
+three are 40 KB to 101 KB at 1024×536 — the 40 KB file is roughly a third the
+weight of the 101 KB one at identical dimensions, which is what heavy
+re-compression looks like. Whoever took these photographs has better originals.
+
+**What to do:** stop routing photographs through WhatsApp on the way to the
+media library. Get the original files, upload them under descriptive names —
+`brazilian-jiu-jitsu-self-defense-coppell.jpg` rather than a timestamp — and
+the alt text stops having to carry the whole description on its own (issue 18).
+
 **The newest uploads are noticeably better, which is worth saying.** The three
 images on `/which-martial-art-is-best-for-self-defence/` — the most recently
 published post, uploaded in **September 2025** rather than August — are named:
@@ -4954,13 +5094,19 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on six pages.** `/self-defense-classes-near-me/`, `/teens-bjj-near-me/`,
-`/mma-vs-kickboxing-for-self-defense/`, `/womens-self-defense-class/` and
-`/best-fighting-style-for-self-defense/` all carry the identical section — same
-heading, same paragraph, same single Facebook button — alongside the original.
-Six copies of a hand-placed social block on six posts out of seventy, all from
-September, is exactly the case for putting the links in the footer where all
-seventy would get them.
+**Now on seven pages.** `/self-defense-classes-near-me/`, `/teens-bjj-near-me/`,
+`/mma-vs-kickboxing-for-self-defense/`, `/womens-self-defense-class/`,
+`/best-fighting-style-for-self-defense/` and `/best-self-defense/` all carry the
+identical section — same heading, same paragraph, same single Facebook button —
+alongside the original. Seven copies of a hand-placed social block on seven
+posts out of seventy-one, all from September, is exactly the case for putting
+the links in the footer where all seventy-one would get them.
+
+The seventh copy is **word-for-word identical** to the six before it, paragraph
+and heading alike — checked character by character. That is the argument for the
+footer in one line: seven copies of a block nobody has edited since the first
+one, each of which has to be found and changed by hand the day the gym opens an
+Instagram account.
 
 `/which-martial-art-is-best-for-self-defence/` is the **first post in the
 project with a social media section**, which is a good idea. It reads:
@@ -5308,7 +5454,7 @@ ones scroll rather than breaking the layout on a phone. The sticky table of
 contents scrolls internally, which it needs to at 17 entries, and the reading
 progress bar tracks correctly across the full length.
 
-### 64. An auto-linking plugin that cuts words in half to place internal links — SEO, CONTENT — Medium
+### 64. An auto-linking plugin that cuts words in half, and wraps whole clauses, to place internal links — SEO, CONTENT — Medium
 
 `/best-fighting-style-for-self-defense/` contains two internal links whose
 anchor text **ends in the middle of a word**:
@@ -5342,10 +5488,31 @@ the anchor four characters early, twice on one page.
   same off-by-a-few-characters bug could be sitting in any post the plugin has
   touched.
 
+**A second page, with the opposite failure: whole clauses as anchor text.**
+`/best-self-defense/`, published the same morning, carries the same
+`data-wpil-monitor-id` attributes and five internal links. None of them splits a
+word, but three of them swallow most of a sentence:
+
+| Anchor text as published | Destination |
+|---|---|
+| "martial arts for personal security in a variety of self defense" | `/different-types-of-martial-arts/` |
+| "Muay Thai's striking techniques are highly effective" | `/what-martial-art-destroys-boxers/` |
+| "self defense training at Sixth Sense MMA and start building" | `/self-defense-classes-near-me/` |
+
+Each one begins or ends mid-clause. The third is the clearest: it links eight
+words that end on "and start building", leaving "the skills you need" outside
+the link. A reader sees most of a sentence underlined for no apparent reason.
+
+This is the same tool failing the same way — matching a target phrase in the
+text and then extending or truncating the anchor by a fixed span rather than to
+a sensible boundary. On the first page it cut words in half; here it runs long.
+Both make the anchor text useless as a signal, which is the whole point of an
+internal link.
+
 **Worth noting alongside this:** the same plugin is the most likely source of
 the auto-linked oddities already logged elsewhere — the Wikipedia "purpose" link
 on `/mma-gyms-near-me/` and the "rushing" link to an American-football article
-on `/mixed-martial-arts-near-me/` (issue 10). All three have the signature of
+on `/mixed-martial-arts-near-me/` (issue 10). All of them have the signature of
 a tool matching words without reading the sentence.
 
 **What to do, in order:**
@@ -5370,7 +5537,7 @@ fails if either anchor is tidied up.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 76 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 77 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **78 pages**: the homepage, the 5 program pages and all 72 blog
+live HTML of **79 pages**: the homepage, the 5 program pages and all 73 blog
 posts.
 
 Each issue is tagged:
@@ -22,28 +22,28 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 78 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 78 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 79 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 79 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches, six of them on one question | SEO | 34 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: six on one question, five on Muay Boran | SEO | 35 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
-| 11 | Blurry, upscaled featured images | SEO | 2 | Medium |
+| 11 | Blurry, upscaled featured images, and three sizes on one page | SEO | 3 | Medium |
 | 12 | AI-tool markup pasted into posts: ChatGPT, and now DeepSeek | CONTENT | 4 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
 | 15 | Duplicated headings and captions | SEO, CONTENT | 7 | Low |
 | 16 | Empty headings | SEO | 3 | Low |
-| 17 | Spelling errors, garbled headings and one untranslated Hindi/Urdu word | CONTENT | 30 | Medium |
-| 18 | Image alt text typos and scrambled descriptions | SEO | 9 | Low |
+| 17 | Spelling errors, garbled headings, and a post with "Whether" deleted from five sentences | CONTENT | 31 | Medium |
+| 18 | Image alt text typos and scrambled descriptions | SEO | 10 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
-| 22 | Editing notes and level markers left inside visible headings | CONTENT, SEO | 6 | Medium |
+| 22 | Editing notes, level markers and layout instructions left inside visible headings | CONTENT, SEO | 7 | **High** |
 | 23 | Heading level skipped (H4 with no H3 above it) | SEO | 1 | Low |
 | 24 | Two "Martial Arts Classes" posts, one with a `-2` URL | SEO | 2 | High |
 | 25 | YouTube video that never loads, bare link shown instead | CONTENT | 1 | Medium |
@@ -51,7 +51,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to thirty on one post | SEO | 16 | Medium |
+| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, up to thirty on one post | SEO | 17 | Medium |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
 | 32 | Testimonials that cannot be verified, and one set that clearly can, now on eight pages | CONTENT | 32 | Low — for the client to decide |
 | 33 | The brand name written ten different ways, one in a page title and one in an H2 | CONTENT, SEO | 15 | **High** |
@@ -60,10 +60,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 18 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 19 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 13 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 8 | Low |
-| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has turned a customer review into an advert | SEO, CONTENT | 3 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 9 | Low |
+| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has turned a customer review into an advert | SEO, CONTENT | 4 | **High** |
 | 62 | Unnamed "experts" cited as authority, and four sourceless "he said / they mentioned" attributions | CONTENT (accuracy), SEO | 3 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
@@ -75,12 +75,12 @@ issue 40, which is now sending link equity to a competing gym.
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 | 46 | A whole article section published inside a table caption | CONTENT, SEO, ACCESSIBILITY | 1 | Medium |
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
-| 48 | Pricing sections that name no price, and programs advertised nowhere else | CONTENT (accuracy), TRUST | 9 | **CRITICAL** |
+| 48 | Pricing sections that name no price — until the newest post, which prints three | CONTENT (accuracy), TRUST | 10 | **CRITICAL** |
 | 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 8 | Low |
 | 60 | A whole page advertising a class the homepage says has not launched | CONTENT (accuracy) | 2 | **CRITICAL — client must confirm** |
 | 50 | Ten "near me" pages competing for the same local searches, including four for one discipline | SEO | 10 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
-| 52 | A comparison table advertising against unnamed competitors, now a 13-row one | CONTENT (accuracy) | 2 | **High** |
+| 52 | Comparison tables against competitors — the newest names two local businesses and publishes their prices | CONTENT (accuracy), LEGAL | 3 | **CRITICAL** |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
 | 54 | Subheadings published as bold paragraphs: bullets on one post, numbers on another | SEO, ACCESSIBILITY | 2 | Medium |
 | 55 | Two pages advertising two different discount schemes | CONTENT (accuracy), TRUST | 2 | **High — client must confirm** |
@@ -251,6 +251,7 @@ leftover from drafting and shows on the page.
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
 | `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
 | `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
+| `/muay-boran/` | **The word "Whether" has been deleted from the front of five separate sentences**, each of which is an "X or Y" construction that cannot stand without it: "**you're into martial arts** or just curious these techniques show the depth of muay boran", "**you want to stay fit** or learn to protect yourself muay boran delivers", "**you prefer a defensive approach** or raw power there's something for everyone", "**you're kicking a bag** or practicing grapples it's all about growth", and "**it's mastering strikes** or joining our Coppell community the ride's been eye-opening". The word appears **nowhere on the page**, which rules out a typo and points at a find-and-replace or a truncation in whatever produced the draft. Each one reads as a sentence that starts in the middle. Two paragraphs also run together with no full stop: "our classes stand out with personal **attentionOur** free trial waits" |
 | `/best-self-defense/` | The page's **first H2 has its words the wrong way round**: "**Best self defense for Martial Arts**", where the sentence wants "Best Martial Arts for Self Defense". As written it says the martial arts are being defended against, and it drops into lower case mid-heading ("self defense") while capitalising "Martial Arts" after it. It is the opening section heading of the article, it is in the table of contents, and it is the phrase the page is built to rank for — the H1 two lines above it gets the same words the right way round. One paragraph below also runs two sentences together with no space at the join: "even if they're larger or **stronger.By** mastering these techniques" |
 | `/muay-thai-backpack/` | Section heading "**Mouthguar**" — the final letter is missing from "Mouthguard". It is one of eight parallel gear headings, so the slip sits next to seven correct ones, and it heads the section a reader searching for mouthguards would land on |
 | `/kick-boxing-gloves/`, `/kick-boxing-bag/`, `/kick-boxing-classes/` | "Kick Boxing", "Kick boxing" and "Kickboxing" mixed, sometimes in adjacent headings |
@@ -594,7 +595,7 @@ The weight column has a gap too: A0 ends at 120 lbs and A1 starts at 125 lbs, so
 the weight gap, and consider a note that sizes vary by brand, so readers should
 check the maker's own chart.
 
-### 22. Editing notes and level markers left inside visible headings — CONTENT, SEO — Medium
+### 22. Editing notes, level markers and layout instructions left inside visible headings — CONTENT, SEO — **High**
 
 A heading reads, on the page, **"H2: Picking the Most Suitable Martial Arts
 Class"**. The "H2:" is a formatting note from the draft, meaning "make this a
@@ -659,6 +660,35 @@ rather than a heading, though neither is a leftover instruction.
 Three leftover markers now, on three posts written months apart. The check is
 still one search.
 
+**Two layout instructions from a content brief, published as headings, on one
+page.** `/muay-boran/` carries both of these exactly as written:
+
+> ## Comparing Sixth Sense MMA to Other Gyms **(Use table format)**
+
+> ### Other Regional Variations **(Use bullets)**
+
+These are not editing notes or level markers — they are **instructions to the
+writer about what markup to use**, left in the finished headings. The first is
+an H2, so it is in the page's table of contents and is a candidate for Google's
+sitelinks and jump-to-section results: the phrase "(Use table format)" can
+appear in a search listing.
+
+**What makes these the most telling instances so far:** in both cases **the
+writer followed the instruction**. The section under the first heading is a
+table; the section under the second is a bulleted list. So the brief was read,
+the instruction was carried out, and then the instruction itself was published
+alongside the thing it asked for. Nobody read the page back afterwards.
+
+That makes **four distinct kinds of leaked marker across seven posts**: heading
+level markers ("H2:", twice), a format note ("(Bullet Points)", once), a section
+label ("Call to Action", three times), and now layout instructions ("(Use table
+format)", "(Use bullets)", twice on one page).
+
+**The pattern is now unambiguous: content briefs are being pasted in and
+published without an editing pass.** Every one of these is invisible to a
+spell-checker and obvious to a reader, which is exactly what a five-minute
+read-through before publishing catches.
+
 **"Call to Action:" has happened again.** `/mma-vs-kickboxing-for-self-defense/`
 publishes the identical H2 — same words, same colon, same position as the final
 section before the social block. And `/best-fighting-style-for-self-defense/`
@@ -676,7 +706,14 @@ second one a heading that says what it actually covers. Replace **all three**
 "Call to Action" headings with something a reader would search — "Start Training
 in Coppell", or similar — and drop the trailing colons from "Customer Reviews:"
 and "Benefits:". Search for "call to action" without the colon to catch them
-all.
+all. Delete "(Use table format)" and "(Use bullets)" from the two `/muay-boran/`
+headings; the markup they ask for is already there.
+
+**One search finds all of them.** Query the post content for an opening
+parenthesis or a colon immediately before a closing heading tag, plus the
+literal strings "H2:", "H3:", "Use ", "Bullet" and "Call to Action". It is a
+single pass over the database and it closes this issue permanently — as opposed
+to finding the eighth instance on the next post.
 
 ### 25. YouTube video that never loads, bare link shown instead — CONTENT — Medium
 
@@ -801,6 +838,13 @@ anyone.
 **And a fourth page, `/mma-vs-kickboxing-for-self-defense/`,** carrying the same
 ten as the self-defence post, a **fifth**, `/womens-self-defense-class/`, and a
 **sixth**, `/best-fighting-style-for-self-defense/`, carrying the same ten
+**And the newest post carries none at all, which is worth noting.**
+`/muay-boran/`, published 17 October, is the first post in months with **no
+customer reviews section**. It is also 3,242 words and reads as the most
+professional page on the site. Whatever this set of eleven testimonials is
+doing for the other eight pages, the newest and best-built one does without
+them — which is a useful data point for the client's decision below.
+
 again, a **seventh**, `/best-self-defense/`, and an **eighth**,
 `/top-ten-martial-arts-for-self-defense/`, both of which go back up to eleven.
 Eight pages now publish subsets of one Google review set — 12, 11, 10, 10, 10,
@@ -1643,6 +1687,49 @@ as a rich result.
 The page also names eight other styles — Boxing, Kickboxing, Krav Maga, Karate,
 Judo, Taekwondo, Wrestling and Wing Chun — but those are discussed generically
 rather than offered, so they do not add to this list.
+
+**`/muay-boran/` is the nineteenth, and it is the first to advertise Muay Boran
+as a class of its own.** The three earlier Muay Boran posts treat the art as
+background on Muay Thai. This one gives it a whole H2, "**Our Muay Boran Classes
+at Sixth Sense MMA**", and two H3s under it, and writes in the present tense:
+
+> At Sixth Sense MMA **we've woven this ancient martial art into our lineup**
+> blending it with the striking power of muay thai for a full-body experience.
+
+> Beginners **start with intro classes** that cover basic muay boran techniques
+> like simple strikes and footwork. **Intermediate groups** ramp up with partner
+> drills and light sparring. **Advanced sessions** go deeper into styles like
+> muay chaiya. **Kids get age-tailored options** too.
+
+> **Drop in anytime our schedule runs daily** and a free trial lets you test the
+> waters.
+
+That is a four-tier programme — beginner, intermediate, advanced, kids — with a
+daily timetable, for a discipline that has **no programme page** and is not one
+of the gym's five listed programmes. The competitor table (issue 52) doubles
+down, giving "Muay Boran Focus" its own row and claiming a "**strong emphasis on
+traditional techniques like chaiya style**" against two named rivals.
+
+**It also advertises a class structure the gym may not run.** Beginner,
+intermediate and advanced streams are a specific operational claim: a parent
+reading this expects to be told which of the three their teenager joins.
+
+**On the other side of the ledger, this page does something no other page has
+done: it names its coaches.**
+
+> Lead instructor **Matheus Galvao** has years under his belt breaking down
+> complex grapples into easy steps for all ages. **Anthony Wikstrom** handles
+> the striking side drawing from muay thai roots.
+
+Two named people with described specialisms. After eighteen pages of "our
+expert instructors" and "certified coaches" with nobody behind them (issue 62),
+this is exactly the evidence the other pages were missing — and the head coach's
+name matches the one in the Google reviews republished across eight other posts.
+**Put these two names, with their credentials, on the programme pages.** It is
+the cheapest credibility the site can buy, and the copy already exists.
+
+Note also that this page claims **no certification and no award** — a marked
+improvement on the page before it.
 
 **`/top-ten-martial-arts-for-self-defense/` is the eighteenth, and it is the
 most exposed page on the site for this issue.** It makes four separate kinds of
@@ -2612,6 +2699,46 @@ beginner turns up relying on. No other page on the site says it.
 section that answers nothing; the seventh does not have one at all. See issue 56
 for what that inconsistency does to the set as a whole.
 
+#### The tenth page finally prints a price — three of them, and two belong to other businesses: `/muay-boran/`
+
+After nine pages that raise pricing and state none, `/muay-boran/` publishes
+real figures:
+
+> **$120/month unlimited**
+
+That is the first monthly rate published anywhere on this site, and it should be
+said plainly: **this is the fix working.** It is specific, it is scannable, and
+it answers the question every one of the nine pages below dodges.
+
+**Three things are wrong with where it landed.**
+
+1. **It is in a competitor comparison table, not a pricing section.** The page
+   has no pricing heading at all. A reader looking for what a class costs has to
+   find it inside a five-row table comparing the gym with two others.
+2. **Two of the three prices are other businesses'** — $130/month attributed to
+   Championship Martial Arts and $110/month to FUEL MMA, both named. That is
+   issue 52, and it is now CRITICAL.
+3. **It is on one page out of seventy-three.** The five programme pages, which
+   are where somebody decides to book, still publish nothing.
+
+**And the schedule is still missing.** This page advertises Muay Boran classes
+with "our schedule runs daily", devotes a whole H3 to "**Class Quality and
+Schedule**", and states no day and no time:
+
+> Schedules run smooth too with **slots from early mornings for busy parents to
+> late nights for shift workers**.
+
+The table's "Weekly Schedule" row says "Daily options mornings to evenings". So
+after seventy-three posts, **no page on this site has ever published a class
+time.** The page even criticises the competitors' timetables — "Championship's
+evening-heavy lineup", "FUEL's weekend bursts" — which requires knowing their
+schedules while publishing none of its own.
+
+**What to do:** take the $120/month figure out of the comparison table, put it
+on the five programme pages with the actual timetable beside it, and remove the
+two competitor prices entirely. The number exists and somebody knows it; it is
+currently published in the one place it does the least good and the most harm.
+
 #### The ninth page has two pricing headings and a sentence with the price cut out of it: `/top-ten-martial-arts-for-self-defense/`
 
 This one goes further than the eight below. It publishes **two** headed pricing
@@ -3158,6 +3285,54 @@ Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
 
+**Twenty-two well-chosen tags on `/muay-boran/`, and the local signal finally
+lands in the body copy.** The tag set:
+
+> ancient martial art · combat techniques · elbow strikes · flying knees ·
+> grappling and throws · **krabi krabong** · martial art styles · Martial Arts
+> Training · muay boran · muay boran history · muay boran techniques · muay
+> boran vs muay thai · **muay chaiya** · **muay korat** · Muay Thai · physical
+> fitness · Self Defense · thai boxing · thai culture · thai martial arts ·
+> thai military training · traditional thai fighting
+
+No zero-width spaces, no section titles, no misspellings, no duplicates, and
+every one is genuinely about the subject of the page — the most *relevant* set
+on the site, as distinct from the most local. **Not one names Coppell**, which
+on a topic page is a defensible choice.
+
+**Four target disciplines the gym does not teach.** "**krabi krabong**" is a
+Thai weapons art — swords and staves — with no programme page and no mention of
+it being taught; "**muay chaiya**" and "**muay korat**" are regional Muay Boran
+styles the page describes but does not offer as classes; and "**muay boran**"
+itself is the subject of issue 39's newest entry. Krabi Krabong is the one to
+remove: anyone searching it is looking for weapons training, which this gym does
+not provide in any form.
+
+**The body copy, though, is the best on the site for local signal.**
+`/muay-boran/` names Coppell **five times**, all of them in the article's own
+voice, and it publishes a **complete NAP block** in the "Contact Sixth Sense MMA
+to Start Muay Boran Today" section:
+
+> **Located at 817 S MacArthur Blvd #100, Coppell, TX 75019**, we're just a step
+> away. **Ring us up at 469-972-7800** or shoot an email to
+> info@sixthsensemma.com
+
+Name, address and phone, in the body, in text, on a blog post. That is what a
+local landing page is supposed to do and it is the first time any post on this
+site has done it. Three of the other four mentions are woven into the copy
+naturally — "right here in Coppell", "We're right in Coppell easy to reach",
+"Shopping around for a muay boran spot in Coppell?" — rather than bolted on.
+
+**Two notes on it.** The displayed phone number is the **correct** one,
+469-972-7800, even though the site-wide tap-to-call link on the same page still
+carries the wrong area code (issue 2) — so the right number is in the copy and
+the wrong one is in the link, on the same page. And the address is not marked up
+as structured data, so the block reads to a human but not to a crawler; adding
+`LocalBusiness` schema to it costs nothing.
+
+**This is the model.** Whichever pages survive the consolidations in issues 7,
+50 and 57 should carry this block.
+
 **Thirty tags on `/top-ten-martial-arts-for-self-defense/` — the largest set on
 the site, and the most local.** Twenty-four of the thirty name Coppell:
 
@@ -3497,7 +3672,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches, six of them on one question — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: six on one question, five on Muay Boran — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -3660,7 +3835,7 @@ others should carry the cluster instead.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
-| **Muay Boran (five posts)** | `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` · `/mae-mai-muay-thai-what-is-it/` |
+| **Muay Boran (SIX posts, confirmed)** | `/muay-boran/` · `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` · `/mae-mai-muay-thai-what-is-it/` — see below |
 
 **There are now three Muay Boran posts, and the overlap has become a cluster —
 raised to MEDIUM.** When this entry was written there were two. The third,
@@ -3678,6 +3853,46 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### And now a sixth, with the slug the whole cluster should have had — raised to **CRITICAL**
+
+`/muay-boran/` was published on 17 October 2025, three months after the fifth.
+It is 3,242 words, it has the cleanest slug on the site, and it covers **every
+subject the other five cover**:
+
+| Covered by | `/muay-boran/` | the other five |
+|---|---|---|
+| What Muay Boran is | H2 "What Is Muay Boran?" | all five |
+| History and origins | two H2s and four H3s | `/muay-thai-muay-boran/`, `/are-there-multiple-styles-of-muay-boran/` |
+| Muay Boran vs Muay Thai | H2 plus two H3s | three of the five |
+| The regional styles | H2 "Styles Within Muay Boran", with Chaiya and Korat sections | `/are-there-multiple-styles-of-muay-boran/`, `/muay-chaiya/` |
+| Named techniques | two numbered lists | `/10-muay-boran-techniques/`, `/mae-mai-muay-thai-what-is-it/` |
+
+**It links three of the five it is competing with** — `/muay-thai-muay-boran/`,
+`/are-there-multiple-styles-of-muay-boran/` and `/10-muay-boran-techniques/` —
+which is the same pattern as the self-defence cluster above and the BJJ cluster
+at issue 57: the newest page cites its own rivals as sources.
+
+**Six URLs for one query on a site this size is the clearest cannibalisation
+case in this document.** "Muay boran" is not a high-volume search; splitting it
+six ways guarantees none of them accumulates authority, and the gym's internal
+links are now scattered across all six.
+
+**What to do: keep `/muay-boran/` and 301 the other five into it.**
+
+The slug is the exact keyword and the shortest on the site. The scope is the
+broadest. The structure is the best — thirteen H2s covering the full subject
+where the others each take one slice. Before it can be the keeper it needs three
+fixes, all logged elsewhere: the two leaked editorial instructions in its
+headings (issue 22), the named-competitor table (issue 52), and the five
+sentences missing the word "Whether" (issue 17).
+
+Merge in what is genuinely unique from the others first: the **fifteen Mae Mai
+techniques** from `/mae-mai-muay-thai-what-is-it/` and the **depth on Chaiya**
+from `/muay-chaiya/`. Everything in the remaining three is already here.
+
+That takes six URLs to one. It supersedes the "five become three" plan below,
+which was written before this page existed.
 
 **A fifth: `/mae-mai-muay-thai-what-is-it/`.** Mae Mai already has a section of
 its own on `/10-muay-boran-techniques/` — the H3 "Mae Mai : Basic, powerful
@@ -3905,6 +4120,18 @@ the large declared size misleads the browser.
 A full 800×500 version of the Muay Thai Stance image exists on the server; the
 page just isn't using it.
 
+**The opposite problem on `/muay-boran/`: three different sizes on one page.**
+Its three images are **1200×628**, **1280×720** and **1024×536** — three widths
+and two different aspect ratios, in one article. The first two are uploaded with
+no size suffix at all, so the theme serves the full-resolution file and renders
+it at the container width; the third uses WordPress's 1024px derivative like
+every other post on the site.
+
+Nothing is blurry here — if anything the first two are larger than they need to
+be, at 112 KB and 150 KB — but the page steps between three shapes as a reader
+scrolls, and the 1280×720 one is the only 16:9 image in the project. The fix is
+to settle on one size, 1024×536, and re-crop the other two to match.
+
 ### 15. Duplicated headings — SEO, CONTENT — Low
 
 **The same H3 published twice on `/best-fighting-style-for-self-defense/`:**
@@ -4061,6 +4288,18 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**The clearest example yet, on `/muay-boran/`.** The second image's alt text is:
+
+```
+MuMuay Thai and Muay Boran Differencesay Thai and Muay Boran Differences
+```
+
+The intended text, "Muay Thai and Muay Boran Differences", has been pasted into
+the middle of itself after the first two characters. A screen reader announces
+the whole string. It is the kind of slip that happens when text is
+double-pasted into a field without looking at it, and it sits on the newest post
+on the site.
 
 Three images are described as "**marble** arts for kids" instead of "martial
 arts for kids". Alt text is read by screen readers and used by image search.
@@ -4778,7 +5017,7 @@ classes Coppell") in their place.
 **In the rebuild:** no tag section is published on any post, so none of the three
 appears anywhere in the rebuilt site.
 
-### 52. Comparison tables advertising against unnamed competitors — CONTENT (accuracy) — **High**
+### 52. Comparison tables against competitors, one of which names two real local businesses and publishes their prices — CONTENT (accuracy), LEGAL — **CRITICAL**
 
 `/fight-training-near-me/` publishes a ten-row table headed "Comparison Table:
 SixthSense MMA vs. Typical Gyms". Every row makes a claim about the client and a
@@ -4816,6 +5055,66 @@ competitors are identifiable in practice even though none is named.
 There is also an internal contradiction: the "Lifestyle Fit" row promises
 "Flexible plans suitable for real lifestyles" on a page that publishes no plans
 and no prices (issue 48).
+
+#### The third table names the competitors. Read this one first. — **CRITICAL**
+
+The two tables described below hedge behind "Typical Gym" and "Other Providers".
+`/muay-boran/`, published 17 October 2025, does not. Its columns are:
+
+| Feature | Sixth Sense MMA | **Championship Martial Arts** | **FUEL MMA** |
+|---|---|---|---|
+| Muay Boran Focus | Strong emphasis on traditional techniques like chaiya style | **Mostly taekwondo and karate light on striking arts** | **Broad MMA with some muay thai no specific boran** |
+| Class Sizes | Small groups 8-12 per session | **Larger up to 20 students** | **Mid-sized 10-15 typical** |
+| Weekly Schedule | Daily options mornings to evenings | **Weekday evenings mostly** | **Evenings and weekends focused** |
+| Facility Highlights | Clean L-shaped mats privacy areas next to coffee shop | **Spacious with showers family-oriented setup** | **Basic mats and bags self-defense emphasis** |
+| Pricing Starting Point | $120/month unlimited | **$130/month for kids/adults** | **$110/month entry level** |
+
+**Two named, identifiable local businesses**, and the page publishes what it
+says are their curricula, their class sizes, their timetables, their facilities
+and **their monthly prices**. Both are named again in the paragraph above the
+table: "Other spots like **Championship Martial Arts** or **FUEL MMA** have
+their strengths but they lean heavier on taekwondo or general MMA."
+
+**The page states its own source, and the source is hearsay.** The sentence
+introducing the table reads:
+
+> Here's a quick side-by-side on key stuff **pulled from what folks say online
+> and around town**.
+
+That is the site telling its readers, in writing, that the factual claims it is
+about to make about two named competitors' prices and class sizes are
+second-hand talk. If either business disputes any cell, that sentence is the
+first thing they will quote back.
+
+**Why this is CRITICAL where the other two tables are not.**
+
+- **Named comparative advertising has to be substantiated**, claim by claim, by
+  the advertiser. "Typical Gym" is rhetoric. "Championship Martial Arts charges
+  $130/month and puts 20 students in a class" is a statement of fact about a
+  named business, and the burden of proving it sits here.
+- **Prices change.** Even if all three figures were right the day they were
+  written, they will not stay right, and an out-of-date price published about a
+  competitor is a straightforward accuracy problem with a named party attached.
+- **The table undercuts its own argument.** FUEL MMA is listed at **$110/month
+  against Sixth Sense's $120**. The one row a price-sensitive reader scans puts
+  the client second. Whatever the legal position, this row does not sell.
+- **It is the only page on the site with a price at all** (issue 48), and the
+  price arrives inside a competitor comparison rather than on a programme page.
+
+**What to do, in order and quickly:**
+
+1. **Remove the two competitor names and the two competitor price cells today.**
+   The rest can wait; these cannot.
+2. **Delete the "pulled from what folks say online and around town" sentence.**
+   It converts an ordinary marketing table into an admission.
+3. Rebuild the table as a description of Sixth Sense only — the left column is
+   strong on its own, and "Small groups 8-12 per session, $120/month unlimited,
+   daily options mornings to evenings" is a better advert than any comparison.
+4. Then apply the same treatment to the two tables below.
+
+**In the rebuild:** every cell is reproduced exactly as published, competitor
+names and prices included, because softening a live legal exposure would hide
+it. The build fails if any cell is altered.
 
 **A second table, thirteen rows, and it names the competitor type more
 specifically.** `/top-ten-martial-arts-for-self-defense/` publishes a table
@@ -5342,7 +5641,12 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on eight pages**, the newest being `/top-ten-martial-arts-for-self-defense/`,
+**Now on nine pages**, the newest being `/muay-boran/`, which carries the same
+heading, the same paragraph and the same single Facebook button as the eight
+before it — with the same internal link inside it as the eighth. The copies have
+stopped drifting and simply propagate now.
+
+And `/top-ten-martial-arts-for-self-defense/`,
 where the block's single paragraph has picked up an internal link the other seven
 do not have — "a closer look at our [self defense](…/different-types-of-martial-arts/)
 community". So the copies have started to drift after all, which is the argument
@@ -5742,6 +6046,13 @@ the anchor four characters early, twice on one page.
   same off-by-a-few-characters bug could be sitting in any post the plugin has
   touched.
 
+**A fourth page.** `/muay-boran/` carries five `data-wpil-monitor-id` links and
+three of them run long again — "Muay thai boran faded as a battlefield art",
+"styles shape martial art skills but muay boran", "know muay boran isn't just
+one style". Each swallows most of a clause. And **three of the five point at the
+other posts in this page's own duplication cluster** (issue 7), which is the
+plugin actively reinforcing the cannibalisation rather than resolving it.
+
 **A third page, and the plugin has now linked a customer's review.** On
 `/top-ten-martial-arts-for-self-defense/`, FunDadMo's Google review is published
 with the second half of it wrapped in an advertisement link:
@@ -5995,7 +6306,7 @@ a one-off.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 78 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 79 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

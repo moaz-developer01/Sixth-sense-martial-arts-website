@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **81 pages**: the homepage, the 5 program pages and all 75 blog
+live HTML of **82 pages**: the homepage, the 5 program pages and all 76 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 81 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 81 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 82 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 82 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, three on "martial arts near me" | SEO | 37 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, four on belt ranks | SEO | 38 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -39,7 +39,7 @@ issue 40, which is now sending link equity to a competing gym.
 | 15 | Duplicated headings and captions | SEO, CONTENT | 7 | Low |
 | 16 | Empty headings | SEO | 3 | Low |
 | 17 | Spelling errors, garbled headings, and three posts with the opening conjunction deleted from sentences | CONTENT | 33 | Medium |
-| 18 | Image alt text typos and scrambled descriptions | SEO | 10 | Low |
+| 18 | Image alt text typos, scrambled descriptions, and the brand run together in lower case | SEO | 11 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
@@ -53,8 +53,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
 | 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, and tags for arts the gym does not teach | SEO | 19 | Medium |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on two posts | CONTENT | 34 | Low — for the client to decide |
-| 33 | The brand name written ten different ways, and the head coach's name two ways on one page | CONTENT, SEO | 16 | **High** |
+| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on three posts | CONTENT | 35 | Low — for the client to decide |
+| 33 | The brand name written eleven different ways, including in image alt text | CONTENT, SEO | 17 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
@@ -62,8 +62,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 21 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, and inside one page | CONTENT, SEO | 13 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 11 | Low |
-| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has turned a customer review into an advert | SEO, CONTENT | 6 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 12 | Low |
+| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has now linked two customer reviews | SEO, CONTENT | 7 | **High** |
 | 62 | Unnamed "experts" cited as authority, sourceless attributions, and "certified instructors" asserted eight times on one page | CONTENT (accuracy), SEO | 4 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
@@ -92,8 +92,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 68 | A published URL that misspells its own keyword | SEO | 1 | Medium |
 | 69 | A minimum age that contradicts the gym's own programme, its own page and its own tags | CONTENT (accuracy) | 1 | **High** |
 | 70 | An AI generation timestamp published in the article body | CONTENT | 1 | **High** |
+| 71 | A local-intent page whose H1 and tags omit the city entirely, and a city name lower-cased in the title | SEO | 1 | Medium |
+| 72 | Belt-rank timeframes that describe years of training where the real criteria are age-based | CONTENT (accuracy) | 1 | Medium — to verify |
 
-**70 issues in total.**
+**72 issues in total.**
 
 ---
 
@@ -544,6 +546,12 @@ public copy misspells its own head coach's name, in the same article where five
 customers spell it correctly, has the same absence of a style sheet that
 produced the ten brand variants. **Add both to the same check.**
 
+**An eleventh form, in image alt text.** `/bjj-belt-ranks-in-coppell/` publishes
+two images whose alt text ends "**by sixthsense mma**" — run together, all lower
+case. See issue 18 for the detail. Eleven spellings across seventeen pages, and
+this is the first one in an attribute rather than visible text, which means a
+spell-check of the content would never find it.
+
 **A tenth form, in an H2, and it is the worst-formed one yet.**
 `/top-ten-martial-arts-for-self-defense/` publishes this as a section heading:
 
@@ -874,6 +882,21 @@ It reads better here than the eleven would have, because four of the five name
 the coach and this page's whole argument is about instruction quality. But the
 same caveat applies: **no source, no date, no link to the Google Business
 Profile they came from.**
+
+**The second set is now on three pages, and the third one publishes it with
+inconsistent markup.** `/bjj-belt-ranks-in-coppell/` carries the same five
+reviews in the same order, but **four of the five are wrapped in a
+`<blockquote>` and the fifth, Kaivan Askari's, is a plain paragraph.** On the
+page the fifth review loses the indent and styling the other four get, so it
+reads as body copy rather than as a quotation.
+
+It also carries the auto-linker damage described at issue 64: Stacie Arce's
+review now contains a link she did not write.
+
+**Three outings for this set in three weeks.** The practice logged below has not
+changed — the same reviews re-cut page by page, with no source, no date and no
+link to the Google Business Profile they came from. The only thing that changed
+is which five.
 
 **A second, completely different review set appears on the newest post — and it
 is better than the one on the other eight.** `/martial-arts-for-kids-strenght/`
@@ -3932,7 +3955,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, three on "martial arts near me" — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: six on one question, six on Muay Boran, four on belt ranks — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -3940,7 +3963,7 @@ Google then has to pick one and ranks all of them weaker.
 | Topic | Competing pages |
 |---|---|
 | **Best martial art for self-defence (confirmed, SIX pages)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` — see below |
-| BJJ belts and rank progression | `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` |
+| **BJJ belts and rank progression (confirmed, FOUR pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
@@ -4114,6 +4137,46 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
+
+Four pages now explain BJJ belt progression:
+
+| Page | Published | Slug carries a local term? |
+|---|---|---|
+| `/martial-arts-belt-levels/` | 2025-02-22 | no |
+| `/brazilian-jiu-jitsu-belts/` | 2025-03-06 | no |
+| `/brazilian-jiu-jitsu-belt-ranks/` | 2025-03-28 | no |
+| `/bjj-belt-ranks-in-coppell/` | 2025-10-18 | **yes** |
+
+**There is one belt system and it has not changed.** White, blue, purple, brown,
+black, coral, red is the same sequence on all four pages. Unlike the self-defence
+sextet, where the pages at least ask the question in different words, these
+cover an identical, finite, factual subject four times.
+
+**The newest page links one of the other three twice.** `/bjj-belt-ranks-in-coppell/`
+points at `/brazilian-jiu-jitsu-belts/` from two separate anchors — once in the
+opening section and once from inside a customer review (issue 64). Two of its
+nine internal links go to a page it is competing with.
+
+**This one is the natural keeper, with one condition.** It is the only one of the
+four with a local slug, and local intent is the only commercial reason this gym
+needs a belt page at all: "bjj belt ranks" is an informational query answered
+better by larger sites, while "bjj belt ranks in Coppell" is a query only this
+business can win. But as published the page does not earn the slug — **its H1 and
+all six of its tags omit Coppell entirely** (issue 71), and its only mention of
+the town is the address in the contact block.
+
+**What to do: fix the H1, then 301 the other three into it.**
+
+1. Change the H1 to include Coppell — one edit, logged at issue 71.
+2. Merge anything unique from the other three. `/martial-arts-belt-levels/` covers
+   belts beyond BJJ, so if the client wants a general martial-arts belt page that
+   is the one to keep as a second page; otherwise it folds in too.
+3. 301 the retired URLs. They carry between them eight months of history, which
+   is why redirecting beats deleting.
+4. Check the belt timeframes on the survivor against issue 72 before it becomes
+   the canonical answer.
 
 #### The kids pair: two posts, one keyword, one audience — **CRITICAL**
 
@@ -4578,6 +4641,24 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**And the brand run together in lower case, on `/bjj-belt-ranks-in-coppell/`.**
+Two of its three images append the business name to the alt text like this:
+
+```
+bjj belt ranks by sixthsense mma
+Kids BJJ Belt System by sixthsense mma
+```
+
+"**sixthsense mma**" — run together and entirely lower case. It is an eleventh
+spelling of the brand (issue 33) and the first to appear in alt text, which is
+what a screen reader announces and what Google reads for image search. The third
+image on the same page gets it right, "BJJ Classes at Sixth Sense MMA", so the
+page is inconsistent with itself.
+
+Appending the business name to alt text adds nothing in the first place — the
+image is already on the business's own site — so the fix is to delete the suffix
+rather than correct it.
 
 **The clearest example yet, on `/muay-boran/`.** The second image's alt text is:
 
@@ -6018,7 +6099,10 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on eleven pages.** `/martial-arts-near-me-classes/` carries the eleventh,
+**Now on twelve pages.** `/bjj-belt-ranks-in-coppell/` carries the twelfth,
+identical again.
+
+`/martial-arts-near-me-classes/` carries the eleventh,
 identical again.
 
 `/martial-arts-for-kids-strenght/` carries the tenth copy,
@@ -6483,6 +6567,37 @@ one style". Each swallows most of a clause. And **three of the five point at the
 other posts in this page's own duplication cluster** (issue 7), which is the
 plugin actively reinforcing the cannibalisation rather than resolving it.
 
+**A seventh page, and it does both of the plugin's worst tricks at once.** On
+`/bjj-belt-ranks-in-coppell/`:
+
+**It cuts a word in half again.** The Conclusion reads:
+
+```html
+<a href="…/kick-boxing-bag/" data-wpil-monitor-id="113">kick off your own story
+in this awesome mart</a>ial art
+```
+
+The anchor ends on "**mart**", leaving "ial art" outside the link — the identical
+failure logged at the top of this issue, eight months later and still happening.
+The destination is also wrong in the way issue 10 describes: an article about
+**kickboxing bags**, linked from a sentence about starting Brazilian Jiu-Jitsu,
+apparently matched on the words "kick off".
+
+**And it has linked a second customer's review.** Stacie Arce's testimonial is
+published with three of its words turned into an advertisement:
+
+```html
+"My son has been coming since December and grown so much. Coach Matheus is a
+<a href="…/brazilian-jiu-jitsu-belts/" data-wpil-monitor-id="118">jiu jitsu
+master</a> from Brazil but more important than that, he is a skilled coach."
+```
+
+That is the second named customer whose words now carry a link they did not
+write, after FunDadMo below. **Two reviews, two pages, same plugin.** It is also
+pointing at one of the three belt posts this page duplicates (issue 7), so the
+plugin is simultaneously editing a testimonial and reinforcing a cannibalisation
+cluster.
+
 **A third page, and the plugin has now linked a customer's review.** On
 `/top-ten-martial-arts-for-self-defense/`, FunDadMo's Google review is published
 with the second half of it wrapped in an advertisement link:
@@ -6892,11 +7007,122 @@ published without an editing pass"; this is the first item that **proves** it.
 **In the rebuild:** the sentence is reproduced exactly, timestamp and all, and
 the build fails if it is quietly removed or updated.
 
+### 71. A local-intent page whose H1 and tags omit the city entirely, and a city name lower-cased in the title — SEO — Medium
+
+`/bjj-belt-ranks-in-coppell/` is built to rank for a local phrase. The slug says
+so, the `<title>` says so, the meta description says so. Then the page itself
+drops the town.
+
+| Element | What it says | Coppell? |
+|---|---|---|
+| Slug | `/bjj-belt-ranks-in-coppell/` | **yes** |
+| `<title>` | "Choosing the right class based on bjj belt ranks in **coppell**" | yes, lower case |
+| Meta description | "bjj belt ranks in Coppell and how progression works" | **yes** |
+| **H1** | "BJJ Belt Ranks: A Look at the Brazilian Jiu-Jitsu Ranking System" | **no** |
+| **All six tags** | belt ranking system in bjj · bjj belt levels · bjj ranks · brazilian jiu jitsu belt order · brazilian jiu jitsu belt rankings · brazilian jiu jitsu belts | **none** |
+| Body copy | one mention, in the Contact Us address block | once, in the footer-style block |
+
+**The H1 is the problem.** After the title tag it is the strongest on-page
+signal about what a page is for, and this one reads as a general reference
+article on the BJJ ranking system — which is what it is. A reader who searched
+"bjj belt ranks in coppell" lands on a page that never tells them it is about
+Coppell until the contact details at the bottom.
+
+**The lower-case "coppell" in the title is a separate, smaller fault.** The
+`<title>` is the blue link in the search result. "bjj belt ranks in coppell",
+all lower case including the proper noun, reads as unfinished. It is the second
+title-case fault logged, after the lower-case brand on
+`/best-fighting-style-for-self-defense/` (issue 33).
+
+**And the meta description runs two words together.** The live tag reads:
+
+> Learn everything about bjj belt ranks in **coppelland** how progression works
+
+"Coppell" and "and" with the space deleted — the same class of error as the
+"stronger.By" and "attentionOur" run-ons at issue 17, but in the one element
+Google quotes verbatim under the title.
+
+**What to do, in order of value:**
+
+1. **Put the town in the H1**: "BJJ Belt Ranks in Coppell: A Look at the
+   Brazilian Jiu-Jitsu Ranking System". One edit, and it is the edit that makes
+   the slug honest.
+2. **Fix "coppelland"** in the meta description and capitalise "Coppell" in the
+   title.
+3. **Add two local tags** — "bjj belt ranks Coppell", "bjj classes Coppell TX" —
+   and work one Coppell mention into the opening paragraph, as issue 30
+   recommends for the whole site.
+
+The pattern across the recent posts is now clear and inconsistent: `/muay-boran/`
+names Coppell five times in its own copy, `/martial-arts-for-kids-strenght/`
+four, and the two newest — `/martial-arts-near-me-classes/` and this one — once
+each, in the contact block only. The local signal is being applied by whoever
+happens to write the post rather than by rule.
+
+---
+
+### 72. Belt-rank timeframes that describe years of training where the real criteria are age-based — CONTENT (accuracy) — Medium, to verify
+
+`/bjj-belt-ranks-in-coppell/` publishes seven timeframes. They are the whole
+point of the page: a reader researching belt ranks is researching how long it
+takes.
+
+| Rank | What the page says |
+|---|---|
+| White → blue | "might take **2-3 years** depending on practice" |
+| Purple | "often follows after another **2-4 years**" |
+| Brown | "could be **5-6 years from blue**" |
+| Black | "takes around **10 years total**" / "comes after about **10 years** for most" |
+| **Coral** | "given to those with **50 years or more of training**" |
+| **Red** | "awarded after **60-70 years**" |
+
+**The first four are sound.** 2-3 years to blue, roughly a decade to black, and
+the intermediate steps are consistent with each other and with how the belt
+system actually works. Nothing here needs changing, and it is worth saying so —
+this is the most accurate set of figures published anywhere on the site.
+
+**The coral and red figures need checking, because they measure the wrong
+thing.** Under the IBJJF graduation system, the senior ranks are gated primarily
+by **age**, not by years on the mat:
+
+- **7th degree (coral)** requires the practitioner to be **50 years old**, after
+  a set period at black belt.
+- **9th degree (red)** requires the practitioner to be **67 years old**.
+
+The page converts those into training durations — "50 years or more **of
+training**", "awarded after **60-70 years**" — which is a different and much
+larger claim. Someone who began at 20 and has trained 50 years is 70, well past
+the coral threshold. Read literally, the page tells a 50-year-old black belt
+they have another two decades to go when the real criterion may already be met.
+
+**Why Medium rather than High.** Almost nobody reading this page is close to a
+coral belt, so the practical harm is small. But it is a page whose entire
+purpose is to state these numbers, and the FAQ repeats the coral figure inside
+`FAQPage` structured data, where Google may surface it as a direct answer:
+
+> The coral belt is a special rank awarded to lifelong practitioners with **over
+> 50 years of training**.
+
+A knowledgeable reader — which, on a belt-ranks page, is much of the audience —
+will spot it, and it is the kind of error that costs a school credibility with
+exactly the people it wants to recruit.
+
+**What to do:** have the head coach check all seven figures, then restate the
+coral and red lines in terms of **age plus time at black belt**, which is how
+the IBJJF defines them. Keep the first four as they are. And correct the FAQ
+answer, since that is the version most likely to be quoted.
+
+**One structural note on the same page.** It runs 3,024 words on a subject that
+is a sequence of seven ranks and contains **no list markup at all** — not one
+`<ul>`, `<ol>` or `<li>`. A belt-order page without a belt-order list is a
+missed opportunity both for the reader skimming for the sequence and for the
+structured data a ranked list can carry.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 81 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 82 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

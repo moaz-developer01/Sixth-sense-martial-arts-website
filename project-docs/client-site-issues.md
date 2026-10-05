@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **84 pages**: the homepage, the 5 program pages and all 78 blog
+live HTML of **85 pages**: the homepage, the 5 program pages and all 79 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 84 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 84 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 85 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 85 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on muay thai gear | SEO | 40 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on gear, two on Sambo | SEO | 41 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -36,9 +36,9 @@ issue 40, which is now sending link equity to a competing gym.
 | 12 | AI-tool markup pasted into posts: ChatGPT, and now DeepSeek | CONTENT | 4 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
-| 15 | Duplicated and near-identical headings and captions | SEO, CONTENT | 8 | Medium |
+| 15 | Duplicated and near-identical headings and captions | SEO, CONTENT | 9 | Medium |
 | 16 | Empty headings | SEO | 3 | Low |
-| 17 | Spelling errors, garbled headings, keyword-crammed headings and deleted punctuation | CONTENT | 34 | Medium |
+| 17 | Spelling errors, garbled headings, keyword-crammed headings and the opening conjunction deleted 21 times | CONTENT | 35 | **High** |
 | 18 | Image alt text typos, scrambled descriptions, the brand run together, and trailing whitespace | SEO | 12 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
@@ -52,19 +52,19 @@ issue 40, which is now sending link equity to a competing gym.
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
 | 30 | Bad tags: zero-width spaces, misspellings, tags for arts the gym does not teach, and six tags about the wrong subject | SEO | 20 | **High** |
-| 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on five posts | CONTENT | 37 | Low — for the client to decide |
+| 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 7 | **High — liability** |
+| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on six posts | CONTENT | 38 | Low — for the client to decide |
 | 33 | The brand name written eleven different ways, and the head coach's name two ways across five posts | CONTENT, SEO | 18 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
 | 37 | Two paragraphs run together, and a Muay Thai post that closes about MMA | CONTENT | 1 | Low |
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
-| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 22 | **High — client must confirm** |
+| 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have, including a Sambo academy | CONTENT (accuracy, trademark) | 23 | **CRITICAL — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, inside one page, and inside one tag list | CONTENT, SEO | 14 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 14 | Low |
-| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has now linked the same review on five pages | SEO, CONTENT | 9 | **High** |
-| 62 | Unnamed "experts" cited as authority, sourceless attributions, and "certified instructors" asserted eight times on one page | CONTENT (accuracy), SEO | 4 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 15 | Low |
+| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has now linked the same review on six pages | SEO, CONTENT | 10 | **High** |
+| 62 | Unnamed "experts" cited as authority, sourceless attributions, and unspecified "studies" credited to a federation | CONTENT (accuracy), SEO | 5 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
 | 40 | Invisible ChatGPT citation links, one to a competing gym | SEO, ACCESSIBILITY, CONTENT | 6 posts, 19 links | **CRITICAL** |
@@ -259,6 +259,7 @@ leftover from drafting and shows on the page.
 | `/is-tai-chi-a-martial-art/` | The same separator loss, four more times: "Tai Chi Basics A Deeper Look Into the Practice" and "Competitive Tai Chi Is It Also a Sport?" each keep a non-breaking space plus a space where a colon was deleted, while "Where Tai Chi Comes From A Look at Its Origins" and "Different Styles of Tai Chi From Chen to Sun" have nothing at all. A sub-heading reads "Effectiveness in practical combat **scenario**", missing its plural. One H2 begins with a telephone emoji, "**📞**Ready to Take a Martial Approach to Learning Tai Chi?", and another lowercases its own subject, "Can older persons and children do **tai chi**?" |
 | `/is-wrestling-a-martial-art/` | Four headings on one post lost their punctuation. "Core Traits of Martial Arts **(**Discipline, Defense, Philosophy" opens a bracket and never closes it. "Rules Techniques and Objectives" has lost both commas. "Wrestling vs Martial Arts The Comparison" and "Wrestling vs Sambo Technical Comparison" each have a space followed by a **non-breaking space** where a dash or colon was deleted, so they read as a double gap on screen — the same deletion pattern as `/jiu-jitsu-guard-position/` above, which suggests a find-and-replace that stripped separators across several posts |
 | `/muay-thai-fighting-stance/` | Two sentences run on with no punctuation at the join: "helping students master the art of Muay Thai **With** a strong focus on fundamentals especially the Muay Thai fighting stance **we** provide structured, high-quality training" (two missing commas or full stops in one sentence), and "Click the button below to contact us directly **let's** talk training" |
+| `/sambo-techniques/` | **The dropped opening conjunction, thirteen times on one page — the largest concentration in the project.** Every instance is an "X or Y" construction missing its "Whether": "**You are** into MMA judo or just curious about combat sports sambo's practical approach grabs attention", "**You are** training at a sambo academy or watching sambo events the focus is on skills that work in real life", "**You are** using a hip throw or submission techniques you adjust to the situation", "Ground control is key **You are** aiming for a pin in sport sambo or a quick submission in military sambo", "**You are** a beginner or seasoned sambo training pushes your body to new levels", "**You are** eyeing sport sambo or combat sambo here's why it's a great pick", "**You are** new or seasoned they craft custom plans to match your pace", "Their approach builds confidence **You are** aiming for a local match or just want solid self-defense skills", "**You are** into freestyle sambo or eyeing world championships the support system pushes you to improve", "You'll feel at home **You are** rolling on mats or chatting post-class", "**You are** mastering hip throws leg locks or ground control at a sambo academy", "**You are** a beginner or chasing world championships", plus one more. **"Whether" is used correctly five times on the same page**, which rules out vocabulary and leaves a find-and-replace or a truncation in whatever produced the draft. Across four posts the count is now **21 instances** — 13 here, 5 on `/muay-boran/`, 2 on `/martial-arts-near-me-classes/` and 1 on `/martial-arts-for-kids-strenght/` — all published between 17 and 21 October. **Raised to High:** at this volume it is not a typo pattern, it is a broken process, and one search for "You are" followed by an "or" clause finds every instance |
 | `/martial-arts-for-self-defense/` | **Two H2s with the keyword phrase crammed in, one of them mid-sentence-capitalised.** "Steps to Find the Right **Martial Arts for Self Defense** Style for You" reads as two headings spliced together — the phrase is wedged between "Right" and "Style", where a writer would have put one or the other. "Why Train at Sixth Sense MMA **For** Martial Arts for Self Defense" capitalises "For" mid-heading and then repeats the phrase a second time in the same sentence. Both are in the table of contents. The first H3 also keeps a **trailing no-break space** inside the heading, "Handling Close-Range Threats&nbsp;", and the body drops the comma after the town: "Tucked in **Coppell Texas** this place focuses on brazilian jiu-jitsu". One quotation also carries a space before its closing mark: the "art of eight limbs **”**" |
 | `/martial-arts-near-me-classes/` | **The third post in a row with the same fault**, published 25 minutes after the one below it: "**You are looking to get back in shape** or teach your family safety skills these programs work for all ages" and "**You are after self-defense skills** or just a way to build character our certified instructors make it happen" both need "Whether" in front. The word does appear once elsewhere on the page, so the drafting process can produce it — it is being dropped, not absent from the vocabulary. Three posts, eight sentences, all published between 17 and 18 October |
 | `/martial-arts-for-kids-strenght/` | **The same fault as `/muay-boran/` below, on the post published the next day, and it starts in the opening sentence:** "**You're wondering what martial arts for kids is all about you're in the right spot**" needs "If" in front of it. The article's very first line reads as a sentence beginning halfway through. Together with the five on `/muay-boran/`, this is now a pattern rather than a slip: the leading conjunction of an "If X, then Y" or "Whether X or Y" construction is being dropped by whatever produces these drafts, and nobody reads the first line back |
@@ -902,6 +903,15 @@ the coach and this page's whole argument is about instruction quality. But the
 same caveat applies: **no source, no date, no link to the Google Business
 Profile they came from.**
 
+**The second set is now on six pages.** `/sambo-techniques/` carries the same
+five reviews in the same order, with the same markup inconsistency and the same
+auto-inserted link in Stacie Arce's testimonial.
+
+**Six pages, and the mismatch is now total.** This is a 5,271-word technical
+article about Russian grappling. Not one of the five reviews mentions Sambo,
+grappling, throws or techniques; four are about children's classes and one about
+the layout of the room. The block has no relationship to the page it sits on.
+
 **The second set is now on five pages.** `/muay-thai-gear-for-safety/` carries
 the same five reviews in the same order, with the same markup inconsistency —
 four in `<blockquote>`, Kaivan Askari's in a plain paragraph — and the same
@@ -1431,7 +1441,82 @@ unwrapped and its children kept (the site has no blockquote styling, so it would
 render as an ordinary block anyway), and the one-row table is kept as a table but
 left without an invented header row.
 
-### 39. Posts advertising classes and certified instructors the gym may not have — CONTENT (accuracy) — High, the client must confirm before this goes live
+### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### Read this first: a full Sambo academy, with class tiers and instructors — **CRITICAL**
+
+**Two posts now advertise Sambo instruction**, and the newer one does not stop at
+saying the gym teaches it. `/sambo-techniques/` (21 October 2025, 5,271 words)
+describes a **structured academy** with named tiers, in the present tense:
+
+> ## Sambo Academy Programs at Sixth Sense MMA
+> **Sixth Sense MMA runs a top-notch sambo academy** where folks dive into sambo
+> techniques with hands-on guidance… **Their programs cater to everyone** from
+> newbies eager to learn sambo basics to pros sharpening edges in combat sambo or
+> sport sambo.
+
+> ### Beginner Classes to Learn Sambo
+> **Beginner classes at Sixth Sense MMA's sambo academy** ease you into sambo
+> techniques without overwhelming the senses… No prior martial art experience
+> needed just show up ready to sweat. **By week's end you'll execute a basic hip
+> throw or escape a simple pin.**
+
+> ### Advanced Sessions for Skill Refinement
+> **Advanced sessions at the sambo academy** crank up the challenge… Think
+> intense rounds of live rolling…
+
+> ### Experienced Instructors and Custom Plans
+> **Instructors at Sixth Sense MMA know sambo techniques inside out** bringing
+> expertise from years in combat sambo and sport sambo. **They've trained under
+> systems tied to sambo's roots like those from Anatoly Kharlampiev's era**…
+
+> **Sambo fighters here wear sambo uniforms** drilling everything from hip throws
+> to leg locks.
+
+**Sambo appears nowhere else on the site.** It is not one of the five programmes
+(Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ, Teen Muay Thai), it is not on
+the homepage's programme list, and no programme page mentions it. The only other
+place it appears is `/sambo-martial-art/`, the first Sambo post.
+
+**What the page does and does not commit to.** Checked precisely:
+
+- **No instructor is named**, and **no credential is claimed.** The strongest
+  statement is "Instructors bring years of experience" plus the Kharlampiev
+  line, which implies lineage without asserting one — Kharlampiev co-founded
+  Sambo and died in 1979, so "trained under systems tied to his era" is not a
+  qualification. This matters because **Sambo requires specialist
+  qualification**; a BJJ or Muay Thai coach is not a Sambo coach.
+- **No class times, days or schedule** appear anywhere. The only time reference
+  is "By week's end", which implies a weekly cadence without stating one.
+- **It is described as running, not planned.** Present tense throughout — "runs",
+  "cater", "ease you into", "crank up", "wear sambo uniforms". Nothing says
+  coming soon, launching or planned. The verifier fails if any future-tense
+  qualifier is introduced.
+
+**Why this is the most developed false service claim in the library, if it is
+false.** The other twenty-two entries in this issue name a discipline in passing
+or claim it in a list. This one builds the full apparatus: an academy, two class
+tiers, a curriculum ("basic throws and takedowns" then "joint locks and chokes"),
+instructors with implied lineage, uniforms, and a progression promise with a
+timescale. A parent or adult reading it has every reason to believe they can
+book a Sambo class this week.
+
+**Two possibilities, and the client must answer before launch:**
+
+1. **The gym does not teach Sambo.** Then both Sambo posts need rewriting as
+   informational articles — the technique content is genuinely good — with every
+   "our", "here" and "at Sixth Sense MMA" removed from the academy sections, and
+   the `/sambo-techniques/` academy H2 deleted outright.
+2. **The gym does teach Sambo.** Then it needs a programme page, a place on the
+   homepage list, a named qualified coach, and a schedule — none of which exists.
+
+**Do not launch either Sambo page in its current form without that answer.** This
+is the one item in this document where publishing the replica as-is carries the
+claim forward.
+
+---
+
+
 
 Two posts read as service pages for disciplines that are not among the gym's
 five programs (Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ, Teen Muay Thai).
@@ -3265,6 +3350,58 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**Joint-lock and leg-lock instruction on a page whose title invites beginners to
+start today.** `/sambo-techniques/` is titled "Learn sambo techniques that
+**beginners can start today**" and carries step-by-step instruction for the two
+categories of technique most likely to injure an untrained partner:
+
+> ### Arm Locks and Joint Manipulations
+> Start by securing your opponent's arm often after a throw or takedown. Twist
+> the arm while pinning their body to limit movement. **Common moves like the
+> armbar hyperextend the elbow** making taps quick in sambo competitions. Joint
+> manipulations also include **wrist locks**…
+
+> ### Leg Locks for Control
+> **Target the knee or ankle with moves like the heel hook or kneebar.** After a
+> takedown isolate their leg by trapping it between yours. **Twist or extend to
+> apply pressure** forcing a submission or limiting their movement.
+
+The **heel hook** is the specific concern. It is widely restricted in grappling
+competition for beginners and banned outright in many rulesets precisely because
+it loads the knee in a way the person being held often cannot feel until damage
+is done. The page names it in a list of moves to "target", to a reader it has
+told can start today.
+
+**Three sacrifice-throw and hip-throw sequences** carry the same shape — "Roll
+backward pulling them over you", "Your hip acts as the fulcrum push it into their
+lower body" — which are falls that need a coach and a mat.
+
+**To the page's credit, it carries one line of its own:**
+
+> Sambo fighters train these carefully as they **can cause injury if mishandled**.
+
+That is the only safety wording on 5,271 words, it sits inside the leg-lock
+section only, and it describes the risk rather than telling the reader what to do
+about it.
+
+**This is the third instance in this issue**, after the neck-bridge progressions
+and the kidney-punch article. The pattern is the same each time: genuinely
+competent technical writing, published with no supervision note, on a site whose
+audience includes parents of children.
+
+**What to do:** add one sentence at the top of the technique sections — "These
+techniques need a qualified coach and a mat. Do not attempt joint locks or leg
+locks on a partner without supervision." It costs nothing, it does not weaken the
+article, and it is the difference between instructional content and an
+instruction. The same sentence serves the neck-bridge and kidney-punch pages.
+
+**In the rebuild:** every technique description is reproduced word for word and
+**no supervision note has been added** — the build fails if one appears, because
+inventing safety copy the client has not approved would misrepresent the live
+page. The recommendation is the client's to action.
+
+
+
 `/muay-thai-vs-kickboxing/` has a section headed "Legal Considerations in
 Self-Defense Scenarios" that makes statements about what the law allows. It
 says laws "typically emphasize the use of **reasonable force** and the
@@ -4075,7 +4212,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on gear, two on Sambo — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -4091,6 +4228,7 @@ Google then has to pick one and ranks all of them weaker.
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
+| **Sambo (two pages for a discipline with no programme)** | `/sambo-martial-art/` · `/sambo-techniques/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **Kickboxing "versus" comparisons (confirmed, three posts)** | `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` · `/mma-vs-kickboxing-for-self-defense/` — see below |
 
@@ -4285,6 +4423,33 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The Sambo pair: two posts, zero programme — consolidation is the second question
+
+`/sambo-martial-art/` (20 May 2025) and `/sambo-techniques/` (21 October 2025)
+both target Sambo. The newer links the older, with the anchor text "martial arts
+sambo's combat".
+
+As duplication this is the ordinary pattern: two long posts on one discipline,
+competing with each other, the newer one broader. At 5,271 words it is the
+**second-longest post in the project**.
+
+**But consolidation is not the first question here.** Neither page should exist
+in its current form, because the gym does not teach Sambo (issue 39) and the
+newer one advertises a full academy for it. Merging two pages that both describe
+a service the business may not offer would just produce one longer page with the
+same problem.
+
+**The order of operations matters:**
+
+1. **Answer the Sambo question** (issue 39). Does the gym teach it or not?
+2. **If not:** rewrite one of the two as a purely informational article on Sambo —
+   the technique content is the best-written instructional material on the site —
+   strip every ownership claim, and 301 the other into it. One informational
+   page on a discipline the gym admires is defensible; two pages advertising an
+   academy that does not exist is not.
+3. **If so:** the pages stay, but they need a programme page behind them, and the
+   duplication is then worth fixing on its own merits.
 
 #### The gear pair: two posts, one primary keyword, and they disagree about the business — **CRITICAL**
 
@@ -4682,6 +4847,25 @@ scrolls, and the 1280×720 one is the only 16:9 image in the project. The fix is
 to settle on one size, 1024×536, and re-crop the other two to match.
 
 ### 15. Duplicated and near-identical headings — SEO, CONTENT — Medium
+
+**A caption that repeats its own alt text, on `/sambo-techniques/`.** The third
+image carries both:
+
+```html
+<img alt="Experienced Instructors Of Sambo Techniques" …>
+<figcaption>Experienced Instructors Of Sambo Techniques</figcaption>
+```
+
+Identical strings. A screen reader announces the alt and then reads the caption,
+so the phrase is spoken twice, and a sighted reader sees the caption restate the
+heading two lines below it ("Experienced Instructors and Custom Plans"). Alt text
+and captions do different jobs — the alt describes the picture for someone who
+cannot see it, the caption adds something the picture does not say — and here
+neither does either.
+
+It is also the only captioned image in the post, so the caption is not part of a
+pattern; it looks like the alt field was filled and then pasted into the caption
+field as well.
 
 **Two H2s differing by one preposition, three sections apart, on
 `/muay-thai-gear-for-safety/`:**
@@ -6354,7 +6538,10 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on fourteen pages.** `/muay-thai-gear-for-safety/` carries the
+**Now on fifteen pages.** `/sambo-techniques/` carries the fifteenth,
+identical again.
+
+`/muay-thai-gear-for-safety/` carries the
 fourteenth, identical again.
 
 `/martial-arts-for-self-defense/` carries the
@@ -6619,7 +6806,23 @@ page that honestly compares the two, not a tag.
 appear anywhere in the rebuilt site. It is recorded here because it is live on
 the client's WordPress.
 
-### 62. Unnamed "experts" cited as authority, sourceless attributions, and a credential asserted eight times on one page — CONTENT (accuracy), SEO — **High**
+### 62. Unnamed "experts" cited as authority, sourceless attributions, and unspecified "studies" credited to a federation — CONTENT (accuracy), SEO — **High**
+
+**A research claim attributed to a governing body, on `/sambo-techniques/`:**
+
+> **Studies from sambo federations like the World Combat Sambo Federation show
+> practitioners gain lean muscle and better stamina.**
+
+No study is named, no date, no link. The World Combat Sambo Federation is a real
+organisation, which makes this more exposed than the unnamed "experts" logged
+below: the page credits a specific named body with research it does not cite.
+
+The claim itself is unremarkable — martial arts training does build muscle and
+stamina — which is what makes citing a federation for it unnecessary. **Either
+link the study or drop the attribution** and say "sambo training builds lean
+muscle and stamina", which nobody would challenge.
+
+
 
 **`/martial-arts-near-me-classes/` says "certified instructors" eight times in
 3,279 words** and never says certified by whom. It is the page's main
@@ -6827,6 +7030,16 @@ three of them run long again — "Muay thai boran faded as a battlefield art",
 one style". Each swallows most of a clause. And **three of the five point at the
 other posts in this page's own duplication cluster** (issue 7), which is the
 plugin actively reinforcing the cannibalisation rather than resolving it.
+
+**A tenth page, and the same review link is now on six of them.**
+`/sambo-techniques/` carries Stacie Arce's testimonial with the same three words
+linked and the same `data-wpil-monitor-id="118"`.
+
+Six pages, one customer, one inserted advertisement. The count tracks the review
+set exactly (issue 32), which confirms the mechanism: the plugin matches "jiu
+jitsu master" wherever that paragraph appears, so **every future page carrying
+these reviews will carry the link too**. Stopping it means either excluding
+`<blockquote>` from the plugin's scope or stopping the copy-paste.
 
 **A ninth page, and the same review link is now on five of them.**
 `/muay-thai-gear-for-safety/` carries Stacie Arce's testimonial with the same
@@ -7614,7 +7827,7 @@ this is the first time an entire set belongs to a different article.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 84 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 85 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

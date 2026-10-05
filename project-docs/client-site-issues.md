@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **83 pages**: the homepage, the 5 program pages and all 77 blog
+live HTML of **84 pages**: the homepage, the 5 program pages and all 78 blog
 posts.
 
 Each issue is tagged:
@@ -22,13 +22,13 @@ issue 40, which is now sending link equity to a competing gym.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 1 | Hidden casino spam links injected into every page | SECURITY | all 83 | Urgent |
-| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 83 | Urgent |
+| 1 | Hidden casino spam links injected into every page | SECURITY | all 84 | Urgent |
+| 2 | Wrong phone number on every tap-to-call link | CONTENT | all 84 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: **seven** on one question, six on Muay Boran, four on belt ranks | SEO | 39 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on muay thai gear | SEO | 40 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -36,10 +36,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 12 | AI-tool markup pasted into posts: ChatGPT, and now DeepSeek | CONTENT | 4 | Medium |
 | 13 | "Table" placeholder text left above tables | CONTENT | 4 | Medium |
 | 14 | Orlando post targets a city 1,100 miles away; reviews placing a Texas gym across the USA and now in the UK | GEOGRAPHIC TARGETING | 8 | **CRITICAL** |
-| 15 | Duplicated headings and captions | SEO, CONTENT | 7 | Low |
+| 15 | Duplicated and near-identical headings and captions | SEO, CONTENT | 8 | Medium |
 | 16 | Empty headings | SEO | 3 | Low |
 | 17 | Spelling errors, garbled headings, keyword-crammed headings and deleted punctuation | CONTENT | 34 | Medium |
-| 18 | Image alt text typos, scrambled descriptions, and the brand run together in lower case | SEO | 11 | Low |
+| 18 | Image alt text typos, scrambled descriptions, the brand run together, and trailing whitespace | SEO | 12 | Low |
 | 19 | Duplicate WordPress tags | SEO | 2 | Low |
 | 20 | Published and modified dates that disagree | SEO | 11 | Low — to confirm |
 | 21 | Numbered list skips a number | CONTENT | 1 | Low |
@@ -51,10 +51,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 27 | Gi sizing chart has overlapping height ranges | CONTENT | 1 | Medium |
 | 28 | A post with no H2 headings at all | SEO | 1 | Medium |
 | 29 | Content duplicated inside a post: a whole article on one, a whole section on another | CONTENT, SEO | 2 | High |
-| 30 | Bad tags: zero-width spaces, section titles used as tags, misspellings, and tags for arts the gym does not teach | SEO | 19 | Medium |
+| 30 | Bad tags: zero-width spaces, misspellings, tags for arts the gym does not teach, and six tags about the wrong subject | SEO | 20 | **High** |
 | 31 | Self-defence, weapon-law, street-fighting and injury-risk content with no disclaimer | CONTENT | 6 | **High — liability** |
-| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on four posts | CONTENT | 36 | Low — for the client to decide |
-| 33 | The brand name written eleven different ways, including in image alt text | CONTENT, SEO | 17 | **High** |
+| 32 | Testimonials that cannot be verified, one set that clearly can, and a second set now on five posts | CONTENT | 37 | Low — for the client to decide |
+| 33 | The brand name written eleven different ways, and the head coach's name two ways across five posts | CONTENT, SEO | 18 | **High** |
 | 34 | WordPress editor markup published in a page heading | SEO, CONTENT | 1 | Medium |
 | 35 | Weight chart figures that disagree with each other | CONTENT | 1 | Medium — to verify |
 | 36 | A four-letter acronym that spells nothing | CONTENT | 1 | Low |
@@ -62,8 +62,8 @@ issue 40, which is now sending link equity to a competing gym.
 | 38 | Document outline breaks: half a post sits under a heading it has nothing to do with | SEO, CONTENT | 1 | Medium |
 | 39 | Posts advertising classes, perks, awards and certified instructors the gym may not have | CONTENT (accuracy, trademark) | 22 | **High — client must confirm** |
 | 58 | British and American spellings of "defence" used across the site, inside one page, and inside one tag list | CONTENT, SEO | 14 | Medium |
-| 59 | A "Follow Us" section linking one platform | CONTENT | 13 | Low |
-| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has now linked the same review twice | SEO, CONTENT | 8 | **High** |
+| 59 | A "Follow Us" section linking one platform | CONTENT | 14 | Low |
+| 64 | An auto-linking plugin that cuts words in half, wraps whole clauses, and has now linked the same review on five pages | SEO, CONTENT | 9 | **High** |
 | 62 | Unnamed "experts" cited as authority, sourceless attributions, and "certified instructors" asserted eight times on one page | CONTENT (accuracy), SEO | 4 | **High** |
 | 63 | A 7,000-word article with three images and five wall-of-text tables | CONTENT, UX | 1 | Medium |
 | 61 | A competitor's brand name published as a tag | SEO, LEGAL (trademark) | 1 | **High** |
@@ -95,8 +95,10 @@ issue 40, which is now sending link equity to a competing gym.
 | 71 | A local-intent page whose H1 and tags omit the city entirely, and a city name lower-cased in the title | SEO | 1 | Medium |
 | 72 | Belt-rank timeframes that describe years of training where the real criteria are age-based | CONTENT (accuracy) | 1 | Medium — to verify |
 | 73 | Private coaching advertised on three pages in three different forms, and on no programme page | CONTENT (accuracy) | 3 | **High — client must confirm** |
+| 74 | A post that sells eight products the site has no shop for, and contradicts its own twin | CONTENT (accuracy), TRUST | 2 | **CRITICAL — client must confirm** |
+| 75 | Six tags about gym bags on a post about protective gear | SEO | 1 | **High** |
 
-**73 issues in total.**
+**75 issues in total.**
 
 ---
 
@@ -526,6 +528,21 @@ A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
 
+**The coach's name is now wrong on a second post, and the split runs across five
+pages.** `/muay-thai-gear-for-safety/` writes:
+
+> Instructors like Coach **Mattheus** keep things personal
+
+while the five reviews on the same page write **Matheus** four times. Counting
+the whole site, the body copy of two posts uses the double-T form and five posts
+carry reviews using the single-T form, which is also what `/muay-boran/` uses in
+its own copy when it names the coach properly.
+
+So the correct spelling is **Matheus**, it appears correctly in every customer
+review on five pages, and the gym's own writers get it wrong on two of them.
+There is no clearer illustration of the absence of a style sheet than a business
+misspelling its head coach while quoting customers who spell it right.
+
 **And the head coach's name is now spelt two ways on a single page.** On
 `/martial-arts-for-kids-strenght/`, the gym's own copy writes:
 
@@ -884,6 +901,16 @@ It reads better here than the eleven would have, because four of the five name
 the coach and this page's whole argument is about instruction quality. But the
 same caveat applies: **no source, no date, no link to the Google Business
 Profile they came from.**
+
+**The second set is now on five pages.** `/muay-thai-gear-for-safety/` carries
+the same five reviews in the same order, with the same markup inconsistency —
+four in `<blockquote>`, Kaivan Askari's in a plain paragraph — and the same
+auto-inserted link in Stacie Arce's testimonial.
+
+**Five pages, identical block, identical faults.** On a post about buying
+gloves, four of the five reviews are about children's classes and none mentions
+equipment, so the block is not even matched to its page any more. It is being
+pasted in as furniture.
 
 **The second set is now on four pages.** `/martial-arts-for-self-defense/`
 carries the same five reviews in the same order, with the **same markup
@@ -3601,6 +3628,21 @@ Two more differ only by the letter s on "gym". Between this post and
 `/mma-gyms-near-me/`, **eleven tags** were created in one evening for what is
 one topic, each generating its own indexable archive page.
 
+**An entire tag set belonging to a different article, on
+`/muay-thai-gear-for-safety/` — raised to High.** All six of its tags are about
+gym bags and backpacks, on a post about gloves, shin guards and mouthguards, and
+one of them carries a trailing zero-width space. This is the first time a whole
+set has been wrong rather than one or two entries, and it has its own entry at
+**issue 75**.
+
+**That changes the shape of the tag audit recommended below.** The faults are now:
+invisible characters, section titles used as tags, misspellings, arts the gym
+does not teach, a competitor's brand name, spelling split inside one list, and
+now a set copied from the wrong post. Seven distinct failure modes across twenty
+pages means the tags are not being written per-post at all — they are being
+assembled from somewhere and pasted in. One export of every post's tags to a
+spreadsheet, read once against the post titles, finds all of it in an afternoon.
+
 **Six tags on `/martial-arts-near-me-classes/`, and one advertises an art the
 gym does not teach.** The set:
 
@@ -4033,7 +4075,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -4048,6 +4090,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
+| **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **Kickboxing "versus" comparisons (confirmed, three posts)** | `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` · `/mma-vs-kickboxing-for-self-defense/` — see below |
 
@@ -4242,6 +4285,42 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The gear pair: two posts, one primary keyword, and they disagree about the business — **CRITICAL**
+
+`/muay-thai-gear/` and `/muay-thai-gear-for-safety/` both target **"muay thai
+gear"** as their primary keyword. The slugs differ by three words; the subject
+does not.
+
+**The newer one links the older one with its own keyword as the anchor text.**
+`/muay-thai-gear-for-safety/`'s very first internal link is "muay thai gear like
+Fairtex shorts" pointing at `/muay-thai-gear/` — the exact phrase both pages are
+trying to rank for, handed from one to the other.
+
+**And the two pages contradict each other about what the business does.** The
+older says the gym offers "**personalized gear advice**"; the newer says "**We
+stock Fairtex and Yokkao pieces**" and runs eight product sections in the first
+person. That is issue 74, and it makes this pair different from every other
+cluster in this document: the duplication is not just wasteful, it is
+*inconsistent*.
+
+**The wider gear cluster.** Beyond the pair, the site also has
+`/muay-thai-gloves/`, `/muay-thai-clothing/`, `/muay-thai-gym-bag/` and
+`/muay-thai-backpack/`, plus `/kick-boxing-gloves/` and
+`/mixed-martial-arts-training-gloves/`. Six of those eight pages are about an
+item of equipment, and the two "gear" pages are general enough to overlap all of
+them — the newer one has a Gloves section, a Shorts section and an eight-item
+product list.
+
+**What to do: 301 `/muay-thai-gear-for-safety/` into `/muay-thai-gear/`.** The
+older URL is shorter, is the exact keyword, has eight months of history, and is
+the page the newer one links to. Merge the newer page's eight product sections
+into it **rewritten in the third person** (issue 74), and keep the four
+item-specific posts as the deeper pages they already are, each linked from the
+surviving hub.
+
+Do issue 74 first either way. Consolidating two pages that disagree about whether
+the gym sells equipment would just pick one answer at random.
 
 #### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
 
@@ -4578,6 +4657,18 @@ the large declared size misleads the browser.
 A full 800×500 version of the Muay Thai Stance image exists on the server; the
 page just isn't using it.
 
+**And at last a post where every image matches — `/muay-thai-gear-for-safety/`.**
+All three of its images are **1200×680**: same width, same height, same aspect
+ratio, same full-width rendering. It is the first post in the project where that
+is true. The three before it ran 1200×628 / 1280×720 / 1024×536, then
+1200×628 / 1024×536 / 1200×628, then 1200×680 / 1024×580 / 1024×536.
+
+Worth recording as the target: one size, applied to every image in a post. The
+only note against them is weight — 94 KB to 101 KB each, where the 1024px
+derivatives elsewhere on the site run 55 KB to 80 KB — so serving the 1024
+version to narrower screens via `srcset` would keep the consistency and cut the
+page weight.
+
 **The opposite problem on `/muay-boran/`: three different sizes on one page.**
 Its three images are **1200×628**, **1280×720** and **1024×536** — three widths
 and two different aspect ratios, in one article. The first two are uploaded with
@@ -4590,7 +4681,35 @@ be, at 112 KB and 150 KB — but the page steps between three shapes as a reader
 scrolls, and the 1280×720 one is the only 16:9 image in the project. The fix is
 to settle on one size, 1024×536, and re-crop the other two to match.
 
-### 15. Duplicated headings — SEO, CONTENT — Low
+### 15. Duplicated and near-identical headings — SEO, CONTENT — Medium
+
+**Two H2s differing by one preposition, three sections apart, on
+`/muay-thai-gear-for-safety/`:**
+
+> ## Benefits **of** Choosing Sixth Sense MMA
+> ## Benefits **to** Choosing Sixth Sense MMA
+
+Both are in the table of contents, where they sit four entries apart and read as
+the same link twice. "Benefits to Choosing" is also not idiomatic English — the
+preposition is wrong as well as duplicated.
+
+The two sections do contain different material: the first is a prose paragraph
+about community and confidence, the second a five-item bulleted list. So this is
+a naming failure rather than duplicated content — but a reader scanning the
+contents has no way to tell which one they want, and Google is offered two
+near-identical jump targets.
+
+**Why this raises the issue from Low to Medium.** It is now the eighth instance,
+and the pattern has widened from exact repeats to *near* repeats, which are
+harder to catch with a search. Together with the duplicated H3 on
+`/best-fighting-style-for-self-defense/` and the two back-to-back H2s on
+`/mma-vs-kickboxing-for-self-defense/`, this is a systematic absence of any
+check that a page's own headings are distinct.
+
+**What to do:** rename the second one after what it contains — "What You Get as a
+Member", or similar — and add a heading-uniqueness check to the pre-publish
+read-through recommended at issue 22. A single pass comparing each page's
+headings against each other catches all eight instances.
 
 **The same H3 published twice on `/best-fighting-style-for-self-defense/`:**
 
@@ -4746,6 +4865,20 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**Trailing whitespace inside alt text, on `/muay-thai-gear-for-safety/`.** The
+third image's alt is:
+
+```
+Muay Thai Products<U+00A0>
+```
+
+A **no-break space** sits between the final "s" and the closing quote. It is
+invisible, it does no harm to a screen reader, and it is worth recording only
+because of what it indicates: the alt text was not typed into the field, it was
+pasted from the heading, and the heading's own trailing whitespace came with it.
+The same fault appears as a trailing no-break space inside a heading on
+`/martial-arts-for-self-defense/` (issue 17).
 
 **And the brand run together in lower case, on `/bjj-belt-ranks-in-coppell/`.**
 Two of its three images append the business name to the alt text like this:
@@ -6221,7 +6354,10 @@ the meta description that uses both, and the build fails if either count changes
 
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
-**Now on thirteen pages.** `/martial-arts-for-self-defense/` carries the
+**Now on fourteen pages.** `/muay-thai-gear-for-safety/` carries the
+fourteenth, identical again.
+
+`/martial-arts-for-self-defense/` carries the
 thirteenth, identical again.
 
 `/bjj-belt-ranks-in-coppell/` carries the twelfth,
@@ -6691,6 +6827,17 @@ three of them run long again — "Muay thai boran faded as a battlefield art",
 one style". Each swallows most of a clause. And **three of the five point at the
 other posts in this page's own duplication cluster** (issue 7), which is the
 plugin actively reinforcing the cannibalisation rather than resolving it.
+
+**A ninth page, and the same review link is now on five of them.**
+`/muay-thai-gear-for-safety/` carries Stacie Arce's testimonial with the same
+three words linked and the same `data-wpil-monitor-id="118"`.
+
+That makes five pages publishing the same customer's words with the same
+inserted advertisement. It is not drifting or varying — the plugin matches the
+phrase wherever the block appears, so **every page that republishes these five
+reviews will carry it**, and the review set is spreading (issue 32). The fix has
+to be in one of two places: stop the plugin matching inside `<blockquote>`, or
+stop copying the reviews.
 
 **An eighth page, and it has now linked the same review on two consecutive
 posts.** `/martial-arts-for-self-defense/` carries Stacie Arce's testimonial with
@@ -7335,11 +7482,139 @@ recording.** Of its four programme-shaped H3s, three are accurate:
 So on this page the service descriptions are right three times out of four. The
 fourth is the one logged here.
 
+### 74. A post that sells eight products the site has no shop for, and contradicts its own twin — CONTENT (accuracy), TRUST — **CRITICAL, the client must confirm**
+
+`/muay-thai-gear-for-safety/` is not written as a buying guide. It is written as
+a **product catalogue for Sixth Sense MMA**. Its "Muay Thai Products" H2 opens:
+
+> **We've got your muay thai gear covered with top picks. Our selection** brings
+> authentic quality to every fighter from newbies to seasoned pros. Check out
+> our gloves shorts and more each piece is designed for the gym or ring.
+> **Let's look at what we offer.**
+
+Then eight H3s, one per product, each in the first person with a purchase
+instruction at the end:
+
+| Section | Claim | Call to action |
+|---|---|---|
+| Gloves | "**Our gloves at Sixth Sense MMA** are built for action. Made with durable leather…" | "**Pick a pair** and feel the difference!" |
+| Shorts | "**Our muay thai shorts at Sixth Sense MMA** are a game-changer… The designs come **straight from Bangkok**" | "**Pick your favorite color**… and hit the gym" |
+| Shin Guards | "**ours at Sixth Sense MMA** don't disappoint. Made with tough padding…" | "**Grab a pair** and train worry-free!" |
+| Headgear | "**Headgear from Sixth Sense MMA** keeps you safe in the ring" | "Try it out and feel the difference!" |
+| Hand Wraps | "**ours at Sixth Sense MMA** deliver. Made from soft yet sturdy fabric…" | "**Get a set** of muay thai gloves and protect your hands today!" |
+| Ankle Supports | "**Ankle supports at Sixth Sense MMA** keep you steady" | "Slip them on and move with ease!" |
+| Mouthguards | "**Our mouthguards at Sixth Sense MMA** are a smart pick. Crafted from premium material…" | "**Grab one** and train with confidence!" |
+| Groin Protectors | "**Groin protectors from Sixth Sense MMA** offer vital protection" | "Add this to your gear and stay safe!" |
+
+**It names two brands as stocked**, under its own H2 "Why Pick Sixth Sense MMA
+for Authentic Gear":
+
+> **We stock Fairtex and Yokkao pieces** that pros swear by… **It's not just
+> buying stuff**; it's grabbing tools like muay thai gloves that match the
+> discipline we teach.
+
+And the FAQ repeats it inside `FAQPage` structured data, where Google may quote
+it as a direct answer:
+
+> **Sixth Sense MMA offers authentic Muay Thai equipment from trusted brands
+> like Fairtex and Yokkao.**
+
+**There is no shop.** I searched the whole build and the live page: no shop,
+store, product, cart or checkout page exists, no WooCommerce or add-to-cart
+markup appears anywhere, and **the page states no price for any of the eight
+items and gives no way to buy them.** Eight product sections, nine purchase
+imperatives, zero prices, zero purchase routes.
+
+**And the gym's other page on the same keyword says something different.**
+`/muay-thai-gear/` — which targets "muay thai gear" as its primary keyword too
+(issue 7) — describes the offering as **advice**, not retail:
+
+> We offer **personalized gear advice** and professional training sessions at our
+> physical gym
+
+So two pages on one keyword disagree about whether the business sells equipment.
+I checked the other gear posts — `/muay-thai-gloves/`, `/muay-thai-clothing/`,
+`/muay-thai-gym-bag/`, `/muay-thai-backpack/`,
+`/mixed-martial-arts-training-gloves/` — and none of them claims to stock or sell
+anything; they are all generic advice. **This is the only page on the site that
+claims to retail equipment.**
+
+**Why this is CRITICAL rather than High.** Every other accuracy issue in this
+document misdescribes a *service*. This one invents a **revenue line**. There are
+only two possibilities and both need action today:
+
+1. **The gym does not sell gear.** Then eight sections, two named brands and nine
+   "grab one" instructions are advertising a shop that does not exist. A customer
+   who walks in asking to buy the Fairtex shorts gets an awkward conversation,
+   and "We stock Fairtex and Yokkao" is a straightforwardly false statement about
+   the business.
+2. **The gym does sell gear.** Then this is a real revenue line that appears on
+   **one page out of seventy-eight**, with no prices, no product list, no shop
+   page and no mention on the homepage or any programme page — and the page
+   written to rank for the same keyword contradicts it. That is a commercial
+   problem rather than an accuracy one, and a bigger missed opportunity than
+   anything else in this document.
+
+**What to do:**
+
+- **If there is no retail:** rewrite all eight sections as "what to look for in
+  gloves" rather than "our gloves", delete "We stock Fairtex and Yokkao", and fix
+  the FAQ answer. The content is genuinely useful as a buying guide; it just
+  cannot be written in the first person.
+- **If there is retail:** build a shop page, put prices on it, link it from the
+  homepage and the programme pages, and make `/muay-thai-gear/` agree with this
+  page instead of contradicting it.
+
+**In the rebuild:** every ownership claim, brand name and purchase imperative is
+reproduced exactly as published, and the build fails if a price or a purchase
+route is invented, or if "add to cart", "shop now" or similar appears anywhere.
+
+---
+
+### 75. Six tags about gym bags on a post about protective gear — SEO — **High**
+
+`/muay-thai-gear-for-safety/` covers gloves, shorts, shin guards, headgear, hand
+wraps, ankle supports, mouthguards and groin protectors. Its six tags are:
+
+> best muay thai gym bag · muay thai equipment bag · Muay Thai gear backpack ·
+> muay thai gear bag · Muay Thai Gym Bag · muay thai sports bag
+
+**Every one is about bags and backpacks. The post contains no bag section at
+all.** Not one of the six matches any heading, and the words "bag", "backpack"
+and "storage" appear nowhere in its eight product sections.
+
+**They belong to a different post — and two candidates already exist.**
+`/muay-thai-gym-bag/` and `/muay-thai-backpack/` are both live and both are
+actually about bags. The tag set reads as a copy-paste from one of them that
+nobody looked at afterwards.
+
+**What it costs.** A tag is an entry point: it exists so that someone searching
+"best muay thai gym bag" finds this page. What they find is a page about
+mouthguards and groin protectors, with no bag on it. That is a bounce, and it is
+a bounce Google can see. It also means the two posts that *are* about bags are
+now competing with this one for their own tag archives.
+
+**One of the six carries a trailing zero-width space**, "muay thai gear bag" plus
+U+200B — the same invisible character logged at issue 30, which creates a second
+archive page distinct from the clean version of the same phrase.
+
+**What to do:** delete all six and replace them with terms the post is actually
+about — "muay thai gloves", "shin guards", "muay thai mouthguard", "muay thai
+protective gear", "muay thai gear for beginners". Then check in WordPress whether
+`/muay-thai-gym-bag/` and `/muay-thai-backpack/` still carry these terms themselves — if the
+set was moved rather than copied, one of those posts may have been left without
+its own tags.
+
+**This is the clearest case yet for the tag audit recommended at issue 30.** Tags
+on this site have been wrong in several ways — invisible characters, section
+titles used as tags, arts the gym does not teach, a competitor's brand name — but
+this is the first time an entire set belongs to a different article.
+
 ---
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 83 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 84 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

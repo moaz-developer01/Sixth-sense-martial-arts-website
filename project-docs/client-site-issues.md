@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **86 pages**: the homepage, the 5 program pages and all 80 blog
+live HTML of **87 pages**: the homepage, the 5 program pages and all 81 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,7 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. A post tells readers the gym carries no risk of concussion or brain injury — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. Two posts tell readers the gym carries no risk of concussion or brain injury, on classes sold to five-year-olds — CONTENT (accuracy), LIABILITY — **URGENT**
 
 `/types-of-sambo/`, in the paragraph under the H3 **"Safe, Controlled and
 Professional Training Environment"**, publishes these four sentences:
@@ -72,6 +72,91 @@ literal, and the eight restatements elsewhere on the page are still there,
 reproduced as published, because removing those is a content decision the client
 has not been asked for yet.
 
+### The same copy block is on a second post, and there it is 29 sentences
+
+`/mixed-martial-arts-vs-kickboxing/` was published on **the same afternoon** as
+`/types-of-sambo/` — 11 November 2025, 13:45 and 16:06 — and it carries **the
+identical four sentences, word for word**, under an H3 called "Safe Sparring and
+Rest Strategies":
+
+> Head shots body first. **Concussion risk none. Brain injuries stay out. Brain
+> damage no chance. Head trauma camp free.** Neck injuries tap quick.
+
+That is not a coincidence. It is the same block of copy pasted into a second
+article, which means this is a process fault, not a one-off mistake.
+
+On that post the pattern runs much further. **29 sentences** across 24 distinct
+forms deny concussion, brain-injury, brain-damage or head-trauma risk, or
+guarantee safety against it:
+
+| Section | Sentences published |
+|---|---|
+| H3 Warm-Up, Recovery, and Conditioning | "Concussion stays away." · "Brain trauma zero in drill." |
+| H3 Safe Sparring and Rest Strategies | "Concussion risk none." · "Brain injuries stay out." · "Brain damage no chance." · "Head trauma camp free." |
+| H2 Who Can Practice MMA or Kickboxing | "Concussion stays away." · "Brain injuries zero in class." · "Brain damage no risk." |
+| H3 Beginners Looking to Build Fitness and Confidence | "Concussion zero chance." · "Brain trauma camp free." |
+| H3 Athletes Interested in Self-Defense Training | "Concussion street none." |
+| H3 Women and Teenagers Learning Combat Discipline | "Concussion zero risk." · "Brain trauma camp none." |
+| H2 MMA and Kickboxing Offer at Sixth Sense MMA | "Brain injuries train out." |
+| **H3 Kids MMA Programs** (ages 5-12) | **"Concussion zero risk." · "Brain injuries safe play."** |
+| **H3 Kids Kickboxing Programs** (ages 5-12) | **"Concussion camp none." · "Brain injuries safe play." · "Brain damage zero chance." · "Head trauma kid free."** |
+| H3 Teen &amp; Adult Kickboxing Programs | "Brain damage pro avoid." |
+| H2 Why Choose SixthSenseMMA | "Brain injuries camp free." · "Brain damage no chance." · "Head trauma safe rules." |
+| H2 Conclusion | "Concussion never here." · "Brain injuries train out." · "Brain damage no place." · "Head trauma safe home." |
+
+**Nine of the 29 are on the two kids' sections**, under headings that name
+"ages 5-12" and offer a free trial. "Brain damage zero chance" and "Head trauma
+kid free" are addressed to the parent of a five-year-old, on a page about
+kickboxing.
+
+**Three things make the second post worse than the first.**
+
+1. **It contradicts itself inside its own FAQ.** The body says concussion risk
+   at this gym is "none". The FAQ, 500 words later, answers "Is MMA safer than
+   kickboxing?" with *"Both MMA and kickboxing carry risks since they are
+   full-contact combat sports"*, and "What is the safest combat sport?" with
+   *"No combat sport is completely without risk."* The accurate statement is
+   already on the page, directly beneath the false one. Whoever wrote the FAQ
+   knew; whoever wrote the body did not.
+2. **The claims are attached to bookable products.** Four programmes are named
+   with ages (5-12, 13+), class length (60 minutes), a free trial offered five
+   times and free open-mat days twice. `/types-of-sambo/` made a vague claim
+   about a discipline; this one promises no brain damage in a class a parent can
+   book on Monday. Three of those four programmes have no programme page behind
+   them (issue 39).
+3. **The page is explicitly about danger.** Its own title asks "Which is
+   Dangerous", it cites the *Manuel Velazquez Boxing Fatality Collection*, and it
+   publishes three tables grading brain-injury risk — one of them headed
+   "Medical Insights from SixthSenseMMA's Trainers", presenting the gym's own
+   coaches as the medical authority. A reader is told head trauma is real for 1,400
+   words and then told it cannot happen here.
+
+**Status in the rebuild: all 29 OMITTED.**
+`dist/mixed-martial-arts-vs-kickboxing.html` reproduces every heading, table,
+paragraph and FAQ answer verbatim and cuts only those 29 sentences, each replaced
+in place by:
+
+```html
+<!-- OMITTED: false head-injury safety claim, see client-site-issues.md issue 0 -->
+```
+
+The rule applied was narrow and mechanical: a sentence goes only if its subject
+is one of five medical outcomes (concussion, brain injuries, brain trauma, brain
+damage, head trauma) **and** its predicate denies that outcome or guarantees
+safety against it. Everything else on the same subjects stays, because it is
+either true or merely a marketing claim rather than a medical one — "Concussion
+hits hard", "Brain damage steals futures", "Repetitive head trauma builds cte",
+"Head trauma lingers long", "Concussion watch close", "Concussion risk low",
+"Concussion risk drops". **25 such sentences were kept.** Nothing was
+paraphrased, softened or substituted; the gaps are literal.
+
+**What to do about the pattern, not just the pages:** both posts were published
+within three hours of each other from what is evidently the same copy source,
+and both reuse the same `Types-of-sambo-*` image batch. Before fixing either
+page, find out what produced them — a writer, an agency, or a tool — and check
+every post published since 11 November 2025 for the same four sentences. Deleting
+them twice solves nothing if the source is still running.
+
 **What to do:** remove these four sentences from the live page immediately —
 before the malware, because this one is a statement the business is answerable
 for, and deleting it takes one edit. Then decide what the section should say
@@ -88,14 +173,14 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | A post promising no concussion, brain-injury or head-trauma risk — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 1 | **URGENT** |
+| 0 | **Two** posts promising no concussion, brain-injury, brain-damage or head-trauma risk, 33 sentences in all, 9 of them on classes for ages 5-12 — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 2 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, three on Sambo, two on gear | SEO | 41 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, four versus posts, three on Sambo, two on gear | SEO | 41 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -4338,7 +4423,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, three on Sambo, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, four versus posts, three on Sambo, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -4356,7 +4441,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
 | **Sambo (confirmed, THREE pages for a discipline with no programme — one pair duplicates a whole section)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
-| **Kickboxing "versus" comparisons (confirmed, three posts)** | `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` · `/mma-vs-kickboxing-for-self-defense/` — see below |
+| **"Versus" comparisons (confirmed, FOUR posts, one pair the same comparison twice)** | `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` · `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` — see below |
 
 #### The comparison-post group
 
@@ -4643,6 +4728,40 @@ surviving hub.
 
 Do issue 74 first either way. Consolidating two pages that disagree about whether
 the gym sells equipment would just pick one answer at random.
+
+#### The versus quartet: four comparison posts, and one pair is the same comparison written twice — **CRITICAL**
+
+Four posts are built as head-to-head comparisons:
+
+| Post | Comparison | Published |
+|---|---|---|
+| `/mma-vs-kickboxing-for-self-defense/` | MMA vs kickboxing | 17 Sep 2025 |
+| `/mixed-martial-arts-vs-kickboxing/` | MMA vs kickboxing | 11 Nov 2025 |
+| `/muay-thai-vs-kickboxing/` | Muay Thai vs kickboxing | 20 May 2025 |
+| `/muay-thai-vs-mma/` | Muay Thai vs MMA | 16 Jun 2025 |
+
+**The first two are the same comparison.** Not adjacent, not overlapping — the
+same two disciplines, weighed against each other, under two slugs that differ
+only in whether "MMA" is spelled out and whether "for self defense" is tacked on.
+Between them the site now has two pages competing for "mma vs kickboxing", and
+the newer one links the older under the anchor text "Kickboxing vs mma", which
+tells Google the two are about the same thing in the clearest way possible.
+
+Add the two Muay Thai posts and every pairwise comparison among MMA, kickboxing
+and Muay Thai is published except Muay Thai vs BJJ. A reader who wants to know
+which to train has four articles to choose between, by the same gym, that do not
+reference each other's conclusions — and the two MMA-vs-kickboxing posts do not
+even agree in emphasis: the newer one argues MMA is "a safer full-contact sport
+overall", a claim the older one does not make.
+
+**Recommendation: consolidate to two at most.** One "MMA vs kickboxing" page and
+one "Muay Thai vs kickboxing" page, with Muay Thai vs MMA folded into whichever
+is stronger. 301 the rest. Which of the two MMA-vs-kickboxing posts survives is
+not a free choice: `/mixed-martial-arts-vs-kickboxing/` is the page carrying the
+29 omitted safety claims in issue 0, so it cannot be the canonical version until
+that is resolved, and `/mma-vs-kickboxing-for-self-defense/` is the one with the
+older URL and whatever authority has accrued to it. Keep the older, fix it, and
+redirect the newer into it once its copy has been dealt with.
 
 #### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
 

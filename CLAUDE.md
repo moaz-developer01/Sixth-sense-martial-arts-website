@@ -24,6 +24,36 @@ Every indexable page must have a unique title, meta description, canonical URL, 
 - **Never create a new file on your own judgment.** If a new file genuinely seems needed, ask first and explain why.
 - **`dist/` holds deployed files only**: HTML, CSS, JS, images, PHP, config. Zero `.md` files. All notes, planning, and drafts go in `project-docs/`. This also means no local-preview snapshot files, backups, or test variants in `dist/`; if a preview mechanism is needed, ask how the user wants it handled rather than adding another file there.
 
+## Blog post builds, non-negotiable completion chain
+
+When asked to replicate a blog post, these four steps are a single unit of work.
+Never end a turn partway through them:
+
+  1. write dist/<slug>.html
+  2. add the entry to project-docs/posts.json with the real published date
+  3. run node project-docs/build-blog.js
+  4. git add -A and commit
+
+A post that exists as a file but is not in posts.json is not done. A post in
+posts.json without a rebuild is not done. Do not write a summary, a report or a
+verification list until all four steps have run.
+
+Reporting comes last and is brief. If a prompt asks for a long list of
+verification items, do the four steps first, then report.
+
+The ONLY reason to stop before step 4 is a genuine safety or legal blocker, for
+example a false medical claim, a trademark issue or a misleading service claim.
+In that case: build everything else, omit only the blocking passage, leave an
+HTML comment in its place, log it in project-docs/client-site-issues.md,
+complete steps 2 to 4 anyway, and raise the issue in your reply. The post still
+ships, minus the problem sentence.
+
+After every blog build, print exactly this and nothing else before it:
+  BUILT: <slug>
+  posts.json entries: <n>
+  listing pages: <n>
+  this post appears on: blogs<-n>.html, card position <n>
+
 ## Shared footer component (standing rule, no exceptions)
 
 The footer markup is duplicated in all pages. If it changes, it must be updated in EVERY page file identically. All footer styling lives in `dist/styles.css` (in a `.site-footer`-scoped block at the end of the file), linked from every page's `<head>` **before** that page's own per-page stylesheet — a design change means editing that one CSS file, not five HTML files. Load order matters: `styles.css` must come first so each page's own stylesheet still wins for its own fonts/colors everywhere outside the footer; only the `.site-footer`-scoped rules are meant to come from `styles.css`. The HTML itself must contain zero inline styles.

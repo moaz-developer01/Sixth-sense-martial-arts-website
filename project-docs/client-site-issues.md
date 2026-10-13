@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **87 pages**: the homepage, the 5 program pages and all 81 blog
+live HTML of **88 pages**: the homepage, the 5 program pages and all 82 blog
 posts.
 
 Each issue is tagged:
@@ -252,8 +252,9 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
+| 79 | One Sambo photo batch used to illustrate three unrelated posts, including the featured image on all three | CONTENT (asset management), SEO | 3 | Medium |
 
-**79 issues in total, numbered 0–78.** Issue 0 is the only one the rebuild does
+**80 issues in total, numbered 0–79.** Issue 0 is the only one the rebuild does
 not reproduce.
 
 ---
@@ -394,6 +395,18 @@ leftover from drafting and shows on the page.
 **What to do:** delete the placeholder lines.
 
 ### 17. Spelling errors, garbled headings and one untranslated Hindi/Urdu word — CONTENT — Medium
+
+**Two more, one of them in a section heading.**
+`/what-to-wear-to-muay-thai-class/` publishes:
+
+| Where | Text as published |
+|---|---|
+| H2 | "Why Sixth Sense MMA Is Better Than **Others** Academies" — for "Other Academies" |
+| Body, "Why Choose Sixth Sense MMA for Your Muay Thai Wear" | "What to wear to **muix** muay thai class matters." |
+
+"muix" is not a word in any language and sits in the middle of the page's own
+primary keyword phrase. The H2 typo is in one of the nine largest pieces of text
+on the page. Both are reproduced in the rebuild rather than silently corrected.
 
 | Post | Error |
 |---|---|
@@ -1613,6 +1626,23 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### "Trusted by Hundreds of Fighters", "Tested and Approved by Professional Fighters" — unverifiable, in headings
+
+`/what-to-wear-to-muay-thai-class/` publishes two H3s that are claims rather than
+descriptions: **"Proven Results and Trusted by Hundreds of Fighters"** and
+**"Tested and Approved by Professional Fighters"**, with the body line "Hundreds
+walk out sharper."
+
+Neither is attributable. No fighter is named, no number is sourced, and the
+"tested and approved" heading sits over a section about the gym's **apparel** —
+which implies the gym manufactures or sells clothing that professionals have
+tested. The site has no shop (issue 74), so there is no product for anyone to have
+approved. This is the same pattern as the unnamed experts in issue 62 and the
+unnamed Sambo black belts, now applied to merchandise that does not exist.
+
+**What to do:** either name the fighters and what they tested, or rewrite both
+headings as descriptions of the training rather than endorsements of goods.
 
 #### Read this first: a full Sambo academy, with class tiers and instructors — **CRITICAL**
 
@@ -3869,6 +3899,39 @@ will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
 
+**Fifteen tags on one post, eleven of them the same idea.**
+`/what-to-wear-to-muay-thai-class/` carries: "combat sports gear", "gym outfit
+muay thai", "kickboxing outfit", "muay thai attire", "muay thai beginner guide",
+"Muay Thai clothing", "muay thai equipment", "muay thai essentials", "Muay Thai
+gear", "Muay Thai outfit", "Muay Thai shorts", "muay thai training tips", "muay
+thai uniform", "what to wear for muay thai beginners", "what to wear to muay thai
+class".
+
+Unlike `/muay-thai-gear-for-safety/` (issue 75), none of these belongs to a
+different article — they are all about this post's subject. The faults are
+different:
+
+- **Eleven are the same concept reworded**: attire, clothing, outfit, uniform,
+  essentials, gear, equipment, gym outfit, what to wear (twice, once "for
+  beginners" and once "to class"), shorts. Each generates its own tag archive page,
+  so one post spawns eleven near-identical thin pages that then compete with the
+  post itself and with `/muay-thai-clothing/` (issue 7).
+- **"kickboxing outfit" targets a discipline with no programme page.** Kickboxing
+  maps to the Muay Thai programme in practice, but the gym's five programmes name
+  BJJ and Muay Thai only, and this post is not about kickboxing — the word appears
+  four times in 3,513 words.
+- **"Muay Thai clothing" is another post's slug.** `/muay-thai-clothing/` exists
+  and targets that phrase. Tagging this post with it adds a third URL competing on
+  the term.
+- **Capitalisation is inconsistent within the set**: six are Title Case ("Muay Thai
+  clothing", "Muay Thai gear", "Muay Thai outfit", "Muay Thai shorts") and nine are
+  lower case, so the archive pages will be titled inconsistently.
+
+**What to do:** cut to three or four — "what to wear to muay thai class", "muay
+thai shorts", "muay thai beginner guide" — delete "kickboxing outfit" and "Muay
+Thai clothing", and settle on one capitalisation. Then run the tag audit this
+issue has been asking for since the first pass.
+
 **A tag set that is on topic, and still makes issue 7 worse.** The ten tags on
 `/types-of-sambo/` are, unusually for this site, all about the post's subject:
 "combat sambo", "freestyle sambo", "martial art and combat sport", "russian
@@ -4343,6 +4406,16 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**A Muay Thai phrase linked to a Sambo post.** On
+`/what-to-wear-to-muay-thai-class/` the anchor text **"muay thai training."** —
+including its full stop, which is the auto-linker's clause-grabbing behaviour from
+issue 64 — points at `/types-of-sambo/`. A reader clicking a Muay Thai phrase in a
+Muay Thai article lands on an article about Russian grappling. There is no Muay
+Thai content on the destination page at all. The same post links
+`/brazilian-jiu-jitsu-belts/` under the anchor "brazilian jiu jitsu", which is at
+least on topic for the destination but has nothing to do with what to wear to a
+Muay Thai class.
+
 Link text names one post, but the link goes to a different one.
 
 | On page | Link text | Goes to | Should go to |
@@ -4439,6 +4512,7 @@ Google then has to pick one and ranks all of them weaker.
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
+| **Muay Thai apparel (confirmed, THREE pages on what to wear)** | `/muay-thai-clothing/` · `/what-to-wear-to-muay-thai-class/` · `/muay-thai-gear/` — see below |
 | **Sambo (confirmed, THREE pages for a discipline with no programme — one pair duplicates a whole section)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **"Versus" comparisons (confirmed, FOUR posts, one pair the same comparison twice)** | `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` · `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` — see below |
@@ -4763,6 +4837,35 @@ that is resolved, and `/mma-vs-kickboxing-for-self-defense/` is the one with the
 older URL and whatever authority has accrued to it. Keep the older, fix it, and
 redirect the newer into it once its copy has been dealt with.
 
+#### The apparel trio: three posts answering "what do I wear" — **High**
+
+`/what-to-wear-to-muay-thai-class/` (13 November 2025) is the third page on this
+subject. The other two predate it:
+
+| Post | Published | Scope |
+|---|---|---|
+| `/muay-thai-clothing/` | 14 Apr 2025 | "Clothes, Style Ideas & Safety Tips" — shorts, tops, what to avoid |
+| `/muay-thai-gear/` | — | gear overall, which includes apparel alongside gloves and pads |
+| `/what-to-wear-to-muay-thai-class/` | 13 Nov 2025 | shorts, tops, rash guards, footwear, hand wraps, gloves |
+
+**`/muay-thai-clothing/` is the closest match**, not `/muay-thai-gear/`. Both it
+and the new post are built around the same decision — what a beginner should put
+on — and both work through shorts, then tops, then what not to wear.
+`/muay-thai-gear/` is broader and its apparel section is one part of a larger
+article, so it overlaps rather than duplicates.
+
+The new post links both of the others, and the anchor text gives the problem away:
+it links `/muay-thai-clothing/` under the anchor **"What to wear"** — its own
+primary keyword, pointing at the page it competes with. That tells Google the two
+pages answer the same query and that the older one is the better answer.
+
+**Recommendation:** keep `/muay-thai-clothing/` as the canonical apparel page,
+since it is seven months older and has the broader title, and either 301
+`/what-to-wear-to-muay-thai-class/` into it or narrow the new post to the one
+thing it does that the older does not — the beginner's first-class checklist with
+hand wraps, gloves, water bottle and towel. Leave `/muay-thai-gear/` alone and
+strip its apparel section down to a link.
+
 #### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
 
 Four pages now explain BJJ belt progression:
@@ -4934,6 +5037,31 @@ separate the others. Blog posts about classes should link to the program page
 rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
+
+**A different fault, on the same mechanism: eight FAQ questions that are one
+question.** `/what-to-wear-to-muay-thai-class/` publishes an eight-question
+accordion in which six questions ask the same thing in different words:
+
+| # | Question |
+|---|---|
+| 1 | "What do I wear to my first Muay Thai class?" |
+| 2 | "What do you wear to train for Muay Thai?" |
+| 3 | "Can I wear leggings for Muay Thai?" |
+| 4 | "What do people wear in Muay Thai?" |
+| 5 | "What to wear to Muay Thai gym?" |
+| 6 | "What do I wear to Muay Thai class?" |
+| 7 | "Can you wear Muay Thai shorts in MMA?" |
+| 8 | "What to wear for Muay Thai?" |
+
+Questions 1, 2, 4, 5, 6 and 8 are the same question. Only 3 (leggings) and 7
+(shorts in MMA) ask anything distinct, and the article already answers the
+leggings one in its "Optional Bottom Layers" and "Reduced Risk of Injury"
+sections. The answers repeat each other accordingly.
+
+Unlike the thirteen posts below, this is not a copied FAQ — it is a keyword list
+turned into questions. **What to do:** keep 1, 3 and 7, delete the other five, and
+add questions the article does not already answer: what to wear for a first
+sparring session, whether shoes are ever worn, how to wash gear between classes.
 
 An identical seven-question FAQ, starting "What is the best martial art for
 beginners?", appears word for word on 13 posts, each with the same FAQ
@@ -8257,9 +8385,50 @@ adding an address, so the two sides still match.
 
 ---
 
+### 79. One Sambo photo batch illustrates three unrelated posts — CONTENT (asset management), SEO — Medium
+
+The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
+uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
+on three different subjects:
+
+| Post | Files used | Featured image |
+|---|---|---|
+| `/types-of-sambo/` | `-1`, `-2`, `-3-1` | `Types-of-sambo-1.jpg` |
+| `/mixed-martial-arts-vs-kickboxing/` | `-4`, `-7`, `-6` | `Types-of-sambo-4.jpg` |
+| `/what-to-wear-to-muay-thai-class/` | `-8`, `-9`, `-10` | `Types-of-sambo-8.jpg` |
+
+The files are genuinely different photographs — verified by md5, all nine are
+distinct — so this is not the duplicate-image fault of issue 26. It is a naming and
+sourcing fault with three consequences:
+
+- **Every filename is wrong for its page.** A post about what to wear to a Muay
+  Thai class has a featured image called `Types-of-sambo-8.jpg`. Filenames are a
+  ranking signal for image search, and all three posts are telling Google their
+  pictures are about Sambo.
+- **Nobody can find anything in the media library.** Ten files named for one post
+  now belong to three, so replacing the Muay Thai apparel photo means knowing that
+  it is `Types-of-sambo-9`.
+- **It points at how these posts were made.** Three articles published between
+  11 and 13 November 2025 drew their illustrations from one batch uploaded for a
+  fourth. Combined with issue 0 — the same four safety sentences on two of those
+  three posts — and the fragment prose of issue 76, this looks like one production
+  run rather than three editorial decisions.
+
+**What to do:** re-upload each post's images under descriptive filenames and
+repoint the three posts. If the photographs are stock or reused from a shoot, say
+so in the media library so the next person knows. Then look at what produced these
+three posts, which issue 0 also asks for.
+
+**In the rebuild** the files are renamed to match their pages —
+`sambo-types-01..03`, `mma-vs-kickboxing-01..03`, `what-to-wear-01..03` — and each
+set is md5-checked against every other image in `dist/images/` before it is
+placed, so the live naming fault is fixed rather than carried over.
+
+---
+
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 86 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 88 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

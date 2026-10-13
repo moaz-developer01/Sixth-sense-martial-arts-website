@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **92 pages**: the homepage, the 5 program pages and all 86 blog
+live HTML of **93 pages**: the homepage, the 5 program pages and all 87 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,7 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. Three posts promise an absence of injury risk, two of them on classes sold to five-year-olds — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. Four posts promise an absence of injury risk, two of them on classes sold to five-year-olds — CONTENT (accuracy), LIABILITY — **URGENT**
 
 `/types-of-sambo/`, in the paragraph under the H3 **"Safe, Controlled and
 Professional Training Environment"**, publishes these four sentences:
@@ -177,6 +177,48 @@ every set and rep figure — and leaves a comment where that one sentence was:
 <!-- OMITTED: claims the neck can be built without risk, see client-site-issues.md issue 0 -->
 ```
 
+### A fourth page calls a strike to the kidneys "safe", twice
+
+`/are-kidney-shots-legal-in-ufc/` (17 November 2025) is about a strike that
+damages an internal organ, and it says so clearly for most of its length — "There
+is almost no muscle or bone protection there so the shock travels straight into
+the internal organ", "internal bleeding laceration contusion and possible organ
+failure". Then twice it calls the thing safe:
+
+> This protects fighters from internal bleeding laceration contusion and possible
+> organ failure **while still letting painful but safe kidney and liver punches
+> stay in the game.**
+
+> **These rules keep the sport intense yet safe** protect fighters from serious
+> internal organ damage and reward smart precise body work.
+
+"Painful but safe kidney punches" is the claim, in a sentence that has just
+listed organ failure as the thing being avoided. The second does the same for the
+sport as a whole. A reader who takes either at face value is being told that a blow
+which the same page says travels straight into an unprotected kidney carries no
+real risk.
+
+A third instance is in the referee-decision table, in the last row:
+**"Allowed — Safe and permitted in UFC/MMA."** That one is a cell label rather than
+a sentence, so it is reproduced as published rather than cut, and the comparison
+table stays whole — but the client should change it with the other two.
+
+**Status in the rebuild: both sentences OMITTED.**
+`dist/are-kidney-shots-legal-in-ufc.html` reproduces every other sentence verbatim
+— the rules, the refereeing table, the fouls list, the symptom description — and
+leaves a comment where each cut sentence was:
+
+```html
+<!-- OMITTED: downplays the medical seriousness of kidney trauma, see client-site-issues.md issue 0 -->
+```
+
+**Note what was lost with them.** Both sentences carried accurate content as well —
+the first names internal bleeding, laceration, contusion and organ failure, the
+second names serious internal organ damage. Cutting the whole sentence, as the rule
+requires, removes that too. The page still describes the injury mechanism in detail
+elsewhere, so nothing factual disappears from the article, but when the client
+rewrites these two sentences the accurate halves are worth keeping.
+
 **What to do about the pattern, not just the pages:** both posts were published
 within three hours of each other from what is evidently the same copy source,
 and both reuse the same `Types-of-sambo-*` image batch. Before fixing either
@@ -200,7 +242,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **Three** posts promising an absence of injury risk, 34 sentences in all, 9 of them on classes for ages 5-12 — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 3 | **URGENT** |
+| 0 | **Four** posts promising an absence of injury risk or calling an organ strike safe, 36 sentences in all, 9 of them on classes for ages 5-12 — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 4 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -279,12 +321,13 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
-| 79 | One Sambo photo batch used to illustrate seven posts, six of them unrelated, including the featured image on all seven | CONTENT (asset management), SEO | 7 | Medium |
+| 79 | One Sambo photo batch used to illustrate eight posts, seven of them unrelated, including the featured image on all eight | CONTENT (asset management), SEO | 8 | Medium |
 | 80 | A "Top Fighting Styles" post that ranks one discipline and dismisses the rest, built from another post's template | CONTENT, SEO | 2 | **High** |
 | 81 | Five FAQ questions about Roblox video games published on a martial arts gym's page | SEO, CONTENT | 1 | **High** |
 | 82 | A second H1 published in the middle of an article | SEO | 1 | Medium |
+| 83 | A rules explainer that contradicts itself about what the Unified Rules forbid, and says kidney punches are legal in boxing | CONTENT (accuracy) | 1 | **High** |
 
-**83 issues in total, numbered 0–82.** Issue 0 is the only one the rebuild does
+**84 issues in total, numbered 0–83.** Issue 0 is the only one the rebuild does
 not reproduce.
 
 ---
@@ -3072,6 +3115,24 @@ needed. The structure is wrong in the same way it is wrong on the live page.
 
 ### 47. Step-by-step instruction for a strike banned in every combat sport — CONTENT — **High, liability and reputation**
 
+**There is now a model to rewrite this page toward.**
+`/are-kidney-shots-legal-in-ufc/` (17 November 2025) covers the same strike from
+the opposite direction: what the Unified Rules permit, which fouls apply, how a
+referee calls it, and what the injury feels like. It has **no how-to heading and no
+step sequence**, and it is the better page of the two by a wide margin — the full
+comparison is under issue 7.
+
+It is not a clean model yet. It still carries five passages that describe how and
+from where the strike is thrown, and it has no disclaimer either. But its
+structure — rules, fouls, refereeing, risk — is what this page should be rebuilt
+as, and the work is "delete the how-to sections and keep the rules" rather than
+"write something new".
+
+**Revised recommendation:** rewrite `/kidney-punch/` into a rules-and-risk article
+modelled on `/are-kidney-shots-legal-in-ufc/`, or delete it and 301 it there. Fix
+the five delivery passages on the newer page at the same time, and add one
+disclaimer to both.
+
 `/kidney-punch/` teaches readers how to throw a kidney punch. Not how to defend
 against one, not why it is illegal — although it covers both of those as well —
 but how to execute it. The section headings are the issue on their own:
@@ -3694,6 +3755,20 @@ date next to the chart would help, since these limits change.
 Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
+
+**A page about organ trauma with no disclaimer either.**
+`/are-kidney-shots-legal-in-ufc/` devotes a whole H2 to what a kidney strike does
+to the body — "the shock travels straight into the internal organ", "an instant
+wave of nausea burning pain that spreads through the lower back", "it starts a slow
+torture that gets worse every minute", "internal bleeding laceration contusion and
+possible organ failure" — and carries **no disclaimer of any kind**. The words
+"disclaimer", "consult a doctor", "physician", "medical professional", "not medical
+advice", "seek medical advice" and "do not attempt" appear **zero times**.
+
+That makes **four pages** in this batch describing injury mechanisms with no
+disclaimer: `/neck-bridges/`, `/do-neck-bridges-build-muscle/`, `/sambo-moves/`
+and this one, alongside `/kidney-punch/` already logged at issue 47. One policy,
+applied once, fixes all five.
 
 **A SECOND neck bridge post, also with no disclaimer.**
 `/do-neck-bridges-build-muscle/` (16 November 2025) is the second article on this
@@ -4798,6 +4873,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, FIVE pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
+| **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
 | **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
@@ -5121,6 +5197,63 @@ surviving hub.
 
 Do issue 74 first either way. Consolidating two pages that disagree about whether
 the gym sells equipment would just pick one answer at random.
+
+#### The kidney pair: two posts on one strike, one instructional and one rules-based — **High**
+
+`/kidney-punch/` and `/are-kidney-shots-legal-in-ufc/` (17 November 2025) both
+cover kidney strikes. They are not redundant in the usual way — **they are framed
+oppositely**, and that is what makes the pair worth acting on rather than just
+merging:
+
+| | `/kidney-punch/` | `/are-kidney-shots-legal-in-ufc/` |
+|---|---|---|
+| Framing | **instructional** | **mixed, mostly rules** |
+| Headings | "How to Throw a Kidney Punch", "Step by Step Breakdown for Kidney Punching" | "UFC Rules That Directly Affect Kidney Strikes", "How Referees Judge Legal vs Illegal Strikes", "List of Relevant Fouls" |
+| Step sequences | yes | **none** |
+| Rules content | secondary | the spine of the article, with a referee-decision table |
+| Injury risk | mentioned | described in detail across a whole H2 |
+| Invisible ChatGPT links | four, one to a commercial health company | **none** |
+| Disclaimer | none | **none** |
+
+The newer post links the older under the anchor "legal in UFC".
+
+**The newer post is the safer of the two, but it is not purely rules-based.** Five
+passages describe how and from where the strike is delivered:
+
+> "Many fighters throw a kidney shot during the clinch from an underhook after a
+> takedown or when the opponent's body is slightly turned."
+
+> "Fighters dig hard hooks under the ribcage when the opponent stands square or
+> turns a little."
+
+> "The punch drives upward into the soft flank area below the ribs."
+
+> "A sharp kidney blow from an underhook or after turning the opponent's body
+> drains stamina fast without breaking rules."
+
+> "A low roundhouse to the body heel kick to the side or heel to the kidney from
+> the side during stand up or ground exchanges is perfectly legal."
+
+Those are positional and delivery instructions, and the "Improves Strategic Body
+Targeting During Fights" H3 is explicitly tactical: "Fighters mix the kidney shot
+with liver shot solar plexus attacks and rib cage work to break opponents down
+slowly and legally." So the page teaches the strike incidentally while explaining
+its legality — a real difference from `/kidney-punch/`, which teaches it on
+purpose under how-to headings, but not the clean separation the framing of the
+title suggests.
+
+**Recommendation: keep this one, rewrite or remove `/kidney-punch/`.** The
+rules-and-refereeing structure here is the right model — a reader learns what is
+legal, what is a foul and what the referee does, which is defensible content for a
+gym to publish. Two changes are needed before it is the model:
+
+1. Cut the five delivery passages above, or recast them as what referees watch for
+   rather than what fighters do.
+2. Add the disclaimer this page also lacks (issue 31).
+
+`/kidney-punch/` should then be 301'd into it. **Do not merge them as they stand** —
+folding step-by-step striking instruction into the rules page would undo the only
+thing the rules page has going for it.
 
 #### The neck bridge pair: two strength-and-technique guides for one movement — **CRITICAL**
 
@@ -5468,6 +5601,27 @@ rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
 
+**An FAQ question about an OnlyFans account, on a martial arts school's website.**
+The eleven-question accordion on `/are-kidney-shots-legal-in-ufc/` includes, third
+from the top:
+
+> **"Which UFC fighter turned to OnlyFans?"**
+
+It has nothing to do with kidney shots, nothing to do with rules, and nothing to do
+with martial arts. It is a high-volume celebrity search query scraped into the FAQ
+of a business whose programmes start at age four, and it is inside FAQPage
+structured data, so the page is eligible to surface in search results for it.
+
+Two further questions in the same set — "Are groin shots allowed in the UFC?" and
+"Are nut shots legal in the UFC?" — are on-topic for combat-sports rules but are
+the same question twice, and five of the eleven ask whether kidney shots are legal:
+#1, #6, #7, #10 and #11, with #6 ("Are kidney shots illegal in the UFC?") and #11
+("Are kidney shots legal in the UFC?") being the same question inverted.
+
+**What to do:** delete the OnlyFans question immediately — it is the single most
+out-of-place sentence found on the site, and it sits on a page a parent might read.
+Then cut the set from eleven to four or five by removing the duplicates.
+
 **A call to action published as an FAQ question.** The eighth and last question in
 the accordion on `/sambo-moves/` is **"Ready to start your Sambo journey with
 Sixth Sense MMA?"** That is not a question a searcher types; it is a closing line.
@@ -5666,8 +5820,14 @@ uses to reserve space before the image arrives, so a wrong pair causes layout sh
 on slow connections — the same Core Web Vitals penalty, arrived at from the other
 direction.
 
-**In the rebuild** the image is declared at its real 1024x536, so the declaration
-and the file agree.
+**It has happened twice.** `/are-kidney-shots-legal-in-ufc/` does exactly the same
+thing: it serves `Types-of-sambo-22-1024x536.jpg` and declares it
+`width="800" height="419"`. The two posts went up a day apart, 16 and 17 November
+2025, from the same image batch (issue 79), so this is one editing session rather
+than two mistakes.
+
+**In the rebuild** both images are declared at their real 1024x536, so the
+declaration and the file agree.
 
 The page stretches a small image to a much larger size, so it looks soft, and
 the large declared size misleads the browser.
@@ -8924,7 +9084,7 @@ adding an address, so the two sides still match.
 
 ---
 
-### 79. One Sambo photo batch illustrates seven posts, six of them unrelated — CONTENT (asset management), SEO — Medium
+### 79. One Sambo photo batch illustrates eight posts, seven of them unrelated — CONTENT (asset management), SEO — Medium
 
 The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
 uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
@@ -8939,9 +9099,11 @@ on three different subjects:
 | `/top-fighting-styles/` | `-13`, `-14`, `-15` | `Types-of-sambo-13.jpg` |
 | `/do-neck-bridges-build-muscle/` | `-16`, `-17`, `-18` | `Types-of-sambo-16.jpg` |
 | `/martial-arts-progression/` | `-19`, `-20`, `-21` | `Types-of-sambo-19-1024x536.jpg` |
+| `/are-kidney-shots-legal-in-ufc/` | `-22`, `-23`, `-24` | `Types-of-sambo-22-1024x536.jpg` |
 
-The batch now runs to twenty-one files across seven posts, and only `/types-of-sambo/`
-and `/sambo-moves/` are about Sambo at all. An article about whether neck bridges
+The batch now runs to twenty-four files across eight posts, and only `/types-of-sambo/`
+and `/sambo-moves/` are about Sambo at all. An article about whether kidney strikes
+are legal in the UFC is illustrated with `Types-of-sambo-22`, `-23` and `-24`. An article about whether neck bridges
 build muscle is illustrated with `Types-of-sambo-16.jpg`, `-17` and `-18`, and
 unlike the five before it this post uses the full-size uploads rather than the
 1024px resizes, so the pages are not even consistent in which file they request. A post about BJJ being the best
@@ -8961,8 +9123,8 @@ sourcing fault with three consequences:
 - **Nobody can find anything in the media library.** Ten files named for one post
   now belong to three, so replacing the Muay Thai apparel photo means knowing that
   it is `Types-of-sambo-9`.
-- **It points at how these posts were made.** Seven articles published between
-  11 and 16 November 2025 drew their illustrations from one batch, six of them
+- **It points at how these posts were made.** Eight articles published between
+  11 and 17 November 2025 drew their illustrations from one batch, seven of them
   from a batch uploaded for a different post. The last two, \`/do-neck-bridges-build-muscle/\`
   and \`/martial-arts-progression/\`, went up 56 minutes apart. Two of the five, `/sambo-moves/` and
   `/top-fighting-styles/`, were published five minutes apart from one template
@@ -9130,9 +9292,63 @@ so if the client fixes it the rebuild will flag the change rather than drift.
 
 ---
 
+### 83. A rules explainer that contradicts itself, and says kidney punches are legal in boxing — CONTENT (accuracy) — **High**
+
+`/are-kidney-shots-legal-in-ufc/` exists to answer one question about the rules.
+Three of its rule statements are wrong or self-cancelling, and they are reproduced
+exactly in the rebuild rather than corrected.
+
+**1. It says the Unified Rules forbid kidney strikes, then says they do not.** Two
+consecutive sentences under "Unified Rules of Mixed Martial Arts":
+
+> The Unified Rules clearly list strikes to the back of the head spine and
+> **kidneys** as fouls. Rule 13 bans hitting the spine or the back of the torso at
+> any time. **The kidney area on the side remains open for legal attack** because
+> it is not considered the back.
+
+The first sentence puts kidneys on the fouls list. The third says kidney strikes
+are legal. The page's entire thesis is the third one — the title, the H2s and the
+referee table all say side kidney strikes are permitted — so the first sentence is
+simply wrong, and it is the one a reader skimming for the answer is most likely to
+land on.
+
+**2. It says kidney punches are "fully legal in boxing".** Under "Body Uppercuts to
+the Kidney Area":
+
+> From the clinch or double underhooks short body uppercuts to the kidney area are
+> common and **fully legal in boxing or MMA rules** when they land on the side.
+
+Boxing prohibits kidney punches. They are a foul under the unified boxing rules
+that the major commissions and sanctioning bodies apply, which is why referees
+warn for them and why the term "kidney punch" is a standard foul call in boxing
+commentary. Whatever the MMA position, the boxing half of that sentence is
+incorrect on a page whose job is to state what is allowed.
+
+**3. "Rule 13" is cited with no source.** The page attributes the spine prohibition
+to "Rule 13" of the Unified Rules and names "state athletic commissions" generally.
+**It links neither.** In fact the page carries **no outbound source link at all** —
+its only external link is to Facebook. A rules explainer that cites a numbered rule
+and an unnamed commission without linking either gives a reader no way to check it,
+and gives the page no authority signal for a query where authority is the whole
+value.
+
+**Why this is High.** This is the one page on the site whose only purpose is factual
+accuracy about regulation. A reader comes to it to settle an argument. It
+contradicts itself in the first paragraph of its rules section, states a boxing rule
+backwards, and sources nothing. It is also the page recommended at issue 47 as the
+model for rewriting `/kidney-punch/`, so these three faults need fixing before it
+takes on that role.
+
+**What to do:** delete "and kidneys" from the first sentence, or rewrite it as
+"strikes to the back of the head and spine"; correct or remove the boxing claim;
+and link the Unified Rules text on the relevant commission's site. All three are
+single-sentence edits.
+
+---
+
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 92 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 93 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

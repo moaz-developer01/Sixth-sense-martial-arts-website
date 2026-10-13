@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **91 pages**: the homepage, the 5 program pages and all 85 blog
+live HTML of **92 pages**: the homepage, the 5 program pages and all 86 blog
 posts.
 
 Each issue is tagged:
@@ -207,7 +207,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, four on Sambo, four on belt ranks, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, FIVE on belt progression, four on Sambo, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -279,7 +279,7 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
-| 79 | One Sambo photo batch used to illustrate six posts, five of them unrelated, including the featured image on all six | CONTENT (asset management), SEO | 6 | Medium |
+| 79 | One Sambo photo batch used to illustrate seven posts, six of them unrelated, including the featured image on all seven | CONTENT (asset management), SEO | 7 | Medium |
 | 80 | A "Top Fighting Styles" post that ranks one discipline and dismisses the rest, built from another post's template | CONTENT, SEO | 2 | **High** |
 | 81 | Five FAQ questions about Roblox video games published on a martial arts gym's page | SEO, CONTENT | 1 | **High** |
 | 82 | A second H1 published in the middle of an article | SEO | 1 | Medium |
@@ -1666,6 +1666,34 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### Belt testing advertised, and a single location calling itself plural "schools"
+
+`/martial-arts-progression/` adds two claims to the verification list:
+
+> **Pass belt test smooth.** [...] **Take the belt test toward achieving a black
+> belt.** [...] **Free trial ready.**
+
+> **Our martial arts schools in Coppell** guide students of all ages through every
+> step of martial arts progression.
+
+**Belt testing** is a service commitment: it tells a reader there is a grading
+process they can enter and pass. No grading schedule, criteria, fee or awarding
+body appears on this page or anywhere on the site, and `/bjj-belt-ranks-in-coppell/`
+describes belt levels without saying who awards them. The commercial-claims list
+already carries private coaching advertised on four pages and certifications named
+on none; **belt gradings advertised with no published criteria is the third item of
+the same kind.**
+
+**"Our martial arts schools"** is plural for one gym at one address. The same
+paragraph then says "Different martial arts styles meet here", on a page that names
+Taekwondo, Kung Fu, Karate and Judo and teaches none of them. Both are reproduced
+verbatim.
+
+What this post does **not** claim is worth recording too: no private coaching, no
+certified instructors, no one-on-one sessions, no certifications. It is the first
+of the recent batch to advertise nothing the gym has not already published
+elsewhere, apart from the belt testing.
 
 #### A "Family BJJ Programs" tier with no page, and an unsourced local vote
 
@@ -4124,6 +4152,21 @@ thai shorts", "muay thai beginner guide" — delete "kickboxing outfit" and "Mua
 Thai clothing", and settle on one capitalisation. Then run the tag audit this
 issue has been asking for since the first pass.
 
+**Ten tags, nine of them synonyms of the slug.** `/martial-arts-progression/`
+carries: "belt progression", "BJJ progression", "martial arts development",
+"martial arts improvement", "Martial Arts Journey", "martial arts levels",
+"Martial arts progression", "martial arts skills", "Martial Arts Training",
+"self defense training".
+
+Nine of the ten are the same idea reworded — progression, development,
+improvement, journey, levels, skills, training. None names an untaught discipline.
+Two faults remain: **"self defense training" is copied from another post's set** —
+it appears verbatim on `/sambo-moves/` and `/what-to-wear-to-muay-thai-class/`,
+neither of which shares a subject with this one, and self-defence is barely
+mentioned here — and the capitalisation is inconsistent again, with four Title Case
+("Martial Arts Journey", "Martial arts progression", "Martial Arts Training") and
+six lower case.
+
 **A post with NO tags at all.** `/do-neck-bridges-build-muscle/` carries an empty
 tag list — zero terms. It is the only post found without any. On a site where
 other posts carry up to twenty-two, and where `/sambo-moves/` carries fifteen for
@@ -4744,7 +4787,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, four on Sambo, four on belt ranks, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, FIVE on belt progression, four on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -4752,7 +4795,7 @@ Google then has to pick one and ranks all of them weaker.
 | Topic | Competing pages |
 |---|---|
 | **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
-| **BJJ belts and rank progression (confirmed, FOUR pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` — see below |
+| **Belt and rank progression (confirmed, FIVE pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
@@ -5208,6 +5251,51 @@ thing it does that the older does not — the beginner's first-class checklist w
 hand wraps, gloves, water bottle and towel. Leave `/muay-thai-gear/` alone and
 strip its apparel section down to a link.
 
+#### The belt cluster reaches FIVE, and the newest contradicts the other four — **CRITICAL**
+
+`/martial-arts-progression/` (16 November 2025) is the fifth page on belt
+advancement. The other four are below; this one adds a fault the others do not
+have — **it gets the belt order wrong, and disagrees with itself.**
+
+In its body, twice, it states the progression as four belts:
+
+> **Start at white belt and move to orange belt, brown belt, then black belt.**
+
+That skips **yellow, green, blue and purple**. It is not the order in any system,
+and it contradicts `/martial-arts-belt-levels/`, which gives the Karate order
+correctly as "White, Yellow, Orange, Green, Blue, Purple, Brown, and Black" —
+eight belts, not four.
+
+Two headings later the same post gives the BJJ order **correctly**:
+
+> Brazilian jiu jitsu gives stripes on white belt first. **Then belt progression to
+> blue, purple, brown belt and black belt.**
+
+So the page states two different orders, 400 words apart, and the first one uses an
+**orange belt that adult BJJ does not have** — then applies it to BJJ rolling:
+"Light rolls at orange belt turn heavy at brown belt." `/brazilian-jiu-jitsu-belts/`
+and `/brazilian-jiu-jitsu-belt-ranks/` both publish the adult BJJ order as White,
+Blue, Purple, Brown, Black, which the orange-belt sentences contradict.
+
+A reader setting expectations from this page will think there are four belts and
+that orange comes second. Both are wrong, and the site's own other pages say so.
+
+**On ages and timeframes it is clean.** The post states **no age and no belt
+timeframe anywhere in its body prose** — no "ages 4 to 12", no "7 and up", no
+"takes X years to blue belt". That means it does not reproduce the age conflict
+already logged for `/martial-arts-for-kids-strenght/` ("ages 7 and up" against the
+Kids BJJ programme's 4 to 12, with Little Champions at 4 to 7). The only figures it
+publishes are in its FAQ answers — "8-10 kyu ranks before black belt, followed by
+10 dan ranks", "around 20 levels from white belt to 10th dan", "Train consistently
+2-3 times weekly" — and those are about Japanese styles in general, not this gym's
+programmes, so they conflict with nothing.
+
+**Recommendation.** `/bjj-belt-ranks-in-coppell/` remains the natural page to keep
+if the client consolidates: it is the only one of the five with a local slug, and
+local intent is the only thing distinguishing any of them. Merge the five into it,
+301 the rest, **and fix the four-belt sequence before reusing any of this post's
+copy** — it is the only factual error among the five.
+
 #### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
 
 Four pages now explain BJJ belt progression:
@@ -5564,7 +5652,22 @@ nothing in return.
 link, and the Wikipedia "rushing" link; replace or remove the generic ones. Then
 find whatever is auto-linking single words and turn it off.
 
-### 11. Blurry, upscaled featured images — SEO — Medium
+### 11. Featured images whose declared size does not match the file — SEO — Medium
+
+**The opposite fault: an image declared SMALLER than it is.**
+`/martial-arts-progression/` serves `Types-of-sambo-19-1024x536.jpg` — a 1024x536
+file — and declares it `width="800" height="419"`. Every other post on the site
+declares the size it serves.
+
+Where the cases below stretch a small file and look soft, this one ships 1024px of
+data and tells the browser to paint 800, so the page downloads more than it needs
+and the layout reserves the wrong box. Declared dimensions are what the browser
+uses to reserve space before the image arrives, so a wrong pair causes layout shift
+on slow connections — the same Core Web Vitals penalty, arrived at from the other
+direction.
+
+**In the rebuild** the image is declared at its real 1024x536, so the declaration
+and the file agree.
 
 The page stretches a small image to a much larger size, so it looks soft, and
 the large declared size misleads the browser.
@@ -8409,6 +8512,39 @@ happens to write the post rather than by rule.
 
 ### 72. Belt-rank timeframes that describe years of training where the real criteria are age-based — CONTENT (accuracy) — Medium, to verify
 
+**A harder error than a timeframe: a belt ORDER that is wrong.**
+`/martial-arts-progression/` states the progression twice as **"Start at white belt
+and move to orange belt, brown belt, then black belt."** Four belts. It omits
+yellow, green, blue and purple.
+
+That is not a simplification, it is incorrect, and the site contradicts it three
+ways:
+
+| Source | Order published |
+|---|---|
+| `/martial-arts-belt-levels/` | Karate: White, Yellow, Orange, Green, Blue, Purple, Brown, Black |
+| `/brazilian-jiu-jitsu-belts/` | BJJ adults: White, Blue, Purple, Brown, Black |
+| `/brazilian-jiu-jitsu-belt-ranks/` | BJJ adults: White, Blue, Purple, Brown, Black, Red and Black |
+| `/martial-arts-progression/`, body | White, **Orange**, Brown, Black |
+| `/martial-arts-progression/`, BJJ section | White (stripes), Blue, Purple, Brown, Black |
+
+The last two are on the same page, 400 words apart. The four-belt version also
+puts an **orange belt into BJJ**, which adult BJJ does not have, and then uses it
+to describe rolling intensity: "Light rolls at orange belt turn heavy at brown
+belt."
+
+**Why it matters more than the timeframe question below.** A timeframe is a
+judgement a gym can reasonably state differently from the federations. A belt
+order is a fact, it is the single thing a reader comes to a progression page to
+learn, and a prospective member who repeats "there are four belts, orange is
+second" in a conversation at the gym has been misinformed by the gym's own website.
+
+**What to do:** correct the sequence to whichever system the sentence is about — if
+it is meant to be generic, name a style and use that style's order. The post's own
+BJJ section is already right and can be the model. **The rebuild reproduces both
+orders as published**, so the contradiction is preserved for the client to see
+rather than silently patched.
+
 `/bjj-belt-ranks-in-coppell/` publishes seven timeframes. They are the whole
 point of the page: a reader researching belt ranks is researching how long it
 takes.
@@ -8788,7 +8924,7 @@ adding an address, so the two sides still match.
 
 ---
 
-### 79. One Sambo photo batch illustrates six posts, five of them unrelated — CONTENT (asset management), SEO — Medium
+### 79. One Sambo photo batch illustrates seven posts, six of them unrelated — CONTENT (asset management), SEO — Medium
 
 The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
 uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
@@ -8802,8 +8938,9 @@ on three different subjects:
 | `/sambo-moves/` | `-11`, `-12-1`, plus `Sambo-moves-.jpg` | `Sambo-moves-.jpg` |
 | `/top-fighting-styles/` | `-13`, `-14`, `-15` | `Types-of-sambo-13.jpg` |
 | `/do-neck-bridges-build-muscle/` | `-16`, `-17`, `-18` | `Types-of-sambo-16.jpg` |
+| `/martial-arts-progression/` | `-19`, `-20`, `-21` | `Types-of-sambo-19-1024x536.jpg` |
 
-The batch now runs to eighteen files across six posts, and only `/types-of-sambo/`
+The batch now runs to twenty-one files across seven posts, and only `/types-of-sambo/`
 and `/sambo-moves/` are about Sambo at all. An article about whether neck bridges
 build muscle is illustrated with `Types-of-sambo-16.jpg`, `-17` and `-18`, and
 unlike the five before it this post uses the full-size uploads rather than the
@@ -8824,9 +8961,10 @@ sourcing fault with three consequences:
 - **Nobody can find anything in the media library.** Ten files named for one post
   now belong to three, so replacing the Muay Thai apparel photo means knowing that
   it is `Types-of-sambo-9`.
-- **It points at how these posts were made.** Six articles published between
-  11 and 16 November 2025 drew their illustrations from one batch, five of them
-  from a batch uploaded for a different post. Two of the five, `/sambo-moves/` and
+- **It points at how these posts were made.** Seven articles published between
+  11 and 16 November 2025 drew their illustrations from one batch, six of them
+  from a batch uploaded for a different post. The last two, \`/do-neck-bridges-build-muscle/\`
+  and \`/martial-arts-progression/\`, went up 56 minutes apart. Two of the five, `/sambo-moves/` and
   `/top-fighting-styles/`, were published five minutes apart from one template
   (issue 80). Combined with issue 0 — the same four safety sentences on two of those
   three posts — and the fragment prose of issue 76, this looks like one production
@@ -8994,7 +9132,7 @@ so if the client fixes it the rebuild will flag the change rather than drift.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 91 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 92 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

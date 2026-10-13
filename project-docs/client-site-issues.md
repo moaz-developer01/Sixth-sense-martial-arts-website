@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **88 pages**: the homepage, the 5 program pages and all 82 blog
+live HTML of **89 pages**: the homepage, the 5 program pages and all 83 blog
 posts.
 
 Each issue is tagged:
@@ -180,7 +180,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, four versus posts, three on Sambo, two on gear | SEO | 41 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, FOUR on Sambo, four on belt ranks, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -252,7 +252,7 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
-| 79 | One Sambo photo batch used to illustrate three unrelated posts, including the featured image on all three | CONTENT (asset management), SEO | 3 | Medium |
+| 79 | One Sambo photo batch used to illustrate four posts, three of them unrelated, including the featured image on all four | CONTENT (asset management), SEO | 4 | Medium |
 
 **80 issues in total, numbered 0–79.** Issue 0 is the only one the rebuild does
 not reproduce.
@@ -1732,9 +1732,40 @@ leads Sambo locally, runs it every day for four audiences, employs Sambo black
 belts and operates a beginner-to-advanced academy for it, while Sambo appears on
 no programme page, no schedule and no price list.
 
-**Do not launch any of the three Sambo pages in their current form without that
+**The fourth Sambo page advertises a complete programme, with a free trial.**
+`/sambo-moves/` (13 November 2025) goes further than the other three. It does not
+imply Sambo instruction; it sells it, with an H2 "Why Choose Sixth Sense MMA for
+Mix Martial Art?" over six H3s that are a programme listing:
+
+| Heading | What it publishes |
+|---|---|
+| **Free Trial Class** | "Free trial class opens the door." · "Sambo uniform fits free." · "Black belt coaches watch close." · "Learn sambo starts no cost." |
+| **Expert Coaches** | "Expert coaches guide every grip." · "Sambo fighters learn from black belt pros." · "Joint locks teach angle." |
+| **Small Groups** | "Small groups give eyes on you." · "Throws and takedowns spot safe." |
+| **Coppell's Top Gym** | "Coppell's top gym packs sambo." · "Sambo championships train here." · "Mma stars drill sambo moves." |
+| **Kids &amp; Adults Programs** | "Kids start age five with throws." · "Adults chase leg locks." · "Sambo training splits groups." · "Sambo uniform sizes match." |
+
+Elsewhere it adds "Martial art and combat sport flows daily" and an H3 "Perfect
+Martial Arts Training for Kids 5+" whose body reads "Kids roll safe from age five.
+[...] Black belt path starts early." The Contact Us section closes "Black belt
+coaches answer."
+
+**That is a free trial, named coaching credentials, an age-five children's class,
+separate kids and adults groups, daily classes, provided uniforms and a black-belt
+progression path — for a discipline that appears on no programme page, no
+schedule and no price list.** Across the four Sambo posts the site now claims to
+lead Sambo locally, run it daily for four audiences, employ Sambo black belts,
+operate a beginner-to-advanced academy, host championships, and offer a free
+trial class in it.
+
+It is also the only one of the four to claim competition hosting
+("Sambo championships train here") and professional attendance ("Mma stars drill
+sambo moves"), neither of which appears anywhere else on the site.
+
+**Do not launch any of the four Sambo pages in their current form without that
 answer.** This is the one item in this document where publishing the replica
-as-is carries the claim forward.
+as-is carries the claim forward. The free trial makes `/sambo-moves/` the most
+exposed of the four: a visitor can act on it.
 
 ---
 
@@ -3572,6 +3603,56 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**A second Sambo post does the same, and this one addresses five-year-olds.**
+`/sambo-moves/` is subtitled "Essential Techniques for **Beginners**" in its page
+title and carries joint-lock, throw and takedown instruction with **no supervision
+caveat anywhere on the page** — the words "supervision", "qualified", "instructor
+present", "do not attempt" and "seek professional" appear zero times in 2,907
+words.
+
+What it does publish:
+
+> **Locking Moves** — "Joint locks trap elbows. Leg locks snap ankles. Locking
+> moves crank slow. Submission techniques end pain."
+
+> **Arm Lock** — "Arm lock cranks elbows. **Joint locks hyperextend fast.**
+> Submission techniques force taps from mount."
+
+> **Leg Hook** — "Leg hook reaps thigh. Sambo moves inside or outside. Throwing
+> techniques lift knee. Sambo fighters drive hip through."
+
+> **Strong Takedowns** — "Strong takedowns crash mats. Hip throw flips hips.
+> Double legs blast low."
+
+"Leg locks snap ankles" and "Joint locks hyperextend fast" describe the mechanism
+of injury as the goal of the technique. Heel hooks and ankle locks are banned for
+juveniles and for beginners by most grappling federations precisely because the
+injury arrives without warning.
+
+**The page then applies all of it to children.** An H3 reads "Perfect Martial Arts
+Training for **Kids 5+**", and under it: "Kids roll safe from age five. [...]
+Throws and takedowns play light." Another says "Kids start age five with throws.
+**Adults chase leg locks.**" A five-year-old's parent reading this page is told
+throws are appropriate from age five, on a page that has just explained how to
+hyperextend an elbow.
+
+**Priority: HIGH, alongside `/neck-bridges/` and `/kidney-punch/`.** Those two are
+already logged here for the same fault — instruction in a technique that injures,
+published to an audience the page itself identifies as untrained, with no caveat.
+This is the third, and the only one of the three that names an age as low as five.
+
+**What this is NOT:** the page does not explicitly tell a reader to practise alone
+or at home. There is no "try this at home" sentence. The fault is the absence of
+the opposite: a page titled for beginners, naming ages from five, giving
+joint-lock mechanics, and saying nothing at all about needing a coach.
+
+**What to do:** add a supervision line to every technique section on all four Sambo
+posts, `/neck-bridges/` and `/kidney-punch/`, and remove the leg-lock references
+from anything addressed to children. **The rebuild does not add one** — inventing a
+disclaimer the client has not approved would be writing new copy into a replica —
+so `dist/sambo-moves.html` carries the same absence and the build fails if a
+supervision note is ever introduced without being asked for.
+
 **Joint-lock and leg-lock instruction on a page whose title invites beginners to
 start today.** `/sambo-techniques/` is titled "Learn sambo techniques that
 **beginners can start today**" and carries step-by-step instruction for the two
@@ -3931,6 +4012,28 @@ different:
 thai shorts", "muay thai beginner guide" — delete "kickboxing outfit" and "Muay
 Thai clothing", and settle on one capitalisation. Then run the tag audit this
 issue has been asking for since the first pass.
+
+**Fifteen tags, every one for a discipline the gym has no programme for.**
+`/sambo-moves/` carries: "combat sambo moves", "russian sambo", "sambo for
+beginners", "sambo grappling", "sambo martial arts", "sambo moves", "sambo
+practice drills", "sambo submissions", "sambo takedowns", "sambo techniques",
+"sambo techniques list", "sambo throws", "sambo training", "sambo wrestling
+moves", "self defense sambo".
+
+**All fifteen name Sambo**, which is not among the gym's five programmes (issue
+39). This is the clearest case of the fault this issue describes: fifteen tag
+archive pages, each titled for a discipline the business may not teach, each
+indexable. Three of them — "sambo techniques", "sambo training", "sambo
+grappling" — duplicate tags already on the other three Sambo posts, so the
+archives pool four competing articles under terms the gym cannot service.
+
+Two are also other posts' primary keywords: "sambo techniques" is the slug of
+`/sambo-techniques/` and "sambo moves" is this post's own, so the tag archive
+competes with the post it was created from.
+
+**What to do:** resolve issue 39 first. If the gym does not teach Sambo, every one
+of these fifteen tags is pointing searchers at a service that does not exist, and
+the tags should go with the posts.
 
 **A tag set that is on topic, and still makes issue 7 worse.** The ten tags on
 `/types-of-sambo/` are, unusually for this site, all about the post's subject:
@@ -4496,7 +4599,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, four on belt ranks, four versus posts, three on Sambo, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, FOUR on Sambo, four on belt ranks, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -4513,7 +4616,7 @@ Google then has to pick one and ranks all of them weaker.
 | Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
 | **Muay Thai apparel (confirmed, THREE pages on what to wear)** | `/muay-thai-clothing/` · `/what-to-wear-to-muay-thai-class/` · `/muay-thai-gear/` — see below |
-| **Sambo (confirmed, THREE pages for a discipline with no programme — one pair duplicates a whole section)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` — see below |
+| **Sambo (confirmed, FOUR pages for a discipline with no programme — two pairs, each duplicating the other's subject)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` · `/sambo-moves/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **"Versus" comparisons (confirmed, FOUR posts, one pair the same comparison twice)** | `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` · `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` — see below |
 
@@ -4709,7 +4812,34 @@ technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
 
-#### The Sambo cluster: three posts, zero programme, and two of them answer the same question — **CRITICAL**
+#### The Sambo cluster: FOUR posts, zero programme, and two overlapping pairs — **CRITICAL**
+
+`/sambo-moves/` (13 November 2025) is the fourth. The cluster now contains two
+distinct duplications rather than one:
+
+| Pair | Overlap |
+|---|---|
+| `/sambo-techniques/` + `/sambo-moves/` | **The closest pair.** Both are built around throws and joint locks. `/sambo-techniques/` has H3s "Hip Throws and Their Execution", "Leg Reaps for Takedowns", "Sacrifice Throws Step by Step", "Arm Locks and Joint Manipulations", "Leg Locks for Control"; `/sambo-moves/` has "Throws", "Strong Takedowns", "Locking Moves", "Arm Lock", "Foot Sweep", "Leg Hook". Same techniques, same depth, two URLs. |
+| `/sambo-martial-art/` + `/types-of-sambo/` | Both explain the five types of Sambo, as five H3s under an H2 asking the same question (detailed below). |
+
+`/sambo-moves/` also carries an H2 "Most Effective Types Sambo Moves" and H2s for
+"Sport Sambo (Only Grappling)" and "Combat Sambo (Fighting + Self-Defense)", so it
+overlaps the *types* pair as well. **All four posts now cover both the types and
+the techniques**, and the site competes against itself four ways on a discipline it
+has no programme page for.
+
+The four were published across six months — 20 May, 21 October, 11 November and
+13 November 2025 — with the last two eight weeks apart in slug and two days apart
+in date. Nothing on any of them references the others' conclusions.
+
+**Recommendation: one page, not four.** Keep `/sambo-techniques/` as the survivor —
+its technique copy is the most substantial on the subject — fold the types material
+from `/sambo-martial-art/` into it as one section, and 301 `/types-of-sambo/` and
+`/sambo-moves/` into it. Neither of those two has a subject the survivors do not
+already cover. Note that `/types-of-sambo/` cannot be touched until issue 0 is
+resolved, and all four need the service-claim answer in issue 39 first.
+
+#### The original pair: /sambo-martial-art/ and /types-of-sambo/ answer the same question — **CRITICAL**
 
 `/sambo-martial-art/` (20 May 2025), `/sambo-techniques/` (21 October 2025) and
 `/types-of-sambo/` (11 November 2025) all target Sambo. Each of the two newer
@@ -5037,6 +5167,15 @@ separate the others. Blog posts about classes should link to the program page
 rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
+
+**A call to action published as an FAQ question.** The eighth and last question in
+the accordion on `/sambo-moves/` is **"Ready to start your Sambo journey with
+Sixth Sense MMA?"** That is not a question a searcher types; it is a closing line.
+It sits inside FAQPage structured data, so it is eligible to appear in search
+results as a question the page answers. Google's guidance excludes promotional
+content from FAQ markup, which puts the whole FAQPage block on this page at risk
+of being ignored — the other seven questions are genuine. **What to do:** move it
+out of the accordion and make it the section's closing paragraph.
 
 **A different fault, on the same mechanism: eight FAQ questions that are one
 question.** `/what-to-wear-to-muay-thai-class/` publishes an eight-question
@@ -7405,7 +7544,39 @@ ones scroll rather than breaking the layout on a phone. The sticky table of
 contents scrolls internally, which it needs to at 17 entries, and the reading
 progress bar tracks correctly across the full length.
 
-### 64. An auto-linking plugin that cuts words in half, and wraps whole clauses, to place internal links — SEO, CONTENT — Medium
+### 64. An auto-linking plugin that cuts words in half, wraps whole clauses, and has now published a malformed URL — SEO, CONTENT — **High**
+
+**The plugin has produced a link that cannot resolve.** On `/sambo-moves/`:
+
+```html
+<a href="http://ixed martial arts pulls sambo moves" target="_blank"
+   rel="noreferrer noopener">Mixed martial </a>arts pulls sambo moves.
+```
+
+It took the sentence "Mixed martial arts pulls sambo moves", **dropped the leading
+"M"**, and used the remainder as a host and path with `http://` in front. The
+result is a link to a host called `ixed` with four spaces in the path. It is not a
+404 — it is not a resolvable URL at all. A browser will try `http://ixed` and fail
+to find the host; a crawler records a broken outbound link; the anchor text
+"Mixed martial " is left reading as a fragment.
+
+This is the same mechanism as the half-word anchors below, but the earlier cases
+produced ugly links to real pages. This one produced a link to nothing, on a live
+indexable page, and it is the only instance of it found across all 83 posts.
+
+The same post also carries two clause-length anchors from the plugin:
+`<a href="/types-of-sambo/">Martial art </a>and combat sport flows daily` and a
+second two-word "Mixed martial " anchor pointing at `/sambo-martial-art/`. Both
+split sentences mid-phrase, trailing space included.
+
+**Reproduced as published** in `dist/sambo-moves.html`, because inventing a
+destination would change where the link goes, and the build asserts it is there
+deliberately rather than by accident. **This one should be fixed on the live site
+first** — it is a one-character deletion away from being correct, and it is the
+only link on the site that points at a nonexistent host.
+
+**What to do:** audit every link the plugin has placed, not just this one. A
+plugin that can drop the first character of a URL has no validation at all.
 
 `/best-fighting-style-for-self-defense/` contains two internal links whose
 anchor text **ends in the middle of a word**:
@@ -8385,7 +8556,7 @@ adding an address, so the two sides still match.
 
 ---
 
-### 79. One Sambo photo batch illustrates three unrelated posts — CONTENT (asset management), SEO — Medium
+### 79. One Sambo photo batch illustrates four posts, three of them unrelated — CONTENT (asset management), SEO — Medium
 
 The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
 uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
@@ -8396,8 +8567,15 @@ on three different subjects:
 | `/types-of-sambo/` | `-1`, `-2`, `-3-1` | `Types-of-sambo-1.jpg` |
 | `/mixed-martial-arts-vs-kickboxing/` | `-4`, `-7`, `-6` | `Types-of-sambo-4.jpg` |
 | `/what-to-wear-to-muay-thai-class/` | `-8`, `-9`, `-10` | `Types-of-sambo-8.jpg` |
+| `/sambo-moves/` | `-11`, `-12-1`, plus `Sambo-moves-.jpg` | `Sambo-moves-.jpg` |
 
-The files are genuinely different photographs — verified by md5, all nine are
+The batch now runs to twelve files across four posts, and only `/sambo-moves/`
+is actually about Sambo. Its featured image is the one exception to the naming
+pattern and has a fault of its own: it is published as **`Sambo-moves-.jpg`**,
+with a trailing hyphen before the extension, which is what WordPress produces when
+a filename is generated from a title and the last word is dropped.
+
+The files are genuinely different photographs — verified by md5, all twelve are
 distinct — so this is not the duplicate-image fault of issue 26. It is a naming and
 sourcing fault with three consequences:
 
@@ -8408,9 +8586,9 @@ sourcing fault with three consequences:
 - **Nobody can find anything in the media library.** Ten files named for one post
   now belong to three, so replacing the Muay Thai apparel photo means knowing that
   it is `Types-of-sambo-9`.
-- **It points at how these posts were made.** Three articles published between
-  11 and 13 November 2025 drew their illustrations from one batch uploaded for a
-  fourth. Combined with issue 0 — the same four safety sentences on two of those
+- **It points at how these posts were made.** Four articles published between
+  11 and 13 November 2025 drew their illustrations from one batch, three of them
+  from a batch uploaded for a different post. Combined with issue 0 — the same four safety sentences on two of those
   three posts — and the fragment prose of issue 76, this looks like one production
   run rather than three editorial decisions.
 
@@ -8428,7 +8606,7 @@ placed, so the live naming fault is fixed rather than carried over.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 88 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 89 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

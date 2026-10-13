@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **89 pages**: the homepage, the 5 program pages and all 83 blog
+live HTML of **90 pages**: the homepage, the 5 program pages and all 84 blog
 posts.
 
 Each issue is tagged:
@@ -180,7 +180,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, FOUR on Sambo, four on belt ranks, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, four on Sambo, four on belt ranks, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -252,9 +252,11 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
-| 79 | One Sambo photo batch used to illustrate four posts, three of them unrelated, including the featured image on all four | CONTENT (asset management), SEO | 4 | Medium |
+| 79 | One Sambo photo batch used to illustrate five posts, four of them unrelated, including the featured image on all five | CONTENT (asset management), SEO | 5 | Medium |
+| 80 | A "Top Fighting Styles" post that ranks one discipline and dismisses the rest, built from another post's template | CONTENT, SEO | 2 | **High** |
+| 81 | Five FAQ questions about Roblox video games published on a martial arts gym's page | SEO, CONTENT | 1 | **High** |
 
-**80 issues in total, numbered 0–79.** Issue 0 is the only one the rebuild does
+**82 issues in total, numbered 0–81.** Issue 0 is the only one the rebuild does
 not reproduce.
 
 ---
@@ -1626,6 +1628,30 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### A "Family BJJ Programs" tier with no page, and an unsourced local vote
+
+`/top-fighting-styles/` advertises a fourth BJJ tier the site does not have.
+Alongside the three real programmes — `/kids-bjj-classes/`, `/teen-bjj-classes/`
+and `/adult-bjj-classes/`, all three of which this post correctly links — it adds:
+
+> **Family BJJ Programs** — "Families train side by side. Parents and kids share
+> mats. [...] Discounts apply for groups. **No need for separate martial arts
+> classes.** The whole family masters BJJ together."
+
+There is no family programme page, no family slot on any schedule, and "no need for
+separate martial arts classes" tells a parent they can train in the same session as
+their five-year-old — which contradicts the age-separated structure of the three
+real programmes.
+
+The same post also claims **"Local votes pick us first for BJJ."** No vote, poll,
+award or publication is named. This is the same unsourced-authority pattern as the
+"Trusted by Hundreds of Fighters" headings below and the unnamed Sambo black belts
+above, and "local votes" is the most checkable form of it yet — if a local award
+exists, naming it would be worth more than the claim.
+
+**What to do:** confirm whether a family class exists. If it does, it needs a
+programme page. If it does not, delete the section. Name the vote or delete it.
 
 #### "Trusted by Hundreds of Fighters", "Tested and Approved by Professional Fighters" — unverifiable, in headings
 
@@ -4013,6 +4039,32 @@ thai shorts", "muay thai beginner guide" — delete "kickboxing outfit" and "Mua
 Thai clothing", and settle on one capitalisation. Then run the tag audit this
 issue has been asking for since the first pass.
 
+**Thirteen tags for a ranked comparison the post does not contain.** The tags on
+`/top-fighting-styles/` are: "best martial arts", "best styles for beginners",
+"combat sports styles", "effective fighting styles", "fighting styles ranked",
+"grappling martial arts", "Martial Arts Comparison", "martial arts list",
+"mixed martial arts styles", "modern fighting styles", "popular fighting styles",
+"self defense styles", "striking martial arts".
+
+None names an untaught discipline, which is unusual for this site. The faults are
+different:
+
+- **Eleven of the thirteen promise a comparison or a list** — "fighting styles
+  ranked", "martial arts list", "Martial Arts Comparison", "popular fighting
+  styles", "best martial arts", "combat sports styles", "effective fighting
+  styles", "modern fighting styles", "mixed martial arts styles", "best styles for
+  beginners", "self defense styles". The post ranks one discipline and lists
+  nothing (issue 80). Every one of these tag archives will be titled for content
+  the page does not have.
+- **"striking martial arts" is the opposite of the page's content.** The article
+  argues against striking styles throughout — "No kickboxing or karate high kicks
+  here" — and is entirely about grappling.
+- **"best martial arts" is another post's slug.** `/best-martial-arts/` exists and
+  is the oldest page in the eight-post self-defence cluster (issue 7). Tagging this
+  post with it adds a ninth competing URL.
+- **Capitalisation is inconsistent**: "Martial Arts Comparison" is Title Case, the
+  other twelve are lower case.
+
 **Fifteen tags, every one for a discipline the gym has no programme for.**
 `/sambo-moves/` carries: "combat sambo moves", "russian sambo", "sambo for
 beginners", "sambo grappling", "sambo martial arts", "sambo moves", "sambo
@@ -4599,14 +4651,14 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: seven on one question, six on Muay Boran, FOUR on Sambo, four on belt ranks, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, six on Muay Boran, four on Sambo, four on belt ranks, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
 
 | Topic | Competing pages |
 |---|---|
-| **Best martial art for self-defence (confirmed, SEVEN pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` — see below |
+| **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
 | **BJJ belts and rank progression (confirmed, FOUR pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
@@ -4932,6 +4984,40 @@ surviving hub.
 
 Do issue 74 first either way. Consolidating two pages that disagree about whether
 the gym sells equipment would just pick one answer at random.
+
+#### The self-defence cluster reaches EIGHT, and the newest is the thinnest — **CRITICAL**
+
+`/top-fighting-styles/` (13 November 2025) is the eighth page chasing "which
+martial art is best for self-defence". The cluster, oldest first:
+
+| Post | Published | Angle |
+|---|---|---|
+| `/best-martial-arts/` | 18 Feb 2025 | "Top Disciplines Ranked" |
+| `/best-martial-arts-for-self-defense/` | 21 Jan 2025 | "Which Style Suits You?" |
+| `/which-martial-art-is-best-for-self-defence/` | 8 Sep 2025 | the question as a title |
+| `/best-fighting-style-for-self-defense/` | 17 Sep 2025 | **the closest match by title** |
+| `/best-self-defense/` | 17 Sep 2025 | "for Protection" |
+| `/top-ten-martial-arts-for-self-defense/` | 20 Sep 2025 | a ranked ten that is five (issue 65) |
+| `/martial-arts-for-self-defense/` | 18 Oct 2025 | six disciplines, four untaught |
+| `/top-fighting-styles/` | 13 Nov 2025 | a ranked list of one (issue 80) |
+
+**`/best-fighting-style-for-self-defense/` is the closest match.** "Top fighting
+styles" and "best fighting style for self-defense" are the same query with a
+synonym swapped; both posts promise a ranked comparison of styles for real
+self-defence. The older one actually delivers one. The newer ranks only BJJ.
+
+Eight pages is the largest cannibalisation group in this document, and it has
+grown by four since February. Google has to choose one of eight; none of them
+accrues the authority a single strong page would, and the newest is the weakest
+candidate to win.
+
+**Recommendation: consolidate to ONE.** Pick the strongest — `/best-martial-arts/`
+has the oldest URL and the broadest title — merge the comparison tables and the
+discipline sections from the other seven into it, and 301 all seven. If the client
+wants a second page, make it a genuinely different question ("self-defence for
+women", "self-defence for kids") rather than another synonym.
+`/top-fighting-styles/` is the first that should go: it has no content the other
+seven lack, and issue 80 means it needs rewriting anyway.
 
 #### The versus quartet: four comparison posts, and one pair is the same comparison written twice — **CRITICAL**
 
@@ -6829,7 +6915,27 @@ resistance, because two consecutive posts did it two different ways.
 published, and the build fails if any is promoted to a heading. The page's flat
 outline is preserved as-is.
 
-### 55. Two pages advertising two different discount schemes — CONTENT (accuracy), TRUST — **High, the client must confirm**
+### 55. Three pages advertising three different discount schemes, two of them on one page — CONTENT (accuracy), TRUST — **High, the client must confirm**
+
+**A third scheme, and this page carries two of them.**
+`/top-fighting-styles/` publishes both:
+
+> **Family BJJ Programs** — "Families train side by side. [...] **Discounts apply
+> for groups.**"
+
+> **Kids &amp; Adults Programs** — "Daily slots fit all ages. [...] **Family plans
+> save cash.**"
+
+"Discounts apply for groups" and "Family plans save cash" are two different offers
+— one for groups, one for families — on one page, 1,500 words apart, with no
+figure, no eligibility and no expiry attached to either. Neither appears on any
+programme page or price list, and neither matches the two schemes already logged
+below. That makes **three discount schemes across three posts**, none of them
+confirmed.
+
+**What to do:** the client needs to say which discounts, if any, exist. Until then
+every one of these is a representation about price that a prospective member can
+quote at the front desk.
 
 The site offers discounts on two of its six local landing pages. The two pages
 do not agree on who gets one.
@@ -8556,7 +8662,7 @@ adding an address, so the two sides still match.
 
 ---
 
-### 79. One Sambo photo batch illustrates four posts, three of them unrelated — CONTENT (asset management), SEO — Medium
+### 79. One Sambo photo batch illustrates five posts, four of them unrelated — CONTENT (asset management), SEO — Medium
 
 The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
 uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
@@ -8568,9 +8674,11 @@ on three different subjects:
 | `/mixed-martial-arts-vs-kickboxing/` | `-4`, `-7`, `-6` | `Types-of-sambo-4.jpg` |
 | `/what-to-wear-to-muay-thai-class/` | `-8`, `-9`, `-10` | `Types-of-sambo-8.jpg` |
 | `/sambo-moves/` | `-11`, `-12-1`, plus `Sambo-moves-.jpg` | `Sambo-moves-.jpg` |
+| `/top-fighting-styles/` | `-13`, `-14`, `-15` | `Types-of-sambo-13.jpg` |
 
-The batch now runs to twelve files across four posts, and only `/sambo-moves/`
-is actually about Sambo. Its featured image is the one exception to the naming
+The batch now runs to fifteen files across five posts, and only `/types-of-sambo/`
+and `/sambo-moves/` are about Sambo at all. A post about BJJ being the best
+fighting style is illustrated with `Types-of-sambo-13.jpg`. Its featured image is the one exception to the naming
 pattern and has a fault of its own: it is published as **`Sambo-moves-.jpg`**,
 with a trailing hyphen before the extension, which is what WordPress produces when
 a filename is generated from a title and the last word is dropped.
@@ -8586,9 +8694,11 @@ sourcing fault with three consequences:
 - **Nobody can find anything in the media library.** Ten files named for one post
   now belong to three, so replacing the Muay Thai apparel photo means knowing that
   it is `Types-of-sambo-9`.
-- **It points at how these posts were made.** Four articles published between
-  11 and 13 November 2025 drew their illustrations from one batch, three of them
-  from a batch uploaded for a different post. Combined with issue 0 — the same four safety sentences on two of those
+- **It points at how these posts were made.** Five articles published between
+  11 and 13 November 2025 drew their illustrations from one batch, four of them
+  from a batch uploaded for a different post. Two of the five, `/sambo-moves/` and
+  `/top-fighting-styles/`, were published five minutes apart from one template
+  (issue 80). Combined with issue 0 — the same four safety sentences on two of those
   three posts — and the fragment prose of issue 76, this looks like one production
   run rather than three editorial decisions.
 
@@ -8604,9 +8714,125 @@ placed, so the live naming fault is fixed rather than carried over.
 
 ---
 
+### 80. A "Top Fighting Styles" post that ranks one discipline, built from another post's template — CONTENT, SEO — **High**
+
+`/top-fighting-styles/` is titled for a ranked comparison and its meta description
+promises "the top fighting styles in the world. From MMA to Muay Thai". It ranks
+**one** discipline.
+
+Its first H2, "Top Fighting Styles Programs at Sixth Sense Martial Arts", carries
+four H3s:
+
+| H3 | Discipline |
+|---|---|
+| Brazilian Jiu-Jitsu (BJJ) – All Levels | BJJ |
+| Kids BJJ Programs (Little &amp; Rising Champions) | BJJ |
+| Teen &amp; Adult BJJ Classes (Unlimited 60-Min) | BJJ |
+| Family BJJ Programs | BJJ |
+
+Four slots, one discipline, split by age group. This is the padding pattern
+already logged for `/top-ten-martial-arts-for-self-defense/` (issue 65), where ten
+slots held five disciplines counted twice — but there the padding at least used
+five. Here it uses one.
+
+**Every other style on the page is named only to be dismissed.** The page names
+Muay Thai, MMA, boxing, kickboxing, Krav Maga, karate, judo, taekwondo, wrestling
+and kung fu, and each appears as something BJJ defeats:
+
+> "It differs from muay thai or thai boxing which use punch and kick."
+> "**No kickboxing or karate high kicks here.**"
+> "BJJ handles combat situations better than taekwondo or kung fu."
+> "Those korean martial art and chinese martial art focus on stands up moves."
+> "BJJ handles real combat better than muay thai kick or karate punch."
+> "Krav maga is an israeli quick art but our BJJ builds full control."
+> "**BJJ beats taekwondo spins here.** Taekwondo is a korean martial for show but
+> BJJ wins combat situations."
+
+**It contradicts the gym's own programme pages.** One FAQ answer states
+"**Sixth Sense Martial Arts focuses only on BJJ for real control.**" The business
+runs `/adult-muay-thai-classes/` and `/teen-muay-thai-classes/` — two of its five
+programme pages are Muay Thai. A searcher comparing styles is told, on the gym's
+own domain, that it does not really teach one of the two things it sells, and that
+Muay Thai is the weaker choice. "No kickboxing or karate high kicks here" reads as
+a selling point and is an argument against the Muay Thai programme.
+
+**The page is also `/sambo-moves/` with the discipline swapped.** The two were
+published two days apart, 13 November 2025, 20:40 and 20:45. Twelve of this post's
+twenty-eight H3s are identical, in the same order, to twelve on `/sambo-moves/`:
+
+> Build Strong Self-Defense · Get Fit and Strong · Win in Competitions · Learn Real
+> MMA Skills · Boost Confidence · Fun for Kids and Adults
+
+> Free Trial Class · Expert Coaches · Small Groups · Safe &amp; Fun Training ·
+> Coppell's Top Gym · Kids &amp; Adults Programs
+
+Both also run H2s of the form "Why Learn X at …", "Benefits of Learning X at …",
+"Who Can Learn X at …", "Why Choose … for X". It is one template filled twice,
+five minutes apart, once with Sambo and once with BJJ. `/sambo-moves/` claims the
+gym teaches Sambo; this one claims it teaches only BJJ. **The two contradict each
+other and were produced in the same sitting.**
+
+**What to do:** either make the page a real comparison — name the styles, say what
+each is good for, and link the gym's own Muay Thai programme where it is the
+better answer — or retitle it as a BJJ page and 301 it. It cannot stay as a
+"top styles" page that disparages the business's other programme. Then look at the
+template: issue 7 now has eight pages chasing this query, and this one was
+generated rather than written.
+
+---
+
+### 81. Five FAQ questions about Roblox video games — SEO, CONTENT — **High**
+
+The FAQ on `/top-fighting-styles/` has nine questions. **Five are about video
+games, not martial arts:**
+
+| # | Question | Subject |
+|---|---|---|
+| 5 | "How to get fighting styles in baddies?" | *Baddies*, a Roblox game |
+| 6 | "Where to get fighting styles?" | game phrasing, answered about the gym |
+| 7 | "What are the best fighting styles in blox fruits?" | *Blox Fruits*, a Roblox game |
+| 8 | "What's the best fighting style in blox fruits?" | *Blox Fruits* |
+| 9 | "How to buy fighting styles in blox fruits?" | *Blox Fruits* |
+
+*Blox Fruits* is one of the most-played games on Roblox; "fighting styles" there
+are in-game purchases. Someone searching that phrase is a child looking for game
+advice. The answers acknowledge it and pivot to selling classes:
+
+> "Game meta changes. **Real top fighting styles stay BJJ.** Sixth Sense Martial
+> Arts teaches BJJ for ground fighting control. [...] **Free trial proves BJJ beats
+> virtual moves.**"
+
+> "How to buy fighting styles in blox fruits? **Virtual currency only.** Real BJJ
+> training costs nothing to try."
+
+**Why this is High.**
+
+- **It is keyword scraping, visible to the reader.** Someone comparing gyms sees a
+  martial arts school answering questions about a Roblox game. It reads as
+  unserious, on a page whose job is to establish expertise.
+- **It is marked up as FAQPage.** These questions are eligible for rich results, so
+  the gym's page can surface for "how to buy fighting styles in blox fruits" and
+  take a click from a child who wants game help. That traffic cannot convert and
+  the bounce is immediate.
+- **It targets children with a sales pitch.** The answers tell a young reader their
+  game is not real and that they should book a free trial instead. That is a
+  separate judgement call for the client, but it should be a deliberate one.
+- **It dilutes the page.** Five of nine questions tell Google this page is about
+  games. The page is already the eighth in the self-defence cluster (issue 7) and
+  needs every signal it can get.
+
+**What to do:** delete all five. Keep questions 1-4, which are real martial arts
+questions, and add Sambo-free, game-free replacements the article answers — what
+BJJ costs to try, what a first class involves, what to wear. Then check the other
+posts' FAQs for the same scraping: this is the third distinct FAQ fault in the
+document, after the generic set reused on 13 posts (issue 9) and the six off-topic
+boxing questions on `/types-of-sambo/` (issue 77).
+
+---
+
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 89 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 90 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

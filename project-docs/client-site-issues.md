@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **90 pages**: the homepage, the 5 program pages and all 84 blog
+live HTML of **91 pages**: the homepage, the 5 program pages and all 85 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,7 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. Two posts tell readers the gym carries no risk of concussion or brain injury, on classes sold to five-year-olds — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. Three posts promise an absence of injury risk, two of them on classes sold to five-year-olds — CONTENT (accuracy), LIABILITY — **URGENT**
 
 `/types-of-sambo/`, in the paragraph under the H3 **"Safe, Controlled and
 Professional Training Environment"**, publishes these four sentences:
@@ -150,6 +150,33 @@ hits hard", "Brain damage steals futures", "Repetitive head trauma builds cte",
 "Concussion risk drops". **25 such sentences were kept.** Nothing was
 paraphrased, softened or substituted; the gaps are literal.
 
+### A third page, one sentence, on an exercise with documented injury risk
+
+`/do-neck-bridges-build-muscle/` (16 November 2025) carries one sentence of the
+same kind, in its "Exercise basic concept" section:
+
+> Neck bridge lifts head off ground in bridge position. It loads cervical spine
+> with body weight. [...] **Ways to build neck without risk start here.**
+
+A neck bridge loads the cervical spine with bodyweight. There is no way to do it
+without risk, and the same page says so twice — "they can also be risky if
+performed incorrectly" and "Neck bridges the wrong way risks getting injured".
+The sentence contradicts its own article three paragraphs later.
+
+**This page is otherwise the best of the three on safety**, which is why only one
+sentence was cut rather than 29. It tells the reader "Neck bridges aren't for all",
+it says "Axial load tests herniation risk", and it repeats **"Medical clearance if
+neck issues" four times**. Those are all reproduced. What it does not have is a
+disclaimer (issue 31).
+
+**Status in the rebuild: OMITTED.** `dist/do-neck-bridges-build-muscle.html`
+reproduces everything else verbatim — every technique step, every anatomy claim,
+every set and rep figure — and leaves a comment where that one sentence was:
+
+```html
+<!-- OMITTED: claims the neck can be built without risk, see client-site-issues.md issue 0 -->
+```
+
 **What to do about the pattern, not just the pages:** both posts were published
 within three hours of each other from what is evidently the same copy source,
 and both reuse the same `Types-of-sambo-*` image batch. Before fixing either
@@ -173,7 +200,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **Two** posts promising no concussion, brain-injury, brain-damage or head-trauma risk, 33 sentences in all, 9 of them on classes for ages 5-12 — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 2 | **URGENT** |
+| 0 | **Three** posts promising an absence of injury risk, 34 sentences in all, 9 of them on classes for ages 5-12 — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 3 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -252,11 +279,12 @@ decision.
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
 | 78 | A local-intent post that publishes no address, on a site where every other post does | SEO (local), CONTENT | 1 | Medium |
-| 79 | One Sambo photo batch used to illustrate five posts, four of them unrelated, including the featured image on all five | CONTENT (asset management), SEO | 5 | Medium |
+| 79 | One Sambo photo batch used to illustrate six posts, five of them unrelated, including the featured image on all six | CONTENT (asset management), SEO | 6 | Medium |
 | 80 | A "Top Fighting Styles" post that ranks one discipline and dismisses the rest, built from another post's template | CONTENT, SEO | 2 | **High** |
 | 81 | Five FAQ questions about Roblox video games published on a martial arts gym's page | SEO, CONTENT | 1 | **High** |
+| 82 | A second H1 published in the middle of an article | SEO | 1 | Medium |
 
-**82 issues in total, numbered 0–81.** Issue 0 is the only one the rebuild does
+**83 issues in total, numbered 0–82.** Issue 0 is the only one the rebuild does
 not reproduce.
 
 ---
@@ -293,6 +321,16 @@ not stop it coming back.
 ## CONTENT
 
 ### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
+
+**A fourth way of writing the right number.**
+`/do-neck-bridges-build-muscle/` publishes it **space-separated** — "Phone: 469 972
+7800" — where the rest of the site hyphenates it, "469-972-7800". That makes four
+published forms of the correct number across the blog: hyphenated, hyphenated
+inside `<strong>` with the full stop inside the bold (`/sambo-moves/`), bare
+digits in the `tel:` attribute, and now space-separated. A space-separated number
+is not auto-detected as dialable by some mobile browsers, so a reader on a phone
+has to retype it. The rebuild reproduces the published spacing and routes every
+`tel:` link to `+14699727800` regardless.
 
 The tap-to-call links use `tel:4639727800`. The real number is
 **(469) 972-7800**. The area code is wrong, 463 instead of 469, so anyone who
@@ -3629,6 +3667,53 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**A SECOND neck bridge post, also with no disclaimer.**
+`/do-neck-bridges-build-muscle/` (16 November 2025) is the second article on this
+exercise and, like `/neck-bridges/`, it carries **no medical disclaimer of any
+kind**. The words "disclaimer", "consult a doctor", "consult your physician",
+"medical professional", "not medical advice" and "seek medical advice" appear
+**zero times** in 1,804 words.
+
+What it does publish is a full prescription:
+
+| Where | Published instruction |
+|---|---|
+| Recommended reps &amp; sets | "Beginner 3 sets 10 to 20 seconds static holds." |
+| | "Progressively increase 5 seconds weekly." |
+| | "Neck workouts 3 4 sets advanced." · "Combat sports 4 sets." |
+| | "Neck harness work 8 12 reps." |
+| Step by step | "Lie on back. Plant feet. Lift hips. Place head on mat. Rock gently." |
+| Alignment | "Plate on your forehead only advanced." |
+| Frequency (table) | "Can be trained daily (light)" |
+| FAQ | "Beginners should hold bridges for 10–20 seconds" · "extended to 30–60 seconds" |
+
+That is a dated, numbered loading programme for the cervical spine, published to
+beginners, including an instruction to put **a weight plate on the forehead**, on
+a site whose programmes start at age five.
+
+**It is better than `/neck-bridges/` in one respect and that matters:** it says
+"Neck bridges aren't for all", it names herniation risk, and it repeats
+**"Medical clearance if neck issues" four times**. A clearance prompt is not a
+disclaimer — it is one line of fragment copy inside a comparison table and a body
+paragraph, with no explanation of what a neck issue is or who to ask — but it is
+more than the first post managed, and the right fix is to build on it rather than
+start from nothing.
+
+**Priority: HIGH, alongside the existing `/neck-bridges/` and `/kidney-punch/`
+flags.** Two posts now prescribe cervical-spine loading with no disclaimer, and
+`/sambo-moves/` prescribes joint locks with none either. That is three pages, and
+the pattern is the absence of a site-wide policy rather than three separate
+oversights.
+
+**What to do:** write one disclaimer and put it on every page that prescribes a
+movement — the two neck bridge posts, `/kidney-punch/`, `/sambo-moves/`,
+`/sambo-techniques/` and `/mae-mai-muay-thai-what-is-it/`. It should name a
+clinician, not just "clearance", and it should say explicitly that the article is
+not individual medical advice. **The rebuild adds none** — inventing a disclaimer
+the client has not approved would be writing new copy into a replica — so the
+rebuilt page carries the same absence and the build fails if one is introduced
+without being asked for.
+
 **A second Sambo post does the same, and this one addresses five-year-olds.**
 `/sambo-moves/` is subtitled "Essential Techniques for **Beginners**" in its page
 title and carries joint-lock, throw and takedown instruction with **no supervision
@@ -4038,6 +4123,14 @@ different:
 thai shorts", "muay thai beginner guide" — delete "kickboxing outfit" and "Muay
 Thai clothing", and settle on one capitalisation. Then run the tag audit this
 issue has been asking for since the first pass.
+
+**A post with NO tags at all.** `/do-neck-bridges-build-muscle/` carries an empty
+tag list — zero terms. It is the only post found without any. On a site where
+other posts carry up to twenty-two, and where `/sambo-moves/` carries fifteen for
+a discipline the gym may not teach, the inconsistency is the point: there is no tag
+policy, so one post gets fifteen irrelevant terms and the next gets none. The
+rebuild renders no tag section either way, so nothing is lost here, but it tells
+you the taxonomy is unmanaged.
 
 **Thirteen tags for a ranked comparison the post does not contain.** The tags on
 `/top-fighting-styles/` are: "best martial arts", "best styles for beginners",
@@ -4661,6 +4754,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
 | **BJJ belts and rank progression (confirmed, FOUR pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
 | **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
@@ -4984,6 +5078,38 @@ surviving hub.
 
 Do issue 74 first either way. Consolidating two pages that disagree about whether
 the gym sells equipment would just pick one answer at random.
+
+#### The neck bridge pair: two strength-and-technique guides for one movement — **CRITICAL**
+
+`/neck-bridges/` and `/do-neck-bridges-build-muscle/` (16 November 2025) are both
+instructional guides to the same exercise. This is not a broad-versus-narrow
+overlap; they cover the same ground in the same way:
+
+| | `/neck-bridges/` | `/do-neck-bridges-build-muscle/` |
+|---|---|---|
+| Subject | the neck bridge | the neck bridge |
+| Technique | step-by-step, wall-assisted and partner progressions | "Step by step back neck bridge", "Step by step front neck bridge" |
+| Variations | front, back, wall | "Common variations (front, back, wrestler bridge)" |
+| Programming | training plan and progressions | "Recommended reps &amp; sets", 3-4 sets, weekly progression |
+| Safety | "Are neck bridges safe for beginners?" | "How to Do Neck Bridges Safely" |
+| Muscles | neck and upper back | four H3s on anterior, posterior, trapezius, stabilisers |
+| Disclaimer | **none** | **none** (issue 31) |
+
+The newer post links the older, and the auto-linker split the sentence doing it:
+`Do <a href="/neck-bridges/">neck bridges build </a>muscle safe for wrestler and
+grapplers.` — a two-word anchor with a trailing space (issue 64).
+
+**Both pages are already flagged for liability.** The older one carries four
+invisible ChatGPT citation links, one of them to a commercial health company
+(issue 40), and an "H2:" marker in a visible heading (issue 22). The newer one has
+a second H1 mid-article (issue 82). Neither has a disclaimer.
+
+**Recommendation: one page.** Merge into whichever URL has the better search
+history — `/neck-bridges/` is older — take the newer post's anatomy sections and
+its four medical-clearance lines, which are the best safety copy on either page,
+and 301 the other. **Do the disclaimer first**: consolidating two
+undisclaimered spine-loading articles produces one longer undisclaimered
+spine-loading article.
 
 #### The self-defence cluster reaches EIGHT, and the newest is the thinnest — **CRITICAL**
 
@@ -8662,7 +8788,7 @@ adding an address, so the two sides still match.
 
 ---
 
-### 79. One Sambo photo batch illustrates five posts, four of them unrelated — CONTENT (asset management), SEO — Medium
+### 79. One Sambo photo batch illustrates six posts, five of them unrelated — CONTENT (asset management), SEO — Medium
 
 The November 2025 upload batch `Types-of-sambo-1` through `Types-of-sambo-10` was
 uploaded for `/types-of-sambo/`. It is now the entire image set for three posts
@@ -8675,9 +8801,13 @@ on three different subjects:
 | `/what-to-wear-to-muay-thai-class/` | `-8`, `-9`, `-10` | `Types-of-sambo-8.jpg` |
 | `/sambo-moves/` | `-11`, `-12-1`, plus `Sambo-moves-.jpg` | `Sambo-moves-.jpg` |
 | `/top-fighting-styles/` | `-13`, `-14`, `-15` | `Types-of-sambo-13.jpg` |
+| `/do-neck-bridges-build-muscle/` | `-16`, `-17`, `-18` | `Types-of-sambo-16.jpg` |
 
-The batch now runs to fifteen files across five posts, and only `/types-of-sambo/`
-and `/sambo-moves/` are about Sambo at all. A post about BJJ being the best
+The batch now runs to eighteen files across six posts, and only `/types-of-sambo/`
+and `/sambo-moves/` are about Sambo at all. An article about whether neck bridges
+build muscle is illustrated with `Types-of-sambo-16.jpg`, `-17` and `-18`, and
+unlike the five before it this post uses the full-size uploads rather than the
+1024px resizes, so the pages are not even consistent in which file they request. A post about BJJ being the best
 fighting style is illustrated with `Types-of-sambo-13.jpg`. Its featured image is the one exception to the naming
 pattern and has a fault of its own: it is published as **`Sambo-moves-.jpg`**,
 with a trailing hyphen before the extension, which is what WordPress produces when
@@ -8694,8 +8824,8 @@ sourcing fault with three consequences:
 - **Nobody can find anything in the media library.** Ten files named for one post
   now belong to three, so replacing the Muay Thai apparel photo means knowing that
   it is `Types-of-sambo-9`.
-- **It points at how these posts were made.** Five articles published between
-  11 and 13 November 2025 drew their illustrations from one batch, four of them
+- **It points at how these posts were made.** Six articles published between
+  11 and 16 November 2025 drew their illustrations from one batch, five of them
   from a batch uploaded for a different post. Two of the five, `/sambo-moves/` and
   `/top-fighting-styles/`, were published five minutes apart from one template
   (issue 80). Combined with issue 0 — the same four safety sentences on two of those
@@ -8830,9 +8960,41 @@ boxing questions on `/types-of-sambo/` (issue 77).
 
 ---
 
+### 82. A second H1 published in the middle of an article — SEO — Medium
+
+`/do-neck-bridges-build-muscle/` publishes **two H1 elements**. The first is the
+article title. The second sits two thirds of the way down, where every other post
+on the site uses an H2:
+
+```html
+<h1>Why Choose Sixth Sense for Neck Bridges</h1>
+```
+
+It is the only in-body H1 found across all 85 posts. Every sibling section on the
+same page — "What Are Neck Bridges?", "How Neck Bridges Work", "Benefits of Neck
+Bridges", "Contact Us", "Conclusion" — is an H2, so this is a single mis-set block
+rather than a template fault.
+
+**Why it matters:** the H1 is the strongest on-page signal of what a document is
+about, and a page with two tells a crawler the article has two subjects — "Do Neck
+Bridges Build Muscle" and "Why Choose Sixth Sense". It also breaks the document
+outline for screen readers, which use heading level to convey nesting: a listener
+tabbing the headings hears a new top-level document begin halfway through the
+article.
+
+**In the rebuild** the text and its position are reproduced exactly and the element
+is published as `<h2 id="why-choose-sixth-sense-for-neck-bridges">`, so the page
+carries one H1 as the project requires and the section still appears in the table
+of contents with every other H2. The build asserts the live page still has two H1s,
+so if the client fixes it the rebuild will flag the change rather than drift.
+
+**What to do:** change it to an H2 in WordPress. One edit.
+
+---
+
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 90 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 91 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

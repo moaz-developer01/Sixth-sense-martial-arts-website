@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **94 pages**: the homepage, the 5 program pages and all 88 blog
+live HTML of **95 pages**: the homepage, the 5 program pages and all 89 blog
 posts.
 
 Each issue is tagged:
@@ -316,7 +316,7 @@ decision.
 | 71 | A local-intent page whose H1 and tags omit the city entirely, and a city name lower-cased in the title | SEO | 1 | Medium |
 | 72 | Belt-rank timeframes that describe years of training where the real criteria are age-based | CONTENT (accuracy) | 1 | Medium — to verify |
 | 73 | Private coaching advertised on three pages in three different forms, and on no programme page | CONTENT (accuracy) | 3 | **High — client must confirm** |
-| 74 | A post that sells eight products the site has no shop for, and contradicts its own twin | CONTENT (accuracy), TRUST | 2 | **CRITICAL — client must confirm** |
+| 74 | Posts that sell equipment the site has no shop for; one now states outright that the gym runs a shop, stocks three named brands and lets members try before buying | CONTENT (accuracy), TRUST | 3 | **CRITICAL — client must confirm** |
 | 75 | Six tags about gym bags on a post about protective gear | SEO | 1 | **High** |
 | 76 | A whole 3,449-word article written as two- and three-word fragments, not sentences | CONTENT, SEO | 1 | **CRITICAL** |
 | 77 | An eight-question FAQ where six questions are about boxing, on a Sambo post | SEO, CONTENT | 1 | **High** |
@@ -326,8 +326,9 @@ decision.
 | 81 | Five FAQ questions about Roblox video games published on a martial arts gym's page | SEO, CONTENT | 1 | **High** |
 | 82 | A second H1 published in the middle of an article | SEO | 1 | Medium |
 | 83 | A rules explainer that contradicts itself about what the Unified Rules forbid, and says kidney punches are legal in boxing | CONTENT (accuracy) | 1 | **High** |
+| 84 | An all-caps brand suffix in a title tag, and a heading structure with 23 H2s and 6 H3s | SEO | 1 | Medium |
 
-**84 issues in total, numbered 0–83.** Issue 0 is the only one the rebuild does
+**85 issues in total, numbered 0–84.** Issue 0 is the only one the rebuild does
 not reproduce.
 
 ---
@@ -364,6 +365,13 @@ not stop it coming back.
 ## CONTENT
 
 ### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
+
+**A fifth way: parenthesised.** `/kickboxing-gloves/` publishes it as
+**"(469) 972-7800"** — "Call (469) 972-7800 or email info@sixthsensemma.com." That
+makes five published forms of the correct number across the blog: hyphenated,
+hyphenated inside `<strong>` with the full stop inside the bold, space-separated,
+bare digits in the `tel:` attribute, and now parenthesised. The rebuild reproduces
+each page's own spelling and routes every `tel:` link to `+14699727800`.
 
 **A fourth way of writing the right number.**
 `/do-neck-bridges-build-muscle/` publishes it **space-separated** — "Phone: 469 972
@@ -4278,6 +4286,27 @@ policy, so one post gets fifteen irrelevant terms and the next gets none. The
 rebuild renders no tag section either way, so nothing is lost here, but it tells
 you the taxonomy is unmanaged.
 
+**Ten tags, and the post's own subject is not the first of them.** The tags on
+`/kickboxing-gloves/` are: "Boxing Gloves", "Boxing Training", "combat sports",
+"kickboxing gloves", "Martial Arts Gear", "MMA gloves", "muay thai gloves",
+"Sparring Gloves", "Training Gloves", "velcro gloves".
+
+None names an untaught discipline, and none is copied from an unrelated post — a
+better result than `/muay-thai-gear-for-safety/`, whose six tags were all about gym
+bags. Three faults remain:
+
+- **"Boxing Gloves" and "Boxing Training" are the wrong product.** The article's
+  own H2 is "Kickboxing Gloves vs Boxing Gloves: Key Differences in Design and
+  Use" — it exists partly to explain that they are *not* the same thing, then tags
+  itself with the thing it distinguishes itself from.
+- **"muay thai gloves" and "MMA gloves" are other posts' slugs.**
+  `/muay-thai-gloves/` and `/mixed-martial-arts-training-gloves/` both exist, so
+  two of the ten tags point searchers at the gear cluster this page already
+  competes with (issue 7).
+- **Capitalisation is inconsistent**: six Title Case ("Boxing Gloves", "Boxing
+  Training", "Martial Arts Gear", "Sparring Gloves", "Training Gloves", "MMA
+  gloves" partly), four lower case.
+
 **POSITIVE: fifteen tags, nine of them carrying the city.** The tags on
  are the best set found on the site:
 "adult martial arts coppell", "beginner martial arts near me", "best martial arts
@@ -4918,6 +4947,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
 | **Belt and rank progression (confirmed, FIVE pages)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
@@ -5243,6 +5273,56 @@ surviving hub.
 
 Do issue 74 first either way. Consolidating two pages that disagree about whether
 the gym sells equipment would just pick one answer at random.
+
+#### The hyphen pair: the same product and the same keyword on two URLs — **CRITICAL**
+
+`/kick-boxing-gloves/` and `/kickboxing-gloves/` are **the clearest duplicate in
+this document**. They differ by one hyphen:
+
+| | `/kick-boxing-gloves/` | `/kickboxing-gloves/` |
+|---|---|---|
+| Slug | kick-**boxing**-gloves | kickboxing-gloves |
+| Subject | kickboxing gloves | kickboxing gloves |
+| Primary keyword | "kick boxing gloves" | "Kickboxing Gloves" |
+| Published | 6 Mar 2025 | 26 Dec 2025 |
+
+Not a broad-versus-narrow overlap, not a different angle on a shared topic: the
+same product, the same buyer, the same query, nine months apart. And **the newer
+one links the older**, with the anchor text "finger", so the two are explicitly
+connected.
+
+**The hyphen problem is site-wide, not just this pair.** The site uses both
+spellings in slugs with no rule:
+
+| Hyphenated | One word |
+|---|---|
+| `/kick-boxing-gloves/` | `/kickboxing-gloves/` |
+| `/kick-boxing-bag/` | `/kickboxing-techniques/` |
+| `/kick-boxing-classes/` | — |
+
+So the whole kickboxing topic is split across two URL conventions, and search
+engines treat "kick boxing" and "kickboxing" as near-synonyms rather than
+identical, which means neither spelling accumulates the authority a single
+convention would.
+
+**Inside the articles the newer page is actually consistent**: it never writes
+"Kick boxing" or "Kick Boxing", and the only hyphenated string on it is the link to
+its own twin. The hyphenated posts mix all three forms in one article (issue 33's
+pattern applied to a discipline name). So the body copy has improved; the slugs
+have not.
+
+**Recommendation: 301 `/kick-boxing-gloves/` into `/kickboxing-gloves/`.** The
+newer page is longer, better structured and the one-word spelling is the higher
+volume form. Then pick ONE convention — "kickboxing", no hyphen — and redirect
+`/kick-boxing-bag/` and `/kick-boxing-classes/` to one-word equivalents so the
+topic stops being split. **Remove the "finger" anchor when you do**, or it becomes
+a self-link.
+
+**The wider gear cluster still needs consolidating too.** Alongside this pair sit
+`/muay-thai-gloves/`, `/mixed-martial-arts-training-gloves/`,
+`/muay-thai-gear-for-safety/` and `/muay-thai-gear/` — six pages about buying
+gloves and gear for a business with no shop (issue 74). That is one decision, not
+six: confirm whether equipment sales are real, then build one page or none.
 
 #### The kidney pair: two posts on one strike, one instructional and one rules-based — **High**
 
@@ -5865,6 +5945,11 @@ and the layout reserves the wrong box. Declared dimensions are what the browser
 uses to reserve space before the image arrives, so a wrong pair causes layout shift
 on slow connections — the same Core Web Vitals penalty, arrived at from the other
 direction.
+
+**It has happened three times**, all on posts from the same two-week window.
+`/kickboxing-gloves/` serves `Kickboxing-Gloves-1024x536.jpg` and declares it
+`width="800" height="419"`, exactly as the two below do. Three posts, one editing
+habit.
 
 **It has happened twice.** `/are-kidney-shots-legal-in-ufc/` does exactly the same
 thing: it serves `Types-of-sambo-22-1024x536.jpg` and declares it
@@ -8977,7 +9062,61 @@ recording.** Of its four programme-shaped H3s, three are accurate:
 So on this page the service descriptions are right three times out of four. The
 fourth is the one logged here.
 
-### 74. A post that sells eight products the site has no shop for, and contradicts its own twin — CONTENT (accuracy), TRUST — **CRITICAL, the client must confirm**
+### 74. Posts that sell equipment the site has no shop for — CONTENT (accuracy), TRUST — **CRITICAL, the client must confirm**
+
+#### The clearest statement yet: "our shop", three named brands, and try-before-you-buy
+
+`/kickboxing-gloves/` (26 December 2025) does not imply retail. It states it, six
+times, in the gym's own voice:
+
+> "We offer best kickboxing gloves for beginners **at our shop**."
+
+> "**We stock** top kickboxing gloves brands like **everlast, venum, and
+> hayabusa** for quality choices."
+
+> "Members **try gloves for kickboxing in person at our Coppell TX gym before
+> buying**."
+
+> "Members get access to top kickboxing gloves brands such as everlast and venum
+> **right at our gym shop**. **We carry premium lines** with durable synthetic
+> leather and advanced foam padding for real hand protection."
+
+> "**Our gym at 817 S MacArthur Blvd #100 stocks a full range** of kickboxing
+> gloves **ready to try on the spot**."
+
+> "**Ready to shop** for kickboxing gloves? Call (469) 972-7800..."
+
+It adds sizing as a service — "we give **personal custom size guidance** to match
+oz weight and fit", "**Size chart** helps pick the right glove from 16oz" — and an
+H3 headed **"Local Kickboxing Gloves Near Me at Our Coppell TX Gym"**, which is a
+retail search query turned into a section heading. One paragraph even positions the
+shop against online sellers: members get the brands "without waiting for
+shipping".
+
+**Three brands are named: Everlast, Venum and Hayabusa**, two of them in H2s
+("Muay Thai and Kickboxing Glove Brands Like Hayabusa and Venum", "Access to Top
+Kickboxing Gloves Brands Like Everlast and Venum"), and the copy invites readers to
+"try everlast classics or venum premium styles".
+
+**What is NOT on the page:** no price, no size chart image, no cart, no checkout,
+no product listing and **no link to any retailer** — the only external link on the
+page is Facebook. So the page tells a reader to come to the gym and buy gloves and
+gives them no way to see what is available or what it costs.
+
+**And there is still no shop anywhere on the site.** The audit found no cart, no
+checkout, no WooCommerce, no product pages and no price list across all 89 posts
+and the six site pages. Three posts now sell equipment:
+`/muay-thai-gear-for-safety/` (eight products, below),
+`/mixed-martial-arts-training-gloves/` (a buying guide) and this one, which is the
+only one to use the word "shop" about the business itself.
+
+**This is the item on the list most likely to produce a wasted visit.** A reader
+can act on it today: drive to 817 S MacArthur Blvd expecting to try Hayabusa gloves
+and buy a pair. **The client must confirm whether equipment sales are a real
+service.** If they are, the site needs a shop page with stock and prices, and
+Product schema — the rebuild deliberately adds none. If they are not, every
+sentence quoted above has to go, and the three posts need rewriting as
+recommendation guides that point somewhere a reader can actually buy.
 
 `/muay-thai-gear-for-safety/` is not written as a buying guide. It is written as
 a **product catalogue for Sixth Sense MMA**. Its "Muay Thai Products" H2 opens:
@@ -9491,9 +9630,56 @@ single-sentence edits.
 
 ---
 
+### 84. An all-caps brand suffix in a title tag, and 23 H2s to 6 H3s — SEO — Medium
+
+Two presentation faults on `/kickboxing-gloves/`, both reproduced in the rebuild.
+
+**1. The title tag shouts the brand.**
+
+```html
+<title>Kickboxing Gloves Best Quality &amp; Protection BY SIXTH SENSE</title>
+```
+
+**"BY SIXTH SENSE"** in capitals, where every other post on the site writes the
+brand normally in its title ("… by Sixth Sense MMA", "… | Sixth Sense Martial
+Arts"). The page's own H1 writes it properly: "Kickboxing Gloves Enhance Your Muay
+Thai and Training **at Sixth Sense MMA**".
+
+In a search result the capitals read as shouting, which measurably depresses click
+rate, and some engines rewrite titles they judge to be over-optimised — so the
+suffix may not even appear. It is also the truncated brand: "Sixth Sense" without
+"MMA" or "Martial Arts", which is a twelfth spelling for issue 33's list.
+
+**2. Nearly every section is an H2.** The page has **23 H2s and 6 H3s**, and the
+levels do not reflect the structure. For example:
+
+| Published level | Heading | What it actually is |
+|---|---|---|
+| H2 | "Common Problems with Kickboxing Gloves" | a real section |
+| H3 | "Poor Fit and Wrist Protection…" | its subsection — correct |
+| **H2** | "Inadequate Padding and Knuckle Protection Causing Hand Injuries" | **also a problem, so also a subsection — but published a level up** |
+| H2 | "Solutions Provided by Sixth Sense MMA" | a real section |
+| H3 | "Best Kickboxing Gloves for Beginners…" | its subsection — correct |
+| **H2** | "Kickboxing Training Gloves for Heavy Bag…", "Muay Thai and Kickboxing Glove Brands…", "Custom Size Guidance…", "Hand Wraps…", "Best Kickboxing Gloves for Women…" | **five more solutions, all flattened to the top level** |
+| H2 | "Case Studies from Sixth Sense MMA" | a real section |
+| H3 | "Beginner Boxer Builds Confidence…" | its subsection — correct |
+| **H2** | "Advanced Fighter Improves Sparring…", "Women's Experience with Kickboxing Gloves…" | **the other two case studies, flattened** |
+
+Three sections start correctly with one H3 and then promote every sibling to H2.
+The result is a document outline with no nesting: a screen reader announces 23
+top-level sections, and the rebuilt page's table of contents has **22 entries**,
+the longest in the project, because it lists H2s only.
+
+**What to do:** demote the flattened subsections to H3 — about eleven headings —
+and lower-case the title suffix to "by Sixth Sense MMA". Both are mechanical edits.
+The rebuild reproduces the levels as published, so the outline will fix itself here
+once the live page is corrected.
+
+---
+
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 94 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 95 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **93 pages**: the homepage, the 5 program pages and all 87 blog
+live HTML of **94 pages**: the homepage, the 5 program pages and all 88 blog
 posts.
 
 Each issue is tagged:
@@ -296,10 +296,10 @@ decision.
 | 45 | A "Top 9" list that contains the same technique twice | CONTENT | 1 | Medium |
 | 46 | A whole article section published inside a table caption | CONTENT, SEO, ACCESSIBILITY | 1 | Medium |
 | 47 | Step-by-step instruction for a strike banned in every combat sport | CONTENT | 1 | **High — liability and reputation** |
-| 48 | Pricing sections that name no price — one post prints three, the rest promise "value" | CONTENT (accuracy), TRUST | 11 | **CRITICAL** |
+| 48 | Pricing sections that name no price — one post prints three, the rest promise "value"; now twelve pages | CONTENT (accuracy), TRUST | 12 | **CRITICAL** |
 | 49 | A map embed that overflows on a phone | CONTENT, ACCESSIBILITY | 8 | Low |
 | 60 | A whole page advertising a class the homepage says has not launched | CONTENT (accuracy) | 2 | **CRITICAL — client must confirm** |
-| 50 | Eleven "near me" pages competing for the same local searches, including four for one discipline | SEO | 11 | **CRITICAL** |
+| 50 | Twelve "near me" pages competing for the same local searches, including four for one discipline; the twelfth is the first with the city in its slug | SEO | 12 | **CRITICAL** |
 | 51 | Tags aimed at firefighting and at street violence, on a school that teaches children | SEO, CONTENT (reputation) | 1 | **High** |
 | 52 | Comparison sections against competitors — one names two local businesses and publishes their prices | CONTENT (accuracy), LEGAL | 5 | **CRITICAL** |
 | 53 | A single-location gym advertising students "Across the USA" | GEOGRAPHIC TARGETING, CONTENT | 2 | **High** |
@@ -478,6 +478,14 @@ leftover from drafting and shows on the page.
 **What to do:** delete the placeholder lines.
 
 ### 17. Spelling errors, garbled headings and one untranslated Hindi/Urdu word — CONTENT — Medium
+
+**A misspelled section heading on the strongest local page.**
+`/martial-arts-near-me-in-coppell-texas/` publishes its closing H2 as
+**"Concluson"** — "Conclusion" with the second "i" missing. It is one of sixteen
+H2s on the page, so it is among the largest text on screen, and it sits on the page
+with the highest commercial intent in the project (issue 50). The rebuilt page
+reproduces it rather than silently correcting it, and its heading anchor is
+`#concluson` to match.
 
 **Two more, one of them in a section heading.**
 `/what-to-wear-to-muay-thai-class/` publishes:
@@ -3200,6 +3208,26 @@ This entry is the flag; the page itself is an exact copy of what is live.
 
 ### 48. Pricing sections that name no price, and programs advertised nowhere else — CONTENT (accuracy), TRUST — **CRITICAL**
 
+**An eighth local page promises affordability and publishes no figure.**
+`/martial-arts-near-me-in-coppell-texas/` has **no pricing section** — which is
+better than the pages that head one and leave it empty — but it makes the promise
+twice inside an FAQ answer:
+
+> **Are there affordable martial arts classes near me?** Sixth Sense offers
+> **competitive pricing and trial options**. Many members find it **affordable
+> compared to larger gyms in the area**.
+
+No figure appears anywhere on the page: no dollar amount, no monthly rate, no
+trial length. "Affordable compared to larger gyms in the area" is also a
+comparative price claim about named competitors — the same page names eight of
+them (issue 52) — without stating either side's prices.
+
+This is the highest-intent page on the site, the one a searcher reaches when they
+are ready to buy, and the answer to the price question is a reassurance rather
+than a number. **What to do:** put a real figure or a real trial offer on this page
+first, before the other eleven. If the gym will not publish prices, say what the
+trial is and what the next step costs.
+
 `/jiu-jitsu-near-me/` is the most commercially specific page on the site. It is
 also the page most likely to convert: someone searching "jiu jitsu near me" is
 ready to book. It makes six offers a prospective member would act on, and **not
@@ -4249,6 +4277,24 @@ a discipline the gym may not teach, the inconsistency is the point: there is no 
 policy, so one post gets fifteen irrelevant terms and the next gets none. The
 rebuild renders no tag section either way, so nothing is lost here, but it tells
 you the taxonomy is unmanaged.
+
+**POSITIVE: fifteen tags, nine of them carrying the city.** The tags on
+ are the best set found on the site:
+"adult martial arts coppell", "beginner martial arts near me", "best martial arts
+coppell", "bjj coppell", "brazilian jiu jitsu near me", "kids martial arts
+coppell", "martial arts academy coppell", "martial arts classes near me",
+"martial arts gym coppell", "martial arts near me", "martial arts school coppell",
+"martial arts training near me", "Muay Thai Coppell TX", "muay thai near me",
+"self defense classes Coppell".
+
+**Nine of the fifteen name Coppell**, one of those adds TX, and **not one names a
+discipline the gym does not teach** — only Muay Thai and BJJ appear, which are the
+two real programmes. After twenty-odd posts of tags for Sambo, kickboxing outfits
+and gym bags, this is the first set that is both on topic and locally targeted.
+Two minor faults remain: six of the fifteen are the same "near me" phrase reworded,
+and capitalisation is inconsistent ("Muay Thai Coppell TX" and "self defense
+classes Coppell" are mixed case, the other thirteen lower). **Use this set as the
+template** when the tag audit this issue keeps asking for finally happens.
 
 **Thirteen tags for a ranked comparison the post does not contain.** The tags on
 `/top-fighting-styles/` are: "best martial arts", "best styles for beginners",
@@ -6614,7 +6660,41 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. Eleven "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+### 50. Twelve "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+
+**The twelfth is the first to put the city in its slug, and that changes the
+recommendation.** `/martial-arts-near-me-in-coppell-texas/` (13 December 2025) is
+the eleventh general "near me" page plus the city, and it is measurably the
+strongest local page in the project:
+
+| Signal | This page | The other eleven |
+|---|---|---|
+| City in the **slug** | **yes** | none |
+| City in the **H1** | **yes, with the state** — "Martial Arts Near Me in Coppell Texas Find the Best Muay Thai Classes" | `/bjj-belt-ranks-in-coppell/` has it in the slug but **drops it from the H1** (issue 71) |
+| Coppell in the body | **23 times** | 1-4 typically |
+| "Texas" in the body | 4 | rarely |
+| Full street address | yes, in a labelled NAP list | varies |
+| Surrounding areas named | Irving, Valley Ranch | none |
+| Tags carrying the city | **9 of 15** | none found |
+
+**Logged as a POSITIVE on local signal.** This is what the other eleven should
+look like. The city is in the slug, the title tag, the H1, the first H2, nine
+tags, the FAQ questions and the address block, and it names two neighbouring areas
+without inventing any. Nothing in this document has asked for a local page to be
+built and found one already done properly — this is the first.
+
+**It is therefore the page to keep.** If the client consolidates the general
+martial-arts group — `/martial-arts-near-me/`, `/martial-arts-gyms-near-me/`,
+`/martial-arts-near-me-classes/` and this one — **301 the other three into this
+one**, because it is the only one of the four whose URL, H1 and body all carry the
+city. The discipline-specific sets (`/jiu-jitsu-near-me/`,
+`/bjj-classes-near-me/`, `/brazilian-jiu-jitsu-near-me/`, `/teens-bjj-near-me/`;
+and `/mixed-martial-arts-near-me/`, `/mma-gyms-near-me/`,
+`/fight-training-near-me/`) still need consolidating separately, each down to one.
+
+**One caution.** This page links two of the siblings it competes with —
+`/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` — so if those are
+redirected into it, both links become self-referential and need removing.
 
 **An eleventh page, and it makes "martial arts near me" a three-way split.**
 `/martial-arts-near-me-classes/` was published on 18 October 2025, ten weeks
@@ -6868,6 +6948,37 @@ classes Coppell") in their place.
 appears anywhere in the rebuilt site.
 
 ### 52. Comparison tables against competitors, one of which names two real local businesses and publishes their prices — CONTENT (accuracy), LEGAL — **CRITICAL**
+
+**Eight competitors named on one page, by business name, with judgements
+attached.** `/martial-arts-near-me-in-coppell-texas/` names more rival gyms than
+any other page on the site, across two sections:
+
+| Section | Businesses named |
+|---|---|
+| "Popular Nearby Striking Focused Gyms" | **George Prevalsky's Boxing & Muay Thai Boxing Club** ("leads the list with authentic classes"), **Outlaw Muay Thai**, **Saekson Janjira Muay Thai**, **Rojas Muay Thai** ("earns mentions for solid sessions") |
+| "Hybrid MMA Academies Offering Muay Thai" | **Gracie Barra**, **Mohler MMA**, **Hicks MMA** |
+| "Why Sixth Sense Martial Arts is Better Than Other Gyms in Coppell" | **Gracie Barra**, **Mohler MMA**, **Championship Martial Arts** |
+
+The first two sections are complimentary — "Students praise the sweat and
+technique work there", "combines it with Brazilian Jiu Jitsu for balanced skills" —
+and the third uses the same names to argue the gym is better. One page both
+recommends four competitors and then positions against two of them.
+
+**This is a worse version of the fault logged below.** The pages already in this
+issue compare against competitors; this one does free advertising for them on a
+page built to convert local searchers. A reader who reaches
+`/martial-arts-near-me-in-coppell-texas/` is handed the names of seven other gyms
+before the article makes its own case, and two of those names — George Prevalsky's
+and Saekson Janjira — are specific enough to search directly.
+
+It also publishes no prices for any of them, so the comparative price claim in the
+FAQ ("affordable compared to larger gyms in the area", issue 48) is unsupported in
+both directions.
+
+**What to do:** delete the two "nearby gyms" sections entirely. A local conversion
+page should not list its competitors. Keep the "Why Sixth Sense is Better" section
+but remove the names from it and make the case on its own terms.
+
 
 `/fight-training-near-me/` publishes a ten-row table headed "Comparison Table:
 SixthSense MMA vs. Typical Gyms". Every row makes a claim about the client and a
@@ -7665,6 +7776,21 @@ social links in the footer so they appear on all sixty-five posts rather than
 one.
 
 ### 60. A whole page advertising a class the homepage says has not launched — CONTENT (accuracy) — **CRITICAL, the client must confirm**
+
+**A third page references it, and this one labels it honestly.**
+`/martial-arts-near-me-in-coppell-texas/` carries an H3 reading **"Upcoming
+Women's Self Defense"** and an FAQ answer saying students can learn "Muay Thai,
+Brazilian Jiu-Jitsu, and **soon** women's self-defense", plus "has an **upcoming**
+dedicated women's self-defense program".
+
+**That is the correct way to describe it**, and it is worth recording as the model:
+the word "upcoming" appears in the heading itself, and "soon" in the answer, so no
+reader is told the class is running today. `/womens-self-defense-class/` — which
+this page links — does not qualify it that way, which is the fault logged below.
+
+**What to do:** either launch the class or make `/womens-self-defense-class/` read
+the way this page does. The wording already exists on the site; it just is not on
+the page that needs it.
 
 `/self-defense-classes-near-me/` says the women's self-defence programme is
 running, and then, in the very next section, says it is being prepared.
@@ -8497,6 +8623,25 @@ fixed.
 ---
 
 ### 69. A minimum age that contradicts the gym's own programme, its own page and its own tags — CONTENT (accuracy) — **High**
+
+**A second page states a different minimum age.** An FAQ answer on
+`/martial-arts-near-me-in-coppell-texas/` says:
+
+> **Are there kids martial arts classes near me in Coppell?** Sixth Sense has
+> strong programs for kids **starting from age 5**.
+
+The homepage gives the Kids BJJ range as **4 to 12**, with Little Champions at
+**4 to 7**. `/martial-arts-for-kids-strenght/` says **"ages 7 and up"**, logged
+below. `/sambo-moves/` and `/top-fighting-styles/` both say **5**. So the site now
+publishes **three different minimum ages** — 4, 5 and 7 — across the homepage and
+four posts, for the same children's programme.
+
+Four is the figure on the gym's own programme pages, so three of the four posts are
+wrong and the fourth is wrong by a different margin. A parent with a four-year-old
+reads two of these pages and concludes their child is too young.
+
+**What to do:** confirm the real minimum age once, then correct it everywhere. This
+is a one-word fix on each page and it is currently costing enquiries.
 
 `/martial-arts-for-kids-strenght/` is written for parents choosing a first
 class for their child. It states a minimum age of **seven**, three times.
@@ -9348,7 +9493,7 @@ single-sentence edits.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 93 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 94 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

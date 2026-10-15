@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **96 pages**: the homepage, the 5 program pages and all 90 blog
+live HTML of **97 pages**: the homepage, the 5 program pages and all 91 blog
 posts.
 
 Each issue is tagged:
@@ -249,7 +249,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, SIX on belt progression, six on Muay Boran, four on Sambo, four versus posts, two on gear | SEO | 41 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, four on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -796,6 +796,34 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**The worst single page yet: EIGHT spellings of the brand in 2,242 words, plus a
+hashtag and a truncated form.** `/muay-boran-in-coppell/` writes the business
+name eleven different ways:
+
+| Form | Times | Where |
+|---|---|---|
+| Sixth Sense Martial Arts | 5 | body |
+| sixth sense martial arts | 1 | body, lower case |
+| **sixth sense martial** (no "arts") | 2 | "Class at sixth sense martial fits adults and youth" |
+| Sixth Sense MMA | 1 | body |
+| Sixth sense mma | 2 | body |
+| sixth sense mma | 4 | body, including "At choose sixth sense mma" |
+| **SixthSense MMA** | 3 | **the H1, an H3 and the Contact section** |
+| **Sixthsensemma** | 1 | "Sixthsensemma focuses on real feel from ancient martial art." |
+| **sixth sense** | 1 | **an H3: "Who Should Learn Muay Boran in Coppell by sixth sense"** |
+| #sixthsensemartialarts | 1 | dropped into a body paragraph as a hashtag |
+
+Three of these are new faults rather than new spellings. **"sixth sense
+martial"** is the name cut off mid-phrase, twice, and reads as a typo. **"by
+sixth sense"** is an H3 ending in the brand in lower case with nothing after it,
+so the heading trails off. And **"#sixthsensemartialarts"** is an Instagram
+hashtag published inside article prose — "#sixthsensemartialarts calls those
+ready for real work" — which belongs in a social caption, not a web page.
+
+The correct "Sixth Sense Martial Arts" is the most frequent form at 5, but the
+**H1 uses "SixthSense MMA"**, so the first and largest instance of the name on
+the page is wrong, exactly as on `/bjj-belt-ranks/` below.
 
 **A thirteenth spelling: "SixthSense MMA", run together but spaced before MMA.**
 `/bjj-belt-ranks/` writes the brand as **"SixthSense MMA"** — no space between
@@ -1736,6 +1764,108 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### READ THIS FIRST: a city-targeted page selling Muay Boran classes — **the most direct false service claim in the library, if the gym does not teach it**
+
+Six Muay Boran posts now exist, and this one advertises the discipline as a
+local class offering with a named service area. If the gym does not teach
+Muay Boran, a city-targeted page selling it is the most direct false service
+claim in the content library, ahead of the Sambo cluster, because a reader can
+act on it immediately.
+The client must confirm before this goes live.
+
+`/muay-boran-in-coppell/` (26 December 2025) is the seventh Muay Boran post and
+the first with a city in its slug. Muay Boran is **not** one of the five
+programmes the site has a page for. The page is reproduced verbatim in the
+rebuild; nothing below is paraphrased.
+
+**a) Does the page state that Muay Boran classes currently run?** Yes, in the
+present tense, throughout, and not as a possibility:
+
+> "At Sixth Sense Martial Arts we blend thai roots with modern muay thai to
+> **offer muay boran training**."
+
+> "At sixth sense martial arts **classes focus** on raw power and flow from old
+> Thai ways."
+
+> "In Coppell **sessions** at sixth sense mma for muay **we drill these** to
+> build power and speed."
+
+> "**In muay boran classes we teach this** for authentic feel though gloves come
+> for safety."
+
+> "Muay Boran in Coppell brings old Thai combat **into daily classes** at Sixth
+> Sense Martial Arts."
+
+> "**Muay boran classes push limits safe** with step by step builds."
+
+> "**Class at sixth sense martial fits adults and youth** for growth."
+
+> "**Private or group options** fit personal paths best."
+
+> "**Instructor and coach stand ready to help with enroll details or trial
+> session**."
+
+> "Reach out to the team at SixthSense MMA for questions about Muay Boran in
+> Coppell **or any class**."
+
+The page also offers two delivery formats (private and group), two age bands
+(adults and youth), a trial session and an enrolment route. That is further than
+`/muay-boran/` goes, which was already flagged below: this page does not describe
+Muay Boran, it **sells a place in a class**.
+
+**b) Does it name any instructor, lineage or credential?** **No.** Coaches are
+referred to only in the plural and only in general terms — "Coaches bring years
+from muay thai fighters lines and old styles", "Experienced eyes spot form fixes
+and push safe limits", "Instructor and coach stand ready to help". No name, no
+Thai lineage, no camp, no certification, no grade. For a traditional art whose
+whole selling point is transmitted lineage, a page advertising it with no named
+teacher is the gap a knowledgeable reader will notice first.
+
+**c) Does it state class times, days or a schedule?** **No.** Not one weekday,
+time, session length or term date appears anywhere on the page. It tells a reader
+to enrol and gives them nothing to enrol into — the same gap logged at issue 48
+for `/muay-boran/`, repeated on a page with a stronger call to action.
+
+**d) The meta description claims the classes "serve Coppell and Valley Ranch
+areas". Does the body support it?**
+
+| | Meta description | Body |
+|---|---|---|
+| Coppell | named | **24 times**, plus the H1 and the street address |
+| Valley Ranch | named | **once**, lower-cased, in a broken sentence |
+| any other town | — | **none** |
+
+The single Valley Ranch mention is:
+
+> "**In valley ranch near classes we adjust for each person.**"
+
+That is the whole of the body's support for a two-area service claim: one
+lower-cased mention inside a sentence that is missing at least one word and does
+not parse. No other town, suburb or county is named — not Irving, which Valley
+Ranch is actually part of, not Dallas, not Lewisville, not Grapevine. So the
+service-area claim in the meta description is **asserted in search results and
+effectively unsupported on the page**, and the one sentence that could support it
+is the least readable sentence in the article.
+
+**Framing: STANDALONE CLASS, not taught within the Muay Thai programme.** This
+matters for how the claim should be fixed. The page never says Muay Boran is a
+component of, a module in, or an element of the existing Muay Thai classes —
+which would have been plausible, and which the gym could probably stand behind.
+It says the opposite in two places: "**Muay boran classes** push limits safe" and
+"**Private or group options** fit personal paths best" give Muay Boran its own
+class formats, and "Styles of Muay Boran in Coppell ... At choose sixth sense mma
+**pick what fits your build**" invites the reader to choose between the regional
+styles as if each were on a timetable. Muay Thai appears as Muay Boran's
+descendant and comparison, not as its container.
+
+**The cheapest honest fix**, if the gym does teach Muay Boran material inside
+Muay Thai sessions: reframe the page as "traditional Muay Boran technique within
+our Muay Thai programme", link `/adult-muay-thai-classes/` and
+`/teen-muay-thai-classes/`, drop the private/group and trial-session language,
+and either delete the Valley Ranch claim or write a sentence that supports it.
+If the gym does **not** teach it at all, the page should not be published.
+
 
 #### Promotion criteria advertised, and a guarantee about grading decisions
 
@@ -4269,6 +4399,26 @@ will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
 
+**Ten tags, nine of them naming Coppell or Texas, all for a discipline with no
+programme page.** `/muay-boran-in-coppell/` carries: "ancient Muay Thai
+Coppell", "learn Muay Boran Texas", "Muay Boran academy Coppell", "Muay Boran
+classes Coppell", "Muay Boran in Coppell", "Muay Boran near me Coppell", "Muay
+Boran self-defense Coppell", "Muay Boran techniques Coppell", "Muay Boran
+training Coppell TX", "traditional Thai martial arts Coppell".
+
+Three of them are worse than redundant, they are claims: **"Muay Boran academy
+Coppell"**, **"Muay Boran classes Coppell"** and **"Muay Boran near me
+Coppell"**. Each generates a public tag archive URL that asserts the gym runs a
+Muay Boran academy and Muay Boran classes in Coppell — the service claim at
+issue 39, restated as ten indexable pages the client did not write. The Sambo
+tags below do the same thing for Sambo; this set is the local version of it.
+
+**In the rebuild** no tag pills are rendered on any post, so nothing is
+reproduced here. **What to do on the live site:** if the programme is not real,
+delete all ten and the archives go with them. If it is real, three tags carry
+the whole set — "Muay Boran Coppell", "Muay Boran classes", "traditional Muay
+Thai".
+
 **Fifteen tags on one post, eleven of them the same idea.**
 `/what-to-wear-to-muay-thai-class/` carries: "combat sports gear", "gym outfit
 muay thai", "kickboxing outfit", "muay thai attire", "muay thai beginner guide",
@@ -4886,6 +5036,27 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**Seven auto-links on one page, every one of them a single word in mid-sentence,
+five of them swallowing the following space.** On `/muay-boran-in-coppell/` the
+auto-linker produced these anchors:
+
+| Anchor text | Points at | Reads as |
+|---|---|---|
+| "using " | `/are-there-multiple-styles-of-muay-boran/` | "the core of muay boran lies in **using** fists elbows knees" |
+| "fighters" | `/muay-thai-thai-boxing/` | "Muay thai **fighters** know this" |
+| "techniques" | `/best-martial-arts-for-self-defense/` | "instinct for self-defense **techniques**." |
+| "boran " | `/brazilian-jiu-jitsu-orlando/` | "In muay **boran** classes we teach this" — see issue 14 |
+| "stresses " | `/10-muay-boran-techniques/` | "Muay boran style **stresses** this for survival" |
+| "combat " | `/martial-arts-near-me-in-coppell-texas/` | "brings old Thai **combat** into daily classes" |
+| "threats " | `/different-types-of-martial-arts/` | "plus grabs stops **threats** quick and direct" |
+
+Not one of them describes where it goes. A reader cannot tell that "stresses"
+leads to a technique list or that "fighters" leads to a Muay Thai explainer, and
+a verb like "using" or "stresses" as anchor text gives a search engine nothing.
+Five of the seven also pull the space after the word inside the link, so the
+underline runs into the next word. **In the rebuild** all seven are reproduced
+exactly, trailing spaces included.
+
 **A Muay Thai phrase linked to a Sambo post.** On
 `/what-to-wear-to-muay-thai-class/` the anchor text **"muay thai training."** —
 including its full stop, which is the auto-linker's clause-grabbing behaviour from
@@ -4976,7 +5147,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, SIX on belt progression, six on Muay Boran, four on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, four on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -5173,7 +5344,7 @@ others should carry the cluster instead.
 | Boxing vs martial arts (partial overlap) | `/what-martial-art-destroys-boxers/` · `/is-boxing-a-martial-art/` |
 | **Muay Thai stance** | `/muay-thai-stance/` · `/muay-thai-fighting-stance/` |
 | Muay Thai compared with another striking art (partial overlap) | `/muay-thai-vs-mma/` · `/muay-thai-vs-kickboxing/` |
-| **Muay Boran (SIX posts, confirmed)** | `/muay-boran/` · `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` · `/mae-mai-muay-thai-what-is-it/` — see below |
+| **Muay Boran (SEVEN posts, confirmed, one of them city-targeted)** | `/muay-boran/` · `/muay-boran-in-coppell/` · `/muay-thai-muay-boran/` · `/are-there-multiple-styles-of-muay-boran/` · `/10-muay-boran-techniques/` · `/muay-chaiya/` · `/mae-mai-muay-thai-what-is-it/` — see below |
 
 **There are now three Muay Boran posts, and the overlap has become a cluster —
 raised to MEDIUM.** When this entry was written there were two. The third,
@@ -5704,6 +5875,38 @@ Whichever survives must link `/kids-bjj-classes/`, which neither currently does.
 A parent who reads either post and wants to book has no route to the booking
 page from it.
 
+#### And now a SEVENTH, and this one has the local slug — **CRITICAL**
+
+`/muay-boran-in-coppell/` (26 December 2025) is the seventh, and it changes the
+shape of the cluster rather than just adding to it. Every earlier post competes
+for informational queries — "what is muay boran", "muay boran techniques", "muay
+boran vs muay thai". This one competes for a **commercial local** query, "muay
+boran in coppell", and repeats the cluster's shared material underneath it:
+
+| Covered by | `/muay-boran-in-coppell/` | the other six |
+|---|---|---|
+| What Muay Boran is | the opening section and "Characteristics" | all six |
+| Muay Boran vs Muay Thai | an H3 plus four H4s | five of the six |
+| The regional styles | Chaiya, Korat and Lopburi, an H4 each | `/are-there-multiple-styles-of-muay-boran/`, `/muay-chaiya/`, `/10-muay-boran-techniques/` |
+| Eight limbs / named techniques | an H4 | `/10-muay-boran-techniques/`, `/mae-mai-muay-thai-what-is-it/` |
+| **A local class offering** | **yes — the whole point of the page** | `/muay-boran/` only, and more weakly |
+
+**It links three of the cluster** — `/are-there-multiple-styles-of-muay-boran/`,
+`/10-muay-boran-techniques/` and (through a Muay Thai anchor)
+`/muay-thai-thai-boxing/` — so the same self-citation pattern as the sixth post
+above.
+
+**Which two to keep, if the client consolidates:** `/muay-boran/` has the
+cleanest general slug and this page has the local slug, so those are the two
+candidates — `/muay-boran/` for "what is muay boran" and
+`/muay-boran-in-coppell/` for "muay boran classes near me". The other five
+should 301 into `/muay-boran/`.
+
+**But only if the programme is real.** Keeping the local page means keeping the
+service claim at issue 39, and that claim is stronger here than anywhere else in
+the library. If the gym does not teach Muay Boran, the correct consolidation is
+one informational page and **no** city page at all.
+
 #### And now a sixth, with the slug the whole cluster should have had — raised to **CRITICAL**
 
 `/muay-boran/` was published on 17 October 2025, three months after the fifth.
@@ -5806,6 +6009,31 @@ separate the others. Blog posts about classes should link to the program page
 rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
+
+**Four of eight FAQ questions on a Muay Boran page never mention Muay Boran.**
+The accordion on `/muay-boran-in-coppell/` asks:
+
+| # | Question | About Muay Boran? |
+|---|---|---|
+| 1 | "What age is too late to start Muay Thai?" | no — Muay Thai |
+| 2 | "Is Muay Boran allowed in MMA?" | yes |
+| 3 | "Is Muay Boran older than Muay Thai?" | yes |
+| 4 | "Is Muay Boran good for self-defense?" | yes |
+| 5 | "How much Muay Thai can I learn in 3 months?" | no — Muay Thai |
+| 6 | "What's harder, jiu jitsu or Muay Thai?" | no — neither subject |
+| 7 | "Can I do Muay Thai at 40?" | no — Muay Thai |
+| 8 | "Was Muay Boran used in war?" | yes |
+
+The four on-topic answers are accurate and useful, including a correct one that
+undercuts the page's own framing: "**No, full traditional Muay Boran is not
+allowed in MMA**... banned under unified MMA rules". The fault is that half the
+accordion is a generic Muay Thai FAQ, marked up as FAQPage, on a page whose job
+is to sell a Muay Boran class — so the page is eligible to surface in search for
+"can I do muay thai at 40" and answers nothing a Muay Boran enquirer asked.
+
+Note also that **not one FAQ question or answer mentions Coppell, the schedule,
+the price or how to enrol** — on a page whose entire purpose is local
+conversion.
 
 **Five of nine FAQ questions are about celebrities' belt ranks.** The accordion on
 `/bjj-belt-ranks/` asks:
@@ -6042,6 +6270,12 @@ find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
 
+**The same under-declaration on `/muay-boran-in-coppell/`.** Its featured image
+`Muay-Boran-in-Coppell-1024x536.jpg` is a 1024x536 file and is declared
+`width="800" height="419"`, while both in-body images on the same page declare
+their real 1024x536. One page, two conventions. **In the rebuild** all three are
+declared at the size they are.
+
 **The opposite fault: an image declared SMALLER than it is.**
 `/martial-arts-progression/` serves `Types-of-sambo-19-1024x536.jpg` — a 1024x536
 file — and declares it `width="800" height="419"`. Every other post on the site
@@ -6261,6 +6495,34 @@ that exactly one heading was skipped on this post.
 
 ### 23. Heading level skipped (H4 with no H3 above it) — SEO — Low
 
+**A whole article built one level too deep: one H2, seven H3s and TWENTY-NINE
+H4s.** `/muay-boran-in-coppell/` publishes its entire outline below H2:
+
+| Level | Count | What they are |
+|---|---|---|
+| H1 | 1 | the title |
+| H2 | 4 | "Characteristics of Muay Boran in Coppell", then only "Contact us", "Conclusion", "Follow Us on Social Media" |
+| H3 | 7 | the article's real sections — Styles, Modern Practice, Relationship with Muay Thai, Training Experience, Who Should Learn, Benefits, Why Choose |
+| H4 | 29 | every sub-section |
+
+**The skip is at the top.** "Characteristics of Muay Boran in Coppell" is an H2
+and the five sub-sections under it are **H4s**, with no H3 anywhere between
+them. After that the page settles into H3 > H4 correctly, so only the first
+section is malformed — but it is the first section a crawler reads.
+
+The practical effect is that the seven sections carrying the article's substance
+are marked up as third-level headings, while three of the four H2s are a contact
+block, a conclusion and a social-media block. Anything that builds an outline
+from the page — a screen reader's heading list, a search engine's section
+extraction, a table of contents plugin — sees an article about contact details.
+
+**In the rebuild** the levels are reproduced exactly as published, including the
+H2-to-H4 skip. The on-page table of contents lists the four H2s **and** the
+seven H3s, because an H2-only list would offer a reader "Characteristics,
+Contact us, Conclusion, Follow Us on Social Media" and nothing else. **What to
+do:** promote the seven H3s to H2 and their H4s to H3, and give the five
+orphaned H4s under "Characteristics" an H3 parent.
+
 The sub-heading "Another Inspiring Tale" is an H4, but it sits directly under
 the H2 "Transformational Journeys in Martial Arts" with no H3 between them. That
 breaks the heading outline that screen readers and search engines use to
@@ -6306,6 +6568,20 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**An alt attribute that is the whole page title, 77 characters of it.** On
+`/muay-boran-in-coppell/` the second image carries
+**`alt="Muay Boran in Coppell Traditional Thai Martial Arts Training at
+SixthSense MMA"`** — the H1, pasted verbatim into the alt attribute, and into
+the `title` attribute as well, so a mouse user gets the same 77 characters as a
+tooltip. The third image's `title` attribute is the H1 too, while its alt is the
+heading it sits above, "Muay Korat – Power-Based Striking Style".
+
+An alt attribute describes **that picture**; repeating the page title tells a
+screen-reader user nothing they have not already heard, and tells image search
+that every illustration on the page is about the same thing. **In the rebuild**
+both are reproduced as published, since writing descriptions would be writing
+new copy.
 
 **All three images on one page share the same alt text.** On `/bjj-belt-ranks/`
 the featured image and both in-body images carry **`alt="BJJ Belt Ranks"`** —
@@ -6509,6 +6785,15 @@ rather than a confirmed fault.
 
 ### 14. Content that points readers at the wrong place on the map — GEOGRAPHIC TARGETING — **CRITICAL**
 
+**And now a Coppell page links the Orlando page, on the word "boran".** On
+`/muay-boran-in-coppell/` the auto-linker wrapped the word **"boran "** in the
+sentence "In muay boran classes we teach this for authentic feel" and pointed it
+at **`/brazilian-jiu-jitsu-orlando/`**. So a city-targeted Coppell page about a
+Thai striking art sends readers to a Florida page about Brazilian Jiu-Jitsu, from
+an anchor that matches neither the destination's city nor its discipline. It is
+the clearest example yet of why the Orlando page should not be live: other pages
+now link to it, which spreads the wrong-city signal rather than containing it.
+
 `/brazilian-jiu-jitsu-orlando/` ("Brazilian Jiu Jitsu Orlando: Classes, Gyms &
 Tips", published 2025-04-14) is written for people looking to train in
 **Orlando, Florida**. Sixth Sense Martial Arts is in **Coppell, Texas**, roughly
@@ -6633,6 +6918,20 @@ and **not one names Coppell, Irving, Lewisville, Grapevine or any town in the
 gym's actual catchment**. Also logged under issue 53.
 
 ### 26. Images reused from other articles under their filenames — CONTENT (asset management) — Low
+
+**A Canva default and a filename with an en dash in it.** The three images on
+`/muay-boran-in-coppell/` are `Muay-Boran-in-Coppell-1024x536.jpg` (fine),
+`Add-a-heading-9-1024x536.jpg` (the Canva placeholder again, now up to number
+nine) and
+**`Muay-Korat-–-Power-Based-Striking-Style-1024x536.jpg`** — which contains a
+literal **en dash (U+2013)**, not a hyphen, in the middle of its filename.
+
+A non-ASCII character in an upload filename has to be percent-encoded in every
+URL that references it (`%E2%80%93`), which breaks naive link checkers,
+complicates any migration or CDN rewrite, and makes the file hard to fetch from
+a shell without quoting. It works today only because WordPress encodes it for
+the `src` attribute. **In the rebuild** all three are renamed
+`boran-coppell-01..03.jpg`.
 
 **Three images named "Add-a-heading".** Every image on `/bjj-belt-ranks/` is a Canva
 export saved under the tool's placeholder title:
@@ -9859,7 +10158,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 96 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 97 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

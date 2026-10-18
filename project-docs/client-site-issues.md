@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **98 pages**: the homepage, the 5 program pages and all 92 blog
+live HTML of **99 pages**: the homepage, the 5 program pages and all 93 blog
 posts.
 
 Each issue is tagged:
@@ -291,7 +291,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, four on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -408,6 +408,14 @@ not stop it coming back.
 
 ### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
 
+**And now both formats on ONE page, four lines apart.**
+`/sambo-techniques-in-coppell/` writes the number twice in its Contact section:
+the paragraph says "**Call (469) 972-7800** or email info@sixthsensemma.com." and
+the bulleted list immediately beneath it says "Phone **469 972 7800**". Same
+section, same screen, two formats. Every other page picks one. **In the rebuild**
+both are reproduced as published and the `tel:` link is the correct
+`+14699727800`.
+
 **A fifth way: parenthesised.** `/kickboxing-gloves/` publishes it as
 **"(469) 972-7800"** — "Call (469) 972-7800 or email info@sixthsensemma.com." That
 makes five published forms of the correct number across the blog: hyphenated,
@@ -465,6 +473,27 @@ program page instead of a contact page or form.
 the spelling.
 
 ### 12. AI-tool markup pasted into posts: ChatGPT, and now DeepSeek — CONTENT — Medium
+
+**A third AI tool, and this one is inside a published link: `?referrer=grok.com`.**
+`/sambo-techniques-in-coppell/` publishes its Contact paragraph email as:
+
+```html
+<a href="mailto:info@sixthsensemma.com?referrer=grok.com">info@sixthsensemma.com</a>
+```
+
+A `referrer=grok.com` parameter has been appended to the gym's own email link.
+Nobody writes that by hand: it is the tracking parameter **Grok** adds to links
+it generates, carried into the page along with the text and never cleaned up. It
+is harmless to a reader — mail clients ignore an unknown mailto parameter — but
+it is a third AI tool's fingerprint in the published source, after ChatGPT and
+DeepSeek below, and it is the first one inside an attribute rather than in
+markup.
+
+**In the rebuild** the link is reproduced exactly, parameter included, because
+changing where a published link points is not a reproduction. **What to do:**
+strip `?referrer=grok.com` on the live site; the link works identically without
+it. And it is worth searching the whole site for `referrer=` — if one link
+carries it, others may.
 
 Two passages were copied straight out of the ChatGPT website, bringing its page
 code with them (`gizmo-bot-avatar`, `bg-token-main-surface-primary`). The text
@@ -528,6 +557,21 @@ leftover from drafting and shows on the page.
 **What to do:** delete the placeholder lines.
 
 ### 17. Spelling errors, garbled headings and one untranslated Hindi/Urdu word — CONTENT — Medium
+
+**A heading missing a space, a sentence missing its predicate, and a word cut in
+half by a link.** `/sambo-techniques-in-coppell/` carries three separate faults
+of this kind:
+
+| What | As published | The problem |
+|---|---|---|
+| H2 | "Why Choose Sixth Sense for Sambo Techniques Training in **Coppell,TX**" | no space after the comma |
+| Paragraph | "**Learning sambo at Sixth Sense Martial Arts .** Benefits of learning sambo cover body control and calm in chaos." | the opening sentence has no predicate — it stops after the business name — and the full stop is preceded by a **no-break space** |
+| Link | "**Moves sambo mart**ial art teach leverage over strength" | the auto-linker wrapped "Moves sambo mart" and left "ial art" outside it, cutting the word **martial** in half |
+
+The second is the worst: the first sentence under an H2 is an incomplete
+fragment, so the section opens on a dangling phrase. The third is the first time
+the auto-linker has split a word rather than a clause (issue 5). **In the
+rebuild** all three are reproduced exactly, no-break space included.
 
 **A misspelled section heading on the strongest local page.**
 `/martial-arts-near-me-in-coppell-texas/` publishes its closing H2 as
@@ -1815,6 +1859,105 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### READ THIS FIRST: two pages that together are a complete advertisement for a Sambo programme — **the client must confirm before either goes live**
+
+Five Sambo posts now exist for a gym with no Sambo programme, and this one
+advertises local classes by city. `/sambo-techniques/` already described a
+"Sambo Academy" with beginner and advanced tiers. Together these two pages
+constitute a complete advertisement for a programme that may not exist.
+The client must confirm before either goes live.
+
+`/sambo-techniques-in-coppell/` (27 December 2025) is the fifth Sambo post and
+the first with a city in its slug. Read it beside `/sambo-techniques/`, which
+publishes an H2 "**Sambo Academy Programs at Sixth Sense MMA**" with H3s
+"**Beginner Classes to Learn Sambo**", "**Advanced Sessions for Skill
+Refinement**", "Experienced Instructors and Custom Plans" and "Community and
+Support System". One page names the academy and its class tiers; the other
+attaches the city, the address and the call to action. Nothing else is needed to
+make a reader believe they can book.
+
+**a) Does the page state that Sambo classes currently run in Coppell?** Yes,
+throughout, and it closes with an instruction to turn up:
+
+> "**Sambo martial fans find classes here build sambo skills.**"
+
+> "Sambo world hosts events but **local spots like sixth sense mma make sambo
+> easy to start**."
+
+> "Sambo roots trace to military needs but **sambo today fits gyms like ours in
+> tx**."
+
+> "**Sambo training at our gym** pushes body and timing step by step."
+
+> "Safety comes first with taps and coach watch during submission drills **at our
+> gym**."
+
+> "**Sambo techniques in Coppell fit all levels at sixth sense mma.**"
+
+> "**Classes follow clear plans from basics to advanced chains.**" ·
+> "**Beginners get extra basics while advanced students refine chains.**" ·
+> "Sambo training maps growth **visible each month**."
+
+> "**Start Sambo Techniques in Coppell today at Sixth Sense Martial Arts. Visit
+> 817 S MacArthur Blvd #100 Coppell TX 75019. Call (469) 972-7800** or email
+> info@sixthsensemma.com. **Join and build your sambo fighter skills now.**"
+
+That last paragraph is the strongest conversion instruction on any of the
+untaught-discipline pages: a named art, a street address, a phone number and
+"Join ... now", in four sentences. "Classes follow clear plans from basics to
+advanced chains" is also the same two-tier structure `/sambo-techniques/`
+advertises as the Sambo Academy.
+
+**b) Does it name any instructor, certification or lineage?** No. It claims
+coaching depth, specialisation and competition results, and attaches no name to
+any of them:
+
+> "**Coaches carry deep background in sambo throws subs and strikes.**" ·
+> "**Specialized in sambo techniques** means accurate form and timing tips." ·
+> "Sambo fighters under them **gain pro level details**." · "**Many students win
+> at sambo championships or sambo events.**" · "**Proven results show in comp
+> medals and teaching roles later.**"
+
+No instructor, no governing body, no FIAS or national-federation affiliation, no
+Master of Sport rank, and no event named. "Many students win at sambo
+championships" is a checkable claim about competition results and the only one
+of its kind on the site; it should be evidenced or removed.
+
+**c) Does it state class times, days or a schedule?** **No.** Not one weekday,
+time or session length anywhere. "Sambo training maps growth visible each month"
+is the nearest thing to a timeframe.
+
+**d) Does it state a minimum age?** **No.** There is no age on the page at all.
+The only numerals are the phone number, the street number, the postcode and the
+year 2004. It says "Amateur sambo often follows this for **youth** and hobby
+folks", "fit all levels" and "Beginners build sambo skills slow without need for
+prior experience", and never says how young "youth" goes. That is the same gap
+as `/martial-arts-weapons-training-in-coppell/` below, on a page whose
+signature technique is the leg lock.
+
+**e) Does it mention supervision for leg locks and throws?** **For submissions,
+yes. For throws, no.** The submission section is explicit and is the best safety
+copy on any of these pages:
+
+> "**Safety comes first with taps and coach watch during submission drills at our
+> gym.**" · "**Control means slow squeeze and clear signals to avoid injury.**" ·
+> "**Sambo training teaches when to release for partner health.**" · "Sambo
+> skills include knowing limits in live rolls." · "Sambo teaches safe entry to
+> avoid counters."
+
+The throwing sections carry no equivalent. "Sambo fighters **drill hips daily**",
+"Sambo exercises repeat sweeps for timing", "**Practicing sambo daily** builds
+the needed reps" and "Sambo trening means practice these often" encourage daily
+repetition of hip throws, shoulder throws and lifts with no mention of a coach,
+a partner's consent or a mat. The page never uses the word "supervision" at all;
+"coach watch" is as far as it goes, and only for submissions.
+
+**It does not invite unsupervised practice** — nothing tells the reader to try
+anything at home or alone, and every drill is described in a class setting. The
+gap is that the throws are never explicitly placed under a coach the way the
+submissions are. **What to do:** add one sentence to the throwing sections
+matching the submission section's wording.
 
 #### READ THIS FIRST, AHEAD OF EVERYTHING BELOW: a city-targeted page selling WEAPONS instruction, katana included — **the most serious service claim in the library**
 
@@ -4122,6 +4265,40 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**A leg-lock page with no disclaimer, and the word "supervision" never appears.**
+`/sambo-techniques-in-coppell/` devotes two H3s to leg locks — "Leg Locks as a
+Signature of Sambo" and "Ankle Locks and Knee Locks" — and describes them
+mechanically: "**Ankle locks twist heels inward for straight foot pain while knee
+locks bar or compress joints**", "Sambo classics include **figure four and toe
+holds** for tight control", "Sambo training stresses **grip and hip push for
+power**". Leg locks are the submissions most likely to injure an untrained
+partner, because the joint gives way before the pain does.
+
+**What the page does well, and it is worth saying:** its submission section is
+the best safety copy on any of these pages — "Safety comes first with **taps and
+coach watch** during submission drills at our gym", "Control means **slow squeeze
+and clear signals** to avoid injury", "Sambo training teaches **when to release
+for partner health**". Nothing on the page invites a reader to try anything alone.
+
+**What is missing:**
+
+- **No disclaimer of any kind.** "Disclaimer", "at your own risk", "seek
+  medical", "consult a doctor" and "not responsible" appear nowhere — the same
+  gap as the four pages below.
+- **The word "supervision" never appears**, only "coach watch", and only for
+  submissions.
+- **The throwing sections have no supervision statement at all**, while
+  encouraging daily repetition: "Sambo fighters **drill hips daily**",
+  "**Practicing sambo daily** builds the needed reps", "Sambo trening means
+  practice these often". Hip throws, shoulder throws and lifts — "**Lifting
+  techniques raise foes off the ground** ... to set up slams" — get no equivalent
+  of the submission section's caution.
+- **No minimum age**, on a page about leg locks (issue 39).
+
+**In the rebuild** nothing was added: a disclaimer would be new copy and its
+wording is the client's decision. **What to do:** copy the submission section's
+own sentence into the throwing sections, and add the standard disclaimer.
+
 **A weapons page making a legality claim, with no jurisdiction and no
 disclaimer — for client legal review.**
 `/martial-arts-weapons-training-in-coppell/` publishes these sentences verbatim.
@@ -4602,6 +4779,25 @@ This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
+
+**Ten more tags, and one of them is "sambo academy Coppell TX".**
+`/sambo-techniques-in-coppell/` carries: "combat sambo Coppell", "learn sambo
+techniques Texas", "leg locks sambo Coppell", "sambo academy Coppell TX", "sambo
+classes Coppell TX", "sambo martial arts Coppell", "sambo self defense Coppell",
+"Sambo Techniques in Coppell", "sambo throws Coppell", "sambo training Coppell".
+
+All ten name Coppell or Texas and all ten advertise a discipline with no
+programme page. Two are the sharpest claims in the whole tag set: **"sambo
+academy Coppell TX"** asserts the existence of a Sambo academy in Coppell, which
+is exactly the claim `/sambo-techniques/` makes in its "Sambo Academy Programs"
+heading and which issue 39 flags as unverified; and **"leg locks sambo
+Coppell"** is a tag archive advertising leg-lock instruction in a named city, on
+a site that states no minimum age (issue 31).
+
+That brings the running total to **thirty city-targeted tags across three
+posts** — weapons, Muay Boran and Sambo — for three disciplines the site has no
+programme for, each one generating its own indexable archive. **In the rebuild**
+no tag pills are rendered on any post.
 
 **Ten more tags, all ten local, all ten for weapons classes.**
 `/martial-arts-weapons-training-in-coppell/` carries: "best martial arts weapons
@@ -5261,6 +5457,23 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**A Sambo page's closing paragraph links the Teens BJJ page, and another link
+cuts a word in half.** On `/sambo-techniques-in-coppell/`:
+
+| Anchor text | Points at | Problem |
+|---|---|---|
+| "Moves sambo mart" | `/sambo-moves/` | **cuts the word "martial" in half** — the page renders "Moves sambo mart\|ial art teach leverage" |
+| " sambo picks" | `/types-of-sambo/` | swallows the space after "Type of" |
+| "self defense" | `/different-types-of-martial-arts/` | fine |
+| "Sixth Sense" | `/martial-arts-near-me-in-coppell-texas/` | the **business name** is the anchor text, inside the broken fragment at issue 17 |
+| "Sixth Sense Martial Arts" | **`/teens-bjj-near-me/`** | the business name again, in the **Conclusion of a Sambo article**, pointing at a teens BJJ page |
+
+The last one is the fault: a reader finishing an article about Sambo leg locks
+clicks the gym's own name and lands on a page about teenage Brazilian
+Jiu-Jitsu. Two different links on one page use the business name as anchor text
+and send readers to two unrelated destinations. **In the rebuild** all five are
+reproduced exactly, including the half-word.
+
 **Five more, and three of them swallow a space.** On
 `/martial-arts-weapons-training-in-coppell/`:
 
@@ -5414,7 +5627,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, four on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -5629,6 +5842,47 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The Sambo cluster reaches FIVE, and the newest is the city twin of the oldest — **CRITICAL**
+
+`/sambo-techniques-in-coppell/` (27 December 2025) is the fifth, and it creates
+the cluster's third duplication: **the same primary keyword on two slugs that
+differ only by a city suffix.**
+
+| | `/sambo-techniques/` | `/sambo-techniques-in-coppell/` |
+|---|---|---|
+| Primary keyword | "Sambo techniques" | "Sambo Techniques in Coppell" |
+| H1 | "Sambo Techniques ... at Sixth Sense MMA" | "Sambo Techniques in Coppell Practical Grappling and Combat Skills with Sixth Sense MMA" |
+| Words | — | 2,550 |
+| Throws | H3s "Hip Throws and Their Execution", "Leg Reaps for Takedowns", "Sacrifice Throws Step by Step" | H2 "Throwing Techniques in Sambo" with H3s "Hip Throws and Body Rotation", "Leg Sweeps and Trips", "Shoulder Throws and Lifting Techniques" |
+| Locks | "Arm Locks and Joint Manipulations", "Leg Locks for Control" | H2 "Submission Techniques in Sambo" with "Leg Locks as a Signature of Sambo", "Ankle Locks and Knee Locks" |
+| Striking | "Striking Elements in Combat Sambo" | "Combat Sambo Striking Techniques" |
+| Types | "Types of Sambo" | "Types of Sambo Techniques" |
+| Sales section | "Sambo Academy Programs at Sixth Sense MMA", "Why Pick Sixth Sense MMA for Sambo Techniques" | "Why Choose Sixth Sense for Sambo Techniques Training in Coppell,TX" |
+| Reviews | a Customer Reviews section | none |
+
+**This is the third city/no-city pair on the site**, after
+`/kick-boxing-gloves/` versus `/kickboxing-gloves/` and
+`/brazilian-jiu-jitsu-belt-ranks/` versus `/bjj-belt-ranks/`. It is also the
+cleanest example of the pattern, because the slugs are identical apart from
+`-in-coppell`.
+
+**The headings were compared directly, and they do NOT match verbatim.** Of this
+page's 42 H2s and H3s, **3 match a heading on `/sambo-techniques/` exactly — 7%
+— and all three are boilerplate** ("Contact US", "Conclusion"). At H3 level the
+overlap is **zero**. So this is not a copy-paste duplicate.
+
+**But the subjects are the same, reworded.** Seven of the twelve H2s cover
+material `/sambo-techniques/` already covers under a different phrasing —
+types, throws, ground and submissions, combat striking, benefits, and the "why
+choose us" close. Rewritten headings over the same subject matter is harder for
+the client to spot than a copy-paste and no better for search: Google still has
+two pages answering "sambo techniques" and has to pick one.
+
+**Recommendation: keep `/sambo-techniques-in-coppell/`** — the local slug is the
+only thing that distinguishes any Sambo page in search — merge the academy and
+reviews material from `/sambo-techniques/` into it, and 301 the other four.
+**Only if the programme is real**, which is issue 39's first entry.
 
 #### The Sambo cluster: FOUR posts, zero programme, and two overlapping pairs — **CRITICAL**
 
@@ -6277,6 +6531,40 @@ rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
 
+**Six of nine FAQ questions on a Sambo page never mention Sambo, and three are
+about film actors.** The accordion on `/sambo-techniques-in-coppell/` asks:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "How many techniques are there in Sambo?" | **yes** |
+| 2 | "Is Sambo really better than BJJ?" | **yes** |
+| 3 | "What is the hardest fighting style?" | no |
+| 4 | "Does John Wick use Sambo?" | **film** — mentions Sambo |
+| 5 | "What martial arts does the CIA use?" | no — and the **same question** as on the weapons page above |
+| 6 | "Which is the fastest fighting style?" | no |
+| 7 | "What is Keanu Reeves fighting style?" | **film** |
+| 8 | "What is the hardest black belt to get?" | no |
+| 9 | "Is Jason Statham a black belt in martial arts?" | **film** |
+
+Only two of the nine are about Sambo as a subject. Three are about **John Wick,
+Keanu Reeves and Jason Statham**, which is the same celebrity-FAQ pattern as the
+BJJ belt page below, and question 5 is **copied verbatim from
+`/martial-arts-weapons-training-in-coppell/`** — the identical CIA question with
+a near-identical answer, on two pages published a day apart. Both are marked up
+as FAQPage, so the two pages now compete with each other for the same
+non-commercial query.
+
+The answers also work against the page. Question 2 concludes "Many experts view
+them as complementary", question 3 says **Brazilian Jiu-Jitsu** is the hardest
+martial art, and question 8 says the **BJJ black belt** is the hardest to get —
+three answers promoting a discipline the gym actually teaches, inside the FAQ of
+a page selling one it may not.
+
+**What to do:** keep 1 and 2, keep 4 if the John Wick traffic converts, and
+replace the rest with what a prospective student would ask — what age Sambo
+classes start at, whether leg locks are taught to beginners, what to wear, and
+whether the kurtka is provided. The page answers none of those.
+
 **An FAQ about FIREARMS, the CIA and the US military, on a page selling weapons
 classes to children.** The accordion on
 `/martial-arts-weapons-training-in-coppell/` asks:
@@ -6571,6 +6859,13 @@ link, and the Wikipedia "rushing" link; replace or remove the generic ones. Then
 find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
+
+**A fourth page, same pattern.** `/sambo-techniques-in-coppell/` serves
+`Sambo-Techniques-in-Coppell-1024x536.jpg` — a 1024x536 file — and declares it
+`width="800" height="419"`, while both in-body images on the same page declare
+their real 1024x536. It is now the house default for featured images and the fix
+is one template change, not four. **In the rebuild** all three are declared at
+the size they are.
 
 **A third page with it, and the same split personality.**
 `/martial-arts-weapons-training-in-coppell/` serves
@@ -7240,6 +7535,27 @@ and **not one names Coppell, Irving, Lewisville, Grapevine or any town in the
 gym's actual catchment**. Also logged under issue 53.
 
 ### 26. Images reused from other articles under their filenames — CONTENT (asset management) — Low
+
+**Two images uploaded from the same file, and the second one's alt text names a
+section it does not sit in.** On `/sambo-techniques-in-coppell/` the two in-body
+images are:
+
+```
+Grappling-and-Ground-Control-Techniques-1024x536.jpg     alt="Grappling and Ground Control Techniques"
+Grappling-and-Ground-Control-Techniques-1-1024x536.jpg   alt="Training Methods for Sambo Techniques"
+```
+
+The second filename is the first with WordPress's **`-1` duplicate suffix**
+appended, which the media library adds when a file of that name already exists.
+So two different pictures are stored under one description, distinguished only by
+a numeral, and the second one's **alt text describes a different section** of the
+article — it illustrates "Training Methods for Sambo Techniques" but is filed
+under "Grappling and Ground Control". Anyone searching the media library for the
+training-methods illustration will not find it.
+
+**In the rebuild** both are renamed `sambo-coppell-02.jpg` and
+`sambo-coppell-03.jpg` and the published alt text is kept, since rewriting it
+would be writing new copy.
 
 **A Canva default and a filename with an en dash in it.** The three images on
 `/muay-boran-in-coppell/` are `Muay-Boran-in-Coppell-1024x536.jpg` (fine),
@@ -10480,7 +10796,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 98 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 99 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

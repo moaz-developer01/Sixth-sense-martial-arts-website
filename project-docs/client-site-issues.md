@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **99 pages**: the homepage, the 5 program pages and all 93 blog
+live HTML of **100 pages**: the homepage, the 5 program pages and all 94 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,37 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. FIVE posts promise an absence of injury risk, two of them on classes sold to five-year-olds and one on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. SIX posts promise an absence of injury risk, two of them on classes sold to five-year-olds and one on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The sixth page, one sentence — and the same page carries the only honest caveat on the site
+
+`/best-martial-arts-for-self/` (30 December 2025) publishes one sentence that
+has been **omitted from the rebuild**, with an HTML comment in its place:
+
+> Safe gear and rules let push hard **without hurt**.
+
+It sits under the H3 "Safe, Supportive, and Controlled Training Environment", so
+it is the sentence a prospective member reads when they go looking for exactly
+this reassurance. "Push hard without hurt" is a promise no gym can keep.
+
+**But read the rest of the page before judging it**, because it does something
+none of the other five do. In its opening section it states:
+
+> **No martial art guarantees success but good ones build fighting ability
+> through practice.**
+
+That is the only sentence on any of the 94 blog posts that explicitly **refuses**
+an outcome guarantee, and it is the closest thing to a disclaimer anywhere on the
+site (issue 31). It is reproduced unchanged.
+
+So this page both makes the fault and demonstrates the fix: the client already has
+house wording for "we do not promise outcomes", in their own voice, on the same
+page. Applying it to the injury sentence takes four words — "lower the risk of
+injury" — and the correction for the other five posts is already written.
+
+**Running total: 40 sentences across six posts**, 9 of them on classes for ages
+5-12 and 3 on weapons training with no minimum age.
+
 
 #### The fifth page, and the most serious: weapons training called "risk free"
 
@@ -284,14 +314,14 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **FIVE** posts promising an absence of injury risk or calling an organ strike safe, 39 sentences in all, 9 of them on classes for ages 5-12 and 3 on weapons training with no minimum age — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 5 | **URGENT** |
+| 0 | **SIX** posts promising an absence of injury risk or calling an organ strike safe, 40 sentences in all, 9 of them on classes for ages 5-12 and 3 on weapons training with no minimum age — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 6 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -882,6 +912,21 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**A second page where the business's real name never appears at all.**
+`/best-martial-arts-for-self/` writes the brand three ways and **"Sixth Sense
+Martial Arts" is not one of them**:
+
+| Form | Times | Where |
+|---|---|---|
+| **SixthSense MMA** | 5 | the **H1**, the body, and the page's own `<title>` |
+| Sixth Sense MMA | 2 | an H2 and the Follow Us paragraph |
+| **Sixth Sense** (bare) | 1 | an H2: "Why Choose **Sixth Sense** for Best Martial Arts for Self Defense" |
+
+The run-together form outnumbers the correct one five to two and holds the H1, as
+on the weapons page below. The bare "Sixth Sense" in an H2 trails off without
+"Martial Arts" or "MMA" after it, the same fault as the Muay Boran page's
+lower-cased "by sixth sense".
 
 **And the run-together form wins on the weapons page, in the H1 again.**
 `/martial-arts-weapons-training-in-coppell/` uses only two spellings, but the
@@ -1859,6 +1904,41 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### The discipline list reaches EIGHTEEN: Wing Chun, Jeet Kune Do and knife fighting join it
+
+`/best-martial-arts-for-self/` (30 December 2025) profiles **ten disciplines
+under their own H3 headings** and names four more in prose. Three of them are new
+to this entry:
+
+| New | Where | What the page says |
+|---|---|---|
+| **Wing Chun** | its own H3, "Wing Chun for Close-Range Combat", 7 mentions | "Wing chun chains hands in tight for traps and strikes", "uses center line attacks for direct hits", "Self-defense martial art teaches chain punches" |
+| **Jeet Kune Do** | prose, twice | "Best self defence martial art like krav maga or **jeet kune** use simultaneous attack and defense for real edge", "**Jeet kune** or wing chun add but sambo covers all" |
+| **knife fighting** | prose, in the Krav Maga section | "**Knife fighting** drills teach disarm and strike" |
+
+The full list of disciplines the blog now names, against the five programmes the
+site actually has pages for: **Kali, Sambo, Martial Blade Concepts, Tai Chi, Krav
+Maga, Boxing, MMA, Karate, Judo, Wrestling, Capoeira, Kung Fu, Taekwondo, weapons
+training, Women's Self-Defense, Wing Chun, Jeet Kune Do** and **knife fighting** —
+eighteen, of which **two** (BJJ and Muay Thai) have a programme behind them.
+
+**This page is the least culpable of the group, and the distinction matters.**
+Unlike the Sambo, Muay Boran and weapons pages below, it does **not** claim the
+gym teaches these eighteen styles. It is a comparison article: each H3 explains
+what that discipline is good for, in the third person, and the only sentences
+that mention the gym's own training are about "proven styles" generally —
+"SixthSense MMA stands strong for best martial arts for self defense in Coppell",
+"Best martial art for self-defense training here mixes proven styles safe". A
+reader could still infer that all ten are on the timetable, because nothing says
+otherwise, but no sentence asserts it.
+
+**What to do:** one line near the top — "we teach Brazilian Jiu-Jitsu and Muay
+Thai; the styles below are compared for context" — converts this page from a
+liability into the honest hub for the whole cluster. **In the rebuild** Brazilian
+Jiu-Jitsu and Muay Thai are each linked to their adult programme page from inside
+their own section, and the other sixteen are left unlinked, which is the same
+distinction in markup.
 
 #### READ THIS FIRST: two pages that together are a complete advertisement for a Sambo programme — **the client must confirm before either goes live**
 
@@ -3510,7 +3590,47 @@ This is the only place in the rebuild where something visible on the live page
 was deliberately left out, and it was left out because it is not visible on the
 live page either.
 
-### 44. The same topic published under two URL spellings — SEO — Medium
+### 44. URL-level defects: a slug that stops mid-phrase, a misspelt slug, and one topic under two spellings — SEO — Medium
+
+#### A slug cut off mid-phrase: `/best-martial-arts-for-self/`
+
+`/best-martial-arts-for-self/` (30 December 2025) is published at a URL that
+**stops in the middle of its own phrase**. The page's H1 is "Best Martial Arts
+for Self Defense: Practical Training at SixthSense MMA" and its `<title>` is
+"Best Martial Arts for Self Defense Complete Beginner Guide", but the slug ends
+at **`for-self`**, with "defense" missing.
+
+| | Value |
+|---|---|
+| URL | `https://sixthsensemma.com/best-martial-arts-for-self/` |
+| H1 | Best Martial Arts for Self **Defense**: Practical Training at SixthSense MMA |
+| Title tag | Best Martial Arts for Self **Defense** Complete Beginner Guide |
+
+**Why it matters.** Google shows the URL above the title in a result, so the
+reader's first impression of the page is a sentence that stops dead: "best
+martial arts for self". It reads as an error, and it suggests the URL was saved
+before the title was finished — WordPress generates the slug from whatever is in
+the title field at the moment of the first save, so a slug this shape usually
+means someone hit publish mid-typing and never corrected it.
+
+**This is the second slug-level defect on the site**, after
+`/martial-arts-for-kids-strenght/`, where "strength" is misspelt **in the URL
+itself**. Both are permanent until redirected: a slug is the one part of a page
+that cannot be quietly fixed later without breaking every link to it.
+
+**In the rebuild** the truncated slug is kept exactly — the file is
+`best-martial-arts-for-self.html` and the canonical is
+`https://sixthsensemma.com/best-martial-arts-for-self/` — because the canonical
+must match the live URL or the replica points somewhere that does not exist.
+
+**Recommendation:** publish at `/best-martial-arts-for-self-defense/`… except
+that slug is **already taken by another post** (issue 7), which is the knot here.
+So: pick the surviving page of that near-duplicate pair, give it the complete
+slug, and **301 `/best-martial-arts-for-self/` to it**. Do the same for
+`/martial-arts-for-kids-strenght/` → `/martial-arts-for-kids-strength/`.
+
+#### One topic under two URL spellings
+
 
 Kickboxing is spelled two different ways in the site's own URLs:
 
@@ -4265,6 +4385,40 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**Outcome promises on a self-defence page — and the only no-guarantee caveat on
+the site, on the same page.** `/best-martial-arts-for-self/` makes these claims,
+all reproduced verbatim and none altered:
+
+> "**Gains in calm strength and awareness last forever.**" — a permanence claim.
+> Nothing from training lasts forever without training.
+
+> "**Technique over strength makes small beat big here.**" — stated as fact, with
+> no qualifier, on a page aimed at "Men and Women Seeking Personal Safety".
+
+> "**Calm grows from knowing you can protect.**" · "**Personal safety rises** with
+> drills against grabs or strikes." · "**Personal safety becomes habit** from
+> repeated drills." · "Young adults build **life long** self-defense skills early."
+
+None of these guarantees a reader can defend themselves in so many words, and
+that distinction is worth keeping: the page never says "you will be able to
+defend yourself". But "makes small beat big" and "last forever" are both stated
+without hedge, to an audience being told elsewhere on the page that the training
+is for "real protection skills".
+
+**And then the page does the thing none of the others do.** In its first section:
+
+> "**No martial art guarantees success but good ones build fighting ability
+> through practice.**"
+
+That is the only explicit refusal of an outcome guarantee in the whole content
+library, and it is the nearest thing to a disclaimer on any of the pages in this
+entry. It is also the fix: the client's own wording, in the client's own voice,
+already exists and can be lifted onto the other pages.
+
+**What is still missing:** no disclaimer in the formal sense — "disclaimer", "at
+your own risk", "seek medical", "consult a doctor" and "not responsible" appear
+nowhere — and one absence-of-injury sentence had to be cut (issue 0).
+
 **A leg-lock page with no disclaimer, and the word "supervision" never appears.**
 `/sambo-techniques-in-coppell/` devotes two H3s to leg locks — "Leg Locks as a
 Signature of Sambo" and "Ankle Locks and Knee Locks" — and describes them
@@ -4779,6 +4933,37 @@ This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
+
+**Ten tags on one post, and every one of them is another post's primary keyword.**
+`/best-martial-arts-for-self/` carries: "best martial arts for self defense",
+"best self defense fighting styles", "Martial Arts for beginners self defense",
+"martial arts for self defense", "martial arts self defense techniques", "real
+life self defense martial arts", "self defense combat martial arts", "self
+defense martial arts", "self defense training martial arts", "street self defense
+martial arts".
+
+**All ten are the same phrase reordered.** Strip the words and every one is a
+permutation of {best, self, defense, martial, arts} plus a modifier. Two are
+word-for-word the primary keywords of other posts in the cluster: **"best martial
+arts for self defense"** is `/best-martial-arts-for-self-defense/`'s keyword and
+**"martial arts for self defense"** is `/martial-arts-for-self-defense/`'s. So the
+tag archives now compete with the posts themselves, on top of the nine posts
+competing with each other (issue 7).
+
+Two points in the client's favour: **no tag names a city** on this post, unlike
+the thirty city-targeted tags above, and **no tag targets an untaught
+discipline** — they are all about self-defence generally, which BJJ and Muay Thai
+genuinely serve. The spelling is also consistent: all ten use American "defense",
+with no British "defence" among them, even though the body text mixes the two
+(issue 17) and `/which-martial-art-is-best-for-self-defence/` has "defence" in
+its slug.
+
+**One capitalisation slip:** "**Martial Arts** for beginners self defense" is
+title-cased mid-phrase while the other nine are lower case.
+
+**In the rebuild** no tag pills are rendered on any post. **What to do:** two tags
+cover this set — "self defense martial arts" and "martial arts for beginners" —
+and the other eight should go with their archives.
 
 **Ten more tags, and one of them is "sambo academy Coppell TX".**
 `/sambo-techniques-in-coppell/` carries: "combat sambo Coppell", "learn sambo
@@ -5457,6 +5642,26 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**Three auto-links on one page, and all three point at a post it is competing
+with.** On `/best-martial-arts-for-self/`:
+
+| Anchor text | Points at | Note |
+|---|---|---|
+| "martial arts" | `/top-ten-martial-arts-for-self-defense/` | cluster sibling (issue 7) |
+| "Best martial arts" | `/martial-arts-for-self-defense/` | cluster sibling |
+| "self defense" | `/best-martial-arts-for-self-defense/` | **its own near-duplicate twin** |
+
+Three outbound internal links, three of the eight pages it duplicates. The third
+is the one to look at: the page links **the post whose slug is its own slug plus
+"-defense"**, which tells Google the two are related and leaves it to work out
+which to rank. It is the same self-citation pattern as the Muay Boran and belt
+clusters, in its purest form — a page citing the article it is a copy of.
+
+Two of the three also take a space or a word boundary oddly: "Top ten **martial
+arts** for self defense" and "Best martial arts for **self defense** ranking"
+split phrases across the link edge. **In the rebuild** all three are reproduced
+exactly.
+
 **A Sambo page's closing paragraph links the Teens BJJ page, and another link
 cuts a word in half.** On `/sambo-techniques-in-coppell/`:
 
@@ -5627,7 +5832,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: EIGHT on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -6144,6 +6349,54 @@ and 301 the other. **Do the disclaimer first**: consolidating two
 undisclaimered spine-loading articles produces one longer undisclaimered
 spine-loading article.
 
+#### The self-defence cluster reaches NINE, and two of them are one slug with the end cut off — **CRITICAL**
+
+`/best-martial-arts-for-self/` (30 December 2025) is the ninth, and the
+self-defence cluster is now **the largest group in the project**, ahead of Muay
+Boran at seven and belts at six:
+
+| # | Post | Shape |
+|---|---|---|
+| 1 | `/best-martial-arts/` | general |
+| 2 | `/best-martial-arts-for-self-defense/` | one H2 per discipline |
+| 3 | **`/best-martial-arts-for-self/`** | **one H3 per discipline — the truncated slug** |
+| 4 | `/best-fighting-style-for-self-defense/` | general |
+| 5 | `/best-self-defense/` | general |
+| 6 | `/which-martial-art-is-best-for-self-defence/` | British "defence" spelling |
+| 7 | `/top-ten-martial-arts-for-self-defense/` | a numbered ten |
+| 8 | `/top-fighting-styles/` | ranks one discipline (issue 80) |
+| 9 | `/martial-arts-for-self-defense/` | general, with reviews |
+
+**Posts 2 and 3 are a near-exact duplicate pair, and the only difference between
+their URLs is that one of them is cut off.** `/best-martial-arts-for-self-defense/`
+and `/best-martial-arts-for-self/` are the same article written twice:
+
+| | `/best-martial-arts-for-self-defense/` | `/best-martial-arts-for-self/` |
+|---|---|---|
+| Disciplines broken out | Muay Thai, Boxing, BJJ, Krav Maga, Judo, Karate, Taekwondo, Jeet Kune Do — as **H2s** | BJJ, Muay Thai, Boxing, Wrestling, Sambo, Krav Maga, Judo, Karate, Taekwondo, Wing Chun — as **H3s** |
+| Other H2s | "Introduction", "Key Points", "Main Content", "Training Regimen", "Training Methods", "Training Practices" — leaked editorial markers (issue 22) | proper section headings, no markers |
+| Slug | complete | **truncated** (issue 44) |
+| Words | — | 2,175 |
+
+**The headings were compared directly and they do not match verbatim**: of this
+page's 39 H2s and H3s, **1 matches a heading on
+`/best-martial-arts-for-self-defense/` — 3% — and it is "Conclusion"**, and **3
+match either of the two closest siblings — 8% — all three boilerplate** ("Contact
+Us", "Conclusion", "Follow Us on Social Media"). Against
+`/martial-arts-for-self-defense/` the H2-level overlap is 20%, also boilerplate.
+
+**But seven of the same disciplines are broken out on both pages**, in the same
+order of priority, answering the same query. Rewritten headings over the same
+material is harder to spot than a copy-paste and no better for search: Google has
+nine pages for one question and has to choose.
+
+**Which to keep.** This page is the **best-built of the nine** — no leaked
+editorial markers, ten disciplines covered rather than eight, a real FAQ, and the
+only no-guarantee caveat on the site (issue 0). Its slug is the one thing wrong
+with it. So: **keep this page's content at
+`/best-martial-arts-for-self-defense/`'s slug**, 301 the other eight into it, and
+retire the truncated URL.
+
 #### The self-defence cluster reaches EIGHT, and the newest is the thinnest — **CRITICAL**
 
 `/top-fighting-styles/` (13 November 2025) is the eighth page chasing "which
@@ -6531,6 +6784,40 @@ rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
 
+**POSITIVE: an FAQ where all six questions are on subject — and one dangling
+cross-reference.** `/best-martial-arts-for-self/` asks:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "What is the Best Martial Art for Street Defense?" | yes |
+| 2 | "Is Taekwondo or BJJ Better for Self-Defense?" | yes |
+| 3 | "Is MMA or Krav Maga Better?" | yes |
+| 4 | "What is the #1 Martial Art?" | yes |
+| 5 | "What is Stronger, Karate or Jiu-Jitsu?" | yes |
+| 6 | "What are the Big 4 Martial Arts?" | yes |
+
+**Six for six.** After the Roblox questions, the OnlyFans question, the celebrity
+belt ranks, the CIA and the firearms set, this is the first FAQ in the audit where
+every question belongs on the page it is attached to, and the answers are
+accurate and appropriately hedged ("no absolute #1 exists", "it depends on
+context"). Worth recording as the model the other twelve should be rewritten
+toward.
+
+**One fault, and it is small.** Answer 4 opens:
+
+> "**Similar to above**, no absolute #1 exists."
+
+"Above" refers to question 1, three questions earlier — but an FAQ accordion is
+collapsed by default and its items are read in any order, so the phrase points at
+nothing. It is also the fingerprint of a drafting session in which these answers
+were written as a continuous list and then split into an accordion. **In the
+rebuild** it is reproduced as published. **What to do:** replace "Similar to
+above" with "As with street defense".
+
+**Note that question 5's answer recommends BJJ over Karate and question 2's
+recommends BJJ over Taekwondo** — both pointing at a discipline the gym actually
+teaches, which is the right outcome for this page.
+
 **Six of nine FAQ questions on a Sambo page never mention Sambo, and three are
 about film actors.** The accordion on `/sambo-techniques-in-coppell/` asks:
 
@@ -6860,6 +7147,15 @@ find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
 
+**A fifth page, and it confirms this is a template default rather than five
+mistakes.** `/best-martial-arts-for-self/` serves
+`Best-Martial-Arts-for-Self-Defense-1024x536.jpg` — a 1024x536 file — and
+declares it `width="800" height="419"`, while both in-body images on the same page
+declare their real 1024x536. Five featured images, five identical
+under-declarations, five pages where the in-body images get it right: the fault is
+in whatever renders the featured-image block, and one template fix clears all of
+them. **In the rebuild** all three are declared at the size they are.
+
 **A fourth page, same pattern.** `/sambo-techniques-in-coppell/` serves
 `Sambo-Techniques-in-Coppell-1024x536.jpg` — a 1024x536 file — and declares it
 `width="800" height="419"`, while both in-body images on the same page declare
@@ -7173,6 +7469,17 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**The same H1-in-the-title-attribute habit, a third time.** On
+`/best-martial-arts-for-self/` the alt text is good — each image is described by
+the section it illustrates, "Best Martial Arts for Self Defense in Real Life" and
+"Self Defense Techniques Taught in Martial Arts" — but all three images carry
+`title="Best Martial Arts for Self Defense: Practical Training at SixthSense
+MMA"`, the whole H1, as a hover tooltip. Three pages in a row now (this,
+`/martial-arts-weapons-training-in-coppell/` and
+`/sambo-techniques-in-coppell/`), which makes it a habit rather than a slip.
+**In the rebuild** title attributes are not carried over on any post and the
+useful alt text is kept.
 
 **The H1 pasted into two title attributes, 76 characters each.** On
 `/martial-arts-weapons-training-in-coppell/` the alt text is fine — each in-body
@@ -10796,7 +11103,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 99 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 100 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

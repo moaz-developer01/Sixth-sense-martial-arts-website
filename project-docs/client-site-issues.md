@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **100 pages**: the homepage, the 5 program pages and all 94 blog
+live HTML of **101 pages**: the homepage, the 5 program pages and all 95 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,42 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. SIX posts promise an absence of injury risk, two of them on classes sold to five-year-olds and one on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. SEVEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds and one on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The seventh page, three sentences — on a page written for complete beginners
+
+`/sambo-techniques-for-beginners/` (20 January 2026) publishes three sentences
+that have been **omitted from the rebuild**, each leaving an HTML comment:
+
+> **Safe takedown drills build skill without danger for beginner students.**
+
+> New students learn ukemi rolls right away so **landings never cause harm**.
+
+> Sambo mixes high intensity bursts with controlled technique so heart and lungs
+> improve **without joint strain**.
+
+The audience is what makes these worse than the earlier six. This page is aimed
+at people who have never trained, it teaches hip throws, ouchi gari, shoulder
+lifts and heel hooks, and the first sentence appears under the H3 "**Safe
+Takedown Drills**" — the exact place a nervous beginner looks for the risk
+picture. "Without danger" and "landings never cause harm" are promises about
+being thrown onto a mat.
+
+**The surrounding copy is the best in the whole audit and must be kept.** The same
+page says "Tapping out happens early and often during holds **to stop pressure
+before it hurts**", "Sambo stresses clean technique and body awareness **to
+prevent common injuries like twisted knees or strained shoulders**", "learns
+proper falling techniques called ukemi right away **to land softly and avoid
+harm**", and "finish the drop **without wild risks**". Those are
+risk-*reduction* claims, correctly hedged, and all four are reproduced. Only the
+three absolute denials were cut.
+
+**The fix is three words each**: "with far less danger", "so landings are much
+softer", "with less joint strain". The page already writes in exactly that
+register everywhere else.
+
+**Running total: 43 sentences across seven posts.**
+
 
 #### The sixth page, one sentence — and the same page carries the only honest caveat on the site
 
@@ -314,14 +349,14 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **SIX** posts promising an absence of injury risk or calling an organ strike safe, 40 sentences in all, 9 of them on classes for ages 5-12 and 3 on weapons training with no minimum age — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 6 | **URGENT** |
+| 0 | **SEVEN** posts promising an absence of injury risk or calling an organ strike safe, 43 sentences in all, 9 of them on classes for ages 5-12, 3 on weapons training with no minimum age and 3 on a beginner page that teaches heel hooks — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 7 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, SIX on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -437,6 +472,29 @@ not stop it coming back.
 ## CONTENT
 
 ### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
+
+**A sixth format, and a contact block with no labels at all.**
+`/sambo-techniques-for-beginners/` publishes the number as **"(469) 972 7800"** —
+parenthesised area code, then **spaces** instead of a hyphen. That is a sixth
+published form of the correct number, and it appears on no other page.
+
+Its contact block is also structurally different from every other post. The other
+94 publish three labelled list items with bold values and a no-break space:
+"Phone <strong>469 972 7800</strong>", "Email:<strong> info@…</strong>",
+"Location:<strong> 817 S MacArthur…</strong>". This one publishes three bare
+items with **no labels, no bold and no no-break spaces**:
+
+```
+817 S MacArthur Blvd #100 Coppell TX 75019 United States
+(469) 972 7800
+info@sixthsensemma.com
+```
+
+So a screen-reader user hears three unlabelled strings, and the phone number is
+not announced as a phone number. **In the rebuild** both the format and the
+missing labels are reproduced exactly, and the `tel:` link in the page furniture
+is the correct `+14699727800`. **What to do:** one contact block, used
+everywhere, with labels.
 
 **And now both formats on ONE page, four lines apart.**
 `/sambo-techniques-in-coppell/` writes the number twice in its Contact section:
@@ -912,6 +970,23 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**POSITIVE: the first page in the audit that writes the brand ONE way.**
+`/sambo-techniques-for-beginners/` uses "**Sixth Sense MMA**" **eleven times and
+nothing else** — no run-together "SixthSense MMA", no bare "Sixth Sense", no
+lower-case variant, no hashtag. Across 95 posts and thirteen recorded spellings,
+this is the first page with a single consistent form from the H1 to the
+conclusion.
+
+It is worth saying because it rules out the remaining explanations for the other
+pages. Whoever produced this one managed it, so the variation elsewhere is not a
+tooling limitation or a house-style gap — it is proofreading. One find-and-replace
+per page, with this page as the reference, closes the whole issue.
+
+The only caveat: "Sixth Sense MMA" is the trading name, not the registered "Sixth
+Sense Martial Arts", which appears **nowhere** on this page. That is the same gap
+as `/best-martial-arts-for-self/` below, so the target form still needs deciding
+once, centrally.
 
 **A second page where the business's real name never appears at all.**
 `/best-martial-arts-for-self/` writes the brand three ways and **"Sixth Sense
@@ -1904,6 +1979,51 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### READ THIS FIRST: the most complete service claim in the library — certified coaches, a named federation, age bands, a weekly schedule and fee packages, for a discipline with no programme page
+
+`/sambo-techniques-for-beginners/` (20 January 2026) is the **sixth** Sambo post,
+and it is categorically different from the other five. They describe Sambo. This
+one sells a specific, bookable programme, in detail no other page on the site
+reaches — including the five real programme pages.
+
+**What it advertises, all reproduced verbatim:**
+
+| Claim | As published |
+|---|---|
+| Certified coaches | "**Certified sambo coaches** with real experience lead every session at Sixth Sense MMA." |
+| Credentials | "Instructors hold **recognized credentials** and bring years of active training in sambo judo wrestling and related styles." |
+| Competition record | "**Many coaches competed in sambo championships** sambo events or trained under established lines from russian sambo roots." |
+| **A named federation** | "Coach knowledge covers sambo history usa through groups like the **American Sambo Association** so students get accurate technique." |
+| Age bands | "Teens from about **fourteen** upward join classes…" · "Adult programs target **eighteen** and older…" |
+| A weekly schedule | "**Sessions run multiple times throughout the week for kids teens and adults**…" · "Group sessions run **several times per week**…" |
+| Specific slots | "**Morning evening and weekend options** keep consistency possible without stress." |
+| Delivery formats | "**Group classes and personal training options**…" · "**Private sessions** suit busy adults teens needing extra focus…" |
+| Fees | "Flexible class timings and **affordable fees**…" · "**Fees stay reasonable with packages that offer unlimited access or drop in rates**." |
+| A curriculum | "**Step by step beginner curriculum** unfolds over weeks or months…" · "Every level ends with **review days** where students test what they learned." |
+| Class size | "Sixth Sense MMA **keeps classes small** so every student gets personal attention from the coach." |
+| A trial | "We make it simple to get in touch ask questions **book a trial class**…" |
+| The address | "**Located at 817 S MacArthur Blvd #100 Coppell TX 75019** this sambo academy…" |
+
+**Why this is the one to act on first.** Every other entry below is an
+unverified claim a reader might *infer*. This page states a timetable, two age
+bands, a fee structure and a certifying body. A parent can read it, work out that
+their fourteen-year-old qualifies, and arrive expecting a Saturday morning class.
+**No individual coach is named** and **no price figure is given**, so none of it
+can be checked from the page itself — but "certified", "recognized credentials",
+"competed in sambo championships" and "American Sambo Association" are all
+falsifiable statements of fact, not marketing adjectives.
+
+**The American Sambo Association reference needs separate attention.** Naming a
+real governing body as the source of the coaching knowledge is the first time any
+page on the site has attached a third-party organisation to a credential claim.
+If no coach holds an ASA qualification, that sentence is the most exposed
+sentence in the content library.
+
+**What to do, in order:** confirm whether Sambo classes run at all; if they do,
+confirm the ASA affiliation and the competition records; if they do not, this page
+cannot be published in any edited form, because every section of it depends on
+the programme existing.
 
 #### The discipline list reaches EIGHTEEN: Wing Chun, Jeet Kune Do and knife fighting join it
 
@@ -4385,6 +4505,47 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**HEEL HOOKS taught to beginners — and, on the same page, the supervision copy
+the other four should be rewritten toward.**
+`/sambo-techniques-for-beginners/` is written for people who have never trained.
+Under the H3 "Beginner Level Submission Awareness" it publishes:
+
+> "Sambo leg locks start with simple ankle pressure or **heel hooks** in
+> controlled drills."
+
+> "**Joint locks on elbows or ankle cranks** appear as options after good
+> control."
+
+**The heel hook is the single highest-risk submission in grappling.** The knee
+gives way before the pain registers, so the usual protection — tap before it
+hurts — does not work. It is banned below the highest competition belts in IBJJF
+rules and excluded from beginner curricula in most gyms. A page that lists it
+among the things a first-week student meets, alongside "simple ankle pressure",
+understates it by placing it in that company. **Flag at HIGH.**
+
+**Now the other half, because it changes what to do about it.** This page is
+**not** in the same position as `/neck-bridges/`,
+`/do-neck-bridges-build-muscle/` and `/kidney-punch/`. Those three teach a
+movement or a strike with no mention of a coach. This one is the most
+supervision-conscious page in the entire audit:
+
+| | `/sambo-techniques-for-beginners/` |
+|---|---|
+| a) Does it tell beginners to practise throws or locks without an instructor? | **No.** Every drill is described in a class. Its only solo work is explicitly stage one of a coached progression: "progress slowly from **solo shadow work** to light partner practice then controlled live rolling" |
+| b) Breakfalls, mats, a training partner? | **All three, repeatedly.** "proper falling techniques called **ukemi** right away" · "stance footwork grip fighting and **ukemi falls**" · "Classes use **mats with good cushioning**" · "**Mats provide full cushioning** and space for safe falls" · "**Pairs** practice controlled exchanges where **partners** help each other" · "**Partners agree on speed and power before starting**" · "partner cooperates on the fall" — a coach is named **13 times**, a partner **15 times** |
+| c) A safety disclaimer? | **No.** "Disclaimer", "at your own risk", "seek medical", "consult a doctor" and "not responsible" appear nowhere |
+
+**So the recommendation is the reverse of the usual one.** Do not rewrite this
+page's safety approach — **copy it onto the other four**. "Coach watches closely
+during every drill and stops action if form slips", "Tapping out happens early
+and often during holds to stop pressure before it hurts", "Partners agree on
+speed and power before starting" and "Coach supervision stays constant with eyes
+on every pair" are the sentences `/neck-bridges/` and `/kidney-punch/` are
+missing, already written in the client's own voice.
+
+**Two things still to fix here:** move heel hooks out of the beginner section,
+and add the disclaimer this page, like the other four, does not have.
+
 **Outcome promises on a self-defence page — and the only no-guarantee caveat on
 the site, on the same page.** `/best-martial-arts-for-self/` makes these claims,
 all reproduced verbatim and none altered:
@@ -4933,6 +5094,30 @@ This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
+
+**Seventeen tags on one post — the second-largest set on the site — and all
+seventeen are Sambo.** `/sambo-techniques-for-beginners/` carries: "beginner
+Sambo", "combat sambo", "martial arts beginners", "russian martial art", "Sambo",
+"Sambo arm locks", "Sambo basics", "sambo for beginners", "sambo grappling",
+"Sambo ground fighting", "Sambo leg locks", "sambo submissions", "sambo
+takedowns", "sambo techniques", "sambo throws", "sambo training", "Sambo
+wrestling".
+
+**Every one targets a discipline with no programme page**, which is now **47
+Sambo-and-untaught-discipline tags** across the six Sambo posts, the weapons post
+and the Muay Boran post. Three are claims about what is taught to beginners:
+**"Sambo arm locks"**, **"Sambo leg locks"** and **"sambo submissions"** —
+indexable tag archives advertising submission instruction, on a page that
+introduces heel hooks to first-week students (issue 31).
+
+The set is also inconsistently capitalised in a way that produces **two archives
+for one idea**: "Sambo" is title-cased in seven tags and lower-cased in ten, and
+"sambo techniques" sits beside "Sambo basics". Only "martial arts beginners" and
+"russian martial art" are not literal Sambo keywords.
+
+**In the rebuild** no tag pills are rendered on any post. **What to do:** three
+tags cover this page — "sambo for beginners", "sambo throws", "sambo training" —
+and the other fourteen archives should go.
 
 **Ten tags on one post, and every one of them is another post's primary keyword.**
 `/best-martial-arts-for-self/` carries: "best martial arts for self defense",
@@ -5642,6 +5827,27 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**A Sambo page links a punchbag review from the words "combat sport".** On
+`/sambo-techniques-for-beginners/`:
+
+| Anchor text | Points at | Note |
+|---|---|---|
+| "combat sport" | **`/kick-boxing-bag/`** | a **product review of punchbags**, from a sentence about Sambo's origins in wrestling and judo |
+| " grappling techniques " | `/sambo-moves/` | cluster sibling; swallows the space on **both** sides |
+| "skill set through" | `/sambo-techniques-in-coppell/` | cluster sibling; anchor text is half a clause |
+| "self defense" | `/different-types-of-martial-arts/` | fine |
+| " practical path to master" | `/best-martial-arts-for-self/` | the **truncated slug** at issue 44 |
+
+The first is the fault: a reader following "combat sport" in "Sambo brings
+together wrestling power… to form a complete martial art and **combat sport**"
+expects a definition and gets a kickbag buying guide. The fifth is worth noting
+too — the auto-linker is now feeding traffic **into** the truncated URL, which
+makes the 301 recommended at issue 44 more urgent, not less.
+
+All five anchors are also wrapped in `<strong>`, so they render bold **and**
+underlined, and two of them take a space inside the link on one or both sides.
+**In the rebuild** all five are reproduced exactly.
+
 **Three auto-links on one page, and all three point at a post it is competing
 with.** On `/best-martial-arts-for-self/`:
 
@@ -5832,7 +6038,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, FIVE on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: NINE on one question, SEVEN on Muay Boran, SIX on belt progression, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -6047,6 +6253,53 @@ and two of the three run the regional styles at length. Only the Top 10
 technique list is genuinely unique to the newest post. Three URLs competing for
 "muay boran" on a site this size means none of them accumulates the authority,
 and the gym's internal links are already split across them.
+
+#### The Sambo cluster reaches SIX, and THREE of them share the phrase "sambo techniques" — **CRITICAL**
+
+`/sambo-techniques-for-beginners/` (20 January 2026) is the sixth, and it makes
+the cluster's slug problem explicit. **Three of the six URLs now contain the
+phrase "sambo techniques":**
+
+| Slug | Angle | Published |
+|---|---|---|
+| `/sambo-techniques/` | general, with a "Sambo Academy" section and reviews | — |
+| `/sambo-techniques-in-coppell/` | the same, localised to the city | 27 Dec 2025 |
+| **`/sambo-techniques-for-beginners/`** | **the same, aimed at beginners, and the only one that sells a programme** | 20 Jan 2026 |
+| `/sambo-martial-art/` | what Sambo is | — |
+| `/sambo-moves/` | throws and locks | 13 Nov 2025 |
+| `/types-of-sambo/` | the five types | 11 Nov 2025 |
+
+**Six pages, no programme.** The qualifier pattern — bare keyword, then
+`-in-coppell`, then `-for-beginners` — is the same one that produced
+`/best-martial-arts-for-self-defense/` versus `/best-martial-arts-for-self/` and
+`/kick-boxing-gloves/` versus `/kickboxing-gloves/`. It reads as someone
+publishing a new post for each long-tail variation of one keyword.
+
+**The headings were compared directly against the three closest siblings:**
+
+| Against | H2 exact | H2+H3 exact |
+|---|---|---|
+| `/sambo-techniques/` | 2/12 = **17%** | 3/32 = **9%** |
+| `/sambo-techniques-in-coppell/` | 3/12 = **25%** | 3/32 = **9%** |
+| `/sambo-moves/` | 3/12 = **25%** | 3/32 = **9%** |
+| any of the three | — | 3/32 = **9%** |
+
+**Every single match is boilerplate** — "Contact US", "Conclusion", "Follow Us on
+Social Media". At H3 level the overlap is **zero** against all three. So, again,
+these are not copy-paste duplicates.
+
+**But the subject coverage is almost total.** Throws, ground control,
+submissions, fitness benefits, who-can-join and why-choose-us are each covered by
+**all three** siblings as well as this page. Only "Sambo Self Defense Techniques
+for Real Situations" is a section none of the three has. Six pages, one subject,
+six sets of rewritten headings.
+
+**Which to keep.** This page is the best-written of the six and the only one with
+a coherent beginner curriculum — but it is also the one that makes the service
+claim at issue 39, so it is the **last** one to publish, not the first. If the
+programme is real, keep this page's content at `/sambo-techniques/`'s slug and
+301 the other five. **If the programme is not real, this is the page to delete
+first**, for the same reason.
 
 #### The Sambo cluster reaches FIVE, and the newest is the city twin of the oldest — **CRITICAL**
 
@@ -6784,6 +7037,48 @@ rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
 
+**Ten questions, two about Sambo, and one about how the CIA recruits informants.**
+The accordion on `/sambo-techniques-for-beginners/` asks:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "Is Sambo effective in a street fight?" | **yes** |
+| 2 | "Can kids do Sambo?" | **yes** — but see below |
+| 3 | "What is the easiest fighting technique to learn?" | no |
+| 4 | "What is the hardest fighting style to get?" | no |
+| 5 | "What are the big 4 martial arts?" | no |
+| 6 | "What are the top 3 best martial arts?" | no |
+| 7 | "What martial arts do CIA agents learn?" | no — **the third page with this question** |
+| 8 | "What martial art makes you the strongest?" | no |
+| 9 | "What fighting style do bodyguards use?" | no |
+| 10 | "**What is the CIA rice method?**" | **not about martial arts at all** |
+
+**Question 10 is the most off-subject question in the entire audit.** The answer
+explains the CIA's **RICE framework for recruiting intelligence assets** —
+"**Reward** (financial or material incentives), **Ideology** (deep beliefs like
+politics or religion), **Coercion** (threats or pressure), and **Ego** (desire
+for status or recognition)". That is a page about how to pressure people into
+betraying their country, published as an FAQ on a beginner martial arts page and
+marked up as **FAQPage** so it is eligible to surface in search.
+
+Question 7 is the **third** page to carry "What martial arts does the CIA use?",
+after `/martial-arts-weapons-training-in-coppell/` and
+`/sambo-techniques-in-coppell/` — three pages, one question, all three
+FAQPage-marked, competing with each other.
+
+**And question 2 contradicts the page's own body.** Its answer says children can
+start Sambo "**as young as 5 years old, with some examples of training beginning
+at age 2**", while the body of the same page says "**Teens from about fourteen
+upward**" and "Adult programs target eighteen and older". The page gives two
+different minimum ages, twelve years apart, on one screen — see issue 69.
+
+**Only questions 1 and 2 mention Sambo.** On a 3,147-word page about Sambo for
+beginners, eight of ten FAQ slots are generic martial-arts trivia. **What to do:**
+delete 10 immediately regardless of anything else, delete 3 to 9, and replace them
+with what a beginner actually asks — what to wear, whether the kurtka is
+provided, what the first class is like, whether heel hooks are taught to
+beginners (issue 31), and what the real minimum age is.
+
 **POSITIVE: an FAQ where all six questions are on subject — and one dangling
 cross-reference.** `/best-martial-arts-for-self/` asks:
 
@@ -7147,6 +7442,15 @@ find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
 
+**A sixth page, and the first from the 2026 uploads — so the template was never
+fixed.** `/sambo-techniques-for-beginners/` serves
+`Sambo-Techniques-for-Beginners-1024x536.jpg` — a 1024x536 file — and declares it
+`width="800" height="419"`, while both in-body images on the same page declare
+their real 1024x536. Its uploads are the first in the audit from
+**`/wp-content/uploads/2026/01/`**, nearly a month after the five pages below, and
+the fault is identical. **In the rebuild** all three are declared at the size they
+are.
+
 **A fifth page, and it confirms this is a template default rather than five
 mistakes.** `/best-martial-arts-for-self/` serves
 `Best-Martial-Arts-for-Self-Defense-1024x536.jpg` — a 1024x536 file — and
@@ -7469,6 +7773,14 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**The fourth page in a row with the H1 in every title attribute.** On
+`/sambo-techniques-for-beginners/` the alt text is good — each image is described
+by the section it illustrates, "Ground Control Sambo Techniques for Beginners" and
+"How Our Sambo Training Program Works" — but all three carry `title="Sambo
+Techniques for Beginners Professional Training &amp; Self Defense Program"`, the
+whole H1, as a hover tooltip. Four consecutive posts now. **In the rebuild** title
+attributes are not carried over on any post and the useful alt text is kept.
 
 **The same H1-in-the-title-attribute habit, a third time.** On
 `/best-martial-arts-for-self/` the alt text is good — each image is described by
@@ -10085,6 +10397,30 @@ fixed.
 
 ### 69. A minimum age that contradicts the gym's own programme, its own page and its own tags — CONTENT (accuracy) — **High**
 
+**A page that contradicts ITSELF, twelve years apart, on one screen.**
+`/sambo-techniques-for-beginners/` states a minimum age twice and the two do not
+agree:
+
+| Where | What it says |
+|---|---|
+| Body, H3 "Beginner Programs for Teens and Adults" | "**Teens from about fourteen upward** join classes…" · "Adult programs target **eighteen** and older…" |
+| FAQ, answer 2 "Can kids do Sambo?" | "there are dedicated programs for kids **starting as young as 5 years old**, with some examples of training beginning at **age 2**" |
+
+The body sets the floor at fourteen. The FAQ, on the same page, says five, and
+mentions two. Nothing reconciles them, and a parent of a seven-year-old reading
+the FAQ would reasonably conclude there is a class for their child.
+
+That takes the site's published minimum ages to **five different numbers**: 2 and
+5 (this FAQ), 4 (the programme pages and `/bjj-belt-ranks/`), 5
+(`/martial-arts-near-me-in-coppell-texas/`, `/sambo-moves/`,
+`/top-fighting-styles/`), 7 (`/martial-arts-for-kids-strenght/`) and now **14**
+(this page's body). It is also the first time the contradiction sits **inside a
+single page** rather than between two.
+
+**In the rebuild** both are reproduced exactly. **What to do:** the FAQ answer is
+generic copy about Sambo worldwide, not about this gym — either cut it or add
+"at Sixth Sense MMA our beginner classes start at fourteen".
+
 **POSITIVE: one post finally agrees with the programme pages.**
 `/bjj-belt-ranks/` states **"Belt rankings in brazilian jiu jitsu start age four
 with gray"** — which matches the Kids BJJ programme's 4 to 12 and Little Champions'
@@ -11103,7 +11439,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 100 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 101 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

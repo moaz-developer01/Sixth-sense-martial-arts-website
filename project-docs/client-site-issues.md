@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **101 pages**: the homepage, the 5 program pages and all 95 blog
+live HTML of **102 pages**: the homepage, the 5 program pages and all 96 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,44 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. SEVEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds and one on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. EIGHT posts promise an absence of injury risk, two of them on classes sold to five-year-olds and two on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The eighth page, and the phrase is now "without risk" — twice, about weapons
+
+`/martial-arts-weapons-training/` (20 January 2026) publishes two sentences that
+have been **omitted from the rebuild**, each leaving an HTML comment, and both use
+the same phrase:
+
+> We use safe traditional practice weapons made of wood and foam to teach proper
+> technique **without risk**.
+
+> This controlled approach lets students practice weapons forms combination
+> attacks and defensive moves **without risk**.
+
+The second is the worse of the two, because of what it is attached to. The
+"combination attacks and defensive moves" in question are the ones the same page
+describes as "linking strike spin block and flail movements with nunchaku
+longsword blade and stick" — swinging a wooden longsword at a partner. "Without
+risk" is not a thing a gym can promise about that, and the sentence sits under the
+H3 "**Strict Safety Standards and Professional Equipment**", where a cautious
+reader goes looking.
+
+**The first is nearly defensible and shows the shape of the fix.** Wood and foam
+practice weapons genuinely do reduce the risk — that is why they exist. "To teach
+proper technique **with far less risk**" would be true, would say the same thing,
+and is a three-word edit.
+
+**Everything else on the page stays**, and there is a lot of it: "Safety comes
+first in every class", "All practicing weapons happens **under close supervision
+to prevent injury**", "Students always follow clear rules and use proper gear",
+"Spar starts only when ready and every session **builds mastery the safe way**",
+"keeping safety and control first". Those are risk-*reduction* statements and all
+five are reproduced.
+
+**Running total: 45 sentences across eight posts**, and this is the **second**
+weapons page in the group — `/martial-arts-weapons-training-in-coppell/` supplied
+three of the earlier ones.
+
 
 #### The seventh page, three sentences — on a page written for complete beginners
 
@@ -349,7 +386,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **SEVEN** posts promising an absence of injury risk or calling an organ strike safe, 43 sentences in all, 9 of them on classes for ages 5-12, 3 on weapons training with no minimum age and 3 on a beginner page that teaches heel hooks — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 7 | **URGENT** |
+| 0 | **EIGHT** posts promising an absence of injury risk or calling an organ strike safe, 45 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age and 3 on a beginner page that teaches heel hooks — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 8 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -472,6 +509,14 @@ not stop it coming back.
 ## CONTENT
 
 ### 2. Wrong phone number on every tap-to-call link — CONTENT — Urgent
+
+**And the label-less contact block is now on two pages.**
+`/martial-arts-weapons-training/` publishes the same three bare list items as
+`/sambo-techniques-for-beginners/` below — no "Phone", no "Email:", no
+"Location:", no bold and no no-break spaces — and the same sixth phone format,
+"**(469) 972 7800**". Both are from the January 2026 batch, so the contact block
+changed shape when the newer template came in. **In the rebuild** both pages
+reproduce it exactly.
 
 **A sixth format, and a contact block with no labels at all.**
 `/sambo-techniques-for-beginners/` publishes the number as **"(469) 972 7800"** —
@@ -970,6 +1015,20 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**POSITIVE, and now twice in a row.** `/martial-arts-weapons-training/` writes
+the brand as "**Sixth Sense MMA**" **six times and nothing else** — no
+run-together form, no bare "Sixth Sense", no lower-case variant. With
+`/sambo-techniques-for-beginners/` below, that is **two consecutive posts** from
+the January 2026 batch with a single consistent spelling.
+
+Two clean pages in a row is the end of the "it cannot be helped" explanation. The
+January posts are getting it right; everything before them needs one
+find-and-replace each.
+
+The same caveat applies: "Sixth Sense MMA" is the trading name and the registered
+"Sixth Sense Martial Arts" appears **nowhere** on either page, so the target form
+still needs deciding once, centrally.
 
 **POSITIVE: the first page in the audit that writes the brand ONE way.**
 `/sambo-techniques-for-beginners/` uses "**Sixth Sense MMA**" **eleven times and
@@ -1979,6 +2038,53 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### A SECOND weapons page advertising classes, with certified instructors across EIGHT weapon systems and no minimum age
+
+`/martial-arts-weapons-training/` (20 January 2026) is the city-less twin of the
+weapons page already flagged below, and it is built from the same template as
+`/sambo-techniques-for-beginners/`: a programme overview, a curriculum, who can
+join, how it works, why choose us. So the gym now has **two** weapons pages
+advertising classes, published a month apart.
+
+**What it claims, all reproduced verbatim:**
+
+| Claim | As published |
+|---|---|
+| Classes run | "Our martial arts weapons training program **helps students build real skills**…" · "**We start with beginner weapons training and move step by step to advanced levels.**" |
+| Certified instructors | "**Each certified teacher has trained extensively in** escrima weapons drills kali sticks training bo staff martial arts nunchaku techniques sword fighting styles krav maga weapons defense muay thai weapons and sambo weapons concepts." |
+| Experience | "Our instructor team brings **deep knowledge and years of experience** in weapons based martial arts." |
+| Personal guidance | "**Everyone gets personal guidance from an experienced instructor** who makes sure each person progresses at the right pace." |
+| Delivery formats | "**We offer both group classes and personal training options** to fit your schedule and goals." · "Personal training gives **one on one attention**…" |
+| Timings | "**We offer flexible class timings** to fit busy schedules…" |
+| Fees | "**Affordable fees** make high quality martial arts weapons training accessible to everyone." |
+| Audience | "**Classes are open to men women and teens** of all fitness levels." |
+
+**The certification claim is the one to check.** One sentence asserts that **every
+teacher is certified** and has trained extensively in **eight** named weapon
+systems — escrima, kali sticks, bo staff, nunchaku, sword fighting, Krav Maga
+weapons defence, "muay thai weapons" and "sambo weapons". Two of those eight are
+inventions: Muay Thai has no weapons curriculum and the gym has no Sambo
+programme (issue 7). It names **no person and no certifying body**, so unlike
+`/sambo-techniques-for-beginners/` there is no federation to check — but it makes
+the broader claim.
+
+**What it does NOT state**, and this matters for comparison with the Sambo page:
+no weekday, no time, no session length, no age band and no price figure. "Flexible
+class timings" and "affordable fees" are the whole of it.
+
+**NO MINIMUM AGE, on a page about swords and knives.** The page says "**No matter
+your age or background** you can start training with weapons" and "Classes are
+open to men women and **teens**". Teens are named four times and no number appears
+anywhere on the page except the address and phone. That is the same gap as the
+Coppell weapons page below, which was already flagged at HIGH — **two weapons
+pages, neither with a lower age bound**.
+
+**What to do:** the two weapons pages have to be resolved together (issue 6). If
+weapons classes are real, one page survives, with an age band and a named
+instructor. If they are not, both come down, and this one is the more urgent of
+the two because its certification sentence is the most specific credential claim
+on the site after the American Sambo Association reference above.
 
 #### READ THIS FIRST: the most complete service claim in the library — certified coaches, a named federation, age bands, a weekly schedule and fee packages, for a discipline with no programme page
 
@@ -4505,6 +4611,75 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**A disarm claim, a live-blade gap and a promise to teach weapons law — on a page
+with no disclaimer and no minimum age.**
+`/martial-arts-weapons-training/` was read for exactly these four things and the
+findings are specific.
+
+**a) Does it describe how to strike, disarm or injure with a weapon?** It
+**claims** disarm instruction and teaches no mechanics. The strongest sentence is:
+
+> "**Disarming techniques teach how to take away stick nunchaku bo staff
+> longsword or knife from an attacker.**"
+
+Also: "Students practice safe ways to **wield a weapon and gain control in close
+range**", "Classes cover **responses to knife stick sword blade** and other melee
+threats", "Students practice linking **strike spin block and flail movements with
+nunchaku longsword blade and stick**", "Students train to read opponents… and
+**land precise hits at the right moment**".
+
+**Every one of those is a description of what a class covers, not an
+instruction.** There is no angle, no body target, no force, no grip detail and no
+edge alignment anywhere on the page — the words "target", "artery", "temple",
+"pressure point" and "full force" do not appear. So it is **not** in the same
+category as `/kidney-punch/`, which gives step-by-step mechanics. It advertises
+dangerous instruction without providing any.
+
+**b) Claims about effectiveness in a real confrontation.** Four, and all four use
+the word "any" with no hedge:
+
+> "so you feel confident and **ready for any self defense situation or combat**" ·
+> "so students **feel ready for any situation**" · "The goal is to build
+> confidence so students **feel ready for any combat threat**" · "Timing distance
+> accuracy control and reflex **prepare you for any threat** making overall
+> martial arts skills **strong and reliable**"
+
+**c) Does it distinguish training weapons from live blades?** **Partly, and the
+gap is the problem.** It names practice weapons three times — the H3 "Traditional
+Practice Weapons (**Wood & Foam**)", "use only high quality professional equipment
+including traditional practice weapons made from **wood and foam** for nunchaku bo
+sword stick and blade work", and "New students first practice… with **simple
+training weapons**". But it **never says a live blade is excluded**, and "knife",
+"sword", "longsword" and "blade" appear throughout as things students handle:
+"Students learn to hold stick bo staff nunchaku sword and **knife**", "blade
+handling helps develop spin wield control". A reader cannot tell from the page
+whether the knife in "hold… sword and knife" is wood or steel.
+
+**d) A safety disclaimer?** **No.** "Disclaimer", "at your own risk", "seek
+medical", "consult a doctor" and "not responsible" appear nowhere.
+
+**e) A minimum age?** **No** — see issue 39. "No matter your age or background."
+
+**LEGAL, for client review.** The page makes exactly one legal reference, and it
+is different in kind from the Coppell page's:
+
+> "Students also explore improvised weapons and **basic martial arts weapons laws
+> usa** to stay responsible while building practical skills in weapons techniques
+> empty hand training and unarmed combat."
+
+This is a claim to **teach the law**, not a statement of what the law is. It
+names no jurisdiction, no statute and no age restriction, and it is vaguer than
+the Coppell page's "fit urban needs and legal carry" — which makes it harder to
+disprove and harder to stand behind. It is now the **fourth** page carrying an
+unreviewed legal claim, after `/muay-thai-vs-kickboxing/`,
+`/martial-blade-concepts/` and
+`/martial-arts-weapons-training-in-coppell/`. **In the rebuild** it is reproduced
+exactly and nothing is corrected.
+
+**What to do:** state in one line which weapons are wood or foam and that live
+blades are not handled; add the disclaimer; add a minimum age; and either drop
+the weapons-law claim or have someone qualified write that section.
+
 **HEEL HOOKS taught to beginners — and, on the same page, the supervision copy
 the other four should be rewritten toward.**
 `/sambo-techniques-for-beginners/` is written for people who have never trained.
@@ -5094,6 +5269,35 @@ This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
+
+**Seventeen weapons tags, one of them "Knife Fighting Training".**
+`/martial-arts-weapons-training/` carries: "Arnis Martial Arts", "Bo Staff
+Training", "Eskrima Stick Fighting", "Filipino martial arts weapons", "Japanese
+Weapons Training", "Kali Weapons", "Kendo Sword Training", "**Knife Fighting
+Training**", "Kobudo Weapons", "Krav Maga Weapons", "Kung Fu Weapons", "Martial
+Arts Weapon Forms", "Martial Arts Weapons Training", "Nunchaku Training", "Sai
+Weapons", "Samurai Weapons", "Sword Martial Arts".
+
+**All seventeen name a weapon or a weapon system, and the gym has a programme page
+for none of them.** Six are explicit training claims that generate their own
+indexable archives — "Bo Staff **Training**", "Japanese Weapons **Training**",
+"Kendo Sword **Training**", "Knife Fighting **Training**", "Nunchaku
+**Training**", "Martial Arts Weapons **Training**".
+
+**"Knife Fighting Training" is the one to delete first.** It is a public,
+indexable tag archive on a martial arts school's website asserting that the school
+trains knife fighting, on a page that states **no minimum age** and names teens
+four times (issue 39). Of all 64 untaught-discipline tags now recorded across the
+Sambo, Muay Boran and weapons posts, that is the single most exposed.
+
+Four more disciplines also join the list at issue 39 through these tags alone:
+**Kendo**, **Kobudo**, **Arnis** and **Sai** — none of them mentioned in any
+programme, none with a page.
+
+**In the rebuild** no tag pills are rendered on any post. **What to do:** delete
+"Knife Fighting Training" regardless of what happens to the page; keep at most
+"Martial Arts Weapons Training" and "Filipino martial arts weapons" if the
+programme is real.
 
 **Seventeen tags on one post — the second-largest set on the site — and all
 seventeen are Sambo.** `/sambo-techniques-for-beginners/` carries: "beginner
@@ -5827,6 +6031,28 @@ the best sections of each. Then add a 301 redirect from
 
 ### 5. Internal links pointing at the wrong post — SEO — High
 
+**One page links the `-2` duplicate URL TWICE, and sends "nunchaku techniques" to
+a kali sticks post.** On `/martial-arts-weapons-training/`:
+
+| Anchor text | Points at | Note |
+|---|---|---|
+| " martial arts traditions" | `/japanese-martial-arts-sign/` | a post about **symbols**, from a sentence about weapon traditions |
+| "sticks training " | **`/martial-arts-kali-stick-2/`** | the `-2` duplicate URL (issue 6) |
+| "martial arts weapons " | `/different-types-of-martial-arts/` | fine |
+| " nunchaku techniques " | `/martial-arts-kali-sticks/` | **wrong weapon** — nunchaku anchor, kali sticks destination |
+| " kali sticks training" | **`/martial-arts-kali-stick-2/`** | the `-2` duplicate URL **again** |
+
+Two of the five point at the **same** page, and it is the one with the leftover
+`-2` in its URL that issue 6 recommends retiring. A single page sending two
+internal links into a URL that should be 301'd is the clearest argument yet for
+doing it: every one of these links will need rewriting.
+
+The fourth is a plain mis-targeting — a reader clicking "nunchaku techniques"
+lands on an article about Filipino stick fighting. All five anchors are also
+wrapped in `<strong>`, so they render bold **and** underlined, and four of the
+five take a space inside the link on one or both sides. **In the rebuild** all
+five are reproduced exactly.
+
 **A Sambo page links a punchbag review from the words "combat sport".** On
 `/sambo-techniques-for-beginners/`:
 
@@ -5988,9 +6214,56 @@ linked from nowhere on the site.
 the link text (or the target) is the client's call, and it should be settled at
 the same time as the merge in issue 6, which would make the question moot.
 
-### 6. Two separate Kali Sticks posts, inside a FIVE-post weapons cluster with no programme — SEO — High
+### 6. Two separate Kali Sticks posts, inside a SIX-post weapons cluster with no programme — SEO — High
 
-**The weapons cluster, now five pages:**
+#### The cluster reaches SIX, and the newest is the city-less twin of the fifth — **CRITICAL**
+
+`/martial-arts-weapons-training/` (20 January 2026) is the sixth, and it creates
+**the fourth city-suffix duplicate pair on the site**:
+
+| | `/martial-arts-weapons-training/` | `/martial-arts-weapons-training-in-coppell/` |
+|---|---|---|
+| Slug | city-less | `-in-coppell` |
+| Published | 20 Jan 2026 | 26 Dec 2025 |
+| Words | 2,388 | 3,827 |
+| Shape | programme overview, curriculum, who can join, how it works, why choose us | types of weapon, safety tips, benefits, techniques, purpose and styles, staffs, swords, why choose us |
+| Advertises classes | **yes** | **yes** |
+| Certified instructors | **yes, across eight weapon systems** | yes, "world champion or black belt" |
+| Minimum age | **none** | **none** |
+
+**The four city-suffix pairs, for the record:**
+
+| Pair | Issue |
+|---|---|
+| `/sambo-techniques/` + `/sambo-techniques-in-coppell/` | 7 |
+| `/kick-boxing-gloves/` + `/kickboxing-gloves/` | 7 |
+| `/brazilian-jiu-jitsu-belt-ranks/` + `/bjj-belt-ranks/` | 7 |
+| **`/martial-arts-weapons-training/` + `/martial-arts-weapons-training-in-coppell/`** | **this entry** |
+
+**The headings were compared directly:**
+
+| Against | H2 exact | H2+H3 exact |
+|---|---|---|
+| `/martial-arts-weapons-training-in-coppell/` | 3/12 = **25%** | 3/33 = **9%** |
+| `/martial-arts-weapons/` | 1/12 = **8%** | 1/33 = **3%** |
+
+**Every match is boilerplate** — "Contact US", "Conclusion", "Follow Us on Social
+Media" against the Coppell twin, and "Conclusion" alone against the general post.
+So the two weapons-training pages are **not** copy-paste duplicates: the Coppell
+one is organised by weapon type, this one by programme stage.
+
+**But they sell the same thing to the same reader**, and the city-less slug is the
+one Google will treat as the canonical subject page. That is the opposite of what
+the client wants if the local page is the one meant to convert.
+
+**Which to keep.** `/martial-arts-weapons/` is the only informational page in the
+group and should survive as the explainer. Of the two training pages, keep the
+**Coppell** one — local intent is the only thing that distinguishes any of these
+in search — merge this page's curriculum sections into it, and 301 the rest.
+**All of that is conditional on issue 39**: six pages for a discipline with no
+programme is an SEO problem, two of them selling classes is a different one.
+
+**The weapons cluster, now six pages:**
 
 | Post | Scope | Slug type |
 |---|---|---|
@@ -5998,7 +6271,8 @@ the same time as the merge in issue 6, which would make the question moot.
 | `/martial-arts-kali-sticks/` | Kali and Filipino stick fighting | discipline |
 | `/martial-arts-kali-stick-2/` | the same, on a `-2` URL | duplicate |
 | `/martial-blade-concepts/` | MBC, a named blade system | discipline |
-| `/martial-arts-weapons-training-in-coppell/` | **bo staff, escrima, katana, as a local class offering** | **local — the only one** |
+| `/martial-arts-weapons-training-in-coppell/` | **bo staff, escrima, katana, as a local class offering** | local |
+| `/martial-arts-weapons-training/` | **the same offering, by programme stage** | **city-less twin** |
 
 `/martial-arts-weapons-training-in-coppell/` (26 December 2025) is the fifth and
 it repeats all of them: staffs and sticks get their own H2 with five H3s, swords
@@ -7037,6 +7311,43 @@ rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
 
+**A FOURTH page asking what martial arts the CIA uses, and a firearms answer that
+mentions "gun disarms and use".** The accordion on
+`/martial-arts-weapons-training/` asks nine questions:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "What martial arts train with weapons?" | **yes** |
+| 2 | "What is the most effective martial arts weapon?" | **yes** |
+| 3 | "**Is there a martial art that uses guns?**" | **firearms** |
+| 4 | "What are the 4 noble weapons?" | **yes** |
+| 5 | "What are the 11 types of martial arts?" | no |
+| 6 | "What are the big 4 martial arts?" | no |
+| 7 | "What martial art makes you the strongest?" | no |
+| 8 | "Which is stronger, Karate or jiu-jitsu?" | no |
+| 9 | "**What martial arts do CIA agents learn?**" | no |
+
+Three of the nine are genuinely about weapons, which is better than most of the
+FAQs in this entry. Two problems remain.
+
+**Question 3 puts firearms on the page, with a detail the others did not.** Its
+answer says modern systems "like Krav Maga include **gun disarms and use**" — so a
+page advertising weapons classes to teenagers, with no minimum age (issue 39),
+carries an FAQPage-marked answer about firearm disarms. That is the **third**
+weapons-adjacent page with firearms content, after
+`/martial-arts-weapons-training-in-coppell/` and `/sambo-techniques-in-coppell/`.
+
+**Question 9 is the fourth instance of one question.** "What martial arts do CIA
+agents learn?" now appears on
+`/martial-arts-weapons-training-in-coppell/`, `/sambo-techniques-in-coppell/`,
+`/sambo-techniques-for-beginners/` and this page — **four pages, one question, all
+four marked up as FAQPage**, competing with each other for a query that converts
+nobody. Whatever is generating these FAQs is reaching for the same list each time.
+
+**What to do:** keep 1, 2 and 4, delete 3 and 9 outright, and replace 5 to 8 with
+what a weapons student asks — which weapons the class actually uses, whether they
+are wood or foam, what age a teenager can start, and whether any gear is provided.
+
 **Ten questions, two about Sambo, and one about how the CIA recruits informants.**
 The accordion on `/sambo-techniques-for-beginners/` asks:
 
@@ -7442,6 +7753,14 @@ find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
 
+**A seventh page, and the double hyphen is back too.**
+`/martial-arts-weapons-training/` serves
+`Martial-Arts-Weapons-Training--1024x536.jpg` — a 1024x536 file — and declares it
+`width="800" height="419"`, while both in-body images declare their real
+1024x536. Note the **double hyphen** before the resize suffix, the same upload
+fault as on its Coppell twin, so the pair share both defects. **In the rebuild**
+all three are declared at the size they are.
+
 **A sixth page, and the first from the 2026 uploads — so the template was never
 fixed.** `/sambo-techniques-for-beginners/` serves
 `Sambo-Techniques-for-Beginners-1024x536.jpg` — a 1024x536 file — and declares it
@@ -7773,6 +8092,14 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**Five in a row now.** On `/martial-arts-weapons-training/` the alt text is good
+— each image is named after the section it illustrates, "Weapons Training for Self
+Defense Situations" and "How Our Martial Arts Weapons Training Works" — but all
+three carry `title="Martial Arts Weapons Training Professional Self Defense &amp;
+Skill Development Program"`, the whole H1, as a hover tooltip. Five consecutive
+posts. **In the rebuild** title attributes are not carried over on any post and
+the useful alt text is kept.
 
 **The fourth page in a row with the H1 in every title attribute.** On
 `/sambo-techniques-for-beginners/` the alt text is good — each image is described
@@ -11439,7 +11766,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 101 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 102 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

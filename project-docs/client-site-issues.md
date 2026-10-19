@@ -2,7 +2,7 @@
 
 Compiled 2026-09-15 while rebuilding the site. Every issue below was checked
 against the live pages, not taken from notes. Counts come from scanning the
-live HTML of **103 pages**: the homepage, the 5 program pages and all 97 blog
+live HTML of **104 pages**: the homepage, the 5 program pages and all 98 blog
 posts.
 
 Each issue is tagged:
@@ -23,7 +23,39 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. NINE posts promise an absence of injury risk, two of them on classes sold to five-year-olds and two on weapons training with no minimum age — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. TEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The tenth page, and one of the two sentences is attached to a free trial
+
+`/muay-boran-techniques/` (20 January 2026) publishes two sentences that have
+been **omitted from the rebuild**, each leaving an HTML comment:
+
+> Practice happens at slow speed first then adds light resistance to build feel
+> **without danger**.
+
+> Trial classes let newcomers try muay boran techniques **risk free**.
+
+The second is worth separating out. "Risk free" attached to a **trial class** may
+have been meant commercially — no money at risk — but it is not written that way:
+the sentence is "try muay boran **techniques** risk free", and the techniques in
+question are the ones the same page describes as "powerful elbow strike to the
+temple", "arm dislocation technique" and "heel kick to thigh or leg causing
+dislocation". Read plainly it promises a reader they can try those at no risk.
+
+If the intent was commercial, the fix is two words — "with **no cost or
+commitment**" — and it removes the liability entirely. That ambiguity is worth
+flagging to the client rather than guessing, which is why the sentence was cut
+rather than reworded.
+
+**The first one has the same shape as the weapons page's.** "Build feel without
+danger" appears in the clinch-and-takedown section, where students are being
+thrown. The same page writes the correct version twice — "This careful approach
+lets anyone build skill **without unnecessary risk**" and "Takedowns stay
+controlled with emphasis on **landing safely**" — both reproduced unchanged, both
+properly qualified.
+
+**Running total: 49 sentences across ten posts.**
+
 
 #### The ninth page, two sentences, and one of them is about a safety RULE
 
@@ -416,7 +448,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **NINE** posts promising an absence of injury risk or calling an organ strike safe, 47 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age and 3 on a beginner page that teaches heel hooks — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 9 | **URGENT** |
+| 0 | **TEN** posts promising an absence of injury risk or calling an organ strike safe, 49 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -720,6 +752,35 @@ leftover from drafting and shows on the page.
 **What to do:** delete the placeholder lines.
 
 ### 17. Spelling errors, garbled headings and one untranslated Hindi/Urdu word — CONTENT — Medium
+
+**A page title that stops mid-phrase, and a no-break space inside a heading.**
+`/muay-boran-techniques/` carries two faults of this kind.
+
+**The `<title>` ends on a singular noun that should be plural, and reads as a
+truncation:**
+
+```
+Muay Boran Techniques Traditional Thai Combat Moves & Strike
+```
+
+"Moves & Strike" is not a phrase. Either the writer meant "Moves & Strikes", or
+the title was cut at a character limit mid-word — "Strikes", "Striking" or
+"Strike Techniques" would all fit the sentence. Whichever it was, this is the
+string Google prints in bold at the top of the result, so the first thing a
+searcher reads about the page is a phrase that stops dead. It is the same class
+of fault as the truncated slug at issue 44, one level up: there the URL was cut,
+here the title is. **In the rebuild** it is reproduced exactly.
+
+**And an H2 contains a no-break space where a normal space belongs:**
+
+> "Why Choose Sixth Sense MMA\u00A0 for Muay Boran Training"
+
+There are **two** characters between "MMA" and "for" — a no-break space followed
+by an ordinary one — so the heading renders with a visible double gap. It is the
+same stray-nbsp pattern already logged on `/10-muay-boran-techniques/` and
+`/are-there-multiple-styles-of-muay-boran/`, which suggests it comes from
+pasting out of a word processor. **In the rebuild** it is reproduced exactly,
+because collapsing it would change the published text.
 
 **A stray letter "B" left in the body where a heading was cut.** On
 `/mix-martial-arts-for-self-defense/` the Krav Maga section's final paragraph
@@ -1061,6 +1122,20 @@ the business name across its seven H2s alone:
 A reader scrolling this one page sees the gym's name spelt three ways in its
 section headings, which are the largest text on the page after the title. The
 body adds "SixthSense" on its own, so four variants in one article.
+
+**POSITIVE, four in a row — the whole January 2026 batch is clean.**
+`/muay-boran-techniques/` writes the brand as "**Sixth Sense MMA**" twice and
+nothing else. With the three posts below it, that is **four consecutive January
+2026 posts** with a single consistent spelling and not one run-together,
+lower-cased or truncated variant between them.
+
+Four for four settles it: the thirteen spellings catalogued below are all in
+content published **before** January 2026. The newer process gets the brand right.
+So the remedy is a one-off cleanup of the back catalogue, not a change to how
+pages are being produced now.
+
+Same caveat as the other three: the registered "Sixth Sense Martial Arts" appears
+on none of the four, so the target form still needs deciding once, centrally.
 
 **POSITIVE, three in a row, and this one is the longest page yet.**
 `/mix-martial-arts-for-self-defense/` writes the brand as "**Sixth Sense MMA**"
@@ -2098,6 +2173,46 @@ render as an ordinary block anyway), and the one-row table is kept as a table bu
 left without an invented header row.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### The SEVENTH Muay Boran post, and the first to claim a Thai LINEAGE, a fee structure and online delivery
+
+`/muay-boran-techniques/` (20 January 2026) goes further than
+`/muay-boran-in-coppell/` on every axis the earlier entry flagged as missing.
+Muay Boran is still **not** one of the five programmes.
+
+| What the earlier page lacked | What this page says |
+|---|---|
+| no instructor or lineage | "**Our kru trained directly under lineage holders in thailand** spent years in muay boran camps and competed or taught muay boran fighters." · "**Certified trainers** with real muay boran experience lead every class." |
+| no schedule | "**Sessions run mornings evenings and weekends** with options for **kids teens adults and families**." |
+| no fees | "**Drop in rates monthly unlimited packages and family discounts** keep costs reasonable." · "We keep pricing fair so dedicated students train long term without financial strain." |
+| no delivery formats | "**Group classes one on one coaching and online options**" · "**Online options include video lessons live virtual sessions and recorded** muay boran training drills for home practice." |
+| — | "**Muay Boran training at our academy** follows a clear path" · "Contact us to **check current schedules** and find the plan that works best for you." · "book a **trial class**" |
+
+**The lineage claim is the one to check first.** "Trained directly under lineage
+holders in thailand" is a specific, falsifiable statement about a named country
+and a recognised transmission structure. It is the strongest provenance claim
+anywhere in the content library — stronger than the American Sambo Association
+reference, because lineage in Muay Boran is the whole basis of authority. If no
+instructor has trained under a Thai lineage holder, that sentence is the single
+most exposed sentence on the site.
+
+**Framing: STANDALONE, not inside the Muay Thai programme.** The page never
+places Muay Boran within the existing Muay Thai classes. Muay Thai appears only
+as the modern descendant — "the foundation for today's muay thai", "muay boran vs
+muay thai shows differences in rules intensity and purpose" — and the programme
+language is Muay Boran's own throughout: "our academy", "every class", "every
+level", its own beginner-to-advanced ladder. The plausible reframing the earlier
+entry suggested is therefore **not** what this page does.
+
+**It also adds `krabi krabong`** — the Thai weapons art — to the discipline
+list, twice, including in the trainers' stated knowledge: "Knowledge covers muay
+korat muay lopburi muay thasao and muay chaiya styles plus **krabi krabong
+influences**." That is a weapons claim attached to a credential claim, and it
+takes the recorded discipline count to **twenty-four**.
+
+**What to do:** nothing on this page can be salvaged by editing while the
+programme question is open, because the lineage, the schedule and the fee
+structure all depend on it. Confirm the programme first.
 
 #### A SEVENTH Sambo claim, on an MMA page, plus five more disciplines from one FAQ
 
@@ -4709,6 +4824,56 @@ Nothing was converted, rounded or corrected.
 
 ### 31. Legal, street-fighting and injury-risk content published with no disclaimer — CONTENT — **High, liability**
 
+**A page that teaches elbow strikes to the temple and arm dislocations — and then
+offers recorded drills for HOME practice.**
+`/muay-boran-techniques/` is the first page in the audit to pair high-risk
+technique content with an explicit invitation to practise it unsupervised.
+
+**What it teaches.** The "Specific Top 10 Muay Boran Techniques" table names an
+anatomical target in almost every row, reproduced verbatim:
+
+| # | Name | Description, as published |
+|---|---|---|
+| 1 | Hanuman Thawai Waen | "Spinning punch and piercing dagger strike **to face and throat**." |
+| 2 | Phra Ram Yeab Longa | "Double uppercuts and snapping strike **to skull or chin**." |
+| 3 | Crocodile Tail Kick | "Heel kick to thigh or leg **causing dislocation**." |
+| 6 | Nao Taeng Krit | "Shoulder and elbow attack **targeting temple and neck**." |
+| 9 | Hong Peek Hak | "**Arm dislocation technique** for close combat dominance." |
+
+And in the prose: "Start with a jab to close distance follow with **powerful elbow
+strike to the temple** then drop a knee strikes to the body", "muay boran elbow
+strikes **to ribs** break holds", "**Grapple breaks use elbow spikes to joints**".
+The temple is one of the most dangerous targets on the head.
+
+**What the page does well.** Its supervision copy is genuinely good: a **kru** is
+named seven times ("Kru watch closely to correct posture prevent bad habits and
+**stop drills if needed**", "Kru supervise closely encourage questions and promote
+tapping early"), breakfalls are taught ("Falls get taught with proper breakfalls
+to avoid injury"), and the gear is specific — "padded mats", "hand wraps shin
+guards", "wraps gloves and shin guards", "light partners", "no full power until
+form locks in".
+
+**And then it undoes it.** Under the H3 "Group Classes One on One Coaching and
+Online Options":
+
+> "Online options include video lessons live virtual sessions and **recorded muay
+> boran training drills for home practice**."
+
+> "**Online access** adds extra value for travel or busy days."
+
+So the same page that insists a kru must watch every drill also sells recordings
+to work through at home — of elbow strikes to the temple, arm dislocations and
+throws. No other page in this entry does that. Everything the supervision
+paragraphs establish is optional the moment a reader chooses the online track.
+
+**No disclaimer and no legal reference.** "Disclaimer", "at your own risk", "seek
+medical", "legal", "law" and "lawful" appear **nowhere** on the page.
+
+**What to do:** either drop the home-practice offer, or restrict the recorded
+material to what is safe alone — stances, footwork, shadow work, conditioning —
+and say so in the sentence. The page already distinguishes those: "Light contact
+pad work and **shadow practice** build confidence before partner drills."
+
 **Eye gouges, groin strikes, head butts and "using one person as a shield" — with
 no legal reference anywhere on the page.**
 `/mix-martial-arts-for-self-defense/` is the most explicit page on the site about
@@ -5344,6 +5509,24 @@ published or edited later) for the same `%…%` title, not only these two.
 
 ### 29. Content duplicated inside a post: a whole article on one, a whole section on another — CONTENT, SEO — High
 
+**A ten-row technique table published word for word on two different posts.**
+`/muay-boran-techniques/` and `/10-muay-boran-techniques/` both carry a "Specific
+Top 10" section listing the same ten Muay Boran techniques with the **same ten
+descriptions**, character for character — "Double uppercuts and snapping strike to
+skull or chin", "Shoulder and elbow attack targeting temple and neck", "Arm
+dislocation technique for close combat dominance" and the other seven.
+
+This is a different shape of duplication from the cases below. Those are whole
+articles or whole sections pasted into the wrong page. This is **one deliberate
+asset reused on two competing URLs**, where the headings around it were rewritten
+so the pages look distinct (issue 7). Of the two, `/10-muay-boran-techniques/`
+expands each row into prose underneath; this page leaves the table to stand alone.
+
+**In the rebuild** the table is reproduced exactly, promoted to a proper
+`<thead>` with `<th scope="col">` and a row header on each of the ten rows, and
+verified cell by cell against the live page. **What to do:** keep the table on
+one page only, and have the other link to it.
+
 **Three fragments of the Sambo beginner post survive on an MMA self-defence
 page, including a sentence that calls the gym a "sambo academy".**
 `/mix-martial-arts-for-self-defense/` was built from the same template as
@@ -5457,6 +5640,33 @@ This is the one place where the rebuild deliberately keeps a fault that a reader
 will notice.
 
 ### 30. Bad tags: zero-width spaces, section titles used as tags, misspellings, and twenty-two on one post — SEO — Medium
+
+**Eighteen tags, the largest set on the site, one of them a weapons claim and one
+a misspelling.** `/muay-boran-techniques/` carries: "Ancient Muay Thai", "muay
+boran", "Muay Boran Clinch", "Muay Boran Elbow Techniques", "Muay Boran Joint
+Locks", "Muay Boran Knee Strikes", "muay boran moves", "Muay Boran Self Defense",
+"Muay Boran Strikes", "Muay Boran Sweeps", "muay boran techniques", "Muay Boran
+Throws", "Muay Boran Training", "**Muay Boran Weapons**", "muay chaiya", "muay
+korat", "Muay Lopburi", "**Muay Tha Sao**".
+
+**All eighteen name a discipline with no programme page.** Three points:
+
+- **"Muay Boran Weapons"** is a weapons tag on a page that never mentions a
+  weapon except "krabi krabong influences" — so it generates an indexable archive
+  advertising Muay Boran weapons instruction that the page itself does not
+  describe. It joins "Knife Fighting Training" and the Sambo submission tags as a
+  tag that claims more than its page does.
+- **"Muay Tha Sao"** is the style the page's own body spells "muay thasao",
+  broken into three words. It is the fourth tag-level misspelling after "muat
+  boran" and "diffrent", and like those it becomes the archive's permanent URL.
+- The four style tags are **title-cased in the tag list and lower-cased in the
+  body** — "Muay Lopburi" and "muay korat" as tags, "muay lopburi" and "muay
+  korat" in the prose — so the page is inconsistent with itself.
+
+That takes the running total to **82 untaught-discipline tags** across the Sambo,
+Muay Boran, weapons and MMA posts. **In the rebuild** no tag pills are rendered on
+any post. **What to do:** delete "Muay Boran Weapons" and "Muay Tha Sao" outright,
+and keep three.
 
 **Both spellings published as separate tags: "MMA Self Defence" AND "MMA Self
 Defense".** `/mix-martial-arts-for-self-defense/` carries fourteen tags: "best
@@ -6247,6 +6457,38 @@ the best sections of each. Then add a 301 redirect from
 `-2` address.
 
 ### 5. Internal links pointing at the wrong post — SEO — High
+
+**A link containing a single letter: the auto-linker cut "thai" in half and
+linked both halves separately.** On `/muay-boran-techniques/`:
+
+```html
+...core moves in<strong><a href="/muay-thai-stance/"> mae mai muay tha</a></strong><a href="/muay-thai-stance/">i</a>.
+```
+
+**Two anchors, both pointing at the same page, and the second one is the letter
+"i".** The rendered sentence reads correctly — "core moves in mae mai muay thai."
+— so nothing looks wrong to a reader, but the markup contains a one-character
+link, and the underline breaks mid-word. It is the worst instance of the
+clause-grabbing behaviour recorded so far, past "Moves sambo mart|ial art" and
+"kickboxingor".
+
+The page's other four auto-links:
+
+| Anchor text | Points at | Note |
+|---|---|---|
+| "Muay boran " | `/10-muay-boran-techniques/` | its own near-duplicate twin (issue 7) |
+| "defense relies " | `/different-types-of-martial-arts/` | half a clause |
+| "Muay boran vs muay thai " | `/are-there-multiple-styles-of-muay-boran/` | cluster sibling |
+| "muay boran vs muay thai" | `/muay-thai-muay-boran/` | **the same anchor text, a different destination** |
+
+The last two are the second fault: **one page uses the phrase "muay boran vs muay
+thai" as anchor text twice and sends it to two different posts**, differing only
+in whether the M is capitalised. A reader clicking what looks like the same link
+twice lands in two places, and Google is told two different pages are the
+authority for one phrase.
+
+**In the rebuild** all six are reproduced exactly, the one-letter link included,
+and it is given no aria-label because it has visible text.
 
 **Every single internal link on one page points at a post it is competing with.**
 On `/mix-martial-arts-for-self-defense/` all five auto-links go to self-defence
@@ -7472,6 +7714,68 @@ Whichever survives must link `/kids-bjj-classes/`, which neither currently does.
 A parent who reads either post and wants to book has no route to the booking
 page from it.
 
+#### The cluster reaches SEVEN, and two of them publish the SAME TEN TECHNIQUES word for word — **CRITICAL**
+
+`/muay-boran-techniques/` (20 January 2026) is the seventh, and it is the
+duplicate of `/10-muay-boran-techniques/` — the two slugs differ **only by the
+leading "10-"**. That is the fifth instance of the qualifier pattern, after the
+kick-boxing hyphen pair, the sambo-techniques city pair, the belt-ranks
+abbreviation pair and the weapons-training city pair.
+
+**The headings barely overlap, and that is misleading.** Measured directly:
+
+| Against | H2 exact | H2+H3 exact |
+|---|---|---|
+| `/10-muay-boran-techniques/` | 0/12 = **0%** | 2/32 = **6%** |
+| `/muay-boran/` | 1/12 = **8%** | 2/32 = **6%** |
+
+Every match is boilerplate ("Contact US", "Conclusion", "Follow Us on Social
+Media"). On the headings alone the two pages look unrelated.
+
+**But the ten techniques are identical, name for name and word for word.** Both
+pages publish a "Specific Top 10" section, and both list the same ten:
+
+| # | Name | Description — **identical on both pages** |
+|---|---|---|
+| 1 | Hanuman Thawai Waen | Spinning punch and piercing dagger strike to face and throat. |
+| 2 | Phra Ram Yeab Longa | Double uppercuts and snapping strike to skull or chin. |
+| 3 | Crocodile Tail Kick | Heel kick to thigh or leg causing dislocation. |
+| 4 | Ruesi Bod Ya | Open palm defenses and push-kicks controlling distance. |
+| 5 | Fake and Strike | Fake teep followed by reverse push-kick to chest. |
+| 6 | Nao Taeng Krit | Shoulder and elbow attack targeting temple and neck. |
+| 7 | Batha Loop Phak | Downward palm strike breaking body defense. |
+| 8 | Hirun Muan Phaendin | Slam to disrupt flow and control space. |
+| 9 | Hong Peek Hak | Arm dislocation technique for close combat dominance. |
+| 10 | Kamae Kham Sao | Grip and piercing move to trap opponent's arm. |
+
+**Ten for ten, with no duplicate within either list** — which is worth recording,
+because `/kickboxing-techniques/` listed the hook twice in a "Top 9" and
+`/sambo-moves/` padded its list. These two pages got the list right and then
+published it twice.
+
+So the duplication is in the **content**, not the headings, and it is the exact
+reverse of what the heading percentages suggest. Any client checking for
+duplicates by comparing section titles would clear this pair.
+
+**The full seven-page cluster:**
+
+| Post | Scope |
+|---|---|
+| `/muay-boran/` | the general explainer, cleanest slug |
+| `/muay-boran-techniques/` | **techniques, by programme stage, with the Top 10 table** |
+| `/10-muay-boran-techniques/` | **the same Top 10, with per-technique prose and 4 tables** |
+| `/muay-boran-in-coppell/` | the local class page |
+| `/muay-thai-muay-boran/` | the comparison |
+| `/are-there-multiple-styles-of-muay-boran/` | the regional styles |
+| `/muay-chaiya/` | one regional style |
+
+**Which to keep:** `/muay-boran/` for the explainer and
+`/muay-boran-in-coppell/` for local intent, as recommended below. Of the two
+technique pages, `/10-muay-boran-techniques/` has the richer per-technique
+treatment, so merge this page's programme sections into it and 301 this slug —
+**and delete one copy of the Top 10 table.** All of it conditional on the service
+claim at issue 39.
+
 #### And now a SEVENTH, and this one has the local slug — **CRITICAL**
 
 `/muay-boran-in-coppell/` (26 December 2025) is the seventh, and it changes the
@@ -7606,6 +7910,38 @@ separate the others. Blog posts about classes should link to the program page
 rather than compete with it.
 
 ### 9. Same generic FAQ reused on 13 posts — SEO, CONTENT — Medium
+
+**"What is 1 2 3 4 5 6 in boxing?" — on a Muay Boran page.** The accordion on
+`/muay-boran-techniques/` runs to nine questions, and this time the off-topic one
+is not about the CIA:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "How many techniques are in Muay Boran?" | **yes** |
+| 2 | "What are the basics of Muay Boran?" | **yes** |
+| 3 | "What are the different styles of Muay Boran?" | **yes** |
+| 4 | "What is the most powerful move in Muay Thai?" | adjacent |
+| 5 | "**What is 1 2 3 4 5 6 in boxing?**" | **no — boxing punch numbering** |
+| 6 | "Is Muay Boran allowed in MMA?" | **yes** |
+| 7 | "Who is the father of Muay Boran?" | **yes** |
+| 8 | "What are the forbidden moves in Muay Boran?" | **yes** |
+| 9 | "What are the big 4 martial arts?" | no, generic |
+
+**Seven of nine are on subject**, which is the second-best FAQ in this entry after
+`/best-martial-arts-for-self/`. Question 5 is simply from another sport — the
+numbered-punch convention used in boxing gyms — and has no bearing on a Thai
+art that counts its limbs rather than its punches.
+
+**Question 8 is the most important thing on the page, and it is buried.** Its
+answer is the only place in the whole article where a restriction is stated: it
+lists **Headbutts, Groin strikes** and **Eye gouging** among the moves modern
+rules ban. The body of the page, by contrast, teaches strikes to the temple,
+throat and skull with no mention of what is off-limits (issue 31). The one
+paragraph that supplies the boundary sits collapsed at the bottom of an
+accordion.
+
+**What to do:** delete 5 and 9, and **move question 8's content into the body**,
+near the Top 10 table where the targets are named.
 
 **A FIFTH page asking what martial arts the CIA uses, and now the FBI as well.**
 The accordion on `/mix-martial-arts-for-self-defense/` runs to eleven questions:
@@ -8080,6 +8416,12 @@ find whatever is auto-linking single words and turn it off.
 
 ### 11. Featured images whose declared size does not match the file — SEO — Medium
 
+**A ninth page.** `/muay-boran-techniques/` serves
+`Muay-Boran-Techniques-1024x536.jpg` — a 1024x536 file — and declares it
+`width="800" height="419"`, while both in-body images declare their real
+1024x536. Nine pages, one template fault, and all four January 2026 posts carry
+it. **In the rebuild** all three are declared at the size they are.
+
 **An eighth page.** `/mix-martial-arts-for-self-defense/` serves
 `Mix-Martial-Arts-for-Self-Defense-1024x536.jpg` — a 1024x536 file — and declares
 it `width="800" height="419"`, while both in-body images declare their real
@@ -8425,6 +8767,13 @@ wrote them, because these pages are replicas. The sidebar contents list falls
 back to H3s on this post so it isn't empty.
 
 ### 18. Image alt text typos and scrambled descriptions — SEO — Low
+
+**Seven in a row.** On `/muay-boran-techniques/` the alt text is good — each
+image is named after the section it illustrates, "Muay Boran for Self Defense"
+and "Fitness and Mental Benefits of Muay Boran" — but all three carry
+`title="Muay Boran Techniques Professional Training &amp; Self Defense Program"`,
+the whole H1, as a hover tooltip. Seven consecutive posts. **In the rebuild**
+title attributes are not carried over on any post and the useful alt text is kept.
 
 **Six in a row.** On `/mix-martial-arts-for-self-defense/` the alt text is good
 — each image is named after the section it illustrates, "Muay Thai for Striking &
@@ -12107,7 +12456,7 @@ once the live page is corrected.
 
 ## How these were checked
 
-- **Spam, phone number, empty headings:** scanned the raw HTML of all 103 pages.
+- **Spam, phone number, empty headings:** scanned the raw HTML of all 104 pages.
 - **FAQ comparisons:** extracted every question and answer from each page and
   compared them word for word.
 - **Links:** followed each one and compared its link text with its target.

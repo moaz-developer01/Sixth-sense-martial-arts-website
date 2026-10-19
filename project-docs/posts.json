@@ -725,5 +725,13 @@
     "image": "images/mix-ma-self-def-01.jpg",
     "date": "2026-01-20T14:23:48+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "muay-boran-techniques",
+    "title": "Muay Boran Techniques Professional Training & Self Defense Program",
+    "excerpt": "Muay Boran Techniques bring the raw power and wisdom of ancient muay thai styles straight to modern training. This ancient thai martial art from thail",
+    "image": "images/boran-techniques-01.jpg",
+    "date": "2026-01-20T18:30:13+00:00",
+    "category": "Martial Arts"
   }
 ]

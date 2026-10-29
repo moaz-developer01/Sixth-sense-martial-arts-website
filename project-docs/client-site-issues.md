@@ -455,7 +455,7 @@ decision.
 | 4 | Broken `%…%` page title (template bug, recurring) | SEO | 2 | High |
 | 5 | Internal links pointing at the wrong post, six at wp-admin screens | SEO | 8 | High |
 | 6 | Two separate Kali Sticks posts | SEO | 2 | High |
-| 7 | Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SIX on belt progression, SIX on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
+| 7 | Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SEVEN on belt progression, SIX on Sambo, four versus posts, two on gear | SEO | 42 | **CRITICAL** |
 | 8 | "Contact us" links that go to the Teen BJJ page | CONTENT | 2 | Medium |
 | 9 | Same generic FAQ reused on 13 posts | SEO, CONTENT | 13 | Medium |
 | 10 | Outbound links to unrelated, weak or foreign-language sources, one to an American-football article | SEO, CONTENT | 33 | **High** |
@@ -6436,6 +6436,27 @@ archives as a whole: most of them should not be indexable. **When you cut
 defense" and add local variants.** And add a rule for whoever writes these: if
 the tag is also a heading on the page, it is not a tag.
 
+**2026-01 addition — `/bjj-belt-ranks-explained/`: twenty tags, one of them a
+WordPress duplicate.** The post carries 20 tags, all variations on the same two
+words: `bjj-belt-levels`, `bjj-belt-order`, `bjj-belt-ranks`,
+`bjj-belt-requirements`, `bjj-belt-system`, `bjj-belt-timeline`, `bjj-black-belt`,
+`bjj-blue-belt`, `bjj-brown-belt`, `bjj-coral-belt`, `bjj-kids-belts`,
+`bjj-promotion-criteria`, `bjj-purple-belt`, `bjj-rank-explained`, `bjj-red-belt`,
+`bjj-white-belt`, `brazilian-jiu-jitsu-belts-2`, `brazilian-jiu-jitsu-ranks`,
+`jiu-jitsu-belt-colors`, `jiu-jitsu-belt-progression`.
+
+`brazilian-jiu-jitsu-belts-2` is a **WordPress collision suffix** — the tag
+`brazilian-jiu-jitsu-belts` already existed, so WordPress created a second one
+with the same label and a different slug. That is the same defect as issue 19, and
+it means two tag archives now exist for one tag.
+
+Six tags name a single belt colour each (`bjj-white-belt` through `bjj-red-belt`),
+which generates six thin archive pages for colours the post discusses in one
+paragraph apiece.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -6798,7 +6819,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SIX on belt progression, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SEVEN on belt progression, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -6806,7 +6827,7 @@ Google then has to pick one and ranks all of them weaker.
 | Topic | Competing pages |
 |---|---|
 | **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
-| **Belt and rank progression (confirmed, SIX pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` — see below |
+| **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
@@ -7644,6 +7665,58 @@ if the client consolidates: it is the only one of the five with a local slug, an
 local intent is the only thing distinguishing any of them. Merge the five into it,
 301 the rest, **and fix the four-belt sequence before reusing any of this post's
 copy** — it is the only factual error among the five.
+
+#### The seventh belt post, and the fifth duplicate URL pair — **CRITICAL**
+
+`/bjj-belt-ranks-explained/` (published 2026-01-20, 3,056 words) is the **seventh**
+page on this site explaining how BJJ belts work:
+
+| Page | Published | Words |
+|---|---|---|
+| `/martial-arts-belt-levels/` | 2025-02-22 | — |
+| `/brazilian-jiu-jitsu-belts/` | 2025-03-06 | — |
+| `/brazilian-jiu-jitsu-belt-ranks/` | 2025-03-28 | — |
+| `/martial-arts-progression/` | 2025-09-?? | — |
+| `/bjj-belt-ranks-in-coppell/` | 2025-10-18 | — |
+| `/bjj-belt-ranks/` | 2026-01-?? | — |
+| `/bjj-belt-ranks-explained/` | **2026-01-20** | **3,056** |
+
+**`/bjj-belt-ranks/` and `/bjj-belt-ranks-explained/` are a near-exact duplicate
+pair differing only by a suffix.** Same subject, same belt sequence, same primary
+keyword, two URLs. This is the **fifth** duplicate-pair pattern in the project,
+after:
+
+1. the kick-boxing hyphen — `/kick-boxing-gloves/` vs `/kickboxing-gloves/`
+2. the `10-` prefix — `/muay-boran-techniques/` vs `/10-muay-boran-techniques/`
+3. the `-in-coppell` suffix — four instances, most recently
+   `/martial-arts-weapons-training/` vs `/martial-arts-weapons-training-in-coppell/`
+4. the truncated `-for-self` slug — `/best-martial-arts-for-self/` vs
+   `/best-martial-arts-for-self-defense/`
+5. **the `-explained` suffix — `/bjj-belt-ranks/` vs `/bjj-belt-ranks-explained/`**
+
+The pattern is now consistent enough to be a process problem rather than five
+accidents: whoever commissions these posts is not checking the existing URL list
+before choosing a slug.
+
+**This pair is worse than a slug collision: the two pages share a title phrase.**
+`/bjj-belt-ranks/` is titled "BJJ Belt Ranks Explained: Train, Progress, and
+Advance at SixthSense MMA" and `/bjj-belt-ranks-explained/` is titled "BJJ Belt
+Ranks Explained Your Guide to Brazilian Jiu Jitsu Progression". Both H1s open with
+the identical five words, and the older page's title already contains the newer
+page's entire slug. A reader who finds both in one results list cannot tell them
+apart, and neither can Google.
+
+**The new page also links two of the pages it competes with.** Of its five
+editorial links, three point at belt pages in the same cluster:
+`/brazilian-jiu-jitsu-belt-ranks/`, `/brazilian-jiu-jitsu-belts/` and
+`/bjj-belt-ranks/` — the last of these from the Contact section, where the anchor
+text is the duplicate's own keyword. A fourth link points at
+`/brazilian-jiu-jitsu-orlando/`, a city 1,000 miles away (issue 14).
+
+**Recommendation unchanged.** Keep `/bjj-belt-ranks-in-coppell/`, fix its H1
+(issue 71), and 301 the other six into it. `/bjj-belt-ranks-explained/` adds no
+subject the other six do not already cover; its only distinctive content is the
+kids-belt section, which is 3 paragraphs that can be merged in full.
 
 #### The belt quartet: four posts on one sequence of seven colours — **CRITICAL**
 
@@ -11767,6 +11840,55 @@ is a sequence of seven ranks and contains **no list markup at all** — not one
 missed opportunity both for the reader skimming for the sequence and for the
 structured data a ranked list can carry.
 
+**2026-01 addition — `/bjj-belt-ranks-explained/` adds a seventh set of numbers.**
+The new post publishes its own time-in-rank figures, and they do not match the six
+pages already live. Nothing here has been corrected; the figures are reproduced as
+published.
+
+| Stage | `/bjj-belt-ranks-explained/` | `/bjj-belt-ranks/` | `/brazilian-jiu-jitsu-belts/` | `/bjj-belt-ranks-in-coppell/` |
+|---|---|---|---|---|
+| white → blue | "at least one to two years from white belt" | "one to two years as a white belt" | "1-2 years" | "2-3 years" |
+| blue → purple | "at least two years from blue belt" | "two to three years on average" | "2-4 years" | "another 2-4 years" |
+| purple → brown | "a minimum of one to two years" | "another two to three years" | "2-4 years" | "5-6 years from blue" |
+| brown → black | "several years from purple belt" | "one to two years" | "1-3 years" | — |
+| total to black | **not stated** | "around ten years" | "8-12 years" | "around 10 years total" |
+
+Four pages, four different answers to "how long to blue belt", and the new post is
+the only one of the seven that never states a total. Within the new post itself the
+purple-belt figure is given twice in two different forms — "Purple belt often
+requires at least two years from blue belt" (twice) and "Purple belt for a minimum
+of one to two years often precedes brown belt" — so the page does not agree with
+itself either.
+
+**Belts beyond black contradict the other pages and the post's own FAQ.** The body
+says progression continues "with degrees like red and white belt for senior ranks
+and coral belt for legends"; its own FAQ says "coral belts (red/black and
+red/white) and the rare red belt for grandmasters". `/bjj-belt-ranks/` publishes
+the IBJJF mapping correctly (red-black 7th degree, red-white 8th, red 9th and
+10th). The new post's body therefore places red-and-white *outside* coral, which
+no other page on the site does.
+
+**Kids belt colours agree; the ages do not.** The new post gives white, gray,
+yellow, orange, green, then blue — consistent with `/bjj-belt-ranks/`, which adds
+"often thirteen" total kids belts. But the ages are a mess across the site:
+
+| Source | Age claim |
+|---|---|
+| `/` (homepage) | Kids "Ages 4 to 12"; Little Champions "Ages 4 to 7"; "age 4 with our Intro to Jiu Jitsu and Little Champions programs" |
+| `/martial-arts-for-kids-strenght/` | "Starting at Ages 7 and Up"; "Children can begin training as early as age 7" (issue 69) |
+| `/martial-arts-classes/` | "starts at ages 5 7" |
+| `/martial-arts-near-me-classes/` | "Little Champions start five plus" |
+| `/bjj-belt-ranks-explained/` | "Older kids around eight to twelve"; transition to adult belts "around age fourteen to sixteen" |
+| `/kids-bjj-classes/`, `/teen-bjj-classes/`, `/adult-bjj-classes/` (programme pages) | **state no ages at all** |
+
+That is five different starting ages — 4, 5, "5 7", 7 and 8 — and the three
+programme pages that should settle it are silent. The new post is not the worst
+offender, but it is the first to imply that under-eights are outside the technical
+curriculum, which contradicts the homepage's "age 4" twice over.
+
+**No figure in the new post has been altered.** Every number above is reproduced
+exactly as the client published it, including the two that disagree inside one page.
+
 ### 73. Private coaching advertised on three pages, in three different forms, and confirmed by no programme page — CONTENT (accuracy) — **High, the client must confirm**
 
 One-to-one coaching is advertised on **three** blog posts, each describing it
@@ -11838,6 +11960,32 @@ recording.** Of its four programme-shaped H3s, three are accurate:
 
 So on this page the service descriptions are right three times out of four. The
 fourth is the one logged here.
+
+**2026-01 addition — another page.** `/bjj-belt-ranks-explained/` devotes a whole
+H3 to it: "Personal Coaching for Faster Learning", with "Bjj rank testing
+preparation includes one on one sessions where students demonstrate required
+techniques against resistance" and "Personalized plans adjust for body type
+fitness age and goals". The same page also advertises **belt gradings and a
+promotion programme** no programme page mentions: "bjj rank testing", "Regular
+checks track bjj stripe meanings and readiness for promotion", "Belt ceremonies
+celebrate new belt color with the group watching", and "Certified instructors"
+who "competed at local regional and international levels in bjj tournaments under
+IBJJF belt rules".
+
+Added to the commercial-claims verification list, all needing client confirmation:
+
+| Claim on `/bjj-belt-ranks-explained/` | Confirmed by a programme page? |
+|---|---|
+| one-on-one / personal coaching | no |
+| formal belt gradings ("bjj rank testing") | no |
+| belt-promotion ceremonies | no |
+| IBJJF-affiliated instruction | no |
+| instructors with international competition records | no |
+| "free trial class" / "trial classes ... without commitment" | partly — the site's CTA says the first class is free |
+| "Monthly packages offer unlimited access drop in rates and family discounts" | no (issue 55) |
+| "No hidden fees appear and payment plans help long term students" | no |
+
+**The page states no prices**, so nothing was invented and nothing needed omitting.
 
 ### 74. Posts that sell equipment the site has no shop for — CONTENT (accuracy), TRUST — **CRITICAL, the client must confirm**
 
@@ -12453,6 +12601,49 @@ The rebuild reproduces the levels as published, so the outline will fix itself h
 once the live page is corrected.
 
 ---
+
+### 85. A twelve-question FAQ where ten questions are celebrity trivia — SEO, CONTENT — **High**
+
+`/bjj-belt-ranks-explained/` closes with twelve FAQ questions. **Ten of them ask
+what belt a famous person holds**, and two of those ask the same thing twice.
+
+| # | Question | About the belt system? |
+|---|---|---|
+| 1 | What are the BJJ belts in order? | yes |
+| 2 | What level of BJJ is Mark Zuckerberg? | no |
+| 3 | What belt rank is Keanu Reeves? | no |
+| 4 | What is the 80 20 rule in BJJ? | no — unrelated training maxim |
+| 5 | Is Keanu Reeves a white belt? | no — **duplicate of #3** |
+| 6 | What's better, BJJ or jjj? | no |
+| 7 | What belt is John Wick? | no — **a fictional character**, answered "has no official belt rank" |
+| 8 | What belt is Elon Musk? | no |
+| 9 | What rank is Conor McGregor in BJJ? | no |
+| 10 | Is Tom Cruise a black belt? | no |
+| 11 | What rank is Jason Statham in BJJ? | no |
+| 12 | What belt is Jim Carrey? | no |
+
+This is the same failure as issue 77 (an eight-question FAQ where six were about
+boxing) and issue 81 (five questions about Roblox), and it is now the third
+instance, so the FAQ block is being filled from a keyword tool rather than from
+questions this gym's prospects actually ask.
+
+**Two further problems with the answers themselves.** They are reproduced verbatim
+and have not been corrected:
+
+- Several state unverified facts about named living people as fact — Jason Statham
+  "is a purple belt", "trained consistently under Renzo Gracie and Roger Gracie for
+  over fifteen years"; Jim Carrey "is a brown belt ... has trained under Royce
+  Gracie for many years"; Tom Cruise, Keanu Reeves and Elon Musk each assigned or
+  denied a rank. These are claims about real third parties published on a
+  commercial site; if any is wrong it is the client's exposure, not Google's.
+- Question 7 asks the belt rank of a fictional character, and the answer explains
+  that fictional characters do not have belt ranks. That exchange has no plausible
+  search value.
+
+**What to do.** Keep question 1. Replace the rest with questions about this gym:
+how long promotions take here, whether there is a grading fee, what the kids belt
+path is, and at what age a child moves to adult classes — the last of which the
+site currently answers five different ways (issue 72).
 
 ## How these were checked
 

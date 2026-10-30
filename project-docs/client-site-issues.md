@@ -23,7 +23,37 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. THIRTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. FOURTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The fourteenth page, and the first one written for parents of bullied children
+
+`/anti-bullying-martial-arts-for-kids/` (26 February 2026) publishes **two**
+sentences that have been **omitted from the rebuild**, each leaving an HTML
+comment:
+
+> Parents want their child to learn self defense build confidence and handle
+> bullying **without any risk of getting hurt**.
+
+> This controlled pace helps children develop good habits **without danger**.
+
+**The first needs a note, because its grammar hides what it does.** Read strictly
+it reports what parents *want*, not what the gym delivers. But it opens the
+"Safety Measures" section and the next sentence is "**That is why** martial arts
+programs here follow strict rules", which answers the want — so a parent reads it
+as a promise that their child will not be hurt. It has been cut on that reading.
+If the client disagrees, the fix is one word: "**with as little risk as possible**
+of getting hurt". The sentence is reproduced here in full so the client can judge
+for themselves.
+
+**The second is the same "without danger" formulation already omitted from**
+`/muay-boran-techniques/`, and it is attached to drills for four-year-olds.
+
+**Everything else on the page is qualified and was kept verbatim**, including the
+correct version of the same claim two sections later: "Every class follows clear
+rules so kids don't face **unnecessary risks**" — which is exactly how both omitted
+sentences should have been written.
+
+**Running total: 56 sentences across fourteen posts.**
 
 #### The thirteenth page, three sentences, and a heading that makes the same claim
 
@@ -588,7 +618,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **THIRTEEN** posts promising an absence of injury risk or guaranteeing safety, 54 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **FOURTEEN** posts promising an absence of injury risk or guaranteeing safety, 56 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -4039,6 +4069,39 @@ programmes plus MMA, which is not taught.
 absences"** — an unattributed research-style claim, the pattern logged at issue 62.
 No study, team or source is named. Reproduced verbatim.
 
+**2026-02 addition — `/anti-bullying-martial-arts-for-kids/`: the body is
+accurate, the FAQ recommends four disciplines the gym does not teach.**
+
+**The body is clean, and that is worth recording.** Every discipline it names for
+children is Brazilian jiu jitsu or jiu jitsu — "we use brazilian jiu jitsu and jiu
+jitsu to teach kids real life skills", "All levels use brazilian jiu jitsu moves
+that fit small bodies" — which is exactly the gym's real kids offering. No karate,
+no taekwondo, no striking programme is claimed. Alongside
+`/martial-arts-near-me-classes/`, this is one of the few posts whose body
+describes the real offering.
+
+**The FAQ undoes it.** Five of the ten answers recommend or compare disciplines
+with no programme page:
+
+| FAQ | Discipline recommended | Taught here? |
+|---|---|---|
+| 4 "Is taekwondo or jujitsu better for kids?" | **Taekwondo** | no |
+| 5 "Which is better for ADHD karate or Taekwondo?" | **Karate**, **Taekwondo** — the question assumes both are options | no |
+| 6 "Is Judo or Jiu Jitsu better for kids?" | **Judo** | no |
+| 7 "What martial arts are good for mental discipline?" | **Karate**, **Taekwondo**, **Judo**, **Tai chi** | no |
+| 9 "What is the best martial arts for kids to learn discipline?" | "**Karate and taekwondo often top the list**" | no |
+
+FAQ 9 is the sharpest: on a page selling BJJ to parents, the answer to "best
+martial arts for kids to learn discipline" is **karate and taekwondo**. A parent
+who reads that answer has been advised, by this gym, to go elsewhere.
+
+**One brand reference:** "These moves come from **gracie style jiu jitsu**" — a
+lineage name used as a descriptor. Not a competitor tag of the kind logged on
+`/teens-bjj-near-me/`, but the same family of problem.
+
+All of these are **reproduced verbatim and left unlinked**, because there is no
+programme page to send a reader to.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -5117,6 +5180,40 @@ figure was added to the rebuild.
 
 The page does, however, describe a trial without describing what it costs — see
 issue 39 for the free-trial gap between its meta description and its body.
+
+**2026-02 addition — the ninth page, and the first one aimed at parents.**
+`/anti-bullying-martial-arts-for-kids/` has an H2 called **"Class Schedule Pricing
+and Free Trial Information"**, an H3 called **"Affordable Membership Options"**, a
+paragraph promising "Here is everything you need to know about **schedule pricing**
+and how to try a class for free", and **no price anywhere on the page**.
+
+What it says instead:
+
+- "**Pricing stays fair** so more families can join."
+- "**Monthly memberships** cover unlimited classes in your child's age group with
+  **no hidden fees** for mats gear cleaning or events."
+- "**Family discounts** apply when more than one child or parent trains."
+- "Options include **basic plans** for two or three days a week and **full
+  unlimited plans**."
+- "**Drop in rates** exist for families testing longer term commitment."
+- "All plans include access to **open mat times** when available and special
+  workshops."
+
+Five named billing tiers, a discount scheme, a no-hidden-fees promise and not one
+number. **Nine for nine.** "Everything you need to know about schedule pricing" is
+now the most specific pricing promise on the site and it is followed by no price.
+
+**The schedule half is the exception, and it is genuinely useful** — this is the
+only page on the site that publishes actual class timings: "Young kids ages four
+to six usually take shorter fun focused classes in the **late morning or early
+afternoon**. Junior ages seven to ten fit right after school in the **three to six
+pm range**." The client should check those are current, because they are specific
+enough for a parent to plan around.
+
+**Two further claims join the verification list:** "**open mat times** when
+available" and "**special workshops** on conflict resolution strategies or non
+violent defense" — neither confirmed by any programme page. **No price was added
+to the rebuild.**
 
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
@@ -6952,6 +7049,25 @@ Flags:
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/anti-bullying-martial-arts-for-kids/`: ten tags, and the
+cleanest set in the audit.** The post carries 10 tags: `Anti Bullying Martial Arts
+for Kids`, `bully prevention programs for kids`, `character development martial
+arts`, `confidence building for children`, `discipline training for kids`, `kids
+anti bullying classes`, `kids self defense training`, `martial arts for child
+confidence`, `safe martial arts classes for kids`, `youth martial arts lessons`.
+
+**Ten rather than twenty, no untaught discipline named, no competitor named, no
+duplicate slug and no zero-width space.** After twenty-tag sets on each of the
+last four posts, this is what the others should look like.
+
+Two minor notes: `safe martial arts classes for kids` leads with a safety claim
+(see issue 0 for the two sentences omitted from this page), and none of the ten
+carries the city, so the post competes nationally for queries only a Coppell
+parent can convert on.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7329,7 +7445,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
-| **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
+| **Martial arts for kids (confirmed, THREE posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
@@ -7407,6 +7523,46 @@ progression from wall isometrics to full bridges. 301 `/neck-bridges/` and
 `/do-neck-bridges-build-muscle/` into it, merge the muscle-growth answer (which is
 already an FAQ on the survivor) and the "H2:" heading fix dies with the redirect.
 Then add the disclaimer component from issue 31 before any of it goes live.
+
+#### The kids cluster: three posts, a teen post and two programme pages
+
+`/anti-bullying-martial-arts-for-kids/` (26 February 2026, 3,577 words) joins a
+group already chasing parents:
+
+| Page | Published | H2s | Angle |
+|---|---|---|---|
+| `/martial-arts-for-kids/` | 2025-02-16 | 14 | confidence and discipline, general |
+| `/martial-arts-for-kids-strenght/` | 2025-10-18 | 14 | strength and confidence, "ages 7 and up" |
+| `/anti-bullying-martial-arts-for-kids/` | **2026-02-26** | **11** | **bullying specifically** |
+| `/teens-bjj-near-me/` | 2025-09-17 | — | teens, local intent |
+| `/kids-bjj-classes/` · `/teen-bjj-classes/` | — | — | the programme pages |
+
+**Heading overlap is the lowest of any cluster in this document:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/martial-arts-for-kids/` | **0 of 11** | **0 of 37** | 47.5% |
+| `/martial-arts-for-kids-strenght/` | 2 of 11 (18.2%, both boilerplate) | 4 of 37 (10.8%) | 57.5% |
+
+The two matches are "Contact US" and "Conclusion". Not one real section heading is
+shared with either sibling, and the zero against `/martial-arts-for-kids/` across
+all 37 headings is the only clean zero recorded in this audit.
+
+**Keep this one separate.** It is the most distinct page in the kids group and the
+only one with a specific, high-intent, emotionally urgent query behind it — a
+parent searching "martial arts for bullied child" is not the same reader as one
+searching "martial arts for kids". It is also the only one of the three that
+**links the programme page** (three times, in the client's own markup).
+
+**Consolidate the other two instead.** `/martial-arts-for-kids/` and
+`/martial-arts-for-kids-strenght/` are the same page with a typo in one slug, they
+share 57.5% of their heading vocabulary with this one, and the "strenght"
+misspelling is already logged at issue 68. 301 them into one, keep this page and
+`/teens-bjj-near-me/` as the two specific angles, and point all of them at
+`/kids-bjj-classes/` and `/teen-bjj-classes/`.
+
+**Fix the age bands first** — the three pages currently publish three different
+answers for the same classes (see issue 86f).
 
 #### The comparison-post group
 
@@ -13301,6 +13457,212 @@ and have not been corrected:
 how long promotions take here, whether there is a grading fee, what the kids belt
 path is, and at what age a child moves to adult classes — the last of which the
 site currently answers five different ways (issue 72).
+
+## CHILD SAFETY CONTENT
+
+### 86. A page advising parents of bullied children: what it promises, what it cites, and what it never tells a child to do — CONTENT (accuracy), SAFEGUARDING — **High, the client must review before publication**
+
+`/anti-bullying-martial-arts-for-kids/` (26 February 2026, 3,577 words) is the
+first page on this site written for a parent whose child is being bullied. That
+makes it different from the rest of the audit: a parent reading it is worried, is
+looking for reassurance, and will act on what it says. Everything below is
+**quoted exactly as published** and **reproduced verbatim on the rebuilt page**
+except the two sentences logged at issue 0.
+
+#### a) Claims that training will stop bullying or that a child can protect themselves
+
+**No sentence guarantees bullying will stop.** The strongest claims are
+probabilistic, and there are seven of them:
+
+| Where | Exact wording |
+|---|---|
+| Body | "This training makes them **less likely to be targeted** because bullies pick on kids who seem unaware or easy to push" |
+| Body | "This makes them **less likely to be targeted** by bullies" |
+| Body | "This smart approach makes sure every kid gets what they need to **prevent bullying** deal with bullies and feel ready" |
+| Body | "children develop the ability to **defend themselves against bullies without starting a fight**" |
+| Body | "They understand they **can defend themselves against bullies** without needing to hurt anyone" |
+| FAQ 1 | "This approach **helps prevent bullying** while giving practical tools if needed" |
+| FAQ 8 | "Many parents and experts say jiu jitsu kids stand their ground more often, walk away stronger and **rarely face repeated bullying**" |
+
+**"Rarely face repeated bullying" is the one to look at.** It is the closest the
+page comes to an outcome guarantee, it is attributed to "parents and experts" who
+are not named, and it is in an FAQ answer rather than the body, where a parent
+scanning for an answer is most likely to find it.
+
+#### b) Advice toward physical response rather than de-escalation
+
+**The page is strongly and consistently non-violent, and this is its best
+feature.** De-escalation is the first thing taught and the last thing recommended:
+
+- "The main point is **conflict avoidance**. Children learn to **choose peaceful
+  paths first**."
+- "Martial arts for self defense stresses that **the best defense is never needing
+  to fight**."
+- "They understand that **walking away asking for help or changing the subject**
+  often stops problems fast."
+- "All levels use brazilian jiu jitsu moves that fit small bodies **no punches and
+  kicks needed**."
+- "kids learn real self defense skills **without needing punches and kicks**"
+- "**avoid fights when possible**" (FAQ 8)
+
+**One sentence describes a physical response, and it is a restraint, not a
+strike:** "They learn how to use leverage to escape pressure or **pin an attacker
+until help arrives**." That is the only passage telling a child to hold another
+child down. It is framed as holding until an adult comes, which is the safer
+framing, but it is worth the client's eye because a child pinning another child in
+a playground is a scene a school will read differently from a gym.
+
+**Nothing on the page tells a child to hit back, strike first, or retaliate.**
+
+#### c) Statistics and sources
+
+**No statistic appears anywhere on the page.** No percentage, no figure, no
+prevalence rate. **But two research-shaped claims are made with no source:**
+
+| Where | Exact wording | Source cited? |
+|---|---|---|
+| FAQ 2 | "**Studies and parent reports show** trained kids face less bullying because they project quiet strength" | **no** |
+| FAQ 8 | "**Many parents and experts say** jiu jitsu kids … rarely face repeated bullying" | **no** |
+
+This is the pattern already logged at issue 62 (unnamed "experts" and unspecified
+"studies"), now on a page about children. "Studies show" with no study named is
+the single easiest claim for a competitor, a parent or a journalist to challenge.
+
+#### d) Psychological and developmental claims
+
+**The body's claims are ordinary confidence copy** — "Over time **low self esteem
+fades** and a strong sense of worth takes its place", "Anti Bullying Martial Arts
+for Kids **directly fights that fear**", "This knowledge **cuts worry**", an H3
+called "**Reduced Fear and Anxiety in School Settings**", and "Parents notice
+their child … **worries less about bullies**".
+
+**The FAQ goes considerably further, into clinical territory, on a page selling
+classes to parents:**
+
+| FAQ | Exact wording |
+|---|---|
+| 3 | "Martial arts can be **very good for kids with behavioral problems** … Kids practice emotional self control … which **helps manage impulses**" |
+| 3 | "**Many instructors see improvements in behavior** at home and school" |
+| 5 | "Both karate and taekwondo **help kids with ADHD** but taekwondo often stands out slightly more" |
+| 5 | "The structured routines belt system and emphasis on self control **help with impulsivity and attention**" |
+| 5 | "Both **improve concentration, reduce hyperactivity** and teach patience" |
+| 10 | "taekwondo karate and brazilian jiu jitsu **help many kids with ADHD**" |
+| 10 | "structured sequences that **improve focus and reduce hyperactivity**" |
+
+**Three of the ten FAQ answers make claims about a diagnosed neurodevelopmental
+condition**, and two of them recommend a specific discipline for it. ADHD is a
+clinical diagnosis; "reduce hyperactivity" is a treatment claim. No source, no
+clinician and no caveat appears anywhere, and the page carries no disclaimer. This
+belongs with the liability group at issue 31 as well as here.
+
+#### e) Injury and safety claims
+
+Two sentences were **omitted** and are recorded at issue 0: "without any risk of
+getting hurt" and "without danger". The rest is qualified and was kept: "kids
+don't face **unnecessary risks**", "Equipment checks happen regularly so nothing
+breaks or wears out in a way that **could cause injury**" (an acknowledgement of
+risk, correctly phrased), "Drills stay slow at first then build **only as fast as
+the child is ready**", "everyone **taps early** to stop anything uncomfortable",
+and "**No child ever trains alone** or without adult eyes on them".
+
+#### f) Ages, and how they contradict the gym's own programme
+
+**The page publishes three age bands. None of them matches the programme pages.**
+
+| Source | Bands |
+|---|---|
+| `/anti-bullying-martial-arts-for-kids/` | **Young Kids (Ages 4–6)**, **Junior (Ages 7–10)**, **Pre Teen and Teen (Ages 11–15)** |
+| `/` (homepage) | Kids **Ages 4 to 12**; **Little Champions Ages 4 to 7** |
+| `/kids-bjj-classes/`, `/teen-bjj-classes/` | **no ages stated at all** |
+| `/martial-arts-for-kids-strenght/` | "**ages 7 and up**" (issue 69) |
+| `/martial-arts-classes/` | "starts at **ages 5 7**" |
+
+Three specific conflicts:
+
+1. **Little Champions is 4–7 on the homepage and 4–6 here.** The page even uses the
+   programme name — "**Little champions** in kids martial arts learn through games
+   songs and simple play" — under a heading that says Ages 4–6. A seven-year-old is
+   a Little Champion on the homepage and a Junior on this page.
+2. **Rising Champions gets the same treatment.** "**Rising champions** dive deeper
+   into bjj moves" sits under Ages 7–10, and no other page states an age for it.
+3. **The kids programme ends at 12 on the homepage and at 15 here**, with no teen
+   programme named, although `/teen-bjj-classes/` exists.
+
+**This is now the sixth different set of ages published for the same classes.**
+Nothing has been corrected; the bands are reproduced exactly as published.
+
+#### g) Parents, teachers and the school
+
+**This is the gap, and it is the most important finding in this entry.** A page
+about a bullied child, 3,577 words long, **never tells the child to tell a teacher,
+tell a parent, or report it to the school.**
+
+The nearest it comes is three generic phrases: "walking away **asking for help** or
+changing the subject", "choose when to walk away or **get help**", and "pin an
+attacker **until help arrives**". None names an adult. None names a teacher, a
+parent, a counsellor or the school.
+
+Teachers appear five times on the page and **every one of them is a martial arts
+instructor or a generic reference to classroom listening** — "listening to
+teachers" (about homework focus), "**Teachers** guide each move", "the **teachers**
+explain patiently", and two mentions inside FAQ answers about choosing a gym.
+
+Parents appear throughout, but **only as customers**: they "notice their child
+feels less helpless", "watch their child grow", "appreciate knowing their child
+learns from adults who care", and "fill out a quick form online". The page never
+suggests a parent should contact the school.
+
+**Every recognised anti-bullying framework puts telling an adult first.** A
+commercial page that teaches a child what to do about bullying and omits that step
+is a safeguarding gap, regardless of how non-violent the rest of the advice is. It
+is also a reputational exposure: the omission is the first thing a critical reader
+would notice.
+
+**Recommended addition, for the client to write:** one paragraph in the
+"Situational Awareness and Conflict Avoidance" section saying that telling a
+teacher, a parent or another trusted adult is the first step, and that the gym's
+training supports that rather than replacing it. **Nothing has been added to the
+rebuilt page** — writing safeguarding copy on a client's behalf is the client's
+call.
+
+#### No charity, helpline or government resource is linked
+
+The page cites **no anti-bullying charity, helpline or government resource**. Its
+only outbound link is Facebook. For a page on this subject that is a missed
+opportunity rather than a defect, but a single link to a recognised national
+resource would cost nothing and would do more for the page's credibility than any
+of its keyword repetition.
+
+#### The free-trial link points at a thank-you page
+
+The "**free trial class**" anchor — the single most important link on a conversion
+page for worried parents — points at `https://sixthsensemma.com/thank-you/`, the
+post-submission confirmation page. A parent who clicks it is told thank you for
+something they have not done, and is given no form. **In the rebuild it points at
+`kids-bjj-classes.html`**, the programme page that actually books a kids free
+trial; the substitution is recorded here rather than made silently.
+
+#### Images: two of the three show identifiable young faces, and two show the wrong art
+
+| File | What it shows |
+|---|---|
+| `anti-bullying-01.jpg` (featured) | **An identifiable child**, roughly 9–12, face fully visible, in a BJJ gi, grappling on blue competition mats |
+| `anti-bullying-02.jpg` | **An identifiable adolescent**, face fully visible, in a **karate** gi throwing a punch, with an adult black belt behind |
+| `anti-bullying-03.jpg` | A large **adult karate class**, roughly fifteen adults in a traditional dojo — **no children at all** |
+
+**Two points for the client.**
+
+1. **Photo consent.** Two of the three images show the faces of minors. Images of
+   children carry their own permissions requirement, separate from any stock
+   licence. **The client should confirm that signed photo consent is on file for
+   each identifiable child**, or replace the images. This applies whether or not
+   the pictures were taken at this gym — and image 1, on blue competition mats with
+   a club patch, may well have been.
+2. **Two of the three are the wrong discipline.** The page sells Brazilian jiu
+   jitsu and says twice that "no punches and kicks" are needed. Image 2 is a karate
+   punch. Image 3 is a room of adults in karate stances, illustrating a section
+   titled "Beginner to Advanced **Levels**" on a page about children. Neither
+   appears to be the Coppell facility.
 
 ## How these were checked
 

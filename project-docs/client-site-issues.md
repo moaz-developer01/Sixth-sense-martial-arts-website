@@ -23,7 +23,61 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. TWELVE posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. THIRTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The thirteenth page, three sentences, and a heading that makes the same claim
+
+`/neck-bridges-benefits/` (22 January 2026) publishes **three** sentences that have
+been **omitted from the rebuild**, each leaving an HTML comment:
+
+> Neck bridges **aren’t risky** when done right; **they prevent injuries** by
+> conditioning the area to handle pressure.
+
+> Progression at Sixth Sense MMA moves deliberately **from zero risk** to high
+> challenge.
+
+> Fighters appreciate the immediate corrections that keep sessions productive and
+> **injury free**.
+
+**The first is the most serious sentence in this entire issue.** It is on a page
+about loading the cervical spine with full body weight, and it says the exercise
+is not risky and that it prevents injuries. Two paragraphs of the same page
+describe "axial compression and shear forces directly through the head and neck",
+disc "degeneration bulging or even herniation", and "nerve roots causing radiating
+pain numbness tingling down the arms or weakness in the hands". The page contains
+its own refutation, in more clinical detail than any other page on the site.
+
+**A fourth instance is a heading, and it has been reproduced.** The H3
+**"Injury Free Training System"** makes the same claim as the omitted sentences,
+in two words, above the fold of its section. It has been **kept verbatim** for two
+reasons: the omission rule is written for sentences, and removing a heading would
+break the document outline, the table of contents and the heading-by-heading
+comparison that proves the rebuild is faithful. **It is logged here instead, and it
+needs changing at source** — "Safe Training System" or "Injury Prevention System"
+would carry the same meaning without the absolute claim. Every sentence underneath
+that heading is properly qualified, which makes the heading the only problem in the
+section.
+
+**The rest of the page is the most risk-honest writing the client has published.**
+These were all kept verbatim:
+
+| Where | What it says |
+|---|---|
+| H2 | "**Risks of Neck Bridges Without Professional Guidance**" |
+| H3 | "**Common Injuries from Wrong Technique**" |
+| H3 | "**Cervical Disc & Nerve Damage**" |
+| H3 | "**Why Supervised Training Is Important**" |
+| Body | "People with past neck injuries neck problems or limited mobility need extra caution and **often medical approval first**" |
+| Body | rehab plans "for whiplash cervical disc issues or post surgical recovery **when cleared by a doctor**" |
+| FAQ 1 | "However, **improper form or overtraining can lead to injury**, so beginners should practice carefully" |
+| FAQ 2 | "it may also **cause strain or injury if overdone**" |
+| FAQ 10 | "More intense exercises like neck bridges should include rest days **to avoid strain or injury**" |
+
+So this page both over-promises and under-promises, in different sections. The fix
+is small: delete three sentences, rename one heading, and the page becomes the
+model the other two neck posts should follow.
+
+**Running total: 54 sentences across thirteen posts.**
 
 #### The twelfth page, and this one is contradicted by its own FAQ
 
@@ -534,7 +588,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **TWELVE** posts promising an absence of injury risk or guaranteeing safety, 51 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **THIRTEEN** posts promising an absence of injury risk or guaranteeing safety, 54 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -1601,6 +1655,66 @@ Classes".
 `https://www.youtube.com/watch?v=oGmkxo72IzA`, and check that the player appears.
 Or remove the block. The video is a third-party channel ("Plainly Put"), so
 confirm it's meant to be there.
+
+#### Consolidated finding: THREE pages of cervical-spine loading instruction, no disclaimer on any of them — **High, liability**
+
+With `/neck-bridges-benefits/` (22 January 2026) the site now has **three separate
+articles instructing readers how to load their cervical spine with their own body
+weight**. I checked all three for a disclaimer. **None of them carries one.**
+
+| Page | Words | Medical disclaimer? | "Consult a physician"? | Supervision advised? | Risk section? |
+|---|---|---|---|---|---|
+| `/neck-bridges/` | — | **no** | **no** | no | no |
+| `/do-neck-bridges-build-muscle/` | — | **no** | **no** | no | no |
+| `/neck-bridges-benefits/` | 3,615 | **no** | **no** — but see below | **yes** | **yes, a whole H2** |
+
+**The newest page is much better than the other two and still has no disclaimer.**
+It devotes an H2 to "Risks of Neck Bridges Without Professional Guidance", names
+the specific structures at risk ("C5 C6 and C6 C7"), the specific failure modes
+(disc herniation, nerve-root compression, facet-joint irritation, ligament
+sprains), and says twice that medical sign-off may be needed — "often **medical
+approval first**" and "**when cleared by a doctor**". What it never does is tell
+the reader, in its own voice, to see a doctor before trying this, and it carries no
+disclaimer block of any kind.
+
+**Why this matters more than it would on another site.** This gym markets classes
+to children from age 4 and runs a teen programme. The three neck-bridge pages are
+indexable, they rank for "neck bridge" queries, and one of them publishes hold
+times ("5–10 seconds", "20–30 seconds or more", "10 20 seconds per direction") that
+a thirteen-year-old can follow on a bedroom floor with no supervision at all.
+
+**The liability group is now six pages:**
+
+| Page | Content |
+|---|---|
+| `/neck-bridges/` | cervical-spine loading, no disclaimer, an "H2:" marker still in a visible heading |
+| `/do-neck-bridges-build-muscle/` | cervical-spine loading, no disclaimer |
+| `/neck-bridges-benefits/` | cervical-spine loading, no disclaimer, but a real risk section |
+| `/kidney-punch/` | organ-strike mechanics, no disclaimer |
+| `/sambo-techniques-for-beginners/` | throws and heel hooks taught to beginners |
+| `/martial-arts-weapons-training/` + `/martial-arts-weapons-training-in-coppell/` | weapons instruction including katana, no minimum age |
+
+**Recommendation: one disclaimer component, added to all of them.** This project
+is static HTML with a shared `styles.css`, so the cheapest correct fix is a single
+block of markup, styled once, pasted into each of the six pages above — the same
+pattern the shared footer already uses. Suggested content, for the client and their
+insurer to approve rather than for me to write into the pages unasked:
+
+- that the article is general information, not medical advice;
+- that a reader should consult a physician before attempting cervical-spine
+  loading, weapons training or the techniques described, particularly with any
+  history of neck, back or joint injury;
+- that the techniques should be learned under qualified supervision;
+- that the exercises are not suitable for children without direct instruction.
+
+`/neck-bridges-benefits/` already contains the raw material for all four points in
+its own words. The client could lift its sentences into the component and have a
+disclaimer that matches the site's voice exactly.
+
+**Nothing was added to the rebuilt pages.** No disclaimer has been written into any
+of the six, because inventing medical copy on a client's behalf is the client's
+call, not this project's. The three omitted safety sentences on
+`/neck-bridges-benefits/` are logged at issue 0.
 
 ### 32. Testimonials that cannot be verified, and one page's that clearly can — CONTENT — Low, for the client to decide
 
@@ -3892,6 +4006,38 @@ the rebuild says "trial class".
 **"Testimonials highlight improved fitness reduced stress stronger self defense
 awareness and lasting friendships"** — the page carries no testimonial, the same
 defect logged on `/adult-beginner-martial-arts/` at issue 32.
+
+**2026-01 addition — `/neck-bridges-benefits/`: a martial arts gym advertising
+physiotherapy.** This is a new category of service claim, and the strongest one
+found so far, because it is a regulated health service rather than a class.
+
+| Claim | Words used | Confirmed by any programme page? |
+|---|---|---|
+| Physiotherapists on the team | H3 **"Certified Trainers & Physiotherapists"** | **no** |
+| | "professionals **trained in physiotherapy principles** for rehab and conditioning" | no |
+| A physiotherapy rehab service | H3 **"Physiotherapy Based Neck Rehab"** | **no** |
+| | "our **physiotherapy informed approach** uses gentle progressions rooted in rehab principles" | no |
+| Neck pain treatment | H3 "Neck Pain Recovery Programs"; "Coaches collaborate on safe loading posture correction and **tissue recovery techniques** to address neck issues" | no |
+| Pre-training physical assessment | H3 "Step by Step Assessment Process"; "we test active and passive **range of motion** in all directions … watching for pain clicking or asymmetry" | no |
+| One-on-one coaching | H3 "One on One Coaching for Safe Training" | no (issue 73, now a further page) |
+| Athlete programming | H3 "Athlete Specific Neck Conditioning Plans" | no |
+
+**Note the hedging, which looks deliberate.** The headings say
+"Physiotherapists" and "Physiotherapy Based"; the body text says "trained in
+physiotherapy **principles**" and "physiotherapy **informed**". A reader skimming
+headings concludes the gym employs physiotherapists. A reader of the body text
+concludes it does not. **The client should confirm which is true**, because
+"physiotherapist" is a protected title in Texas and the page also describes
+range-of-motion testing, pain screening and post-surgical rehab.
+
+**Also claimed:** "certified martial arts coaches with competition backgrounds in
+BJJ Muay Thai and MMA" — the "certified" pattern from issue 39, again with no
+certifying body named, though here the disciplines at least match two real
+programmes plus MMA, which is not taught.
+
+**"Teams that incorporate neck bridge variations report fewer neck related
+absences"** — an unattributed research-style claim, the pattern logged at issue 62.
+No study, team or source is named. Reproduced verbatim.
 
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
@@ -6775,6 +6921,37 @@ A competitor is, however, named and praised in an FAQ answer on this page (issue
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-01 addition — `/neck-bridges-benefits/`: twenty tags, two of them copied
+from elsewhere.** The post carries 20 tags: `Neck bridges benefits`, `benefits of
+neck bridges`, `neck bridge core workout`, `neck bridge daily routine`, `neck
+bridge exercise benefits`, `neck bridge exercises for beginners`, `neck bridge
+fitness benefits`, `neck bridge flexibility`, `neck bridge for athletes`, `neck
+bridge for boxers`, `neck bridge for fighters`, `neck bridge for posture`, `neck
+bridge for strength`, `neck bridge health benefits`, `neck bridge muscle growth`,
+`neck bridge stability benefits`, `neck bridge training`, `neck bridge workout`,
+`neck strengthening exercises`, `upper neck muscle benefits`.
+
+Flags:
+
+- **`neck bridge muscle growth` is `/do-neck-bridges-build-muscle/`'s subject**, not
+  this page's. The tag archive it generates competes with the sibling post
+  directly, and the two pages are already cannibalising each other (issue 7).
+- **`neck bridge daily routine` describes content the page does not contain.** The
+  page gives no routine and no weekly schedule; its only frequency guidance is in
+  an FAQ that says the opposite — "should include rest days".
+- **`neck bridge for boxers` is supported** by the "Boxing & Martial Arts Safety"
+  section, but boxing is not taught at this gym (issue 39), so the tag advertises
+  an audience the gym cannot serve with a class.
+- **Fourteen of the twenty are the phrase "neck bridge" plus one other word**, which
+  is the same thin-archive problem recorded on the last three posts.
+
+**No untaught discipline is named** beyond boxing, **no competitor appears**, and
+**no tag carries the city** — unusual, since every tag on
+`/brazilian-jiu-jitsu-coppell-tx/` did.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7148,7 +7325,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
-| **Neck bridges (confirmed, two posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` — see below |
+| **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
@@ -7195,6 +7372,41 @@ recommendation on every other cluster in this issue.
 the new page's "Benefits of Adult Beginner Martial Arts Training" H2, and point
 both programme pages at it as the beginner explainer. Fix the boxing, MMA and
 kickboxing claims first (issue 39).
+
+#### The neck-bridge trio: three posts on one exercise — **CRITICAL**
+
+`/neck-bridges-benefits/` (22 January 2026, 3,615 words) makes a third article
+about a single bodyweight movement:
+
+| Page | Published | Words | Angle |
+|---|---|---|---|
+| `/neck-bridges/` | 2025-07-12 | — | how to start them safely |
+| `/do-neck-bridges-build-muscle/` | 2025-11-16 | — | do they build muscle |
+| `/neck-bridges-benefits/` | **2026-01-22** | **3,615** | what the benefits are |
+
+**Heading overlap is low, which is not the same as the pages being different:**
+
+| Sibling | Exact H2 matches | Exact H3 matches | All h2+h3 | Heading-word overlap |
+|---|---|---|---|---|
+| `/neck-bridges/` | **0 of 12** | **0 of 29** | 3 of 41 (7.3%) | 44.7% |
+| `/do-neck-bridges-build-muscle/` | 4 of 12 (33.3%, all boilerplate) | **0 of 29** | 4 of 41 (9.8%) | 47.2% |
+
+The four H2 matches against `/do-neck-bridges-build-muscle/` are "Contact US",
+"Conclusion", "Follow Us on Social Media" and "FAQ's" — the template, not the
+subject. No real section heading is repeated anywhere. But all three pages answer
+the same user intent ("should I do neck bridges and how"), all three target "neck
+bridge" as the primary keyword, and the newest one links **both** of the others —
+"Do neck bridges build **muscle**?" points at `/do-neck-bridges-build-muscle/` and
+"neck bridge **exercises deliver**" points at `/neck-bridges/`. The page cites its
+two competitors as sources, the same tell recorded on the BJJ cluster at issue 57.
+
+**Recommendation: consolidate to one page with 301 redirects.** Keep
+`/neck-bridges-benefits/` as the survivor — it is the longest, the only one with a
+risk section, the only one that mentions medical approval, and the only one with a
+progression from wall isometrics to full bridges. 301 `/neck-bridges/` and
+`/do-neck-bridges-build-muscle/` into it, merge the muscle-growth answer (which is
+already an FAQ on the survivor) and the "H2:" heading fix dies with the redirect.
+Then add the disclaimer component from issue 31 before any of it goes live.
 
 #### The comparison-post group
 

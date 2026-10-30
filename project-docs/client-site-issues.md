@@ -23,7 +23,34 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. FIFTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. SIXTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The sixteenth page, and the promise is about adults and children on the mat together
+
+`/family-martial-arts-classes/` (26 February 2026) publishes **one** sentence that
+has been **omitted from the rebuild**, leaving an HTML comment:
+
+> Instructors watch closely enforce proper form and **make sure no one gets hurt**
+> or feels left out.
+
+**The context is what makes this one different.** The sentence sits in "Safe
+Supportive and Fun Environment for Families", immediately after "rules that keep
+everyone protected during punch kicks and punches grappling and partner work" —
+and the partner work this page describes is **a parent and a child paired
+together** (see issue 88). "Make sure no one gets hurt" is therefore a promise
+about mixed-age contact training, which is the one context where it is least
+defensible.
+
+It is also the same wording already omitted from
+`/brazilian-jiu-jitsu-coppell-tx/` ("so no one gets hurt from ego or rushing"), so
+the phrase is now a template habit rather than a one-off.
+
+**Everything else on the page is qualified and was kept verbatim**, including
+"rules that **keep everyone protected**" and, in the FAQ, "Good instructors modify
+classes, use chairs for support and emphasize safety **to prevent injury**" — a
+purpose clause, correctly phrased.
+
+**Running total: 59 sentences across sixteen posts.**
 
 #### The fifteenth page, and the word is now "harmless"
 
@@ -648,7 +675,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **FIFTEEN** posts promising an absence of injury risk or guaranteeing safety, 58 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **SIXTEEN** posts promising an absence of injury risk or guaranteeing safety, 59 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -1559,6 +1586,19 @@ list reads as if a reason is missing even though the title promises five.
 
 **What to do:** make all five reasons one numbered list, or add the number 2 to
 the second reason.
+
+**2026-02 addition — the rebuild has now inherited one.** The adult karate class
+photograph published on `/anti-bullying-martial-arts-for-kids/` as
+"Beginner to Advanced Levels" is published again on
+`/family-martial-arts-classes/` as "Beginner Intermediate and Advanced Levels" —
+the same photograph, a different caption bar, a different WordPress attachment ID
+and a different file. Both pages were published on 26 February 2026, four minutes
+apart.
+
+Reproduced on both rebuilt pages under their own prefixes
+(`anti-bullying-03.jpg` and `family-classes-03.jpg`), because the two files differ
+in bytes and each page must keep what it published. The duplication is the
+client's to resolve.
 
 ### 27. Gi sizing chart has overlapping height ranges — CONTENT — Medium
 
@@ -4172,6 +4212,32 @@ hand strikes front kicks". Both are live, both are about the same children.
 
 All untaught disciplines are **reproduced verbatim and left unlinked**. Only the
 BJJ and teen Muay Thai mentions are linked, to their real programme pages.
+
+**2026-02 addition — `/family-martial-arts-classes/`: "karate classes taekwondo
+classes" stated four times as things this school runs.** The repeated list is
+shorter than the one on `/kids-self-defense-classes-near-me/` but more definite,
+because it names them as *classes* rather than as styles:
+
+> Kids martial arts martial arts classes for kids **karate classes taekwondo
+> classes** and adult martial arts all happen in a supportive environment
+
+| Claim | Programme page? |
+|---|---|
+| "**karate classes**" × 4 | **no** |
+| "**taekwondo classes**" × 4 | **no** |
+| "sessions with karate taekwondo jiu jitsu brazilian jiu jitsu **gracie** and more" × 4 | no — "gracie" is a lineage, used as a style name |
+| "They hold **proper training in karate taekwondo** jiu jitsu brazilian jiu jitsu and family teaching methods" | **no** |
+| "**family class**" as a running offering × 8 | **no** — see issue 88 |
+| "**Private Family Training Sessions**" | no (issue 73) |
+
+**Two of the ten tags sell them too:** `family karate classes` and `family
+taekwondo training` (issue 30).
+
+**And all three images are taekwondo or karate** (issue 88), so on this page the
+copy, the tags and the photography agree with each other and disagree with the
+business. Nothing was altered; karate, taekwondo and "gracie" are **reproduced
+verbatim and left unlinked**, and no family-class reference was linked because no
+such programme page exists.
 
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
@@ -7185,6 +7251,26 @@ Two flags:
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/family-martial-arts-classes/`: ten tags, two selling
+untaught disciplines.** The post carries 10 tags: `Family Martial Arts Classes`,
+`all ages martial arts program`, `beginner martial arts for families`, `bonding
+through martial arts`, `family fitness martial arts`, **`family karate classes`**,
+`family self defense training`, **`family taekwondo training`**, `group martial
+arts lessons`, `martial arts for parents and kids`.
+
+- **`family karate classes` and `family taekwondo training` target two disciplines
+  the gym does not teach**, in a format that claims a specific class exists. These
+  are the first tags in the audit to combine an untaught discipline with the
+  untaught family format — a tag archive for a class that is doubly hypothetical.
+- **`all ages martial arts program` and `group martial arts lessons`** both name
+  the same unconfirmed offering as the body (issue 88).
+- No competitor is named in a tag, though the featured image carries a competing
+  franchise's branding (issue 88).
+- No tag carries the city.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7565,11 +7651,60 @@ Google then has to pick one and ranks all of them weaker.
 | **Martial arts for kids (confirmed, FOUR posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
+| **Families and all ages (confirmed, FOUR posts plus five programme pages)** | `/family-martial-arts-classes/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-beginner-martial-arts/` — see below |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
 | **Muay Thai apparel (confirmed, THREE pages on what to wear)** | `/muay-thai-clothing/` · `/what-to-wear-to-muay-thai-class/` · `/muay-thai-gear/` — see below |
 | **Sambo (confirmed, FOUR pages for a discipline with no programme — two pairs, each duplicating the other's subject)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` · `/sambo-moves/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **"Versus" comparisons (confirmed, FOUR posts, one pair the same comparison twice)** | `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` · `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` — see below |
+
+#### The family and all-ages cluster: four posts, five programme pages, one class that may not exist
+
+`/family-martial-arts-classes/` (26 February 2026, 3,275 words) was published
+**one minute after** `/kids-self-defense-classes-near-me/`. Three of the site's
+five newest posts went live inside four minutes, all aimed at parents.
+
+| Page | Published | H2s | Audience |
+|---|---|---|---|
+| `/martial-arts-classes/` | 2025-03-29 | 11 | everyone |
+| `/martial-arts-classes-2/` | — | — | WordPress `-2` duplicate (issue 24) |
+| `/adult-beginner-martial-arts/` | 2026-01-22 | 12 | adults with no experience |
+| `/family-martial-arts-classes/` | **2026-02-26 18:47** | **9** | **whole families together** |
+| the five programme pages | — | — | adult/teen/kids BJJ, adult/teen Muay Thai |
+
+**Heading overlap:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/martial-arts-classes/` | **0 of 9** | **0 of 30** | 46.2% |
+| `/adult-beginner-martial-arts/` | 4 of 9 (44.4%, all boilerplate) | 4 of 30 (13.3%) | 53.8% |
+
+The four matches against the adult-beginner page are Contact US, Conclusion,
+Follow Us on Social Media and FAQ's — the template. No real section heading is
+shared with either sibling, and the zero against `/martial-arts-classes/` across
+all 30 headings is the second clean zero in this audit.
+
+**The family angle is genuinely the most distinct in the group** — "martial arts
+classes my kid and I can do together" is a different query from "martial arts
+classes" or "adult beginner martial arts", and it is a real commercial segment.
+**It is worth keeping separate IF the programme is real.** That is the whole
+question, and it is the client's to answer (issue 88): the gym's five programme
+pages contain no family or mixed-age class, and this page describes one in the
+present tense eight times.
+
+**Two outcomes, and the client picks:**
+
+1. **The family class exists.** Then build it a programme page, put the real days
+   and times on it, state the pairing and supervision rules, link this post to it,
+   and strip the karate and taekwondo claims (issue 39). This becomes a strong
+   page.
+2. **It does not exist.** Then this post advertises a class the gym cannot sell,
+   and it should be rewritten around "train at the same time as your kids" — which
+   the existing adult and kids schedules may already support — or 301'd into
+   `/martial-arts-classes/`.
+
+Either way, **do not publish it as written**: it is the only page in this cluster
+whose core subject may not be a thing the business does.
 
 #### The adult cluster: four posts and two programme pages for one audience
 
@@ -14067,6 +14202,200 @@ more damaging, because:
 that happens to be wrong. **Recommended fix: delete FAQ answers 5, 7, 8, 9 and 10
 entirely.** None of them helps a parent choose a martial arts school and the last
 actively harms the page.
+
+### 88. The third child-safety page: a family class that no programme page offers, parents and children paired on the mat, and four FAQ answers about God — CONTENT (accuracy), SAFEGUARDING — **High, the client must confirm before publication**
+
+`/family-martial-arts-classes/` (26 February 2026, 3,275 words) was published
+**one minute after** `/kids-self-defense-classes-near-me/` and four minutes after
+`/anti-bullying-martial-arts-for-kids/`. It is the **third page in this group**.
+Everything below is **quoted exactly as published** and **reproduced verbatim on
+the rebuilt page** except the one sentence logged at issue 0.
+
+#### The family class itself: stated as running, in the present tense, throughout
+
+**a) Does the page say family classes currently run, with adults and children
+training together?** Yes, unambiguously and repeatedly. "Family class" appears
+**8 times**, "train together" **10 times**:
+
+| Exact wording |
+|---|
+| "welcome kids and adults parents and kids teens and adults and kids and families to **train together in classes for adults and kids**" |
+| "**Train together in family class** builds close bonds and teamwork" |
+| "Kids martial arts martial arts classes for kids karate classes taekwondo classes and adult martial arts **all happen side by side** so everyone shares the same positive space" |
+| "Families with mixed levels can **join together in family class or split into separate classes**" |
+| "**Separate classes or combined family class options** let everyone progress at the right level" |
+| "Kids little ones and 7 year old children **join children class while families train together** or take separate classes as needed" |
+| "help families with mixed levels **join family class** or split as needed" |
+
+**The gym has five programme pages: Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ
+and Teen Muay Thai. None of them is a family or mixed-age class.** This is not an
+SEO framing of an existing programme: a session where a parent and a seven-year-old
+drill together is operationally a different class from an adult class and a kids
+class running at different times. It needs its own slot, its own ratio and its own
+supervision model.
+
+It also now has history. `/martial-arts-gyms-near-me/` advertised "Special Family
+and Group Sessions" and `/jiu-jitsu-near-me/` advertised family discounts, neither
+confirmed anywhere. **This is the third page to sell a family offering and the
+first to build a whole article on it.** The client must confirm whether the class
+exists before this goes live.
+
+**b) Times, days or a schedule?** No. The page has an H2 "Class Schedule and
+Program Options" and an H3 "Flexible Timings for Weekdays and Weekends", and the
+most specific thing in either is: "**Weekday morning early classes** help busy
+parents start the day active **evening sessions** suit after school or after work
+hours and **weekend mornings or afternoons** give extra time for longer family
+practice." No day, no clock time, no frequency. Compare
+`/anti-bullying-martial-arts-for-kids/`, which does publish "the **three to six pm
+range**".
+
+**c) Family rate, discount or membership?** **No, and this is the one commercial
+restraint on the page.** The words "discount", "family rate", "price", "pricing"
+and "cost" (other than "no cost") appear **nowhere**. The only commercial
+sentences are "**ask about membership options**" and the free trial. **No figure
+appears anywhere on the page.** So this page does **not** join the ten logged at
+issue 48: it has no pricing section and makes no pricing promise, which is the
+honest way to handle a price you will not publish.
+
+**The free trial is stated clearly and matches the programme pages:** an H3 "Free
+Trial Class for Families", "Try Family Martial Arts Classes **with no cost through
+our free trial class for families**", "Come **as a group** parents and kids
+together", "**No pressure to sign up** right away". The group framing is new — the
+programme pages offer an individual free class — so even the trial needs
+confirming.
+
+**Private family training is advertised again** — an H3 "**Private Family Training
+Sessions**", "**one on one time with sensei**", "**You set the time day and
+focus**". No price, no booking route, no programme page. See issue 73; this is the
+fourth recent page.
+
+**d) Age range for children?** **None is stated.** There is no minimum age, no
+maximum and no band. The only age markers are "**7 year old children**" (6 times)
+and "**little ones**" (9 times). It therefore does not contradict
+`/kids-bjj-classes/` — it says nothing to contradict it with. But set against its
+two same-day siblings, which both publish **4–6 / 7–10 / 11–15**, the silence is
+its own problem: three pages published within four minutes of each other give a
+parent three different answers about who may attend, one of which is no answer.
+
+The FAQ pulls in the opposite direction entirely: **two of the ten answers are
+about starting martial arts at 70** ("People begin in their **70s and 80s**",
+"Good instructors modify classes, **use chairs for support**"). On a page about
+families with seven-year-olds, the age guidance given is for pensioners.
+
+**e) Disciplines named for family classes, and which lack a programme page:**
+
+| Discipline | Named how | Programme page? |
+|---|---|---|
+| Jiu jitsu / Brazilian jiu jitsu | in the repeated list, 7 times | **yes** (adult, teen, kids BJJ) |
+| **Karate** | "**karate classes**", "fun karate style strikes", in the list 7 times | **no** |
+| **Taekwondo** | "**taekwondo classes**", "taekwondo high kicks", in the list 7 times | **no** |
+| **Gracie** | "karate taekwondo jiu jitsu brazilian jiu jitsu **gracie** and more", 4 times | **no** — a lineage/brand name used as a style |
+| Muay Thai | **never mentioned** | n/a |
+
+"**Karate classes taekwondo classes**" is stated as a thing the school runs, four
+separate times, in the present tense. The instructor claim goes further: "They hold
+**proper training in karate taekwondo jiu jitsu brazilian jiu jitsu** and family
+teaching methods". Added to the service-claims entry at issue 39.
+
+**The page also calls its instructors "sensei"** (6 times) and refers to the gym as
+a "**dojo**" (4 times) — Japanese karate terminology for a Brazilian jiu jitsu and
+Muay Thai academy. Minor, but it is the same tell as the discipline list: the copy
+was not written about this gym.
+
+#### Mixed-age training: described explicitly, supervised in general terms, with no pairing rule
+
+**Adults and children are described training and drilling together, five times:**
+
+| Exact wording |
+|---|
+| "**Parents and kids pair up for drills** cheer each other and **practice moves side by side**" |
+| "Parents and kids **pair up for drills hold pads for each other**" |
+| "**lets moms dads and children pair up hold pads** cheer each other and laugh through drills" |
+| "Families mix levels too with **parents sometimes helping kids or learning alongside them**" |
+| "Sensei create moments where **families practice side by side**" |
+
+**Is supervision mentioned? Yes, but only in general terms.** "Instructors watch
+closely enforce proper form" (the rest of that sentence is the omitted claim at
+issue 0) and "rules that keep everyone protected during punch kicks and punches
+grappling and partner work".
+
+**Is there any age or size pairing rule? No.** The nearest the page comes is
+"Instructors **group by skill and age groups**" and "Instructors **place everyone
+correctly**" — both about which *class* a student joins, not who they are paired
+with inside it. Contrast `/kids-self-defense-classes-near-me/`, published a minute
+earlier, which does state one: "They **pair kids by size age and skill**".
+
+**So the page describes an adult and a child drilling striking and grappling
+together, with no stated rule governing the pairing.** That is the safeguarding
+point for the client. Parent-and-child pad work is ordinary and safe when run
+properly; what is missing is any published statement of how it is run — whether
+children only ever pair with their own parent, whether an unrelated adult may ever
+be paired with someone else's child, and what the supervision ratio is.
+**Nothing has been added to the rebuilt page**; the gap is recorded here.
+
+**This is the third page in a row with the same structural omission.** Issues 86g
+and 87f record that neither earlier page names a teacher, parent or the police as
+someone to tell. This one never states a pairing rule. All three were published
+within four minutes of each other, from the same template, and none was reviewed
+by anyone who runs children's classes.
+
+#### g) Images: about ten identifiable children, in a competing franchise's uniform, and one photo reused from another post
+
+| File | What it shows |
+|---|---|
+| `family-classes-01.jpg` (featured) | **About ten identifiable children**, faces clear, in a **taekwondo** class. The doboks carry visible **ATA** patches — the American Taekwondo Association, a competing franchise organisation |
+| `family-classes-02.jpg` | A large **taekwondo** class, roughly thirty **adults** in doboks and black belts — **no children at all**, on a page about families |
+| `family-classes-03.jpg` | **The same photograph already published as `anti-bullying-03.jpg`** — an adult karate class in a traditional dojo, re-captioned "Beginner Intermediate and Advanced Levels" |
+
+**Four points for the client.**
+
+1. **Photo consent.** The featured image shows roughly ten identifiable minors.
+   **The client should confirm signed photo consent is on file**, or replace it.
+   Same requirement as issues 86 and 87.
+2. **A competitor's branding is on the featured image.** The ATA patch is legible
+   at full size. This gym's main page for families leads with a photograph of
+   another organisation's students in that organisation's uniform.
+3. **None of the three images shows the disciplines this gym teaches.** All three
+   are taekwondo or karate. No BJJ, no Muay Thai, no Coppell facility — on a page
+   whose body also sells karate and taekwondo classes (above), so the images and
+   the copy are consistently wrong together.
+4. **One image is used twice across two posts with different captions**, which is
+   the pattern logged at issue 26. Here the same adult karate class illustrates
+   "Beginner to Advanced Levels" on one page and "Beginner Intermediate and
+   Advanced Levels" on another.
+
+#### The FAQ: four answers about God, one about Barack Obama, and ADHD again
+
+**Four of the ten FAQ answers are religious or theological**, on a commercial page
+selling classes to families:
+
+| FAQ | Question | What the answer contains |
+|---|---|---|
+| 1 | "**Does God approve of martial arts?**" | 1 Timothy 4:8, King David, denominational positions on "Eastern spiritual elements" |
+| 5 | "**Which sin will God never forgive?**" | **Mark 3:28–29, Matthew 12:31–32, blasphemy against the Holy Spirit, repentance and salvation** |
+| 6 | "**Was Jesus a martial artist?**" | the money changers, "turn the other cheek", "mainstream scholars see no support" |
+| 7 | "Does Barack Obama know martial arts?" | a named political figure's exercise habits |
+
+**FAQ 5 is the one to act on first.** "Which sin will God never forgive?" has no
+connection to martial arts, to families or to this business. The answer is a short
+piece of Christian doctrine on the unforgivable sin, published in the gym's own
+voice, on a page aimed at parents in a religiously mixed suburb. Whatever the
+client's own faith, a martial arts school telling prospective customers which sins
+God will not forgive is a reputational exposure with no upside, and it will be the
+first thing anyone screenshots.
+
+**FAQ 3 repeats the ADHD pattern** logged at issue 86d: "karate can be **very good
+for kids with ADHD**", "improve attention **impulse control and self regulation**",
+"Many parents **and studies** note" — with no study named. That is now **three**
+pages making clinical claims about ADHD with no source.
+
+**Only two of the ten answers are about anything this gym sells.** The rest cover
+theology, a US president, starting at 70 (twice), the "4 main martial arts" and
+"the hardest martial art". This is the fifth instance of the off-topic-FAQ pattern
+(issues 77, 81, 85, 87).
+
+**Recommended fix: delete FAQ answers 1, 5, 6 and 7 before anything else on this
+page.**
 
 ## How these were checked
 

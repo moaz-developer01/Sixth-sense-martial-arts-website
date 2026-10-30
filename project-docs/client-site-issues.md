@@ -23,7 +23,37 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. FOURTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. FIFTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The fifteenth page, and the word is now "harmless"
+
+`/kids-self-defense-classes-near-me/` (26 February 2026) publishes **two**
+sentences that have been **omitted from the rebuild**, each leaving an HTML
+comment:
+
+> Kids wear headgear mouthguards shin guards gloves chest protectors and padding
+> sized just for them so **any contact stays light and harmless**.
+
+> This level of attention makes sure training stays safe positive and effective so
+> kids build self confidence self discipline and real skills **without risk**.
+
+**"Harmless" is a stronger word than anything in the previous fourteen pages.**
+The others said training carried no risk; this one says the contact itself cannot
+harm a child. It is also the first time the claim is attached to **protective
+equipment** — the sentence lists six pieces of gear and then concludes that contact
+is harmless, which is precisely the reasoning head-injury research has spent
+twenty years correcting. Padding reduces harm; it does not remove it.
+
+**"Without risk" is the plainest form of the claim yet** and sits in the section
+about instructor supervision, so it reads as a promise about the staff.
+
+**Two neighbouring sentences were kept**, because both are about fear rather than
+injury and the project has consistently kept that distinction: "staying protected
+and learning to stay calm **without fear of getting hurt**" and "Instructors
+enforce strict rules light contact only proper protective gear and no rough play
+so kids train **without fear of getting hurt**".
+
+**Running total: 58 sentences across fifteen posts.**
 
 #### The fourteenth page, and the first one written for parents of bullied children
 
@@ -618,7 +648,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **FOURTEEN** posts promising an absence of injury risk or guaranteeing safety, 56 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **FIFTEEN** posts promising an absence of injury risk or guaranteeing safety, 58 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -4102,6 +4132,47 @@ lineage name used as a descriptor. Not a competitor tag of the kind logged on
 All of these are **reproduced verbatim and left unlinked**, because there is no
 programme page to send a reader to.
 
+**2026-02 addition — `/kids-self-defense-classes-near-me/`: six disciplines sold
+to children, one of which the gym teaches.** This is the worst service-claim page
+in the audit by volume, because the same list is repeated in **nine separate
+paragraphs**, verbatim:
+
+> kids martial arts kids karate kids mma brazilian jiu jitsu program jiu jitsu bjj
+> brazilian jiu jitsu karate muay thai kickboxing muay thai classes muay thai
+> kickboxing and krav maga
+
+| Discipline named for children | Programme page? |
+|---|---|
+| Brazilian jiu jitsu / BJJ | **yes** — `/kids-bjj-classes/` |
+| **Karate** ("kids karate") | no |
+| **MMA** ("kids mma") | no |
+| **Muay Thai** ("muay thai classes") | teen and adult only, not kids |
+| **Kickboxing** | no |
+| **Krav Maga** | no |
+| **Taekwondo** (FAQ 3 and 6) | no |
+
+Three specific claims go beyond listing:
+
+- "Kids practice basic strike kicking and grappling moves **from jiu jitsu bjj muay
+  thai kickboxing and karate**" — stated as what happens in class.
+- "Instructors **hold certifications in kids martial arts brazilian jiu jitsu krav
+  maga and child safety training**" — a krav maga certification and a **child
+  safety certification**, neither named nor confirmed anywhere.
+- "They hold training in kids martial arts brazilian jiu jitsu **krav maga karate
+  muay thai kickboxing** and child development".
+
+**The client's own markup links the word "krav maga" to the homepage**, which
+sends a reader looking for krav maga to a page that does not offer it.
+
+**This page also contradicts its own sibling.**
+`/anti-bullying-martial-arts-for-kids/`, published three minutes earlier, says
+twice that children need "**no punches and kicks**". This page has an H3 called
+"**Basic Striking Kicking and Grappling Techniques**" and teaches "safe punch open
+hand strikes front kicks". Both are live, both are about the same children.
+
+All untaught disciplines are **reproduced verbatim and left unlinked**. Only the
+BJJ and teen Muay Thai mentions are linked, to their real programme pages.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -5214,6 +5285,27 @@ enough for a parent to plan around.
 available" and "**special workshops** on conflict resolution strategies or non
 violent defense" — neither confirmed by any programme page. **No price was added
 to the rebuild.**
+
+**2026-02 addition — the tenth page, and it names the promise in an H2 again.**
+`/kids-self-defense-classes-near-me/` has an H2 called **"Class Schedule Pricing
+and Free Trial"** and publishes **no price**. The whole of its pricing content is
+one sentence: "**Pricing stays reasonable with flexible plans and a free trial to
+try before committing.**" Its Contact section then invites parents to "**ask about
+pricing**" — which is the page admitting the heading is unanswered.
+
+**Ten for ten.** Two of the ten now put the word "Pricing" in an H2 and answer it
+with nothing.
+
+**The free trial itself is stated clearly and matches the programme pages**, which
+is worth recording: an H3 "Free Trial Class Available", "Try … **with no cost
+through a free trial class**", "**No pressure to sign up** right away". That is
+consistent with `/kids-bjj-classes/`.
+
+**Private training joins the list again** — an H3 "**Private Training Options**"
+with "one on one time with instructors", no price and no booking route. See issue
+73; this is another page.
+
+**No figure was added to the rebuild.**
 
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
@@ -7068,6 +7160,31 @@ parent can convert on.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/kids-self-defense-classes-near-me/`: ten tags, none
+matching the page's own claims.** The post carries 10 tags: `Kids Self Defense
+Classes Near Me`, `beginner self defense for kids`, `child protection training
+near me`, `children self defense programs`, `fun self defense classes for kids`,
+`kids confidence building classes`, `local kids self defense training`, `nearby
+kids martial arts classes`, `self defense lessons for children`, `youth safety
+training classes`.
+
+**No untaught discipline is tagged and no competitor is named** — which is odd,
+given the body sells karate, MMA, kickboxing and krav maga to children in nine
+separate paragraphs. The tags describe a cleaner page than the one that was
+published.
+
+Two flags:
+
+- **`child protection training near me` is the wrong phrase.** "Child protection"
+  is the term for safeguarding work by schools, social services and the police. A
+  tag archive at that URL on a gym's website reads as though the business offers
+  safeguarding services, and it will attract searches it cannot answer.
+- **Three tags use "near me" or "nearby" and none carries the city**, so the local
+  signal is nil (see issue 50).
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7445,7 +7562,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
-| **Martial arts for kids (confirmed, THREE posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
+| **Martial arts for kids (confirmed, FOUR posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
@@ -7523,6 +7640,49 @@ progression from wall isometrics to full bridges. 301 `/neck-bridges/` and
 `/do-neck-bridges-build-muscle/` into it, merge the muscle-growth answer (which is
 already an FAQ on the survivor) and the "H2:" heading fix dies with the redirect.
 Then add the disclaimer component from issue 31 before any of it goes live.
+
+#### The fifth kids page, published three minutes after the fourth — **CRITICAL**
+
+`/kids-self-defense-classes-near-me/` was published at **18:46 on 26 February
+2026**. `/anti-bullying-martial-arts-for-kids/` was published at **18:43 the same
+day**. Three minutes apart, from the same template, for the same audience.
+
+**Six pages now chase parents of children in one city:**
+
+| Page | Published | H2s |
+|---|---|---|
+| `/martial-arts-for-kids/` | 2025-02-16 | 14 |
+| `/martial-arts-for-kids-strenght/` | 2025-10-18 | 14 |
+| `/teens-bjj-near-me/` | 2025-09-17 | — |
+| `/anti-bullying-martial-arts-for-kids/` | 2026-02-26 **18:43** | 11 |
+| `/kids-self-defense-classes-near-me/` | 2026-02-26 **18:46** | **10** |
+| `/kids-bjj-classes/` · `/teen-bjj-classes/` | — | programme pages |
+
+**Heading overlap confirms the shared template:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/anti-bullying-martial-arts-for-kids/` | 4 of 10 (40%, all boilerplate) | 4 of 33 (12.1%) | **66.2%** |
+| `/martial-arts-for-kids/` | **0 of 10** | **0 of 33** | 46.2% |
+| `/martial-arts-for-kids-strenght/` | 2 of 10 (20%, both boilerplate) | 4 of 33 (12.1%) | 40.0% |
+
+**66.2% heading-word overlap with the bullying page is the highest in the kids
+group**, and the structural match is closer than the number suggests: both pages
+run "What Kids Will Learn" → "Age Groups" → "Benefits" → "Safety Measures" →
+"Class Schedule Pricing and Free Trial" → "Why Choose Sixth Sense MMA", and both
+split children into **4–6 / 7–10 / 11–15**. The headings differ only in which
+keyword is substituted into them.
+
+**The difference that matters is which one is honest about the gym.** The bullying
+page names only BJJ in its body. This one names **karate, MMA, muay thai,
+kickboxing and krav maga** as things children are taught here, repeatedly (see
+issue 39). If the client keeps one, keep the bullying page.
+
+**Recommendation:** 301 `/kids-self-defense-classes-near-me/` into
+`/anti-bullying-martial-arts-for-kids/`, which covers the same product with a
+sharper query and accurate discipline claims; or, if the "kids self defense near
+me" query is worth keeping, strip this page back to BJJ and delete the five
+off-topic FAQ answers first (issue 87).
 
 #### The kids cluster: three posts, a teen post and two programme pages
 
@@ -10244,7 +10404,18 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. Twelve "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+### 50. THIRTEEN "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+
+**2026-02 addition — the thirteenth, and the weakest local signal of the set.**
+`/kids-self-defense-classes-near-me/` repeats "Near Me" **22 times** in its body and
+names the city **once**, in the address block. "Coppell" appears nowhere else,
+"Texas" appears nowhere at all, the H1 contains no city, and **not one of its ten
+tags carries the city**. A "near me" query is resolved by Google from the
+searcher's location against the *business's* location signals, not by the phrase
+"near me" appearing in the copy — so this page repeats the words that cannot help
+it and omits the word that could. Compare `/brazilian-jiu-jitsu-coppell-tx/`
+(issue 57), which names the city 59 times and puts it on all 20 tags.
+
 
 **The twelfth is the first to put the city in its slug, and that changes the
 recommendation.** `/martial-arts-near-me-in-coppell-texas/` (13 December 2025) is
@@ -12467,6 +12638,14 @@ published without an editing pass"; this is the first item that **proves** it.
 **In the rebuild:** the sentence is reproduced exactly, timestamp and all, and
 the build fails if it is quietly removed or updated.
 
+**2026-02 addition — a second AI artefact, and this one names a country.**
+`/kids-self-defense-classes-near-me/` publishes an FAQ answer containing "**In
+Pakistan (based on your location)**", the assistant's own geolocation of the
+writer, addressed to the reader as though it were theirs. Full analysis at issue
+87. Together with the generation timestamp logged above, that is two separate
+pages carrying visible proof that the copy was machine-generated and shipped
+unread.
+
 ### 71. A local-intent page whose H1 and tags omit the city entirely, and a city name lower-cased in the title — SEO — Medium
 
 `/bjj-belt-ranks-in-coppell/` is built to rank for a local phrase. The slug says
@@ -13040,6 +13219,35 @@ Then check how it was produced, because the same process is behind issue 67,
 issue 70 and the keyword-crammed headings in issue 17.
 
 ---
+
+**2026-02 addition — the same failure in a different shape: a phrase repeated
+four times inside one clause.** `/kids-self-defense-classes-near-me/` publishes
+this, as a sentence, in **six separate paragraphs**:
+
+> Classes teach **self defense self defense self defense self defense training
+> self defense techniques self defense classes**
+
+"Self defense" appears four times in a row before the sentence reaches a verb. The
+opening paragraph does the same thing and then runs straight into the
+nine-discipline list, producing a 70-word stretch with no grammar in it at all:
+
+> we offer Kids Self Defense Classes Near Me that teach real self defense self
+> defense self defense self defense training self defense techniques self defense
+> classes through kids martial arts kids karate kids mma brazilian jiu jitsu
+> program jiu jitsu bjj brazilian jiu jitsu karate muay thai kickboxing muay thai
+> classes muay thai kickboxing and krav maga in a safe positive space.
+
+Other repeated blocks: "**self confidence self discipline self control**" (8
+times), "**martial arts programs martial arts schools training center gym and
+martial arts classes**" (6 times), "**get fit make friendship show personal
+growth**" (5 times), and "**beginner kids teenager and even adult in classes for
+adults**" (4 times) — the last of which is on a page about children.
+
+**Reproduced verbatim**, as always. But this is a page a parent reads while
+worried about their child, and the first paragraph is unreadable. Of the whole
+audit this is the clearest case where the SEO damage and the human damage point
+the same way: Google has penalised keyword stuffing for fifteen years, and a
+parent will simply close the tab.
 
 ### 77. An eight-question FAQ where six questions are about boxing — SEO, CONTENT — **High**
 
@@ -13663,6 +13871,202 @@ trial; the substitution is recorded here rather than made silently.
    punch. Image 3 is a room of adults in karate stances, illustrating a section
    titled "Beginner to Advanced **Levels**" on a page about children. Neither
    appears to be the Coppell facility.
+
+### 87. The second child-safety page: a parent FAQ that answers budgeting questions, teaches eye strikes at home, and tells a Texas reader what the law is in Pakistan — CONTENT (accuracy), SAFEGUARDING — **High, the client must review before publication**
+
+`/kids-self-defense-classes-near-me/` (26 February 2026, 3,694 words) is the
+**second page in this group**, published the same day as
+`/anti-bullying-martial-arts-for-kids/` and three minutes after it. Everything
+below is **quoted exactly as published** and **reproduced verbatim on the rebuilt
+page** except the two sentences logged at issue 0.
+
+#### a) Claims that training keeps a child safe or guarantees protection
+
+**No outright guarantee, but the page leans harder than the bullying one.** The
+repeated promise is capability rather than outcome:
+
+| Where | Exact wording |
+|---|---|
+| Opening | "give children practical tools to **stay safe**" |
+| Age groups | "feel ready to **defend themselves**" |
+| Teen section | "the quiet assurance that comes from **knowing they can defend themselves well**" |
+| Benefits | "knowing they **can defend themselves if needed**" |
+| Curriculum | "helps kids of all ages **defend against attacker opponent stay safe**" |
+| Why choose us | "learn to **defend themselves with practical tools that work in real life**" |
+
+"Practical tools that work in real life" and "knowing they can defend themselves
+well" are the two to look at: both tell a parent the training will function
+against a real attacker, and the page's own threat model (below) includes adults.
+
+#### b) Advice toward a child physically fighting
+
+**The body keeps the escape-and-run framing**, which is correct: "They teach kids
+to **yell run to safety and get help** right after breaking free"; "learn to **say
+no or run if needed**"; "learn to **yell for help**"; "control a situation
+**without hurting others more than needed**".
+
+**The FAQ does not.** FAQ 4, "How to teach kids self defense?", instructs the
+*parent* to coach the child at home:
+
+> Begin with the "fight or flight" stance: feet apart, hands up for protection.
+> Teach simple moves like **proper punching (fist tight aim for weak spots)**
+> yelling for help and escaping grabs. Use role playing scenarios emphasize using
+> voice assertively (e.g. shouting "No!") and **practice techniques like eye
+> strikes or groin kicks** in a safe environment.
+
+**This is the most specific violent instruction published to a child audience on
+this site.** Eye strikes and groin kicks are not taught in any kids programme, are
+not mentioned anywhere in the body of this page, and are given to parents as home
+practice with no supervision, no age floor and no caveat. It is the same failure
+as the elbow-strike home-practice passage already logged at issue 0, except the
+target here is a child's eyes and the instruction is for a four-year-old's parent
+to follow.
+
+**The threat model includes adults.** The page refers to an "**attacker**" eleven
+times and an "opponent" seven, and the teen section describes "escapes from
+**stronger holds**" and "responding fast if needed". It never says the attacker is
+another child.
+
+#### c) Stranger danger, abduction and assault; statistics
+
+**No statistic of any kind appears**, and no source is cited for anything. The
+only percentages on the page are in FAQ 8, which is about **budgeting**
+("allocate 50% of allowance… 30% to wants… 20% to savings").
+
+**"Stranger danger" appears once**, in FAQ 4: "reinforce at home by **discussing
+stranger danger without scaring them**". The words **abduction**, **kidnap**,
+**assault** and **predator** appear **nowhere on the page**, which is worth
+recording as a positive: the page sells on confidence and fitness rather than on
+parental fear, which is the standard failure mode of this product category.
+
+#### d) Psychological claims
+
+Ordinary confidence copy throughout — "self esteem **rise fast**", "**less
+shyness**", "**quiet assurance**", "stay prepared **without constant worry**",
+"**mental toughness**". Nothing clinical in the body.
+
+**But FAQ 5 cites neuroscience for a parenting technique:** the "9 minute rule"
+answer ends "It's based on **affective neuroscience** and aims to strengthen
+parent child bonds". FAQ 7 attributes the screen-time rule to "**psychiatrist
+Serge Tisseron**" — the only named authority anywhere on this site, and he has
+nothing to do with martial arts.
+
+#### e) Ages, and the fourth programme name for the same class
+
+| Source | Bands |
+|---|---|
+| `/kids-self-defense-classes-near-me/` | **Little Warriors (Ages 4–6)**, **Junior Defense Program (Ages 7–10)**, **Pre Teen & Teen Program (Ages 11–15)** |
+| `/anti-bullying-martial-arts-for-kids/` | Young Kids 4–6, Junior 7–10, Pre Teen and Teen 11–15 |
+| `/` (homepage) | Kids **4 to 12**; **Little Champions 4 to 7**; Rising Champions |
+| `/kids-bjj-classes/` | **no ages stated** |
+
+**The bands match the bullying page exactly** — the two were published three
+minutes apart from the same template — **and neither matches the programme.** But
+this page introduces a **new name for the 4–6 group: "Little Warriors".** The
+homepage calls it Little Champions. The bullying page calls it Young Kids and then
+uses the words "little champions" inside the paragraph. **That is three names for
+one class across three pages**, and a parent who rings up asking to enrol in
+"Little Warriors" will be asking for something the gym does not call anything.
+
+**FAQ 2 adds a fourth set of ages**, with hedging: "as early as **4 years old**…
+By age **5** kids are often ready for more structured classes… Some experts suggest
+**waiting until 6-7** for full engagement". The page therefore advertises a 4–6
+class and then quotes unnamed experts recommending against starting before 6.
+
+#### f) Parents, teachers and police
+
+**Police are never mentioned. Teachers are never mentioned. Telling an adult is
+never named as a step.** The words "police", "911", "emergency services",
+"trusted adult", "tell a parent" and "tell a teacher" appear **zero times** in the
+body.
+
+The page says "**get help**" twice and "yell run to safety and **get help**" once,
+without ever saying from whom. Parents appear only as customers — they "watch from
+viewing areas", "say these choices make training part of the weekly routine" and
+get their "**parent questions**" answered at the free trial.
+
+**This is the same gap recorded at issue 86g, now on a second page**, and it is
+worse here because this page's threat model is an adult attacker rather than a
+playground bully. **The two pages together mean the site has 7,271 words of child
+safety advice that never once names a teacher, a parent or the police as someone
+to tell.** One shared paragraph would fix both.
+
+**The single clearest emergency instruction on the page is in FAQ 10**, and it is
+about leaving a child home alone, not about self defence.
+
+#### g) Images: four identifiable children, two in another academy's branded uniform
+
+| File | What it shows |
+|---|---|
+| `kids-self-def-01.jpg` (featured) | **Two identifiable children**, roughly 5–9, faces clear, receiving a belt from an instructor; three adults present; white BJJ gis with a circular club mark |
+| `kids-self-def-02.jpg` | **About ten children** in a striking class, several faces visible in profile; gym fitted with Muay Thai bags and wall pads; uniforms carry **a triangle logo and coloured sashes that are not this gym's branding** |
+| `kids-self-def-03.jpg` | **One identifiable child**, face fully visible and laughing, punching focus mitts held by an adult; her gi reads "**POWER**" with a triangle crest — **another school's branded uniform** |
+
+**Two points for the client, the second one new.**
+
+1. **Photo consent.** At least four identifiable minors appear across the three
+   images. **The client should confirm signed photo consent is on file for each**,
+   or replace the images. Same requirement as issue 86.
+2. **Two of the three show children wearing a different academy's branded kit.**
+   Image 3 in particular is a close, cheerful portrait of a child in a uniform
+   marked "POWER" — placed directly under the heading "**Certified Instructors
+   Experienced in Training Children**", so a parent reads it as this gym's coach
+   and this gym's student. Neither appears to be the Coppell facility. This is a
+   stock-image problem with a sharper edge than usual: it is a photograph of
+   someone else's child, in someone else's club colours, used to illustrate this
+   gym's instructors.
+
+#### The FAQ is half parenting trivia, and one answer gives away where it was written
+
+**Five of the ten FAQ answers have nothing to do with self defence, martial arts
+or children's safety:**
+
+| FAQ | Question | Subject |
+|---|---|---|
+| 5 | "What is the 9 minute rule for kids?" | parent-child bonding |
+| 7 | "What is the 3 6 9 12 rule for kids?" | **screen time** |
+| 8 | "What is the 50 30 20 rule for kids?" | **household budgeting** |
+| 9 | "What is the 7 7 7 rule of parenting?" | parenting time |
+| 10 | "Can I leave a 7 year old alone for 10 minutes?" | **child supervision law** |
+
+A martial arts school is answering, on a page selling classes, how to split a
+child's pocket money three ways. This is the fourth instance of the off-topic-FAQ
+pattern (issues 77, 81, 85) and the most extreme: it is not merely off-topic, it is
+a different subject area.
+
+**FAQ 10 is worse than off-topic — it is unqualified legal advice, and it leaks**
+**the writer's location.** The answer reads, in full:
+
+> Laws vary by location; many U.S. states don't specify an age but guidelines
+> suggest children under 8-10 shouldn't be left alone even briefly due to safety
+> risks. For a 7 year old, 10 minutes might be okay if they're mature, know
+> emergency procedures and have access to a neighbor or phone but it's generally
+> not recommended—consider maturity and local laws. **In Pakistan (based on your
+> location) there's no strict age law but child protection emphasizes
+> supervision**; err on caution and build independence gradually.
+
+**"In Pakistan (based on your location)"** is the AI assistant's own geolocation of
+whoever generated the text, pasted into the page and published. It is addressed to
+"your location" — so a parent in Coppell, Texas is told what the law is in
+Pakistan, on the basis of where they supposedly are.
+
+This is the same class of defect as the AI generation timestamp at issue 70, but
+more damaging, because:
+
+- it is **evidence the content was not written by this business**, published in
+  the business's own voice;
+- it is **on a page about child safety**, where trust is the entire product;
+- it gives a **Texas parent legal guidance for a different country** about when a
+  seven-year-old may be left alone — a question with real consequences;
+- it is **quotable**. A competitor, a reviewer or a local parents' group would need
+  one screenshot.
+
+**Reproduced verbatim on the rebuilt page**, per the correct-nothing rule, and
+**included in the FAQPage JSON-LD** unlike the lorem-ipsum placeholder at issue 66
+— that one was not a question at all, whereas this is a real, answered question
+that happens to be wrong. **Recommended fix: delete FAQ answers 5, 7, 8, 9 and 10
+entirely.** None of them helps a parent choose a martial arts school and the last
+actively harms the page.
 
 ## How these were checked
 

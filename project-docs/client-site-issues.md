@@ -23,7 +23,49 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. ELEVEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. TWELVE posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The twelfth page, and this one is contradicted by its own FAQ
+
+`/brazilian-jiu-jitsu-coppell-tx/` (22 January 2026) publishes **one** sentence
+that has been **omitted from the rebuild**, leaving an HTML comment in its place:
+
+> We teach proper tapping controlled speed and awareness of partners **so no one
+> gets hurt** from ego or rushing.
+
+**The page refutes itself eight paragraphs later.** Its own FAQ answers "What Are
+the Downsides of Jiu-Jitsu?" with:
+
+> Downsides of Jiu-Jitsu include **the risk of injuries (especially joint and neck
+> injuries)**, the time required to achieve proficiency, plateaus in skill
+> progression, and the physical intensity which can be challenging for beginners
+> or older practitioners.
+
+and "Why Do Most People Quit BJJ?" with "Many people quit BJJ due to factors like
+the physical intensity of training, slow progress, **injuries**, time
+commitments…". Both FAQ answers are reproduced unchanged — they are the honest
+version, and they are on the same page as the claim that no one gets hurt.
+
+**This is the clearest internal contradiction in the whole safety group.** The
+other eleven posts overstate safety without ever admitting a risk. This one
+admits joint and neck injuries explicitly, in its own words, and still opens the
+methodology section by promising nobody is hurt. A client reading only this entry
+should understand the fix is to delete seven words: "We teach proper tapping
+controlled speed and awareness of partners **to keep training safe**."
+
+**Nine other risk sentences on the page are correctly qualified and were kept
+verbatim**, including "This approach builds efficient habits that save energy and
+**reduce injury risk**", "Instructor watch every roll closely and **stop unsafe
+movements immediately**", and "This safety first mindset lets people train hard
+**without fear**" (about fear, not injury).
+
+**One borderline sentence was kept and is flagged here:** "Our instructor keeps
+classes energetic **and safe** so every child feels included and excited to
+return." It is a descriptive present-tense claim rather than a guarantee, so it
+stays — but it is on the kids section of a page that also claims no one gets hurt,
+and the client may want to qualify it.
+
+**Running total: 51 sentences across twelve posts.**
 
 #### The eleventh page, and the first one where the guarantee is attached to the instructors
 
@@ -492,7 +534,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **ELEVEN** posts promising an absence of injury risk or guaranteeing safety, 50 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **TWELVE** posts promising an absence of injury risk or guaranteeing safety, 51 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -2226,6 +2268,29 @@ unsafe — but "hundreds" is a specific number the client should either stand
 behind or soften, and a page that refers to testimonials should contain at least
 one.
 
+**2026-01 addition — three H2s nested under an H2, then an H3 underneath them.**
+`/brazilian-jiu-jitsu-coppell-tx/` publishes its comparison section like this:
+
+```
+H2  Brazilian Jiu Jitsu vs Other Martial Arts
+H2    BJJ vs Karate          <- should be H3
+H2    BJJ vs Taekwondo       <- should be H3
+H2    BJJ vs MMA             <- should be H3
+H3  Why BJJ Is Best for Real Self Defense   <- orphaned under an H2 sibling
+```
+
+The three comparison headings are children of "Brazilian Jiu Jitsu vs Other
+Martial Arts" in meaning but siblings of it in markup, and the H3 that follows
+them belongs to the parent section, not to "BJJ vs MMA" where the outline puts
+it. The result is 14 H2s on a page with 25 H3s, and a table of contents that
+lists "BJJ vs Karate", "BJJ vs Taekwondo" and "BJJ vs MMA" as top-level sections.
+
+**Reproduced exactly as published** — the levels are the client's, and the rebuild
+mirrors them, including the TOC consequence.
+
+**Fix:** change the three to H3 and leave "Why BJJ Is Best for Real Self Defense"
+as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
+
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
 
 #### The SEVENTH Muay Boran post, and the first to claim a Thai LINEAGE, a fee structure and online delivery
@@ -3769,6 +3834,65 @@ sessions, but publishes no figure, no membership tier and no fee — the only di
 in the whole article are the address and phone number. Nothing was invented and
 nothing needed omitting on commercial grounds.
 
+**2026-01 addition — `/brazilian-jiu-jitsu-coppell-tx/`: the first page that names
+a rank, and the first whose meta description promises something the body does not
+say.**
+
+**The certification claim is the strongest on the site, and still not verifiable.**
+Every earlier page says "certified instructors" and names nothing. This one gets
+one step further: an H3 titled **"Certified Black Belt Instructors"** and the
+sentence "Our coach hold **legitimate black belt ranks** earned through years of
+dedicated practice and competition."
+
+| What a reader needs | Named on this page? |
+|---|---|
+| A rank | **yes — black belt** |
+| A certifying body (IBJJF, CBJJ, an association) | no |
+| A lineage or affiliation | no |
+| An instructor's name | no |
+| A belt-awarding professor | no |
+
+So this is **not** the first verifiable instance. It is the first *falsifiable*
+one: "certified instructors" cannot be checked, but "our coaches are BJJ black
+belts" can be, and the word "legitimate" invites someone to try. If it is true it
+is the best credential the gym has and should be on the programme pages with the
+coach's name and lineage. If it is not, it is the most dangerous sentence in the
+commercial-claims group.
+
+**The meta description promises a free trial; the body never says free.** The
+description supplied for this page ends "**Free trial available.**" The body
+mentions a trial twice — "After the **trial class** we create a simple plan" and
+"Newcomers feel at home from the **first trial class**" — and the word "free"
+appears **nowhere in the article**. The claim is true of the business
+(`/adult-bjj-classes/` and the other programme pages advertise a free trial and a
+"Risk-Free Trial Offer"), so this is a copy gap rather than a false claim: the page
+sells on a free trial in the search snippet and then does not mention it on the
+page the click lands on. **Nothing was added** — the body says "trial class" and
+the rebuild says "trial class".
+
+**Two more services with no programme page behind them:**
+
+| Claim | Words used | Confirmed? |
+|---|---|---|
+| MMA classes | "**Mma classes at our gym** blend bjj with striking and wrestling" | no — the gym teaches BJJ and Muay Thai |
+| Nutrition coaching | "Many combine bjj with **nutrition guidance from our coach**" | no |
+
+**Private coaching, competition prep and open mat:**
+
+- **Private coaching: not in the body at all** — the first recent page where it is
+  absent. But one of the twenty tags is **"BJJ private lessons Coppell TX"**, so
+  the page still advertises it to search engines while saying nothing about it to
+  readers. See issue 30.
+- **Competition prep: yes, twice over** — an H3 "Advanced & Competition BJJ" and a
+  second "Competition Training", with "Students compete locally and regionally with
+  support from the team" and "tournaments". No programme page mentions a
+  competition team.
+- **Open mat: never mentioned.**
+
+**"Testimonials highlight improved fitness reduced stress stronger self defense
+awareness and lasting friendships"** — the page carries no testimonial, the same
+defect logged on `/adult-beginner-martial-arts/` at issue 32.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -4833,6 +4957,20 @@ to state a price, but it cannot advertise transparency and then decline, and
 be quoted back first; (3) verify the "no hidden costs", "no fine print", "no
 extra charges", "pause anytime", "no long term contracts", "all gear provided"
 and every discount claim against the actual membership agreement.
+
+**2026-01 addition — one that does it right, and is worth saying so.**
+`/brazilian-jiu-jitsu-coppell-tx/` is a high-intent local conversion page and it
+has **no pricing section and no pricing heading at all**. It mentions no price, no
+membership tier, no package and no discount. The only digits in the entire article
+are the street address, the ZIP code, the phone number and the "80/20 rule" in an
+FAQ answer.
+
+That is the correct behaviour: a page that stays silent about price is honest,
+whereas the eight pages logged above promise a price and then publish none. No
+figure was added to the rebuild.
+
+The page does, however, describe a trial without describing what it costs — see
+issue 39 for the free-trial gap between its meta description and its body.
 
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
@@ -6594,6 +6732,45 @@ Three observations:
 Unlike every other recent post, **none of these tags names an untaught
 discipline** — no Karate, Kickboxing or Krav Maga tag, despite the body
 mentioning all three. That is the correct behaviour and worth noting.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
+**2026-01 addition — `/brazilian-jiu-jitsu-coppell-tx/`: twenty tags, and for once
+the city is on every one of them.** The post carries 20 tags, all of which end in
+"Coppell TX": `Brazilian Jiu Jitsu Coppell TX`, `BJJ classes Coppell TX`, `BJJ
+academy Coppell TX`, `BJJ gym Coppell TX`, `BJJ for beginners Coppell TX`, `BJJ
+private lessons Coppell TX`, `BJJ techniques Coppell TX`, `BJJ tournaments Coppell
+TX`, `BJJ workouts Coppell TX`, `Brazilian Jiu Jitsu instruction Coppell TX`,
+`Brazilian Jiu Jitsu near me Coppell TX`, `Brazilian Jiu Jitsu programs Coppell
+TX`, `Brazilian Jiu Jitsu school Coppell TX`, `Brazilian Jiu Jitsu training Coppell
+TX`, `Brazilian Jiu Jitsu training for adults Coppell TX`, `adult BJJ classes
+Coppell TX`, `grappling classes Coppell TX`, `kids BJJ Coppell TX`, `martial arts
+Coppell TX`, `self-defense Coppell TX`.
+
+**This is the best tag set in the audit on local signals and the worst on
+duplication.** Every tag carries the city — which no other post manages — but
+fifteen of the twenty are the same two or three words reordered, so they generate
+fifteen near-identical thin archive pages competing with the post itself.
+
+Three specific flags:
+
+- **`BJJ private lessons Coppell TX` targets a service the body never mentions.**
+  The article does not use the words "private", "one on one" or "semi private"
+  anywhere. The tag advertises private lessons to a search engine while the page
+  itself is silent — the inverse of issue 73, and arguably worse, because a
+  searcher who lands on the tag archive finds no answer at all.
+- **`BJJ tournaments Coppell TX` implies the gym runs or enters tournaments.** The
+  body supports entering them ("Students compete locally and regionally"); no
+  programme page does.
+- **`Brazilian Jiu Jitsu near me Coppell TX` is a keyword tool's output, not a
+  phrase anyone types.** "Near me" and a named city are mutually exclusive search
+  intents.
+
+**No untaught discipline is tagged** and **no competitor is named in a tag** — the
+`gracie barra jiu jitsu teens` problem from `/teens-bjj-near-me/` is not repeated.
+A competitor is, however, named and praised in an FAQ answer on this page (issue
+66).
 
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
@@ -10588,10 +10765,10 @@ pricing section on every page, the same review policy, the same programs list,
 and real headings throughout — and the newest page is the model to copy, because
 it is the only one whose programs section matches what the gym actually offers.
 
-### 57. Four blog pages and three program pages chasing the same BJJ local search — SEO — **CRITICAL**
+### 57. FIVE blog pages and three program pages chasing the same BJJ local search — SEO — **CRITICAL**
 
 Brazilian Jiu Jitsu, jiu jitsu and BJJ are three names for one martial art. The
-site now has **four blog pages** targeting local search for it:
+site now has **five blog pages** targeting local search for it:
 
 | URL | Published | Words | Reviews | Distinct audience? |
 |---|---|---|---|---|
@@ -10599,6 +10776,7 @@ site now has **four blog pages** targeting local search for it:
 | `/bjj-classes-near-me/` | 2025-08-04 | 2,988 | 7, US cities | No |
 | `/brazilian-jiu-jitsu-near-me/` | 2025-08-06 | 3,065 | 7, **UK cities** | No |
 | `/teens-bjj-near-me/` | 2025-09-17 | 2,140 | 11, genuine Google set | **Yes — teens** |
+| `/brazilian-jiu-jitsu-coppell-tx/` | **2026-01-22** | **3,196** | none | **Yes — city + state slug** |
 
 **The fourth is the one to keep.** The first three are the same page under three
 names. The teens post is not: it is written for parents of 7-to-15-year-olds, it
@@ -10612,6 +10790,57 @@ about each other: `/brazilian-jiu-jitsu-near-me/` links the phrase "BJJ classes
 offer" **to `/bjj-classes-near-me/`** — so the newest page cites one of its own
 competitors as a source, which is as clear a demonstration as one could ask for
 that these should be a single page.
+
+#### The fifth page arrives with the strongest slug of the set — **CRITICAL**
+
+`/brazilian-jiu-jitsu-coppell-tx/` (22 January 2026, 3,196 words) is the **fifth**
+blog page chasing BJJ in this one city, and with the three programme pages that
+makes **eight pages for one discipline at one address**.
+
+**It is also, on the evidence, the one to keep — which changes the recommendation
+in this entry.** The earlier advice was to keep `/teens-bjj-near-me/`. That still
+holds for the teen audience, but for the general local query this new page is
+better than all three "near me" posts on every measure that matters:
+
+| Signal | the three "near me" posts | `/brazilian-jiu-jitsu-coppell-tx/` |
+|---|---|---|
+| City in the slug | no | **yes, city AND state** |
+| City in the H1 | no | **yes — "Brazilian Jiu Jitsu Coppell TX Professional BJJ Classes for All Levels"** |
+| City in the body | occasional | **59 times** |
+| City in the tags | no | **all 20 tags** |
+| Links a programme page | only `/teens-bjj-near-me/` does | **all three, in the rebuild** |
+| Fabricated reviews | 7 US cities, 7 **UK** cities | **none** |
+
+It is the only page on the site whose slug carries both the city and the state,
+which is the exact string a Coppell searcher types, and the only one of the five
+whose H1 names the town — the defect logged against `/bjj-belt-ranks-in-coppell/`
+at issue 71 is **not** repeated here.
+
+**Heading overlap with the three "near me" posts is near zero**, which is unusual
+for this project and worth recording:
+
+| Sibling | Exact H2 matches | H2 word overlap |
+|---|---|---|
+| `/brazilian-jiu-jitsu-near-me/` | **0 of 14** | 45.9% |
+| `/bjj-classes-near-me/` | **0 of 14** | 18.9% |
+| `/jiu-jitsu-near-me/` | **0 of 14** | 33.8% |
+
+Across all 39 h2+h3 headings only two match any sibling, and both are boilerplate
+("Conclusion", "FAQ's"). The pages do not duplicate each other's structure — they
+duplicate each other's *purpose*, which is the harder problem.
+
+**Revised recommendation.** 301 `/jiu-jitsu-near-me/`, `/bjj-classes-near-me/` and
+`/brazilian-jiu-jitsu-near-me/` into `/brazilian-jiu-jitsu-coppell-tx/`; keep
+`/teens-bjj-near-me/` for the teen query; point all four at the three programme
+pages. Fix the Orlando links first (see below).
+
+**Two links on the new page point at Orlando, and one of them says Coppell.** The
+page links `/brazilian-jiu-jitsu-orlando/` twice, and the first anchor text is
+**"Coppell bjj classes"** — so a reader in Coppell clicking a link labelled
+"Coppell bjj classes" lands on a page about a city 1,000 miles away. This is the
+worst instance of issue 14 found so far, because the anchor text actively
+misdescribes the destination. A third link sends "Coppell Texas" to the homepage,
+which is at least harmless.
 
 **And they do not only compete with each other.** The gym already has three
 program pages for the same discipline:
@@ -11570,6 +11799,38 @@ the link goes and hide the fault. The build fails if either is quietly
 redirected somewhere sensible.
 
 ---
+
+**2026-01 addition — unedited Elementor placeholder text inside a published FAQ.**
+`/brazilian-jiu-jitsu-coppell-tx/` has a ten-item FAQ accordion. **The tenth item
+was never written.** It is live, indexable and reads, in full:
+
+> **Accordion #3**
+>
+> I am item content. Click edit button to change this text. Lorem ipsum dolor sit
+> amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+> mattis, pulvinar dapibus leo.
+
+This is the Elementor accordion widget's factory default, shipped to production on
+the gym's strongest commercial page. Anyone who opens the FAQ and scrolls to the
+bottom sees Latin filler under a heading that says "Accordion #3".
+
+**It is reproduced verbatim on the rebuilt page**, per the standing instruction to
+correct nothing — it is the client's text and the client should see it as
+published. **It is deliberately excluded from the page's FAQPage JSON-LD**, which
+carries the other nine questions only: structured data is an explicit assertion to
+a search engine that an item is a real question and answer, and submitting
+"Accordion #3 / Lorem ipsum" as one would be a bad-data claim this project should
+not make on the client's behalf.
+
+**Fix:** delete the item, or write the tenth question. One minute of work, and it
+is on the page most likely to be read by someone deciding whether to walk in.
+
+**Two FAQ items on the same page are celebrity trivia** — "Where Does Henry Cavill
+Train BJJ?" and "Is Mark Zuckerberg a BJJ Black Belt?" — the same pattern as issue
+85. The Cavill answer names **Renzo Gracie Academy in New York** and calls it
+"known for its elite BJJ instructors": a competing academy praised by name on this
+gym's own conversion page, which is the same defect as the "gracie barra jiu jitsu
+teens" tag on `/teens-bjj-near-me/`.
 
 ### 67. A conclusion written as keyword salad rather than English — CONTENT, SEO — **High**
 

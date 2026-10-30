@@ -23,7 +23,51 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. TEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. ELEVEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The eleventh page, and the first one where the guarantee is attached to the instructors
+
+`/adult-beginner-martial-arts/` (22 January 2026) publishes **one** sentence that
+has been **omitted from the rebuild**, leaving an HTML comment in its place:
+
+> Their experience in bjj muay thai boxing mma and self defense **ensures lessons
+> stay practical and safe**.
+
+**This one is a different shape from the other ten.** The previous ten denied that
+a technique or a class carries risk. This one does not mention risk at all — it
+guarantees an outcome ("safe") and attributes the guarantee to named credentials.
+That is harder to defend, not easier: it tells a reader that the instructors'
+experience is itself the assurance, so if someone is hurt the claim points
+straight at the staff.
+
+**The rest of the page is the best safety writing on the site, which is why this
+sentence stands out.** Every other risk sentence on the page is correctly
+qualified, and all of them are reproduced unchanged:
+
+| Sentence | Why it is fine |
+|---|---|
+| "Instructor teach proper falling tapping out and listening to your body so **risk stays low**" | risk reduction, not denial |
+| "light spar that builds skill **without high risk**" | qualified |
+| "Classes start with thorough warm ups mobility work and joint preparation **to reduce risk**" | risk reduction |
+| "the system supports long term progress **without shortcuts or unnecessary risks**" | qualified, the correct form |
+| "Adult Beginner Martial Arts is **generally safe when** taught by experienced instructors" (FAQ 9) | conditional |
+
+The page even names the fear honestly — an H3 called "Fear of Injury" that opens
+"Many adults worry that martial arts will lead to sprains strains or worse". A
+page willing to write that does not need the one unqualified sentence, and it is
+a one-word fix: "**helps keep** lessons practical and safe".
+
+**Two further sentences were considered and kept.** Neither denies risk, but both
+are worth the client's eye:
+
+- "This safety first mindset lets adults train consistently **without fear of
+  setbacks**" — about fear, not about injury, so it stays.
+- "Many report feeling stronger and more durable over time because **the system
+  protects joints** builds resilience and teaches smart movement" — framed as what
+  students report, so it stays, but "the system protects joints" read as a flat
+  assertion would belong in the list above.
+
+**Running total: 50 sentences across eleven posts.**
 
 #### The tenth page, and one of the two sentences is attached to a free trial
 
@@ -448,7 +492,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **TEN** posts promising an absence of injury risk or calling an organ strike safe, 49 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **ELEVEN** posts promising an absence of injury risk or guaranteeing safety, 50 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -2172,6 +2216,16 @@ unwrapped and its children kept (the site has no blockquote styling, so it would
 render as an ordinary block anyway), and the one-row table is kept as a table but
 left without an invented header row.
 
+**2026-01 addition — a page that cites testimonials it does not show.**
+`/adult-beginner-martial-arts/` writes, under "Proven Results with Adult
+Students": "**Hundreds of adults have transformed** through our programs" and
+"**Testimonials highlight** how training changed their outlook energy and sense of
+personal power." The page carries no testimonial, no name, no quote and no link to
+one. Both sentences are reproduced verbatim — they are unverifiable rather than
+unsafe — but "hundreds" is a specific number the client should either stand
+behind or soften, and a page that refers to testimonials should contain at least
+one.
+
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
 
 #### The SEVENTH Muay Boran post, and the first to claim a Thai LINEAGE, a fee structure and online delivery
@@ -3657,6 +3711,63 @@ Two claims on it still need confirming:
 - The **women's programme**, which the page describes as both running and not
   running. That contradiction is severe enough to have its own entry: see
   **issue 60**.
+
+**2026-01 addition — `/adult-beginner-martial-arts/`: a conversion page for the
+gym's core audience that sells three disciplines it does not teach.**
+
+This post is aimed squarely at adult beginners, which is exactly the audience the
+two real adult programmes serve, so the claims matter more here than on an
+informational post. It gets most of it right and then overreaches in three
+sentences.
+
+**Disciplines the page discusses generally** — these are written as "styles that
+suit adult beginners", not as things on offer here, and are fine:
+Karate, Taekwondo, Judo, Kung Fu, Krav Maga, Wrestling.
+
+**Disciplines the page attributes to this gym** — these are the problem:
+
+| Claim | Words used | Programme page? |
+|---|---|---|
+| Boxing | "Their experience in bjj muay thai **boxing** mma and self defense"; "Whether you train bjj muay thai **boxing** or mma style" | **no** |
+| MMA | the same two sentences, plus an H3 "MMA Programs for Adult Starters" | **no** |
+| Kickboxing | "if you are looking for … beginner mma adults **adult kickboxing classes**" | **no** |
+
+"Whether you train bjj muay thai boxing or mma style the path stays progressive
+and measurable" is the clearest of the three: it tells the reader they can choose
+boxing or MMA at this gym, and they cannot. The gym's own programme pages are BJJ
+and Muay Thai, for adults, teens and kids.
+
+**So this is not the clean positive `/martial-arts-near-me-classes/` was.** The
+two programmes the page does name correctly — Adult BJJ and Adult Muay Thai — are
+linked to their programme pages in the rebuild. Boxing, MMA, kickboxing, Karate,
+Taekwondo, Judo, Kung Fu, Krav Maga and Wrestling are left unlinked, because there
+is nowhere to send a reader who clicks.
+
+**The free-trial claim does check out, and that is worth saying.** The page's
+"Free Trial Class for Beginners" section matches both programme pages, which each
+advertise a free trial class and say no experience is required
+(`/adult-bjj-classes/`: "Most of our adult students walk in as complete
+beginners", "No experience is required"; `/adult-muay-thai-classes/`: "Almost all
+of our students had no experience at first").
+
+**Four service claims on the page that no programme page confirms:**
+
+| Claim | Confirmed? |
+|---|---|
+| "Personalized Fitness Assessment" before regular training, repeated "every few months" | no |
+| "Small Group & One on One Coaching" | no (see issue 73) |
+| "Drop in options and makeup sessions" | no |
+| "optional competition paths" with "tournament specific drilling" | no |
+
+**No minimum age is stated anywhere on the page**, which matters because the page
+is explicitly for adults and the site has no consistent answer on age anywhere
+else either (issues 69 and 72). The only age language is "No age makes it too late"
+and references to students in their 30s, 40s, 50s and 60s.
+
+**No prices appear.** The page mentions a free trial, drop-in options and makeup
+sessions, but publishes no figure, no membership tier and no fee — the only digits
+in the whole article are the address and phone number. Nothing was invented and
+nothing needed omitting on commercial grounds.
 
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
@@ -6457,6 +6568,36 @@ paragraph apiece.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-01 addition — `/adult-beginner-martial-arts/`: twenty tags, nineteen of
+them the same phrase reordered.** The post carries 20 tags: `Adult Beginner
+Martial Arts`, `adult beginner self defense`, `adult combat training`, `adult
+martial arts programs`, `adult martial arts training`, `adult self defense
+classes`, `beginner friendly martial arts`, `beginner martial arts classes`,
+`beginner martial arts styles`, `best martial arts for adult beginners`, `easy
+martial arts for beginners`, `learn martial arts as an adult`, `martial arts
+classes for beginners`, `martial arts fitness for adults`, `martial arts for
+adults`, `martial arts for beginners adults`, `martial arts schools for adults`,
+`martial arts workouts for adults`, `self defense for adults`, `starting martial
+arts as an adult`.
+
+Three observations:
+
+- **Casing is inconsistent with itself.** One tag is Title Case (`Adult Beginner
+  Martial Arts`) and the other nineteen are lower case. WordPress will render the
+  archive headings exactly as typed.
+- **`martial arts for adults` is the slug of an existing post**, so this tag
+  archive competes with `/martial-arts-for-adults/` directly (issue 7).
+- **`adult combat training` is the only tag naming something the page does not
+  discuss**, and it reads as copied from a striking post rather than written for
+  this one.
+
+Unlike every other recent post, **none of these tags names an untaught
+discipline** — no Karate, Kickboxing or Krav Maga tag, despite the body
+mentioning all three. That is the correct behaviour and worth noting.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -6836,12 +6977,47 @@ Google then has to pick one and ranks all of them weaker.
 | Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
 | **Martial arts for kids (confirmed, two posts plus a program page)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/kids-bjj-classes/` (program page) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
-| Martial arts for adults | `/martial-arts-for-adults/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) |
+| **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
 | **Muay Thai gear (confirmed, two pages on one keyword)** | `/muay-thai-gear/` · `/muay-thai-gear-for-safety/` — see below |
 | **Muay Thai apparel (confirmed, THREE pages on what to wear)** | `/muay-thai-clothing/` · `/what-to-wear-to-muay-thai-class/` · `/muay-thai-gear/` — see below |
 | **Sambo (confirmed, FOUR pages for a discipline with no programme — two pairs, each duplicating the other's subject)** | `/sambo-martial-art/` · `/sambo-techniques/` · `/types-of-sambo/` · `/sambo-moves/` — see below |
 | Gloves (partial overlap) | `/kick-boxing-gloves/` · `/muay-thai-gloves/` |
 | **"Versus" comparisons (confirmed, FOUR posts, one pair the same comparison twice)** | `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` · `/muay-thai-vs-kickboxing/` · `/muay-thai-vs-mma/` — see below |
+
+#### The adult cluster: four posts and two programme pages for one audience
+
+`/adult-beginner-martial-arts/` (22 January 2026, 3,455 words) joins three posts
+already chasing adults who want to start:
+
+| Page | Published | H2s | What it is |
+|---|---|---|---|
+| `/martial-arts-classes/` | 2025-03-29 | — | general classes page |
+| `/martial-arts-classes-2/` | — | — | WordPress `-2` duplicate of the above (issue 24) |
+| `/martial-arts-for-adults/` | 2025-01-23 | 8 | benefits of training as an adult |
+| `/adult-beginner-martial-arts/` | **2026-01-22** | **12** | adults with no experience |
+| `/adult-bjj-classes/` · `/adult-muay-thai-classes/` | — | — | the two real programme pages |
+
+**The closest overlap is `/martial-arts-for-adults/`, and it is looser than
+expected.** Only **1 of the new page's 12 H2s** matches one of its 8 —
+"Conclusion". Heading-word overlap is 20.6%. The two pages split the audience
+cleanly in practice: `/martial-arts-for-adults/` is organised by *benefit*
+("Physical Fitness and Health Benefits", "Mental Health and Stress Relief",
+"Cultural Appreciation and Lifelong Learning"), while the new page is organised by
+*objection and next step* ("Is It Too Late to Start Martial Arts?", "Common Fears
+& Myths", "Free Trial Class for Beginners").
+
+**That makes this the least duplicative addition to the project so far**, and the
+one with the strongest commercial case: it is a conversion page for the gym's core
+audience, and it is the only page on the site that answers the questions an
+out-of-shape 45-year-old actually has before walking in. If the client
+consolidates the adult cluster, **this is the page to keep** — the opposite of the
+recommendation on every other cluster in this issue.
+
+**What to do:** 301 `/martial-arts-classes-2/` into `/martial-arts-classes/`
+(issue 24, unchanged), merge `/martial-arts-for-adults/`'s benefit sections into
+the new page's "Benefits of Adult Beginner Martial Arts Training" H2, and point
+both programme pages at it as the beginner explainer. Fix the boxing, MMA and
+kickboxing claims first (issue 39).
 
 #### The comparison-post group
 
@@ -11986,6 +12162,14 @@ Added to the commercial-claims verification list, all needing client confirmatio
 | "No hidden fees appear and payment plans help long term students" | no |
 
 **The page states no prices**, so nothing was invented and nothing needed omitting.
+
+**2026-01 addition — and this one has its own H3.**
+`/adult-beginner-martial-arts/` advertises it under the heading "Small Group &
+One on One Coaching": "For those who prefer more focus **one on one coaching**
+lets you move at your exact pace address specific goals and build confidence
+faster." It is the most prominent placement yet — a named service with its own
+section on a conversion page — and it is still confirmed by no programme page, no
+price and no booking route.
 
 ### 74. Posts that sell equipment the site has no shop for — CONTENT (accuracy), TRUST — **CRITICAL, the client must confirm**
 

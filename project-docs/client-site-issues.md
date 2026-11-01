@@ -25,6 +25,35 @@ a competing gym.
 
 ### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A page that needed no omission, and names the risk itself
+
+`/adult-muay-thai-classes-near-me/` (27 February 2026, 3,938 words) is a striking
+page teaching elbows, knees and clinch work, and **not one sentence required
+omission**. Every risk statement is qualified: "You practice with partners to feel
+pressure **safely**", "Instructor enforce strict safety rules controlled sparring
+proper warm ups and constant supervision **to prevent injuries**", "keep contact
+**light to moderate**", "stop rounds **instantly if needed**", "the focus stays on
+learning **safely** and having fun".
+
+**More than that, its FAQ is the only place on the entire site where the business
+names concussion as a risk of its own product.** FAQ 10, "What are the negatives
+of Muay Thai?", answers in full:
+
+> Frequent impact causes bruises, shin conditioning pain and **joint wear**
+> especially knees, elbows and hands. Hard sparring or fights lead to cuts black
+> eyes and **occasional concussions**. Training is very intense so **overtraining
+> fatigue or burnout** happens if you push too much without rest. The high
+> physical demands can strain the body long term leading to **arthritis or chronic
+> pain later in life** … **Injury risk exists** especially without good coaching
+> or protective gear.
+
+Set against the sixty-four omitted sentences above, this is what the client should
+be shown as the model. The same business that told readers neck bridges are not
+risky and that children cannot be hurt has, on this page, published an honest
+list of the downsides of its own class. **Nothing here was altered.** The
+recommendation is to move this answer out of the accordion and into the body, and
+to use its tone on the other seventeen pages.
+
 #### The eighteenth page, three sentences, and the worst context in the whole issue
 
 `/mma-classes-for-kids/` (26 February 2026) publishes **three** sentences that
@@ -4572,6 +4601,56 @@ discount is now on a fourth page and still confirmed nowhere), "**fight camps**"
 your own rounds or pro fights", "**video analysis**" and "**nutrition tips**" —
 none confirmed by a programme page.
 
+**2026-02 addition — `/adult-muay-thai-classes-near-me/`: a second Muay Thai
+POSITIVE on audience accuracy, with one word that spoils it.**
+
+**This page belongs with `/martial-arts-near-me-classes/`,
+`/adult-beginner-martial-arts/` and `/muay-thai-classes-coppell/`** as a page that
+describes a real programme without inventing one:
+
+| Check | Result |
+|---|---|
+| Audience named | **adults only** — "adult" and "adult students" throughout |
+| "children", "child", "teen" in the body | **zero occurrences** |
+| A kids Muay Thai class invented | **no** |
+| Match to `/adult-muay-thai-classes/` | **exact** |
+
+That matters because three pages have already advertised kids MMA or kids Muay
+Thai that do not run (see the READ FIRST entries above). This one does not.
+
+**The one exception is not the writer's fault — it is the auto-linker.** One
+sentence reads:
+
+> Adult students join to learn the art of muay thai training muay thai muay thai
+> kickboxing alongside mma mixed **martial arts for kids** brazilian jiu jitsu jiu
+> jitsu and combat
+
+The plugin has wrapped the phrase "martial arts" inside "mma mixed martial arts"
+and pulled the anchor text "**martial arts for kids**" in with it, pointing at
+`/martial-arts-for-adults/`. So an adults-only page now contains the words "for
+kids", mid-sentence, linked to a page about adults. See issue 64. **Reproduced
+verbatim and the link kept local**, because rewriting it would hide the defect.
+
+**Disciplines named with no programme page**, all as part of a blended-curriculum
+claim rather than named classes: **MMA / mixed martial arts** (19 mentions),
+**kickboxing** (29), **boxing** (34, mostly "kickboxing" and "boxing style").
+Brazilian jiu jitsu (7) and jiu jitsu (17) do have programme pages. The repeated
+formula — "muay thai kickboxing thai kickboxing classes kickboxing classes with
+mma mixed martial arts brazilian jiu jitsu jiu jitsu and combat" — appears in
+**five** paragraphs verbatim.
+
+**Certified instructors: eighth page, still nothing named.** H3 "Certified and
+Experienced Muay Thai Instructors"; "Our **certified and experienced muay thai
+instructors** bring deep knowledge from years of training teaching and real
+practice". No certifying body, no **kru** or **ajarn** title, no **prajioud**
+armband, no lineage, no camp, no name — none of those words appears anywhere.
+
+**Also claimed, and unconfirmed:** "structured **camps**", "**weight management
+camp**", "**mock fights**", "Instructor break down **footage** from your own
+rounds or pro fights", "**personalized plans**" and "**progress tracking**" — an
+H3 of its own, "Personalized Coaching and Progress Tracking". No programme page
+mentions any of it.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -7729,6 +7808,33 @@ Three flags:
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/adult-muay-thai-classes-near-me/`: ten tags, none carrying
+the city, on a page whose slug says "near me".** The post carries 10 tags: `Adult
+Muay Thai Classes`, `Muay Thai fitness workout`, `Muay Thai training for adults`,
+`adult kickboxing program`, `beginner to advanced Muay Thai`, `combat sports
+conditioning`, `professional Muay Thai coach`, `self defense for adults`,
+`striking and clinch training`, `thai boxing gym`.
+
+**The audience targeting is accurate** — three tags say "adults" or "for adults"
+and none says kids, youth or teen, which is the right behaviour and the opposite
+of `/muay-thai-classes-coppell/`'s `youth Muay Thai Coppell`.
+
+Three flags:
+
+- **`adult kickboxing program` sells a programme that does not exist.** Kickboxing
+  has no programme page, and "program" states it as a named offering rather than
+  a technique (issue 39).
+- **`professional Muay Thai coach` is a credential claim in a tag**, on a page
+  that names no certification (issue 39).
+- **Not one tag carries the city**, while the slug carries "near me". Compare
+  `/muay-thai-classes-coppell/`, where all ten do. The two posts are the same
+  template a day apart and the local targeting is inverted between them.
+
+**No competitor is named and no untaught discipline beyond kickboxing.**
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8106,7 +8212,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
-| **Muay Thai in Coppell (confirmed, THREE posts plus two programme pages)** | `/muay-thai-classes-coppell/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
+| **Muay Thai (confirmed, FOUR posts plus two programme pages, one post colliding with a programme slug)** | `/adult-muay-thai-classes-near-me/` · `/muay-thai-classes-coppell/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/muay-thai-training/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
 | **Martial arts for kids (confirmed, FIVE posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/mma-classes-for-kids/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
@@ -8365,6 +8471,65 @@ misspelling is already logged at issue 68. 301 them into one, keep this page and
 
 **Fix the age bands first** — the three pages currently publish three different
 answers for the same classes (see issue 86f).
+
+#### ⚠ A blog post whose slug differs from a programme page only by "-near-me" — **CRITICAL**
+
+**This is the most direct cannibalisation in the project.**
+
+| | |
+|---|---|
+| Programme page | `/adult-muay-thai-classes/` |
+| Blog post | `/adult-muay-thai-classes-near-me/` |
+
+The two URLs are identical apart from a four-word suffix. They target the same
+query, from the same domain, for the same audience — and **the programme page is
+the one that should rank**, because it is the page that books the class. The blog
+post is 3,938 words of supporting copy sitting on top of the URL that converts.
+
+**The title makes it worse.** The post's title tag and primary keyword are both
+"**Adult Muay Thai Classes**" — with no "near me" — so the URL chases one query
+while the title chases another, and the one the title chases is the programme
+page's. Published 27 February 2026.
+
+**Against the programme page the content does not overlap at all**, which is the
+one encouraging fact here:
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/adult-muay-thai-classes/` (programme page) | **0 of 10** | **0 of 34** | 39.0% |
+| `/muay-thai-classes-coppell/` | 4 of 10 (40%, boilerplate) | **19 of 34 (55.9%)** | **89.8%** |
+
+**But look at the second row. 19 of this post's 34 headings are byte-identical to
+`/muay-thai-classes-coppell/`, and 15 of those are real section headings, not
+boilerplate:**
+
+> Fundamental Strikes Punches Kicks Knees and Elbows · Pad Work and Heavy Bag
+> Training · Clinch Techniques and Close Range Control · Defensive Movements and
+> Counter Attacks · Strength Conditioning and Endurance Training · Increased
+> Confidence and Mental Toughness · Practical Self Defense Skills · Stress Relief
+> Through High Intensity Training · No Prior Martial Arts Experience Required ·
+> Step by Step Skill Development · Controlled Sparring Sessions · Small Class Sizes
+> for Individual Attention · Proven Track Record of Student Success · Certified and
+> Experienced Muay Thai Instructors · Supportive and Motivating Training
+> Environment
+
+**89.8% heading-word overlap is the highest figure in this document**, ahead of
+the 82.3% between the two kids pages. The two posts were published **one day
+apart** — 26 February 18:49 and 27 February 11:13 — from one template with
+"Coppell" swapped for "Adult". Several paragraphs are near-identical too, down to
+the same sentence shapes about pad work, clinch and sparring.
+
+**Recommendation: 301 the blog post into the programme page, not the other way
+round.** `/adult-muay-thai-classes/` is the page with the class pass form, the
+free-trial offer and the booking route; it should own both queries. Then fold
+whatever is genuinely useful from this post — the beginner progression and the
+advanced sparring sections are decent — into either the programme page or
+`/muay-thai-classes-coppell/`, and 301 this URL away.
+
+**If the client keeps only one blog post on adult Muay Thai, keep
+`/muay-thai-classes-coppell/`**: it has the city in the H1, 43 Coppell mentions
+and all ten tags carrying the city, where this post names Coppell twice and never
+uses "near me" in the body at all despite the slug (see local signals below).
 
 #### The Muay Thai local cluster, and the clearest keeper in this document
 
@@ -10338,6 +10503,22 @@ or delete the caption.
 project already uses for the captioned tables on `/martial-arts-for-kids/`, so
 no new CSS was needed.
 
+**2026-02 addition — the two-"Why"-H2 template defect, now on a third page.**
+`/adult-muay-thai-classes-near-me/` runs "**Why Sixth Sense MMA Are the Top
+Choice for Adult Muay Thai Classes**" and then, four H3s later, "**Why Choose
+Sixth Sense MMA for Adult Muay Thai Classes**". Between and beneath them, eight
+H3s cover overlapping ground — location, class size, track record and culture
+under the first; instructors, programmes, facility and environment under the
+second — and two of those H3s are themselves near-duplicates: "Positive and
+Respectful Training Culture" and "Supportive and Motivating Training
+Environment", whose paragraphs share whole sentences ("Coach instructor and
+trainer create an environment where hard work gets respect everyone stays
+motivate and people connect over shared dedication" appears in both, verbatim).
+
+The same pair of "Why" H2s appears on `/muay-thai-classes-coppell/` and
+`/mma-classes-for-kids/`. All three are reproduced verbatim and all three put
+both headings in the table of contents.
+
 ### 16. Empty headings — SEO — Low
 
 Heading tags with no text in them.
@@ -11138,7 +11319,19 @@ section it belongs to; re-upload the Orlando, Muay Thai Clothing, MMA Brands,
 Sambo and Muay Thai Backpack images with descriptive names; avoid two files that
 differ only by extension, and never leave an upload named as a bare number.
 
-### 50. THIRTEEN "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+### 50. FOURTEEN "near me" pages competing for the same local searches, three of them on one phrase — SEO — **CRITICAL**
+
+**2026-02 addition — the fourteenth, and the first whose own copy never says "near
+me".** `/adult-muay-thai-classes-near-me/` carries "near me" in the slug and
+**nowhere else**: not in the title, not in the H1, not once in 3,938 words of
+body, and not in any of its ten tags. Its local content is two mentions of
+Coppell (both in the address), one "Texas", and the phrases "nearby areas" and
+"surrounding areas", neither of which names anywhere. Compare
+`/muay-thai-classes-coppell/`, which names the city 43 times and nine
+neighbouring towns. A "near me" URL with no location signal in the content is the
+weakest form of this pattern: the suffix is doing no work, and it collides with a
+programme page (see issue 7).
+
 
 **2026-02 addition — the thirteenth, and the weakest local signal of the set.**
 `/kids-self-defense-classes-near-me/` repeats "Near Me" **22 times** in its body and
@@ -12999,6 +13192,30 @@ split words and all, with the URLs mapped to their local files and the plugin's
 `data-wpil-monitor-id` attributes stripped as ordinary editor markup. The build
 fails if either anchor is tidied up.
 
+**2026-02 addition — the auto-linker has now inserted the words "for kids" into
+an adults-only page.** On `/adult-muay-thai-classes-near-me/`:
+
+> … alongside mma mixed <a>**martial arts for kids**</a> brazilian jiu jitsu jiu
+> jitsu and combat …
+
+The target phrase in the sentence was "martial arts", inside "mma mixed martial
+arts". The plugin matched it, linked it to `/martial-arts-for-adults/`, and the
+anchor text it used — "martial arts for kids" — has become part of the visible
+sentence. The result is a page that says "for kids" once, in the middle of a list
+of adult disciplines, linking to a post about adults.
+
+**This is a new failure mode for this plugin.** Previously it cut words in half
+and wrapped whole clauses; here it has **added words that change what the page
+says about who the classes are for**, on a site where kids-class claims are
+already the most serious accuracy problem in this document.
+
+Three other anchors on the same page are the ordinary version of the defect, all
+pointing at blog posts rather than programme pages: "**muay thai stance**" →
+`/muay-thai-stance/` in a sentence about stress relief ("High intensity muay thai
+stance melt away daily stress" — the link has replaced the noun and broken the
+grammar), "**fight train**" → `/fight-training-near-me/`, and "**jiu jitsu**" →
+`/jiu-jitsu-guard-position/`.
+
 ### 65. A "Top Ten Martial Arts" list that is five disciplines counted twice — CONTENT (accuracy), SEO — **High**
 
 `/top-ten-martial-arts-for-self-defense/` is built around a numbered list of ten
@@ -13243,6 +13460,19 @@ the page being a replica of what is live. The build fails if it is silently
 fixed.
 
 ---
+
+**2026-02 addition — a URL and a title chasing different queries.**
+`/adult-muay-thai-classes-near-me/` has the slug **adult-muay-thai-classes-near-me**
+and the title tag **"Adult Muay Thai Classes | Train, Build Strength"**. The URL
+targets "adult muay thai classes near me"; the title targets "adult muay thai
+classes" — which is the query the programme page at
+`/adult-muay-thai-classes/` should win (issue 7).
+
+Both were supplied as-is and **both are reproduced exactly**. But the combination
+means the post competes with the programme page on the title and with the twelve
+other "near me" pages on the URL, while its body contains no location signal at
+all (issue 50). It is the only page in the audit whose slug, title and content
+each point somewhere different.
 
 ### 69. A minimum age that contradicts the gym's own programme, its own page and its own tags — CONTENT (accuracy) — **High**
 

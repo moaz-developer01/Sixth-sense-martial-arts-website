@@ -25,6 +25,17 @@ a competing gym.
 
 ### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A third page that needed no omission
+
+`/history-of-muay-thai/` (8 March 2026, 3,561 words) required **no omission**.
+"Concussion" and "brain" do not appear; the only risk language is historical and
+comparative — "Officials supervised matches **to prevent serious harm**" (about
+19th-century regulators), "These changes made Muay Thai **safer** and more
+professional", "gear helped **prevent fractures**". All kept verbatim.
+
+The closing Contact section is a class pitch, which is where these pages usually
+slip, and it makes no safety claim at all.
+
 #### A second page that needed no omission
 
 `/benefits-of-muay-thai/` (7 March 2026, 2,814 words) is a benefits page for a
@@ -7902,6 +7913,25 @@ generates seven near-identical thin archives competing with the post itself.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03 addition — `/history-of-muay-thai/`: ten tags, all on topic, and the
+second clean set in a row.** The post carries 10 tags: `History of Muay Thai`,
+`Muay Thai background`, `Muay Thai culture and history`, `Muay Thai evolution`,
+`Muay Thai history`, `Muay Thai martial art history`, `Thailand Muay Thai
+history`, `ancient Muay Thai fighting`, `origins of Muay Thai`, `traditional Muay
+Thai`.
+
+**No untaught discipline, no competitor, no typo** — in particular **no "muat
+boran"**, the misspelling carried by `/muay-thai-muay-boran/`. Every tag matches
+the page's subject.
+
+The weakness is again repetition: **four of the ten are "Muay Thai" plus a synonym
+for history** (history, Muay Thai history, martial art history, Thailand Muay Thai
+history), and `History of Muay Thai` and `Muay Thai history` are the same phrase
+reversed, which will generate two archives for one idea.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8264,7 +8294,7 @@ a 301. `/martial-arts-kali-sticks/` is the better survivor — it is the URL the
 site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
-### 7. Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SEVEN on belt progression, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+### 7. Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SEVEN on belt progression, SIX on Muay Thai origins, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -8735,6 +8765,46 @@ best written of the Muay Thai set — no invented statistics, no safety overclai
 no kids-class invention, no pricing promise (see issue 39) — and the numbered
 format suits featured snippets. Merge `/muay-thai-fitness-workout/` into it if
 anything is cut, since its workout content is a subset of benefits 1 to 3.
+
+#### The Muay Thai origins cluster: six pages telling one story
+
+`/history-of-muay-thai/` (8 March 2026, 3,561 words) is the sixth page on where
+Muay Thai came from:
+
+| Page | Angle |
+|---|---|
+| `/what-is-muay-thai/` | what the art is, with an origin section |
+| `/muay-boran/` | the ancient predecessor |
+| `/muay-thai-muay-boran/` | the two compared |
+| `/are-there-multiple-styles-of-muay-boran/` | the regional styles |
+| `/muay-chaiya/` | one regional style in depth |
+| `/history-of-muay-thai/` | **the chronological history, era by era** |
+
+**Heading overlap is low, and lower than the word overlap suggests:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/muay-boran/` | 1 of 14 (7.1%, "Conclusion") | 3 of 36 (8.3%) | **57.6%** |
+| `/what-is-muay-thai/` | 1 of 14 (7.1%, "Conclusion") | 1 of 36 (2.8%) | 55.3% |
+
+**The closest pair is `/history-of-muay-thai/` and `/muay-boran/`** at 57.6%
+heading-word overlap — both tell the ancient-origins story, both cover Rama-era
+modernisation, and both end on cultural significance. But the structures differ
+genuinely: this page is organised by **dynasty** (Sukhothai → Ayutthaya →
+Rattanakosin → modern → global → international → cultural), which none of the
+other five uses.
+
+**The duplication problem here is not structural, it is factual** — six pages
+telling one story with incompatible dates and kings (issue 91). Consolidating
+would fix both at once.
+
+**Recommendation: keep `/history-of-muay-thai/` as the origins page** — it is the
+best organised and the only one with a chronology — and 301 `/muay-boran/` and
+`/muay-thai-muay-boran/` into it after merging their regional-style content, which
+this page is missing entirely. Keep `/muay-chaiya/` and
+`/are-there-multiple-styles-of-muay-boran/` only if the client wants
+style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
+before anything else.
 
 #### The comparison-post group
 
@@ -10716,6 +10786,15 @@ the one place the rebuild deliberately departs from the live markup, because an
 empty heading is an accessibility fault rather than content. The build asserts
 that exactly one heading was skipped on this post.
 
+**2026-03 addition — `/history-of-muay-thai/`: "Battle field" as two words, in the
+H1.** The page's only H1 reads "History of Muay Thai From Ancient **Battle field**
+Combat to a Global Martial Art". An H1 is the single most visible string on a page
+after the title tag, and this one splits a compound noun. Reproduced exactly.
+
+**Also stripped in the rebuild, text kept:** two paragraphs are wrapped in
+`<span style="font-weight: 400;">`, the same editor leftover found on
+`/benefits-of-muay-thai/`. The project's pages carry no inline styles.
+
 ### 23. Heading level skipped (H4 with no H3 above it) — SEO — Low
 
 **A whole article built one level too deep: one H2, seven H3s and TWENTY-NINE
@@ -10754,6 +10833,26 @@ understand the page.
 **Affected:** `/martial-arts-classes-2/`.
 
 **What to do:** change "Another Inspiring Tale" to an H3.
+
+**2026-03 addition — `/history-of-muay-thai/`: seventeen H4s, almost none with an
+H3 above them.** The page runs H2 → H4 for most of its length:
+
+```
+H2  Sukhothai Era (1238–1438) in the History of Muay Thai
+H4    Muay Thai as the First Thai Army's Combat System     <- no H3 between
+H4    Role of Muay Thai in Military and Royal Training
+H2  Ayutthaya Era (1350–1767) in the History of Muay Thai
+H4    Transition from Military Technique to Popular Sport  <- no H3 between
+H4    Muay Thai Competitions at Festivals and Public Events
+```
+
+Only the first two H2s use H3 subheadings; the remaining eight use H4 directly.
+The page therefore has **14 H2s, 5 H3s and 17 H4s**, with the level-3 tier skipped
+in eight of ten sections. **Reproduced exactly as published**, including the
+resulting gap in the document outline.
+
+This is the same defect logged above, at much larger scale: one page accounts for
+more skipped levels than every previously logged instance combined.
 
 ### 28. A post with no H2 headings at all — SEO — Medium
 
@@ -13501,6 +13600,35 @@ than what is published.
 
 ---
 
+**2026-03 addition — the auto-linker has now put a Coppell gym's class timetable
+into the 13th century.** `/history-of-muay-thai/` contains two sentences that the
+plugin has rewritten into anachronisms:
+
+> The first Thai army relied on **Adult Muay Thai classes** knowledge to win fights
+> and protect the kingdom.
+
+> [King Rama V's] efforts turned **Teen Muay Thai training** into an official
+> national sport.
+
+In the first, the Sukhothai army of the 1200s is credited with attending adult
+Muay Thai classes. In the second, a 19th-century king of Siam makes **teen Muay
+Thai training** the national sport of Thailand. Both anchors point at this gym's
+programme pages, which is where the phrasing came from: the plugin matched a
+programme name inside the running text and pulled its own anchor wording in with
+it, exactly as it did with "martial arts for kids" on
+`/adult-muay-thai-classes-near-me/`.
+
+**Both are reproduced verbatim and both links are kept**, because the targets are
+correct pages and rewriting the sentences would hide the defect. But these are the
+clearest examples yet of why the auto-linker should be turned off: it is no longer
+just mangling grammar, it is **inserting false statements into historical copy**.
+
+A third anchor on the same page, "**Kids martial arts training**" →
+`/kids-bjj-classes/`, is the benign version: the sentence "Today Muay Thai is
+practiced worldwide… influencing Kids martial arts training" reads oddly but says
+nothing false, and Kids BJJ is the gym's only kids programme, so the link was
+kept.
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -15663,6 +15791,123 @@ rates**". These are US market averages, not Sixth Sense's, and the page's own
 "Affordable Membership Plans" section names no price. Same defect as
 `/muay-thai-classes-coppell/` (issue 48), and here the question is about **jiu
 jitsu** on a page selling **MMA**.
+
+### 91. Six pages tell the Muay Thai origin story and they disagree with each other on dates, kings and titles — CONTENT (accuracy) — **High**
+
+`/history-of-muay-thai/` (8 March 2026) is the sixth page covering Muay Thai and
+Muay Boran origins. It is the most organised of them — a clean era-by-era
+structure — and it **contradicts its siblings on three substantive points and
+itself on a fourth**. Everything below is quoted exactly and reproduced verbatim.
+
+#### What this page states
+
+**Dates and periods:**
+
+| Claim | Exact wording |
+|---|---|
+| Sukhothai | "**Sukhothai Era (1238–1438)**"; FAQ: "began in the Sukhothai Kingdom around the **13th century**" |
+| Ayutthaya | "**Ayutthaya Era (1350–1767)**" |
+| Rattanakosin | "**Rattanakosin Era (1782–Present)**" |
+| Nai Khanom Tom | body: "captured during war in the **late 1700s**"; FAQ 8: "a Thai fighter in the **18th century**" |
+| Stadiums | "Rajadamnern opened first in **1941** and Lumpinee followed in **1956**" |
+| IFMA | "known as IFMA formed in **1993**" |
+| IOC | "IFMA gained provisional recognition from the IOC in **2016** and full recognition later" |
+| Modernisation | "Modern Muay Thai took shape in the **20th century**" |
+| Global spread | "**After World War II** Muay Thai gained huge international popularity" |
+| Age of the art | FAQ 4: "Muay Thai traces back to ancient Thailand **over 500 years ago**" |
+
+**Named figures:** **Nai Khanom Tom** ("widely regarded as the father of Muay
+Thai"), **King Prachao Sua (The Tiger King)** ("He ruled in the Ayutthaya Era and
+trained in Muay Thai himself. The king often **fought in disguise** at local
+matches"), **King Rama V** ("played a major role in making Muay Thai a national
+symbol… worked with the **sport authority of Thailand**"), the **Burmese** army,
+and the **Sport Authority of Thailand**.
+
+**No source, reference, historian or citation appears anywhere on the page.** The
+words "source", "according to", "historian" and "research" occur zero times.
+
+#### The contradictions across the cluster
+
+**1. Nai Khanom Tom is given three different centuries on three pages.**
+
+| Page | When |
+|---|---|
+| `/history-of-muay-thai/` body | "the **late 1700s**" |
+| `/history-of-muay-thai/` FAQ 8 | "the **18th century**" |
+| `/muay-boran-techniques/` | "defeating multiple Burmese champions in **1774**"; "**18th century**" |
+| `/are-there-multiple-styles-of-muay-boran/` | "who in the **16th century** defeated Burmese opponents" |
+
+**The 16th-century claim is roughly two hundred years adrift** of the other three
+and of the generally accepted date. One of the four pages is wrong and a reader
+comparing any two of them can see it.
+
+**2. He is the father of a different art depending on the page.** This page: "Nai
+Khanom Tom is widely regarded as **the father of Muay Thai**". 
+`/muay-boran-techniques/`: "**There is no single “father”**, but Nai Khanom Tom
+… is widely regarded as the legendary **father of Muay Boran** (and Muay Thai)".
+
+**3. Two different kings are credited with modernising the sport.**
+
+| Page | Who modernised it |
+|---|---|
+| `/history-of-muay-thai/` | "**King Rama V** … helped set rules for safer matches… turned [it] into an official national sport" |
+| `/muay-boran/` | "Later leaders like **King Rama VII** modernized the Thai martial arts… Around **King Rama VII's** time changes started happening" |
+| `/are-there-multiple-styles-of-muay-boran/` | "modernization under **King Rama VII** introduced Western influences like boxing rings, gloves, referees, weight classes, and timed rounds" |
+
+Two pages give the gloves-and-rings reform to Rama VII; this one gives the
+rule-setting and national promotion to Rama V. They may both be partly right, but
+nothing on any of the three pages reconciles them, and
+`/are-there-multiple-styles-of-muay-boran/` separately refers to "**King
+Chulalongkorn V**" — who **is** Rama V — as a different figure in a different
+role, so that page names the same king twice under two names.
+
+**4. The page contradicts itself on how old the art is.** The body dates the
+origin to **1238** (about 790 years). FAQ 4 says "**over 500 years ago**".
+
+#### Regional styles: this page names none
+
+**Muay Korat, Muay Chaiya, Muay Lopburi, Muay Thasao, Mae Mai and Look Mai appear
+zero times.** So there is no transliteration conflict to report from this page —
+but it is the site's designated history article and it omits the regional-style
+story that four sibling pages are built on. The existing inconsistencies in that
+story therefore stand uncorrected, including the "**Muay Lopbur**" misspelling on
+`/are-there-multiple-styles-of-muay-boran/`.
+
+**The Muay Boran predecessor claim does match the cluster**, which is the one
+point of agreement: "**Muay Boran is the ancient form of Muay Thai** that Thai
+warriors practiced long ago" sits comfortably with `/muay-boran/`'s "Muay boran
+holds a special place as **the predecessor**" and `/muay-boran-techniques/`'s
+"**ancestor of modern Muay Thai**".
+
+#### Cultural and religious claims, for client review
+
+These are live practices, so an inaccurate statement is a credibility problem with
+practitioners. **Reproduced verbatim, nothing altered:**
+
+- "Fighters perform **Wai Kru Ram Muay** before every match to pay respect to
+  teachers parents and ancestors. The **Ram Muay** dance shows personal style and
+  focus."
+- "Fighters wear **Mongkol** on their heads and **Prajioud** on their arms as
+  **sacred items**. These ceremonies start with music from traditional Thai
+  instruments."
+- FAQ 2, "Is Muay Thai Buddhist?": "Muay Thai is **not a religion** but it has
+  strong ties to Buddhism because Thailand is mostly Buddhist… This ritual comes
+  from **Thai Buddhist and animist traditions**. Many fighters pray or make
+  offerings at temples for protection and strength."
+
+**Two notes for whoever reviews this.** The page spells it "**Wai Kru**" six times
+and never "Wai Khru", which is the more common transliteration and the spelling
+used in the brief; and "before **every** match" is stated absolutely where
+practice varies by promotion and ruleset. Neither is altered.
+
+#### Recommendation
+
+**Pick one set of dates and one lineage story, then make all six pages agree.**
+The specific decisions needed are: which century Nai Khanom Tom fought in, whether
+he is the father of Muay Thai or Muay Boran or neither, and whether Rama V or Rama
+VII modernised the sport. Until those three are settled, every page in the cluster
+undermines the other five, and a reader who checks two of them finds the site
+contradicting itself on its own subject.
 
 ## How these were checked
 

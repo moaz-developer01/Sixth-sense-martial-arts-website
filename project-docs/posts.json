@@ -829,5 +829,13 @@
     "image": "images/mt-benefits-01.jpg",
     "date": "2026-03-07T12:03:07+00:00",
     "category": "Martial Arts"
+  },
+  {
+    "slug": "history-of-muay-thai",
+    "title": "History of Muay Thai From Ancient Battle field Combat to a Global Martial Art",
+    "excerpt": "History of Muay Thai tells the story of a powerful martial art born in Thailand. Also known as Thai boxing this combat sport uses fists elbows knees a",
+    "image": "images/mt-history-01.jpg",
+    "date": "2026-03-08T09:27:05+00:00",
+    "category": "Martial Arts"
   }
 ]

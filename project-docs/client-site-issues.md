@@ -23,7 +23,57 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. SIXTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. SEVENTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The seventeenth page, and one of the two is attached to clinch sparring
+
+`/muay-thai-classes-coppell/` (26 February 2026) publishes **two** sentences that
+have been **omitted from the rebuild**, each leaving an HTML comment:
+
+> You practice with partners to feel real pressure **without danger**.
+
+> Coach adjust intensity and focus so beginner feel comfortable and fighter get
+> challenged **without risk**.
+
+**The first is in the clinch section**, directly after "you learn to control an
+opponent up close grab neck sweep throw knees and stay balanced". Partner clinch
+work with knees is the single highest-contact thing this page describes, and the
+sentence says it carries no danger. "Without danger" is the same wording already
+omitted from `/muay-boran-techniques/` and `/anti-bullying-martial-arts-for-kids/`,
+so this is its third appearance.
+
+**The second is in the closing section on programme structure** and covers
+everyone from beginner to fighter, including the "tougher sparring" the same
+paragraph advertises.
+
+**The page gets it right four other times, and all four were kept verbatim:**
+
+| Where | Exact wording |
+|---|---|
+| Controlled sparring | "Sessions stay technical not wild **to avoid injury** and help you read opponents better" |
+| Controlled sparring | "full combos **while staying protected**" |
+| Facility | "Coach enforce strict safety rules controlled sparring proper warm ups and constant supervision **to prevent injuries**" |
+| Fight prep | "We cover everything from **cutting weight safely** to peaking on fight day" |
+
+So the page knows how to write the qualified version — it does so four times — and
+then writes the unqualified version twice. Both fixes are one word.
+
+**One sentence was considered and kept**, and the reasoning is recorded because it
+goes the other way from a similar call: "Try Muay Thai Classes Coppell **with no
+risk** through our free trial class." On `/muay-boran-techniques/` the comparable
+sentence was cut, because its object was "muay boran **techniques** risk free" — a
+claim about the training. Here the object is the *trial*, the phrase sits inside a
+heading called "Free Trial Muay Thai Class in Coppell", and the sentences around
+it are about cost and commitment ("**No pressure to sign up** right then"). It
+reads commercially, so it stays. The client may still prefer "**at no cost**",
+which removes the ambiguity entirely.
+
+**Notably, there is no concussion or head-trauma claim anywhere on the page.** For
+a striking article that teaches elbows and head kicks, the words "concussion" and
+"brain" do not appear at all — better than `/types-of-sambo/`, which required four
+omissions on exactly that ground.
+
+**Running total: 61 sentences across seventeen posts.**
 
 #### The sixteenth page, and the promise is about adults and children on the mat together
 
@@ -675,7 +725,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **SIXTEEN** posts promising an absence of injury risk or guaranteeing safety, 59 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **SEVENTEEN** posts promising an absence of injury risk or guaranteeing safety, 61 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -4239,6 +4289,68 @@ business. Nothing was altered; karate, taekwondo and "gracie" are **reproduced
 verbatim and left unlinked**, and no family-class reference was linked because no
 such programme page exists.
 
+**2026-02 addition — `/muay-thai-classes-coppell/`: the most accurate page in the
+audit on who it sells to, and the first whose body invents nothing.**
+
+**This is a POSITIVE, and it belongs alongside `/martial-arts-near-me-classes/`
+and `/adult-beginner-martial-arts/`.** On the central question — who are these
+classes for — the page is exactly right:
+
+| Check | Result |
+|---|---|
+| Age groups named | **"adult" × 10, "teens" × 10** — and nothing else |
+| "kids", "children", "child", "youth" in the body | **zero occurrences** |
+| Match to `/adult-muay-thai-classes/` and `/teen-muay-thai-classes/` | **exact** |
+| A kids Muay Thai class invented | **no** |
+
+That matters because the gym's kids offering is Kids BJJ only, and
+`/mma-gyms-near-me/` already advertised "Kids' MMA Programs" that do not exist.
+This page had every opportunity to do the same and did not.
+
+**Two exceptions, and the first is in the tags rather than the body.**
+
+1. **The tag `youth Muay Thai Coppell` sells the class the body correctly avoids.**
+   A parent who finds that tag archive is being offered a kids Muay Thai class
+   that does not exist. See issue 30. This is the inverse of
+   `/kids-self-defense-classes-near-me/`, where the body overclaimed and the tags
+   were clean.
+2. **The cross-discipline list.** Six times the page says the programme "mixes
+   muay thai with **mma brazilian jiu jitsu bjj jiu jitsu jiu jitsu classes boxing
+   kickboxing and wrestling**". BJJ is real; **MMA, boxing, kickboxing and
+   wrestling are not programmes here**. It is weaker than the claims on the kids
+   pages — it describes a blend rather than separate classes — but "jiu jitsu jiu
+   jitsu classes" appearing twice in one list shows it came from a keyword tool,
+   not from a description of the timetable. Two further tags, `kickboxing classes
+   Coppell` and `fitness kickboxing Coppell`, sell kickboxing directly.
+
+**Certified instructors: still not verifiable, and this one was close.** The H3
+is "Certified and Experienced Muay Thai Instructors" and the sentence is "Our
+coach and instructor **hold certifications in muay thai** and bring years of hands
+on experience from training competing and teaching."
+
+| What a reader needs | On this page? |
+|---|---|
+| A certifying body (IFMA, WMC, Thai Boxing Association, a federation) | **no** |
+| A rank (kru, ajarn, prajioud armband) | **no** — none of those words appears |
+| A lineage, camp or affiliation | **no** |
+| An instructor's name | **no** |
+
+So "certified instructors" is now **at least seven pages with no certification
+ever named**. It is narrower here than usual — "certifications **in muay thai**"
+rather than a bare "certified" — which makes it more checkable and therefore more
+exposed. Muay Thai has recognised certifying bodies and a recognised teaching
+title (kru); if the coach holds either, naming it would make this the first
+verifiable instance on the site and would be worth more than any other sentence on
+the page.
+
+**Other claims for the verification list:** "**Private Muay Thai Training
+Sessions**" (issue 73, another page), "**Family discounts** help when more than
+one person joins" and "we avoid **long lock in contracts**" (issue 55 — the family
+discount is now on a fourth page and still confirmed nowhere), "**fight camps**",
+"**weight management camp**", "**mock fights**", "breaking down **footage** from
+your own rounds or pro fights", "**video analysis**" and "**nutrition tips**" —
+none confirmed by a programme page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -5372,6 +5484,47 @@ with "one on one time with instructors", no price and no booking route. See issu
 73; this is another page.
 
 **No figure was added to the rebuild.**
+
+**2026-02 addition — the eleventh page, and the first where an FAQ fills the gap
+with somebody else's prices.** `/muay-thai-classes-coppell/` has an H2 "Class
+Schedule and Membership Options" and an H3 "**Affordable Membership Packages**",
+and **names no price**:
+
+> We offer membership packages that give great value without high costs. **Monthly
+> plans include unlimited** Muay Thai Classes Coppell … **Family discounts** help
+> when more than one person joins and we avoid **long lock in contracts** …
+> **Prices stay reasonable** compared to other martial arts options in the area.
+
+Four billing concepts, a discount, a contract promise, a comparative price claim
+— and no figure. **Eleven for eleven.**
+
+**But this page is different from the other ten, because dollar figures do appear
+on it — for other gyms.** FAQ 1, "How much does a Muay Thai lesson cost?", answers
+with US market averages:
+
+> In the US most group classes cost **between 15 and 30 dollars per drop in
+> session**. Monthly unlimited memberships usually run **100 to 220 dollars**
+> depending on the city and facility. Private one on one lessons often range from
+> **60 to 150 dollars per hour**. In smaller towns or community gyms prices sit
+> lower **around 10 to 20 dollars per class** … Always check local gyms for exact
+> rates packages and any family or student discounts.
+
+**These are not Sixth Sense's prices and the page never says so.** A reader who
+scrolls from "Affordable Membership Packages" (no price) to the FAQ (four price
+ranges) will reasonably take the figures as this gym's, and the answer even ends
+by telling them to go and check *local gyms* — advice to shop around, published on
+this gym's own conversion page.
+
+**Reproduced verbatim**, because they are the client's published words, and **no
+price was added to the rebuild**. But this is the sharpest version of the pricing
+problem yet: the one place on the site that prints a dollar figure for Muay Thai
+prints somebody else's.
+
+**The schedule half is as vague as the price half.** "Morning early sessions…
+evening classes… weekend slots… **Daily classes run at different hours**" — no
+day, no clock time, no frequency, and **no schedule exists anywhere else on the
+site** either. The only page in the whole audit that publishes actual timings is
+`/anti-bullying-martial-arts-for-kids/` ("the three to six pm range").
 
 ### 49. A map embed that overflows on a phone — CONTENT, ACCESSIBILITY — Low
 
@@ -7271,6 +7424,35 @@ arts lessons`, `martial arts for parents and kids`.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/muay-thai-classes-coppell/`: ten tags, every one carrying
+the city, and one selling a class that does not exist.** The post carries 10 tags:
+`Muay Thai Classes Coppell`, `Coppell martial arts academy`, `Muay Thai for
+beginners Coppell`, `Muay Thai training Coppell TX`, `Thai boxing gym Coppell`,
+`adult Muay Thai classes Coppell`, `fitness kickboxing Coppell`, `kickboxing
+classes Coppell`, `striking classes Coppell TX`, **`youth Muay Thai Coppell`**.
+
+**On local signals this is the second-best tag set in the audit** — all ten carry
+the city, two carry the state, and `adult Muay Thai classes Coppell` matches a
+real programme page exactly. Only `/brazilian-jiu-jitsu-coppell-tx/` does better.
+
+Three flags:
+
+- **`youth Muay Thai Coppell` advertises a class the gym does not run.** The
+  body of this page is scrupulous about saying "adult" and "teens" and never
+  "kids" or "youth" — and then the tag undoes it. "Youth" reads as under-13 to a
+  parent, and the kids offering is BJJ only. **This is the single thing to fix on
+  this page.**
+- **`kickboxing classes Coppell` and `fitness kickboxing Coppell`** sell a
+  discipline with no programme page (issue 39), and compete with the existing
+  `/kick-boxing-classes/` post (issue 7).
+- **`Coppell martial arts academy`** is a generic brand term rather than a topic,
+  and will collide with every other Coppell page on the site.
+
+**No competitor is named in any tag.**
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7647,7 +7829,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
-| Kickboxing / Muay Thai classes | `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) |
+| **Muay Thai in Coppell (confirmed, THREE posts plus two programme pages)** | `/muay-thai-classes-coppell/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
 | **Martial arts for kids (confirmed, FOUR posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
@@ -7858,6 +8040,55 @@ misspelling is already logged at issue 68. 301 them into one, keep this page and
 
 **Fix the age bands first** — the three pages currently publish three different
 answers for the same classes (see issue 86f).
+
+#### The Muay Thai local cluster, and the clearest keeper in this document
+
+`/muay-thai-classes-coppell/` (26 February 2026, 4,324 words) is the third page
+chasing striking classes in this city:
+
+| Page | Published | Local slug? | Programme behind it? |
+|---|---|---|---|
+| `/kick-boxing-classes/` | 2025-03-27 | no | **no** — kickboxing is not a programme |
+| `/muay-boran-in-coppell/` | 2025-12-26 | yes | **no** — Muay Boran is not a programme (issue 39) |
+| `/muay-thai-classes-coppell/` | **2026-02-26** | **yes** | **yes** — adult and teen Muay Thai |
+| `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` | — | — | the programme pages |
+
+**This is the natural keeper, and unusually it is not a close call.** It is the
+only one of the three with both a local slug and a real programme behind it, and
+its local signals are the strongest in the entire audit after
+`/brazilian-jiu-jitsu-coppell-tx/`:
+
+| Signal | `/muay-thai-classes-coppell/` |
+|---|---|
+| City in the H1 | **yes** — "Muay Thai Classes Coppell Professional Training for All Skill Levels" |
+| City in the body | **43 times**, plus "Texas" 12 times |
+| Street address in the body | **yes**, 817 S MacArthur Blvd, five times |
+| Nearby areas named | **nine** — Valley Ranch, Dallas, DFW, Grapevine, Carrollton, Irving, Lewisville, Plano, Fort Worth |
+| City in the tags | **all 10** |
+
+**Heading overlap with its two closest relatives is near zero:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/adult-muay-thai-classes/` (programme page) | **0 of 11** | **0 of 38** | 41.4% |
+| `/muay-thai-training/` | 2 of 11 (18.2%, both boilerplate) | 2 of 38 (5.3%) | 44.3% |
+
+The two matches are "Conclusion" and "FAQ's". The programme page shares nothing at
+all, which is exactly right: it sells the class, this post explains it.
+
+**Recommendation:** keep `/muay-thai-classes-coppell/` as the striking equivalent
+of `/brazilian-jiu-jitsu-coppell-tx/`, point it at both Muay Thai programme pages
+(done in the rebuild), 301 `/kick-boxing-classes/` into it, and treat
+`/muay-boran-in-coppell/` separately since its subject is not taught at all.
+**Fix the `youth Muay Thai Coppell` tag first** (issue 30).
+
+**One structural defect to fix at source: the page has two "Why" H2s in a row.**
+"Why Sixth Sense MMA Are the Top Choice for Muay Thai Classes Coppell" is followed
+four H3s later by "Why Choose Sixth Sense MMA Muay Thai Classes Coppell". They are
+the same section written twice, with eight H3s between them covering overlapping
+ground (location, class size, track record, culture / instructors, authenticity,
+facility, programmes). Both are reproduced verbatim and both appear in the table
+of contents. See issue 15.
 
 #### The comparison-post group
 
@@ -11207,6 +11438,25 @@ on these pages than distant ones. If they are not real, they come down; see
 issue 32. This is a ten-minute edit on each page with a disproportionate payoff,
 because it is the section a visitor reads most carefully.
 
+**2026-02 addition — `/muay-thai-classes-coppell/` names nine towns, seven times
+each.** The list "Coppell Texas **Valley Ranch Dallas DFW Grapevine Carrollton
+Irving Lewisville Plano and Fort Worth**" is repeated verbatim in seven
+paragraphs, and a later sentence adds "anyone from nearby cities like **Dallas or
+Fort Worth** finds it simple to attend regularly".
+
+**Valley Ranch, Irving, Grapevine, Carrollton and Lewisville are reasonable** — all
+are within about 20 minutes of 817 S MacArthur Blvd, and Valley Ranch already
+appears on the programme pages.
+
+**Plano and Fort Worth are not.** Fort Worth is roughly 35 miles away, across the
+Metroplex; "finds it simple to attend regularly" is not a claim that survives
+contact with the traffic. This is a milder version of issue 53 — the page is not
+claiming students in other states, only an implausible commute — but it dilutes a
+local page that is otherwise the best-targeted on the site.
+
+**Recommendation:** cut Plano and Fort Worth from the repeated list, keep the
+five genuine neighbours, and the page loses nothing.
+
 ### 54. Subheadings published as bold paragraphs instead of headings — SEO, ACCESSIBILITY — Medium
 
 `/martial-arts-gyms-near-me/` is 3,749 words long and contains **no list markup
@@ -14396,6 +14646,37 @@ theology, a US president, starting at 70 (twice), the "4 main martial arts" and
 
 **Recommended fix: delete FAQ answers 1, 5, 6 and 7 before anything else on this
 page.**
+
+### 89. A Muay Thai FAQ in which three answers teach the Thai language, including what "555" means in Thai slang — SEO, CONTENT — **High**
+
+`/muay-thai-classes-coppell/` closes with nine FAQ questions. **Three of them are
+about the Thai language**, not about Muay Thai:
+
+| # | Question | Subject |
+|---|---|---|
+| 5 | "**Can I learn Thai in 3 months?**" | learning to speak Thai — "greetings numbers, simple sentences, directions, **food orders**" |
+| 7 | "**What does 555 mean in Thai slang?**" | "555 means haha or laughing out loud because the number 5 in Thai is pronounced ha" |
+| 9 | "**Is English or Thai harder to learn?**" | "Thai has **five tones** … a unique script with **44 consonants**" |
+
+**The cause is obvious and worth naming for the client:** whoever assembled the
+FAQ pulled "people also ask" results for the word **Thai** and did not notice that
+most of them are about Thailand and the Thai language rather than about Muay Thai.
+FAQ 7 is the clearest proof — "what does 555 mean in Thai slang" is a tourist's
+question, answered in full, on a Coppell gym's class page.
+
+Counting FAQ 1 (which answers with other gyms' prices, issue 48), **four of the
+nine answers are about something other than training at this gym**. The five that
+are on topic are good: starting age, jiu jitsu versus Muay Thai, training three
+times a week, Muay Thai versus kickboxing, and the 15/30/15 interval method.
+
+This is the sixth instance of the off-topic-FAQ pattern (issues 77, 81, 85, 87,
+88) and the most mechanically explicable: the other five were padded with
+celebrity or parenting trivia, this one with a **keyword homonym**.
+
+**Reproduced verbatim and included in the FAQPage JSON-LD**, because each is a
+real question with a real answer — unlike the lorem-ipsum placeholder at issue 66,
+which was excluded. **Recommended fix: delete answers 5, 7 and 9**, and replace
+FAQ 1 with this gym's actual rates.
 
 ## How these were checked
 

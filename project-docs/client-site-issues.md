@@ -25,6 +25,24 @@ a competing gym.
 
 ### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A fourth page that needed no omission
+
+`/benefits-of-kickboxing/` (8 March 2026, 1,923 words) required **no omission**.
+"Concussion" and "brain" appear zero times, and so do "without risk", "low risk",
+"injury free" and every equivalent. The one risk sentence is a purpose clause and
+was kept: "They know how to teach proper technique for punches kicks and
+combinations so you **avoid injury** and get maximum power."
+
+**Its FAQ names the costs of the sport**, like `/adult-muay-thai-classes-near-me/`
+did. FAQ 10, "Is kickboxing hard on your body?": "**Shins take repeated impact
+which can cause bruising or soreness. Joints like knees ankles and shoulders get
+stressed** from twisting kicking and punching. Hands can hurt if you hit without
+good wraps or gloves." Kept verbatim.
+
+Four of the last five builds have needed no omission. All four are adult Muay
+Thai or kickboxing pages written in 2026; the eighteen pages that did need them
+remain concentrated in the kids, weapons and neck-bridge groups.
+
 #### A third page that needed no omission
 
 `/history-of-muay-thai/` (8 March 2026, 3,561 words) required **no omission**.
@@ -4708,6 +4726,33 @@ in Muay Thai**". Ninth page, no body, no rank, no lineage. Also unconfirmed:
 "Testimonials highlight kids standing up to bullies adults feeling safer and
 everyone reaching personal goals" — the page carries no testimonial (issue 32).
 
+**2026-03 addition — `/benefits-of-kickboxing/`: no class advertised, no kids
+claim, no price, and the discipline itself has no programme page.**
+
+| Check | Result |
+|---|---|
+| Advertises kickboxing as a distinct class | **no** — it describes benefits and the gym and invites contact; "class" appears 9 times, always generically ("a typical kickboxing class", "Beginner classes") |
+| Kids kickboxing named | **no** — "kids", "children" and "teen" appear **zero times** |
+| Pricing section | **none** |
+| Any figure | **none** — no price, no membership, no discount, no free trial |
+
+**So it does not join the eleven pages at issue 48**, and there is no kids
+kickboxing reference to leave unlinked.
+
+**But the page's whole subject is a discipline with no programme page.** The gym's
+five programmes are Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ and Teen Muay
+Thai; kickboxing maps onto Muay Thai. The page half-acknowledges this in its
+opening — "Kickboxing mixes elements from boxing **Muay Thai** and other combat
+sports" — and the client's own markup links that phrase to
+`/adult-muay-thai-classes/`, which is the right destination. **Two of its five
+links already point at real programme pages**, which is the correct pattern.
+
+**"Certified" appears once more with nothing named** — H3 "Experienced and
+Certified Kickboxing Trainers"; "The trainers at Sixth Sense MMA bring years of
+experience and **proper certifications in kickboxing and related combat sports**".
+Tenth page, no body, no rank, no name. A kickboxing certification would be issued
+by a named sanctioning body, so this is checkable and worth naming if real.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -7932,6 +7977,28 @@ reversed, which will generate two archives for one idea.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03 addition — `/benefits-of-kickboxing/`: ten tags, all on topic, third
+clean set in a row.** The post carries 10 tags: `Benefits of Kickboxing`,
+`kickboxing cardio workout`, `kickboxing fitness benefits`, `kickboxing for
+beginners`, `kickboxing for self defense`, `kickboxing for weight loss`,
+`kickboxing health benefits`, `kickboxing strength training`, `kickboxing
+training`, `kickboxing workout`.
+
+**Every tag is about kickboxing and nothing else.** No untaught discipline beyond
+kickboxing itself, no competitor, no city, no typo, and **nothing copied from
+another post** — the failure mode recorded on `/muay-thai-gear-for-safety/`, where
+all six tags were about gym bags.
+
+Two notes. **All ten are lower case** including the ones derived from the title,
+where the sibling `/benefits-of-muay-thai/` capitalised "Muay Thai" in nine of
+ten — the same case inconsistency the body has (issue 58). And **`kickboxing
+health benefits` points at the archive for a page that names three medical
+conditions** (issue 92), so if those claims are revised the tag should be
+revisited with them.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8305,6 +8372,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Women's self-defence (confirmed, TWO posts for a programme that has not launched)** | `/self-defense-classes-for-women/` · `/womens-self-defense-class/` — overlapping the eleven-page general self-defence cluster — see below |
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| **Kickboxing (confirmed, NINE pages across two slug spellings)** | `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
@@ -8805,6 +8873,47 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The benefits twins, and a nine-page kickboxing cluster with no kickboxing programme
+
+`/benefits-of-kickboxing/` (8 March 2026, 10:46) and `/benefits-of-muay-thai/`
+(7 March 2026, 12:03) were published **22 hours apart and are template twins**:
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/benefits-of-muay-thai/` | 5 of 16 (31.3%) | 5 of 22 (22.7%) | **67.1%** |
+| `/kick-boxing-classes/` | 1 of 16 (6.3%, "FAQ's") | 2 of 22 (9.1%) | 7.6% |
+
+**Benefit 1 is byte-identical on both pages: "1. Full Body Workout".** Both run a
+ten-item numbered H2 list preceded by the same ten items as a bullet summary, both
+end with the same Why-Choose section, and the benefit sequence tracks closely —
+full body workout, weight loss, cardiovascular health, strength, then the
+confidence and discipline items. The structure is one template with the discipline
+swapped.
+
+**Both number their ten benefits correctly.** Ten distinct items, no duplicates, no
+padding, and the bullet summary repeats the same ten in the same order. That
+matters because `/kickboxing-techniques/` listed **the hook twice in a Top 9**, so
+this cluster has previous. **The count is right on this page.**
+
+**The kickboxing cluster now runs to nine pages across two slug spellings**, and
+**kickboxing has no programme page at all** — it maps to Muay Thai:
+
+| Page | Subject |
+|---|---|
+| `/benefits-of-kickboxing/` | benefits |
+| `/kick-boxing-classes/` | classes |
+| `/kickboxing-techniques/` | techniques (the Top 9 with a repeat) |
+| `/kickboxing-gloves/` · `/kick-boxing-gloves/` | **the same keyword on two URLs differing by one hyphen** (already CRITICAL) |
+| `/kick-boxing-bag/` | equipment |
+| `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` | three comparison posts |
+
+**Recommendation.** Keep `/benefits-of-kickboxing/` as the kickboxing explainer —
+it is the cleanest of the nine and the only one with a usable structure — but
+point it at the Muay Thai programme, which is what a reader who converts will
+actually book. Resolve the gloves pair first (already logged), then merge
+`/kick-boxing-classes/` into the Muay Thai programme page, since it advertises a
+class that does not exist as a separate offering.
 
 #### The comparison-post group
 
@@ -12720,6 +12829,37 @@ alongside the brand-spelling rule (issue 33).
 **In the rebuild:** both spellings are reproduced exactly as published, including
 the meta description that uses both, and the build fails if either count changes.
 
+**2026-03 addition — `/benefits-of-kickboxing/`: one word, two capitalisations,
+and a hyphenation split between a list and the headings it summarises.**
+
+**Capitalisation**, counted across the body and FAQ:
+
+| Form | Count |
+|---|---|
+| "Kickboxing" (capitalised) | **36** |
+| "kickboxing" (lower case) | **43** |
+| "Kick Boxing" / "Kick boxing" / "kick boxing" | **0** |
+| "Kickboxer(s)" | 5 |
+
+**Worth recording that the space-separated variants are absent here.** The older
+posts mix "Kick boxing", "Kick Boxing" and "Kickboxing" inside single articles and
+carry the split across their slugs (`/kick-boxing-classes/` against
+`/kickboxing-techniques/`). This page is consistent on the compound and
+inconsistent only on case — which is an improvement, and a reason to standardise
+on this page's spelling across the cluster.
+
+**Hyphenation splits within the page.** The ten-item summary list uses hyphens;
+the ten H2 headings it summarises do not:
+
+| Summary list | Matching H2 |
+|---|---|
+| "Full-Body Workout" | "1. Full Body Workout" |
+| "Teaches Practical Self-Defense Skills" | "7. Teaches Practical Self Defense Skills" |
+| "Boosts Confidence and Self-Discipline" | "9. Boosts Confidence and Self Discipline" |
+
+The same list is printed twice on one page in two styles, eight lines apart. All
+reproduced exactly as published.
+
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
 **Now on fifteen pages.** `/sambo-techniques/` carries the fifteenth,
@@ -13628,6 +13768,21 @@ A third anchor on the same page, "**Kids martial arts training**" →
 practiced worldwide… influencing Kids martial arts training" reads oddly but says
 nothing false, and Kids BJJ is the gym's only kids programme, so the link was
 kept.
+
+**2026-03 addition — `/benefits-of-kickboxing/`: two good links and two odd ones.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "**Muay Thai**" | `/adult-muay-thai-classes/` | **correct** — the programme kickboxing maps to |
+| "**Beginners**" | `/adult-muay-thai-classes/` | **correct**, if oddly worded |
+| "**advanced fighters.**" | `/adult-bjj-classes/` | a striking page's advanced students sent to the **BJJ** programme, and the anchor text includes the full stop |
+| "**combat sports**" | `/blogs/` | a discipline category pointed at the blog index, the third instance after "bellator" and "martial arts" |
+| "**martial art**" | `/` | the homepage, harmless |
+
+**The anchor that swallows its own full stop** — "advanced fighters." with the
+period inside the link — is the auto-linker's usual signature (issue 64). All five
+are reproduced verbatim with their targets mapped to local files; none was
+rewritten.
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -15908,6 +16063,87 @@ he is the father of Muay Thai or Muay Boran or neither, and whether Rama V or Ra
 VII modernised the sport. Until those three are settled, every page in the cluster
 undermines the other five, and a reader who checks two of them finds the site
 contradicting itself on its own subject.
+
+### 92. A fitness page that names three medical conditions and cites "studies" three times without naming one — CONTENT (accuracy), SEO — **High**
+
+`/benefits-of-kickboxing/` (8 March 2026) was checked against the same categories
+as `/benefits-of-muay-thai/`, built the day before from the same template. **The
+Muay Thai page came back clean on every one. This one does not.**
+
+#### Three claims about named medical conditions
+
+| # | Exact wording | Condition named |
+|---|---|---|
+| 1 | "This aerobic and anaerobic exercise **lowers the risk of heart disease** and boosts cardiovascular endurance" | **heart disease** |
+| 2 | "Kickboxing **may help with mobility even for people with multiple sclerosis** according to some pilot study findings" | **multiple sclerosis** |
+| 3 | FAQ 6: "**Studies on high impact activities show they help maintain or improve bone density** especially in adults" | **bone density / bone health** |
+
+**The multiple sclerosis claim is the one to act on.** A commercial gym page is
+telling people with a progressive neurological condition that its classes may help
+their mobility, sourced to "**some pilot study findings**" that are not named,
+dated or linked. Whether or not such a pilot exists, a reader with MS cannot check
+it, and the sentence sits in a sales page rather than a clinical one. It is the
+only claim in the whole audit that addresses a diagnosed neurological condition.
+
+**"Lowers the risk of heart disease" is a disease-prevention claim** stated flatly,
+with no hedge and no source. Contrast the Muay Thai page, which made the same
+point correctly: "Your heart gets stronger from the constant elevated heart rate"
+and "brings your resting heart rate down" — improvement, not prevention.
+
+#### Three research claims, no source for any
+
+| Where | Exact wording |
+|---|---|
+| Benefit 3 | "**Studies suggest** that kickboxing three days per week brings significant improvements in heart health for most people" |
+| Benefit 6 | "**according to some pilot study findings**" |
+| FAQ 6 | "**Studies on high impact activities show**…" |
+
+"Studies", "study" and "according to" appear three times between them and **not
+one study, author, journal or year is named**. This joins the uncited figures
+already logged on the kids pages (issue 86c), the women's page (issue 87c and the
+one-in-three / one-in-five statistics) and the Muay Thai benefits page's
+afterburn claim. **Logged at MEDIUM with that group**, with the MS sentence
+escalated above.
+
+#### No numbers, and no conflict with the Muay Thai page
+
+**Neither benefits page publishes a single calorie or weight figure**, so there is
+no contradiction to report between them:
+
+| | `/benefits-of-muay-thai/` | `/benefits-of-kickboxing/` |
+|---|---|---|
+| Calorie figure | none | none |
+| Weight-loss figure | none | none |
+| Timeframe | "after a few months" | none |
+| Frequency | none | "three times a week", "three days per week" |
+| Afterburn | "creates an **afterburn effect**" | "create a strong **after burn** effect" |
+
+Both rely on the same unquantified afterburn claim, spelled two different ways.
+That is the one point where the twins agree and both are vague, which is
+preferable to agreeing on a number that is wrong — but it means neither page
+supports the weight-loss promise in its own meta description with anything a
+reader can act on.
+
+#### Mental health
+
+**This page puts it in the H1**: "Top 10 Benefits of Kickboxing for Fitness
+Strength and **Mental Health**", with benefit 8 "Reduces Stress and **Improves
+Mental Health**". The supporting text is ordinary stress-relief writing —
+"triggers **endorphin release** which lifts mood and leaves you feeling calm",
+"help clear your mind and improve mental focus" — and **no clinical condition is
+named**: "anxiety" and "depression" appear zero times.
+
+So the claim is defensible in the body and overstated in the heading. "Improves
+Mental Health" as an H1 and H2 promises more than endorphins and focus, and it is
+the string Google will show. **Reproduced exactly**; the fix is one word, "Mental
+Wellbeing" or "Mental Focus".
+
+#### No disclaimer
+
+**The page carries no medical or fitness disclaimer of any kind.** On a page that
+names heart disease, multiple sclerosis and bone density, that is a larger gap
+than it was on the Muay Thai page, which named no condition at all. It joins the
+disclaimer group at issue 31 — and unlike the Muay Thai entry, not at the low end.
 
 ## How these were checked
 

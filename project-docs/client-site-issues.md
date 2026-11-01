@@ -25,6 +25,23 @@ a competing gym.
 
 ### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A second page that needed no omission
+
+`/benefits-of-muay-thai/` (7 March 2026, 2,814 words) is a benefits page for a
+striking sport — the category most likely to overstate safety — and **not one
+sentence required omission**. The words "concussion" and "brain" do not appear;
+neither do "without risk", "low risk", "injury free" or any equivalent. The nine
+uses of "safe" are all ordinary ("keeping yourself safe", "feel safer walking
+alone", "clean and safe facilities").
+
+**It also makes no health claim that needed checking against a clinician**, which
+is worth recording given what the kids and women's pages contained. See the note
+under issue 62.
+
+Two of the last three builds have now needed no omission at all. Both are adult
+Muay Thai pages. The eighteen pages that did need omissions are concentrated in
+the kids, weapons and neck-bridge groups.
+
 #### A page that needed no omission, and names the risk itself
 
 `/adult-muay-thai-classes-near-me/` (27 February 2026, 3,938 words) is a striking
@@ -4651,6 +4668,35 @@ rounds or pro fights", "**personalized plans**" and "**progress tracking**" — 
 H3 of its own, "Personalized Coaching and Progress Tracking". No programme page
 mentions any of it.
 
+**2026-03 addition — `/benefits-of-muay-thai/`: a third Muay Thai POSITIVE, and
+the first page in the recent run that advertises no class at all.**
+
+| Check | Result |
+|---|---|
+| Advertises a specific class | **no** — it describes benefits and the gym, and invites contact; it never names a class to enrol in |
+| Kids Muay Thai claimed | **no** |
+| "children" in the body | **zero occurrences** |
+| Pricing section | **none** |
+| Any figure | **none** — no price, no membership tier, no discount, no free trial |
+
+**The only two kids references are incidental and neither is a class claim:**
+"helps with everyday stuff like climbing stairs or **chasing after kids**" and
+"Testimonials highlight **kids standing up to bullies** adults feeling safer". The
+second is a results claim about children who train here, which is true of the Kids
+BJJ programme, so nothing was linked and nothing needs adding to the untaught-
+discipline list.
+
+**It does not join the eleven pages at issue 48**: there is no pricing heading and
+no pricing promise to leave unanswered. The nearest thing is "**Unlimited options**
+mean you can attend as often as possible", which describes access rather than a
+billing tier.
+
+**"Certified" appears once more, with nothing named** — H3 "Certified and
+Experienced Muay Thai Coaches"; "These instructors carry **proper certifications
+in Muay Thai**". Ninth page, no body, no rank, no lineage. Also unconfirmed:
+"Testimonials highlight kids standing up to bullies adults feeling safer and
+everyone reaching personal goals" — the page carries no testimonial (issue 32).
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -7835,6 +7881,27 @@ Three flags:
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03 addition — `/benefits-of-muay-thai/`: ten tags, all on topic, none
+overreaching.** The post carries 10 tags: `Benefits of Muay Thai`, `Muay Thai
+fitness benefits`, `Muay Thai fitness training`, `Muay Thai for self defense`,
+`Muay Thai for weight loss`, `Muay Thai martial arts benefits`, `Muay Thai
+training benefits`, `Muay Thai workout benefits`, `health benefits of Muay Thai`,
+`muay thai strength training`.
+
+**No untaught discipline, no competitor, no city, no curly apostrophe, and nothing
+copied from another post.** Every tag is about the page's actual subject. This is
+the cleanest tag set in the audit on accuracy, alongside
+`/anti-bullying-martial-arts-for-kids/`.
+
+The one weakness is repetition rather than accuracy: **seven of the ten are "Muay
+Thai" plus a synonym for benefits** (benefits, fitness benefits, training
+benefits, workout benefits, martial arts benefits, health benefits), which
+generates seven near-identical thin archives competing with the post itself.
+`muay thai strength training` is also the only one in lower case.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8212,7 +8279,8 @@ Google then has to pick one and ranks all of them weaker.
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
-| **Muay Thai (confirmed, FOUR posts plus two programme pages, one post colliding with a programme slug)** | `/adult-muay-thai-classes-near-me/` · `/muay-thai-classes-coppell/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/muay-thai-training/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
+| **Muay Thai (confirmed, FIVE posts plus two programme pages, one post colliding with a programme slug)** | `/adult-muay-thai-classes-near-me/` · `/muay-thai-classes-coppell/` · `/benefits-of-muay-thai/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/muay-thai-training/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
+| **What Muay Thai training does for you (confirmed, THREE posts)** | `/benefits-of-muay-thai/` · `/muay-thai-fitness-workout/` · `/muay-thai-training/` — see below |
 | **Martial arts for kids (confirmed, FIVE posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/mma-classes-for-kids/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
@@ -8622,6 +8690,51 @@ FAQ answers on lethal force and concealed blades (issue 31) first.
 **If it does not launch:** both pages should come down, along with the "Women's
 Self-Defense Programs" and "Women Only Classes" claims on `/martial-arts-near-me/`
 and `/martial-arts-gyms-near-me/`.
+
+#### The Muay Thai benefits trio, and the mildest overlap in this document
+
+`/benefits-of-muay-thai/` (7 March 2026, 2,814 words) is the third post on what
+Muay Thai training does for you:
+
+| Page | Published | Angle |
+|---|---|---|
+| `/muay-thai-training/` | — | what training involves |
+| `/muay-thai-fitness-workout/` | — | the workout and conditioning side |
+| `/benefits-of-muay-thai/` | **2026-03-07** | **a numbered top-ten of benefits** |
+
+**Heading overlap:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/muay-thai-training/` | 2 of 16 (12.5%, "Conclusion" and "FAQ's") | 2 of 26 (7.7%) | **43.8%** |
+| `/muay-thai-fitness-workout/` | 2 of 16 (12.5%, the same two) | 2 of 26 (7.7%) | 20.5% |
+
+**The closest pair is `/benefits-of-muay-thai/` and `/muay-thai-training/`** at
+43.8% heading-word overlap — but that is the mildest figure for any confirmed
+cluster in this document, against 89.8% for the two adult Muay Thai posts and
+82.3% for the two kids pages. The numbered-list format genuinely differentiates
+this one: ten `1.`-to-`10.` H2s is a distinct page shape that none of the other
+Muay Thai posts uses.
+
+**The ten benefits are ten distinct items with no duplicates and no padding** —
+Full Body Workout, Effective Weight Loss, Improved Cardiovascular Health,
+Practical Self Defense Skills, Increased Strength and Power, Better Balance and
+Coordination, Stress Relief and Mental Focus, Boosted Confidence, Discipline and
+Mental Toughness, Supportive Training Community. A summary bullet list at the top
+repeats the same ten in the same order, which is a legitimate table of contents
+rather than padding.
+
+**That matters because three earlier "top N" posts failed exactly this check:**
+`/kickboxing-techniques/` listed the hook twice in a Top 9,
+`/top-ten-martial-arts-for-self-defense/` padded ten slots with five disciplines
+repeated as age-group variants, and `/10-muay-boran-techniques/` needed the same
+scrutiny. **This one counts correctly.**
+
+**Recommendation: keep all three but give them distinct jobs.** This page is the
+best written of the Muay Thai set — no invented statistics, no safety overclaim,
+no kids-class invention, no pricing promise (see issue 39) — and the numbered
+format suits featured snippets. Merge `/muay-thai-fitness-workout/` into it if
+anything is cut, since its workout content is a subset of benefits 1 to 3.
 
 #### The comparison-post group
 
@@ -10133,6 +10246,28 @@ show FAQ rich results for any of them.
 The twenty-six newer posts each have their own FAQ, so the fix is to do the same for
 these thirteen.
 
+**2026-03 addition — the same FAQ question on two pages, with two different
+answers.** "At what age did Mike Tyson start boxing?" appears on both
+`/adult-muay-thai-classes-near-me/` and `/benefits-of-muay-thai/`, and the
+answers disagree:
+
+| Page | Answer |
+|---|---|
+| `/adult-muay-thai-classes-near-me/` | "Mike Tyson started boxing at **age 12**. He was introduced to the sport while in a **juvenile detention center** where counselor **Bobby Stewart** noticed his raw talent" |
+| `/benefits-of-muay-thai/` | "Mike Tyson started boxing when he was around **thirteen years old**. He got into it after meeting trainer **Cus DAmato**" |
+
+Different age, different person credited with discovering him, published eight
+days apart on the same site. Both are reproduced verbatim.
+
+**Neither question belongs on either page** — one is a Muay Thai class page and
+the other a Muay Thai benefits page, and Mike Tyson is a boxer. But the
+contradiction is the point worth showing the client: it demonstrates the FAQ
+blocks are generated per page with no reference to what the site already says, so
+the same question can be answered two ways and nobody notices.
+
+Note also that `/benefits-of-muay-thai/` spells the trainer **"Cus DAmato"**
+without the apostrophe, where the other page writes "Cus D'Amato" correctly.
+
 ### 10. Outbound links to unrelated, weak or foreign-language sources, one to an American-football article — SEO, CONTENT — **High**
 
 Single words in answers are linked to Wikipedia articles that don't match the
@@ -10519,6 +10654,26 @@ The same pair of "Why" H2s appears on `/muay-thai-classes-coppell/` and
 `/mma-classes-for-kids/`. All three are reproduced verbatim and all three put
 both headings in the table of contents.
 
+**2026-03 addition — a fourth two-"Why"-H2 page, and this one's first heading is
+not a sentence.** `/benefits-of-muay-thai/` runs:
+
+> **Why Sixth Sense MMA Better to Other Muay Thai Gyms**
+
+followed five H3s later by **"Why Choose Sixth Sense MMA for Muay Thai
+Training"**. The first is missing a verb — "is Better **than**" is presumably what
+was meant — and it is an H2, so it appears in the table of contents and is a
+candidate for the search snippet. Reproduced exactly as published.
+
+The two sections then cover overlapping ground across ten H3s, including two near
+duplicates: "Structured Training Programs for All Skill Levels" and "Beginner
+Friendly and Advanced Training Programs", and "Supportive Community and
+Professional Training Environment" against benefit 10, "Supportive Training
+Community".
+
+That makes **four** pages with the duplicated "Why" pair:
+`/muay-thai-classes-coppell/`, `/mma-classes-for-kids/`,
+`/adult-muay-thai-classes-near-me/` and this one.
+
 ### 16. Empty headings — SEO — Low
 
 Heading tags with no text in them.
@@ -10846,6 +11001,23 @@ Jitsu NEAR ME WITH CERTIFIED COACHES **BY SIXTHSENSEMMA.COM**" — the second
 beginning with a stray leading space. Some screen readers spell out all-caps
 strings letter by letter, so a blind visitor hears the domain read out character
 by character twice on one page. Neither alt describes what is in the picture.
+
+**2026-03 addition — `/benefits-of-muay-thai/`: the sport's own name misspelled in
+the body.** Benefit 3 reads "Regular training with **Muuy Thai** brings your
+resting heart rate down". The page spells it correctly 40-odd other times.
+
+Two other defects in the same page, both reproduced verbatim:
+
+- **"dont" for "don't"**, twice — "you burn more calories even on days you **dont**
+  train" and "The coaches **dont** just show the moves".
+- **An en dash used as a sentence break** in the Conclusion: "Muay Thai is much
+  more than a martial art or a workout – it is a complete path…"
+
+**Also stripped in the rebuild, with the text kept:** three paragraphs on the live
+page are wrapped in `<span style="font-weight: 400;">`, a leftover from whatever
+editor produced them. The project's pages carry no inline styles, so the spans
+were dropped and the words kept exactly. The style attribute did nothing visible
+— 400 is the normal weight.
 
 ### 19. Duplicate WordPress tags — SEO — Low
 
@@ -12899,6 +13071,42 @@ or delete the figures. Both are one-line fixes. The "thousands of women" claim
 should either be substantiated or cut, since this gym's women's programme is
 listed as not yet launched (issue 39).
 
+**2026-03 addition — `/benefits-of-muay-thai/`: a health and fitness page with no
+invented numbers, and the first in the audit to cite nothing because it claims
+nothing.** This page was checked against every category that caught the kids and
+women's pages, and came back clean on all of them:
+
+| Check | Result |
+|---|---|
+| Calorie figures | **none** — "burns a ton of calories", "torch fat", "burn calories hard", all qualitative |
+| Weight-loss figures | **none** — no pounds, no kilos, no percentages |
+| Timeframes | only "after a few months" and "week by week" |
+| Claims to cure, prevent or treat a condition | **none** — diabetes, blood pressure, cholesterol, heart disease and obesity are never mentioned |
+| Clinical mental-health claims | **none** — "anxiety", "depression", "mental health" and "therapy" do not appear |
+| Statistics | **none**, and so nothing to cite — "studies", "research" and "experts say" appear zero times |
+
+**The mental side is phrased correctly throughout**, which is the distinction
+issues 86 and 87 recorded being missed elsewhere: "The physical effort releases
+**endorphins** that lift your mood and leave you **calmer** afterward", "**Stress**
+from work family or daily life **melts away**", "a healthy outlet to **burn off
+tension and reset your headspace**". That is a stress-relief claim, not a
+treatment claim, and no clinical condition is named anywhere.
+
+**The one soft claim is the afterburn effect** — "creates an **afterburn effect**
+so your body keeps burning energy even after you finish training" and "The
+afterburn effect keeps your metabolism up so changes keep happening even on rest
+days" — stated twice as fact with no source. EPOC is real but its magnitude is
+routinely overstated in gym marketing. **No figure is attached**, so it stays
+below the threshold set for the uncited statistics on the kids and women's pages;
+it is recorded here rather than logged at MEDIUM.
+
+**The page carries no medical or fitness disclaimer**, which is the one gap. For a
+page whose headline promise is weight loss and cardiovascular health, a single
+line — general information, not medical advice, consult a physician before
+starting — would close it. It joins the disclaimer group at issue 31, though at
+the low end: nothing on this page is dangerous, it simply makes health claims with
+no caveat at all.
+
 ### 63. A 7,000-word article with three images and five wall-of-text tables — CONTENT, UX — Medium
 
 `/mma-vs-kickboxing-for-self-defense/` is **6,785 words**, nearly twice the
@@ -13215,6 +13423,24 @@ pointing at blog posts rather than programme pages: "**muay thai stance**" →
 stance melt away daily stress" — the link has replaced the noun and broken the
 grammar), "**fight train**" → `/fight-training-near-me/`, and "**jiu jitsu**" →
 `/jiu-jitsu-guard-position/`.
+
+**2026-03 addition — `/benefits-of-muay-thai/`: a link to a page that does not
+exist in the rebuild, and a discipline pointed at the blog index.**
+
+| Anchor text | Target | Problem |
+|---|---|---|
+| "**Muay Thai gyms**" | `/landing-page/` | a generic WordPress landing page with **no counterpart in `dist/`**, and the anchor text is about Muay Thai gyms in general rather than this one |
+| "**martial arts**" | `/blogs/` | a discipline name pointed at the blog index, the same shape as the "bellator" → `/blogs/` link on `/mma-classes-for-kids/` |
+
+**The `/landing-page/` anchor was unwrapped in the rebuild** — the text stays
+verbatim, the link goes — because there is nothing in `dist/` to point it at and
+the phrase it wraps is not about this business. The `/blogs/` link was kept and
+mapped to `blogs.html`.
+
+The page's two useful links are the client's own and both go to the right place:
+"**Muay Thai training**" and "**start Muay Thai training**" both point at
+`/adult-muay-thai-classes/`, the programme page. That is the correct pattern and
+the first time in this run that the client's own markup has done it without help.
 
 ### 65. A "Top Ten Martial Arts" list that is five disciplines counted twice — CONTENT (accuracy), SEO — **High**
 

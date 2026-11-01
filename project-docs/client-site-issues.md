@@ -1930,6 +1930,67 @@ of the six, because inventing medical copy on a client's behalf is the client's
 call, not this project's. The three omitted safety sentences on
 `/neck-bridges-benefits/` are logged at issue 0.
 
+#### 2026-02 addition — `/self-defense-classes-for-women/`: an FAQ answer on killing in self-defence, and another recommending concealed blades
+
+**Two FAQ answers on this page belong in the legal-review group** alongside
+`/muay-thai-vs-kickboxing/`, `/martial-blade-concepts/` and the weapons pages.
+Both are reproduced verbatim.
+
+**FAQ 8: "Does God forgive killing in self defense?"** — on a commercial page
+selling classes to women. The answer, in full:
+
+> Many Christian views hold that **killing in genuine self defense is not murder
+> and carries no sin**. The Bible distinguishes unlawful killing from justified
+> protection **Exodus 22:2 allows defending your home without guilt if a thief
+> breaks in at night**. Self defense protects innocent life including your own or
+> others'. **God permits force to preserve life when no other option exists.**
+> Repentance covers any unintended excess but true self defense aligns with
+> valuing life. Interpretations vary by denomination but most see it as
+> permissible not unforgivable.
+
+**Three problems, in order of seriousness:**
+
+1. **It addresses lethal force and says nothing about the law.** A woman reading
+   this page is being told, by a Texas business, that killing in self-defence
+   "carries no sin" and that force is permitted "when no other option exists" —
+   with scripture as the authority and **no mention of Texas Penal Code Chapter 9**,
+   which is what would actually decide the question. Texas self-defence law is
+   specific about when deadly force is justified; a biblical gloss is not a
+   substitute and should not be the only guidance a commercial page offers.
+2. **It is the second theology FAQ in the audit** after the four on
+   `/family-martial-arts-classes/` (issue 88), and the most consequential: that
+   page discussed whether martial arts are permissible, this one discusses
+   killing.
+3. **It presumes the reader's religion** on a page aimed at every woman in a
+   religiously mixed suburb.
+
+**FAQ 6: "What is the most feminine weapon?"** recommends carry items the gym
+neither sells nor teaches:
+
+> Many women prefer **pepper spray** because it's non lethal, easy to use,
+> effective at distance and comes in compact keychain or lipstick style designs.
+> **Self defense rings (like open point or concealed blade types)** look like
+> regular jewelry but add punch power. **Cat ear keychains or tactical pens** offer
+> subtle striking options.
+
+**"Concealed blade" jewellery is the line to look at.** Advising women to carry a
+concealed blade disguised as a ring is legal advice the page is not qualified to
+give and does not caveat, and the framing — "feminine", "stylish", "less
+intimidating" — makes it sound like an accessory choice rather than a decision
+with legal consequences. None of these items is taught, stocked or mentioned
+anywhere else on the site.
+
+**A third answer gives strike targets:** FAQ 9, "Krav Maga basics rank high for
+quick learning **aggressive strikes to eyes, throat groin**". The body does the
+same — "We cover **palm strikes to the nose eye gouges** to create distance and
+**knee strikes to the body** when close" — reproduced word for word with nothing
+added, as required.
+
+**The page carries no disclaimer of any kind.** No "not legal advice", no "results
+vary", nothing. On a page that discusses lethal force, concealed weapons and
+strikes to the eyes and throat, that is the gap to close first. It joins the
+six-page liability group recorded above.
+
 ### 32. Testimonials that cannot be verified, and one page's that clearly can — CONTENT — Low, for the client to decide
 
 `/sambo-martial-art/` ends with a "Reviews for Sixth Sense MMA" section holding
@@ -2620,6 +2681,54 @@ mirrors them, including the TOC consequence.
 as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### ⚠ READ FIRST — three pages sell women's self-defence classes the homepage says have not launched
+
+**Three pages now sell women's self-defence classes as available while the
+homepage says the programme has not launched.** A woman booking off this page is
+the most direct consequence of that contradiction. **The client must resolve it
+before any of the three goes live.**
+
+| Source | What it says |
+|---|---|
+| `/` (homepage) | "**Self-Defense for Women (Coming Soon)**" |
+| `/martial-arts-near-me/` | "**Women's Self-Defense Programs**" as a current offering |
+| `/martial-arts-gyms-near-me/` | "**Women Only Classes**" as a current offering |
+| `/self-defense-classes-for-women/` (2026-02-26) | **an entire 3,345-word page** in the present tense, with a women-only policy, a named curriculum and a booking invitation |
+
+**There is no women's self-defence programme page.** The gym's five programmes are
+Adult BJJ, Adult Muay Thai, Kids BJJ, Teen BJJ and Teen Muay Thai.
+
+**What the newest page claims, quoted exactly:**
+
+- "At Sixth Sense MMA in Coppell Texas **we created these classes especially for
+  women**"
+- "**our women only training** helps you learn self defense that actually works"
+- "**Classes stay women only** to create a space where women's participants feel
+  comfortable without pressure. **No co ed setting** means no added worry about
+  judgment or discomfort"
+- "**We keep the group women only** so everyone feels comfortable"
+- "**We introduce dedicated training time in our defense program** that covers jiu
+  jitsu class bjj krav maga and other martial art styles"
+- "**Thousands of women just like you have joined** as complete beginners"
+- "Success comes from teaching self defense in practical ways that **reach
+  thousands of women through classes and events**"
+
+**This is worse than the kids MMA case below, for one reason.** A parent who
+enquires about a kids MMA class and is told it does not exist is disappointed. A
+woman who reads "classes stay women only — no co ed setting", books on that basis,
+and arrives to find a mixed adult class has been told something materially untrue
+about the one condition most likely to have decided her booking.
+
+**Two further claims on the page need confirming:**
+
+- "Instructors and instructors are trained **hold black belt levels**" — a rank
+  named with no body, no art and nobody identified. **No female instructor is
+  claimed anywhere on the page**, which for a women-only class is the question a
+  prospective student would ask first.
+- "**krav maga**" appears three times as part of what is taught, and is not taught
+  here (already logged below).
+
 
 #### ⚠ READ FIRST — a dedicated page selling MMA classes for children
 
@@ -7591,6 +7700,35 @@ saying "in Coppell TX".
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/self-defense-classes-for-women/`: ten tags, all for a
+programme that has not launched.** The post carries 10 tags: `Self Defense Classes
+for Women`, `beginner self defense for women`, `female self defense near me`,
+`ladies self protection classes`, `personal safety classes for women`, `practical
+self defense for women`, `women empowerment training`, `women self defense
+training`, `women’s martial arts programs`, `women’s safety workshops`.
+
+**No untaught discipline is named** — notably **no Krav Maga tag**, despite krav
+maga appearing three times in the body and twice in the FAQ, and despite
+`/best-self-defense/` carrying one. **No competitor is named.** On those two
+counts this is a clean set.
+
+Three flags:
+
+- **All ten advertise the unlaunched women's programme** (issue 39), so every tag
+  archive is a landing page for a class that may not be bookable.
+- **`women’s martial arts programs` and `women’s safety workshops` contain curly
+  apostrophes** (U+2019) in tag slugs, which WordPress transliterates
+  inconsistently — the same defect as `children’s MMA academy` on
+  `/mma-classes-for-kids/`.
+- **`women’s safety workshops` names a format the page never mentions.** The body
+  describes ongoing classes; "self defense seminar" appears once in passing. A
+  workshop is a different product.
+
+**No tag carries the city**, although the page's own H2 says "in Coppell TX".
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7961,6 +8099,7 @@ Google then has to pick one and ranks all of them weaker.
 | Topic | Competing pages |
 |---|---|
 | **Best martial art for self-defence (confirmed, EIGHT pages — the largest cluster in this document)** | `/best-martial-arts/` · `/best-martial-arts-for-self-defense/` · `/which-martial-art-is-best-for-self-defence/` · `/best-fighting-style-for-self-defense/` · `/best-self-defense/` · `/top-ten-martial-arts-for-self-defense/` · `/martial-arts-for-self-defense/` · `/top-fighting-styles/` — see below |
+| **Women's self-defence (confirmed, TWO posts for a programme that has not launched)** | `/self-defense-classes-for-women/` · `/womens-self-defense-class/` — overlapping the eleven-page general self-defence cluster — see below |
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
@@ -8275,6 +8414,49 @@ the same section written twice, with eight H3s between them covering overlapping
 ground (location, class size, track record, culture / instructors, authenticity,
 facility, programmes). Both are reproduced verbatim and both appear in the table
 of contents. See issue 15.
+
+#### The women's self-defence cluster — **CRITICAL**
+
+`/self-defense-classes-for-women/` (26 February 2026, 3,345 words) is the
+**second** post selling women's self-defence, and it sits inside the much larger
+general self-defence group:
+
+| Page | Published | Audience |
+|---|---|---|
+| `/womens-self-defense-class/` | 2025-09-17 | women |
+| `/self-defense-classes-for-women/` | **2026-02-26** | women |
+| plus the eleven-page general self-defence cluster | — | everyone |
+| plus `/kids-self-defense-classes-near-me/` | 2026-02-26 | children |
+| **programme pages for any of it** | — | **none** |
+
+**Heading overlap:**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/womens-self-defense-class/` | 1 of 10 (10.0%, "Conclusion") | 3 of 31 (9.7%) | **66.7%** |
+| `/self-defense-classes-near-me/` | 1 of 10 (10.0%, "Contact US") | 3 of 31 (9.7%) | 62.3% |
+| `/best-self-defense/` | **0 of 10** | 3 of 31 (9.7%) | 37.7% |
+
+**66.7% heading-word overlap with the existing women's post** on a ten-heading
+page, with only boilerplate matching exactly — the familiar pattern of one
+template with the keyword swapped.
+
+**Marked CRITICAL for a different reason from the other clusters.** Elsewhere the
+problem is that several pages compete for one query. Here the problem is that
+**two pages compete to sell a class the homepage says does not exist yet**
+(issue 39). Consolidation is the second question; the first is whether either
+page should be live at all.
+
+**If the programme launches:** keep this page, which is the better of the two — it
+is longer, it states the women-only policy explicitly, and its "Who Can Join"
+section (beginners, students and professionals, teen girls, mothers) is the
+clearest audience segmentation on the site. 301 `/womens-self-defense-class/` into
+it, add a programme page, and fix the uncited statistics (issue 62) and the two
+FAQ answers on lethal force and concealed blades (issue 31) first.
+
+**If it does not launch:** both pages should come down, along with the "Women's
+Self-Defense Programs" and "Women Only Classes" claims on `/martial-arts-near-me/`
+and `/martial-arts-gyms-near-me/`.
 
 #### The comparison-post group
 
@@ -12493,6 +12675,36 @@ credential claim and an outcome assurance at the same time.
 
 **The fix is the same one the site keeps needing:** name the coach, give the
 rank, say who awarded it. The material exists (issues 32, 39).
+
+**2026-02 addition — `/self-defense-classes-for-women/`: uncited assault
+statistics, on the page where they matter most.** Four research claims, no source
+for any of them:
+
+| Where | Exact wording |
+|---|---|
+| Body, 2nd paragraph | "**Studies show one in three women** may experience physical violence sexual violence or stalking over their lifetime" |
+| Body, 3rd paragraph | "**Statistics point to one in five women facing rape** at some point and many cases involve acquaintance rather than just stranger" |
+| FAQ 2 | "**Studies show** women's self defense classes can make a real difference. **Research on programs like empowerment self defense (ESD) found** women who trained faced **fewer attempted rapes completed rapes and nonconsensual contacts** compared to those who did not" |
+| Body, twice | "**Thousands of women** just like you have joined"; "reach **thousands of women** through classes and events" |
+
+**Why this one is logged separately from the rest of issue 62.** Uncited
+statistics are an accuracy problem everywhere on this site. Here they are also a
+**trust problem with exactly the audience the page is written for**: a woman
+deciding whether she needs these classes is being given prevalence figures for
+rape and stalking by a business that wants her money, with no source she can
+check. If the figures are right, citing them costs one line and makes the page
+stronger. If they are wrong, the page is using invented violence statistics as a
+sales argument.
+
+**The underlying numbers appear to be real** — the one-in-three and one-in-five
+figures resemble published CDC survey findings, and the ESD research resembles
+the Senn et al. trial — **but the page cites nothing**, and "studies show" with no
+study named is indistinguishable from invention to a reader.
+
+**Recommendation:** cite the CDC NISVS report and the ESD trial by name and year,
+or delete the figures. Both are one-line fixes. The "thousands of women" claim
+should either be substantiated or cut, since this gym's women's programme is
+listed as not yet launched (issue 39).
 
 ### 63. A 7,000-word article with three images and five wall-of-text tables — CONTENT, UX — Medium
 

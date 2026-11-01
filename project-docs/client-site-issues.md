@@ -23,7 +23,57 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. SEVENTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The eighteenth page, three sentences, and the worst context in the whole issue
+
+`/mma-classes-for-kids/` (26 February 2026) publishes **three** sentences that
+have been **omitted from the rebuild**, each leaving an HTML comment:
+
+> They learn brazilian jiu jitsu moves bjj holds and ways to grapple **without
+> getting hurt**.
+
+> This setup lets children practice striking grappling submission and technique
+> **without real danger** while they build skill and confidence.
+
+> Strict rules no full contact unless ready proper tap signals and constant
+> supervision **prevent any issues**.
+
+**This is a page selling mixed martial arts to four-year-olds**, and the second
+of the three sits directly under the heading "Protective Gear and Controlled
+Sparring", in the paragraph that describes children sparring in headgear. "Without
+real danger" is the claim a parent reads immediately after being told their child
+will wear a mouthguard and a chest protector. The third, "prevent any issues", is
+a flat guarantee that nothing will go wrong.
+
+**The first omission costs some fidelity and is flagged for that reason.** Cutting
+it also removes "They learn brazilian jiu jitsu moves bjj holds", which is
+technique content. The sentence could not be split without rewriting the client's
+words, so the whole sentence went and this note records what was lost. The fix at
+source is three words: "… and **safe ways to grapple**."
+
+**The page's own FAQ is more honest than its body, and all of it was kept:**
+
+| Where | Exact wording |
+|---|---|
+| FAQ 3 | "**Risks exist like minor injuries if contact gets too hard or supervision lacks** but good youth programs **limit head strikes**, use protective gear, control sparring and prioritize technique over power" |
+| FAQ 3 | "Compared to some youth sports MMA often shows **lower serious injury rates** when done properly" — comparative, not absolute |
+| Body | "These steps **keep injuries very low**" — very low, not none |
+| Body | "This equipment absorbs impact cushions hits and **reduces any chance** of bumps or bruises" |
+| Body | "never face **unnecessary risk**" |
+| Body | "include built in steps **to prevent injuries**" — purpose clause |
+
+**Note what the FAQ says and the body does not.** FAQ 3 states that good youth
+programmes "**limit head strikes**". The body of the page never mentions head
+strikes at all — it describes children throwing "clean punches" and "kicks", and
+teenagers doing "full contact style drills", without once saying where the strikes
+may land or that strikes to the head are limited. For a kids MMA page that is the
+single most important sentence missing, and the page's own FAQ supplies it.
+
+**No concussion or brain-injury claim appears**, in either direction: the words
+"concussion" and "brain" do not occur anywhere on the page.
+
+**Running total: 64 sentences across eighteen posts.**
 
 #### The seventeenth page, and one of the two is attached to clinch sparring
 
@@ -725,7 +775,7 @@ decision.
 
 | # | Issue | Tag | Pages affected | Priority |
 |---|---|---|---|---|
-| 0 | **SEVENTEEN** posts promising an absence of injury risk or guaranteeing safety, 61 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
+| 0 | **EIGHTEEN** posts promising an absence of injury risk or guaranteeing safety, 64 sentences in all, 9 of them on classes for ages 5-12, 5 on two weapons pages with no minimum age, 3 on a beginner page that teaches heel hooks and 2 on a page that offers home practice of elbow strikes — **omitted from the rebuild, awaiting the client's decision** | CONTENT (accuracy), LIABILITY | 10 | **URGENT** |
 | 1 | Hidden casino spam links injected into every page | SECURITY | all 86 | Urgent |
 | 2 | Wrong phone number on every tap-to-call link | CONTENT | all 86 | Urgent |
 | 3 | Kids FAQ copied onto adult and teen BJJ pages | CONTENT | 2 | High |
@@ -1650,6 +1700,20 @@ Reproduced on both rebuilt pages under their own prefixes
 in bytes and each page must keep what it published. The duplication is the
 client's to resolve.
 
+**2026-02 addition — the same photograph is now on three pages, and a second one
+on two.** With `/mma-classes-for-kids/`:
+
+| Photograph | Pages | Captions |
+|---|---|---|
+| Adult karate class in a traditional dojo | **three** — `/anti-bullying-martial-arts-for-kids/`, `/family-martial-arts-classes/`, `/mma-classes-for-kids/` | "Beginner to Advanced Levels", "Beginner Intermediate and Advanced Levels", "Beginner and Advanced Programs" |
+| Kids striking class, triangle-logo uniforms | **two** — `/kids-self-defense-classes-near-me/`, `/mma-classes-for-kids/` | "Benefits of Attending Kids Self Defense Classes Near Me", "MMA Classes for Kids" |
+
+All four files differ in bytes because the caption bar is burned into each image,
+so each page keeps its own copy in the rebuild under its own prefix. The
+duplication is the client's to resolve — and the adult karate photograph is now
+illustrating an anti-bullying page, a family page and a kids MMA page, none of
+which is about adult karate.
+
 ### 27. Gi sizing chart has overlapping height ranges — CONTENT — Medium
 
 The "BJJ Gi Sizing Guide (A0–A5 & Brand Variations)" table is something readers
@@ -2556,6 +2620,54 @@ mirrors them, including the TOC consequence.
 as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+#### ⚠ READ FIRST — a dedicated page selling MMA classes for children
+
+**A dedicated page selling MMA classes for children at a gym whose only kids
+programme is BJJ.** MMA for children implies striking and ground work combined,
+which is operationally and reputationally different from kids BJJ. **Three pages
+now advertise it.** The client must confirm whether a kids MMA class exists before
+any of them goes live.
+
+| Page | How it advertises kids MMA |
+|---|---|
+| `/mma-gyms-near-me/` | "Parents Love Our **Kids' MMA Programs**" |
+| `/martial-arts-for-kids-strenght/` | kids MMA named among the offerings |
+| `/mma-classes-for-kids/` (2026-02-26) | **an entire 3,851-word page**, with three named age-banded MMA programmes, a sparring policy, a membership section and a free trial |
+
+**MMA has no programme page at any age on this site.** Not for adults, not for
+teens, not for children. The gym's five programmes are Adult BJJ, Adult Muay Thai,
+Kids BJJ, Teen BJJ and Teen Muay Thai.
+
+**What the newest page specifically claims, quoted exactly:**
+
+- "we run **special kids mma classes kids mma program and kids mixed martial arts
+  sessions** that mix brazilian jiu jitsu bjj muay thai wrestling boxing
+  kickboxing and other martial art styles into one exciting training"
+- Three named programmes: "**Little Champions Program (Ages 4 6)**", "**Junior MMA
+  Program (Ages 7 10)**", "**Youth MMA Program (Ages 11 15)**"
+- "**We require full protective gear** … headgear mouthguards shin guards chest
+  protectors and glove sized just for them"
+- "Classes combine **full contact style drills** with control" (ages 11–15)
+- "Our coach and instructor **hold certifications in martial art styles including
+  bjj muay thai and youth training methods**"
+
+**It takes the gym's real programme name and attaches it to a discipline the gym
+does not teach.** "Little Champions" is the actual name of the 4-to-7 Kids BJJ
+intro class on the homepage. Here it is "the Little Champions Program" for
+**MMA**, rebanded 4–6. A parent who rings up to enrol in Little Champions and asks
+about the MMA curriculum will be asking for something that does not exist.
+
+**The page is also internally inconsistent about its own minimum age** — see the
+child-safety entry at issue 90.
+
+**The client's own markup makes the conflation explicit**: three kids-MMA phrases
+("MMA Classes for Kids", "kids mma classes", "kids mma program") are hyperlinked
+to `/kids-bjj-classes/`. **Those three anchors were unwrapped in the rebuild** —
+the text is reproduced verbatim, the link is not — because sending a parent
+looking for kids MMA to the Kids BJJ page is the error this entry exists to
+record. No programme link was substituted.
+
 
 #### The SEVENTH Muay Boran post, and the first to claim a Thai LINEAGE, a fee structure and online delivery
 
@@ -7453,6 +7565,32 @@ Three flags:
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-02 addition — `/mma-classes-for-kids/`: ten tags, and every single one
+sells the class that does not exist.** The post carries 10 tags: `MMA Classes for
+Kids`, `MMA fitness for kids`, `beginner MMA for children`, `children’s MMA
+academy`, `junior MMA training`, `kids combat sports training`, `kids grappling
+classes`, `kids mixed martial arts training`, `safe MMA classes for kids`, `youth
+MMA programs`.
+
+**Nine of the ten name kids MMA directly** and the tenth, `kids grappling
+classes`, is the only one that maps onto a real offering. Where earlier posts had
+one or two tags overreaching, here the entire tag set advertises an untaught
+programme to search engines — ten thin archive pages for a class the gym may not
+run (issue 39).
+
+Two further flags:
+
+- **`safe MMA classes for kids` leads with a safety claim** on a page from which
+  three safety sentences had to be omitted (issue 0).
+- **`children’s MMA academy` contains a curly apostrophe** (U+2019) in a tag slug,
+  which WordPress will transliterate inconsistently in the archive URL.
+
+**No competitor is named and no tag carries the city**, despite the page's own H2
+saying "in Coppell TX".
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -7830,7 +7968,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
 | BJJ classes | `/brazilian-jiu-jitsu-classes/` · `/adult-bjj-classes/` (program page) · `/martial-arts-classes/` · `/martial-arts-classes-2/` (see issue 24) |
 | **Muay Thai in Coppell (confirmed, THREE posts plus two programme pages)** | `/muay-thai-classes-coppell/` · `/muay-boran-in-coppell/` · `/kick-boxing-classes/` · `/adult-muay-thai-classes/` · `/teen-muay-thai-classes/` (program pages) — see below |
-| **Martial arts for kids (confirmed, FOUR posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
+| **Martial arts for kids (confirmed, FIVE posts plus a teen post and two program pages)** | `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/anti-bullying-martial-arts-for-kids/` · `/kids-self-defense-classes-near-me/` · `/mma-classes-for-kids/` · `/teens-bjj-near-me/` · `/kids-bjj-classes/` · `/teen-bjj-classes/` (program pages) — see below |
 | **"Martial arts near me" (confirmed, three pages)** | `/martial-arts-near-me/` · `/martial-arts-gyms-near-me/` · `/martial-arts-near-me-classes/` — see issue 50 |
 | **Adults starting martial arts (confirmed, FOUR blog posts plus two programme pages)** | `/adult-beginner-martial-arts/` · `/martial-arts-for-adults/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-bjj-classes/` · `/adult-muay-thai-classes/` (program pages) — see below |
 | **Families and all ages (confirmed, FOUR posts plus five programme pages)** | `/family-martial-arts-classes/` · `/martial-arts-classes/` · `/martial-arts-classes-2/` · `/adult-beginner-martial-arts/` — see below |
@@ -8000,6 +8138,54 @@ issue 39). If the client keeps one, keep the bullying page.
 sharper query and accurate discipline claims; or, if the "kids self defense near
 me" query is worth keeping, strip this page back to BJJ and delete the five
 off-topic FAQ answers first (issue 87).
+
+#### The sixth kids page, and the highest heading overlap in the document — **CRITICAL**
+
+`/mma-classes-for-kids/` was published at **18:51 on 26 February 2026**. It is the
+**fifth** of five kids posts published that evening or earlier, and the **sixth**
+kids page overall:
+
+| Page | Published | H2s |
+|---|---|---|
+| `/martial-arts-for-kids/` | 2025-02-16 | 14 |
+| `/teens-bjj-near-me/` | 2025-09-17 | — |
+| `/martial-arts-for-kids-strenght/` | 2025-10-18 | 14 |
+| `/anti-bullying-martial-arts-for-kids/` | 2026-02-26 **18:43** | 11 |
+| `/kids-self-defense-classes-near-me/` | 2026-02-26 **18:46** | 10 |
+| `/mma-classes-for-kids/` | 2026-02-26 **18:51** | **11** |
+| `/kids-bjj-classes/` | — | the only programme page |
+
+**Seven pages chasing parents in one city, and only one of them describes a
+programme that exists.**
+
+**The heading-word overlap with `/kids-self-defense-classes-near-me/` is 82.3%
+— the highest figure recorded anywhere in this document.**
+
+| Sibling | Exact H2 matches | All h2+h3 | H2 word overlap |
+|---|---|---|---|
+| `/kids-self-defense-classes-near-me/` | 4 of 11 (36.4%, all boilerplate) | 4 of 36 (11.1%) | **82.3%** |
+| `/martial-arts-for-kids-strenght/` | 2 of 11 (18.2%, both boilerplate) | 4 of 36 (11.1%) | **73.4%** |
+| `/martial-arts-for-kids/` | **0 of 11** | **0 of 36** | 46.8% |
+
+The exact-match figures stay low because the keyword is substituted into each
+heading, but the structure is identical: What Kids Will Learn → Age Groups (4–6 /
+7–10 / 11–15) → Benefits → Safety Measures → Class Schedule and Membership → Why
+Choose Sixth Sense MMA → Contact → Conclusion. Three pages, one template, forty
+minutes.
+
+**This page also repeats the two-"Why"-H2 defect** logged on
+`/muay-thai-classes-coppell/`: "Why Sixth Sense MMA Are the Best Choice for MMA
+Classes for Kids in Coppell TX" is followed three H3s later by "Why Choose Sixth
+Sense MMA for Classes for Kids" — the second of which has also lost the word
+"MMA" from its title. Both are reproduced verbatim and both appear in the table of
+contents. See issue 15.
+
+**Recommendation.** This is the one page in the kids cluster that should not be
+consolidated — it should be **held**. Consolidating it implies the class is real.
+Until the client confirms a kids MMA programme exists (issue 39), the page should
+not go live in any form. If the answer is no, it is not a 301 candidate but a
+deletion, and `/mma-gyms-near-me/` and `/martial-arts-for-kids-strenght/` need
+their kids-MMA claims stripped at the same time.
 
 #### The kids cluster: three posts, a teen post and two programme pages
 
@@ -14677,6 +14863,138 @@ celebrity or parenting trivia, this one with a **keyword homonym**.
 real question with a real answer — unlike the lorem-ipsum placeholder at issue 66,
 which was excluded. **Recommended fix: delete answers 5, 7 and 9**, and replace
 FAQ 1 with this gym's actual rates.
+
+### 90. The fourth child-safety page: children sparring in headgear, a minimum age the page states two ways, and four FAQ answers about UFC fighters — CONTENT (accuracy), SAFEGUARDING — **High, the client must confirm before publication**
+
+`/mma-classes-for-kids/` (26 February 2026, 3,851 words) is the **fourth page in
+this group** and the first to sell a full combat sport to children as its whole
+subject. Everything below is **quoted exactly as published** and **reproduced
+verbatim on the rebuilt page** except the three sentences at issue 0.
+
+#### Claims that training keeps a child safe
+
+**No outright guarantee survives** — the three that came closest were omitted
+(issue 0). What remains is qualified and was kept:
+
+- "We require full protective gear **so kids stay safe** during all activities"
+- "we make sure every kid **train safely** enjoys the fun and exciting drills"
+- "children **always stay safely on the mat** with proper protective gear and glove"
+- "Children learn self defense basics that teach them to **defend stay calm and get
+  away if needed**"
+- "Parents share stories of … the **ability to defend themselves if ever needed**"
+
+#### Children sparring and striking: described in detail, at every age band
+
+**Yes, extensively.** This is the most contact-heavy children's page on the site:
+
+| Age band | Exact wording |
+|---|---|
+| All | "Kids start with **simple striking moves from boxing and kickboxing**. They learn how to **throw clean punches** use proper footwork and **add kicks** with good form" |
+| 4–6 | "Children learn **basic striking like safe punches and kicks** grapple holds that feel like wrestling with friends" — but also "Everything stays gentle **no hard contact**" |
+| 7–10 | "They work on **clean boxing punches kickboxing kicks muay thai style knees and wrestling takedowns**… partner work and **light spar with rules**" |
+| 11–15 | "Classes combine **full contact style drills** with control so everyone stays safely protected by glove and gear" |
+| Advanced | "Advanced kids move to tougher combinations **submission chains light spar** and strategy from ufc bellator and pro fights examples" |
+
+**"Full contact style drills" for eleven-year-olds is the line the client should
+look at first.** It is hedged ("style", "with control"), but it is the phrase a
+worried parent or a journalist would quote.
+
+#### Supervision, protective equipment and contact rules: all three are present, and this is the page's strongest section
+
+Unlike issues 86, 87 and 88, **this page does state its rules**:
+
+| Measure | Exact wording |
+|---|---|
+| Equipment | "Children wear **headgear mouthguards shin guards chest protectors and glove sized just for them**" |
+| Contact limit | "**no full power strikes light contact only** and always with coach watching closely" |
+| Contact limit | "Strict rules **no full contact unless ready** proper tap signals" |
+| Supervision | "Every class has enough coach and instructor to watch every child closely **no one gets left unsupervised even for a second**" |
+| Pairing rule | "**pair kids of similar size and skill** for partner work" |
+| Stop rule | "Instructor **stop drills right away if anything looks off**" |
+| Tap rule | "Kids learn to **tap early** to show when they need a break" |
+| Modification | "If a child feels tired sore or unsure we **give rest modify moves or switch to lighter drills**" |
+
+**That is a genuinely good set, and it is worth saying so.** A size-and-skill
+pairing rule is exactly what `/family-martial-arts-classes/` was missing (issue
+88). The one gap is **head strikes**: the body never says whether strikes to the
+head are permitted, while the page's own FAQ says good programmes "limit head
+strikes". On a kids MMA page that needs stating in the body.
+
+#### Ages: the page contradicts itself, and contradicts the programme
+
+| Source | Minimum | Maximum |
+|---|---|---|
+| This page, opening and twice more | "**Kids ages 6 and up**" | — |
+| This page, age-group section | "**Little Champions Program (Ages 4 6)** … welcomes very young kids **ages 4 to 6**" | "**Youth MMA Program (Ages 11 15)**" |
+| This page, FAQ 1 | "as young as **4 or 5**"; "**Experts say** formal full MMA with grappling and striking often starts around **8 to 13**"; "Some places wait until **13-16**" | — |
+| `/kids-bjj-classes/` + homepage | **4**, Little Champions **4 to 7** | **12** |
+
+**Three conflicts:**
+
+1. **The page states its own minimum age two different ways.** "Ages 6 and up"
+   appears three times, including in the opening sentence and the closing
+   curriculum paragraph; "ages 4 to 6" appears in the age-group section. A parent
+   of a five-year-old gets both answers on one page.
+2. **Little Champions is 4–7 on the homepage and 4–6 here**, and here it is an MMA
+   programme rather than a BJJ one (issue 39). This is the second page to reband
+   it — `/anti-bullying-martial-arts-for-kids/` used 4–6 as well.
+3. **The maximum runs to 15**, where the kids programme ends at 12 and teens are
+   served by `/teen-bjj-classes/` and `/teen-muay-thai-classes/`.
+
+**The page's own FAQ undercuts its youngest programme.** FAQ 1 says experts put
+formal MMA with grappling and striking at "**around 8 to 13**" and that some gyms
+"wait until 13-16". The page sells it from 4.
+
+#### Images: fifteen or so identifiable children, and the third reuse of one photograph
+
+| File | What it shows |
+|---|---|
+| `mma-kids-01.jpg` (featured) | About **ten identifiable children** in a striking class — **the same photograph already published as `kids-self-def-02.jpg`** on `/kids-self-defense-classes-near-me/`, re-captioned |
+| `mma-kids-02.jpg` | **Five identifiable young children**, faces full-frame and smiling, arms round each other — in **karate gis with white and yellow belts**, not MMA |
+| `mma-kids-03.jpg` | An adult karate class — **the same photograph published as `anti-bullying-03.jpg` and `family-classes-03.jpg`**, now on its **third** page under a third caption |
+
+**Three points:**
+
+1. **Photo consent.** Roughly fifteen identifiable minors across two images, and
+   `mma-kids-02.jpg` is the closest, clearest portrait set of children anywhere in
+   this audit. **The client should confirm signed photo consent is on file**, or
+   replace them. Same requirement as issues 86, 87 and 88.
+2. **One photograph is now on three pages.** The adult karate class illustrates
+   "Beginner to Advanced Levels", "Beginner Intermediate and Advanced Levels" and
+   now "Beginner and Advanced Programs". See issue 26.
+3. **No image shows MMA.** Two are karate, one is a striking class in another
+   school's uniform. None is the Coppell facility.
+
+#### The FAQ: four answers about professional fighters, one about a UFC bonus cheque
+
+| FAQ | Question | Subject |
+|---|---|---|
+| 6 | "At what age did **Conor McGregor** start fighting?" | a pro fighter's career |
+| 8 | "What age did **Jon Jones** start fighting?" | a pro fighter's career |
+| 9 | "Is **25 too late to start UFC**?" | an adult pro-career question |
+| 10 | "Who won the **$300 000 bonus at UFC 300**?" | "Max Holloway won two for his **knockout of Justin Gaethje** earning $600 000" |
+
+**Four of ten answers on a page for parents of four-to-fifteen-year-olds are about
+professional cage fighting**, and the last one describes a knockout and a prize
+cheque. The body of the page works hard to say this is about discipline and
+confidence rather than fighting — "the focus stays on learning not fighting hard",
+"without making them aggressive" — and then the FAQ tells a parent how much Max
+Holloway was paid for a knockout.
+
+This is the seventh instance of the off-topic-FAQ pattern (issues 77, 81, 85, 87,
+88, 89). **Recommended fix: delete answers 6, 8, 9 and 10.** The six that remain
+are genuinely useful, and **FAQ 1 and FAQ 3 are the best child-safety writing on
+the site** — they should be promoted into the body, not buried in an accordion.
+
+#### FAQ 4 publishes prices, and they are not this gym's
+
+"How much does jiu jitsu cost for kids?" answers with "**$100 and $220 per
+month**", "**$150 to $200**", "**$120** in smaller towns", "**$180 to $250**" and
+one-off fees "**around $50 to $200**", closing with "**check local gyms for exact
+rates**". These are US market averages, not Sixth Sense's, and the page's own
+"Affordable Membership Plans" section names no price. Same defect as
+`/muay-thai-classes-coppell/` (issue 48), and here the question is about **jiu
+jitsu** on a page selling **MMA**.
 
 ## How these were checked
 

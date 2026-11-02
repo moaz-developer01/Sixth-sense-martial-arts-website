@@ -25,6 +25,48 @@ a competing gym.
 
 ### 0. NINETEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A sixth page that needed no omission, and the one marketed as "the safe option"
+
+`/benefits-of-bjj/` (13 March 2026, 2,385 words) required **no omission**. Every
+paragraph was checked, because Brazilian jiu jitsu is routinely sold as the
+low-risk martial art — no strikes, no head contact, tap and reset — which makes a
+"BJJ carries no injury risk" sentence the most predictable claim on the site.
+**There is not one, and the page uses the correct hedge in the exact place the
+other nineteen pages used an absolute.**
+
+> Safe and Supportive Training Environment: "Instructors emphasize proper technique
+> warm ups and controlled rolling **to keep injury risk low**."
+
+"Keep injury risk low" is the sentence that should be on the kids pages, the
+weapons pages and the neck-bridge pages. It concedes that risk exists, names what
+reduces it, and promises nothing. **It is the model phrasing for the whole site**,
+and it sits on the page where a gym would be most tempted to overclaim.
+
+**Everything else checked and kept:**
+
+| Exact wording | Why it was kept |
+|---|---|
+| "Flexibility **helps with injury prevention** and makes movements smoother" | hedged with "helps" |
+| "It teaches how to control an opponent on the ground escape bad positions and **apply submissions safely**" | adverb of manner |
+| "Classes begin with basics … so new people **learn safely** without feeling overwhelmed" | adverb of manner |
+| "the program supports physical fitness mental resilience and real world self defense **in a safe space**" | atmosphere, not a risk claim |
+| "The mats provide good cushion and grip for **safe rolling** and ground work" | describes equipment |
+| "Practitioners stay consistent because they feel valued and **safe to take risks** and grow" | about confidence; note it says risks exist |
+| "This carries over to other sports and daily life where good balance **prevents falls** and improves coordination" | **borderline**, kept: an unhedged "prevents", but about everyday balance rather than training risk |
+
+The last row is the only unhedged prevention claim on the page and is recorded
+here so the client can decide it. It is a fitness benefit claim, not a statement
+that rolling is risk-free, which is why it stayed.
+
+**"Concussion" and "brain" appear zero times**, which on a grappling page is
+expected rather than notable — unlike `/benefits-of-mma/`, where naming concussion
+risk was the right call and was made.
+
+Running total unchanged: **66 sentences across nineteen posts.** Six of the last
+seven builds needed no omission, and all six are the 2026 adult pages. **The
+problem is confined to the older kids, weapons and neck-bridge content**, which
+narrows the client's job considerably.
+
 #### A fifth page that needed no omission, and it is the one that should have been worst
 
 `/benefits-of-mma/` (12 March 2026, 2,734 words) required **no omission**. Every
@@ -4934,6 +4976,53 @@ description where "certified" would have been the eleventh unnamed certification
 no price; this page at least promises no package either, so it does not add a
 thirteenth pricing claim.
 
+**2026-03 addition — `/benefits-of-bjj/`: a POSITIVE on programme accuracy, with
+one word that still has to go.**
+
+**This is the cleanest programme page in the 2026 batch.** It belongs alongside
+`/martial-arts-near-me-classes/`, `/adult-beginner-martial-arts/` and
+`/muay-thai-classes-coppell/`, and it is the strongest of the four because its
+subject is the gym's best-supported offering: BJJ has **three** programme pages —
+adult, teen and kids.
+
+| Check | Result |
+|---|---|
+| Sticks to BJJ | **yes.** The page is about Brazilian jiu jitsu throughout |
+| Names untaught disciplines as gym offerings | **no** |
+| Age ranges given | **none at all**, so nothing can contradict `kids-bjj-classes.html` (4–12, Little Champions 4–7). "Kid" appears once, in "playing with **kids**" as an example of everyday fitness |
+| Kids or teen BJJ advertised | **no** — the page is written for adults and never claims a children's class |
+| Pricing section or figure | **none.** No price, no package, no membership, no drop-in, no free trial. **It does not become the thirteenth page** |
+| Certified instructors | **claimed, nothing named** — see below |
+
+**Other disciplines are named only as other people's backgrounds, which is
+correct.** "**Wrestlers** add ground control submissions and escapes to their
+game", "Striking athletes like **kickboxers** or Adult Muay Thai classes
+practitioners learn how to defend takedowns", "**Team sport players** gain better
+body control". Wrestling and kickboxing have no programme page and **are left
+unlinked in the rebuild**; Muay Thai does and the client's own anchor already
+points at it. The page never suggests the gym teaches wrestling or kickboxing.
+
+#### The one exception, and on this page it is the most checkable version yet
+
+> H3 "Experienced and **Certified** Instructors"
+>
+> "The instructors at Sixth Sense MMA bring experience and **certifications in
+> Brazilian jiu jitsu** along with years of teaching and rolling on the mat."
+
+**Ninth page to claim a certification with nothing named**, and the first where
+the omission is conspicuous rather than vague. In BJJ, "certified" is not a
+course certificate — it is **a belt rank awarded by a named instructor in a named
+lineage**, and it is the first thing a prospective student checks. The page itself
+proves it knows this: its own FAQ names Mark Zuckerberg's **blue belt**, his
+**IBJJF Master Worlds** gold medals and the instructor who promoted him. **It will
+name a stranger's belt and lineage and not its own instructors'.**
+
+This is the easiest fix in the whole audit and the highest-value one on this page:
+one sentence naming each instructor's belt and who awarded it. Until then the
+claim stays in this entry with the other eight.
+
+**Logged as a POSITIVE on programme accuracy** with that single exception noted.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8230,6 +8319,33 @@ same redundancy logged on `/kickboxing-training-tips/` — `MMA workout benefits
 benefits` are four names for one query. And **the case is inconsistent again**:
 `mma for self defense` lower case against `MMA` capitalised in eight others and
 `mixed martial arts benefits` spelled out.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
+**2026-03 addition — `/benefits-of-bjj/`: ten tags, and for the first time in the
+2026 run the discipline they target is one the gym actually teaches.** The post
+carries 10 tags: `Benefits of BJJ`, `benefits of Brazilian Jiu Jitsu`, `BJJ
+fitness benefits`, `bjj for self defense`, `BJJ health benefits`, `BJJ lifestyle
+benefits`, `BJJ mental benefits`, `BJJ strength and conditioning benefits`, `BJJ
+training benefits`, `BJJ weight loss benefits`.
+
+**The flags all come back clean**: every tag is about the page's subject, **no
+untaught discipline** (unlike `/benefits-of-mma/`, where all ten targeted a class
+the gym does not run), **no competitor name** (unlike issue 61's Gracie Barra
+tag — and note the page's own FAQ names a competing academy in body copy, but no
+tag does), no city, no typo, and nothing copied from another post.
+
+**The redundancy pattern continues, though.** Eight of the ten are "BJJ" + a
+qualifier + "benefits" — `BJJ fitness benefits`, `BJJ health benefits`, `BJJ
+lifestyle benefits`, `BJJ training benefits` and `BJJ weight loss benefits` are
+five names for one query, and `Benefits of BJJ` and `benefits of Brazilian Jiu
+Jitsu` are the same tag spelled two ways. Third page in a row with this shape
+(after `/kickboxing-training-tips/` and `/benefits-of-mma/`).
+
+**And the case is inconsistent again**: `bjj for self defense` lower case against
+`BJJ` capitalised in seven others, and `benefits of Brazilian Jiu Jitsu` with a
+lower-case "benefits" against `Benefits of BJJ` with a capital.
 
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
@@ -13186,6 +13302,29 @@ appears **zero** times. The malformed "Mix martial arts" form that gave
 `/mix-martial-arts-for-self-defense/` its slug does not appear here. The page uses
 the initialism almost throughout: **"MMA" 99 times**, plus "MMA's" twice.
 
+**2026-03 addition — `/benefits-of-bjj/`: the body/FAQ hyphenation split again, in
+five terms out of five, and this time it changes how the art is spelled.**
+
+| Term | Body | FAQ |
+|---|---|---|
+| **jiu jitsu / jiu-jitsu** | "jiu jitsu" ×5 | "jiu-jitsu" ×8 |
+| full body / full-body | "full body" ×7 | "full-body" ×2 |
+| self defense / self-defense | "self defense" ×9 | "self-defense" ×4 |
+| well being / well-being | "well being" ×2 | "well-being" ×1 |
+| real world / real-world | "real world" ×3 | "real-world" ×3 |
+
+**Identical pattern to `/benefits-of-mma/` the day before**: the article never
+hyphenates, the accordion always does, and the boundary is exact in every term.
+Two pages in a row with the same split is no longer a coincidence — **the FAQs are
+being written separately from the articles**, which also explains the celebrity and
+military questions landing on a benefits page (issues 61 and 85).
+
+**The BJJ case is the one to fix first**, because "jiu jitsu" against "jiu-jitsu"
+is the brand of the art itself, and the page uses the unhyphenated form in its H2s
+and the hyphenated form in its own FAQ. The site already carries the same split
+across slugs: `/brazilian-jiu-jitsu-classes/` and `/brazilian-jiu-jitsu-coppell-tx/`
+against `/bjj-classes-near-me/`. **All reproduced exactly as published.**
+
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
 **Now on fifteen pages.** `/sambo-techniques/` carries the fifteenth,
@@ -13470,6 +13609,45 @@ page that honestly compares the two, not a tag.
 **In the rebuild:** no tag section is published on any post, so the tag does not
 appear anywhere in the rebuilt site. It is recorded here because it is live on
 the client's WordPress.
+
+**2026-03 addition — `/benefits-of-bjj/`: a FAQ answer that names a competing BJJ
+academy and its head instructor, in body copy rather than a tag.**
+
+FAQ 2 of nine asks "**What is Mark Zuckerberg's BJJ rank?**" The answer, reproduced
+verbatim:
+
+> "Mark Zuckerberg holds a **blue belt** in Brazilian jiu-jitsu. He has trained
+> consistently for several years often posting about his progress competitions and
+> training sessions. In 2024 he won gold medals in his weight class and age group
+> at the **IBJJF Master Worlds** which helped him earn the promotion to blue belt
+> from his instructors. **He trains under Guilherme "Gui" Mendes at Art of
+> Jiu-Jitsu in California.**"
+
+**"Art of Jiu-Jitsu" is a real, well-known competing BJJ academy** and Guilherme
+Mendes is one of the sport's best-known competitors and coaches. This is a
+different failure from issue 61: there the competitor's brand was a **tag** and a
+URL, which is an SEO and trademark problem. Here it is a sentence of editorial
+copy on a page selling BJJ lessons, so the problems are smaller but real:
+
+| Problem | Why |
+|---|---|
+| It recommends a competitor by name | A reader interested enough to ask about Zuckerberg's BJJ now knows where he trains, and it is not Coppell |
+| It is the only named academy on the page | The gym's own instructors are described as "Experienced and Certified" with **no belt and no lineage named** (see the service-claims entry). The page names a competitor's lineage and withholds its own |
+| Celebrity trivia on a benefits page | Same pattern as the twelve-question celebrity FAQ at issue 85 and the Zuckerberg-adjacent questions elsewhere |
+
+**Reproduced verbatim**, as the standing rule requires, and it is in the FAQPage
+structured data because it is a real question with a real answer. **No link was
+created** — the academy is named in text only, so no link equity leaves the site,
+which is what makes this milder than issue 40.
+
+**The tags on this page are clean of competitor names** (see the tag entry), so
+this is contained to one FAQ answer. The fix is to delete the question, or to keep
+it and add the gym's own instructors' belts and lineage next to it.
+
+**Also checked**: "Gracie", "Gracie Barra", "Alliance", "Atos", "10th Planet" and
+"Renzo" appear **zero times** on this page. The only other third parties named are
+the **IBJJF** (a sanctioning body, not a competitor) and, in the military FAQ, the
+**US Army, Marine Corps, Special Operations, Israel, Brazil and NATO forces**.
 
 ### 62. Unnamed "experts" cited as authority, sourceless attributions, and unspecified "studies" credited to a federation — CONTENT (accuracy), SEO — **High**
 
@@ -14178,6 +14356,52 @@ are left unlinked too.
 rel="noopener"`. **No health site, no supplement retailer, no competitor and no
 citation of any kind** — consistent with the page claiming no research at all
 (issue 94d). **Zero empty ChatGPT citation anchors.**
+
+**2026-03 addition — `/benefits-of-bjj/`: the first page in the audit where every
+one of the client's content links is aimed correctly — and all three open in a new
+tab for no reason.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "practical self defense skills" | `/adult-bjj-classes/` | **correct destination**, loose anchor text |
+| "**Brazilian jiu jitsu**" | `/adult-bjj-classes/` | **correct** |
+| "**Adult Muay Thai classes**" | `/adult-muay-thai-classes/` | **correct**, the programme named exactly |
+| "**Sixth Sense MMA**" | `/` | **correct** — the brand name to the homepage |
+
+**No anchor needed unwrapping on this page**, which has not happened before: five
+client anchors have been unwrapped across the rebuild, and this is the first page
+to contribute none.
+
+**All three content links carry `target="_blank" rel="noreferrer noopener"` — on
+INTERNAL links.** Sending a reader to another page of the same site in a new tab
+is a WordPress editor habit, not a decision: it leaves orphaned tabs, breaks the
+back button and, with `noreferrer`, strips the internal referrer from the client's
+own analytics. **The rebuild drops `target` and `rel` on internal links** and
+keeps them only on the external Facebook button, which is the standard the other
+rebuilt pages use.
+
+**One keyword-insertion artefact, reproduced verbatim**, where the programme name
+has been pushed into the grammar of the sentence: "Striking athletes like
+kickboxers or **Adult Muay Thai classes practitioners** learn how to defend
+takedowns and fight on the ground." The anchor text is the page title of the
+programme, dropped into a noun phrase where "Muay Thai" alone was wanted. Same
+family as the anchors that swallow their own full stops (issue 64).
+
+**One adult BJJ link was added by the rebuild**, on the client's own words, in the
+Contact section where the page asks the reader to begin and gave them nowhere to
+go: "If you want to start **Brazilian jiu jitsu training**…" →
+`adult-bjj-classes.html`.
+
+**`kids-bjj-classes.html` and `teen-bjj-classes.html` were left unlinked.** The
+page names no child and no teenager; "kid" appears once, in "playing with kids" as
+an example of everyday fitness. **Wrestling and kickboxing are also left
+unlinked**, having no programme page — they appear only as the backgrounds of
+athletes who cross-train.
+
+**Externals: one, the shared Facebook button**, already carrying `target="_blank"
+rel="noopener"`. **No health site, no supplement retailer and no competitor link.**
+A competing academy is named in text in one FAQ answer (issue 61) but is not
+linked. **Zero empty ChatGPT citation anchors.**
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -16713,12 +16937,14 @@ FAQPage structured data because it is a real question with a real answer.
 The other seven are on topic, and FAQ 5 ("What is the hardest kick technique?")
 and FAQ 6 ("What is not allowed in kickboxing?") are genuinely useful.
 
-### 94. The benefits triplet: one template, three disciplines, three days, and not a single number between them — SEO, CONTENT (accuracy) — **CRITICAL**
+### 94. The benefits group: one template, FOUR disciplines, four days, and not a single number between them — SEO, CONTENT (accuracy) — **CRITICAL**
 
-`/benefits-of-mma/` (12 March 2026) is the third benefits page in five days. The
-other two are `/benefits-of-muay-thai/` (7 March) and `/benefits-of-kickboxing/`
-(8 March). **This is one consolidated finding with one fix**, as asked, rather
-than three notes.
+**2026-03-13 update: this is now a FOUR-page group.** `/benefits-of-bjj/` (13
+March 2026) joined `/benefits-of-mma/` (12 March), `/benefits-of-kickboxing/` (8
+March) and `/benefits-of-muay-thai/` (7 March) — four benefits pages in six days,
+one per discipline, from one template. The four-way comparison is in its own
+section at the end of this entry. **This remains one consolidated finding with one
+fix**, as asked, rather than four notes.
 
 #### They are one template with the discipline swapped
 
@@ -16843,6 +17069,175 @@ each programme gives you and links to it. Which URL survives:
 Fold the two real distinctions worth keeping — the grappling benefits from this
 page and the ten-item structure — into the survivor, and the site loses three
 competing pages and gains one that is accurate.
+
+#### The four-way comparison, added 13 March 2026
+
+`/benefits-of-bjj/` makes the group a set of four. The numbered lists side by side:
+
+| # | `/benefits-of-bjj/` | `/benefits-of-mma/` | `/benefits-of-muay-thai/` | `/benefits-of-kickboxing/` |
+|---|---|---|---|---|
+| 1 | Effective Self Defense Skills | Full Body Strength and Conditioning | Full Body Workout | Full Body Workout |
+| 2 | **Full Body Strength and Conditioning** | **Full Body Strength and Conditioning** (at 1) | Effective Weight Loss | Effective Weight Loss and High Calorie Burn |
+| 3 | **Improved Cardiovascular Endurance** | **Improved Cardiovascular Endurance** | Improved Cardiovascular Health | Improves Cardiovascular Health |
+| 4 | Better Balance and Body Control | Practical Self Defense Skills | Practical Self Defense Skills | Builds Strength and Endurance |
+| 5 | Increased Flexibility and Mobility | Better Balance and Coordination | Increased Strength and Power | Enhances Coordination and Balance |
+| 6 | Weight Loss and Fat Burning | Increased Flexibility and Mobility | Better Balance and Coordination | Improves Flexibility and Mobility |
+| 7 | Mental Focus and Problem Solving Skills | Stress Relief and Mental Focus | Stress Relief and Mental Focus | Teaches Practical Self Defense Skills |
+| 8 | **Boosted Confidence and Discipline** | **Boosted Confidence and Discipline** | Boosted Confidence | Reduces Stress and Improves Mental Health |
+| 9 | Stress Relief and Mental Well Being | Enhanced Speed and Reflexes | Discipline and Mental Toughness | Boosts Confidence and Self Discipline |
+| 10 | **Supportive Training Community** | Stronger Mental Toughness | **Supportive Training Community** | Suitable for All Fitness Levels |
+
+**Three headings are byte-identical between the BJJ and MMA pages, two of them at
+the same number**: "3. Improved Cardiovascular Endurance" and "8. Boosted
+Confidence and Discipline" are the same string at the same position on both, and
+"Full Body Strength and Conditioning" is BJJ's 2 and MMA's 1. "Supportive Training
+Community" is number 10 on both the BJJ and Muay Thai pages. **All four pages put
+cardiovascular improvement at number 3.** All four carry a weight-loss item.
+
+| Pair | Exact H2 matches | Of which are real headings | All levels | H2 word overlap |
+|---|---|---|---|---|
+| **BJJ ↔ MMA** | 6 of 18 (33.3%) | **2** at identical positions | 7 of 28 (25.0%) | **81.8%** — the highest in the group |
+| BJJ ↔ Muay Thai | 5 of 18 (27.8%) | 1 ("10. Supportive Training Community") | 17.9% | 67.3% |
+| BJJ ↔ Kickboxing | 4 of 18 (22.2%) | 0, all boilerplate | 14.3% | 60.0% |
+| MMA ↔ Muay Thai | 6 of 18 (33.3%) | 2 at identical positions | 21.4% | 69.1% |
+| MMA ↔ Kickboxing | 4 of 18 (22.2%) | 0, all boilerplate | 14.3% | 69.1% |
+| Muay Thai ↔ Kickboxing | 5 of 16 (31.3%) | 5, incl. byte-identical "1. Full Body Workout" | 22.7% | 67.1% |
+
+**The BJJ and MMA pages are the closest pair in the group at 81.8%**, and the
+structure explains why. Below the numbered list both run the same five sections
+with the discipline swapped:
+
+| `/benefits-of-bjj/` | `/benefits-of-mma/` |
+|---|---|
+| "Physical Benefits of **BJJ** Training" | "Physical Benefits of **MMA** Training" |
+| "Mental Benefits of **BJJ** Training" | "Mental Benefits of **MMA** Training" |
+| "Who Should Train in **BJJ**?" | "Who Can Benefit from **MMA** Training?" |
+| "Why Choose Sixth Sense MMA for **BJJ** Training Program?" | "Why Choose Sixth Sense MMA for **MMA** Training Program?" |
+| H3 "**Safe and Supportive Training Environment**" | H3 "**Safe and Supportive Training Environment**" — byte-identical |
+
+Each page also runs an H3 pair on strength and on stamina, an H3 for beginners and
+an H3 for athletes from other sports. **These are not four articles. They are one
+article filled in four times.**
+
+**Counting is correct on all four.** Ten distinct items each, **no duplicates and
+no padding** on any of them.
+
+#### The four-way number check: still NO CONFLICT, still NO NUMBERS
+
+| | BJJ | MMA | Muay Thai | Kickboxing |
+|---|---|---|---|---|
+| Calorie figure | **none** | **none** | **none** | **none** |
+| Weight-loss figure | **none** | **none** | **none** | **none** |
+| Numeric timeframe | **none** | **none** | **none** | **none** |
+| How the burn is described | "burns **a lot of** calories", "intense calorie burn **naturally**" | "burns **a lot of** calories", "a **big** calorie deficit" | "burns **a ton of** calories fast" | "burns calories **at a high rate**" |
+| Vague timeframe | "visible changes in weight and shape **over months**" | "**in weeks**", "after **months**" | "after **a few months**" | "after **months**" |
+
+**No two of the four quote different figures for comparable training, because not
+one of the four publishes a figure at all.** Four pages, four weight-loss
+headings, zero quantities.
+
+**The one place the four nearly disagree is training frequency**, and it is worth
+recording because the wording gives the template away:
+
+| Page | Exact wording |
+|---|---|
+| `/benefits-of-bjj/` | "Three times a week is enough … Progress happens **slower than five or six days**" |
+| `/benefits-of-mma/` | "Three times a week is enough … Results come **slower than five or six days**" |
+| `/benefits-of-muay-thai/` | "Three times a week is **solid**" |
+| `/benefits-of-kickboxing/` | "**Two days a week is enough** … For faster gains … aim for three or more days" |
+
+Three pages set the floor at three sessions and one sets it at two. That is not a
+contradiction — different disciplines, all hedged — but **the BJJ and MMA answers
+are the same sentence with one word changed**, which is the clearest single piece
+of evidence that these pages share a template.
+
+#### Revised recommendation for all four
+
+**Consolidate into one benefits page organised by discipline, with 301s from the
+other three.**
+
+| Candidate | Case |
+|---|---|
+| **`/benefits-of-bjj/` — keep this one instead** | BJJ is the gym's strongest real offering, with **three** programme pages (adult, teen, kids). The page is accurate about the programme, needs no omission, cites no fake research and names no condition. It is the best-written of the four |
+| `/benefits-of-muay-thai/` | 301. Muay Thai is real, but the page is one of the two template twins and its content folds in as a section |
+| `/benefits-of-kickboxing/` | 301. No programme page; maps to Muay Thai; names three medical conditions and three uncited studies (issue 92) |
+| `/benefits-of-mma/` | 301. **MMA is taught at no age at this gym**, so the page's subject is not bookable |
+
+This supersedes the earlier recommendation in this entry to keep
+`/benefits-of-muay-thai/`. The survivor should carry one section per real
+programme — BJJ and Muay Thai — each linking to its own programme page, with one
+shared disclaimer covering the lot (issue 31).
+
+### 95. The one benefits page that claims nothing it cannot support, and the single statistic on it is about technique — CONTENT (accuracy) — **Low**
+
+`/benefits-of-bjj/` (13 March 2026) was put through the same five categories as
+the other three benefits pages. **It is the cleanest of the four**, and the
+comparison is worth keeping because it shows the client what good looks like on
+their own site.
+
+| | BJJ | MMA | Muay Thai | Kickboxing |
+|---|---|---|---|---|
+| (a) Calorie / weight / timeframe figure | **none** | none | none | none |
+| (b) Condition claim | **none** | none | none | **three** (heart disease, multiple sclerosis, bone density) |
+| (c) Anxiety or depression named | **anxiety once, attributed and hedged** | **anxiety 4×, stated flat** | none | none |
+| (d) Uncited research claim | **none** | none | 1 (afterburn) | **three** |
+| (e) Disclaimer | **none** | none | none | none |
+
+**(a) No figure of any kind.** "You constantly push pull twist and hold positions
+against resistance which **burns a lot of calories**"; "the grappling and sparring
+provide **intense calorie burn naturally**"; "the workout leads to **visible changes
+in weight and shape over months**". FAQ 5 adds "after **months or years** of
+consistent training combined with decent nutrition". No calorie count, no pounds,
+no dated promise.
+
+**(b) No claim about curing, preventing or treating a health condition.**
+"Disease", "diabetes", "cancer", "sclerosis", "osteoporosis", "bone density",
+"blood pressure", "cholesterol", "arthritis" and "obesity" occur **zero times**.
+The two nearest sentences are both about function rather than pathology:
+"Flexibility **helps with injury prevention**" (hedged) and "good balance
+**prevents falls**" (unhedged, logged as a borderline under issue 0). Set against
+`/benefits-of-kickboxing/` five days earlier, which told readers with **multiple
+sclerosis** that kickboxing may help their mobility (issue 92), this is a different
+standard of writing.
+
+**(c) Mental health: "anxiety" appears once, and it is the best-hedged version of
+the claim on the site.**
+
+> "**Many people say** BJJ becomes a form of moving meditation that **helps with**
+> stress anxiety and overall mental clarity."
+
+Compare `/benefits-of-mma/` the day before: "**It reduces stress and anxiety**",
+stated flat, twice. This page attributes the claim to practitioners ("many people
+say"), hedges the verb ("helps with") and frames it as a subjective experience
+("a form of moving meditation"). **"Depression" appears zero times** and the phrase
+"mental health" is never used — the page says "mental **well being**" and "mental
+clarity" instead, which claims less. Stress is named 7 times and is ordinary
+stress-relief copy: "releases endorphins that lift mood and leave you feeling
+calmer", "a healthy outlet for pent up energy".
+
+**(d) One statistic, and it is not a health claim.**
+
+> FAQ 6: "The 80/20 rule in BJJ often called the **Pareto principle** applied to
+> training means that roughly **80 percent** of your success comes from mastering
+> **20 percent** of the most effective techniques and positions."
+
+This is the only number on the page and it is about **technique selection**, not
+fitness, weight or health. It is attributed to a named principle rather than to an
+invented study, and the answer closes "**Many coaches teach** that a few
+well-practiced fundamentals beat a wide range of flashy moves" — attributed to
+coaches, not to research. **"Studies", "study", "research", "according to",
+"science", "data" and "proven" occur zero times on the page.**
+
+So the honest answer to "is a source cited" is: **there is nothing here that needs
+one.** The page makes no empirical claim. That puts it alongside
+`/benefits-of-mma/` and ahead of `/benefits-of-kickboxing/`, which made three.
+
+**(e) No disclaimer.** "Disclaimer", "consult", "doctor", "physician" and
+"healthcare" occur zero times. **Fourth benefits page in a row with none** — and on
+this page it matters least, because there is almost nothing for a disclaimer to
+qualify. **One shared disclaimer component across the four would close this and
+most of issue 31 at once**, and if the group is consolidated as issue 94
+recommends, it only has to be written once.
 
 ## How these were checked
 

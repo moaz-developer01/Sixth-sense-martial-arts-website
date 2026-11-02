@@ -23,7 +23,130 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
+### 0a. A page on the client's domain whose title begins with a COMPETITOR'S name — SEO, LEGAL (trademark), BRANDING — **CRITICAL, the client must explain this before the page goes live**
+
+`/mma-gym-valley-ranch-tx/` (26 April 2026, 3,133 words) carries this title tag
+and Open Graph title:
+
+> **Georges MMA Gym Valley Ranch TX: Muay Thai**
+
+**"Georges MMA Gym" is not the client.** The client is Sixth Sense Martial Arts.
+This is the string Google shows, the string that appears on a browser tab, and the
+string that appears when the page is shared on social media.
+
+#### (a) Where "Georges" appears
+
+| Element | Count | Exact form |
+|---|---|---|
+| `<title>` | **1** | "**Georges MMA Gym Valley Ranch TX: Muay Thai**" |
+| `og:title` | **1** | identical |
+| **H1** | **0** | the H1 is "Who Is Behind Sixth Sense Martial Arts  The MMA Gym Valley Ranch TX" (with a double space, reproduced) |
+| Body paragraphs | **12** | "georges mma and boxing gym", "george's mma", "George's gym", "Georges mma", "george's mma and boxing gym", "a reviewer of george's gym" |
+| FAQ | **2** | question 9 and its answer |
+| Image files or alt text | **0** | |
+| Tags | **0** | |
+
+**The title and the H1 do not match, and that is the whole problem in one line.**
+The H1 says the page is about Sixth Sense. The title says it is about Georges.
+
+#### (b) How the page presents Georges MMA Gym
+
+**As a competitor being compared against — not as the business described, and not
+as a partner.** This is the reassuring finding and it should be said plainly: **the
+page was not copied from another business and no template was left unedited.** It
+is a deliberate competitor-comparison article, and the comparison always resolves
+in the client's favour:
+
+> "There's **georges mma and boxing gym** that comes up in searches pretty often
+> and george's mma gets decent reviews for boxing classes and striking training…
+> But when you're looking for a complete mixed martial arts irving valley ranch
+> experience… **the conversation shifts pretty quickly to Sixth Sense**."
+
+> "**George's mma and george's gym get mentioned in a lot of reviews as solid
+> options for boxing classes** and striking training specifically. But for someone
+> who wants a full program… **Sixth Sense offers something more complete**."
+
+> FAQ 9, "What makes this different from george's mma and boxing gym or a boxing
+> gym in irving?": "**Georges mma and boxing gym is known for boxing classes and
+> striking training with a history in the dfw area.** Sixth Sense offers a complete
+> program covering striking and grappling…"
+
+**It also publishes a factual claim about the competitor**: "Georges mma has been
+mentioned by reviewers in the dfw area as **established in 1996** and george's gym
+carries a history in the boxing gym in irving space." A date and a reputation
+attributed to a named rival business, sourced to "reviewers", with no citation.
+
+#### (c) Sixth Sense also appears, 30 times, and owns the page
+
+"Sixth Sense" appears **30 times** against 14 for Georges. The H1, every solution
+section, the programme table, the testimonials and all eight internal links are
+the client's. **The relationship is: this page is Sixth Sense marketing that uses
+a competitor's brand name as its search hook.**
+
+#### (d) Contact details: the client's own, and only the client's
+
+| Detail | What the page gives | Matches the client? |
+|---|---|---|
+| Address | "**817 S MacArthur Blvd #100 Coppell TX 75019**", three times | **yes** |
+| Phone | "**469-972-7800**" and "**(469) 972-7800**" | **yes** |
+| Email | "**info@sixthsensemma.com**" | **yes** |
+| Website | "sixthsensemma.com" | **yes** |
+
+**No address, phone number, email or link belonging to Georges MMA Gym appears
+anywhere on the page.** That is the single most important thing to report here:
+**the more serious version of this problem does not apply.** No other business's
+contact details are published, and **no link points at another gym's website** —
+the only external link on the page is the client's own Instagram.
+
+#### What the client has to decide
+
+The page is competitor-comparison content, which is a legitimate tactic. **Putting
+the competitor's brand first in the title tag is not.** Three concrete problems:
+
+1. **Search results will read as though this page IS Georges MMA Gym.** Anyone
+   searching that brand sees the client's domain under the rival's name.
+2. **Trademark exposure.** "Georges MMA Gym" is a trading name. Using it as the
+   leading element of a title tag is the same category of risk already logged for
+   the Gracie Barra tag (issue 61) and the competitor comparison tables (issue 52),
+   and this one is more prominent than either.
+3. **The title does not describe the page.** The H1, the content and the
+   conversion path are all Sixth Sense.
+
+**Recommended fix, which costs nothing:** change the title to
+"MMA Gym Valley Ranch TX | Sixth Sense Martial Arts" and keep the body comparison
+if the client is comfortable with it. **The rebuild reproduces the live title
+exactly, Georges included**, because the standing instruction is to replicate and
+report rather than correct.
+
+---
+
+
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### An eighth page that needed no omission, and it names the risk itself
+
+`/mma-gym-valley-ranch-tx/` (26 April 2026, 3,133 words) required **no omission**.
+Three sentences touch on safety and all three were kept:
+
+| Exact wording | Why it was kept |
+|---|---|
+| "It means jiu jitsu valley ranch sessions where you're drilling actual technique and **learning to spar safely with progression built in**" | adverb of manner |
+| "people train longer and get better results **when they feel safe and supported**" | about feeling |
+| "**Skipping the beginner program to jump into advanced sparring before the technique is solid tends to result in injury and frustration**" | **names injury as a consequence** |
+
+**The third one is the finding.** It is a warning, not a reassurance, and it is
+aimed at the reader most likely to ignore it — the intermediate arriving from
+another gym. The page follows it with "Intermediate students who came from other
+gyms and tried to skip the foundation work almost always have to go back and
+rebuild it anyway." **"Nobody's throwing you into sparring on day one and calling
+it training"** says the same thing from the beginner's side, and FAQ 4 repeats it:
+"Beginners aren't thrown into sparring before they're ready."
+
+**"Concussion" and "brain" appear zero times**, and there is no absolute denial of
+risk anywhere on the page.
+
+Running total unchanged: **67 sentences across twenty posts.** Seven of the last
+eight builds needed no omission.
 
 #### A seventh page that needed no omission, and the word "injury" is not on it at all
 
@@ -5210,6 +5333,55 @@ from the rebuild.
 **No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
 Action:") appear anywhere on the page.
 
+**2026-04 addition — `/mma-gym-valley-ranch-tx/`: the MMA and kickboxing claims
+reach their most concrete form yet, in a table — but the page also does three
+things no other page has done.**
+
+| Discipline named | Count | Programme page? |
+|---|---|---|
+| MMA / mixed martial arts | **49** | **none, at any age** |
+| Boxing | **33** | **none** |
+| Kickboxing | **16** | **none** |
+| Muay Thai | 25 | yes, adult and teen |
+| BJJ / Brazilian jiu-jitsu | 31 | yes, adult, teen and kids |
+
+**Boxing is the new one.** The meta description promises "Muay Thai, MMA, and
+**boxing** training", and the word appears 33 times in the body — though almost
+every occurrence is about the **competitor's** boxing gym ("a boxing gym in
+irving", "george's mma and boxing gym"), not about a Sixth Sense class. **The page
+never actually claims the gym teaches boxing**, and FAQ 3 answers "What martial
+arts are taught at Sixth Sense?" with "brazilian jiu-jitsu and authentic muay thai
+**and kickboxing**" — so kickboxing is claimed and boxing is not, despite the meta
+description naming boxing and not kickboxing.
+
+**The programme table makes the service claim specific**, which the kickboxing and
+MMA pages never did. Two of its six rows are classes that do not exist:
+"**Kickboxing** — All levels — Kickboxing and conditioning — No-Gi" and "**MMA
+Competition Prep** — Intermediate and advanced — Full mixed martial arts and spar
+sessions — Combined". See the table in the statistics entry. FAQ 6 reinforces it:
+"**Yes. Kickboxing is offered as a standalone program**."
+
+**Three firsts, all in the client's favour:**
+
+1. **No certification is claimed.** "Certified" and "certification" occur **zero**
+   times — the first page in eleven to avoid the unnamed-certification claim.
+2. **An instructor is named.** "**Coach Mattheus Galvao**" appears three times.
+   **The first named instructor anywhere in the audit.** Ten pages claim
+   "certified instructors" and name nobody; this one names a person and claims no
+   certificate. Adding his belt and lineage to this sentence would fix the
+   credential problem across the site.
+3. **The age range is right.** "Ages 4-17" matches `kids-bjj-classes.html` (4–12,
+   Little Champions 4–7) plus the teen programme. First page to get this right.
+
+**Pricing: no figure, but the free trial is promised eight times**, including as
+the page's primary call to action — and **both "claim your free trial" links point
+at `/landing-page/`, the empty WordPress placeholder** already logged at issue 66.
+The conversion path of the client's best-written local page ends on a blank page.
+**Both anchors were unwrapped in the rebuild**, text kept, as on
+`/benefits-of-muay-thai/`.
+
+**No editorial markers** appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8589,6 +8761,34 @@ query reordered. **Best tag set of the 2026 batch.**
 
 Case is inconsistent as usual: `Martial Arts Confidence Building` title-cased
 against nine lower-case tags.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
+**2026-04 addition — `/mma-gym-valley-ranch-tx/`: eleven tags, no competitor
+named — and nine of them target either a town the gym is not in or a discipline it
+does not teach.** The post carries 11 tags: `beginner MMA training Valley Ranch`,
+`combat sports training Texas`, `fitness training Valley Ranch`, `grappling and
+BJJ Valley Ranch`, `kickboxing gym Valley Ranch TX`, `mixed martial arts gym
+Texas`, `MMA classes Irving TX`, `MMA gym Valley Ranch`, `MMA Gym Valley Ranch
+TX`, `self defense classes Irving TX`, `Valley Ranch martial arts training`.
+
+**On the first stated flag the set is clean: "Georges" appears in none of them.**
+The competitor's name is in the title tag and twelve times in the body, and the
+taxonomy stayed clear of it — so this does not repeat issue 61's Gracie Barra tag.
+
+**On the second flag it fails twice over.**
+
+| Problem | Tags |
+|---|---|
+| **Untaught discipline** | `kickboxing gym Valley Ranch TX`, `MMA classes Irving TX`, `MMA gym Valley Ranch`, `MMA Gym Valley Ranch TX`, `beginner MMA training Valley Ranch`, `mixed martial arts gym Texas` — **six tags for MMA and kickboxing**, neither of which has a programme page |
+| **Wrong location** | **eight** carry "Valley Ranch" or "Irving TX"; **none** carries Coppell, where the gym is |
+
+**Only two tags are both accurate and neutral**: `grappling and BJJ Valley Ranch`
+(discipline right, place wrong) and `combat sports training Texas`. Every archive
+page these generate ranks the client for a class it does not run in a town it is
+not in. **`MMA gym Valley Ranch` and `MMA Gym Valley Ranch TX` are also the same
+tag with "TX" added**, which will build two near-identical archives.
 
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
@@ -14892,6 +15092,51 @@ there is no source link.** No supplement retailer, no health site, no competitor
 link — though a competing school's banner is visible in the hero photograph
 (issue 98). **Zero empty ChatGPT citation anchors.**
 
+**2026-04 addition — `/mma-gym-valley-ranch-tx/`: the strongest internal linking
+on the site, and the free trial points at an empty page.**
+
+**Fourteen internal links to eight of the client's own pages**, all correctly
+aimed, every anchor naming its destination:
+
+| Anchor text | Target |
+|---|---|
+| "Adult BJJ Classes" ×2 | `/adult-bjj-classes/` |
+| "Adult Muay Thai Classes" ×2 | `/adult-muay-thai-classes/` |
+| "Kids BJJ Classes" ×2 | `/kids-bjj-classes/` |
+| "Teen BJJ Classes" ×2 | `/teen-bjj-classes/` |
+| "MMA Gyms Near Me" ×2 | `/mma-gyms-near-me/` |
+| "Fight Training Near Me" ×2 | `/fight-training-near-me/` |
+| "Martial Arts Near Me" | `/martial-arts-near-me/` |
+| "Mixed martial arts near me" | `/mixed-martial-arts-near-me/` |
+| "Women's Self-Defense" (FAQ 10) | `/self-defense-classes-for-women/` |
+
+**This is what the rest of the site should look like.** Every anchor states where
+it goes; no generic "self defense skills" pointing at a programme page, no anchor
+swallowing a full stop, no kids phrase sent to an adult page. **Nothing needed
+unwrapping for misdirection** — a first.
+
+**Two links did have to go, for a different reason.** FAQ 11 points at
+`/landing-page/` twice — "Go to the **landing page** to claim your spot" and "Free
+Trial: **Claim Your Spot**" — and `/landing-page/` is the empty WordPress
+placeholder logged above, with no counterpart in `dist/`. **Both anchors were
+unwrapped, the text kept exactly**, as on `/benefits-of-muay-thai/`. The page
+promises a free trial eight times and its two "claim it here" links both lead
+nowhere.
+
+**Left unlinked, and reported as asked:** every **MMA** mention (49) and every
+**boxing** mention (33), neither discipline having a programme page, and
+**kickboxing** (16) likewise. **"Georges MMA Gym" and "george's gym" are plain
+text throughout — no link points at another gym's website.** The only external
+link on the page is the client's own:
+
+| External link | Anchor text | Note |
+|---|---|---|
+| `https://www.instagram.com/sixthsensemma` | the bare URL, printed in full | the client's own Instagram; already carried `target="_blank" rel="noopener"` on the live page |
+
+**Zero empty ChatGPT citation anchors.** The FAQ links also carried `nofollow`
+alongside `noopener noreferrer` on internal destinations, which the rebuild drops
+for internal links as usual.
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -18093,6 +18338,261 @@ who may not be pupils** — all three captioned with the client's domain.
 **This is consistent with the page's text**, which also leads on karate and tae
 kwon do (see the service-claims entry), so the images were probably chosen to
 match the copy. Fixing the copy and the pictures is one job.
+
+
+**2026-04 addition — `/mma-gym-valley-ranch-tx/`: three AI-generated photographs
+of a facility the client does not have, all carrying the client's own logo — and
+one of them spells the brand wrong.**
+
+**No other gym's logo, watermark or branding appears in any of the three images.**
+That was the specific risk to check given the Georges title (issue 0a), and the
+answer is clean: every logo in all three pictures is Sixth Sense's own.
+
+| File | Format | What it shows |
+|---|---|---|
+| `989705e4-e4d1-4678-a94f-c33fc8c94ef3.jpg` (hero) | JPEG 1024×541 | a large open gym: a **caged octagon**, eight hanging heavy bags, a BJJ class and a Muay Thai class running simultaneously, a wall mural, 15+ people. Headline "MMA GYM VALLEY RANCH TX" burned in |
+| `Gemini_Generated_Image_3pg33d3pg33d3pg3.png` | PNG 1024×541 | a brick-and-steel gym, pad work and ground work side by side, 12+ people |
+| `Gemini_Generated_Image_wqghcgwqghcgwqgh.png` | PNG 1024×541 | two smiling adults in wraps and gloves, a **cage** and a weights rack behind them, "SIXTH SENSE MARTIAL ARTS" on the wall |
+
+**Two of the three filenames say what they are: `Gemini_Generated_Image_*`.** They
+were produced by Google's image model, and the hero's filename is a bare UUID but
+its content matches. These are not photographs of 817 S MacArthur Blvd #100.
+
+#### What the pictures claim that the gym does not have
+
+The section they illustrate is titled "**Inside the Sixth Sense Program – What
+Training Actually Looks Like**". A prospective student reads that heading and sees
+a **cage**, a wall of heavy bags, a squat rack and two full classes running at
+once. **The client should confirm whether the Coppell unit has a cage**; nothing
+else on the site mentions one, and a page that elsewhere positions the gym on
+**small class sizes** — "In a large facility with 60 people in a class you're not
+really getting instruction" — is illustrated with exactly the large facility it
+argues against.
+
+#### The brand is misspelled in the hero image
+
+The logo lockup in the bottom-right corner of the hero reads **"MARTIAL AARTS"**,
+with a doubled A. It is the standard model artefact on rendered text, and it is
+**in the client's own logo, on the most prominent image on the page**, at the top,
+above the fold. The two PNGs render the same lockup correctly as "MARTIAL ARTS".
+Several background signs in all three images carry similar garbled lettering.
+
+#### No identifiable children
+
+**All three images show adults only.** No consent question arises here, unlike
+`/martial-arts-confidence-building/` above, where three children's faces are
+fully visible.
+
+**Reproduced exactly as published**, at their real dimensions, with the live alt
+text. The client needs to decide three things: whether synthetic gym photography
+is acceptable at all on a page selling a real facility, whether the cage and the
+scale misrepresent what a visitor will find, and — at minimum — to replace the
+hero so the logo is spelled correctly.
+
+### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
+
+`/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
+page on the site and the first to target a location other than Coppell**. Valley
+Ranch is a neighbourhood of **Irving**, roughly fifteen minutes from the gym.
+
+"Valley Ranch" appears **64 times**. "Irving" appears **18 times**. "Coppell"
+appears **4 times**.
+
+#### (e) Does it claim a physical location, class or facility IN Valley Ranch?
+
+**In its headings and keywords, repeatedly yes. In its body, no.** The page never
+says "our Valley Ranch location", but the phrasing throughout reads as though the
+gym is there:
+
+| Where | Exact wording |
+|---|---|
+| H2 | "**The MMA Gym Valley Ranch Has Been Waiting For**" |
+| H2 | "Step by Step – How to Join **the MMA Gym in Valley Ranch TX**" |
+| H2 | "**Your MMA Gym in Valley Ranch TX Is Ready** – Start Training This Week" |
+| H3 | "**Real MMA Classes Valley Ranch**", "**Muay Thai Valley Ranch**", "**Jiu Jitsu Valley Ranch**", "**Kickboxing Valley Ranch TX**" |
+| Body | "This is a **fight gym valley ranch** families and athletes trust" |
+| Body | "the premier mma gym in the **martial arts valley ranch tx area**" |
+| Hero image caption | "**MMA GYM VALLEY RANCH TX**" burned into the picture |
+
+A reader skimming headings concludes there is a gym in Valley Ranch. **There is
+not.** The named classes — "muay thai valley ranch classes", "bjj valley ranch
+texas training", "kickboxing valley ranch tx classes" — are the Coppell classes
+with a place name attached.
+
+#### (f) Does it give a Valley Ranch address?
+
+**No.** The only address on the page is the client's real one, given three times:
+**817 S MacArthur Blvd #100 Coppell TX 75019**. No second address, no second
+phone number, no "our Irving location".
+
+#### (g) Service area, or location?
+
+**It tries to be both, and one sentence breaks it.** Two passages correctly frame
+Valley Ranch as somewhere customers travel FROM:
+
+> FAQ 8, "How far is Sixth Sense from Valley Ranch Irving?": "The gym is at 817 S
+> MacArthur Blvd #100 Coppell TX 75019 which is **a short drive from the valley
+> ranch parkway area**. It's easily accessible from the irving side of the dallas
+> metro."
+
+> H2 "Why Sixth Sense Is the Right MMA Gym **for** Valley Ranch and Irving TX"
+
+**That FAQ answer is the honest version and it is the model for the rest of the
+page.** But step 3 of the joining instructions contradicts it:
+
+> "Show up at 817 S MacArthur Blvd #100 Coppell TX 75019 – the facility is
+> **accessible from valley ranch parkway** and **easily found near the valley ranch
+> parkway south corridor**"
+
+**That is not true.** The gym is on S MacArthur Blvd in Coppell. Valley Ranch
+Parkway is in Irving. A customer who follows that instruction and drives to the
+Valley Ranch Parkway South corridor looking for the "easily found" facility will
+not find it. This is a **customer-expectation failure in the one paragraph that
+tells people where to go**, and it is the single sentence on this page that should
+be rewritten first.
+
+The page also locates the gym by two retail neighbours — "whether the facility is
+**next to discount tire and behind cvs**" — which the client should confirm
+describes the Coppell unit.
+
+#### Consistency with the Muay Boran page
+
+**It is consistent in intent and inconsistent in honesty.**
+`/muay-boran-in-coppell/` already claims classes "serve Coppell **and Valley Ranch
+areas**" — which is a service-area claim, correctly framed, and defensible for a
+gym fifteen minutes away. This page starts from the same premise and then **builds
+an entire page's worth of headings that read as a second location**.
+
+So the client has one decision to make across both pages: **Valley Ranch is a
+service area, not a site.** Say so consistently. "Serving Valley Ranch and Irving
+from our Coppell gym" wins the same searches without implying a branch that does
+not exist — and Google penalises implied locations in local search rather than
+rewarding them.
+
+#### Cannibalisation: the fourteenth local page
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/mma-gyms-near-me/` | **0 of 12 (0.0%)** | 0 of 23 (0.0%) | 42.9% |
+| `/mixed-martial-arts-near-me/` | **0 of 12 (0.0%)** | 0 of 23 (0.0%) | 30.4% |
+
+**Zero exact heading matches with either sibling**, which is the best structural
+result of any page in the audit — this page shares no heading with the two it
+would most be expected to duplicate. It is written in a different voice from the
+rest of the site (short sentences, second person, "Plain and simple", "Here's the
+thing") and is the only page with a programme comparison table and a step-by-step
+joining list.
+
+**And it links to both of them**, plus six more of the client's own pages, which
+is the strongest internal linking on the site. **The duplication risk here is
+keyword-level, not structural**: it competes with the other thirteen local pages
+for "mma gym near me" variants while being the only one aimed at Irving.
+
+**Recommendation: keep it, retitle it, and fix step 3.** It is the best-written
+local page the client has. The problems are the title tag (issue 0a), the
+"valley ranch parkway south corridor" sentence above, and the invented statistics
+logged in the next entry.
+
+### 100. The first hard numbers published anywhere on the site are two invented statistics, three unattributed testimonials, and a programme table advertising two classes that do not exist — CONTENT (accuracy), TRUST — **High**
+
+`/mma-gym-valley-ranch-tx/` (26 April 2026) breaks three patterns at once. Four
+benefits pages published no figure at all (issue 94). **This page publishes two,
+and neither has a source.**
+
+#### Two uncited statistics, under a heading that promises numbers
+
+The H2 is "**The Numbers Behind Why MMA Training Near Valley Ranch Works**".
+
+> "The fitness benefits of consistent martial arts valley ranch tx training are
+> **well documented**. A solid mma class **burns between 500 and 900 calories per
+> session** depending on intensity and the discipline being trained."
+
+> "Students who train martial arts consistently report an **average 65 percent
+> increase in confidence after six months**. That number is higher in kids programs
+> but it holds across adults too."
+
+**"Well documented" documents nothing.** "Studies", "research", "according to" and
+"survey" appear zero times on the page; no study, author, journal, year or link is
+given for either figure.
+
+**The second one is the problem.** A "65 percent increase in confidence" is not a
+quantity that exists — confidence has no unit, so there is no instrument that
+could produce that number, and the sentence attributes it to "students who train
+martial arts" generally. It then adds "**That number is higher in kids programs**",
+a second statistic about children derived from the first. **This is the most
+specific unsourced claim in the entire audit**, and it is about children.
+
+**The calorie figure is at least plausible** — 500–900 per hour is within the range
+published for combat sports — but note what it does to the rest of the site: the
+four benefits pages all sell weight loss and **all four refuse to give a number**
+(issue 94). This page gives one. **Either the client stands behind 500–900 and the
+benefits pages should say so, or it should come off this page.** Logged with the
+uncited-statistics group at issues 86c, 87c, 92 and 93.
+
+#### Three testimonials, no names, and one of them is a competitor's former customer
+
+H2: "**What Students From Valley Ranch and Irving Say About Sixth Sense**". Three
+paragraphs follow, all in reported speech, **none naming anyone**:
+
+| # | Who | Claim |
+|---|---|---|
+| 1 | "One student who'd been **a reviewer of george's gym** and had trained at a boxing gym in irving for two years" | the grappling transition "felt manageable" |
+| 2 | "**A mom from the valley ranch area** brought her son in for kids bjj and ended up signing up herself" | "the coach knew her name by the second class" |
+| 3 | "**One athlete** who came in specifically looking to compete" | "**He won his first amateur bout six months into training**" |
+
+**All three are reproduced verbatim and none is in the structured data.** No
+`Review` or `AggregateRating` JSON-LD was generated, per the standing rule, and
+none was invented.
+
+**Three things the client should be asked:**
+
+1. **Are these real students?** Paraphrased testimonials with no name, no initial
+   and no date are indistinguishable from copywriting. If they are real, a first
+   name and a sentence in the student's own words is worth more than all three.
+   If they are not, they are fabricated endorsements on a commercial page.
+2. **Testimonial 3 is a verifiable claim.** "He won his first amateur bout six
+   months into training" either happened or did not, and amateur MMA results are
+   public record.
+3. **Testimonial 1 identifies someone by their reviews of a named competitor.**
+   "A reviewer of george's gym" is a small enough category that a person could
+   plausibly be identified from it.
+
+Note also testimonial 2 involves **a child** ("brought her son in for kids bjj"),
+which puts it alongside the child-content group at issues 86–90 and 98.
+
+#### The programme table advertises two classes the gym does not run
+
+Reproduced cell for cell; all 28 cells verified identical to the live page:
+
+| Program | Who It's For | Disciplines Covered | Format |
+|---|---|---|---|
+| Intro to Martial Arts | Complete beginners | Fundamentals BJJ and Muay Thai | Gi and No-Gi |
+| Adult BJJ | All skill levels | Brazilian jiu-jitsu technique and sparring | Gi and No-Gi |
+| Adult Muay Thai | Beginner to intermediate | Authentic muay thai striking | No-Gi |
+| **Kickboxing** | All levels | Kickboxing and conditioning | No-Gi |
+| **MMA Competition Prep** | Intermediate and advanced | Full mixed martial arts and spar sessions | Combined |
+| Kids and Teen Programs | **Ages 4-17** | BJJ fundamentals and anti-bullying | Gi |
+
+**Rows 1, 2, 3 and 6 are real. Rows 4 and 5 are not.** There is no kickboxing
+programme page and no MMA programme page at any age (see the service-claims
+entry). "MMA Competition Prep" is the most specific version of the MMA service
+claim yet published — it names an audience, a format and a curriculum.
+
+**The age range is correct and worth recording as a positive.** "Ages 4-17" spans
+`kids-bjj-classes.html` (4–12, Little Champions 4–7) and the teen programme
+(13–17) exactly. **This is the first page in the audit whose stated age range
+matches the programme pages**, and it is the only table on the site that lays the
+programmes out clearly. Fix two rows and it becomes the best programme summary the
+client has.
+
+#### What this page does NOT claim, and it is a short list of firsts
+
+| Check | Result |
+|---|---|
+| Certified instructors | **not claimed at all** — "certified" and "certification" occur **zero times**. First page in eleven to avoid it |
+| An instructor named | **yes** — "**Coach Mattheus Galvao**", three mentions. **The first named instructor anywhere in the audit.** No belt or lineage given, but a name is a large improvement on "proper certifications" |
+| Pricing figure | **none**, though the **free trial is promised 8 times** |
+| Disclaimer | none |
 
 ## How these were checked
 

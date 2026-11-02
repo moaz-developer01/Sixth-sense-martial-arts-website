@@ -23,6 +23,96 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
+### 0b. The second page naming other gyms — three real DFW businesses, in the body, one of them inside a testimonial — CONTENT (accuracy), LEGAL, BRANDING — **CRITICAL**
+
+`/choosing-a-martial-arts-gym-in-dfw/` (27 April 2026, 3,097 words) was checked
+for the problem found on `/mma-gym-valley-ranch-tx/` above. **The answer is
+different, and in one respect worse.**
+
+#### (a) Gym names other than Sixth Sense Martial Arts
+
+| Where | Quote | What it is |
+|---|---|---|
+| `<title>` | "Dallas Self-Defense Gym: Choosing a Martial Arts Gym in DFW" | **no other business named** — unlike the Georges title |
+| H1 | "Who Should You Listen to About Choosing a Martial Arts Gym in DFW" | clean |
+| Body ¶4 | "The dfw area has places like **mohler mma** and **dfw combat co** and **believe martial arts** that come up in searches regularly. Some of them are solid. Some are better for specific goals than others." | **three real competing businesses named** |
+| Body, testimonial ¶2 | "An adult beginner from the addison area came in after reading an mma gym review dfw comparison that mentioned Sixth Sense alongside **mohler mma** and **dfw combat co**." | **two of them named again, inside a customer testimonial** |
+| Body ¶12 | "you're probably looking at a **mcdojo**" | a pejorative for unnamed schools |
+| Body, testimonial ¶3 | "different from the **karate school** they'd tried the year before" | an unnamed competitor, disparaged |
+| Images | **none** — but see the brand problem below | |
+| Tags | **none** | |
+
+**Mohler MMA is already in this audit.** Issue 52 logs comparison tables that name
+**Gracie Barra, Mohler MMA, Hicks MMA** and **Championship Martial Arts** and
+publish their prices. So the client's site now names Mohler MMA on at least two
+separate pages. **This is not a one-off.**
+
+**The testimonial instance is the one to act on first.** A named competitor inside
+a customer quote does two things at once: it gives the rival free brand exposure
+on the client's own domain, and it attributes to a real customer a comparison the
+customer may never have made. If that testimonial is not verbatim from a real
+student, it is a fabricated statement about two named businesses.
+
+#### (b) Contact details
+
+**None belonging to anyone but the client.** The page gives the client's own
+details twice:
+
+| Detail | Quote | Matches the client? |
+|---|---|---|
+| Address | "**817 S MacArthur Blvd #100** in Coppell TX" and "817 S MacArthur Blvd #100 Coppell TX 75019" | **yes** |
+| Phone | "**(469) 972-7800**" | **yes** |
+| Email | "**info@sixthsensemma.com**" | **yes** |
+
+**No address, phone number or email for Mohler MMA, DFW Combat Co or Believe
+Martial Arts appears anywhere**, and **no link points at any of them** — all three
+are plain text. The only external link on the page is the client's own Instagram.
+
+#### (c) Images: no other gym's logo, but the client's own name is wrong in all three
+
+**No competitor logo or watermark appears.** But all three images are
+AI-generated, and each renders the client's trading name as **"Sixth Sense
+ACADEMY"**, which is not the client's name:
+
+| Image | Where the name appears | What it says |
+|---|---|---|
+| `Gemini_Generated_Image_2jkpz7…` (hero) | the coach's shirt | "**SIXTH SENSE ACADEMY**" |
+| `Gemini_Generated_Image_nsc83e…` | a large metal wall sign | "**SIXTH SENSE ACADEMY TEXAS**" |
+| `Gemini_Generated_Image_dhbtq4…` | a reception wall sign | "**Welcome to Sixth Sense Academy - Coppell, TX**" |
+
+The client is **Sixth Sense Martial Arts**. "Sixth Sense Academy" is a trading
+name that does not exist, invented by the image model and now printed three times
+on the client's own page — once on signage that also states the correct city.
+The corner logo lockup in all three reads "MARTIAL ARTS" correctly, so **the page
+contradicts itself about the business's own name**.
+
+#### So: copied content, or not?
+
+**Not copied.** Taken together with the Georges page, the pattern is clear and it
+is not plagiarism:
+
+| | `/mma-gym-valley-ranch-tx/` | `/choosing-a-martial-arts-gym-in-dfw/` |
+|---|---|---|
+| Other business in the title | **yes** — "Georges MMA Gym" | no |
+| Other businesses in the body | 1, compared against | **3, named in one sentence** |
+| Other business's contact details | none | none |
+| Link to another gym | none | none |
+| Who the page is about | Sixth Sense | Sixth Sense |
+
+Both pages are **competitor-comparison content written for search**, published one
+day apart in the same voice, from the same template, with the same AI image
+pipeline. **The client did not copy another gym's site.** What the client has is a
+content supplier that names rival businesses as a ranking tactic, invents
+statistics (issues 100 and 101), invents testimonials, and generates facility
+photography that misstates the business's own name.
+
+**What to ask the client:** who wrote these two pages, whether naming Mohler MMA,
+DFW Combat Co and Believe Martial Arts was deliberate, and whether the three
+testimonials on this page are real. **Everything is reproduced verbatim in the
+rebuild**, per the standing instruction.
+
+---
+
 ### 0a. A page on the client's domain whose title begins with a COMPETITOR'S name — SEO, LEGAL (trademark), BRANDING — **CRITICAL, the client must explain this before the page goes live**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026, 3,133 words) carries this title tag
@@ -122,6 +212,28 @@ report rather than correct.
 
 
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### A ninth page that needed no omission
+
+`/choosing-a-martial-arts-gym-in-dfw/` (27 April 2026, 3,097 words) required **no
+omission**. **"Injury", "concussion", "brain" and "risk" appear zero times.** Every
+safety sentence is comparative or conditional:
+
+| Exact wording | Form |
+|---|---|
+| "A world-class instructor 20 minutes away will develop your child faster and **more safely** than a mediocre one around the corner" | comparative |
+| "A skilled coach in any discipline will develop you faster and **more safely** than a mediocre coach" | comparative |
+| "the sparring culture is **safe enough for beginners to develop without getting hurt**" | **concedes that getting hurt is possible** |
+| "whether the sparring culture is **safe for new students**" | a question to ask a gym, not a claim about this one |
+| "A dirty gym with poor mat maintenance is a gym that **doesn't take safety seriously**" | about other gyms |
+| "Live rolling in a **safe controlled environment**" | a criterion in a checklist |
+
+**The page's safety language is aimed outward** — it tells the reader how to
+judge whether a gym is safe, rather than asserting that this one is. That is the
+correct posture for a buyer's guide and it is why nothing needed cutting.
+
+Running total unchanged: **67 sentences across twenty posts.** Eight of the last
+nine builds needed no omission.
 
 #### An eighth page that needed no omission, and it names the risk itself
 
@@ -5382,6 +5494,60 @@ The conversion path of the client's best-written local page ends on a blank page
 
 **No editorial markers** appear anywhere on the page.
 
+**2026-04 addition — `/choosing-a-martial-arts-gym-in-dfw/`: six untaught
+disciplines named, no class claimed for any of them, no price, and the
+certification claim replaced by something better and still unevidenced.**
+
+| Discipline named | Mentions | Programme page? | Claimed as a Sixth Sense class? |
+|---|---|---|---|
+| BJJ / Brazilian jiu-jitsu | 43 | **yes** (adult, teen, kids) | yes, correctly |
+| Muay Thai | 13 | **yes** (adult, teen) | yes, correctly |
+| MMA / mixed martial arts | 23 | **none** | **as a category discussed, and "competition prep"** |
+| Boxing | 13 | **none** | **no** — every mention is about *other* gyms |
+| Kickboxing | 2 | **none** | **yes**, once |
+| Karate | 4 | **none** | **no** — all four are critical of karate schools |
+| Wrestling | 1 | none | no |
+| Krav maga | 1 | none | no |
+
+**This is the most accurate discipline handling of any page in the audit.** The
+meta description promises "MMA, martial arts, BJJ and boxing training", and the
+body **does not deliver a boxing claim at all** — all thirteen "boxing" mentions
+describe what a boxing gym is and why a martial arts gym covers more, in a section
+called "Martial Arts Gym vs Boxing Gym DFW". **The gap is in the meta description,
+not the article.**
+
+**Two claims do overreach:**
+
+> "Sixth Sense covers brazilian jiu-jitsu and muay thai **and kickboxing** under
+> one program."
+
+> "The program covers every level from kids jiu-jitsu for ages 4 and up through
+> adult bjj and muay thai **and competition prep**."
+
+Kickboxing has no programme page (ten pages now reference it — see the
+cannibalisation entry) and "competition prep" is the MMA claim again, though far
+softer than the Valley Ranch page's full table row.
+
+**Age range: correct.** "kids jiu-jitsu for **ages 4 and up**" and the table's
+"**Yes ages 4 to adult**" both match `kids-bjj-classes.html` (4–12, Little
+Champions 4–7) plus teen and adult. **Second page running to get this right.**
+
+**Pricing: no figure, and the page argues against price-shopping.** "Price",
+"pricing", "cost" and any dollar amount are **absent**; the H3 "The Mistake of
+Choosing Based on Location and Price" tells readers not to choose on price at all.
+**The free trial is promised ten times** — and, as on the Valley Ranch page, its
+"Claim Your Spot" link points at `/landing-page/`, the empty WordPress placeholder
+(issue 66). **Unwrapped in the rebuild**, text kept. Twelve pages still promise
+pricing and publish none; this is not a thirteenth.
+
+**Certification: the phrase is gone, the problem is not.** "Certified instructors"
+does not appear — "certified" shows up only in the page's own warnings ("not just
+a certificate on the wall", "a certification weekend"). In its place:
+"**Coach Mattheus Galvao is a verified black belt**", with no lineage, on a page
+that tells readers four times to demand lineage. **Logged in full as issue 101.**
+
+**No editorial markers** appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8789,6 +8955,37 @@ taxonomy stayed clear of it — so this does not repeat issue 61's Gracie Barra 
 page these generate ranks the client for a class it does not run in a town it is
 not in. **`MMA gym Valley Ranch` and `MMA Gym Valley Ranch TX` are also the same
 tag with "TX" added**, which will build two near-identical archives.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
+**2026-04 addition — `/choosing-a-martial-arts-gym-in-dfw/`: eleven tags, no
+competitor named, and nine of eleven carry Dallas, DFW or Texas while none carries
+Coppell.** The post carries 11 tags: `adult martial arts training DFW`, `beginner
+martial arts training`, `best martial arts classes Texas`, `Brazilian Jiu Jitsu
+DFW`, `Choosing a Martial Arts Gym in DFW`, `DFW MMA gym`, `fitness and combat
+sports DFW`, `kickboxing classes near me`, `kids martial arts classes DFW`,
+`martial arts DFW`, `self defense training Dallas Fort Worth`.
+
+**No other business is named**, which is the notable result given that the body
+names three (issue 0b). As with the Valley Ranch page, the taxonomy stayed clean
+while the article did not.
+
+| Flag | Tags |
+|---|---|
+| **Dallas / DFW / Texas** | **nine of eleven**: all but `beginner martial arts training` and `kickboxing classes near me`. **None carries Coppell**, where the gym is |
+| **Untaught discipline** | `DFW MMA gym` and `kickboxing classes near me` — two tags for disciplines with no programme page |
+| Accurate and on-topic | `Brazilian Jiu Jitsu DFW`, `kids martial arts classes DFW`, `adult martial arts training DFW`, `martial arts DFW`, `Choosing a Martial Arts Gym in DFW` |
+
+**`kickboxing classes near me` is the odd one out in a different way**: it is the
+only tag with no geography at all, it duplicates the existing kickboxing cluster's
+keyword (issue 7), and kickboxing is mentioned **twice** in 3,097 words. It looks
+pasted in from another post.
+
+**This is the third tag set in a row where every tag points at a place the gym
+is not, or a class it does not run.** Taken with `/mma-gym-valley-ranch-tx/`'s
+eight Valley Ranch and Irving tags, the archive pages this generates now rank the
+client across the metroplex for classes that exist only in Coppell.
 
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
@@ -15137,6 +15334,45 @@ link on the page is the client's own:
 alongside `noopener noreferrer` on internal destinations, which the rebuild drops
 for internal links as usual.
 
+**2026-04 addition — `/choosing-a-martial-arts-gym-in-dfw/`: nineteen internal
+links, every one correctly aimed, and the free trial again points at an empty
+page.**
+
+| Anchor text | Target | Count |
+|---|---|---|
+| "Adult BJJ Classes" | `/adult-bjj-classes/` | 2 |
+| "Adult Muay Thai Classes" | `/adult-muay-thai-classes/` | 2 |
+| "Kids BJJ Classes" | `/kids-bjj-classes/` | 2 |
+| "Teen BJJ Classes" | `/teen-bjj-classes/` | 2 |
+| "Martial Arts Near Me" | `/martial-arts-near-me/` | 2 |
+| "MMA Gyms Near Me" | `/mma-gyms-near-me/` | 2 |
+| "BJJ Classes Near Me" | `/bjj-classes-near-me/` | 2 |
+| "Martial Arts Gyms Near Me" | `/martial-arts-gyms-near-me/` | 2 |
+| "Brazilian Jiu-Jitsu Near Me" | `/brazilian-jiu-jitsu-near-me/` | 1 |
+| "info@sixthsensemma.com" | `mailto:` | 1 |
+
+**Every anchor names its destination**, as on `/mma-gym-valley-ranch-tx/`. Nothing
+needed unwrapping for misdirection. The `mailto:` link is left exactly as the
+client wrote it.
+
+**One link had to go.** "**Claim Your Spot**" in the closing contact block points
+at `/landing-page/`, the empty WordPress placeholder with no counterpart in
+`dist/`. **Unwrapped, text kept**, as on `/mma-gym-valley-ranch-tx/` and
+`/benefits-of-muay-thai/`. **Both April pages promise a free trial as their main
+call to action and both send it to a blank page** — this is now the highest-value
+quick fix on the site, because it is costing the client conversions on its two
+best-written pages.
+
+**Left unlinked, and reported as asked:** every **MMA** mention (23), every
+**boxing** mention (13) and **kickboxing** (2), none of which has a programme page,
+plus **karate**, **wrestling** and **krav maga**. **The three named competitors —
+mohler mma, dfw combat co and believe martial arts — are plain text and are NOT
+linked** (issue 0b).
+
+**Externals: one, the client's own Instagram**, anchor text being the bare URL,
+already carrying `target="_blank" rel="noopener"` on the live page. **No link
+points at another gym.** **Zero empty ChatGPT citation anchors.**
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -18389,6 +18625,58 @@ is acceptable at all on a page selling a real facility, whether the cage and the
 scale misrepresent what a visitor will find, and — at minimum — to replace the
 hero so the logo is spelled correctly.
 
+
+**2026-04 addition — `/choosing-a-martial-arts-gym-in-dfw/`: three more
+AI-generated gym photographs, five identifiable children, and the client's own
+trading name invented in all three.**
+
+Second page in two days built on `Gemini_Generated_Image_*` files. All three are
+**PNG 1024×541**.
+
+| File | What it shows |
+|---|---|
+| `Gemini_Generated_Image_2jkpz7…` (hero) | a wide gym floor with a **Dallas skyline and "DFW" wall mural**, a BJJ class, two people sparring in headgear, a rack of heavy bags, a coach greeting **a couple with two young children**. Headline "CHOOSING A MARTIAL ARTS GYM IN DFW" burned in |
+| `Gemini_Generated_Image_nsc83e…` | a large hall with a BJJ class, a lounge area with spectators, and **open countryside and a barn visible through full-height windows** |
+| `Gemini_Generated_Image_dhbtq4…` | a reception-side mat area, a **caged octagon**, two instructors with **three children**, and a teenager doing pad work |
+
+#### The brand name is wrong in all three — see issue 0b
+
+Each image renders the business as "**Sixth Sense Academy**": on the coach's shirt
+in the hero, as a metal wall sign reading "SIXTH SENSE ACADEMY TEXAS" in the
+second, and as "**Welcome to Sixth Sense Academy - Coppell, TX**" on reception
+signage in the third. **The client is Sixth Sense Martial Arts.** Full detail at
+issue 0b at the top of this file.
+
+#### Five identifiable children
+
+**Yes — five children's faces are fully visible across images 1 and 3**, at ages
+matching the Little Champions bracket (4–7) and the kids programme (4–12), plus a
+teenager. The same question applies as at `/martial-arts-confidence-building/`
+above, and here the answer is clearer: **these children do not exist.** They are
+model output. So there is no photo-consent issue — **there is a representation
+issue.** A parent looking at image 3 sees children being coached at "Sixth Sense
+Academy - Coppell, TX" and reasonably concludes they are looking at the gym's
+actual kids class.
+
+#### What the pictures claim the gym has
+
+A **caged octagon**, a wall of heavy bags, a spectator lounge, a reception desk, a
+weights area, a Dallas skyline mural, and **open farmland through the windows** of
+a unit on S MacArthur Blvd. The second image's rural backdrop is the clearest
+tell: a strip-mall unit in Coppell does not look out onto a barn and a paddock.
+
+**The irony is worth putting in front of the client.** This page's own checklist
+tells readers: "**Visit the gym in person before making any decision**", "**Look at
+the mat space and the cleanliness of the facility**", and lists "Choosing based on
+which gym has the best social media presence" as a common mistake because "a gym
+with great Instagram content might have a great marketing team". **The page then
+illustrates itself with three renderings of a gym that does not exist.**
+
+**Reproduced exactly as published**, at their real dimensions, with the live alt
+text. Recommendation: replace all six AI images across the two April pages with
+photographs of the real gym, which is the one thing the pages argue the reader
+should go and look at.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -18468,6 +18756,87 @@ service area, not a site.** Say so consistently. "Serving Valley Ranch and Irvin
 from our Coppell gym" wins the same searches without implying a branch that does
 not exist — and Google penalises implied locations in local search rather than
 rewarding them.
+
+#### The fifteenth local page, and the geographic spread is now five places for one gym
+
+`/choosing-a-martial-arts-gym-in-dfw/` (27 April 2026) is the **fifteenth "near
+me" or local page and the third targeting outside Coppell**, after
+`/brazilian-jiu-jitsu-orlando/` and `/mma-gym-valley-ranch-tx/`.
+
+**(d) Cities and areas named, with counts:**
+
+| Place | Mentions |
+|---|---|
+| **DFW** | 34 |
+| **Dallas** (incl. "downtown dallas" ×3) | 21 |
+| **Coppell** | 12 |
+| **Irving** | 4 |
+| **Texas** | 4 |
+| **Fort Worth** (in "bjj gym dallas fort worth") | 3 |
+| **Addison** | 2 |
+| **Plano** | 2 |
+| **Valley Ranch** | 2 |
+| **Grapevine** | 1 |
+
+**(e) Does it claim a Dallas location?** **No — and this is the page that gets it
+right.** It positions Coppell as the base and argues the point explicitly, in a
+section called "**The Coppell vs Dallas Martial Arts Question**":
+
+> "A lot of people searching for the best martial arts gym dfw assume they need to
+> go to downtown dallas or irving to find quality instruction. **The coppell vs
+> dallas martial arts comparison actually favors Coppell** for most families in the
+> Valley Ranch area. Less traffic. More accessible parking."
+
+> "**The best bjj academy dallas doesn't have to be inside the dallas city limits**
+> to deliver world-class instruction. Geography doesn't make a coach better… those
+> things exist at Sixth Sense **regardless of what the GPS address says**."
+
+> FAQ 6: "Is Coppell a good choice compared to central Dallas MMA gyms?" — "Yes for
+> most families in the **Valley Ranch Irving and Coppell corridor**…"
+
+**Compare `/mma-gym-valley-ranch-tx/` (issue 99 above), which told readers the
+Coppell unit was "easily found near the valley ranch parkway south corridor".**
+This page never does that. It names the Coppell address twice, concedes the drive
+and argues the drive is worth it. **It is the model for how the other fourteen
+local pages should be written**, and the client should be shown this section
+alongside the Valley Ranch one.
+
+The title is still "**Dallas** Self-Defense Gym", which is the one place the page
+overreaches — but the body immediately undercuts it, so the exposure is much
+smaller than the Georges title at issue 0a.
+
+**(f) Competitor gyms named: three.** "mohler mma", "dfw combat co" and "believe
+martial arts". See issue 0b at the top of this file, where this is logged with the
+Georges finding.
+
+#### The spread, for one single-location gym in Coppell
+
+| Page | Target |
+|---|---|
+| eleven "near me" pages | Coppell and generic |
+| `/mma-gym-valley-ranch-tx/` | **Valley Ranch, Irving** |
+| `/choosing-a-martial-arts-gym-in-dfw/` | **Dallas and DFW** |
+| `/brazilian-jiu-jitsu-orlando/` | **Orlando, Florida — 1,100 miles away** |
+
+**Coppell, Valley Ranch, Dallas, DFW and Orlando.** Four of those are defensible
+as a service area for a gym in the northern DFW metroplex. **Orlando is not**, and
+the contrast makes the point: this page shows the client's content can target a
+wider area honestly, by naming the real address and arguing the case. The Orlando
+page cannot be fixed that way.
+
+**Duplication measured from this build:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/martial-arts-gyms-near-me/` | **0 of 10 (0.0%)** | 0 of 21 (0.0%) | **15.8%** — the lowest word overlap measured anywhere in this audit |
+| `/mma-gym-valley-ranch-tx/` | 1 of 10 (10.0%) — "FAQ's" | 1 of 21 (4.8%) | 47.4% |
+
+**No editorial heading is shared with either.** The 47.4% against the Valley Ranch
+page reflects a shared vocabulary (gym, DFW, martial arts, coach) and a shared
+template — both have a comparison table, a numbered checklist, a "Data"/"Numbers"
+section, three unattributed testimonials and the same Explore More link block —
+**but they answer different questions**, one "where do I train in Valley Ranch" and
+one "how do I choose anywhere in DFW". **Keep both**, retitle both.
 
 #### Cannibalisation: the fourteenth local page
 
@@ -18593,6 +18962,135 @@ client has.
 | An instructor named | **yes** — "**Coach Mattheus Galvao**", three mentions. **The first named instructor anywhere in the audit.** No belt or lineage given, but a name is a large improvement on "proper certifications" |
 | Pricing figure | **none**, though the **free trial is promised 8 times** |
 | Disclaimer | none |
+
+### 101. A gym-selection guide that tells readers to demand verifiable black belt lineage, then claims its own coach is a "verified black belt" and names no lineage — CONTENT (accuracy), TRUST — **High**
+
+`/choosing-a-martial-arts-gym-in-dfw/` (27 April 2026) is a buyer's guide. Its
+whole argument is that prospective students should interrogate a gym's
+credentials. **It then fails its own test.**
+
+#### The page's own standard, stated four times
+
+| Where | Exact wording |
+|---|---|
+| H3, The Instructor's Credentials | "A chief instructor at a legitimate bjj academy should have a **verifiable black belt lineage**. **Not just a certificate on the wall.** Ask where they trained and under whom and whether they've competed" |
+| Step 3 of the checklist | "Check the chief instructor's credentials specifically. **Look for verifiable lineage** and real competition or coaching experience." |
+| FAQ 2 | "**Ask about the chief instructor's lineage and rank.** A legitimate bjj academy will have a verifiable black belt with a real competition or coaching history. **If they can't tell you who promoted them or where they trained treat that as a red flag.**" |
+| FAQ 4 | "**Verified instructor lineage.**" listed first among what makes a gym stand out |
+
+#### What the page then says about its own coach, in full
+
+> "**Coach Mattheus Galvao is a verified black belt** whose instruction is built
+> around the Sixth Sense Method. That's not a marketing phrase. It's a real
+> framework for developing martial artists at every level…"
+
+**That is the entire credential.** No belt degree, **no promoting professor, no
+academy, no lineage, no competition record** — the four things the page's own FAQ
+says to treat as a red flag if a gym cannot supply them. "Verified" by whom is not
+stated. "The Sixth Sense Method" is asserted not to be a marketing phrase and then
+described only as "a real framework".
+
+**This is the eleventh page to make an unevidenced credential claim**, and it is
+by some distance the most self-defeating, because the reader has been taught the
+test two screens earlier. A prospective student following this page's own advice
+would walk away from this gym.
+
+**The fix is one sentence and the client already knows it**: "Coach Mattheus
+Galvao is a [nth]-degree black belt under [professor] at [academy]." That single
+sentence would turn the strongest objection on this page into its strongest proof,
+and it would close the certification finding on ten other pages at the same time.
+
+**Credit where it is due**: this is the **second page to name an instructor** (after
+`/mma-gym-valley-ranch-tx/`) and it does **not** use the phrase "certified
+instructors" — "certified" appears only in the page's own warnings ("not just a
+certificate on the wall", "a certification weekend"). Naming a person and
+describing a method is a real improvement on ten pages of anonymous certificates.
+
+#### Four unsourced statistics, under a heading promising data
+
+The H2 is "**The Data Behind Why Gym Quality Matters More Than People Realize**",
+and it opens "The difference between good and mediocre instruction shows up in
+numbers pretty clearly." Then:
+
+| # | Exact wording | Source given |
+|---|---|---|
+| 1 | "Students in structured martial arts programs with clear belt progression **stay enrolled on average three times longer** than students in gyms without a defined curriculum" | **none** |
+| 2 | "**Confidence outcomes are consistent across studies.** Students who train martial arts in a real structured program report a **65 percent average increase in self-confidence after six months**. For kids that number is even higher" | **"studies", unnamed** |
+| 3 | "bjj has been **consistently ranked among the top three most effective martial arts** for real-world situations **by combat sports researchers and practitioners including experts in law enforcement and military contexts**" | **none** |
+| 4 | "**Bruce lee famously said** that the best martial art is the one that works in a real fight" | an unverifiable quotation |
+
+**Statistic 2 is the same fabricated number already logged at issue 100**, which
+found it on `/mma-gym-valley-ranch-tx/` the day before:
+
+| Page | Wording |
+|---|---|
+| `/mma-gym-valley-ranch-tx/` | "Students who train martial arts consistently report an **average 65 percent increase in confidence after six months**. **That number is higher in kids programs**" |
+| `/choosing-a-martial-arts-gym-in-dfw/` | "Students who train martial arts in a real structured program report a **65 percent average increase in self-confidence after six months**. **For kids that number is even higher**" |
+
+**Two pages, the same invented figure, the same unnamed "studies", the same
+escalation to children.** Confidence has no unit, so no instrument could produce
+it. This page goes further than the other one by adding "**and the behavioral
+effects show up at school and at home and in how they handle social conflict**" —
+a behavioural and academic claim about children derived from a number that does
+not exist. **This is now a two-page finding and it should be removed from both.**
+
+Statistic 3 attributes a ranking to "law enforcement and military" experts, which
+sounds like the Modern Army Combatives material cited on `/benefits-of-bjj/`
+(issue 95) — but that page named the programme and this one names nobody.
+
+#### The comparison table scores the client "Yes" on all seven rows
+
+Reproduced cell for cell; all 40 cells verified identical to the live page:
+
+| Feature | Boxing Gym DFW | BJJ Academy Dallas | MMA Gym DFW | Sixth Sense Martial Arts |
+|---|---|---|---|---|
+| Striking Training | Yes | Limited | Yes | Yes via Muay Thai |
+| Grappling and BJJ | No | Yes | Yes | Yes |
+| Kids and Adults Programs | Rarely | Sometimes | Sometimes | Yes ages 4 to adult |
+| Structured Curriculum | Varies | Usually | Varies | Yes |
+| Free Trial Available | Rarely | Sometimes | Sometimes | Yes |
+| Personalized Coaching | Varies | Varies | Varies | Yes small class sizes |
+| Self-Defense Focus | Partial | Yes | Yes | Yes |
+
+**This is milder than issue 52's tables**, which named four real businesses and
+published their prices: the three comparison columns here are **categories**, not
+companies. But the effect is the same — the client wins every row, three of the
+competitor columns say only "Varies", and no basis is given for any of the
+judgements. **"Rarely" and "Sometimes" are assertions about hundreds of real DFW
+businesses.**
+
+The surrounding copy makes further comparative claims, all reproduced verbatim:
+"**Budget gyms tend to have high staff turnover and crowded classes and
+inconsistent instruction**"; "Some martial arts studios are **in the business of
+selling belt promotions**"; "you're probably looking at a **mcdojo**"; "That's a
+different experience from training at a large martial arts studio in dallas where
+**you might get three corrections in a 90-minute class if you're lucky**"; FAQ 6,
+Sixth Sense has "**a stronger community feel than most downtown dallas options**".
+
+**Are they defensible?** The general ones about unnamed "budget gyms" and "belt
+factories" are opinion and sit within normal advertising latitude. **The
+combination is the risk**: a table that rates competitor categories on seven
+criteria, plus three named businesses two paragraphs earlier, plus "mcdojo",
+reads as comparative advertising against identifiable local competitors. Given
+that Mohler MMA appears here and in issue 52's priced tables, **the client should
+take a view on the whole comparative-advertising pattern, not page by page.**
+
+#### Three more unattributed testimonials
+
+H2: "**What DFW Students Say After Choosing Sixth Sense Over Other Options**". As
+on `/mma-gym-valley-ranch-tx/`, three paragraphs of reported speech, **no names**:
+
+| # | Who | Verifiable detail |
+|---|---|---|
+| 1 | "A dad from **Irving**" | "visited four gyms"; "The coach corrected his posture **four times in 45 minutes**"; at the previous gym "nobody had touched his technique once" |
+| 2 | "An adult beginner from the **addison** area" | names **mohler mma** and **dfw combat co**; "**the free trial was available without a credit card required**"; "eight people in it"; "training for **seven months**"; "has earned her **first two stripes**" |
+| 3 | "A mom from **plano**" | "drove past three gyms"; disparages "the **karate school** they'd tried the year before" |
+
+**All three reproduced verbatim; no `Review` or `AggregateRating` JSON-LD was
+generated and none was invented.** Testimonial 2 is the one with real exposure: it
+puts a comparison of two named competitors into a customer's mouth and makes a
+specific commercial promise ("no credit card required") that appears nowhere else
+on the site.
 
 ## How these were checked
 

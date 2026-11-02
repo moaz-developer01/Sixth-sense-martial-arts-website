@@ -23,7 +23,50 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. NINETEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The twentieth page, and the claim is in tip 1
+
+`/bjj-training-tips/` (13 March 2026, 2,325 words) publishes **one** sentence that
+has been **omitted from the rebuild**, leaving an HTML comment. It is the third
+flat "prevents injury" of the March batch:
+
+> Tip 1, Focus on Learning Proper Technique: "**Good technique saves energy
+> prevents injury and makes techniques and strategies work against any body
+> type.**"
+
+**It is the first sentence of the first tip a beginner reads**, and it is the
+claim a grappling gym has least business making: technique reduces injury, it does
+not prevent it, and a beginner who believes otherwise trains harder than they
+should. Same ruling as "Good gear prevents bruises cuts and long term damage"
+(`/kickboxing-training-tips/`) and "safety rules prevent injury"
+(`/mix-martial-arts-for-self-defense/`).
+
+**The omission cost two clauses**, "saves energy" and "makes techniques and
+strategies work against any body type", because the sentence could not be split
+without rewriting the client's words. The fix at source is one word: "Good
+technique saves energy, **reduces** injury and makes techniques and strategies
+work against any body type."
+
+**What the same page gets right, three times over.** This is the frustrating part:
+the page already knows the correct phrasing and uses it everywhere except tip 1.
+
+| Exact wording | Form |
+|---|---|
+| Tip 8: "Improve flexibility and mobility to move better on the mat and **avoid injury**" | purpose clause — kept |
+| Common Mistakes: "A good warm up prepares the body for physical exertion **reduces injury risk** and helps you perform techniques correctly" | correctly hedged — kept |
+| Safe and Supportive Training Environment: "Instructors emphasize proper warm up controlled rolling and technique **to keep injury risk low**" | correctly hedged — kept |
+| Common Mistakes: "Without a proper warm up joints stay stiff muscles remain cold and **the risk of pulls strains or tweaks rises sharply**" | names the risk outright — kept |
+| Tip 3: "Improve your guard and defense early because **they keep you safe** and let you attack from the bottom" | **borderline**, kept: tactical safety inside a roll, not a claim about injury |
+
+**One page, four correct hedges and one absolute.** That is a copy-editing miss
+rather than a policy, which is the same conclusion the whole of issue 0 now points
+to: twenty posts, sixty-seven sentences, and nearly all of them fixable by
+changing "prevents" to "reduces".
+
+**"Concussion" and "brain" appear zero times**, and so do "pain", "soreness",
+"overtraining" and "rest day" — which is its own finding, logged at the new entry
+below.
 
 #### A sixth page that needed no omission, and the one marketed as "the safe option"
 
@@ -283,7 +326,7 @@ single most important sentence missing, and the page's own FAQ supplies it.
 **No concussion or brain-injury claim appears**, in either direction: the words
 "concussion" and "brain" do not occur anywhere on the page.
 
-**Running total: 66 sentences across nineteen posts.**
+**Running total: 67 sentences across twenty posts.**
 
 #### The seventeenth page, and one of the two is attached to clinch sparring
 
@@ -5023,6 +5066,54 @@ claim stays in this entry with the other eight.
 
 **Logged as a POSITIVE on programme accuracy** with that single exception noted.
 
+**2026-03-13 addition — `/bjj-training-tips/`: accurate on the programme, with the
+tenth unnamed certification and one anchor that sends a BJJ reader to Muay Thai.**
+
+| Check | Result |
+|---|---|
+| Sticks to BJJ | **yes in substance** — every tip, section and technique is Brazilian jiu jitsu. One misplaced anchor spoils the intro, below |
+| Age ranges given | **none at all** — "kid", "child" and "teen" occur **zero times**, so nothing can contradict `kids-bjj-classes.html` (4–12, Little Champions 4–7) |
+| Kids or teen BJJ advertised | **no** |
+| Pricing section or figure | **none** — no price, package, membership, drop-in or free trial. **Does not become the thirteenth page** |
+| Certified instructors | **claimed twice, nothing named** |
+
+**The certification claim, tenth page running:** H3 "**Certified** and Experienced
+BJJ Instructors", then "The **certified and experienced BJJ instructors** at Sixth
+Sense MMA bring deep knowledge… **They hold proper certifications** and have a
+strong understanding of fundamentals advanced techniques and competition
+strategies." No belt, no lineage, no name, no governing body — on a page whose own
+FAQ publishes ten other people's exact ranks (issue 61). **One sentence fixes it.**
+
+**The intro anchor, and it is the worst keyword-insertion artefact found in the
+project.** Reproduced verbatim, including the missing space:
+
+> "Whether you are a white belt in beginner **Adult Muay Thai classes**or advancing
+> toward blue belt purple belt brown belt or black belt these tips help you grapple
+> better…"
+
+Three things wrong in one clause. **Muay Thai has no belts**, so "a white belt in
+beginner Adult Muay Thai classes" is nonsense on its face. The sentence is about
+the **BJJ** belt ladder, which is the page's whole subject, and the programme name
+that belonged there is **Adult BJJ classes**. And the closing `</strong>` runs
+straight into the next word — "**classes**or advancing" — with no space, which is
+what an automated keyword insertion looks like when it overwrites a phrase.
+
+**The anchor was NOT unwrapped.** Its text, "Adult Muay Thai classes", names
+exactly the page it points at, so the link is accurate to itself and the fault is
+in the client's prose. Unwrapping it would leave the same nonsense sentence with
+no link at all. **The text is reproduced exactly and the fault is recorded here
+instead** — unlike the five anchors unwrapped elsewhere, which each pointed at a
+service the gym does not sell.
+
+**Also leaked: an empty Rank Math plugin container**,
+`<div class="wp-block-rank-math-faq-block"> </div>`, sitting in the Contact
+section where an FAQ block was evidently started and abandoned. It renders nothing
+and is dropped from the rebuild. **Same family as the empty `wp-block-buttons`
+wrapper on `/benefits-of-kickboxing/`.**
+
+**No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
+Action:") appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8350,6 +8441,34 @@ lower-case "benefits" against `Benefits of BJJ` with a capital.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03-13 addition — `/bjj-training-tips/`: ten tags, clean on every stated
+flag, and seven of them generated from the kickboxing page's list.** The post
+carries 10 tags: `BJJ conditioning tips`, `BJJ drilling tips`, `BJJ grappling
+training tips`, `BJJ practice tips`, `BJJ skill development tips`, `BJJ sparring
+tips`, `BJJ technique improvement tips`, `BJJ Training Tips`, `BJJ training tips
+for beginners`, `Brazilian Jiu Jitsu training tips`.
+
+**The flags come back clean.** Every tag is about the page's subject; **no untaught
+discipline** (BJJ has three programme pages); and — the one specifically asked
+about — **no competitor name**. `Gracie Barra` is **not** among these tags, unlike
+`/teens-bjj-near-me/` at issue 61. **Note the irony**: the tags avoid the
+competitor's name while the body of tip 10 recommends the competitor by name.
+
+**The redundancy is now demonstrably template-generated.** Seven of the ten match
+`/kickboxing-training-tips/`'s tags pattern-for-pattern with the discipline
+swapped — conditioning tips, drilling/drills tips, practice tips, sparring tips,
+technique tips, training tips for beginners, and the primary keyword. The side by
+side table is in the cannibalisation entry. Within this page, `BJJ practice tips`,
+`BJJ drilling tips`, `BJJ technique improvement tips` and `BJJ skill development
+tips` are four names for one query, and `BJJ Training Tips` and `Brazilian Jiu
+Jitsu training tips` are the same tag with the art spelled out.
+
+**Case is inconsistent again**: `BJJ Training Tips` title-cased against eight
+lower-case qualifiers.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8723,7 +8842,8 @@ Google then has to pick one and ranks all of them weaker.
 | **Women's self-defence (confirmed, TWO posts for a programme that has not launched)** | `/self-defense-classes-for-women/` · `/womens-self-defense-class/` — overlapping the eleven-page general self-defence cluster — see below |
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
-| **Benefits pages (confirmed, THREE pages from one template in five days)** | `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **Training tips pages (confirmed, TWO pages from one template, same day)** | `/bjj-training-tips/` · `/kickboxing-training-tips/` — **CRITICAL**, see below |
 | **Kickboxing (confirmed, TEN pages across two slug spellings)** | `/kickboxing-training-tips/` · `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
@@ -9225,6 +9345,84 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The training tips pair, and the shape of the whole March batch
+
+`/bjj-training-tips/` and `/kickboxing-training-tips/` were **published four days
+apart** (13 and 9 March 2026) and are the same article with the discipline
+swapped. The exact-string overlap looks modest and **badly understates it**:
+
+| Measure | Result |
+|---|---|
+| Exact H2 matches | 4 of 17 (23.5%) — all four are site boilerplate |
+| All levels | 5 of 25 (20.0%) |
+| H2 word overlap | **64.4%** |
+| **Headings per page** | **25 on each** |
+| **Positional section-type match** | **25 of 25** |
+
+**Both pages have exactly 25 headings and the section TYPE matches at every one of
+the 25 positions:**
+
+| Position | `/bjj-training-tips/` | `/kickboxing-training-tips/` |
+|---|---|---|
+| 1–10 | ten numbered tips | ten numbered tips |
+| 11 | H2 "Common Mistakes Beginners Make in **BJJ** Training" | H2 "Common Mistakes Beginners Make in **Kickboxing** Training" |
+| 12 | H3 "Ignoring Technique and Using Only Strength" | H3 "Ignoring Proper Form and Technique" |
+| 13 | H3 "**Skipping Warm Up** and Mobility Training" | H3 "**Skipping Warm Ups** and Recovery" |
+| 14 | H2 "How Professional **Coaching** Improves **BJJ** Skills" | H2 "How Professional **Training** Improves **Kickboxing** Skills" |
+| 15 | H3 "**Structured Training Programs**" | H3 "**Structured Training Programs**" — **byte-identical** |
+| 16 | H3 "Personalized Feedback from Coaches" | H3 "Personalized Coaching and Feedback" |
+| 17 | H2 "Why Choose Sixth Sense MMA for **BJJ Training Tips** Program?" | H2 "Why Choose Sixth Sense MMA **Kickboxing Training** Program?" |
+| 18 | H3 "**Certified and Experienced** BJJ Instructors" | H3 "**Certified and Experienced** Trainers" |
+| 19 | H3 "Classes for Beginners and Advanced Students" | H3 "Beginner to Advanced Level Classes" |
+| 20–21 | H3 environment, H3 facilities | H3 equipment/environment, H3 schedule |
+| 22–25 | Contact US · Conclusion · Follow Us · FAQ's | Contact US · Conclusion · Follow Us · FAQ's |
+
+**Four of the ten tips are the same tip**: "Focus on Learning Proper Technique" /
+"Focus on Learning the Correct Technique"; "Stay Consistent with Your Training" /
+"Stay Consistent with Your Training Routine"; "Train Your Core for Better
+Control" / "Train Your Core for Powerful Strikes"; "Learn from Experienced
+Coaches" / "Train with Professional Coaches".
+
+**Even the tags were generated from one list.** Seven of ten follow the identical
+pattern with the discipline substituted:
+
+| `/bjj-training-tips/` | `/kickboxing-training-tips/` |
+|---|---|
+| `BJJ conditioning tips` | `kickboxing conditioning tips` |
+| `BJJ drilling tips` | `kickboxing drills tips` |
+| `BJJ practice tips` | `kickboxing practice tips` |
+| `BJJ sparring tips` | `kickboxing sparring tips` |
+| `BJJ technique improvement tips` | `kickboxing technique tips` |
+| `BJJ training tips for beginners` | `kickboxing training tips for beginners` |
+| `BJJ Training Tips` | `Kickboxing Training Tips` |
+
+#### The pattern across the whole March 2026 batch
+
+**Six pages in six days, in two template families:**
+
+| Family | Pages | Published |
+|---|---|---|
+| **Benefits** (issue 94) | `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` · `/benefits-of-mma/` · `/benefits-of-bjj/` | 7, 8, 12, 13 March |
+| **Training tips** | `/kickboxing-training-tips/` · `/bjj-training-tips/` | 9, 13 March |
+
+Each family answers one question — *what does training do for you*, and *how should
+you train* — and each has been filled in once per discipline. **Two of the six
+disciplines covered do not exist as classes at this gym** (MMA at any age,
+kickboxing at any age), which is logged separately at the service-claims entry.
+Note also the H2 "Why Choose Sixth Sense MMA for **BJJ Training Tips** Program?"
+— the slug's keyword has been pasted into the heading, so the gym appears to run
+a programme called "BJJ Training Tips".
+
+**Recommendation.** Two pages, not six:
+
+| Keep | Covering | 301 from |
+|---|---|---|
+| one benefits page | what BJJ and Muay Thai training gives you, a section each | the other three benefits pages (issue 94 — keep `/benefits-of-bjj/` as the URL) |
+| one training-tips page | how to train, a section per real discipline | `/kickboxing-training-tips/` into `/bjj-training-tips/`, since BJJ is the gym's strongest offering and kickboxing has no programme page |
+
+The kickboxing page's recovery and rest-day paragraph is the one passage worth
+carrying over wholesale, because the BJJ page lacks it entirely (issue 96b).
 
 #### The tenth kickboxing page, and it is the LEAST duplicative of the ten
 
@@ -13649,6 +13847,59 @@ it and add the gym's own instructors' belts and lineage next to it.
 the **IBJJF** (a sanctioning body, not a competitor) and, in the military FAQ, the
 **US Army, Marine Corps, Special Operations, Israel, Brazil and NATO forces**.
 
+**2026-03-13 addition — `/bjj-training-tips/`: Gracie Barra is now recommended in
+the body of a numbered tip, and a second competitor is named in the FAQ. This is
+the worst version of this problem found so far.**
+
+Issue 61 logs Gracie Barra's brand published as a **tag** on
+`/teens-bjj-near-me/`. This page goes further. Tip 10, "Learn from Experienced
+Coaches", reproduced verbatim:
+
+> "**Whether you train at Gracie Barra or another school** a qualified coach makes
+> a huge difference."
+
+**Read what that sentence does.** It is in the main article, in a numbered tip, on
+a page selling the client's own BJJ instruction. It names **one** school — a
+competitor, the largest BJJ franchise in the world, with academies in Texas — and
+relegates the client to "another school". A reader deciding where to train has
+just been given a brand name, and it is not this one. The client's own gym is
+named nowhere in that tip.
+
+**And the FAQ names a second competitor**, as `/benefits-of-bjj/` did the same day:
+
+> FAQ 2: "He was promoted to blue belt in late 2024 by his instructor Guilherme
+> "Gui" Mendes after winning gold medals … at the **IBJJF Master Worlds**. He trains
+> regularly at **Art of Jiu Jitsu in California**."
+
+**Eleven "Gracie" mentions on one page**, across the body and FAQ: Gracie Barra in
+tip 10, **Rener Gracie** in the celebrity answer, **Helio Gracie** as "the godfather
+of BJJ", and seven more Gracies in the red-belt answer (Carlos Gracie Jr., Robson,
+Relson, Reyla, Rorion, Royler and Rolls Gracie). Lineage history is legitimate
+content on a BJJ page; **naming a competing academy as a place the reader might
+train is not**.
+
+| Where | Named third party | Problem |
+|---|---|---|
+| Tip 10, body | **Gracie Barra** | a direct competitor offered as an alternative, in the client's own advice |
+| FAQ 2 | **Art of Jiu Jitsu**, **Guilherme "Gui" Mendes** | a competing academy and its head coach, named as where a celebrity trains |
+| FAQ 7, FAQ 9, FAQ 10 | **Rener Gracie**, **Helio Gracie**, seven Gracie red belts | lineage and history — legitimate |
+| FAQ 2 | **IBJJF** | a sanctioning body, not a competitor — legitimate |
+
+**All reproduced verbatim**, as the standing rule requires, and **none of it is
+linked**, so no link equity leaves the site. **The tags on this page are clean of
+competitor names** (see the tag entry) — unlike `/teens-bjj-near-me/`.
+
+**The fix for tip 10 is four words.** "Whether you train **here** or another school"
+says exactly the same thing and sends nobody to a competitor. The client should be
+shown this sentence specifically; it is the clearest single instance of the site
+working against its own business.
+
+**Also worth noting**: the page claims "**certified and experienced BJJ
+instructors**" who "hold **proper certifications**" and names none of them, while
+naming Zuckerberg's belt, his promoter, his academy, his medals, and nine other
+people's ranks. **Tenth page to claim an unnamed certification** (see the
+service-claims entry), and on this page the contrast is as stark as it gets.
+
 ### 62. Unnamed "experts" cited as authority, sourceless attributions, and unspecified "studies" credited to a federation — CONTENT (accuracy), SEO — **High**
 
 **A new form: an unnamed belt rank presented as a staff credential.** Under the
@@ -14402,6 +14653,43 @@ athletes who cross-train.
 rel="noopener"`. **No health site, no supplement retailer and no competitor link.**
 A competing academy is named in text in one FAQ answer (issue 61) but is not
 linked. **Zero empty ChatGPT citation anchors.**
+
+**2026-03-13 addition — `/bjj-training-tips/`: four client anchors, three aimed
+correctly, one in the wrong sentence — and the internal new-tab habit again.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "**Adult Muay Thai classes**" | `/adult-muay-thai-classes/` | the link is accurate to its own text, but it sits inside a sentence about **BJJ belts** — see the service-claims entry |
+| "**Brazilian jiu jitsu**" | `/adult-bjj-classes/` | **correct** |
+| "**Sixth Sense MMA**" | `/` | **correct** — the brand name to the homepage |
+| "practical self defense skills" | `/adult-bjj-classes/` | correct destination, loose anchor text |
+
+**Three of the four carry `target="_blank" rel="noreferrer noopener"` on INTERNAL
+links**, exactly as on `/benefits-of-bjj/`. The rebuild drops `target` and `rel` on
+internal links and keeps them only on the external Facebook button. Two pages in a
+row with this, so it is the editor's default rather than a one-off.
+
+**No anchor was unwrapped and no programme link was added.** The client's markup
+already reaches the adult BJJ programme twice, which is enough; adding more would
+not have improved a page whose linking problem is editorial, not structural.
+
+**Left unlinked, and reported as asked:**
+
+| Reference | Why unlinked |
+|---|---|
+| `kids-bjj-classes.html` | the page names **no child and no teenager** anywhere — nothing to attach a link to |
+| `teen-bjj-classes.html` | same |
+| **Gracie Barra** (tip 10) | a competitor, left as plain text (issue 61) |
+| **Art of Jiu Jitsu**, **Guilherme "Gui" Mendes** (FAQ 2) | a competing academy and coach, left as plain text |
+| **yoga** (tip 8) | not taught here, no programme page |
+| **deadlifts, pull ups, farmer carries** (tip 4) | no strength programme page exists |
+
+**Externals: one, the shared Facebook button**, already carrying `target="_blank"
+rel="noopener"`. **No supplement retailer and no health site** — which is worth
+stating, because the page recommends **calcium and vitamin D** (issue 96c) and
+links to no retailer, so nothing commercial follows the supplement advice. **Two
+competitors are named in text, neither linked.** **Zero empty ChatGPT citation
+anchors.**
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -15856,6 +16144,61 @@ the twelve-question celebrity FAQ above and the "Is 27 too late to start MMA?"
 question on `/benefits-of-kickboxing/`, at a larger scale: **nine of twelve
 questions would serve a different page better.**
 
+**2026-03-13 addition — `/bjj-training-tips/`: seven of ten FAQ answers are
+celebrity or trivia questions, and four of them answer "no".**
+
+Issue 85 logs a twelve-question FAQ where ten questions were celebrity trivia.
+**This is the same failure on a training-tips page**, and the proportion is barely
+better:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "What is the 80 20 rule in BJJ?" | yes — **but see the duplicate note below** |
+| 2 | "What is Mark Zuckerberg's BJJ rank?" | **no** — celebrity, and names a competitor (issue 61) |
+| 3 | "How can I get better at BJJ?" | yes, and it is the best answer on the page |
+| 4 | "Is BJJ good for bone density?" | borderline — health, not training tips (issue 96c) |
+| 5 | "Does Elon Musk do jiu jitsu?" | **no**, and the answer is "**No public evidence shows**…" |
+| 6 | "Is Jim Carrey a black belt?" | **no**, and the answer is "**No**…" |
+| 7 | "Which celebrity does BJJ?" | **no** |
+| 8 | "What level black belt is Jean Claude Van Damme?" | **no**, and the answer is "**He has no documented rank**" |
+| 9 | "Who is the godfather of BJJ?" | **no** — history |
+| 10 | "Who has a 9th degree red belt?" | **no** — lineage trivia |
+
+**Three of the ten FAQ answers exist to tell the reader that a celebrity does NOT
+train BJJ.** Elon Musk does not, Jim Carrey is not a black belt, Jean Claude Van
+Damme has no BJJ rank. A prospective student in Coppell looking for training
+advice is served three dead ends in a row. These are Google "People also ask"
+harvests pasted into a gym's FAQ.
+
+**The 80/20 answer is a duplicate of `/benefits-of-bjj/`, published the same day.**
+Same question, same Pareto framing, numerals instead of words:
+
+| Page | Wording |
+|---|---|
+| `/benefits-of-bjj/`, FAQ 6 | "roughly **80 percent** of your success comes from mastering **20 percent** of the most effective techniques" |
+| `/bjj-training-tips/`, FAQ 1 | "means roughly **80%** of your results come from mastering **20%** of the most effective and high percentage techniques" |
+
+**Two pages, one answer, two typographies** — and the question itself is spelled
+two ways: "What is the **80/20** rule in BJJ?" there against "What is the **80 20**
+rule in BJJ?" here, with the slash dropped. Both reproduced exactly.
+
+**A verbatim defect in FAQ 7, reproduced as published.** The celebrity list loses
+its separator mid-sentence:
+
+> "… Tom DeBlass (black belt) Ashton Kutcher (brown belt) **Rener Gracie has
+> trained many actors and others like** Keanu Reeves (trained briefly) …"
+
+A clause has been spliced into the middle of a list, so the sentence reads as
+though Rener Gracie is one of the celebrities being enumerated. **Not corrected.**
+Same family as the missing separators already logged elsewhere.
+
+**One more accuracy exposure the client should know about.** These answers assert
+**specific belt ranks for named living people** — Joe Rogan black belt, Guy Ritchie
+black belt, Ashton Kutcher brown belt, Demi Lovato blue belt, Zuckerberg blue belt
+— with no source and no date. Ranks change. A page that will still be live in two
+years is publishing claims about real individuals that will quietly go out of date,
+and it does so while refusing to state its own instructors' ranks.
+
 ### 86. A page advising parents of bullied children: what it promises, what it cites, and what it never tells a child to do — CONTENT (accuracy), SAFEGUARDING — **High, the client must review before publication**
 
 `/anti-bullying-martial-arts-for-kids/` (26 February 2026, 3,577 words) is the
@@ -17238,6 +17581,148 @@ this page it matters least, because there is almost nothing for a disclaimer to
 qualify. **One shared disclaimer component across the four would close this and
 most of issue 31 at once**, and if the group is consolidated as issue 94
 recommends, it only has to be written once.
+
+### 96. A ten-tip beginner's guide to a submission grappling art that never once mentions tapping — CONTENT (accuracy), LIABILITY — **High**
+
+`/bjj-training-tips/` (13 March 2026) was checked against the six training-advice
+categories, including the grappling-specific one. **The headline finding is an
+absence, not a claim.**
+
+#### (d) Tapping and submission safety: the word "tap" does not appear on the page
+
+**"Tap", "tapping", "tap out", "crank", "heel hook" and "neck crank" occur ZERO
+times** across 2,325 words of body copy and ten FAQ answers.
+
+**The good news first, because the question was asked specifically**: there is
+**nothing on this page that discourages tapping** and **nothing that encourages
+training through a submission**. On the stated risk — advice that would get a
+beginner hurt — the page is clean, and it does not join the liability group.
+
+**But tapping is the one thing a beginner grappler must be told**, and this page is
+the gym's beginner guide. Consider what it does cover while omitting it:
+
+| Where | What the page teaches |
+|---|---|
+| Intro | names "**armbar triangle choke kimura**" as fundamentals to drill |
+| Tip 1 | "Drill fundamental moves like shrimping **armbar triangle choke kimura** and basic escapes slowly before adding speed" |
+| Tip 4 | "Strong grip lets you control posture dominate positions and **finish submissions like armbar or triangle choke**" |
+| Tip 7 | an entire tip called "**Learn Position Before Submission**" |
+| Common Mistakes | beginners "might bridge explosively or **squeeze submissions with raw power**" |
+| FAQ 1 | "common submissions (**armbar triangle choke rear naked choke cross collar choke**)" |
+
+**The page names six submissions, tells beginners to drill them, warns that
+beginners squeeze them with raw power — and never tells either partner what to do
+about it.** Not "tap early", not "tap often", not "release immediately when your
+partner taps". In a sport where the submission *is* the stopping mechanism, that
+is the single most important sentence a beginner page can carry, and it is the one
+sentence missing.
+
+**Nor is there any guidance on rolling with higher belts.** "Higher belts" appears
+twice and both times it is about choosing a coach — "train under someone who has
+walked the path to higher belts" — never about how to roll with one. Tip 9 tells
+beginners to roll with "**bigger stronger smaller faster or more technical**"
+partners and to be pushed "**out of your comfort zone**", with no accompanying word
+on intensity, on telling a partner about an injury, or on how a white belt should
+roll with a brown belt.
+
+**Recommended fix, and it is two sentences**: add tapping to tip 7 or to the
+"Safe and Supportive Training Environment" section, where the page already says
+instructors "monitor intensity during sparring" and "stop unsafe situations
+immediately". The gym evidently teaches this on the mat; the page just never
+writes it down. **This finding is the counterpart to issue 90**, where the kids MMA
+page never mentioned head strikes: in both cases the most important safety
+sentence for the audience is the one that is absent.
+
+#### (b) Training through pain, fatigue or injury: none — but no rest guidance either
+
+**"Pain", "push through", "soreness", "overtraining" and "rest day" all occur zero
+times.** Nothing here belongs in the liability group with `/neck-bridges/`,
+`/do-neck-bridges-build-muscle/`, `/neck-bridges-benefits/`, `/kidney-punch/` and
+`/sambo-techniques-for-beginners/`. The nearest sentences are about persistence,
+not pain: "Train times per week regularly **even if some sessions feel tough**" and
+"show up **train hard** and keep going even when progress feels slow".
+
+**The gap is on the other side.** `/kickboxing-training-tips/`, built the same
+week from the same structure, prescribed recovery explicitly — "take at least one
+or two rest days each week", "ice sore areas", "Listen to your body and take easy
+days when needed", "Overtraining causes shin soreness joint pain and burnout".
+**This page carries none of that.** Its "Skipping Warm Up and Mobility Training"
+section covers warm-ups thoroughly and drops recovery entirely; the only mention
+anywhere is three words inside an FAQ list, "**prioritize recovery**". For a sport
+whose beginners routinely train with mat burn, tweaked necks and sore fingers, the
+kickboxing page's recovery paragraph should be copied across.
+
+#### (a) Sets, reps, rounds and frequency: the frequency sentence is BROKEN
+
+> Tip 2: "**Train times per week regularly** even if some sessions feel tough."
+
+**The number is missing.** The sentence was written as "Train [n] times per week"
+and the figure never got filled in. **Reproduced exactly as published and not
+completed**, per the standing instruction — the rebuild does not guess what the
+client meant.
+
+**The page's own FAQ supplies the number the body lost**: FAQ 3, "Get better at BJJ
+by training consistently (**3–5 times per week**)". So the fix is available on the
+same page.
+
+| Category | What the page prescribes |
+|---|---|
+| Sets | **none** |
+| Reps | one, vague: "drill them **hundreds of times** in every training session" (tip 6) |
+| Rounds | **none** |
+| Load | **none** |
+| Rest periods | **none** |
+| Frequency | body: **broken** ("Train times per week"). FAQ 3: "**3–5 times per week**". Tip 4: "**Train grip every session**" |
+| Named exercises, no programming | "**deadlifts pull ups and farmer carries**" (tip 4); "**planks leg raises and twists**" (tip 5); "add **yoga** or specific BJJ mobility drills" (tip 8) |
+
+**Nothing was added, clarified or completed.** No sets, reps, rounds, load, rest
+periods, submission depth or form cues were introduced anywhere in the rebuild.
+
+#### (c) Diet and supplements: the SAME parenthesis, on a THIRD page
+
+> FAQ 4: "Regular BJJ training helps maintain or improve bone density especially
+> when combined with **proper nutrition (calcium vitamin D)** and progressive
+> resistance."
+
+**No weight cutting advice** — "weight cut", "cut weight", "dehydrat" and "sauna"
+occur zero times — and **nothing is aimed at teenagers**, because "teen", "kid" and
+"child" occur zero times on the page.
+
+**Logged separately as asked, and it is now a pattern rather than an instance.**
+The calcium-and-vitamin-D recommendation has appeared on three pages in five days,
+each time inside a bone-density answer:
+
+| Page | Wording |
+|---|---|
+| `/benefits-of-kickboxing/`, FAQ 6 | bone-density claim, "**Studies on high impact activities show**…" |
+| `/kickboxing-training-tips/`, FAQ 2 | "Combine it with good nutrition **calcium vitamin D** and rest… **Studies on high impact sports show**…" |
+| `/bjj-training-tips/`, FAQ 4 | "combined with proper nutrition **(calcium vitamin D)** and progressive resistance… **Studies on high impact and resistance activities show** positive effects on bones" |
+
+**Three pages, three spellings of the same unnamed study, and the same two
+supplements recommended by a gym with no disclaimer.** This is one fix, not three:
+either name a source and add a disclaimer, or drop the nutrition parenthesis from
+all three. Joins the uncited-research group at issue 92 and the supplement note at
+issue 93.
+
+#### (e) Supervision, a coach or a training partner: recommended throughout
+
+**Two of the ten tips are about it** — "9. Train with Different Partners" and "10.
+Learn from Experienced Coaches" — plus a whole section, "How Professional Coaching
+Improves BJJ Skills". The page tells readers to "Watch how instructors
+demonstrate", "**Listen to their feedback ask questions and apply corrections**",
+and FAQ 3 closes on "**listening to experienced coaches for personalized
+feedback**". It explicitly rates coached training above solo work: personalised
+feedback "helps you reach higher levels much quicker **than training alone or
+without proper instruction**".
+
+It also carries the one piece of mat etiquette it does include, twice: "**leave
+your ego at the door**".
+
+#### (f) Disclaimer: none
+
+**No medical or fitness disclaimer of any kind**; "disclaimer", "consult", "doctor"
+and "physician" occur zero times. Sixth page in a row. On this page it compounds
+the tapping gap and the supplement recommendation above.
 
 ## How these were checked
 

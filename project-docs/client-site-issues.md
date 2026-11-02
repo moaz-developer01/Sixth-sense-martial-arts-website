@@ -25,6 +25,35 @@ a competing gym.
 
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A seventh page that needed no omission, and the word "injury" is not on it at all
+
+`/martial-arts-confidence-building/` (14 March 2026, 2,279 words) required **no
+omission**. **"Injury", "injured", "hurt", "concussion" and "brain" appear zero
+times**, so there was no risk claim to make in either direction.
+
+Every use of "safe" on the page is about atmosphere or manner, and all of it was
+kept:
+
+| Exact wording | Form |
+|---|---|
+| "Training teaches you to face fear doubt and pressure in a **controlled safe space**" | atmosphere |
+| "Professional coaching … gives clear direction **safe practice** and steady progress" | manner |
+| "Practitioners feel supported **safe to try hard**" | about confidence, not risk |
+| "The academy helps people of all levels develop … through structured **safe** and motivating classes" | atmosphere |
+| "They help beginners **feel safe** while pushing advanced students" | about feeling |
+| "Beginner classes teach fundamentals in a **slow safe way**" | manner |
+
+**That the page never names injury is worth recording rather than praising.** A
+2,279-word article telling parents and adults what martial arts will do for their
+confidence, which mentions sparring, "getting submitted on the mat", "full contact
+fighting" and "body conditioning", and never once acknowledges that any of it
+carries physical risk, is complete only because it stops short of the subject. It
+makes no false claim; it also gives a reader no basis for the decision. **Same
+shape as the kids MMA page's silence on head strikes (issue 90)** — the problem is
+the omission, not an overclaim.
+
+Running total unchanged: **67 sentences across twenty posts.**
+
 #### The twentieth page, and the claim is in tip 1
 
 `/bjj-training-tips/` (13 March 2026, 2,325 words) publishes **one** sentence that
@@ -5114,6 +5143,73 @@ wrapper on `/benefits-of-kickboxing/`.**
 **No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
 Action:") appear anywhere on the page.
 
+**2026-03-14 addition — `/martial-arts-confidence-building/`: EIGHT untaught
+disciplines named, karate thirteen times, three FAQ answers teaching the karate
+syllabus, and the eleventh unnamed certification — now "in various martial arts".**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **karate ×13**, **tae kwon [do]** ×3, judo, kung fu, aikido, krav maga, boxing, wrestling, plus Brazilian jiu jitsu and Muay Thai |
+| Of those, taught here | **two**: Brazilian jiu jitsu and Muay Thai |
+| Age ranges given | **none numeric** — "Kids adults and even older practitioners", "people of all ages". Nothing contradicts `kids-bjj-classes.html` (4–12, Little Champions 4–7) because nothing is specified |
+| Pricing section or figure | **none.** Still twelve pages promising pricing and publishing none; this is not a thirteenth |
+| Certified instructors | **claimed, and vaguer than ever** |
+
+**The body leads on two disciplines the gym does not teach, twice, and gets both
+names wrong.** Reproduced verbatim:
+
+> Intro: "**Martial art like karate tae kwon muay and others** teach self defense
+> techniques…"
+>
+> Physical Training: "Regular practice in **karate tae kwon muay** or other styles
+> makes you stronger fitter and more in control."
+
+Three defects in one phrase, both times. **"Martial art" is singular** before a
+plural list. **"tae kwon" is truncated** — the art is tae kwon do, and the page's
+own FAQ spells it correctly. **"muay" is truncated** from Muay Thai, which is one
+of the gym's two real programmes, so the one discipline it could legitimately
+advertise is the one whose name is cut in half. And the two arts given top billing
+— karate and taekwondo — **cannot be booked here at any age**.
+
+**Three of the eleven FAQ answers teach the karate syllabus**, in detail:
+
+| FAQ | Content |
+|---|---|
+| 3, "What are the 4 skills of karate?" | kihon, kumite, kata and bunkai, each defined |
+| 7, "What are the 5 rules of karate?" | the dojo kun, attributed to **Gichin Funakoshi**, founder of **Shotokan** |
+| 9, "Which is the powerful style in karate?" | **Shotokan**, **Kyokushin**, **Goju ryu** and **Shito ryu** compared |
+
+A reader who finishes this page knows more about Shotokan karate than about
+anything Sixth Sense teaches. FAQ 8 then lists "karate tae kwon do judo Brazilian
+jiu jitsu Muay Thai boxing and wrestling" as "the 7 martial arts", and adds "kung
+fu aikido or krav maga". **Every one of those except BJJ and Muay Thai is left
+unlinked in the rebuild**, having no programme page.
+
+**The certification claim, eleventh page running, and this is the vaguest form of
+it yet:**
+
+> H3 "Experienced and **Certified** Instructors" — "Experienced and certified
+> instructors at Sixth Sense MMA guide students… **They hold proper certifications
+> in various martial arts** and have years of training teaching and real world
+> application."
+
+"Proper certifications in **various martial arts**" names neither the
+certification nor the arts. On a page whose named arts are karate and tae kwon do,
+it reads as a claim to karate and taekwondo credentials. **One sentence naming
+each instructor's actual rank and who awarded it fixes this and ten other pages.**
+
+**One verbatim typo, reproduced:** "Martial arts help you gain confidence from
+seeing your body improve and **perform betzzter over time**." Three stray
+characters inside "better", in the Improving Strength and Fitness section.
+
+**The empty Rank Math container leaks again**,
+`<div class="wp-block-rank-math-faq-block"> </div>`, in the Contact section —
+second page in a row, so it is a template artefact rather than a one-off. Dropped
+from the rebuild.
+
+**No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
+Action:") appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8469,6 +8565,34 @@ lower-case qualifiers.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03-14 addition — `/martial-arts-confidence-building/`: ten tags, no
+competitor, no untaught discipline named — and the first set in the March run that
+is not just the slug ten times.** The post carries 10 tags: `confidence building
+through martial arts`, `Martial Arts Confidence Building`, `martial arts
+confidence building techniques`, `martial arts confidence training`, `martial arts
+for self confidence`, `martial arts mental strength`, `martial arts mindset
+training`, `martial arts personal development`, `martial arts self discipline`,
+`martial arts self improvement`.
+
+**Clean on both stated flags.** No competitor name — unlike `/teens-bjj-near-me/`
+with its `Gracie Barra` tag (issue 61). **And no untaught discipline**: every tag
+says "martial arts" generically and not one says karate, tae kwon do, judo, kung
+fu, aikido or krav maga, **although the body of the page names all six** (see the
+service-claims entry). The taxonomy is more accurate than the article.
+
+**The redundancy is also milder than on the four previous pages.** `mental
+strength`, `mindset training`, `personal development`, `self discipline` and `self
+improvement` are genuinely different angles rather than five rewordings of the
+slug. Only three — `Martial Arts Confidence Building`, `martial arts confidence
+building techniques` and `confidence building through martial arts` — are the same
+query reordered. **Best tag set of the 2026 batch.**
+
+Case is inconsistent as usual: `Martial Arts Confidence Building` title-cased
+against nine lower-case tags.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8843,6 +8967,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **Confidence content (confirmed, spread across at least EIGHT pages)** | `/martial-arts-confidence-building/` · `/muay-thai-thai-boxing/` · the confidence sections of the four benefits pages · the kids pages — see below |
 | **Training tips pages (confirmed, TWO pages from one template, same day)** | `/bjj-training-tips/` · `/kickboxing-training-tips/` — **CRITICAL**, see below |
 | **Kickboxing (confirmed, TEN pages across two slug spellings)** | `/kickboxing-training-tips/` · `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
@@ -9345,6 +9470,46 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The confidence cluster, and the page that was already in it under another name
+
+`/martial-arts-confidence-building/` (14 March 2026) is the first page whose
+**title** is confidence. It is not the first page whose **content** is.
+
+| Page | Confidence content | Already flagged |
+|---|---|---|
+| `/martial-arts-confidence-building/` | the whole article | — |
+| `/muay-thai-thai-boxing/` | **the whole article**, despite a title promising training and techniques | **yes** — carries an intent-mismatch flag for exactly this |
+| `/benefits-of-bjj/` | "8. Boosted Confidence and Discipline" | issue 94 |
+| `/benefits-of-mma/` | "8. Boosted Confidence and Discipline" | issue 94 |
+| `/benefits-of-muay-thai/` | "8. Boosted Confidence" | issue 94 |
+| `/benefits-of-kickboxing/` | "9. Boosts Confidence and Self Discipline" | issue 94 |
+| `/anti-bullying-martial-arts-for-kids/` | confidence is the stated mechanism throughout | issue 86 |
+| `/martial-arts-for-kids/`, `/martial-arts-for-kids-strenght/` | confidence sections | issue 24 |
+
+**Heading overlap measured from this build:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/muay-thai-thai-boxing/` | 1 of 10 (10.0%) — "Conclusion" | 1 of 24 (4.2%) | **55.2%** |
+| `/anti-bullying-martial-arts-for-kids/` | 4 of 10 (40.0%) — all four are site boilerplate | 4 of 24 (16.7%) | **69.0%** |
+
+**The `/muay-thai-thai-boxing/` row is the one to read carefully.** Its exact-match
+score is the lowest in the whole audit — one heading, and that heading is
+"Conclusion" — while **55.2% of its H2 vocabulary is shared**. That is what two
+pages look like when they cover the same subject under different headings. The
+older page promises Muay Thai training and delivers an article about confidence;
+the new page promises confidence and delivers an article about confidence. **They
+compete, and the new one is the honest version of the old one.**
+
+**Recommendation.** Keep `/martial-arts-confidence-building/` as the confidence
+page — its title matches its content, which `/muay-thai-thai-boxing/`'s does not —
+but fix the copy first: it leads on karate and tae kwon do, neither of which is
+taught (see the service-claims entry). Then **rewrite `/muay-thai-thai-boxing/` to
+deliver the Muay Thai training content its title promises**, which closes the
+intent-mismatch flag and the duplication in one edit. The confidence items inside
+the four benefits pages are a sentence each and can stay wherever issue 94's
+consolidation leaves them.
 
 #### The training tips pair, and the shape of the whole March batch
 
@@ -14691,6 +14856,42 @@ links to no retailer, so nothing commercial follows the supplement advice. **Two
 competitors are named in text, neither linked.** **Zero empty ChatGPT citation
 anchors.**
 
+**2026-03-14 addition — `/martial-arts-confidence-building/`: the FIRST page in
+the project whose own markup reaches all four programme pages — and three of its
+five anchors still have the wrong text.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "**kids through martial arts**" | `/kids-bjj-classes/` | **correct** — a kids reference to the kids programme, which three other pages failed to do |
+| "Martial arts training" | `/` | the homepage, harmless |
+| "martial arts classes" | `/adult-muay-thai-classes/` | real destination, **generic anchor** — "martial arts classes" could mean any of the five programmes |
+| "self defense skills" | `/adult-bjj-classes/` | real destination, **generic anchor** — the same loose pairing seen on `/benefits-of-bjj/` and `/bjj-training-tips/` |
+| "**beginners and advanced students**" | `/teen-bjj-classes/` | real destination, **wrong anchor** — nothing in those four words says *teenagers*, and the sentence around it is about skill level, not age |
+
+**The kids anchor is the finding worth reporting.** `/mma-classes-for-kids/`,
+`/kids-self-defense-classes-near-me/` and `/anti-bullying-martial-arts-for-kids/`
+each had kids phrases pointing at the wrong place or at nothing; this page sends
+"kids through martial arts" straight to `kids-bjj-classes.html`. **No anchor
+needed unwrapping and no programme link needed adding**, which has now happened
+twice (this page and `/benefits-of-bjj/`).
+
+**All five of these are plain internal links with no `target` or `rel`**, unlike
+`/benefits-of-bjj/` and `/bjj-training-tips/`, which forced internal links into
+new tabs. So the editor's new-tab habit is inconsistent page to page.
+
+**Left unlinked, and reported as asked — eight disciplines with no programme page:**
+**karate** (13 mentions), **tae kwon do**, **judo**, **kung fu**, **aikido**,
+**krav maga**, **boxing** and **wrestling**. All appear as plain text.
+
+**Externals: one, the shared Facebook button**, with `target="_blank"
+rel="noopener"`. **The page cites no psychology or health source at all** — no
+link to any study, journal, psychology site or health body — which matters
+because it teaches two psychology frameworks as fact (issue 97c) and claims
+training "boosts overall brain health". **There is no broken source link because
+there is no source link.** No supplement retailer, no health site, no competitor
+link — though a competing school's banner is visible in the hero photograph
+(issue 98). **Zero empty ChatGPT citation anchors.**
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -17723,6 +17924,175 @@ your ego at the door**".
 **No medical or fitness disclaimer of any kind**; "disclaimer", "consult", "doctor"
 and "physician" occur zero times. Sixth page in a row. On this page it compounds
 the tapping gap and the supplement recommendation above.
+
+### 97. A page built entirely on psychological outcomes that names no clinical condition, invents no case study, and cites no source for either framework it teaches — CONTENT (accuracy) — **Medium**
+
+`/martial-arts-confidence-building/` (14 March 2026) is the first page in the
+audit whose whole subject is mental and emotional outcomes, so the claims are the
+content rather than a side note. It was checked against all six categories.
+
+**The headline result is that the page stays on the right side of the one line
+that matters.** It is a confidence page that never becomes a therapy page.
+
+#### (a) Clinical conditions: NONE claimed — the important finding
+
+**"Depression", "ADHD", "autism", "PTSD", "trauma", "disorder", "diagnosis",
+"therapy", "therapeutic", "clinical", "mental illness", "medication", "treat" and
+"cure" occur ZERO times.** The page does not claim that training treats, cures or
+relieves any diagnosed condition, and **it does not join the child-safety group
+created for `/anti-bullying-martial-arts-for-kids/`.**
+
+**"Anxiety" appears exactly once, and the wording confines it to everyday life:**
+
+> "This mental fortitude **reduces anxiety in daily situations** and replaces doubt
+> with quiet self confidence that grows stronger with every class."
+
+"In daily situations" is doing the work there. Compare `/benefits-of-mma/` two
+days earlier, which said flatly "**It reduces stress and anxiety**" four times with
+no qualifier (issue 94c). **This page's single use is the better-written of the
+two**, and it is the only one on a page about mental outcomes.
+
+**The one claim worth a second look is in the FAQ, and it is about the brain, not
+the mind:**
+
+> FAQ 5, "Does martial arts increase IQ?": "Regular training also reduces stress
+> **improves sleep and boosts overall brain health**."
+
+"Boosts overall brain health" is an unqualified physiological claim with no source
+on a page with no disclaimer. **The rest of that answer is unusually honest** and
+should be said: it opens "**Martial arts does not directly increase IQ** which
+measures general intelligence" and closes "**While it does not raise raw IQ**…".
+A gym page answering "does this make my child smarter" with "no" is rare enough
+to note.
+
+#### (b) Children's development and behaviour: three claims, all hedged
+
+| Exact wording | Hedge |
+|---|---|
+| "Martial arts **helps** kids overcome shyness fear of failure or bullying **by teaching them to** stand tall speak clearly and handle challenges with resilience" | "helps", and names the mechanism |
+| "Kids who train regularly **often become** more outgoing assertive and secure" | "often" |
+| "Children learn respect discipline and basic self defense techniques while gaining physical skills that **make them feel capable**" | about feeling |
+
+**No academic-performance claim.** "Grades", "academic", "teacher", "classroom"
+and "homework" occur zero times. The three nearest sentences all say *focus*, not
+*results*: "Practitioners often notice **better focus** at work school or home";
+FAQ 5 "martial arts sharpens mental skills that make you **perform better in daily
+tasks school or work**"; FAQ 10 "life skills that **help in school** work
+relationships". **Nothing promises a child's marks will improve**, which is the
+claim this genre usually makes.
+
+#### (c) Statistics and studies: NONE — but two frameworks taught as fact
+
+**There is not one number on this page.** "Percent", "%", "studies", "study",
+"research", "according to", "survey", "data", "report", "science", "proven" and
+"psychology" all occur **zero times**. So the page adds nothing to the uncited
+statistics already flagged on the kids, women's and benefits pages (issues 86c,
+87c, 92).
+
+**What it does instead is teach two psychology frameworks as settled fact, neither
+attributed:**
+
+| Where | Claim |
+|---|---|
+| FAQ 2 | "**The 3 C's of self esteem are Competence Confidence and Connectedness** … Together these three elements create strong healthy self esteem" |
+| FAQ 10 | "**The 7 life skills vary depending on the source** but a common set includes communication problem solving critical thinking emotional intelligence adaptability resilience and leadership" |
+
+FAQ 10 at least concedes the list "varies depending on the source" — and then
+names no source. FAQ 2 states the 3 C's flatly as though they were an established
+model, and follows with "**Martial arts training supports all three**". These are
+weaker than a fabricated statistic and stronger than nothing: a reader is being
+given a psychological model by a gym, with no citation.
+
+#### (d) Bullying and social outcomes: no guarantee of any kind
+
+**"Guarantee", "will stop", "stops bullying", "prevents bullying", "always" and
+"never again" occur zero times.** Bullying is mentioned **once**, inside the hedged
+sentence quoted above, and the page never says training will stop it — it says
+training helps a child "stand tall speak clearly and handle challenges". **That is
+the correct version of the claim** and it should be contrasted with
+`/anti-bullying-martial-arts-for-kids/`, the page that exists for this subject and
+needed omissions.
+
+The only social-outcome claim is "Kids who train regularly **often become** more
+outgoing assertive and secure", hedged with "often". No promise about friendships
+or popularity — "friends" and "popular" occur zero times.
+
+#### (e) Transformation stories: NONE, and nobody living is named
+
+**"Story", "transformation", "before and after", "testimonial", "one student",
+"a student", "mother", "father", "year old" and "aged" occur zero times.** There is
+no case study, no composite pupil, no parent quote and **no identifiable person of
+any kind in the text**. The only individual named anywhere is **Gichin Funakoshi**,
+in the karate FAQ, as a historical founder.
+
+**So the testimonial concern does not arise in the copy.** It arises in the
+photography instead, which is the next entry.
+
+#### (f) Disclaimer: none
+
+**No disclaimer of any kind**; "disclaimer", "consult", "doctor", "physician",
+"therapist" and "professional help" occur zero times. **Seventh page in a row.**
+
+On this page the gap is narrower than on the kickboxing or MMA pages, because the
+claims themselves are modest — but it is a page about mental wellbeing that tells
+a reader martial arts "reduces anxiety" and "boosts overall brain health", and one
+line pointing anyone with a real difficulty toward a professional would cost
+nothing.
+
+### 98. Two stock photographs on one page: a competing school's banner in the hero, and three identifiable young children branded with the client's domain — CONTENT (accuracy), LEGAL, SAFEGUARDING — **High, the client must confirm before this goes live**
+
+Both images on `/martial-arts-confidence-building/` (14 March 2026) were
+downloaded and inspected. **Both are licensed stock photographs of karate or
+taekwondo classes, and both carry a red caption bar reading "sixthsensemma.com".**
+Neither was taken at the gym.
+
+| File | Caption bar | What it shows |
+|---|---|---|
+| `Martial-Arts-Confidence-Building-1024x536.jpg` (1024×536 JPEG) | "Martial Arts Confidence Building · **sixthsensemma.com**" | two adults in karate gi and black belts, in a dojo with a visible wall banner reading "**ULTIMAT[E] … [Sel]f Defense St[udio]**" |
+| `Martial-Arts-Confidence-Building-for-Different-Age-Groups-1024x536.jpg` (1024×536 JPEG) | "Martial Arts Confidence Building for Different Age Groups · **sixthsensemma.com**" | two adult instructors holding kick paddles and **three young children**, roughly four to seven, in white gi, faces fully visible |
+
+#### The hero image contains another martial arts school's signage
+
+**A competing school's name is on the wall of the client's own hero image**, and
+the client's domain has been printed across the bottom of it. The banner reads
+"ULTIMAT…" over "…f Defense St…", partly hidden behind the models, but the logo
+and the words "Self Defense" are legible at full size.
+
+This belongs with the competitor findings already logged — the **Gracie Barra** tag
+on `/teens-bjj-near-me/` (issue 61), the Gracie Barra recommendation in tip 10 of
+`/bjj-training-tips/`, and **Art of Jiu Jitsu** in two FAQ answers — but it is a
+different kind of mistake. Those are words a reader has to read. **This is a
+picture, at the top of the page, above the fold**, and it is the first thing
+anyone sees.
+
+#### The second image shows three identifiable children
+
+**Yes, identifiable children appear in the images.** Three children's faces are
+fully visible and in focus, at an age that matches the gym's Little Champions
+bracket (4–7).
+
+**Two different things need confirming, and only the client can say which applies:**
+
+| If… | Then |
+|---|---|
+| the photo is **licensed stock** (which the composition, the studio lighting and the matching caption treatment all suggest) | **photo consent is not the issue — misrepresentation is.** A stock image of unknown children, captioned with the gym's own domain, on a page describing "Confidence Building for Kids" at Sixth Sense, invites a parent to read those children as pupils of this gym. Most stock licences also restrict the use of identifiable minors in ways that imply endorsement |
+| the photo is **of real pupils** | **written photo consent from each parent must be on file**, as already flagged for `/anti-bullying-martial-arts-for-kids/` in the child-safety group |
+
+**Either way the client has to answer it before this page goes live.** The rebuild
+reproduces both images exactly as published, at their real dimensions, with the
+live alt text.
+
+#### Both images show a discipline the gym does not teach
+
+White gi with coloured belts, kick paddles, the stances and the uniforms are
+**karate or taekwondo**, not Brazilian jiu jitsu and not Muay Thai. The gym teaches
+BJJ and Muay Thai only. So the two photographs on a page selling Sixth Sense
+classes show: **another school's branding, an untaught discipline, and children
+who may not be pupils** — all three captioned with the client's domain.
+
+**This is consistent with the page's text**, which also leads on karate and tae
+kwon do (see the service-claims entry), so the images were probably chosen to
+match the copy. Fixing the copy and the pictures is one job.
 
 ## How these were checked
 

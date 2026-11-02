@@ -25,6 +25,49 @@ a competing gym.
 
 ### 0. NINETEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A fifth page that needed no omission, and it is the one that should have been worst
+
+`/benefits-of-mma/` (12 March 2026, 2,734 words) required **no omission**. Every
+paragraph was checked, because a benefits page for a sport that combines striking,
+grappling and ground-and-pound is the likeliest place on this site for a claim
+that it is safe. **There is not one.**
+
+| Exact wording | Why it was kept |
+|---|---|
+| "Coaches prioritize proper technique warm ups and recovery **to reduce injury risk**" | "reduce", correctly hedged — the phrasing the rest of the site gets wrong |
+| "Their experience **helps prevent** bad habits and injuries" | hedged with "helps" |
+| "Trainers break everything down slowly so new people **learn safely**" | adverb of manner |
+| "Learning to fight safely and effectively **removes fear** of dangerous situations" | removes fear, not risk |
+| "… in a way that **feels safe** motivating and effective" | a claim about how it feels |
+
+**The hedge is the finding.** Three days earlier, `/kickboxing-training-tips/`
+published the same sentence from the same template without it — "Their experience
+means they spot bad habits early **prevent injuries** and push you at the right
+pace" — and that one had to be cut (see the nineteenth page above). This page
+writes "**helps prevent**" and survives. One word, two outcomes, and it shows the
+fix on the other nineteen pages is a copy-edit, not a rewrite.
+
+**This page is also the only one in the entire audit that names concussion risk
+to the reader.** All of it was kept:
+
+| Where | Exact wording |
+|---|---|
+| FAQ 11 | "Hammer fist is illegal in most MMA rules because it is considered a downward strike … that can cause **serious head or neck injury**" |
+| FAQ 11 | "The move **risks concussions or spinal damage** so referees stop it to protect fighters" |
+| FAQ 10 | "MMA **can feel more painful than boxing** … You take punches kicks knees elbows takedowns and joint locks which cause **varied types of pain like shin bruises joint strain or submission pressure**" |
+| Benefit 10 | "You face **fatigue pain from strikes or submissions** and the fear of getting caught in a bad spot yet you keep going" |
+| FAQ 8 | early UFC events were "seen as brutal no-holds-barred fights" and New York banned the sport "calling it **human cockfighting**" |
+
+"Concussion" appears **once on this page and nowhere else on the site**, including
+on the four pages that sell combat sport to children. A page that tells an adult
+reader a hammer fist risks concussions and spinal damage, while the kids MMA page
+never mentions head strikes at all (issue 90), is the clearest statement of the
+site's real problem: **the honest safety writing is on the pages aimed at adults
+who already know, and missing from the pages aimed at parents who do not.**
+
+Running total unchanged: **66 sentences across nineteen posts.** Five of the last
+six builds needed no omission.
+
 #### The nineteenth page, and the first where the claim is about EQUIPMENT
 
 `/kickboxing-training-tips/` (9 March 2026, 2,343 words) publishes **two**
@@ -4839,6 +4882,58 @@ throughout the week including early mornings evenings and weekends" and "You can
 attend as often as your schedule allows **without strict limits on sessions**" —
 an unlimited-attendance claim with no membership tier attached to it.
 
+**2026-03 addition — `/benefits-of-mma/`: an entire "MMA Training Program" with
+coaches, three skill levels and facilities, for a discipline taught at NO age.**
+
+**Log this at the top of this entry.** It is the most direct version of the
+service claim in the whole audit, because unlike the kids MMA pages it does not
+imply a programme in passing — it devotes an H2 and four H3s to describing one.
+
+| Check | Result |
+|---|---|
+| Advertises MMA classes as a current offering | **YES**, explicitly and at length |
+| Names kids MMA | **no** — "kid", "child", "children" and "teen" appear **zero times** |
+| Claims certified instructors | **no** — "certified", "certification" and "certifications" appear **zero times**. The heading is "**Professional** and Experienced MMA Coaches" |
+| Pricing section or figure | **none** — no price, no package, no membership, no free trial, no drop-in |
+
+**The words it uses.** Reproduced verbatim on the rebuilt page:
+
+| Where | Exact wording |
+|---|---|
+| H2 | "Why Choose Sixth Sense MMA for **MMA Training Program**?" |
+| Body | "Sixth Sense MMA stands out as the top choice for **MMA training program** because it combines expert coaching clear progression a welcoming atmosphere and high quality facilities" |
+| Body | "**The program fits anyone from complete beginners to experienced fighters** who want to improve striking grappling ground game and overall fighting ability" |
+| H3 | "Professional and Experienced **MMA Coaches**" |
+| Body | "**The coaches at Sixth Sense MMA** bring professional experience and deep knowledge of mixed martial arts… They have backgrounds in Muay Thai Brazilian jiu jitsu wrestling kickboxing and competition" |
+| H3 | "Structured Training for All Skill Levels" |
+| Body | "**Beginners start with fundamentals** … **Intermediate levels** add combinations transitions ground control and light sparring … **Advanced programs** include intense sparring strategy work high level grappling and conditioning specific to competition" |
+| Body | "**Small class sizes** allow coaches to give personal attention and adjust drills to your current level" |
+| H3 | "Modern Equipment and Training Facilities" |
+| Body | "Heavy bags thai pads focus mitts **grappling dummies** and mats stay in excellent condition" |
+
+**None of this exists.** The five programme pages are Adult BJJ, Adult Muay Thai,
+Kids BJJ, Teen BJJ and Teen Muay Thai. There is no MMA page, no MMA timetable, no
+beginner/intermediate/advanced MMA ladder and no MMA coach named anywhere else on
+the site. A reader finishing this page believes they can book into a three-tier
+MMA curriculum with its own coaching staff.
+
+**Two things make it worse than the kickboxing case (issue 48, 2026-03 addition).**
+Kickboxing at least maps onto Muay Thai, so a reader who turns up gets most of
+what they expected. **MMA maps onto nothing**: a reader expecting takedowns,
+ground-and-pound and cage work gets a BJJ class or a Muay Thai class, each half of
+the thing they booked. And the business name is "Sixth Sense **MMA**", which this
+page leans on — "Sixth Sense MMA stands out as the top choice for MMA training
+program" — so the claim reads as a statement about the gym's core offering rather
+than a stray paragraph.
+
+**The one thing it gets right**, and it is worth saying because ten other pages do
+not: **no certification is claimed.** "Professional and Experienced" is a defensible
+description where "certified" would have been the eleventh unnamed certification.
+
+**Pricing: still none.** Twelve pages now promise or imply a programme and publish
+no price; this page at least promises no package either, so it does not add a
+thirteenth pricing claim.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -8112,6 +8207,33 @@ rest, the same case inconsistency the body has (issue 58).
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03 addition — `/benefits-of-mma/`: ten tags, no typos, nothing copied from
+another post — and all ten target a discipline the gym does not teach.** The post
+carries 10 tags: `Benefits of MMA`, `mixed martial arts benefits`, `MMA fitness
+benefits`, `mma for self defense`, `MMA full body workout benefits`, `MMA mental
+benefits`, `MMA strength and conditioning benefits`, `MMA training benefits`, `MMA
+weight loss benefits`, `MMA workout benefits`.
+
+**On the usual test the set passes.** Every tag is about the page's subject, none
+is copied from another post (the `/muay-thai-gear-for-safety/` failure), no
+competitor and no city appears, and there is no typo.
+
+**But the stated flag is "any targeting untaught disciplines", and that is all ten
+of them.** MMA is taught at no age at Sixth Sense (see the service-claims entry):
+the gym runs BJJ and Muay Thai. These ten tags build ten archive pages ranking for
+a class that cannot be booked. It is the same problem as the page itself, repeated
+ten times in the taxonomy.
+
+Two smaller notes. **Nine of the ten are "MMA" + a qualifier + "benefits"**, the
+same redundancy logged on `/kickboxing-training-tips/` — `MMA workout benefits`,
+`MMA training benefits`, `MMA fitness benefits` and `MMA full body workout
+benefits` are four names for one query. And **the case is inconsistent again**:
+`mma for self defense` lower case against `MMA` capitalised in eight others and
+`mixed martial arts benefits` spelled out.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8485,6 +8607,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Women's self-defence (confirmed, TWO posts for a programme that has not launched)** | `/self-defense-classes-for-women/` · `/womens-self-defense-class/` — overlapping the eleven-page general self-defence cluster — see below |
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
+| **Benefits pages (confirmed, THREE pages from one template in five days)** | `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
 | **Kickboxing (confirmed, TEN pages across two slug spellings)** | `/kickboxing-training-tips/` · `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
@@ -13039,6 +13162,30 @@ unhyphenated nine more times. The same list printed twice on one page in two
 styles, eight lines apart — which is now a pattern across both March pages, not a
 one-off. All reproduced exactly as published.
 
+**2026-03 addition — `/benefits-of-mma/`: the body and its own FAQ hyphenate
+differently, every time, which suggests they were not written together.**
+
+| Term | Body | FAQ |
+|---|---|---|
+| full body / full-body | "full body" ×2 | "full-body" ×2 |
+| self defense / self-defense | "self defense" ×10 | "self-defense" ×5 |
+| jiu jitsu / jiu-jitsu | "jiu jitsu" ×5 | "jiu-jitsu" ×1 |
+| well being / well-being | "well being" ×1 | "well-being" ×1 |
+| real world / real-world | — | "real-world" ×2 |
+| self control | — | "self-control" ×2 |
+
+**The split falls exactly on the body/FAQ boundary**, in six terms out of six.
+The body never hyphenates and the accordion always does. On the two sibling
+benefits pages the same mismatch ran between the summary list and the headings it
+summarised; here it runs between the article and its FAQ. Either way, **one page,
+two house styles.** All reproduced exactly as published.
+
+**"Mix" versus "Mixed" was checked and this page is clean.** "mixed martial arts"
+appears 3 times, always lower case and always spelled "mixed"; "Mix martial arts"
+appears **zero** times. The malformed "Mix martial arts" form that gave
+`/mix-martial-arts-for-self-defense/` its slug does not appear here. The page uses
+the initialism almost throughout: **"MMA" 99 times**, plus "MMA's" twice.
+
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
 **Now on fifteen pages.** `/sambo-techniques/` carries the fifteenth,
@@ -13999,6 +14146,38 @@ something the page never says.
 **Zero empty ChatGPT citation anchors** on this page, and zero casino-spam links
 inside the article region — though the injected block is still present elsewhere
 in the live HTML, as on every other page (issues 1 and 2).
+
+**2026-03 addition — `/benefits-of-mma/`: four of the client's five links are
+right, and the fifth sends an MMA seeker to the homepage.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "**Adult Muay Thai classes**" | `/adult-muay-thai-classes/` | **correct**, and the best-aimed anchor on any page audited — the text names the programme exactly |
+| "**Brazilian jiu jitsu**" | `/adult-bjj-classes/` | **correct** |
+| "**Muay Thai**" | `/adult-muay-thai-classes/` | **correct** |
+| "**practical self defense skills**" | `/adult-bjj-classes/` | loose but defensible — generic anchor text, real destination, and BJJ does teach self-defence. **Kept**, mapped to the local file |
+| "**MMA training program**" | `/` (the homepage) | **unwrapped in the rebuild** |
+
+**Why that last one was unwrapped.** There is no MMA programme at this gym at any
+age and the homepage lists none, so the link promises a reader an MMA class and
+delivers a page that cannot supply one. The text is kept exactly as published,
+inside its `<strong>`, with the anchor removed — the same treatment given to the
+three kids-MMA phrases pointing at `/kids-bjj-classes/`, the four women's-class
+phrases pointing at `/adult-bjj-classes/`, and the dead `/landing-page/` link.
+**Five client anchors have now been unwrapped across the rebuild, every one of
+them pointing a service the gym does not sell at a page that does not sell it.**
+
+**No programme link was added by the rebuild.** The client's own markup already
+links both real programmes twice each, correctly, which is the first time that has
+happened on any page in this project. Every other MMA mention on the page is left
+**unlinked**, because MMA has no programme page at any age — and the page names no
+child or teenager, so `teen-bjj-classes.html` and `teen-muay-thai-classes.html`
+are left unlinked too.
+
+**Externals: one, the shared Facebook button**, already carrying `target="_blank"
+rel="noopener"`. **No health site, no supplement retailer, no competitor and no
+citation of any kind** — consistent with the page claiming no research at all
+(issue 94d). **Zero empty ChatGPT citation anchors.**
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -15406,6 +15585,53 @@ site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
 
+**2026-03 addition — `/benefits-of-mma/`: seven of twelve FAQ answers are not
+about the benefits of MMA, the first two questions are the same question, and one
+of them asks what God thinks.**
+
+The page is a benefits article. Its FAQ:
+
+| # | Question | On topic? |
+|---|---|---|
+| 1 | "What are the benefits of doing MMA?" | yes |
+| 2 | "What are MMA benefits?" | yes — **but this is question 1 again** |
+| 3 | "What does MMA do to your body?" | yes |
+| 4 | "Is MMA 3 times a week enough?" | yes |
+| 5 | "Who hits harder, boxer or MMA?" | **no** — a comparison question |
+| 6 | "Is MMA better than gym?" | borderline |
+| 7 | "**What does God say about MMA?**" | **no** |
+| 8 | "Why was MMA banned in the US?" | **no** — 1990s regulatory history |
+| 9 | "What does vaseline mean in a fight?" | **no** — professional cornering |
+| 10 | "Is MMA more painful than boxing?" | **no** |
+| 11 | "Why is hammer fist illegal?" | **no** — Unified Rules minutiae |
+| 12 | "Which martial art can beat MMA?" | **no** |
+
+**Questions 1 and 2 are a duplicate pair.** "What are the benefits of doing MMA?"
+and "What are MMA benefits?" are the same query with the words moved, answered
+twice in a row with overlapping content — both open on full-body strength and
+stamina, both close on mental health and confidence. **Both are reproduced
+verbatim and both are in the FAQPage structured data**, because each is a real
+question with a real answer, but Google will see one page answering itself twice.
+
+**"What does God say about MMA?" joins the religious answers at issue 88.** That
+entry logs four FAQ answers about God on a children's family-class page. This one
+is a single answer on an adults' fitness page and is, in fairness, the most
+careful writing of the set — it cites 1 Corinthians 6:19-20 and 9:27, presents
+both views and ends "Ultimately it comes down to individual conscience". It is
+still theology in the FAQ of a gym's fitness page. **Reproduced verbatim.**
+
+**The professional-sport answers are the odd ones for this audience.** A reader on
+a benefits page is deciding whether to try a class. Questions 9 and 11 answer for
+someone cornering a professional fight: "**Cutmen** use it between rounds to keep
+cuts closed and stop bleeding", "**Unified Rules of MMA** prohibit strikes to the
+back of the head spine or using the hammer fist … especially when a fighter is
+**grounded**". Accurate, well written, and aimed at a different person.
+
+**Nothing here was corrected, trimmed or reordered.** This is the same pattern as
+the twelve-question celebrity FAQ above and the "Is 27 too late to start MMA?"
+question on `/benefits-of-kickboxing/`, at a larger scale: **nine of twelve
+questions would serve a different page better.**
+
 ### 86. A page advising parents of bullied children: what it promises, what it cites, and what it never tells a child to do — CONTENT (accuracy), SAFEGUARDING — **High, the client must review before publication**
 
 `/anti-bullying-martial-arts-for-kids/` (26 February 2026, 3,577 words) is the
@@ -16486,6 +16712,137 @@ FAQPage structured data because it is a real question with a real answer.
 
 The other seven are on topic, and FAQ 5 ("What is the hardest kick technique?")
 and FAQ 6 ("What is not allowed in kickboxing?") are genuinely useful.
+
+### 94. The benefits triplet: one template, three disciplines, three days, and not a single number between them — SEO, CONTENT (accuracy) — **CRITICAL**
+
+`/benefits-of-mma/` (12 March 2026) is the third benefits page in five days. The
+other two are `/benefits-of-muay-thai/` (7 March) and `/benefits-of-kickboxing/`
+(8 March). **This is one consolidated finding with one fix**, as asked, rather
+than three notes.
+
+#### They are one template with the discipline swapped
+
+All three run a "Top 10" of numbered H2 benefits. Set the three lists side by side:
+
+| # | `/benefits-of-mma/` | `/benefits-of-muay-thai/` | `/benefits-of-kickboxing/` |
+|---|---|---|---|
+| 1 | Full Body Strength and Conditioning | Full Body Workout | Full Body Workout |
+| 2 | Effective Weight Loss and Fat Burning | Effective Weight Loss | Effective Weight Loss and High Calorie Burn |
+| 3 | Improved Cardiovascular Endurance | Improved Cardiovascular Health | Improves Cardiovascular Health |
+| 4 | **Practical Self Defense Skills** | **Practical Self Defense Skills** | Builds Strength and Endurance |
+| 5 | Better Balance and Coordination | Increased Strength and Power | Enhances Coordination and Balance |
+| 6 | Increased Flexibility and Mobility | Better Balance and Coordination | Improves Flexibility and Mobility |
+| 7 | **Stress Relief and Mental Focus** | **Stress Relief and Mental Focus** | Teaches Practical Self Defense Skills |
+| 8 | Boosted Confidence and Discipline | Boosted Confidence | Reduces Stress and Improves Mental Health |
+| 9 | Enhanced Speed and Reflexes | Discipline and Mental Toughness | Boosts Confidence and Self Discipline |
+| 10 | Stronger Mental Toughness | Supportive Training Community | Suitable for All Fitness Levels |
+
+**Positions 1, 2 and 3 are the same three benefits in the same order on all three
+pages.** Positions 4 and 7 are **byte-identical** between the MMA and Muay Thai
+pages. The remaining items are the same six ideas — balance, flexibility,
+confidence, discipline, speed, mental toughness — shuffled.
+
+| Pair | Exact H2 matches | Of which are real headings | All levels | H2 word overlap |
+|---|---|---|---|---|
+| MMA ↔ Muay Thai | 6 of 18 (33.3%) | **2** ("4. Practical Self Defense Skills", "7. Stress Relief and Mental Focus") | 21.4% | **69.1%** |
+| MMA ↔ Kickboxing | 4 of 18 (22.2%) | 0, all four are site boilerplate | 14.3% | **69.1%** |
+| Muay Thai ↔ Kickboxing (logged earlier) | 5 of 16 (31.3%) | 5, including a byte-identical "1. Full Body Workout" | 22.7% | 67.1% |
+
+**Each page shares roughly 70% of its heading vocabulary with each of the other
+two.** They are not three articles. They are **template triplets**, and they are
+competing with each other for the same queries: a reader searching "martial arts
+for weight loss" or "martial arts for stress" is served three near-identical
+answers from one small gym.
+
+**Counting is correct on all three.** Ten distinct items each, **no duplicates and
+no padding** on any of them — so this trio does not repeat the
+`/kickboxing-techniques/` failure (the hook listed twice in a Top 9).
+
+#### The three-way number check: NO CONFLICT, because there are NO NUMBERS
+
+This was the thing to look for, and the answer is cleaner than expected:
+
+| | `/benefits-of-mma/` | `/benefits-of-muay-thai/` | `/benefits-of-kickboxing/` |
+|---|---|---|---|
+| Calorie figure | **none** | **none** | **none** |
+| Weight-loss figure | **none** | **none** | **none** |
+| Numeric timeframe | **none** | **none** | **none** |
+| How the burn is described | "burns **a lot of** calories", "a **big** calorie deficit" | "burns **a ton of** calories fast" | "burns calories **at a high rate**", "**can torch more** calories than steady exercise" |
+| Afterburn | — | "creates an **afterburn effect**" | "create a strong **after burn** effect" |
+| Vague timeframe | "visible progress **in weeks**", "after **months** of consistent MMA practice" | "after **a few months**" | "after **months** of consistent kickboxing" |
+
+**No two pages quote different figures for similar training, because not one of
+the three publishes a figure at all.** There is nothing to reconcile.
+
+That is the better outcome — three pages agreeing on a wrong number would be
+worse — but it leaves a different problem. All three sell weight loss in a
+numbered heading ("Effective Weight Loss" on every one) and in their meta
+descriptions, and **none gives the reader a single quantity to act on**. The one
+shared phrase worth noting is "**big calorie deficit**", which appears on both the
+MMA and kickboxing pages — more template evidence.
+
+#### What this page does and does not claim
+
+**(a) Weight loss, calorie and timeframe figures: none.** Quoted in full above.
+
+**(b) Curing, preventing or treating a health condition: NONE.** This is the
+notable result. "Disease", "diabetes", "cancer", "sclerosis", "bone density",
+"blood pressure", "cholesterol", "arthritis" and "obesity" occur **zero times**.
+Compare `/benefits-of-kickboxing/` four days earlier, which named **heart disease,
+multiple sclerosis and bone density** (issue 92). The nearest thing here is
+"Regular training sessions make joints move smoother and muscles longer which
+**helps prevent stiffness**" — stiffness is not a condition, and "helps" hedges it.
+
+**(c) Mental health: anxiety is named four times, and this is new.** "Depression"
+appears zero times; "anxiety" four:
+
+| Where | Exact wording |
+|---|---|
+| Intro | "Whether you want to get fit **reduce stress and anxiety** build confidence or master fighting…" |
+| Benefit 7 | "… making it easier to concentrate on tasks **handle stress and anxiety** and feel more balanced overall" |
+| Conclusion | "**It reduces stress and anxiety** releases endorphin for better mood…" |
+| FAQ 1 | "Mentally MMA **reduces stress and anxiety** builds mental resilience…" |
+
+**This is the first named clinical-sounding condition in the mental-health claims
+across the three benefits pages.** `/benefits-of-kickboxing/` promised "Improves
+Mental Health" in its H1 but named no condition; this one states flatly that MMA
+"**reduces stress and anxiety**", twice as a bare assertion. Anxiety is a
+diagnosable disorder as well as an everyday word, and on a page with **no
+disclaimer** the sentence reads as a treatment claim. The supporting mechanism is
+ordinary — "releases endorphin for better mood", "a healthy outlet to release
+tension" — and would be fine under "reduces everyday stress".
+
+**Logged separately from the physical claims, as asked.**
+
+**(d) Statistics: none, and no research is cited because none is claimed.**
+"Studies", "study", "research", "according to", "science", "data" and "proven"
+occur **zero times**. There is no percentage, no rate and no survey anywhere on
+the page. **This is the only one of the three benefits pages with no uncited
+research claim** — `/benefits-of-kickboxing/` had three (issue 92) and
+`/kickboxing-training-tips/` repeated one of them (issue 93). A page that makes no
+claim to evidence is easier to fix than one that claims evidence it does not have.
+
+**(e) Disclaimer: none.** No medical or fitness disclaimer of any kind, and the
+words "consult", "doctor", "physician" and "healthcare" appear zero times. Third
+benefits page in a row with none. **One shared disclaimer component across all
+three would close this and most of issue 31 at the same time.**
+
+#### Recommendation
+
+**Consolidate the three into one benefits page covering all three disciplines,
+with 301 redirects from the other two.** The gym teaches BJJ and Muay Thai; the
+page it needs is one "Benefits of training at Sixth Sense" article that says what
+each programme gives you and links to it. Which URL survives:
+
+| Candidate | Case |
+|---|---|
+| `/benefits-of-muay-thai/` | **keep this one.** Muay Thai is a real programme with its own page, the slug matches a real offering, and it is the oldest of the three |
+| `/benefits-of-kickboxing/` | 301 to it. Kickboxing has no programme page and maps to Muay Thai (issue 7) |
+| `/benefits-of-mma/` | 301 to it. **MMA is taught at no age at this gym** (see the service-claims entry), so the page's subject does not exist as a bookable class |
+
+Fold the two real distinctions worth keeping — the grappling benefits from this
+page and the ten-item structure — into the survivor, and the site loses three
+competing pages and gains one that is accurate.
 
 ## How these were checked
 

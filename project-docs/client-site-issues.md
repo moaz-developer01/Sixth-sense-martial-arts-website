@@ -23,7 +23,57 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
-### 0. EIGHTEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. NINETEEN posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The nineteenth page, and the first where the claim is about EQUIPMENT
+
+`/kickboxing-training-tips/` (9 March 2026, 2,343 words) publishes **two**
+sentences that have been **omitted from the rebuild**, each leaving an HTML
+comment. Both are flat present-tense prevention claims, and they follow the
+ruling already made on "safety rules prevent injury"
+(`/mix-martial-arts-for-self-defense/`): gear and coaching **reduce** injury,
+they do not prevent it.
+
+> Tip 9, Use Proper Safety Gear During Training: "**Good gear prevents bruises
+> cuts and long term damage.**"
+
+> Certified and Experienced Trainers: "**Their experience means they spot bad
+> habits early prevent injuries and push you at the right pace.**"
+
+**The first is new in kind.** Every one of the sixty-four sentences logged before
+it claimed that a *class*, a *rule*, a *coach* or a *technique* removed risk.
+This one says a **piece of equipment** does, and it is the most checkable claim
+in the group: gloves, shin guards and a mouthguard reduce bruises and cuts, and
+no mouthguard or glove prevents "long term damage". The sentence sits in the tip
+whose whole subject is protective gear, which is exactly where a beginner decides
+how much protection to buy and how hard to train in it.
+
+**The second cost a clause**, as the kids-BJJ sentence did. "…and push you at the
+right pace" is ordinary coaching copy and went with the omission, because the
+sentence could not be split without rewriting the client's words. The fix at
+source is one word: "spot bad habits early, **reduce** injuries and push you at
+the right pace."
+
+**What was KEPT on this page, and why.** The page uses "safe" and "safely" twelve
+more times and none of them crosses the line:
+
+| Exact wording | Why it was kept |
+|---|---|
+| "these tips guide you to train smart **avoid injury** and enjoy the kickboxing journey" | purpose clause, the same construction kept on `/benefits-of-kickboxing/` |
+| "Professional guidance makes your kickboxing journey **safer** and more effective" | comparative |
+| "A good gym environment with structure and support makes learning faster **safer** and more enjoyable than self teaching" | comparative, explicitly against a baseline |
+| "Always use proper safety gear **to protect yourself**" | purpose clause |
+| "Structured training programs make kickboxing skills grow steadily and **safely**" | adverb of manner |
+| "Spotting and fixing them early **keeps training safe** enjoyable and effective" | **borderline**, kept: an adjective list about training quality, conditional on fixing the mistakes the section goes on to name |
+| "Safety gear lets you train harder and longer **without worry**" | **borderline**, kept: a claim about how the reader feels, not about whether injury occurs |
+
+The last two are the closest calls on the page and are recorded here so the client
+can decide them rather than discover them.
+
+**No concussion or brain claim appears.** "Concussion" and "brain" occur zero
+times. The nearest is FAQ 8, which describes the boxing twenty-second count:
+"the referee gives a fighter up to 20 seconds to recover if knocked down or
+hurt" — a description of a rule, reproduced unchanged.
 
 #### A fourth page that needed no omission
 
@@ -148,7 +198,7 @@ single most important sentence missing, and the page's own FAQ supplies it.
 **No concussion or brain-injury claim appears**, in either direction: the words
 "concussion" and "brain" do not occur anywhere on the page.
 
-**Running total: 64 sentences across eighteen posts.**
+**Running total: 66 sentences across nineteen posts.**
 
 #### The seventeenth page, and one of the two is attached to clinch sparring
 
@@ -4753,6 +4803,42 @@ experience and **proper certifications in kickboxing and related combat sports**
 Tenth page, no body, no rank, no name. A kickboxing certification would be issued
 by a named sanctioning body, so this is checkable and worth naming if real.
 
+**2026-03 addition — `/kickboxing-training-tips/`: a four-part "Kickboxing
+Training Program" with class levels, drop-in options and package deals, for a
+discipline with no programme page — and still no figure.**
+
+This one goes further than `/benefits-of-kickboxing/` did, which only described
+benefits. This page advertises **a programme**:
+
+| Check | Result |
+|---|---|
+| Advertises kickboxing as a distinct offering | **YES** — H2 "Why Choose Sixth Sense MMA **Kickboxing Training Program**?" with four H3s under it |
+| Named class levels | "**Beginner classes**", "**Intermediate classes**", "**Advanced sessions**" — three tiers, described in detail |
+| Kids or teen kickboxing | **no** — "kid", "child", "children" and "teen" appear **zero times** (the one "teen" match is inside "fifteen") |
+| Certified instructors | **YES**, with nothing named — H3 "**Certified** and Experienced Trainers"; "The trainers at Sixth Sense MMA **hold certifications in kickboxing boxing and related martial arts**" |
+| Pricing section or figure | **no figure**, but two commercial promises: "**Drop in options and package deals** make it easy to stay consistent" |
+
+**The programme does not exist.** The five programme pages are Adult BJJ, Adult
+Muay Thai, Kids BJJ, Teen BJJ and Teen Muay Thai. There is no kickboxing page, no
+kickboxing timetable and no beginner/intermediate/advanced kickboxing ladder
+anywhere else on the site. A reader finishing this page believes they can book
+into a three-tier kickboxing curriculum.
+
+**"Drop in options and package deals" is the twelfth page to promise a pricing
+structure and publish no price.** It is a softer version than the pages with an
+empty "Pricing" heading, but it names two specific commercial products — drop-ins
+and packages — that a reader cannot find a number for anywhere on the site.
+
+**"Hold certifications in kickboxing boxing" is the eleventh unnamed
+certification**, and the first to claim a **boxing** certification. The gym does
+not teach boxing. Kickboxing and boxing certifications are issued by named
+sanctioning bodies, so this is checkable and worth naming if real.
+
+**Also in this section**, and reproduced verbatim: "Multiple class times run
+throughout the week including early mornings evenings and weekends" and "You can
+attend as often as your schedule allows **without strict limits on sessions**" —
+an unlimited-attendance claim with no membership tier attached to it.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -7999,6 +8085,33 @@ revisited with them.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-03 addition — `/kickboxing-training-tips/`: ten tags, all on topic,
+fourth clean set in a row — but nine of the ten are near-duplicates of each
+other.** The post carries 10 tags: `kickboxing conditioning tips`, `kickboxing
+drills tips`, `kickboxing fitness training tips`, `kickboxing improvement tips`,
+`kickboxing practice tips`, `kickboxing sparring tips`, `kickboxing technique
+tips`, `Kickboxing Training Tips`, `kickboxing training tips for beginners`,
+`kickboxing workout tips`.
+
+**Nothing is copied from another post** — the failure mode on
+`/muay-thai-gear-for-safety/`, where all six tags were about gym bags — and no
+untaught discipline, competitor, city or typo appears. On the stated test, this
+set passes.
+
+**But look at the shape of it.** Every tag is "kickboxing" + a word + "tips". They
+are not ten topics; they are ten rewordings of the slug, which generates ten
+near-identical archive pages competing with the post itself and with each other.
+`kickboxing technique tips` and `kickboxing practice tips` and `kickboxing drills
+tips` are the same query. This is the tag equivalent of the cannibalisation
+logged at issue 7, and it is the first set in the audit where the problem is
+**redundancy** rather than inaccuracy.
+
+**One capitalised, nine lower case** — `Kickboxing Training Tips` against the
+rest, the same case inconsistency the body has (issue 58).
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -8372,7 +8485,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Women's self-defence (confirmed, TWO posts for a programme that has not launched)** | `/self-defense-classes-for-women/` · `/womens-self-defense-class/` — overlapping the eleven-page general self-defence cluster — see below |
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
-| **Kickboxing (confirmed, NINE pages across two slug spellings)** | `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
+| **Kickboxing (confirmed, TEN pages across two slug spellings)** | `/kickboxing-training-tips/` · `/benefits-of-kickboxing/` · `/kick-boxing-classes/` · `/kickboxing-techniques/` · `/kickboxing-gloves/` · `/kick-boxing-gloves/` · `/kick-boxing-bag/` · `/muay-thai-vs-kickboxing/` · `/mma-vs-kickboxing-for-self-defense/` · `/mixed-martial-arts-vs-kickboxing/` — see below |
 | **Kickboxing gloves (confirmed, the same keyword on two URLs differing by ONE HYPHEN)** | `/kick-boxing-gloves/` · `/kickboxing-gloves/` — see below |
 | **Neck bridges (confirmed, THREE posts on one exercise)** | `/neck-bridges/` · `/do-neck-bridges-build-muscle/` · `/neck-bridges-benefits/` — see below |
 | **Kidney strikes (confirmed, two posts on one strike, opposite framing)** | `/kidney-punch/` · `/are-kidney-shots-legal-in-ufc/` — see below |
@@ -8873,6 +8986,38 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The tenth kickboxing page, and it is the LEAST duplicative of the ten
+
+`/kickboxing-training-tips/` (9 March 2026) was compared against the two siblings
+it is closest to in subject:
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/kickboxing-techniques/` | **0 of 17 (0.0%)** | 0 of 25 (0.0%) | 24.6% |
+| `/benefits-of-kickboxing/` | 4 of 17 (23.5%) | 4 of 25 (16.0%) | 31.1% |
+
+**Read the second row carefully, because the headline number is misleading.** All
+four matches are the site-wide boilerplate that closes every post — "Contact US",
+"Conclusion", "Follow Us on Social Media" and "FAQ's". **Not one editorial heading
+is shared.** On substance the overlap with both siblings is **0.0%**.
+
+That makes this the first page in the cluster that earns its URL. Compare the pair
+logged one day earlier: `/benefits-of-kickboxing/` and `/benefits-of-muay-thai/`
+shared **five real H2s including a byte-identical "1. Full Body Workout"** and
+67.1% of their H2 vocabulary. This page shares none.
+
+**Why it works, and it is worth telling the client.** The three pages divide
+cleanly by intent: `/kickboxing-techniques/` lists strikes, `/benefits-of-kickboxing/`
+argues why to start, and `/kickboxing-training-tips/` says how to train — warm up,
+stance, footwork, conditioning, gear, coaching, plus a "Common Mistakes Beginners
+Make" section that appears nowhere else on the site. **Keep all three.** The
+duplication in this cluster is at the other end: the gloves pair on two URLs
+differing by one hyphen, and `/kick-boxing-classes/` advertising a class the
+programme pages do not offer.
+
+**Closest overlap from this build: `/benefits-of-kickboxing/`, and it is boilerplate
+only.** Ten pages, two slug spellings, still no kickboxing programme page.
 
 #### The benefits twins, and a nine-page kickboxing cluster with no kickboxing programme
 
@@ -12860,6 +13005,40 @@ the ten H2 headings it summarises do not:
 The same list is printed twice on one page in two styles, eight lines apart. All
 reproduced exactly as published.
 
+**2026-03 addition — `/kickboxing-training-tips/`: the space-separated spellings
+are gone again, the case split is wider, and the hyphenation mismatch repeats
+exactly as on the sibling.**
+
+| Form | Count |
+|---|---|
+| "Kickboxing" (capitalised) | **7** |
+| "kickboxing" (lower case) | **36** |
+| "Kick Boxing" / "Kick boxing" / "kick boxing" | **0** |
+| "Kickboxer(s)" | 1 |
+| "kickboxer(s)" | 11 |
+
+**Second page in a row with zero space-separated variants.** The split that runs
+through the older cluster — "Kick boxing" and "Kick Boxing" inside single
+articles, and across the slugs `/kick-boxing-classes/` against
+`/kickboxing-techniques/` — does not appear on either March 2026 page. The 2026
+writing has settled on the compound. **Standardise the cluster on it.**
+
+The case ratio is the reverse of the sibling's: `/benefits-of-kickboxing/` ran 36
+capitalised to 43 lower case, this one runs 7 to 36. Neither is wrong, and both
+are inconsistent within themselves.
+
+**The hyphenation mismatch repeats, in the same place and the same direction.**
+The ten-item summary list hyphenates; the ten H2 headings it summarises do not:
+
+| Summary list | Matching H2 |
+|---|---|
+| "Start with Proper **Warm-Up** and Stretching" | "1. Start with Proper **Warm Up** and Stretching" |
+
+One mismatch here against three on the sibling, and the body then uses "warm up"
+unhyphenated nine more times. The same list printed twice on one page in two
+styles, eight lines apart — which is now a pattern across both March pages, not a
+one-off. All reproduced exactly as published.
+
 ### 59. A "Follow Us on Social Media" section linking one platform — CONTENT — Low
 
 **Now on fifteen pages.** `/sambo-techniques/` carries the fifteenth,
@@ -13783,6 +13962,43 @@ kept.
 period inside the link — is the auto-linker's usual signature (issue 64). All five
 are reproduced verbatim with their targets mapped to local files; none was
 rewritten.
+
+**2026-03 addition — `/kickboxing-training-tips/`: a 2,343-word article with
+ZERO internal links in the client's own markup.**
+
+Every other page audited carries at least one, however badly aimed — the
+auto-linker's "bellator" and "combat sports" anchors, the anchors that swallow
+their own full stops, the ones pointing a striking page at the BJJ programme. This
+page has **none at all**. Its only two anchors are the shared buttons every post
+ends with:
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "CONTACT US" | `https://sixthsensemma.com/` | the boilerplate button, mapped to `index.html` |
+| "FACEBOOK" | `https://www.facebook.com/sixthsensemartialarts/` | the boilerplate button, already carries `target="_blank" rel="noopener"` |
+
+**The only external link on the page is that Facebook button.** No supplement
+retailer, no health site, no competitor, no citation of any kind — which is
+consistent with the page naming "studies" without naming one (issue 93).
+
+**Three programme links were added in the rebuild**, wrapped around the client's
+own words with no text changed, pointing at the programme kickboxing maps to:
+
+| Anchor text (the client's words) | Target |
+|---|---|
+| "kickboxing classes" (intro: "join kickboxing classes at a good gym") | `adult-muay-thai-classes.html` |
+| "kickboxing program" ("The kickboxing program focuses on building fitness…") | `adult-muay-thai-classes.html` |
+| "Beginner classes" ("Beginner classes start with the basics…") | `adult-muay-thai-classes.html` |
+
+**`teen-muay-thai-classes.html` was left unlinked**, as on
+`/benefits-of-kickboxing/`. The page mentions no teenager, no child and no age at
+all, so there is no phrase to attach a teen link to without inventing the
+reference. Same rule as the kids MMA case: a link is not a place to assert
+something the page never says.
+
+**Zero empty ChatGPT citation anchors** on this page, and zero casino-spam links
+inside the article region — though the injected block is still present elsewhere
+in the live HTML, as on every other page (issues 1 and 2).
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -16144,6 +16360,132 @@ Wellbeing" or "Mental Focus".
 names heart disease, multiple sclerosis and bone density, that is a larger gap
 than it was on the Muay Thai page, which named no condition at all. It joins the
 disclaimer group at issue 31 — and unlike the Muay Thai entry, not at the low end.
+
+### 93. The first training-advice page that gets the hard part right, and the three things it still gets wrong — CONTENT (accuracy), LIABILITY — **Medium**
+
+`/kickboxing-training-tips/` (9 March 2026) was checked against the five
+training-advice categories that the neck-bridge and kidney-punch pages failed.
+**It passes the one that matters most.**
+
+#### (b) Training through pain, fatigue or injury: NONE, and the page argues the opposite
+
+**This is the finding to show the client.** The liability group
+(`/neck-bridges/`, `/do-neck-bridges-build-muscle/`, `/neck-bridges-benefits/`,
+`/kidney-punch/`, `/sambo-techniques-for-beginners/`) exists because those pages
+tell beginners to work through discomfort. **This page tells them not to**, in its
+own words, six times:
+
+| Where | Exact wording |
+|---|---|
+| Tip 8 | "**Listen to your body and take easy days when needed.**" |
+| Tip 8 | "Train three to five days a week **with rest days to recover**." |
+| Common Mistakes | "Recovery gets ignored too when people **train every day without rest days** or listen to their body during fatigue." |
+| Common Mistakes | "**Overtraining causes shin soreness joint pain and burnout that forces long breaks.**" |
+| Common Mistakes | "After training **ice sore areas** stretch gently and **take at least one or two rest days each week**." |
+| FAQ 1 | "**Listen to your body take rest days and recover well.**" |
+
+It also names the costs of the sport plainly rather than hiding them: "muscles
+stay cold and joints stiff which **raises the chance of pulls strains or
+soreness**", "Poor technique also **strains wrists elbows knees and lower back**
+over time", "Many new kickboxers **push too hard too soon** without the right
+foundation which leads to frustration or **injury**". **Nothing here was omitted.**
+
+**So this page is the model for the rest of the cluster.** When the client revises
+the five liability pages, the wording to copy is already on their own site.
+
+#### (c) Diet and supplements: two sentences, one of them naming supplements
+
+**No weight cutting advice appears** — "cut", "weight class", "sauna" and
+"dehydrat" occur zero times, and **no advice is aimed at teenagers** because the
+page never mentions one. But two sentences give nutrition advice, and the first
+names two supplements:
+
+| Where | Exact wording |
+|---|---|
+| FAQ 2 (bone density) | "Combine it with good nutrition **calcium vitamin D** and rest for the best results." |
+| FAQ 4 | "**Eat well sleep enough** and stay consistent." |
+
+**Logged separately as asked.** "Eat well sleep enough" is harmless. "Combine it
+with good nutrition calcium vitamin D" is a supplement recommendation attached to
+a bone-density claim, published by a gym, with no dose, no source and no
+suggestion of asking a doctor. It is mild on its own and it is the **first
+supplement recommendation found anywhere in this audit**, so it starts the
+category rather than joining one.
+
+#### (a) Prescribed sets, reps, rounds and frequency: frequency and warm-up duration only
+
+| Category | What the page prescribes |
+|---|---|
+| Sets | **none** |
+| Reps | **none** |
+| Rounds | **none** |
+| Load | **none** |
+| Rest periods between efforts | **none** |
+| Frequency | "Train **three to five days a week** with rest days to recover" (tip 8); "take at least **one or two rest days** each week"; FAQ 1 "**three to five days a week** mixing heavy bag work pad drills and light sparring"; FAQ 3 "Train consistently **three to five days a week**"; FAQ 4 "**Two days a week is enough** … For faster gains … aim for **three or more days**" |
+| Warm-up duration | "always start sessions with **ten to fifteen minutes** of warm up" |
+
+The frequency numbers are **internally consistent** across the body and all four
+FAQ answers that give one, which is more than the Muay Thai pages manage on their
+origin dates (issue 91). Exercises are named without any programming attached —
+"push ups squats and planks", "squats lunges deadlifts and rotational exercises
+like medicine ball throws" — so a reader is never told how much to do. **Nothing
+was added, clarified or completed in the rebuild.**
+
+#### (d) Supervision, a coach or a training partner: recommended throughout
+
+**The strongest result in this category of any page audited.** An entire numbered
+tip is devoted to it — tip 10, "Train with Professional Coaches" — and the
+recommendation repeats across the page: "Watch how coaches or experienced
+kickboxers move", "**Spar lightly with a partner** to react to real movements",
+"drill basics … **with coaches watching**", "Coaches teach essential kickboxing
+techniques correct your form and **create safe sparring**", FAQ 3 "**always follow
+your coach**", FAQ 3 "… makes learning faster safer and more enjoyable **than self
+teaching**".
+
+Note what that last one does: it tells the reader **not** to learn this alone.
+That is the opposite of `/neck-bridges-benefits/` and `/kidney-punch/`, which
+describe techniques a reader can try unsupervised at home.
+
+#### (e) Disclaimer: none
+
+**The page carries no medical or fitness disclaimer of any kind.** It is a gentler
+gap here than on `/benefits-of-kickboxing/` (issue 92), because this page names no
+medical condition in its body — but its FAQ does, and that is the next section.
+
+#### The bone-density FAQ is the SECOND copy of a claim already logged
+
+FAQ 2, "Is kickboxing good for bone density?", repeats the claim logged one day
+earlier at issue 92, almost word for word:
+
+| Page | Closing sentence |
+|---|---|
+| `/benefits-of-kickboxing/`, FAQ 6 | "**Studies on high impact activities show** they help maintain or improve bone density especially in adults" |
+| `/kickboxing-training-tips/`, FAQ 2 | "**Studies on high impact sports show** positive effects on bone health when done safely with proper form" |
+
+One word differs: "activities" against "sports". **Neither names a study.** This
+page's version is the better written of the two — it adds "when done safely with
+proper form", which is the hedge the other one lacks — but it also goes further,
+asserting that training "helps **maintain or increase bone strength**" and that
+"It is especially helpful for adults **to fight age related bone loss**". That is
+an osteoporosis claim without the word, published by a gym, with a supplement
+recommendation in the next sentence and no disclaimer on the page.
+
+**Joins the uncited-research group at issue 92.** Two pages, one unnamed study,
+two spellings.
+
+#### One off-topic FAQ, and it is not even about kickboxing
+
+FAQ 8 asks "**What is the 20 second rule in boxing?**" and answers it about
+**boxing**, not kickboxing: referees, knockdowns, sanctioning bodies and
+"professional boxing rules". The page is a beginners' training guide for a gym
+that does not run boxing. This is the same pattern as the celebrity-trivia FAQ at
+issue 85 and the "Is 27 too late to start MMA?" question on
+`/benefits-of-kickboxing/`, in its mildest form: one question out of eight, and
+the answer is at least accurate. **Reproduced verbatim**, and it is in the
+FAQPage structured data because it is a real question with a real answer.
+
+The other seven are on topic, and FAQ 5 ("What is the hardest kick technique?")
+and FAQ 6 ("What is not allowed in kickboxing?") are genuinely useful.
 
 ## How these were checked
 

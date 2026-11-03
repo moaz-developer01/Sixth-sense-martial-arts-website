@@ -278,6 +278,36 @@ report rather than correct.
 
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A thirteenth page that needed no omission, and it names injury risk itself
+
+`/bjj-beginners-in-coppell-tx/` (28 April 2026, 2,939 words) required **no
+omission**. **"Guarantee", "concussion" and "hurt" occur zero times**, and the
+page states injury risk in its own voice:
+
+> "**Resisting past the tap teaches you nothing and risks injury** that sets your
+> training back by weeks."
+
+A beginner page that tells a beginner how to get hurt, and how not to, is doing
+the job. Everything else was checked and kept:
+
+| Exact wording | Form |
+|---|---|
+| "whether the training environment is actually **safe for beginners**" | a criterion for judging *other* gyms |
+| "Live grappling for beginners is positional and low-intensity until technique is solid enough to **roll safely**" | adverb of manner, with the mechanism stated |
+| "A high-quality training facility with **safe mat space**" | describes the room |
+| FAQ 3: "**Is BJJ safe for complete beginners with no martial arts background?**" — "**Yes.**" | **borderline**, kept |
+
+**The FAQ 3 answer is the page's one close call** and it was kept for the same
+reason as "Bjj safe for women isn't just a phrase on a website" on
+`/womens-bjj-classes-near-me/`: the bare "Yes" is immediately qualified by
+mechanism — controlled drilling, experience-matched partners, positional-only
+live work — rather than by a denial of risk, and the same page elsewhere says
+training "risks injury". **Recorded here so the client can decide it.**
+
+Running total unchanged: **67 sentences across twenty posts.** Twelve of the last
+thirteen builds needed no omission, and every one of those twelve is a 2026 adult
+or beginner page.
+
 #### A twelfth page that needed no omission, on the subject where it mattered most
 
 `/womens-bjj-classes-near-me/` (28 April 2026, 2,547 words) required **no
@@ -9448,6 +9478,35 @@ all three of this page's images (issues 0b and 98).
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-04-28 addition — `/bjj-beginners-in-coppell-tx/`: eleven tags and ALL
+ELEVEN carry the city. Best tag set in the audit.** The post carries 11 tags:
+`adult beginner Jiu Jitsu Coppell`, `beginner BJJ classes Coppell`, `BJJ
+beginners Coppell TX`, `BJJ Beginners in Coppell TX`, `Brazilian Jiu Jitsu
+Coppell Texas`, `Coppell BJJ academy beginners`, `kids beginner BJJ Coppell`,
+`learn BJJ in Coppell TX`, `local BJJ training Coppell Texas`, `no experience
+BJJ Coppell`, `self defense BJJ Coppell TX`.
+
+| Flag | Result |
+|---|---|
+| **Untaught discipline** | **none.** Every tag is BJJ or jiu jitsu, the gym's strongest real offering with three programme pages |
+| **Competitor named** | **none** |
+| **City** | **11 of 11** — every tag carries Coppell, Coppell TX or Coppell Texas |
+
+**This is the only page in the audit with a perfect tag set on all three flags.**
+Compare `/womens-bjj-classes-near-me/`, published the same day, with **zero of
+ten** carrying the city (issue 104), and the two DFW pages before it with zero
+of twenty-two. **Whoever tagged this page did it right; the same person should
+retag the other five April posts.**
+
+Two minor notes. **`BJJ beginners Coppell TX` and `BJJ Beginners in Coppell TX`
+are the same tag with a word and a capital added**, which will build two
+archives for one query — the duplication pattern seen on six earlier posts. And
+`Coppell BJJ academy beginners` uses "academy", which the body earns (issue 105)
+but which is also the invented trading name printed in this page's own images.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -9822,6 +9881,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **BJJ in Coppell (confirmed, NINE pages chasing one discipline in one city)** | `/bjj-beginners-in-coppell-tx/` · `/brazilian-jiu-jitsu-coppell-tx/` · `/bjj-classes-near-me/` · `/brazilian-jiu-jitsu-near-me/` · `/jiu-jitsu-near-me/` · `/womens-bjj-classes-near-me/` · plus three BJJ programme pages — **CRITICAL**, see below |
 | **Women's content (confirmed, FOUR pages selling a programme that has not launched)** | `/womens-bjj-classes-near-me/` · `/self-defense-classes-for-women/` · `/womens-self-defense-class/` · plus the women's sections of `/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` — **CRITICAL**, see below |
 | **Muay Thai fitness (confirmed, FOUR pages on training for fitness and weight)** | `/muay-thai-for-weight-loss-coppell/` · `/benefits-of-muay-thai/` · `/muay-thai-fitness-workout/` · `/muay-thai-training/` — see below |
 | **Wellbeing content (confirmed, THREE pages on mental and emotional outcomes)** | `/martial-arts-stress-relief-coppell-adults/` · `/martial-arts-confidence-building/` · `/muay-thai-thai-boxing/` — see below |
@@ -10328,6 +10388,85 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### NINE pages chasing BJJ in one city, and two slugs that differ by two words
+
+`/bjj-beginners-in-coppell-tx/` (28 April 2026) is the **fifth BJJ local blog
+post and the seventeenth local page**. The full pile-up:
+
+| Page | Type |
+|---|---|
+| `/brazilian-jiu-jitsu-coppell-tx/` | blog, local |
+| **`/bjj-beginners-in-coppell-tx/`** | **blog, local — new** |
+| `/bjj-classes-near-me/` | blog, "near me" |
+| `/brazilian-jiu-jitsu-near-me/` | blog, "near me" |
+| `/jiu-jitsu-near-me/` | blog, "near me" |
+| `/womens-bjj-classes-near-me/` | blog, "near me" |
+| `/adult-bjj-classes/` · `/teen-bjj-classes/` · `/kids-bjj-classes/` | **programme pages** |
+
+**Nine URLs for one discipline in one town of 42,000 people.** The three
+programme pages are the ones that should rank; the six blog posts compete with
+them and with each other.
+
+#### The slug collision
+
+> `/brazilian-jiu-jitsu-coppell-tx/`
+> `/bjj-beginners-in-coppell-tx/`
+
+**Same discipline, same city, same state abbreviation, same intent** — a person
+in Coppell looking to start BJJ. The only difference is "brazilian-jiu-jitsu"
+against "bjj-beginners-in". This is the same failure as the `/kickboxing-gloves/`
+and `/kick-boxing-gloves/` pair already logged at CRITICAL, in a slightly less
+obvious form.
+
+**Measured overlap is low, which is the pattern across the whole April batch:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/brazilian-jiu-jitsu-coppell-tx/` | 1 of 12 (8.3%) — "FAQ's" | 1 of 21 (4.8%) | **22.4%** |
+| `/bjj-classes-near-me/` | **0 of 12 (0.0%)** | 0 of 21 (0.0%) | **22.4%** |
+
+**No editorial heading is shared with either.** So they are **not** a duplicate
+pair by text — this page is the April long-form template with a five-row
+programme table, two numbered lists, a "Data" section and three testimonials,
+while `/brazilian-jiu-jitsu-coppell-tx/` is the older short-form style.
+**They are a duplicate pair by slug, title and search intent**, which is what
+Google consolidates on. Logged at **CRITICAL** on that basis.
+
+#### Recommendation
+
+**Keep `/bjj-beginners-in-coppell-tx/`.** Of the six BJJ blog posts it is the
+only one whose programme table matches the real offering age for age (issue
+105), it carries the tapping paragraph the training-tips page lacks, and its
+local signals are the strongest on the site. **301 `/brazilian-jiu-jitsu-coppell-tx/`
+and the three "near me" posts into it**, and keep `/womens-bjj-classes-near-me/`
+separately only if the women's programme question is resolved (issue 39).
+
+**Fix the title first.** It reads "BJJ Beginners in Coppell **tx** Martial Arts
+Class Academy" — see the local-signals note below.
+
+#### Local signals: the strongest in the audit, spoiled by two characters
+
+| Check | Result |
+|---|---|
+| **H1 contains Coppell** | **yes** — "Why Sixth Sense Martial Arts Is Top Choice for BJJ Beginners in **Coppell tx**?" |
+| Coppell in the body | **41 times** — the highest count of any page audited |
+| Other locations | **Irving ×3**, plus **Allen**, **Bedford** and **Flower Mound**, all framed as places students travel from |
+| Dallas / DFW | "dfw area" only; no Dallas |
+| **Tags carrying the city** | **ELEVEN of eleven** |
+| Address in body | 3 times, correct |
+
+**Every single tag names Coppell or Coppell Texas.** That has not happened on any
+other page: `/womens-bjj-classes-near-me/` the same day managed **zero of ten**
+(issue 104). This page is the model.
+
+**The lowercase "tx" is the one blemish, and it is in the two places that show.**
+The live `<title>` and `og:title` both read "BJJ Beginners in Coppell **tx**
+Martial Arts Class Academy", and the **H1 repeats it**: "BJJ Beginners in Coppell
+**tx**?". A lowercase state abbreviation in a search result reads as careless,
+and it appears twice. **Reproduced exactly as published**, per the standing
+instruction; the body uses the correct "Coppell TX" throughout, so this is a
+two-character fix in the title and the H1.
 
 #### The women's cluster and the BJJ local cluster, at CRITICAL — one page in two pile-ups
 
@@ -16181,6 +16320,51 @@ times — so there is no broken support link because there is no support link
 (issue 104i). **Gracie Barra is named in FAQ 10 and is not linked.** **Zero empty
 ChatGPT citation anchors.**
 
+**2026-04-28 addition — `/bjj-beginners-in-coppell-tx/`: fourteen internal links,
+every one correctly aimed, and the strongest programme linking on the site.**
+
+**Every internal link created in the rebuild, and where it points:**
+
+| Anchor text | Target | Count |
+|---|---|---|
+| "Adult BJJ Classes" | `adult-bjj-classes.html` | 2 |
+| "Kids BJJ Classes" | `kids-bjj-classes.html` | 2 |
+| "Teen BJJ Classes" | `teen-bjj-classes.html` | 2 |
+| "Brazilian Jiu-Jitsu Near Me" | `brazilian-jiu-jitsu-near-me.html` | 2 |
+| "BJJ Classes Near Me" | `bjj-classes-near-me.html` | 2 |
+| "Jiu-Jitsu Near Me" | `jiu-jitsu-near-me.html` | 1 |
+| "Martial Arts Near Me" | `martial-arts-near-me.html` | 1 |
+| "info@sixthsensemma.com" | `mailto:` | 1 |
+
+**All three BJJ programme pages are linked, twice each, with anchors that name
+them exactly.** For a beginner conversion page on the gym's strongest offering
+that is the correct pattern, and no other page in the audit links adult, teen
+**and** kids BJJ with accurate anchor text.
+
+**Nothing needed unwrapping for misdirection.** No kids phrase points at an adult
+page; no generic phrase points at a programme.
+
+**Two links had to go.** "**Claim Your Free Trial Class**" in the contact block
+and "**landing page**" in FAQ 10 both point at `/landing-page/`, the empty
+WordPress placeholder (issue 66). **Both unwrapped, text kept.** **Six pages now**
+send their free-trial call to action to a blank page — the entire April batch
+except `/muay-thai-for-weight-loss-coppell/`.
+
+**Left unlinked, and reported as asked:**
+
+| Reference | Why |
+|---|---|
+| **MMA** (4 mentions, including the table row "MMA and Muay Thai") | **no programme page at any age** |
+| **Muay Thai** (4 mentions) | **not linked** — every mention is incidental ("muay thai kickboxing" as a student's background, "kids jiu-jitsu and teen programs and adult jiu-jitsu and muay thai all run under one roof"); none refers to the Muay Thai programme as a thing to join, so `adult-muay-thai-classes.html` and `teen-muay-thai-classes.html` were left unlinked |
+| **Karate**, **judo**, **wrestling** | no programme pages; all three appear only as other students' backgrounds or BJJ's history |
+
+**Externals: one, the client's own Instagram**, anchor text the bare URL, already
+carrying `target="_blank" rel="noopener"`. **No competitor is named or linked** —
+"Gracie" appears seven times and every instance is historical (**Carlos Gracie**,
+**Hélio Gracie**, "gracie family methodology", "the carlos gracie and hélio
+gracie legacy"). **Gracie Barra does not appear**, unlike the three pages at
+issue 61. **Zero empty ChatGPT citation anchors.**
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -19610,6 +19794,50 @@ distinct pictures.
 identifiable children**, **no other gym's logo**. Reproduced exactly as
 published, at their real dimensions, with the live alt text.
 
+
+**2026-04-28 addition — `/bjj-beginners-in-coppell-tx/`: three more AI images,
+the cleanest set of the batch, and "Sixth Sense Academy" on the wall again.**
+
+Sixth page in six days on AI-generated photography. **Eighteen such images across
+six pages.** All three PNG, 1024×541.
+
+| File | Alt text | What it shows |
+|---|---|---|
+| `Gemini_Generated_Image_msbe9c…` (hero) | "BJJ Beginners in Coppell tx" | a wide mat with five BJJ pairs drilling, a coach correcting posture, kettlebells, a cage at the right, framed photographs on the wall. **No headline overlay** |
+| `Gemini_Generated_Image_3was1k…` | "What the First BJJ Class in Coppell TX Actually Feels Like" | a circle of students seated around a coach demonstrating from guard; wall sign reads "**SIXTH SENSE ACADEMY TEXAS**"; barn and open field through the windows |
+| `Gemini_Generated_Image_vmz6ho…` | "Why Sixth Sense Is the Top Choice for BJJ Near Coppell TX" | a fifteen-person class photograph lined up in gis with the coach centre, cage behind |
+
+#### What is better here than on the five pages before it
+
+| Check | Result |
+|---|---|
+| **Identifiable children** | **NONE — adults only in all three** |
+| Before-and-after comparison | **none** (contrast issue 0c) |
+| Other gym's logo or watermark | **none** |
+| Duplicate renders | **none** — three genuinely different scenes, unlike the stress-relief and women's pages where two of three were the same picture |
+| Brand spelled correctly in the logo lockup | **yes**, "SIXTH SENSE MARTIAL ARTS" on all three |
+
+**The absence of children is worth flagging as a gap rather than a win.** The
+page devotes an H3 ("Kids Martial Arts That Builds Real Skill Not Just Badges"),
+a table row ("Kids BJJ · Ages 4-12") and a testimonial to the children's
+programme, and **not one of its three pictures shows a child**. A parent
+evaluating the kids class sees only adults. That is the safer failure, but it is
+still a mismatch between what the page sells and what it shows.
+
+#### "Sixth Sense Academy", fifth page running
+
+The second image's wall sign reads "**SIXTH SENSE ACADEMY TEXAS**" — **not the
+client's name** — and the barn-and-paddock backdrop is the same invented
+facility used on `/choosing-a-martial-arts-gym-in-dfw/` and
+`/womens-bjj-classes-near-me/`. See issues 0b and 0c.
+
+**There is an irony worth putting to the client**: the page's title sells an
+"Academy", the body earns the word with a real curriculum and belt system (issue
+105), and the pictures then print a trading name the business does not use.
+**Replacing the AI images with photographs of the real gym would fix the brand
+problem on six pages at once** — and on this page it would also let the kids
+programme actually appear.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -20467,6 +20695,244 @@ identifying detail.
 
 **All three reproduced verbatim; no `Review` or `AggregateRating` JSON-LD was
 generated and none was invented.**
+
+### 105. A POSITIVE: the first page in the audit whose programme table matches the real offering, age for age — with three things still to fix — CONTENT (accuracy) — **Low**
+
+`/bjj-beginners-in-coppell-tx/` (28 April 2026, 2,939 words) was checked against
+the five real programmes. **It is the most accurate description of the gym's
+actual offering published anywhere on the site**, and it belongs with
+`/martial-arts-near-me-classes/`, `/adult-beginner-martial-arts/`,
+`/muay-thai-classes-coppell/` and `/benefits-of-bjj/` as a POSITIVE.
+
+#### (a) Disciplines named
+
+| Discipline | Mentions | Programme page? |
+|---|---|---|
+| Brazilian jiu-jitsu / BJJ | throughout | **yes** — adult, teen, kids |
+| Muay Thai | 4 | **yes** — adult, teen |
+| **MMA** | 4 | **none** |
+| Kickboxing | 2, always as "muay thai kickboxing" | none, but used as a label for Muay Thai |
+| Karate, judo, wrestling | 1, 2, 2 | **not claimed as offerings** — all three appear only as backgrounds other students arrive with, or as BJJ's historical roots |
+
+**The handling of judo, wrestling and karate is exactly right** and worth quoting,
+because four other pages get this wrong: "Coach Mattheus has trained students who
+came from **karate backgrounds** and students who came from **muay thai
+kickboxing** and students who'd never done any martial arts training at all." The
+judo references are historical — "**mitsuyo maeda** who brought judo-based
+grappling techniques from Japan to Brazil" — and accurate.
+
+**The one discipline overreach is in the table's fifth row**, reproduced verbatim:
+"**MMA and Muay Thai** | Adults intermediate+ | Intermediate | Complete striking
+and grappling | Combined". **MMA has no programme page at any age.** This is the
+same claim logged at the service-claims entry for `/mma-gym-valley-ranch-tx/` and
+`/choosing-a-martial-arts-gym-in-dfw/`, in its mildest form — one cell, bundled
+with a real programme.
+
+#### (b) Age ranges: CORRECT, and this is the finding
+
+The programme table states:
+
+| Program | Who It's For | Skill Level | Focus | Format |
+|---|---|---|---|---|
+| Kids BJJ | **Ages 4-12** | All levels | Fundamentals and build confidence | Gi |
+| Teen BJJ | **Ages 13-17** | Beginner to intermediate | Technique and mental toughness | Gi and No-Gi |
+| Adult BJJ Intro | Adults any age | No experience needed | First bjj class coppell fundamentals | Gi |
+| Adult BJJ | Adults all levels | Beginner through advanced | Full technique and live grapple | Gi and No-Gi |
+| MMA and Muay Thai | Adults intermediate+ | Intermediate | Complete striking and grappling | Combined |
+
+**"Ages 4-12" matches `kids-bjj-classes.html` exactly, and "Ages 13-17" matches
+the teen programme exactly.** No other page in this audit has stated both
+correctly. `/mma-gym-valley-ranch-tx/` got "Ages 4-17" right as a span;
+**this page is the first to split it the way the programme pages do.**
+
+**Little Champions (4–7) is not mentioned**, which is an omission rather than an
+error — the sub-group exists inside the 4–12 band and the table does not
+contradict it.
+
+#### (c) Certified instructors: the claim is GONE, and replaced by something sharper
+
+**"Certified instructors" does not appear.** The word "certification" occurs once
+and it is used **against** certificates: "The instruction here **isn't recycled
+from a weekend certification course**." That is a real improvement on nine pages
+of anonymous credentials.
+
+**But the page then repeats the `/choosing-a-martial-arts-gym-in-dfw/` problem
+(issue 101) almost word for word.** It tells the reader four times to demand
+lineage:
+
+> "A premier bjj academy should have **verifiable black belts on the mat every
+> session**. Not managing from the side."
+>
+> "**The instructor's lineage back to gracie family methodology** or equivalent
+> world-class grappling systems is what tells you whether the techniques being
+> taught have real depth behind them."
+>
+> "**Ask about the coach's lineage. Ask whether black belts are on the mat or
+> behind a desk.**"
+>
+> FAQ 7: "**Verified black belt lineage** on the mat every session."
+
+**And then names none of it:**
+
+> H3 "World-Class BJJ Instruction From a **Verified Black Belt** Coach" — "Coach
+> Mattheus Galvao brings a **genuine black belt lineage** to every class at Sixth
+> Sense."
+
+**No degree, no promoting professor, no academy, no affiliation.** "Verified" by
+whom is not stated. The page even gestures at a lineage without claiming it:
+"The **carlos gracie and hélio gracie legacy flows through reputable black belt
+lineages** and that lineage is reflected in the technical depth of what's taught
+at Sixth Sense" — which says the legacy exists and that the teaching reflects it,
+not that this coach is in that line.
+
+**Second page to fail its own lineage test.** Same one-sentence fix as issue 101.
+
+**One further claim the client should be able to evidence:** "**The academy has
+produced national champions** and the structured training environment reflects
+that standard." No competitor, event or year is named. National titles are public
+record, so this is checkable — and if true it is the strongest credential on the
+site and should be stated with names.
+
+#### (d) The free trial MATCHES the programme pages
+
+| Source | Wording |
+|---|---|
+| All five programme pages | "**Free trial class**", and an FAQ headed "How Can I Get Started With Your **Risk-Free Trial Offer**?" |
+| This page | "schedule the **free trial class**", "claim your free trial with **no credit card required**", FAQ 10 "The free trial class is available with **no credit card required and no long-term commitment**" |
+
+**Consistent — a single free trial class, no commitment.** The "no credit card"
+detail is an addition the programme pages do not make, but it does not contradict
+them.
+
+**Contrast `/womens-bjj-classes-near-me/` published the same day**, which promised
+"The free trial gives new students **multiple sessions**" (issue 104e). **That is
+the page that disagrees with the programme pages, not this one.**
+
+#### (e) Pricing: none, and the page argues against price-shopping
+
+**No price, no membership figure, no dollar amount.** "Price" appears twice and
+both times it is a warning: the H3 "**Choosing the Wrong Academy Based on Price
+or Location**" and "**Price and location are the two worst criteria** for choosing
+a bjj academy". Twelve pages still promise pricing and publish none; **this is
+not a thirteenth.**
+
+#### The "Academy" claim in the title
+
+The title ends "Martial Arts Class **Academy**". Unlike `/sambo-techniques/`,
+where the word stood for a programme that does not exist, **here it describes
+something real and the page backs it up**:
+
+| What "academy" is used for | Evidence on the page |
+|---|---|
+| A structured curriculum | "The curriculum **doesn't split into a serious track and a casual track**"; "The **curriculum sequencing** exists because it works"; FAQ 7 "Structured training curriculum from beginner through advanced" |
+| A grading pathway | "**The belt system gives you a progression framework with real milestones**"; FAQ 4 "Belt progression at Sixth Sense is **based on real skill development not attendance**" |
+| A five-programme structure | the table above |
+| A generic industry term | "The dfw area has jiu-jitsu gyms…"; "A premier bjj **academy** should have verifiable black belts" — used of other gyms too |
+
+**All of it matches the programme pages**, which run Kids, Teen and Adult BJJ with
+a belt system. **The word is earned here.** The only caveat is that the client
+does not trade as an "academy" — and three of this page's own images print
+"**SIXTH SENSE ACADEMY**" on the wall, which is a different problem (issues 0b
+and 98).
+
+#### Tapping and submission safety: PRESENT, and better than `/bjj-training-tips/`
+
+Issue 96 logged that `/bjj-training-tips/` names six submissions and **never
+mentions tapping**. This page does, twice, in the body and the FAQ:
+
+> "**Tapping too late in drilling because of ego** is something almost every
+> beginner does once and smart beginners learn from quickly. **Tapping is how you
+> learn and how you protect yourself** and how you develop the technical
+> understanding of why a submission works. **Resisting past the tap teaches you
+> nothing and risks injury** that sets your training back by weeks."
+
+> FAQ 3: "Drilling is **controlled and matched by experience level**. Live
+> grappling for beginners is **positional and low-intensity until technique is
+> solid enough to roll safely**."
+
+**That paragraph is what the training-tips page should carry**, and it is the
+second page in two days to supply it (after `/womens-bjj-classes-near-me/`). The
+client has the wording three times over; it just is not on the page that needs it.
+
+### 106. A fifth calorie range, a fifth copy of the confidence figure, and a new invented statistic about children and bullying — CONTENT (accuracy) — **High**
+
+`/bjj-beginners-in-coppell-tx/` (28 April 2026) carries an H2 reading "**The Data
+Behind Why BJJ Is Worth Starting in Coppell in 2025**" — on a page published in
+2026 — and opens it "The case for bjj near coppell tx as a beginner investment is
+**backed by real outcomes**."
+
+| # | Exact wording | Source |
+|---|---|---|
+| 1 | "Adults who train bjj consistently reach blue belt on average **between 12 and 24 months**" | none — but **plausible and uncontroversial** |
+| 2 | "A solid bjj class burns between **400 and 700 calories** per session" | **none** |
+| 3 | "Adults who train structured martial arts report a **65 percent average increase in confidence** after six months" | **none** |
+| 4 | "**Kids in bjj programs show a 40 percent reduction in bullying incidents at school.**" | **none** |
+
+**"Studies", "study", "research", "according to" and "data" appear once between
+them — in the heading — and name nothing.**
+
+#### Statistic 4 is new, and it is about children
+
+**"Kids in bjj programs show a 40 percent reduction in bullying incidents at
+school"** is the first bullying statistic published anywhere on the site. It is
+stated flatly, with no study, no population, no measure and no definition of a
+"bullying incident". It is also the kind of figure a parent acts on.
+
+**It joins the child-content group at issues 86–90 and the uncited-statistics
+group at issues 92, 93, 100, 101, 102 and 104.** `/anti-bullying-martial-arts-for-kids/`
+— the page that exists for this subject — makes no such claim, so the gym is
+quantifying an anti-bullying outcome on a beginner BJJ page and not on its own
+anti-bullying page.
+
+#### Statistic 2 is the FIFTH different calorie range on the site
+
+| Page | Discipline | Range |
+|---|---|---|
+| `/muay-thai-for-weight-loss-coppell/` | Muay Thai | **700–1000+** |
+| `/muay-thai-fitness-workout/` | Muay Thai | **600–1000** |
+| `/mma-gym-valley-ranch-tx/` | MMA | **500–900** |
+| `/womens-bjj-classes-near-me/` | BJJ | **400–800** |
+| **`/bjj-beginners-in-coppell-tx/`** | **BJJ** | **400–700** |
+
+**Two BJJ pages published the same day disagree about BJJ**, 800 against 700 at
+the top of the range. Issue 103 logged three figures; it is now five across five
+pages, with the four benefits pages publishing none at all (issue 94). **One
+editorial decision fixes all nine.**
+
+#### Statistic 3 is the confidence figure on its FIFTH page
+
+| Page | Value |
+|---|---|
+| `/mma-gym-valley-ranch-tx/` | 65% |
+| `/choosing-a-martial-arts-gym-in-dfw/` | 65% |
+| `/martial-arts-stress-relief-coppell-adults/` | 65% |
+| `/womens-bjj-classes-near-me/` | **73%** |
+| `/bjj-beginners-in-coppell-tx/` | 65% |
+
+**Five pages, one invented metric, two values.** Confidence has no unit, so no
+instrument could produce either number. **Remove it from all five.**
+
+#### Three more unattributed testimonials, and one with a verifiable claim
+
+H2: "**What Coppell and DFW Beginners Say About Their First BJJ Classes**".
+Three paragraphs, **no names**:
+
+| # | Who | Detail |
+|---|---|---|
+| 1 | "A **38-year-old from Coppell**" | "He earned his **blue belt 19 months later** and is currently training toward purple" |
+| 2 | "A **dad from Flower Mound**" | "drove past **three jiu-jitsu gyms**"; brought his son into kids BJJ |
+| 3 | "A **42-year-old woman from the irving area**" | came "after **a difficult personal experience**"; had tried "a self-defense class at another facility" |
+
+**All three reproduced verbatim; no `Review` or `AggregateRating` JSON-LD was
+generated and none was invented.** Testimonial 3 again places a woman's personal
+safety incident in reported speech with no name and no consent record — the same
+pattern as "Sarah" on `/womens-bjj-classes-near-me/` (issue 104). **Testimonial 1
+is checkable**: a 19-month blue belt is a gym record.
+
+**The pattern across the April batch is now unmistakable.** Six pages, eighteen
+testimonials, **one name between them**, several recycled across pages with the
+discipline swapped (issue 104). The client should be asked outright whether any
+of them are real.
 
 ## How these were checked
 

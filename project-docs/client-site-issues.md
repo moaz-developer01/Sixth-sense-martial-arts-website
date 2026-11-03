@@ -278,6 +278,30 @@ report rather than correct.
 
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
 
+#### A twelfth page that needed no omission, on the subject where it mattered most
+
+`/womens-bjj-classes-near-me/` (28 April 2026, 2,547 words) required **no
+omission**, and this one was checked hardest: a page telling women that training
+will help them survive an attack is the likeliest place on the site for a
+guarantee of physical safety.
+
+**There is none.** "Guarantee", "keep you safe", "will protect", "injury",
+"concussion" and "risk" occur **zero times**. Full table of what was checked and
+kept is at issue 104f.
+
+**The page also teaches tapping, which `/bjj-training-tips/` omitted entirely
+(issue 96d):**
+
+> "**Not tapping early enough in training because of pride** is something a lot of
+> new students deal with. **Tapping isn't losing. It's how you learn and how you
+> protect yourself** so you can keep showing up."
+
+**That is the sentence the BJJ training-tips page should have carried**, and it
+is here, on the women's page, written well. It should be copied across.
+
+Running total unchanged: **67 sentences across twenty posts.** Eleven of the last
+twelve builds needed no omission.
+
 #### An eleventh page that needed no omission
 
 `/muay-thai-for-weight-loss-coppell/` (28 April 2026, 2,093 words) required **no
@@ -3298,6 +3322,123 @@ mirrors them, including the TOC consequence.
 as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
+
+**2026-04-28 addition, LOG AT THE TOP OF THIS ENTRY — `/womens-bjj-classes-near-me/`
+is the FOURTH page selling women's classes while the homepage says the programme
+has not launched. It is also the first to put a women's class in a programme
+table, and the first whose photographs show a female instructor the text never
+mentions.**
+
+The homepage lists "**Self-Defense for Women (Coming Soon)**". There is no
+women's programme page. These four pages advertise women's classes as available:
+`/martial-arts-near-me/`, `/martial-arts-gyms-near-me/`,
+`/self-defense-classes-for-women/` and now this one.
+
+#### (a) Does it state women's BJJ classes currently run?
+
+**Yes, throughout, in the present tense, and in a programme table.** The page is
+2,547 words and never once says "coming soon".
+
+| Where | Exact wording |
+|---|---|
+| H2 | "What the **Women's BJJ Program** Looks Like at Sixth Sense" |
+| H3 | "Inside the **Curriculum for Women's BJJ in Coppell TX**" |
+| H2 | "**How to Join Women's BJJ Classes** at Sixth Sense Martial Arts" |
+| Body | "The jiu-jitsu program is designed so that **women's bjj students** can move through skill levels at a pace that works for them" |
+| Body | "**Female grappling classes** cover things like clinch control and guard positions and escape mechanics from the bottom" |
+| Body | "The women who stay in **bjj for women beginners classes**…" |
+| Body | "If you've been searching for **female bjj classes coppell** or bjj safe for women then **this is the answer to both of those searches**" |
+| H2 | "**Women in Coppell Are Already Training.** Your Jiu-Jitsu Journey Can Start This Week." |
+
+**And the programme table lists it as one of four class types**, reproduced cell
+for cell:
+
+| Class Type | Who It's For | Focus Areas | Format |
+|---|---|---|---|
+| Intro to Jiu-Jitsu | New students and beginners | Fundamental positions and self-defense skills | Gi |
+| Adult BJJ | All skill levels | Full technique progression and live grappling | Gi and No-Gi |
+| **Women's Self-Defense** | **Women of all fitness levels** | Common attacks and real-world escape skills | No-Gi |
+| Advanced Training | Experienced practitioners | Advanced techniques and competition prep | Gi and No-Gi |
+
+**That row is the problem in one line.** It is the same class the homepage calls
+"Coming Soon", presented as a current offering with an audience, a syllabus and a
+format.
+
+#### (b) Class times, days or schedule: NONE
+
+**No day, no time, no schedule appears anywhere.** "Monday" through "Sunday",
+"schedule", "class times", "evening" and "morning" occur **zero times**. The
+six-step joining list says only "Show up at 817 S MacArthur Blvd #100 Coppell TX
+75019".
+
+**That absence is the only reason the harm is limited.** A woman cannot turn up
+expecting a specific women's session because the page never names one — she has
+to call first. **If times are ever added, the exposure logged below becomes
+immediate.**
+
+#### (c) Women-only, or women in mixed classes? THE PAGE SAYS BOTH
+
+**The words "women-only", "ladies only", "female-only" and "all-female" appear
+zero times.** But the table lists a "Women's Self-Defense" class for "Women of
+all fitness levels", which reads as a women's room.
+
+**The FAQ then says the opposite, and it is the most honest sentence on the page:**
+
+> FAQ 3, "**Will I have to spar against men in class?**" — "**Not in your early
+> sessions.** New students are paired thoughtfully. **As you progress and build
+> confidence you'll naturally work with a wider range of training partners** which
+> actually accelerates your skill development."
+
+**So: mixed classes, with careful pairing for beginners.** That is a reasonable
+and common arrangement, and it is almost certainly what the gym actually does.
+**The table contradicts it.** A woman who reads the table and skips the FAQ
+expects a women's room; the answer she needs is nine screens further down.
+
+**This is the precise scenario the brief anticipated**, and the fix is one line in
+the table: change "Women's Self-Defense" to say the format honestly, or remove
+the row until the programme launches.
+
+#### (d) A female instructor: NOT claimed in the text, but SHOWN in all three photographs
+
+**The text names one instructor and he is male**: "**Coach Mattheus Galvao** is a
+black belt with years of hands-on instruction behind him" (six mentions). The
+words "female instructor", "female coach" and "she" applied to any member of
+staff appear **zero times**. The only "she" on the page is in testimonials.
+
+**All three images show a woman as the instructor.** The hero and the third image
+centre a smiling **female black belt** in a Sixth Sense gi, hands on hips, with an
+all-women class rolling behind her; a second woman in the hero wears a gi patch
+reading "**COACH**".
+
+**So the photographs promise a female coach and a women's mat, and the text
+promises neither.** For a page whose entire audience is women worried about
+walking into a room of men (its own H3 is "The Intimidation Factor"), that gap
+between picture and copy is the most consequential thing on the page. **The
+client must confirm whether a female instructor exists.** If one does, name her.
+If not, the images are making a claim the business cannot meet.
+
+#### (e) Free trial, price, membership, discount
+
+| Check | Result |
+|---|---|
+| Free trial | **claimed seven times**, including "Fill out the short form to **claim your free trial class pass**" and FAQ 9 "The free trial gives new students **multiple sessions**" |
+| Price figure | **none** |
+| Membership | mentioned once, about other gyms: "two years of **gym memberships** that went nowhere" |
+| Discount | **none** |
+
+**"Multiple sessions" is a new and more generous promise** than the "free trial
+class" the other pages offer, and it is the only place on the site that says so.
+**Both free-trial links point at `/landing-page/`**, the empty placeholder (issue
+66) — fifth page in the April batch to do this. Both unwrapped in the rebuild,
+text kept.
+
+#### What the client must resolve
+
+**Four pages now sell a programme the homepage says has not launched.** The
+options are to launch it and build the programme page, or to pull the claim from
+all four. **This page is the one to fix first** because it is the only one with a
+table, a curriculum and photographs of a female coach.
+
 
 #### ⚠ READ FIRST — three pages sell women's self-defence classes the homepage says have not launched
 
@@ -9279,6 +9420,34 @@ query — the same duplication noted on five earlier posts.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-04-28 addition — `/womens-bjj-classes-near-me/`: ten tags, no competitor,
+no untaught discipline — and not one of them names the city.** The post carries
+10 tags: `beginner women's BJJ training`, `BJJ for women beginners`, `female
+martial arts classes near me`, `ladies self defense BJJ`, `local women's Jiu
+Jitsu gym`, `nearby women BJJ academy`, `women Brazilian Jiu Jitsu classes`,
+`women grappling classes`, `Women's BJJ Classes Near Me`, `women's fitness
+martial arts classes`.
+
+| Flag | Result |
+|---|---|
+| **Krav Maga or other untaught discipline** | **none.** Every tag is BJJ, grappling or general martial arts — all taught here |
+| **Competitor named** | **none.** `Gracie Barra` is **not** among them, despite being named in FAQ 10 (issue 61). Third page running where the taxonomy is cleaner than the article |
+| **City** | **ZERO of ten.** No Coppell, no Texas, no DFW |
+
+**The missing city is the finding.** The H1 says "Women in **Coppell**", the body
+says Coppell twelve times, and the tags say "near me", "nearby" and "local" —
+words that mean nothing to a search engine without a place attached. This is the
+weakest local tagging of the five April pages, and the two before it got it right
+(eight of eleven and nine of eleven carrying Coppell).
+
+**Three tags are the same query reworded** — `women Brazilian Jiu Jitsu classes`,
+`women grappling classes` and `Women's BJJ Classes Near Me` — and `nearby women
+BJJ academy` uses "academy", which is the invented trading name that appears in
+all three of this page's images (issues 0b and 98).
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -9653,6 +9822,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **Women's content (confirmed, FOUR pages selling a programme that has not launched)** | `/womens-bjj-classes-near-me/` · `/self-defense-classes-for-women/` · `/womens-self-defense-class/` · plus the women's sections of `/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` — **CRITICAL**, see below |
 | **Muay Thai fitness (confirmed, FOUR pages on training for fitness and weight)** | `/muay-thai-for-weight-loss-coppell/` · `/benefits-of-muay-thai/` · `/muay-thai-fitness-workout/` · `/muay-thai-training/` — see below |
 | **Wellbeing content (confirmed, THREE pages on mental and emotional outcomes)** | `/martial-arts-stress-relief-coppell-adults/` · `/martial-arts-confidence-building/` · `/muay-thai-thai-boxing/` — see below |
 | **Confidence content (confirmed, spread across at least EIGHT pages)** | `/martial-arts-confidence-building/` · `/muay-thai-thai-boxing/` · the confidence sections of the four benefits pages · the kids pages — see below |
@@ -10158,6 +10328,71 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The women's cluster and the BJJ local cluster, at CRITICAL — one page in two pile-ups
+
+`/womens-bjj-classes-near-me/` (28 April 2026) is **the fourth women's page and
+the sixteenth local page**, and it lands in two separate clusters at once.
+
+**The women's cluster:**
+
+| Page | Angle |
+|---|---|
+| `/womens-bjj-classes-near-me/` | women's BJJ |
+| `/self-defense-classes-for-women/` | women's self-defence |
+| `/womens-self-defense-class/` | women's self-defence, again |
+| `/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` | women's sections inside general pages |
+
+**None of the five has a programme page behind it**, because the homepage still
+says "Self-Defense for Women (Coming Soon)". See the service-claims entry.
+
+**The BJJ local cluster, now five blog posts plus three programme pages:**
+
+| Blog | Programme |
+|---|---|
+| `/womens-bjj-classes-near-me/` | `/adult-bjj-classes/` |
+| `/brazilian-jiu-jitsu-near-me/` | `/teen-bjj-classes/` |
+| `/bjj-classes-near-me/` | `/kids-bjj-classes/` |
+| `/jiu-jitsu-near-me/` | |
+| `/brazilian-jiu-jitsu-coppell-tx/` | |
+
+**Eight URLs competing for BJJ-in-Coppell queries.** This page links to three of
+the four sibling blogs in its own Explore More block, which concentrates the
+problem rather than relieving it.
+
+**Measured overlap is low, as with the rest of the April batch:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/self-defense-classes-for-women/` | 1 of 12 (8.3%) — "FAQ's" | 1 of 21 (4.8%) | **20.7%** |
+| `/bjj-classes-near-me/` | **0 of 12 (0.0%)** | 0 of 21 (0.0%) | **20.7%** |
+
+**No editorial heading is shared with either.** The structures differ genuinely
+— this is the April long-form template with a comparison table, a six-step
+joining list, a "Numbers" section and three testimonials. **They collide on
+intent and on keyword, not on text.**
+
+**Local signals are weak for a page in a local cluster:**
+
+| Check | Result |
+|---|---|
+| Slug | "near me", **no city** |
+| **H1 names Coppell** | **yes** — "…the Most Life-Changing Thing **Women in Coppell** Can Do Right Now" |
+| Coppell in the body | **12 times** |
+| Other locations | **Valley Ranch ×2**, both as catchment ("it serves the Valley Ranch area") |
+| **Tags carrying the city** | **ZERO of ten** |
+
+**The tag set is the weakest local signal of the April batch**: ten tags,
+**none** naming Coppell or Texas, on a page whose H1 and body both name the city
+twelve times. Compare `/martial-arts-stress-relief-coppell-adults/` (eight of
+eleven) and `/muay-thai-for-weight-loss-coppell/` (nine of eleven). This one
+reverts to pure "near me" targeting.
+
+**Recommendation.** Of the four women's pages, **keep this one** — it is the
+longest, the best structured and the only one tied to a real discipline with
+three programme pages behind it — and 301 the other three into it, once the
+programme question is resolved, the invented statistics come out (issue 104) and
+the table row is corrected. Add Coppell to the tags.
 
 #### The Muay Thai fitness cluster, and the weight-classes collision
 
@@ -14876,6 +15111,43 @@ naming Zuckerberg's belt, his promoter, his academy, his medals, and nine other
 people's ranks. **Tenth page to claim an unnamed certification** (see the
 service-claims entry), and on this page the contrast is as stark as it gets.
 
+**2026-04-28 addition — `/womens-bjj-classes-near-me/`: Gracie Barra is now in an
+FAQ question, which is the worst placement yet.**
+
+> **FAQ 10: "Is Sixth Sense similar to jiu-jitsu at Gracie Barra?"**
+>
+> "**Gracie Barra's approach and gracie methodology** are well-respected in the
+> bjj world and Sixth Sense shares a commitment to structured progression and
+> quality instruction. Coach Mattheus brings black belt-level expertise and a
+> curriculum that reflects serious jiu-jitsu training standards while keeping a
+> community-first atmosphere."
+
+**Third page to name Gracie Barra, and the first to put it in a question.** Issue
+61 logs it as a **tag** on `/teens-bjj-near-me/`; `/bjj-training-tips/` has it in
+the body of tip 10 ("Whether you train at Gracie Barra or another school").
+**An FAQ question is more exposed than either**, because FAQ questions are the
+strings Google lifts into search results and voice answers. The client's domain
+is now competing to answer a question about a rival franchise.
+
+**The answer itself is diplomatic and that is the problem** — it praises the
+competitor in its first clause ("well-respected in the bjj world") and claims
+only parity for the client ("shares a commitment to"). A reader comparing the two
+is told the rival is respected and this gym is similar.
+
+**Reproduced verbatim and not linked**, as with the other two. **No tag on this
+page names a competitor.**
+
+The three instances together:
+
+| Page | Placement | Severity |
+|---|---|---|
+| `/teens-bjj-near-me/` | **tag** and URL | trademark exposure (issue 61) |
+| `/bjj-training-tips/` | body of a numbered tip | recommends a competitor in the client's own advice |
+| `/womens-bjj-classes-near-me/` | **FAQ question and answer** | competes for the rival's brand query and praises it |
+
+**One decision covers all three**: either the client is comfortable naming Gracie
+Barra as a comparator across the site, or none of the three should.
+
 ### 62. Unnamed "experts" cited as authority, sourceless attributions, and unspecified "studies" credited to a federation — CONTENT (accuracy), SEO — **High**
 
 **A new form: an unnamed belt rank presented as a staff credential.** Under the
@@ -15866,6 +16138,48 @@ carrying `target="_blank" rel="noopener"`. **No supplement retailer, no diet
 product, no health site, no competitor** — which matters on a weight-loss page,
 where affiliate links to supplements are the usual failure. **The page sells
 nothing but classes.** **Zero empty ChatGPT citation anchors.**
+
+**2026-04-28 addition — `/womens-bjj-classes-near-me/`: twelve internal links,
+all correctly aimed, and the free trial points at the empty page twice.**
+
+| Anchor text | Target | Count |
+|---|---|---|
+| "Adult BJJ Classes" | `/adult-bjj-classes/` | 2 |
+| "Women's Self-Defense blog" / "Women's Self-Defense Blog" | `/self-defense-classes-for-women/` | 2 |
+| "Teen BJJ Classes" | `/teen-bjj-classes/` | 1 |
+| "Kids BJJ Classes" | `/kids-bjj-classes/` | 1 |
+| "BJJ Classes Near Me" | `/bjj-classes-near-me/` | 1 |
+| "Brazilian Jiu-Jitsu Near Me" | `/brazilian-jiu-jitsu-near-me/` | 1 |
+| "Jiu-Jitsu Near Me" | `/jiu-jitsu-near-me/` | 1 |
+| "Martial Arts Classes" | `/martial-arts-classes/` | 1 |
+| "Adult Muay Thai Classes" (FAQ 8) | `/adult-muay-thai-classes/` | 1 |
+| "info@sixthsensemma.com" | `mailto:` | 1 |
+
+**Every anchor names its destination and nothing needed unwrapping for
+misdirection.** Note the two women's links are labelled "**blog**", which is
+honest — they point at a blog post, not a programme page, and the anchor says so.
+
+**NO WOMEN-ONLY CLASS REFERENCE WAS LINKED, as instructed.** There is no women's
+programme page, so "Women's BJJ Program", "female bjj classes coppell",
+"female grappling classes", "ladies jiu jitsu near me", "women self defense bjj"
+and the table's "**Women's Self-Defense**" row are all left as **plain text** in
+the rebuild. The only women's destinations used are the two blog links the client
+placed, both correctly labelled as blog posts.
+
+**Two links had to go.** "**Claim Your Spot Here**" in the contact block and
+"**landing page**" in FAQ 9 both point at `/landing-page/`, the empty WordPress
+placeholder. **Both unwrapped, text kept.** That is now five pages —
+`/benefits-of-muay-thai/`, `/mma-gym-valley-ranch-tx/`,
+`/choosing-a-martial-arts-gym-in-dfw/`,
+`/martial-arts-stress-relief-coppell-adults/` and this one — whose free trial
+lands on a blank page.
+
+**Externals: one, the client's own Instagram**, with `target="_blank"
+rel="noopener"`. **No domestic violence or victim support organisation is cited
+or linked anywhere**, on a page that addresses sexual assault survivors three
+times — so there is no broken support link because there is no support link
+(issue 104i). **Gracie Barra is named in FAQ 10 and is not linked.** **Zero empty
+ChatGPT citation anchors.**
 
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
@@ -19257,6 +19571,45 @@ text. The recommendation at issue 98 now covers **twelve AI images across four
 pages**; the before-and-after is the one that cannot simply be replaced but must
 be removed (issue 0c).
 
+
+**2026-04-28 addition — `/womens-bjj-classes-near-me/`: three more AI images, two
+of them the same render, and all three show a female instructor the text never
+mentions.**
+
+Fifth page in five days on AI-generated photography. **Fifteen such images across
+five pages.** Two PNG, one JPEG, all 1024×541.
+
+| File | Alt text | What it shows |
+|---|---|---|
+| `Gemini_Generated_Image_cqasx1….png` (hero) | "Women's BJJ Classes Near Me" | a smiling **female black belt** front and centre in a Sixth Sense gi, an **all-women** class rolling behind her, a second woman wearing a "**COACH**" patch, a caged octagon at the left edge |
+| `2e2a7626-….jpg` | "The Safety Problem Nobody Talks About Enough" | a coach kneeling beside a woman drilling from guard, mixed class behind, countryside through the windows |
+| `Gemini_Generated_Image_uf9g6u….png` | "How Sixth Sense Martial Arts Solves These Problems…" | **the hero scene again** with most of the class removed — same woman, same pose, same room |
+
+#### The images make a claim the text does not
+
+**A female black belt instructor and an all-women mat.** The copy names only
+**Coach Mattheus Galvao** and its FAQ says women will train with men after their
+early sessions. Full detail at the service-claims entry (d) and (c) — **this is
+the single most consequential picture-versus-copy gap found in the audit**,
+because the page's own H3 is "The Intimidation Factor" and its audience is women
+worried about exactly this.
+
+#### "Sixth Sense Academy" again, and the same rural gym
+
+All three carry the wall sign "**SIXTH SENSE ACADEMY**" (the hero and third add
+"TEXAS" beneath). **That is not the client's name**, and it is the fourth page to
+render it — see issues 0b and 0c. The second image shows the same **barn and
+open paddock** through the windows as `/choosing-a-martial-arts-gym-in-dfw/`'s
+second image, so the model is reusing one invented facility across pages.
+
+**Two of three are the same render**, as on
+`/martial-arts-stress-relief-coppell-adults/`. The page effectively has two
+distinct pictures.
+
+**No before-and-after comparison** on this page (contrast issue 0c), **no
+identifiable children**, **no other gym's logo**. Reproduced exactly as
+published, at their real dimensions, with the live alt text.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -19984,6 +20337,136 @@ and **no calorie intake figure** — the only calorie number is output, not inta
 **Nothing on this page is logged at HIGH priority under point (h).** The written
 content is the most responsible weight-loss writing on the site. **The image is
 the problem** (issue 0c), and it is a separate fix.
+
+### 104. A page addressed to sexual assault survivors that invents its statistics, names no support service, and recycles a testimonial from another page with the discipline swapped — CONTENT (accuracy), SAFEGUARDING, LEGAL — **High, the client must review before this goes live**
+
+`/womens-bjj-classes-near-me/` (28 April 2026, 2,547 words) speaks three times to
+**survivors of sexual assault**. That audience raises the standard for everything
+else on the page, and the page does not meet it.
+
+#### (g) Six uncited claims, three of them about assault or trauma
+
+The H2 is "**The Numbers Behind Why Women Are Choosing BJJ**" and it opens "This
+isn't just anecdotal. The fitness benefits and mental health effects of martial
+arts classes **have been studied in real contexts and the results are
+consistent**."
+
+| # | Exact wording | Source |
+|---|---|---|
+| 1 | "**Studies show that over 80 percent of real-world attacks end up on the ground.**" | **none** |
+| 2 | "Women who train in bjj class regularly report a **73 percent increase in personal confidence** after six months" | **none** |
+| 3 | "Brazilian jiu-jitsu burns between **400 and 800 calories** per session" | **none** |
+| 4 | "For survivors of sexual assault in particular this kind of training **has been documented to** genuinely improve mental health and rebuild a sense of physical safety" | **none** |
+| 5 | "For survivors of sexual assault BJJ **has been shown in multiple documented programs** to improve mental health outcomes meaningfully" | **none** |
+| 6 | "The process of learning to move from a disadvantaged position and training your nervous system to respond instead of freeze is **genuinely therapeutic**" | **none** |
+
+**"Studies", "study", "research" and "according to" appear a combined three times
+and name nothing.**
+
+**Statistic 1 is the best-known disputed figure in martial arts marketing.** The
+"90% of fights go to the ground" claim originates in Gracie promotional material
+and a narrow 1990s LAPD use-of-force report; it is not a finding about
+**attacks on women**, which is what this page applies it to. Published as
+"Studies show that over 80 percent" with no citation, on a page telling women
+what will protect them, it is the claim most likely to be challenged.
+
+**Statistics 4, 5 and 6 are clinical claims about trauma recovery.** There is
+real published work on BJJ and PTSD in some populations, which makes the absence
+of a citation worse rather than better: the client could name a source and does
+not. "Genuinely therapeutic" is the page asserting a therapeutic effect in its
+own voice.
+
+**Statistic 2 is the confidence figure again, at a fourth value.** Issue 100 found
+65% on `/mma-gym-valley-ranch-tx/`, issue 101 found 65% on
+`/choosing-a-martial-arts-gym-in-dfw/`, issue 102 found 65% on
+`/martial-arts-stress-relief-coppell-adults/`. **This page says 73%.** Four
+pages, one invented metric, two values.
+
+**Statistic 3 is the fourth different calorie range on the site** (issue 103):
+
+| Page | Range |
+|---|---|
+| `/muay-thai-for-weight-loss-coppell/` | 700–1000+ |
+| `/muay-thai-fitness-workout/` | 600–1000 |
+| `/mma-gym-valley-ranch-tx/` | 500–900 |
+| **`/womens-bjj-classes-near-me/`** | **400–800** |
+
+#### (i) No disclaimer, and — the serious one — no support service named
+
+**"Disclaimer", "consult", "therapist", "counsellor", "hotline" and "helpline"
+occur zero times.** There is **no link to any domestic violence or victim support
+organisation**, no phone number for one, and no suggestion that a survivor might
+want professional help alongside training.
+
+**Compare `/martial-arts-stress-relief-coppell-adults/` the day before**, which
+got this right twice: "It's **not a replacement for professional support** when
+that's needed. But it's a powerful adjunct" (issue 102h). **This page, which
+addresses a more vulnerable group, drops that line entirely.** Its nearest
+equivalent is FAQ 6:
+
+> "**Can I train BJJ if I've experienced trauma?**" — "Many survivors of sexual
+> assault find jiu-jitsu training genuinely helpful for rebuilding a sense of
+> safety in their own body. The coach and staff are mindful of this… **A quick
+> conversation with Coach Mattheus before your first session can help you feel at
+> ease.**"
+
+**The page's answer to a trauma disclosure is a conversation with the gym owner.**
+That is well meant and it is not sufficient. One sentence — naming a support
+line and saying training complements rather than replaces care — would close
+this, and the client already has the wording on another page.
+
+**Added to the legal review group** with `/muay-thai-vs-kickboxing/`,
+`/martial-blade-concepts/`, the weapons pages and
+`/self-defense-classes-for-women/`.
+
+#### (f) No guarantee of safety, and (h) no legal claim at all
+
+**Nothing on this page promises a woman will be safe.** "Guarantee", "keep you
+safe" and "will protect" occur zero times. Every use of "safe" is about the mat
+or about feeling:
+
+| Exact wording | Form |
+|---|---|
+| "They actually care whether you improve and whether you **feel safe on that mat**" | the training room |
+| "rebuild a **sense of physical safety**" | a feeling |
+| "**Bjj safe for women** isn't just a phrase on a website" | about the gym's culture |
+| "how you **protect yourself** so you can keep showing up" | about tapping in training |
+| "That's what makes it **effective against real common attacks**" | an efficacy claim, not a guarantee |
+
+**And there is no legal claim whatever.** "Law", "legal", "force", "reasonable",
+"charge" and "prosecution" occur **zero times**. This page does not repeat the
+Texas use-of-force problem flagged on `/self-defense-classes-for-women/`. **It
+is the cleanest page in the self-defence group on legal exposure.**
+
+#### A testimonial recycled from another page, with the discipline changed
+
+**This is the clearest evidence yet that the testimonials are fabricated.** The
+same woman appears on two pages published hours apart, doing two different
+martial arts, for two different reasons, losing the same weight:
+
+| Page | Testimonial |
+|---|---|
+| `/martial-arts-stress-relief-coppell-adults/` | "**A mom from Valley Ranch** enrolled in **adult muay thai classes** six weeks after having her second child… **She lost 14 pounds in the first two months**" |
+| `/womens-bjj-classes-near-me/` | "**A mom from Valley Ranch** came in specifically for **women self defense bjj** after her daughter started taking kids classes… **She lost 14 pounds in her first eight weeks**" |
+
+Same place, same role, same 14 pounds, same approximate period — **different
+discipline and a different reason for joining.** These are template fields.
+
+**And this page names a person for the first time in the audit:**
+
+> "**Sarah** started training at **35** after **a frightening experience in a
+> parking lot**. She'd never done any martial arts in her life… Three months in
+> she was drilling with confidence and sleeping better than she had in years."
+
+**A first name, an age, and a personal safety incident.** If Sarah is real, the
+gym is publishing a member's near-assault, and **written consent should be on
+file**. If she is not, the gym has invented a crime victim to sell classes. Given
+the Valley Ranch mother above, the second is more likely. **Either way the client
+has to answer it.** The third testimonial, "One woman in her mid-40s", carries no
+identifying detail.
+
+**All three reproduced verbatim; no `Review` or `AggregateRating` JSON-LD was
+generated and none was invented.**
 
 ## How these were checked
 

@@ -355,7 +355,43 @@ report rather than correct.
 ---
 
 
-### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+### 0. TWENTY-ONE posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### The twenty-first page, and it is about three-year-olds
+
+`/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`
+(10 June 2026, 1,557 words) publishes **one** sentence that has been **omitted
+from the rebuild**, leaving an HTML comment. It sits in the section headed "Is
+Preschool Jiu Jitsu Safe for Young Children":
+
+> "Furthermore, **proper mats and a supervised environment ensure that falls and
+> rolls happen safely.**"
+
+**"Ensure" is the problem.** Mats and supervision reduce the chance of a bad
+fall; they do not ensure that falls happen safely, and the children in question
+are three to five years old. Same ruling as "Good gear prevents bruises cuts and
+long term damage" on `/kickboxing-training-tips/` and "safety rules prevent
+injury" on `/mix-martial-arts-for-self-defense/`. **The fix at source is one
+word: "help falls and rolls happen safely".**
+
+**This is the first omission required on a kids page since February**, and it is
+the youngest audience in the project.
+
+**What was checked and KEPT on the same page:**
+
+| Exact wording | Why it was kept |
+|---|---|
+| "As a result, **injuries are extremely rare** in well-run preschool jiu jitsu programs" | hedged — "extremely rare", not none, and attributed to well-run programmes generally. Same ruling as "These steps keep injuries very low" |
+| "Instructors who teach this age group are trained in child development and understand how to **keep sessions safe and age-appropriate**" | describes what instructors do |
+| FAQ 2: "Proper mats, low class sizes, and experienced coaches **ensure a safe and nurturing training environment**" | **borderline**, kept: "ensure" again, but the object is the *environment*, not a bodily outcome — the same shape as "a controlled safe space" and "safe mat space", both kept |
+| FAQ 2: "**Yes**, preschool jiu jitsu is safe for children as young as 3 **when taught by qualified instructors in an age-appropriate program**" | conditional, like the equivalent answers on `/bjj-beginners-in-coppell-tx/` and `/kids-martial-arts-classes-irving-tx/`. **But see issue 109** — it asserts safety for an age the gym does not enrol |
+| "Therefore, there is **no pressure and no risk** to giving it a try" | **borderline**, kept: commercial framing about the free trial, not about physical risk — the same ruling as "with no risk through our free trial class" on `/muay-thai-classes-coppell/` |
+
+**Two borderlines on one page is the most in the project**, and both are
+recorded here so the client can decide them rather than discover them.
+
+Running total: **68 sentences across twenty-one posts.** Thirteen of the last
+fifteen builds needed no omission.
 
 #### A fourteenth page that needed no omission, and it is a children's page
 
@@ -850,7 +886,7 @@ single most important sentence missing, and the page's own FAQ supplies it.
 **No concussion or brain-injury claim appears**, in either direction: the words
 "concussion" and "brain" do not occur anywhere on the page.
 
-**Running total: 67 sentences across twenty posts.**
+**Running total: 68 sentences across twenty-one posts.**
 
 #### The seventeenth page, and one of the two is attached to clinch sparring
 
@@ -6185,6 +6221,84 @@ programme pages. **Not a thirteenth pricing page.**
 
 **No editorial markers** appear anywhere on the page.
 
+**2026-06 addition — `/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`
+carries a VISIBLE outbound link to a competing BJJ academy, from its second
+paragraph.**
+
+Issue 40 logs **invisible** empty-anchor citation links, one of them to a
+competing gym. **This one is visible, in-copy, and in the sentence that defines
+the page's subject:**
+
+> "Preschool jiu jitsu is a specially designed version of
+> **[Brazilian Jiu-Jitsu](https://superflybjj.com/how-brazilian-jiu-jitsu-builds-kids-confidence-and-calm/)**
+> built for children between the ages of 3 and 5."
+
+**The anchor text "Brazilian Jiu-Jitsu" — the single most valuable phrase on a
+BJJ gym's website — points at `superflybjj.com`**, another Brazilian jiu-jitsu
+academy, on an article titled "How Brazilian Jiu Jitsu Builds Kids Confidence
+and Calm". That is the same topic as this page.
+
+| Problem | Why |
+|---|---|
+| **Link equity** | the client is passing authority on its core keyword to a direct competitor. The link carries `rel="noopener"` but **not `nofollow` or `sponsored`**, so it passes value |
+| **Traffic** | a parent reading the definition clicks through to a rival academy's article about kids' confidence, which is what this page is selling |
+| **Placement** | paragraph two, inside the definition. It is the first link a reader meets |
+
+**This is the worst competitor link found in the project.** Issue 61's Gracie
+Barra instances were **unlinked text**; issue 40's were invisible empty anchors.
+**This one is a live, followed, visible link on the money keyword.**
+
+**Reproduced exactly as published**, with `target="_blank" rel="noopener"`, per
+the standing replication rule. **Recommendation: remove it, or at minimum add
+`rel="nofollow"`.** If a definition link is wanted, the client's own
+`/kids-bjj-classes/` page is the obvious destination and it was linked
+separately in the rebuild.
+
+**Also on this page:** the only other internal link in the client's markup goes
+to **`/martial-arts-classes-2/`** — the duplicate `-2` URL logged at issue 24.
+Anchor text "martial arts classes in Coppell". It resolves, so it was kept and
+mapped to the local file, **but it points at the duplicate rather than the
+canonical `/martial-arts-classes/`**, which is how a `-2` URL accumulates links
+and becomes hard to retire.
+
+**2026-06 addition — `/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`:
+the narrowest page in the project, no pricing, no certification claim — and one
+credential with nothing behind it.**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian jiu-jitsu only.** "Muay Thai", "kickboxing", "karate", "taekwondo", "judo" and "wrestling" occur **zero times**; "MMA" appears once, in the business name |
+| Any discipline lacking a programme page | **none** — the one art named has three programme pages |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times** |
+| Instructor named | **no** — Coach Mattheus Galvao is not mentioned, after four pages running that named him |
+| Pricing section or figure | **none.** "Price", "pricing", "membership", "cost" and any dollar amount are **absent** |
+| Free trial | mentioned twice — "we offer **trial classes**" and "Come in for a **free trial class**" — consistent with the five programme pages |
+
+**This is the cleanest discipline handling of any page in the audit.** After six
+pages naming karate, taekwondo, kickboxing and MMA as things the gym offers
+when it does not, this one names **one art, and it is a real one**.
+
+**The one credential claim, and nothing is named:**
+
+> "**Instructors who teach this age group are trained in child development** and
+> understand how to keep sessions safe and age-appropriate."
+
+> FAQ 2: "…when taught by **qualified instructors** in an age-appropriate
+> program."
+
+**"Trained in child development" is a specific, checkable claim** — it implies a
+qualification, a course or an awarding body — and none is given. It does not use
+the word "certified", so it does not join the twelve-page unnamed-certification
+group, **but for a page about three-year-olds it is the credential a parent most
+wants evidenced**, alongside safeguarding and paediatric first aid, neither of
+which is mentioned. **One sentence naming the training would close it.**
+
+**Twelve pages still promise pricing and publish none; this is not a
+thirteenth.**
+
+**No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
+Action:") appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -10147,7 +10261,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
-| **Kids content (confirmed, SEVEN pages)** | `/kids-martial-arts-classes-irving-tx/` · `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/mma-classes-for-kids/` · `/kids-self-defense-classes-near-me/` · `/anti-bullying-martial-arts-for-kids/` · `/family-martial-arts-classes/` — see below |
+| **Kids content (confirmed, EIGHT pages)** | `/kids-martial-arts-classes-irving-tx/` · `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/mma-classes-for-kids/` · `/kids-self-defense-classes-near-me/` · `/anti-bullying-martial-arts-for-kids/` · `/family-martial-arts-classes/` — see below |
 | **BJJ in Coppell (confirmed, NINE pages chasing one discipline in one city)** | `/bjj-beginners-in-coppell-tx/` · `/brazilian-jiu-jitsu-coppell-tx/` · `/bjj-classes-near-me/` · `/brazilian-jiu-jitsu-near-me/` · `/jiu-jitsu-near-me/` · `/womens-bjj-classes-near-me/` · plus three BJJ programme pages — **CRITICAL**, see below |
 | **Women's content (confirmed, FOUR pages selling a programme that has not launched)** | `/womens-bjj-classes-near-me/` · `/self-defense-classes-for-women/` · `/womens-self-defense-class/` · plus the women's sections of `/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` — **CRITICAL**, see below |
 | **Muay Thai fitness (confirmed, FOUR pages on training for fitness and weight)** | `/muay-thai-for-weight-loss-coppell/` · `/benefits-of-muay-thai/` · `/muay-thai-fitness-workout/` · `/muay-thai-training/` — see below |
@@ -10655,6 +10769,59 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The eighth kids page, and the only one with a distinct audience
+
+`/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`
+(10 June 2026) brings the kids cluster to eight:
+
+| Page | Audience |
+|---|---|
+| `/kids-bjj-classes/` | **programme page** |
+| `/martial-arts-for-kids/` | general kids |
+| `/martial-arts-for-kids-strenght/` | general kids, "ages 7 and up" |
+| `/anti-bullying-martial-arts-for-kids/` | bullied children |
+| `/kids-self-defense-classes-near-me/` | kids self-defence |
+| `/mma-classes-for-kids/` | **kids MMA, which does not exist** |
+| `/kids-martial-arts-classes-irving-tx/` | kids, Irving |
+| **this page** | **preschoolers, 3–5** |
+
+**Measured overlap:**
+
+| Sibling | Exact heading matches | Heading-word overlap |
+|---|---|---|
+| `/kids-bjj-classes/` | **0** | **0.0%** — but see below |
+| `/martial-arts-for-kids/` | **0 of 15** | **61.9%** (h2 and h3) |
+
+**The `kids-bjj-classes.html` comparison is not meaningful** and the number
+should not be quoted on its own: that page is a **programme page**, built on the
+redesign template with a form and a benefits list rather than article headings,
+so it has no h2 or h3 sections in its body at all. Zero overlap there reflects a
+different page type, not editorial distinctness.
+
+**Against `/martial-arts-for-kids/` the honest figure is 61.9% heading-word
+overlap with zero exact matches** — the usual pattern across this site: shared
+vocabulary, no shared headings.
+
+**This page also has an unusual heading structure.** Its only two `h2`s are
+"Introduction" and "FAQ's"; **all thirteen section headings are `h3`**. An
+h2-only comparison therefore returns 0.0% against everything, which is why the
+h2+h3 figure above is the one to use. **The rebuild's table of contents includes
+the h3 sections** for the same reason — an h2-only TOC would have listed one
+item.
+
+#### Recommendation: keep it separate
+
+**Agreed with the brief.** Of the eight, this is the only one addressed to a
+genuinely distinct audience — parents of three-to-five-year-olds — and it is the
+only one that avoids the invented statistics, names no clinical condition, makes
+no kids-MMA claim and carries no fabricated testimonial.
+
+**But the condition in the brief matters: "provided the ages are accurate", and
+they are not** (issue 109). **Fix the age band first, then keep it.** If the gym
+does not take under-fours, this page needs its range corrected to 4–5 and its
+title and slug reconsidered, because "preschool" conventionally means 3–5 and
+the page would then be named for an age it cannot serve.
 
 #### The seventh kids page, the eighteenth local page, and the fourth aimed outside Coppell
 
@@ -16755,6 +16922,50 @@ to a blank page.
 rel="noopener"`. **No link points at another gym** — and no other gym is named
 anywhere on the page (issue 0d). **Zero empty ChatGPT citation anchors.**
 
+**2026-06 addition — `/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`:
+five links in the client's markup, and one of them goes to a competitor.**
+
+| Anchor text | Target | Verdict |
+|---|---|---|
+| "**Brazilian Jiu-Jitsu**" | **`superflybjj.com`** | **a competing BJJ academy — see the competitor entry above. Visible, followed, on the page's core keyword** |
+| "martial arts for kids" | `/martial-arts-for-kids/` | correct |
+| "martial arts classes in Coppell" | **`/martial-arts-classes-2/`** | resolves, but points at the duplicate `-2` URL (issue 24) |
+| "CONTACT US" button | `/` | the boilerplate button |
+| "FACEBOOK" button | facebook.com | the boilerplate button, already `target="_blank" rel="noopener"` |
+
+**The kids programme page was not linked at all by the client**, on a page about
+the gym's youngest class. **One link was added in the rebuild**, on the client's
+own words, in the Contact Us block:
+
+| Anchor text (the client's words) | Target |
+|---|---|
+| "preschool jiu jitsu classes" ("Have questions about our **preschool jiu jitsu classes**?") | `kids-bjj-classes.html` |
+
+That is the page containing **Little Champions**, which this article never names
+(issue 109c).
+
+**Left unlinked, and reported as asked: nothing.** Every discipline named on the
+page — Brazilian jiu-jitsu, and only Brazilian jiu-jitsu — has a programme page.
+**This is the first page in the audit with no unlinkable discipline.**
+
+**Externals: two.** The client's own Facebook button, and **`superflybjj.com`**.
+Both carry `target="_blank" rel="noopener"` as published and were reproduced
+that way.
+
+**On the cited source**: the competitor article is the only external reference
+on the page, and **it is not a child-development or education source**. A page
+claiming "research and experience both show that starting early provides
+significant advantages" and "studies show that children involved in martial
+arts tend to perform better in academic settings" (issue 109g) **cites neither
+claim** — the one outbound link it does have goes to a rival gym's marketing
+article, not to any research. **The link works** (HTTP 200 at the time of
+checking) and the destination is a commercial gym blog, **not a credible source
+for an academic-performance claim.**
+
+**Zero empty ChatGPT citation anchors**, and **no `/landing-page/` link** — the
+first page since `/muay-thai-for-weight-loss-coppell/` to avoid the empty
+placeholder.
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -18160,6 +18371,169 @@ path is, and at what age a child moves to adult classes — the last of which th
 site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
+
+### 109. The site now advertises the same children's class to three-year-olds and to seven-year-olds-and-up, and neither matches the programme — CONTENT (accuracy), SAFEGUARDING — **High, the client must resolve the age bands before any kids page goes live**
+
+`/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`
+(10 June 2026, 1,557 words) is the **sixth page in this group** and it opens the
+age question at the bottom end. The brief anticipated this exactly.
+
+#### (a) The minimum age stated is THREE, five times
+
+| Where | Exact wording |
+|---|---|
+| Introduction | "If you are a parent wondering whether your **3 to 5-year-old** is ready, **the short answer is yes**." |
+| What Is Preschool Jiu Jitsu | "a specially designed version of Brazilian Jiu-Jitsu **built for children between the ages of 3 and 5**" |
+| Why Start Jiu Jitsu at Preschool Age | "**Between ages 3 and 5**, children go through rapid motor skill development" |
+| FAQ 1 | "Most children are ready to begin preschool jiu jitsu **between the ages of 3 and 5**" |
+| **FAQ 2** | "**Is preschool jiu jitsu safe for 3-year-olds?**" — "**Yes**, preschool jiu jitsu is **safe for children as young as 3**…" |
+| FAQ 4 | "it matches the natural attention span of **children aged 3 to 5**" |
+
+#### (b) Yes — it claims classes for children under 4, which falls outside the programme
+
+**The gym's youngest band is Little Champions, which starts at 4.** Every other
+page on the site that gives a number agrees on that floor. This page sets it at
+**3**, and FAQ 2 answers a direct safety question about three-year-olds in the
+affirmative.
+
+**A parent with a three-year-old reads "the short answer is yes" and books a
+trial.** Either the gym takes three-year-olds — in which case every other page is
+wrong — or it does not, and this page is sending parents to a class their child
+cannot join.
+
+#### (c) Little Champions is never named, and no programme wording is used
+
+"Little Champions", "Rising Champions" and "Preschool BJJ" appear **zero times**.
+The page describes the class generically throughout ("preschool jiu jitsu", 37
+mentions) and never connects it to anything the gym actually sells. **It reads as
+an article about the concept rather than a page about this programme** — which
+is also why it was the only page in the audit with **no internal link to the kids
+programme** until the rebuild added one.
+
+#### (d) The conflict, and it now runs in both directions
+
+| Source | Age band stated |
+|---|---|
+| `kids-bjj-classes.html` (the **programme page**) | **no numeric age range at all** |
+| `/martial-arts-near-me-classes/` | "Little Champions **(Ages 4 to 7)**" |
+| `/martial-arts-for-kids-strenght/` | "Little Champions Program **(Ages 4 6)**" |
+| `/martial-arts-for-self-defense/` | "ages **4 to 6**" |
+| `/kids-martial-arts-classes-irving-tx/` | "Preschool BJJ **Ages 4-5**" and "Little Champions **Ages 4-7**" |
+| **this page** | **ages 3 to 5** |
+
+**And at the other end, `/martial-arts-for-kids-strenght/` says the opposite:**
+
+> "Children can begin training **as early as age 7**"
+>
+> "**Starting martial arts at ages 7 is a great time to jump in**"
+>
+> "skill tweaks for **ages 7 up**"
+
+**So the same gym tells one parent their three-year-old can start and another
+that children begin at seven.** That is a four-year spread on the entry age for
+one programme, published simultaneously, and **the programme page itself states
+no age at all** to settle it.
+
+**This is the single clearest accuracy failure in the kids group**, because
+unlike the statistics it is checkable in one phone call and it directly
+determines whether a family can enrol.
+
+**Recommendation: the client states the real bands once** — including whether
+under-fours are accepted — **puts them on `kids-bjj-classes.html`**, and every
+other page is corrected to match. Until that happens no kids page should go
+live.
+
+#### (i)–(k) Physical safety for very young children
+
+**(i) What the page describes preschoolers doing.** Grappling and rolling, yes;
+**sparring and submissions, explicitly not**:
+
+| Exact wording |
+|---|
+| "Children learn through **games, rolls, and simple partner activities** that keep them engaged throughout the class" |
+| "the **rolling, tumbling, and partner activities** improve body awareness in a way that most sports simply do not" |
+| "Classes are **low-contact and movement-focused rather than sparring-focused**" |
+| FAQ 2: "Classes at this level focus on **movement, games, and basic coordination rather than contact or sparring**" |
+| "instructors introduce a skill through **a game or a simple partner drill**" |
+
+**"Submission", "choke", "armbar" and "joint lock" occur zero times.** For a BJJ
+page that is correct and deliberate, and it is the right call for this age.
+**Note "rolls" here means tumbling, not live rolling** — the page uses it
+alongside "tumbling" and "falls", never as sparring.
+
+**(j) Supervision, mats and ratios.** Partly covered, and better than most of
+the group:
+
+| Covered | Exact wording |
+|---|---|
+| Supervision | "a **supervised environment**" (in the omitted sentence); "instructors pace the learning to match each child's individual development" |
+| Instructor training | "Instructors who teach this age group are **trained in child development**" |
+| Mats and facility | "**proper mats**"; "the training space is **clean, padded, and professionally maintained**" |
+| Class size | FAQ 2: "**low class sizes**" |
+| Pacing | "Children are **never pushed beyond what their bodies are ready for**. Instead, progress happens gradually and always at the child's own pace" |
+
+**No numeric coach-to-child ratio is given** — "low class sizes" is the closest
+the page comes, and for three-year-olds a stated ratio is what a parent actually
+wants. **And "trained in child development" is a credential claim with nothing
+named**: no qualification, no awarding body, no safeguarding or first-aid
+certification. The page does not use the word "certified" anywhere, so this does
+not join the unnamed-certification group, but it is the same gap in a softer
+form.
+
+**(k) Safety and injury claims.** One omitted, four kept — the full table is at
+issue 0 above.
+
+#### (e) Clinical and developmental conditions: NONE claimed, and this is a positive
+
+**"ADHD", "ADD", "autism", "speech delay", "sensory", "disorder", "diagnosis",
+"therapy", "anxiety", "depression", "clinical" and "special needs" occur ZERO
+times.**
+
+**That is the result to show the client**, because it is the opposite of
+`/kids-martial-arts-classes-irving-tx/` four days earlier, which claimed martial
+arts "**has been documented to improve focus and attention in 78 percent of child
+participants**" with ADD and ADHD named (issue 107), and of the seven existing
+pages listing "**Management of ADD/ADHD**". **A page written specifically for
+parents of three-to-five-year-olds — the audience most likely to be worried
+about a developmental diagnosis — makes no such claim at all.** It does not join
+the psychological-claims group at issues 97 and 102.
+
+#### (f) School readiness, academic performance and behaviour: three claims, two hedged
+
+| Exact wording | Hedge |
+|---|---|
+| "**Studies show that children involved in martial arts tend to perform better in academic settings** because they develop the ability to concentrate for longer periods" | **unhedged, and uncited** — see (g) |
+| "parents **often notice** improvements in behavior at home and in preschool classrooms as well" | "often notice" |
+| FAQ 3: "Parents **often report** that their children listen better, manage frustration more calmly, and show greater respect toward others **after just a few weeks** of training" | "often report" |
+
+**Only the first is a problem**, and it is a problem because of its source, not
+its content.
+
+#### (g) Statistics and sources: no numbers at all, two appeals to research, no citation
+
+**There is not a single percentage, count or figure on this page.** After six
+April pages carrying an invented "65 percent increase in confidence", a "78
+percent" ADHD figure, a "40 percent reduction in bullying" and five different
+calorie ranges, **this page publishes no statistic whatever.**
+
+It makes two appeals to research instead, both uncited:
+
+> "However, **research and experience both show** that starting early provides
+> significant advantages."
+
+> "**Studies show** that children involved in martial arts tend to perform better
+> in academic settings…"
+
+"Studies", "study" and "research" appear once each and name nothing. **Milder
+than anything in the April batch**, and the fix is a citation or a hedge.
+
+#### (h) Disclaimer: none
+
+**No disclaimer of any kind**; "disclaimer", "consult", "doctor", "pediatrician"
+and "medical" occur zero times. Tenth page in a row. On a page about
+three-year-olds grappling, one line recommending a word with the child's doctor
+before starting would be proportionate.
+
 
 **2026-03 addition — `/benefits-of-mma/`: seven of twelve FAQ answers are not
 about the benefits of MMA, the first two questions are the same question, and one
@@ -20274,6 +20648,53 @@ rearranged, as on `/martial-arts-stress-relief-coppell-adults/` and
 MARTIAL ARTS" correctly on all three — so the page contradicts itself about the
 business's own name twice per image.
 
+
+**2026-06 addition — `/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`:
+three close-up images of young children's faces, the heaviest child imagery in
+the project.**
+
+Three **WebP** files, a different pipeline from the April batch — real-sounding
+filenames (`preschool-jiu-jitsu-1.webp`) rather than `Gemini_Generated_Image_*`.
+
+| File | Dimensions | What it shows |
+|---|---|---|
+| `preschool-jiu-jitsu-1024x536.webp` (hero) | 1024×536 | **one child, perhaps five, in a white gi, arms folded, smiling straight at camera**, filling the frame; "SIXTH SENSE MARTIAL ARTS" logo top-left, caption bar "Preschool Jiu Jitsu Builds Confidence" |
+| `preschool-jiu-jitsu-1.webp` | 1200×628 | **two small children grappling** — one in mount over another lying on their back — with an adult coach kneeling beside them, all three faces clear |
+| `preschool-jiu-jitsu-2.webp` | 1200×628 | **two children seated cross-legged shaking hands**, both faces in close-up |
+
+#### Identifiable children: yes, and more prominently than anywhere else
+
+**Five children's faces across three images, all large, sharp and front-facing.**
+Every previous child image in this audit showed children at a distance or within
+a class scene; **these are portraits.**
+
+**The client must confirm photo consent is on file for any child pictured.**
+That is the standing requirement from `/anti-bullying-martial-arts-for-kids/`
+and it applies with more force here because of the framing and the ages (the
+page is written for three-to-five-year-olds).
+
+**On whether these are real children, the honest answer is that it is not
+certain from the files alone.** The rendering has the hallmarks of the generated
+imagery logged at issue 98 — flawless lighting, slightly plastic skin, garbled
+logo shapes in the background — and the second image's mat colour and room do
+not match any other photograph of the gym. **But the filenames follow the
+client's normal upload convention rather than the April batch's**, so the client
+should be asked directly:
+
+1. **If these are real pupils**, written parental consent must be on file for
+   each one, and the gym should hold it before this page is published.
+2. **If they are generated**, the page is showing invented children to parents
+   deciding whether to enrol a three-year-old, which is the same representation
+   problem logged at issues 0d and 98 and matters more at this age.
+
+**Reproduced exactly as published**, at their real dimensions with the live alt
+text ("preschool jiu jitsu" on all three — the same alt on every image, which is
+an accessibility weakness worth fixing: a screen-reader user hears the same
+three words three times).
+
+**No other gym's logo or watermark**, and the brand renders correctly as "SIXTH
+SENSE MARTIAL ARTS" — **no "Sixth Sense Academy"**, unlike the six April pages.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -21571,6 +21992,53 @@ several.
 **Reproduced exactly as published**, per the standing instruction. This is the
 third title-level problem in the April batch, after the Georges title (issue 0a)
 and the lowercase "tx" (issue 106 area).
+
+### 110. Styling classes from an AI chat interface left in the published HTML, and a page with no tags at all — CONTENT (hygiene), SEO — **Low**
+
+#### `font-claude-response-body` in the live markup
+
+Seven elements on
+`/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/` carry
+this class attribute in the published HTML:
+
+> `class="font-claude-response-body break-words whitespace-normal"`
+
+| Element | Content |
+|---|---|
+| `<h3>` | "Contact Us" |
+| `<p>` | "Have questions about our preschool jiu jitsu classes?…" |
+| `<p>` ×3 | the address, phone and email lines |
+| `<h3>` | "Follow Us on Social Media" |
+| `<p>` | "Stay connected with the Sixth Sense Martial Arts community…" |
+
+**These are the stylesheet class names an AI assistant's web interface applies
+to its own output.** They reached the live site because the contact block was
+copied out of a chat window and pasted into WordPress with its formatting
+intact.
+
+**It is cosmetically harmless** — the classes match nothing in the site's
+stylesheet, so they render as plain text — and **it was dropped from the
+rebuild** along with the rest of the source markup. It is logged because it is
+**direct evidence of how this content is produced**, which bears on every
+accuracy finding in this file: the invented statistics (issues 100–107), the
+fabricated testimonials (issue 104), the AI facility photography (issue 98) and
+the age contradictions (issue 109) are all consistent with copy generated
+elsewhere and pasted in without review.
+
+**The same block also carries emoji as field labels** — "📍 817 S MacArthur Blvd
+#100", "📞 (469) 972-7800", "📧 info@sixthsensemma.com" — which no other page on
+the site does. **All three reproduced verbatim.**
+
+#### No tags
+
+**This page has zero tags.** It is the only post in 125 with none at all.
+
+Given that the last six pages carried thirty-plus tags between them targeting
+untaught disciplines and the wrong city, **zero is not the worst outcome** — but
+it means the post sits in no archive and gets no internal links from the
+taxonomy. **Three or four accurate tags carrying Coppell and "kids BJJ" would
+be an improvement**, and unlike the other recent pages there is nothing here to
+remove first.
 
 ## How these were checked
 

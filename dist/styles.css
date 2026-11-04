@@ -1830,6 +1830,7 @@ p { margin: 0 0 1rem; }
   --crimson: #E03C4E;
   --rule: #E4E0DA;
   --wash: #F4F1EC;
+  --wash-soft: #FAF9F7;
 
   background: var(--paper);
   color: var(--ink);
@@ -2109,30 +2110,45 @@ p { margin: 0 0 1rem; }
   overflow-x: auto;
   margin: 40px 0;
 }
-.article-page .ap-body .bl-post-table {
+/* Matched on the wrapper rather than the table class: every article table sits
+   inside .bl-table-wrap, but eight of them carry no .bl-post-table class, so a
+   class-only selector left those unstyled. */
+.article-page .ap-body .bl-table-wrap table {
   width: 100%;
   border-collapse: collapse;
   font-size: 16px;
 }
-.article-page .ap-body .bl-post-table th,
-.article-page .ap-body .bl-post-table td {
+.article-page .ap-body .bl-table-wrap table th,
+.article-page .ap-body .bl-table-wrap table td {
   text-align: left;
   vertical-align: top;
   line-height: 1.6;
+  /* Vertical rules so adjacent columns stay apart on wide tables. */
+  border-right: 1px solid var(--rule);
 }
-.article-page .ap-body .bl-post-table th {
+.article-page .ap-body .bl-table-wrap table th:last-child,
+.article-page .ap-body .bl-table-wrap table td:last-child {
+  border-right: none;
+}
+.article-page .ap-body .bl-table-wrap table th {
   background: var(--wash);
   color: var(--ink);
-  padding: 14px 16px;
+  padding: 14px 18px;
   font-weight: 600;
   border-bottom: 2px solid var(--red);
+  /* Headers that wrap to two lines sit level with single-line neighbours. */
+  vertical-align: bottom;
 }
-.article-page .ap-body .bl-post-table td {
-  padding: 13px 16px;
+.article-page .ap-body .bl-table-wrap table td {
+  padding: 13px 18px;
   border-bottom: 1px solid var(--rule);
 }
-.article-page .ap-body .bl-post-table tbody tr:last-child td { border-bottom: none; }
-.article-page .ap-callout .bl-post-table th { background: rgba(0, 0, 0, 0.05); }
+.article-page .ap-body .bl-table-wrap table tbody tr:last-child td { border-bottom: none; }
+/* Striping lighter than the header wash, so the header still reads as the header. */
+.article-page .ap-body .bl-table-wrap table tbody tr:nth-child(even) {
+  background: var(--wash-soft);
+}
+.article-page .ap-callout .bl-table-wrap table th { background: rgba(0, 0, 0, 0.05); }
 
 /* Four tables on martial-arts-for-kids carry a real caption under the table. */
 .article-page .ap-body .bl-table-figure { margin: 40px 0; }

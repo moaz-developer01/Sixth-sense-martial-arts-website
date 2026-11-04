@@ -3459,6 +3459,66 @@ as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
 
+**2026-11-04 addition, HIGH — the approved meta description for
+`/kids-martial-arts-classes-irving-tx/` names TAEKWONDO, which the gym does not
+teach.**
+
+The client confirmed this description on 4 November 2026 and it is now live on
+the rebuilt page:
+
+> "**Kids Martial Arts Classes Irving TX offer Taekwondo and BJJ for all ages.**
+> Build confidence, fitness, discipline and self-defense skills."
+
+**The gym teaches Brazilian Jiu Jitsu and Muay Thai only.** Taekwondo has **no
+programme page**, no instructor, no schedule and no mention as an offering
+anywhere on the site. Until now it had appeared **only in tags**, on
+`/martial-arts-for-kids-strenght/` and `/martial-arts-near-me-classes/`.
+
+#### Why a meta description is the worst place for this
+
+**A meta description is what a parent reads in the search result before they
+click.** It is not body copy they may skim past and it is not a tag they will
+never see — it is the sentence that wins or loses the click, and it is read by
+someone who has typed a query and is deciding where to send their child.
+
+**A parent searching "taekwondo for kids Irving" will click this result and find
+Brazilian jiu-jitsu.** That is a wasted click for the parent and a bounce for
+the client, and it is the most direct version of the untaught-discipline problem
+logged across this entry — more consequential than the Karate title on
+`/martial-arts-stress-relief-coppell-adults/`, because that page at least never
+mentioned karate in the body, while this one spends six paragraphs explaining
+why BJJ is **better than** taekwondo.
+
+#### The page's own body contradicts its description
+
+Taekwondo appears **six times in the body and FAQ, and every one is a comparison
+with other schools — never an offering.** Verbatim:
+
+| # | Exact wording |
+|---|---|
+| 1 | "Kids who train bjj consistently develop coordination and strengthen their whole body through mat work in a way that **traditional taekwondo or karate classes rarely replicate at the same depth**" |
+| 2 | comparison table column header: "**Traditional Taekwondo Korean**", scored against "BJJ for Children Irving" on six criteria |
+| 3 | "Choosing kids karate irving tx or **traditional taekwondo** or any other program based on how close it is to home without watching a class first is the most common one" |
+| 4 | "A parent of a 14-year-old from the Irving corridor came in specifically because their teen **had outgrown traditional taekwondo** and was bored with the korean forms-based curriculum" |
+| 5 | FAQ 2: "**Is BJJ or taekwondo better for kids in Irving?** Both have real value but they develop different skills" |
+| 6 | "**Traditional taekwondo** builds discipline and striking technique through a korean forms-based curriculum" |
+
+**So the page argues against taekwondo for six paragraphs and then advertises it
+in the search result.** Instance 4 is the sharpest: a testimonial in which a
+child *left* taekwondo for this gym, on a page whose description says the gym
+offers taekwondo.
+
+**The body text was not changed.** This was a metadata-only fix, and the body is
+reproduced verbatim as always.
+
+#### Recommendation
+
+**The client should either confirm Taekwondo is taught — in which case it needs
+a programme page, an instructor and a schedule like the other five — or remove
+it from the description.** "Kids Martial Arts Classes Irving TX offer Brazilian
+Jiu Jitsu for all ages" is the same length and is true.
+
+
 **2026-04-28 addition, LOG AT THE TOP OF THIS ENTRY — `/womens-bjj-classes-near-me/`
 is the FOURTH page selling women's classes while the homepage says the programme
 has not launched. It is also the first to put a women's class in a programme
@@ -21453,9 +21513,9 @@ fitness within 8 weeks**."
 it is marketing language, attached to a number with no source, under an H2
 reading "**What the Data Says**".
 
-### 108. A content brief that supplied the WRONG CITY'S metadata, and a title that sells children's classes and adult classes in one string — PROCESS, SEO — **Medium**
+### 108. A title that sells children's classes and adult classes in one string — SEO — **Medium** (the brief-error half of this entry is **CLOSED**)
 
-#### The brief error, logged so the client can confirm which city this page targets
+#### ~~The brief error~~ — **CLOSED 2026-11-04, resolved by the client**
 
 The build request for `/kids-martial-arts-classes-irving-tx/` arrived with the
 primary keyword "**BJJ Beginners in Coppell tx**" and the Coppell meta
@@ -21467,16 +21527,19 @@ Coppell, and given two pages the same meta description, which is a duplicate
 description on a site that already has fifteen local pages competing with each
 other.
 
-**Irving-appropriate metadata was written instead** and the primary keyword set
-to "Kids Martial Arts Classes Irving TX". **The client should confirm which city
-this page is meant to target**, because the answer changes the recommendation at
-the geographic entry below: if it is genuinely an Irving page it joins the four
-out-of-Coppell pages; if the brief was right and the slug is wrong, the page
-needs a different URL.
+Irving-appropriate metadata was written as an interim measure and the question
+was put to the client.
 
-**Noted as a process issue, not a client-site fault** — but it is the kind of
-copy-paste that produces the duplicate-description and wrong-city problems
-already logged across the local cluster.
+> **RESOLVED 2026-11-04.** The client confirmed the page targets **Irving**, that
+> the primary keyword is **"Kids Martial Arts Classes Irving TX"**, and supplied
+> the approved meta description. The interim description has been replaced with
+> the approved text across `description`, `og:description`,
+> `twitter:description` and the BlogPosting JSON-LD. **No further action on the
+> city question: it is an Irving page.**
+
+**This half of the entry is closed.** The approved description introduced a
+separate problem, which is logged at the service-claims entry — it names
+**Taekwondo**. The title problem below remains open.
 
 #### The title sells two audiences in one string
 

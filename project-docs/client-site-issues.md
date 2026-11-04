@@ -178,6 +178,85 @@ names on one page and three across the April batch.**
 
 ---
 
+### 0d. The second Irving page carrying foreign branding — but this time the invented business is the CLIENT'S OWN, with a branch address printed on the wall — BRANDING, CONTENT (accuracy), LEGAL — **CRITICAL**
+
+`/kids-martial-arts-classes-irving-tx/` (28 April 2026) is the second
+Irving-targeted page after `/mma-gym-valley-ranch-tx/` (issue 0a). The brief
+asked whether a second Irving page carrying foreign branding would point to
+content adapted from another gym. **It does not — and what it shows instead is
+worse in one specific way.**
+
+#### (e) Gym names other than Sixth Sense Martial Arts
+
+| Where | Result |
+|---|---|
+| `<title>` | "Kids Martial Arts Classes Irving TX BJJ Classes for Adults" — **no other business** |
+| H1 | "Why Sixth Sense Martial Arts Is the Top Kids Martial Arts Classes Irving TX" — **clean** |
+| Body and FAQ | **none.** "Georges", "Gracie", "Gracie Barra", "Mohler", "DFW Combat Co" and "Believe Martial Arts" all occur **zero times** |
+| Tags | **none** |
+| **Images** | **"SIXTH SENSE ACADEMY" on all three, and the hero adds "IRVING, TX"** |
+
+**So no competitor appears anywhere.** The Georges problem does not repeat, and
+there is no evidence this page was adapted from another gym's site.
+
+#### (f) Contact details: the client's own, four times over
+
+| Detail | Quote |
+|---|---|
+| Address | "**817 S MacArthur Blvd #100 in Coppell TX**" and "817 S MacArthur Blvd #100 Coppell TX 75019" ×3 |
+| Phone | "**469-972-7800**" ×2 and "**(469) 972-7800**" |
+| Email | "**info@sixthsensemma.com**" |
+
+**No Irving address, no second phone number, no other email.** Every contact
+detail on the page is the real Coppell one.
+
+#### (g) The images invent a branch
+
+**This is the finding.** The hero image's wall signage reads, in full:
+
+> **SIXTH SENSE**
+> **ACADEMY**
+> **IRVING, TX**
+
+beside a Texas-flag graphic reading "**TEXAS BJJ**". The second and third images
+carry the same sign with "**TEXAS**" in place of "IRVING, TX".
+
+**Two separate inventions in one picture:**
+
+1. **"Sixth Sense Academy" is not the client's trading name.** The client is
+   Sixth Sense Martial Arts. This is the **sixth page** to render it (issues 0b
+   and 0c).
+2. **"IRVING, TX" asserts a location the business does not have.** The body of
+   this very page says the gym is "at 817 S MacArthur Blvd #100 in **Coppell**
+   TX" and is "a **short drive** from the Irving and Las Colinas corridor". **The
+   copy is honest and the photograph contradicts it.**
+
+**Why this is more serious than the Valley Ranch title problem.** Issue 0a logged
+a competitor's name in a title tag — bad for search, recoverable by editing one
+field. **This is a photograph of a building with the business's name and a city
+on the wall**, at the top of a page aimed at parents in that city. A parent who
+sees it reasonably concludes there is a Sixth Sense Academy in Irving and that
+their child will train there. There is not and they will not.
+
+**Consistency with the Valley Ranch page:** `/mma-gym-valley-ranch-tx/` was
+logged at issue 99 for telling readers the Coppell unit was "easily found near
+the valley ranch parkway south corridor". **This page's text does not repeat that
+error** — see the geographic entry below, where its Irving framing is assessed as
+correct. **The error has moved from the copy into the artwork.**
+
+#### What the client must do
+
+**Remove or replace the three images before this page goes live.** A sign saying
+"Sixth Sense Academy — Irving, TX" is a claim about where the business operates,
+and it is made in the most credible format available. It cannot be corrected by
+editing the text, because the text is already right.
+
+**The rebuild reproduces all three images exactly as published**, at their real
+dimensions with the live alt text, per the standing replication instruction.
+**This entry is the flag.**
+
+---
+
 ### 0a. A page on the client's domain whose title begins with a COMPETITOR'S name — SEO, LEGAL (trademark), BRANDING — **CRITICAL, the client must explain this before the page goes live**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026, 3,133 words) carries this title tag
@@ -277,6 +356,33 @@ report rather than correct.
 
 
 ### 0. TWENTY posts promise an absence of injury risk, two of them on classes sold to five-year-olds, two on weapons training with no minimum age and one that teaches elbow strikes to the temple and offers home practice — CONTENT (accuracy), LIABILITY — **URGENT**
+
+#### A fourteenth page that needed no omission, and it is a children's page
+
+`/kids-martial-arts-classes-irving-tx/` (28 April 2026, 2,924 words) required
+**no omission**. **"Guarantee", "injury", "hurt", "concussion" and "keep safe"
+occur zero times**, and the page's one use of "safe" is a question it answers
+with a mechanism rather than a promise:
+
+> FAQ 4: "**Is kids MMA Irving Texas safe for young children?**" — "**Yes when
+> the program is structured appropriately for the age group.**… controlled
+> drilling and no inappropriate contact for younger students. The instructor
+> matches training partners by size and experience level and **live sparring is
+> introduced gradually as the child's technique and emotional readiness develop**."
+
+**Conditional, not absolute** — "yes **when**", followed by the conditions. Kept
+on the same basis as FAQ 3 on `/bjj-beginners-in-coppell-tx/`.
+
+**This is the first children's page in the audit to need no omission.** The four
+before it — `/anti-bullying-martial-arts-for-kids/`,
+`/kids-self-defense-classes-near-me/`, `/family-martial-arts-classes/` and
+`/mma-classes-for-kids/` — contributed **nine** of the sixty-seven sentences in
+this entry between them. The safety writing on the kids pages has improved
+markedly; **what has not improved is the accuracy of the claims around it**
+(issue 107).
+
+Running total unchanged: **67 sentences across twenty posts.** Thirteen of the
+last fourteen builds needed no omission.
 
 #### A thirteenth page that needed no omission, and it names injury risk itself
 
@@ -5948,6 +6054,77 @@ page reverts to the anonymous formula the other eleven use.
 
 **No editorial markers** appear anywhere on the page.
 
+**2026-04-28 addition — `/kids-martial-arts-classes-irving-tx/`: the FOURTH page
+advertising kids MMA, and the first to describe it as safe for young children.**
+
+The kids offering at this gym is **BJJ only**. Kids MMA has already been falsely
+advertised on `/mma-classes-for-kids/`, `/kids-self-defense-classes-near-me/` and
+`/martial-arts-for-kids/`. **This page is the fourth, and the most explicit.**
+
+| Where | Exact wording |
+|---|---|
+| Body | "What parents tend to notice first about **kids mma irving texas** and bjj programs that have real structure is the transfer" |
+| Body | "The workout quality of bjj for children irving **and kids mma irving texas programs** outperforms most youth sports" |
+| **FAQ 4, question** | "**Is kids MMA Irving Texas safe for young children?**" |
+| **FAQ 4, answer** | "Yes when the program is structured appropriately for the age group. **At Sixth Sense the kids mma irving texas training is age-appropriate and technique-focused** with controlled drilling and no inappropriate contact for younger students" |
+| FAQ 8 | "the movement-based instruction of bjj **or kids mma irving texas** keeps them engaged" |
+| **Tag** | `beginner kids MMA classes Irving` |
+
+**FAQ 4 is the problem in one answer.** It names the programme ("At Sixth Sense
+the kids mma irving texas training"), confirms it exists, and then reassures a
+parent about its safety protocols. **A parent who reads it believes their child
+can be enrolled in a kids MMA class at this gym. They cannot.** It is also the
+page's best safety writing (issue 107), attached to a class that does not run.
+
+**Also unlinked and reported:** the rebuild leaves every "kids mma irving texas"
+reference as plain text, and does **not** link it to `kids-bjj-classes.html` —
+the standing rule since `/mma-classes-for-kids/`. Note, however, that **the
+client's own Explore More block links to `/mma-classes-for-kids/`**, the blog
+post that carries the same false claim, so the two pages now reinforce each
+other.
+
+#### Disciplines named for kids and for adults
+
+| Discipline | Mentions | Claimed as a Sixth Sense offering? | Programme page? |
+|---|---|---|---|
+| BJJ / Brazilian jiu-jitsu | 28 | **yes**, for kids, teens and adults | **yes**, all three |
+| **MMA** | 10 | **yes, for kids** | **none** |
+| Karate | 8 | **no** — every mention is a comparison with other schools | none |
+| Taekwondo | 6 | **no** — same | none |
+| **Muay Thai** | **0** | — | yes, but never mentioned |
+| Kickboxing, judo, wrestling | 0 | — | — |
+
+**Karate and taekwondo are handled correctly**, as comparisons rather than
+offerings: "Kids who train bjj consistently develop coordination… in a way that
+**traditional taekwondo or karate classes rarely replicate**", and a whole
+comparison table setting "Kids Karate Irving TX" and "Traditional Taekwondo
+Korean" against "BJJ for Children Irving". **The page never says the gym teaches
+either.**
+
+**But the live meta description does**: "Kids Martial Arts Classes Irving TX
+offer **Taekwondo and BJJ** for all ages." **Taekwondo is not taught at this
+gym.** The rebuild uses Irving-appropriate metadata naming BJJ and Muay Thai
+instead (see the content-brief note below), so the taekwondo claim does not
+carry into the rebuilt page — **but it is live on the client's site now**, and it
+is the only place on the page where an untaught discipline is offered rather than
+compared.
+
+**Muay Thai is never mentioned**, despite the title promising "BJJ Classes for
+Adults" and the gym running two Muay Thai programmes. So `adult-muay-thai-classes.html`
+and `teen-muay-thai-classes.html` were **left unlinked** — there is no text to
+attach them to.
+
+**Certified instructors: not claimed.** "Certified" and "certification" occur
+**zero times** — third page running to avoid it. Instead: "Coach Mattheus Galvao"
+×3 and "**His black belt lineage**", with **no lineage named** — the same gap as
+issues 101 and 105, in its briefest form.
+
+**Pricing: none.** No price, membership or dollar figure. "Free trial" ×6 with
+"**no credit card required and no long-term commitment**", consistent with the
+programme pages. **Not a thirteenth pricing page.**
+
+**No editorial markers** appear anywhere on the page.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -9507,6 +9684,35 @@ but which is also the invented trading name printed in this page's own images.
 **Not reproduced on the rebuilt page.** No tag section is rendered, per the
 standing instruction.
 
+**2026-04-28 addition — `/kids-martial-arts-classes-irving-tx/`: eleven tags,
+ten carrying Irving, none carrying Coppell — and THREE naming disciplines the
+gym does not teach to children.** The post carries 11 tags: `after school
+martial arts Irving`, `beginner kids MMA classes Irving`, `children martial arts
+classes Irving`, `fitness classes for kids Irving TX`, `Irving TX karate classes
+for kids`, `kids BJJ classes Irving TX`, `kids kickboxing classes Irving`, `Kids
+Martial Arts Classes Irving TX`, `kids martial arts Irving TX`, `kids self
+defense training Irving`, `youth martial arts programs Texas`.
+
+| Flag | Tags |
+|---|---|
+| **Another business named** | **none** |
+| **Untaught discipline** | **three, and all three are children's classes**: `beginner kids MMA classes Irving`, `Irving TX karate classes for kids`, `kids kickboxing classes Irving`. The kids offering is **BJJ only** |
+| **City** | **ten of eleven carry Irving**; one says Texas; **none carries Coppell**, where the gym is |
+
+**The three untaught tags are the serious ones**, because each builds an
+indexable archive page advertising a children's class that does not exist — kids
+MMA (already false on four pages, see the service-claims entry), kids karate and
+kids kickboxing. **The body of the page is careful about karate and taekwondo
+and the taxonomy is not.**
+
+**And the city pattern inverts the one on the two pages before it.**
+`/bjj-beginners-in-coppell-tx/` had **eleven of eleven** carrying Coppell (issue
+106); this page has **ten of eleven** carrying Irving and zero Coppell. For a gym
+with one location in Coppell that serves Irving, **the tags should carry both**.
+
+**Not reproduced on the rebuilt page.** No tag section is rendered, per the
+standing instruction.
+
 ### 24. Two "Martial Arts Classes" posts, one with a `-2` URL — SEO — High
 
 Two separate posts both target the keyword "Martial Arts Classes":
@@ -9881,6 +10087,7 @@ Google then has to pick one and ranks all of them weaker.
 | **Belt and rank progression (confirmed, SEVEN pages, including a near-exact duplicate pair)** | `/bjj-belt-ranks-in-coppell/` · `/brazilian-jiu-jitsu-belts/` · `/brazilian-jiu-jitsu-belt-ranks/` · `/martial-arts-belt-levels/` · `/martial-arts-progression/` · `/bjj-belt-ranks/` · `/bjj-belt-ranks-explained/` — see below |
 | **Kali sticks** (confirmed, fourth pair) | `/martial-arts-kali-sticks/` · `/martial-arts-kali-stick-2/` (see issue 6) |
 | **Benefits pages (confirmed, FOUR pages from one template in six days)** | `/benefits-of-bjj/` · `/benefits-of-mma/` · `/benefits-of-muay-thai/` · `/benefits-of-kickboxing/` — **CRITICAL**, see issue 94 |
+| **Kids content (confirmed, SEVEN pages)** | `/kids-martial-arts-classes-irving-tx/` · `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` · `/mma-classes-for-kids/` · `/kids-self-defense-classes-near-me/` · `/anti-bullying-martial-arts-for-kids/` · `/family-martial-arts-classes/` — see below |
 | **BJJ in Coppell (confirmed, NINE pages chasing one discipline in one city)** | `/bjj-beginners-in-coppell-tx/` · `/brazilian-jiu-jitsu-coppell-tx/` · `/bjj-classes-near-me/` · `/brazilian-jiu-jitsu-near-me/` · `/jiu-jitsu-near-me/` · `/womens-bjj-classes-near-me/` · plus three BJJ programme pages — **CRITICAL**, see below |
 | **Women's content (confirmed, FOUR pages selling a programme that has not launched)** | `/womens-bjj-classes-near-me/` · `/self-defense-classes-for-women/` · `/womens-self-defense-class/` · plus the women's sections of `/martial-arts-near-me/` and `/martial-arts-gyms-near-me/` — **CRITICAL**, see below |
 | **Muay Thai fitness (confirmed, FOUR pages on training for fitness and weight)** | `/muay-thai-for-weight-loss-coppell/` · `/benefits-of-muay-thai/` · `/muay-thai-fitness-workout/` · `/muay-thai-training/` — see below |
@@ -10388,6 +10595,83 @@ this page is missing entirely. Keep `/muay-chaiya/` and
 `/are-there-multiple-styles-of-muay-boran/` only if the client wants
 style-specific pages, and fix the 16th-century Nai Khanom Tom error on the latter
 before anything else.
+
+#### The seventh kids page, the eighteenth local page, and the fourth aimed outside Coppell
+
+`/kids-martial-arts-classes-irving-tx/` (28 April 2026) lands in two clusters.
+
+**The kids cluster, now seven pages**, all linked to from this one's Explore More
+block except the two strength posts:
+
+| Page | Angle |
+|---|---|
+| `/kids-martial-arts-classes-irving-tx/` | kids BJJ, **Irving** |
+| `/martial-arts-for-kids/` · `/martial-arts-for-kids-strenght/` | general kids |
+| `/mma-classes-for-kids/` | **kids MMA, which does not exist** |
+| `/kids-self-defense-classes-near-me/` | kids self-defence |
+| `/anti-bullying-martial-arts-for-kids/` | bullying |
+| `/family-martial-arts-classes/` | families |
+
+**Measured overlap:**
+
+| Sibling | Exact H2 matches | All levels | H2 word overlap |
+|---|---|---|---|
+| `/martial-arts-for-kids/` | **0 of 12 (0.0%)** | 0 of 21 (0.0%) | 24.5% |
+| `/kids-self-defense-classes-near-me/` | 1 of 12 (8.3%) — "FAQ's" | 1 of 21 (4.8%) | 20.8% |
+
+**No editorial heading shared with either.** As across the whole April batch the
+duplication is at keyword and intent level, not text level.
+
+#### (a)–(d) The Irving question, and this page gets it RIGHT
+
+| Check | Result |
+|---|---|
+| **(a) Claims a location, class or facility IN Irving?** | **No.** Every reference places the gym outside Irving |
+| **(b) Gives an Irving address?** | **No.** The only address is "817 S MacArthur Blvd #100 Coppell TX 75019", given four times |
+| **(c) Describes Irving as a service area?** | **Yes, explicitly and repeatedly** |
+| **(d) Other cities named** | **Irving ×57**, **Las Colinas ×7**, **Coppell ×5**, **Valley Ranch ×1**. No Dallas, no DFW |
+
+**The service-area framing, quoted in full:**
+
+> "Sixth Sense Martial Arts at 817 S MacArthur Blvd #100 **in Coppell TX** is **a
+> short drive from the Irving and Las Colinas corridor**… **it's worth the drive**."
+
+> "The facility sits **just outside Irving** near the Valley Ranch corridor and
+> **it serves students** of all ages…"
+
+> H2: "Why Sixth Sense Is the Premier Martial Arts School for Kids **Near** Irving TX"
+
+> "The facility is **a short drive from Irving and Las Colinas**…"
+
+**"Just outside Irving", "a short drive from", "near", "worth the drive".** The
+page never pretends the gym is in Irving and it twice tells the reader they will
+have to travel.
+
+#### Consistency with the Valley Ranch page: BETTER, and the client should see both
+
+| | `/mma-gym-valley-ranch-tx/` | `/kids-martial-arts-classes-irving-tx/` |
+|---|---|---|
+| Headings imply a local gym | **yes** — "Your MMA Gym in Valley Ranch TX Is Ready" | **no** — "Near Irving TX" |
+| Misstates where the gym is | **yes** — "easily found near the valley ranch parkway south corridor" | **no** |
+| Address given | Coppell | Coppell |
+| **Images** | AI, brand misspelled | **AI, and signage reads "Sixth Sense Academy — IRVING, TX"** |
+
+**The copy is fixed and the problem has moved to the artwork** (issue 0d). That is
+the single sentence to put in front of the client: the writer learned the lesson
+and the image generator did not.
+
+#### The out-of-Coppell set, now four pages
+
+| Page | Target | Honest framing? |
+|---|---|---|
+| `/brazilian-jiu-jitsu-orlando/` | **Orlando, Florida — 1,100 miles** | **no** |
+| `/mma-gym-valley-ranch-tx/` | Valley Ranch, Irving | **no** (issue 99) |
+| `/choosing-a-martial-arts-gym-in-dfw/` | Dallas, DFW | **yes** (issue 99) |
+| **`/kids-martial-arts-classes-irving-tx/`** | **Irving, Las Colinas** | **yes in the copy, no in the images** |
+
+**Recommendation: keep this page and fix its pictures.** Irving and Las Colinas
+are a legitimate catchment for a Coppell gym and the copy treats them that way.
+**Orlando remains the one that cannot be fixed this way.**
 
 #### NINE pages chasing BJJ in one city, and two slugs that differ by two words
 
@@ -16365,6 +16649,52 @@ carrying `target="_blank" rel="noopener"`. **No competitor is named or linked** 
 gracie legacy"). **Gracie Barra does not appear**, unlike the three pages at
 issue 61. **Zero empty ChatGPT citation anchors.**
 
+**2026-04-28 addition — `/kids-martial-arts-classes-irving-tx/`: fourteen
+internal links, correctly aimed, and one that points at the site's own false
+claim.**
+
+**Every internal link created, and where it points:**
+
+| Anchor text | Target | Count |
+|---|---|---|
+| "Kids BJJ Classes" | `kids-bjj-classes.html` | 2 |
+| "Teen BJJ Classes" | `teen-bjj-classes.html` | 2 |
+| "Anti-Bullying Martial Arts for Kids" | `anti-bullying-martial-arts-for-kids.html` | 2 |
+| "Family Martial Arts Classes" | `family-martial-arts-classes.html` | 2 |
+| "Kids Self-Defense Classes Near Me" | `kids-self-defense-classes-near-me.html` | 1 |
+| "**MMA Classes for Kids**" | `mma-classes-for-kids.html` | 1 |
+| "Martial Arts for Kids" | `martial-arts-for-kids.html` | 1 |
+| "info@sixthsensemma.com" | `mailto:` | 1 |
+
+**Both kids programme pages are linked twice each with anchors that name them
+exactly**, which is the correct pattern for a children's conversion page.
+Nothing needed unwrapping for misdirection.
+
+**But the sixth row is a problem.** The client's own Explore More block links to
+**"MMA Classes for Kids"** — the blog post that advertises a kids MMA programme
+the gym does not run. **So a parent reading the false kids MMA claim in FAQ 4 is
+then handed a link to a whole page of it.** The link resolves and the anchor
+names its destination honestly, so it was kept; **the fix is at the destination,
+not the link.**
+
+**Left unlinked, and reported as asked:**
+
+| Reference | Why |
+|---|---|
+| **kids MMA** (5 mentions) | **no MMA programme at any age**; never linked to `kids-bjj-classes.html`, per the standing rule |
+| **Karate** (8), **taekwondo** (6) | no programme pages; both appear only as comparisons with other schools |
+| `adult-muay-thai-classes.html`, `teen-muay-thai-classes.html` | **Muay Thai is never mentioned on the page**, so there is nothing to link |
+| `adult-bjj-classes.html` | adults appear only as parents and as a family option; no adult BJJ reference to attach a link to |
+
+**Two links had to go.** "**Claim Your Spot**" in the contact block and "**landing
+page**" in FAQ 12 both point at `/landing-page/`, the empty placeholder. **Both
+unwrapped, text kept.** **Seven pages now** send their free-trial call to action
+to a blank page.
+
+**Externals: one, the client's own Instagram**, with `target="_blank"
+rel="noopener"`. **No link points at another gym** — and no other gym is named
+anywhere on the page (issue 0d). **Zero empty ChatGPT citation anchors.**
+
 ### 66. Two WordPress placeholder pages, live and indexable, linked from a published article — SEO, CONTENT — **High**
 
 `/top-ten-martial-arts-for-self-defense/` contains two internal links whose
@@ -19838,6 +20168,52 @@ facility used on `/choosing-a-martial-arts-gym-in-dfw/` and
 problem on six pages at once** — and on this page it would also let the kids
 programme actually appear.
 
+
+**2026-04-28 addition — `/kids-martial-arts-classes-irving-tx/`: three more AI
+images, fifteen-plus generated children, and a branch address on the wall.**
+
+Seventh page in seven days on AI-generated photography. **Twenty-one such images
+across seven pages.** All three PNG, 1024×541.
+
+| File | Alt text | What it shows |
+|---|---|---|
+| `Gemini_Generated_Image_5y3vlk…` (hero) | "Kids Martial Arts Classes Irving TX" | two children drilling from guard in white gis, three more behind with an adult coach; wall sign "**SIXTH SENSE ACADEMY · IRVING, TX**" with a Texas-flag "TEXAS BJJ" graphic |
+| `Gemini_Generated_Image_5vunla…` | "What Irving TX Parents Are Actually Dealing With" | a kneeling coach instructing **eleven children**, a row of **parents watching from chairs behind glass**, a caged octagon; wall sign "SIXTH SENSE ACADEMY · TEXAS" |
+| `Gemini_Generated_Image_u3gluz…` | "Benefits of Kids Martial Arts Classes at Sixth Sense for Irving Families" | **the same scene again** with two children moved to the foreground |
+
+#### The branch sign — see issue 0d
+
+The hero prints "**IRVING, TX**" beneath the business name. **The client has no
+Irving location** and the page's own copy says so. Full detail at issue 0d.
+
+#### Fifteen or more identifiable children
+
+**Every one of the three images is full of children's faces** — four in the hero,
+eleven or more in each of the other two, all clearly rendered and in focus,
+at ages matching the 4–12 bands the page advertises. **This is by far the
+heaviest use of child imagery in the audit.**
+
+They are generated, so **no consent question arises for these specific images** —
+but the representation question is sharper than on `/martial-arts-confidence-building/`
+(issue 98), because here the invented children are shown at an invented branch
+in the city the page targets. **A parent in Irving sees a room full of local
+children at a local gym.** Neither exists.
+
+**The standing note still applies**: if real pupil photography is ever
+substituted, written parental consent must be on file for every identifiable
+child — the requirement first logged for
+`/anti-bullying-martial-arts-for-kids/`.
+
+#### Two of three are the same render, again
+
+The second and third images are the same generated scene with the foreground
+rearranged, as on `/martial-arts-stress-relief-coppell-adults/` and
+`/womens-bjj-classes-near-me/`. **The page has two distinct pictures, not three.**
+
+**No other gym's logo or watermark**, and the corner lockup reads "SIXTH SENSE
+MARTIAL ARTS" correctly on all three — so the page contradicts itself about the
+business's own name twice per image.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -20933,6 +21309,205 @@ is checkable**: a 19-month blue belt is a gym record.
 testimonials, **one name between them**, several recycled across pages with the
 discipline swapped (issue 104). The client should be asked outright whether any
 of them are real.
+
+### 107. The fifth child-safety page: a 78% ADHD improvement figure, a kids MMA programme that does not exist described as safe, and no protective equipment anywhere — CONTENT (accuracy), SAFEGUARDING — **High, the client must review before publication**
+
+`/kids-martial-arts-classes-irving-tx/` (28 April 2026, 2,924 words) is the
+**fifth page in the CHILD SAFETY CONTENT group**, after
+`/anti-bullying-martial-arts-for-kids/`, `/kids-self-defense-classes-near-me/`,
+`/family-martial-arts-classes/` and `/mma-classes-for-kids/`.
+
+#### The ADHD claim, and it is quantified
+
+> "For **ADD and ADHD** specifically the structured path of martial arts class
+> **has been documented to improve focus and attention in 78 percent of child
+> participants**. The combination of physical output and mental instruction and
+> clear behavioral expectations **addresses the underlying dysregulation** in a
+> way that passive activities don't."
+
+> FAQ 8, "Can kids with ADD or ADHD benefit from youth martial arts Irving?" —
+> "**Yes and the research on this is consistent.** The structured environment and
+> physical output and clear behavioral expectations of a real martial arts class
+> **address many of the underlying challenges of ADD and ADHD** in practical ways."
+
+**This is the most specific clinical claim about children anywhere in the audit.**
+A named neurodevelopmental condition, a precise percentage, a mechanism
+("addresses the underlying dysregulation"), and **no study, author, sample,
+measure or year**. "Research" is invoked twice and named never.
+
+**The site has form on this and the client should see the full picture.**
+"ADD/ADHD" already appears on **seven existing pages**, including the programme
+pages themselves:
+
+| Page | How it appears |
+|---|---|
+| `kids-bjj-classes.html` | "**Management of ADD/ADHD**" listed as something the programme "can help with" |
+| `teen-bjj-classes.html`, `teen-muay-thai-classes.html`, `adult-muay-thai-classes.html` | same list |
+| `anti-bullying-martial-arts-for-kids.html`, `family-martial-arts-classes.html`, `sambo-techniques-for-beginners.html` | in body copy |
+
+**So the programme pages make a bald "Management of ADD/ADHD" claim and this page
+puts a number on it.** A parent of a diagnosed child reads "78 percent" and acts
+on it. **Recommendation: drop the figure, and change "Management of" to
+"Supporting focus and self-regulation" across all eight pages.** That is a
+defensible claim; a management claim about a diagnosis is not.
+
+#### Does the page claim training keeps a child safe or guarantees protection?
+
+**No.** "Guarantee", "keep safe", "injury", "hurt" and "protect" (in a safety
+sense) occur **zero times**. The single use of "safe" is FAQ 4's question, below.
+**The confidence framing is unusually careful and should be quoted to the client
+as the model:**
+
+> "**The goal isn't to train your child to fight.** The goal is to build the kind
+> of confidence that makes them a **harder target in the first place**. Kids who
+> carry themselves with genuine capability and self-assurance tend to be left
+> alone."
+
+"Harder target", "tend to be left alone" — hedged, probabilistic, no promise.
+**Nothing needed omitting.**
+
+#### Ages: the most detailed table on the site, and it has an internal overlap
+
+| Program | Ages | Skill Focus | Format | Key Benefit |
+|---|---|---|---|---|
+| Preschool BJJ | **Ages 4-5** | Motor skills and foundation movement | Gi | Coordination and listening |
+| Little Champions | **Ages 4-7** | Fundamental bjj and build confidence | Gi | Discipline and self-esteem |
+| Rising Champions | **Ages 8-12** | Technique and practical self-defense | Gi | Real skill and resilience |
+| Teen Martial Arts | **Ages 13-17** | Advanced bjj and champion development | Gi and No-Gi | Mental toughness and best life skills |
+| Kids and Adults | Family option | Shared martial arts training | Gi | Family commitment and community |
+
+**Minimum stated age: 4.** Confirmed twice more in the FAQ — "The preschool
+program at Sixth Sense **starts at age 4**" and "The preschool program runs for
+**ages 4 and 5**". **Maximum: 17.**
+
+**Against the programme pages, two problems.**
+
+**First, `kids-bjj-classes.html` states no numeric age range at all.** It lists
+benefits and a sign-up form and never says who the programme is for. So this
+table cannot contradict it — **but it cannot be checked against it either**, and
+a blog post is now the most specific statement of the gym's age bands anywhere on
+the site.
+
+**Second, "Little Champions" already appears with THREE different age ranges**
+across the existing pages, and this table adds a fourth overlapping band:
+
+| Source | Range |
+|---|---|
+| `martial-arts-near-me-classes.html` | "Little Champions **(Ages 4 to 7)**" |
+| `martial-arts-for-kids-strenght.html` | "Little Champions Program **(Ages 4 6)**" |
+| `martial-arts-for-self-defense.html` | "ages **4 to 6**" |
+| **this page** | "Little Champions · **Ages 4-7**", **plus a separate "Preschool BJJ · Ages 4-5"** |
+
+**A four-year-old now falls into two programmes at once on this page**, Preschool
+BJJ and Little Champions, with no explanation of the difference. **The client
+needs to state the real bands once and apply them everywhere.**
+
+#### Children sparring and striking: described, with supervision and contact limits — but no equipment
+
+| Exact wording | What it covers |
+|---|---|
+| "the kids mma irving texas training is age-appropriate and technique-focused with **controlled drilling and no inappropriate contact for younger students**" | **contact limits** |
+| "**The instructor matches training partners by size and experience level** and **live sparring is introduced gradually** as the child's technique and emotional readiness develop" | **supervision and progression** |
+| "Teens who train here are working with real technique and **real sparring progression**" | teen sparring |
+| "grappling and **striking drills** engage the whole body through every session" | striking, for children |
+| "Let the instructor run the class **without stepping in from the side** as the coaching staff is trained to handle first-class nerves" | supervision |
+
+**That is the best supervision and contact language in the child-safety group** —
+better than `/mma-classes-for-kids/`, which never said where strikes may land
+(issue 90). **But protective equipment is never mentioned once.** "Mouthguard",
+"headgear", "shin guard", "pads" and "protective" occur **zero times**, on a page
+that describes children striking and sparring. For four-to-seven-year-olds that
+omission matters, and the fix is one sentence.
+
+#### Images: fifteen or more identifiable children
+
+**Yes. All three images show children's faces clearly and in focus** — four in
+the hero, eleven or more across the other two, at ages matching the 4–12 bands.
+
+**These children are AI-generated**, as on the five April pages before this one
+(issue 98), so the question is not consent but representation: **a parent looking
+at the hero sees four children being coached at "Sixth Sense Academy — Irving,
+TX" and concludes they are pupils at a gym in Irving.** Neither the children nor
+the branch exists. See issue 0d.
+
+**The client should still confirm photo consent policy**, because if any real
+pupil photography is ever substituted the same page will need it on file — the
+standing note from `/anti-bullying-martial-arts-for-kids/`.
+
+#### Two more statistics, both already logged elsewhere
+
+> "Kids in real martial arts training show a **40 percent reduction in bullying
+> incidents** compared to non-training peers."
+
+> "Six months of consistent training produces a **65 percent average increase in
+> confidence** measured across self-reported and parent-reported assessments.
+> **That's not marketing language. That's what shows up in the data.**"
+
+**The bullying figure is now on two pages** (with `/bjj-beginners-in-coppell-tx/`,
+issue 106) and **the confidence figure on six** (issues 100, 101, 102, 104, 106).
+Neither is cited anywhere. A third: "Kids who train martial arts twice per week
+show **measurable improvement in coordination and flexibility and cardiovascular
+fitness within 8 weeks**."
+
+**"That's not marketing language" is the sentence to show the client**, because
+it is marketing language, attached to a number with no source, under an H2
+reading "**What the Data Says**".
+
+### 108. A content brief that supplied the WRONG CITY'S metadata, and a title that sells children's classes and adult classes in one string — PROCESS, SEO — **Medium**
+
+#### The brief error, logged so the client can confirm which city this page targets
+
+The build request for `/kids-martial-arts-classes-irving-tx/` arrived with the
+primary keyword "**BJJ Beginners in Coppell tx**" and the Coppell meta
+description — **both belonging to `/bjj-beginners-in-coppell-tx/`**, the post
+built the day before.
+
+**Using them would have done two things at once:** targeted an Irving URL at
+Coppell, and given two pages the same meta description, which is a duplicate
+description on a site that already has fifteen local pages competing with each
+other.
+
+**Irving-appropriate metadata was written instead** and the primary keyword set
+to "Kids Martial Arts Classes Irving TX". **The client should confirm which city
+this page is meant to target**, because the answer changes the recommendation at
+the geographic entry below: if it is genuinely an Irving page it joins the four
+out-of-Coppell pages; if the brief was right and the slug is wrong, the page
+needs a different URL.
+
+**Noted as a process issue, not a client-site fault** — but it is the kind of
+copy-paste that produces the duplicate-description and wrong-city problems
+already logged across the local cluster.
+
+#### The title sells two audiences in one string
+
+> `<title>` and `og:title`: "**Kids Martial Arts Classes Irving TX BJJ Classes
+> for Adults**"
+
+**Two keyword phrases run together with no punctuation**: a children's phrase
+and an adults' phrase, concatenated. In a search result it reads as a single
+broken sentence, and it competes for two different intents with one string.
+
+**The body is almost entirely about children.** Of twenty headings, **seventeen
+are about kids or teens**; adults appear only as parents, as a family-training
+option, and in one table row ("Kids and Adults · Family option"). The phrase
+"adult martial arts classes" occurs twice, both times meaning *the parents can
+train too*.
+
+| Element | Audience |
+|---|---|
+| `<title>` | **both**, concatenated |
+| **H1** | "Why Sixth Sense Martial Arts Is the Top **Kids** Martial Arts Classes Irving TX" — **kids only** |
+| Body and FAQ | **kids and teens**, with adults as parents |
+
+**So the H1 picks one audience and the title picks both.** They do not match, and
+the title is the string Google shows. **The fix is deleting the second half**:
+"Kids Martial Arts Classes Irving TX" is a complete title that matches the H1 and
+the content. The adults' phrase belongs on an adults' page, of which the site has
+several.
+
+**Reproduced exactly as published**, per the standing instruction. This is the
+third title-level problem in the April batch, after the Georges title (issue 0a)
+and the lowercase "tx" (issue 106 area).
 
 ## How these were checked
 

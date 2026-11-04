@@ -48,6 +48,13 @@ HTML comment in its place, log it in project-docs/client-site-issues.md,
 complete steps 2 to 4 anyway, and raise the issue in your reply. The post still
 ships, minus the problem sentence.
 
+Internal links are REPLICATED, not created.
+Only link a phrase if the live page links it. When it does, point the href at
+the matching local file instead of the live URL.
+Never wrap plain text in a new anchor because it mentions a programme.
+If a programme is mentioned but not linked on the live page, leave it as
+plain text.
+
 After every blog build, print exactly this and nothing else before it:
   BUILT: <slug>
   posts.json entries: <n>

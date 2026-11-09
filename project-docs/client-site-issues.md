@@ -6299,6 +6299,48 @@ thirteenth.**
 **No editorial markers** ("H2:", "(Use bullets)", "(Use table format)", "Call to
 Action:") appear anywhere on the page.
 
+**2026-11-09 addition, HIGH — `/kickboxing-belt-rankings/` sells a KICKBOXING
+BELT GRADING PROGRAMME. There is no kickboxing programme on this site, and
+nothing anywhere says the gym awards kickboxing belts.**
+
+Three sentences, two of them in the client's own voice:
+
+> "At Sixth Sense Martial Arts in Coppell, TX, **our kickboxing program is
+> built around structured progression** that keeps students motivated and
+> growing at every level."
+
+> "Have questions about **our kickboxing classes or belt ranking program**? We
+> would love to hear from you."
+
+> "Follow us for training tips, **belt grading updates**, student highlights,
+> and exclusive offers."
+
+**This is the eleventh kickboxing page and the gym still has no kickboxing
+programme page.** The five programme pages are Adult BJJ, Adult Muay Thai,
+Kids BJJ, Teen BJJ and Teen Muay Thai. Kickboxing maps to Muay Thai, and
+**Muay Thai is not belt-graded the way the article describes** — no Muay Thai
+programme page mentions a belt, a stripe, a grading test or a dan rank.
+
+| What the page claims | What the site offers |
+|---|---|
+| "our kickboxing program" | **no kickboxing programme page exists** |
+| "our … belt ranking program" | **no page on the site describes a kickboxing grading** |
+| "belt grading updates" on social | the Muay Thai pages describe **no grading of any kind** |
+| a white-to-black ladder with timed ranks | the BJJ pages grade BJJ; the Muay Thai pages grade nothing |
+
+**The rest of the article is careful about this and that makes the three
+sentences stand out.** The body consistently says "many kickboxing schools",
+"most schools", "your specific gym" — third person, about the sport at large.
+The claim only becomes first-person in the Conclusion and Contact blocks, which
+is exactly where a reader decides whether to enquire.
+
+**What the client must confirm:** does Sixth Sense run a kickboxing class, and
+does it award belts in it? If not, three sentences need rewording and the page
+should point at Adult Muay Thai. **If it does, the programme needs a page**, a
+schedule and a published grading syllabus, because a page selling a grading
+with no syllabus anywhere on the site is the same gap as the twelve pages that
+promise pricing and publish none.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11284,6 +11326,57 @@ a programme called "BJJ Training Tips".
 
 The kickboxing page's recovery and rest-day paragraph is the one passage worth
 carrying over wholesale, because the BJJ page lacks it entirely (issue 96b).
+
+#### The eighth belt post and the eleventh kickboxing page, and the first for a
+#### discipline with neither a programme nor a governing body
+
+`/kickboxing-belt-rankings/` (23 June 2026) is **both** the eighth belt and
+progression post **and** the eleventh kickboxing page. It is the first belt
+post in the project for a discipline that has **no programme page** and **no
+universal grading system**.
+
+**The eight belt and progression posts:**
+
+| Page | System described |
+|---|---|
+| `/bjj-belt-ranks/` | BJJ |
+| `/bjj-belt-ranks-explained/` | BJJ, adults and kids |
+| `/bjj-belt-ranks-in-coppell/` | BJJ, local |
+| `/brazilian-jiu-jitsu-belt-ranks/` | BJJ |
+| `/brazilian-jiu-jitsu-belts/` | BJJ, including coral and red |
+| `/martial-arts-belt-levels/` | generic, karate / judo / taekwondo / hapkido |
+| `/martial-arts-progression/` | generic, white to black |
+| **this page** | **kickboxing — no programme, no governing body named as the authority** |
+
+**Measured heading overlap against the two closest siblings:**
+
+| Sibling | Exact heading matches | Heading-word overlap |
+|---|---|---|
+| `/martial-arts-belt-levels/` | **1 of 14 (7.1%)** — "Conclusion" | 21.7% |
+| `/bjj-belt-ranks-explained/` | **4 of 14 (28.6%)** | 41.3% |
+
+**Read the second row carefully.** All four matches are the site-wide
+boilerplate that closes every post — "Conclusion", "Contact Us", "Follow Us on
+Social Media" and "FAQ's". **Not one editorial heading matches.** The real
+editorial overlap with the BJJ belt posts is **zero**.
+
+**So is it a template clone of the BJJ belt posts with the colours swapped? No,
+and this needs saying plainly because it was the thing to check.** The BJJ
+posts run a five-belt adult ladder — white, blue, purple, brown, black, with
+coral and red above it. This page runs an **eight-belt ladder with yellow,
+orange and green in it**, which is a karate and taekwondo structure, and the
+page says so itself: "The kickboxing belt system works similarly to karate and
+taekwondo ranking systems." **The structure it actually duplicates is
+`/martial-arts-belt-levels/`**, whose colour list is identical colour for colour
+— white, yellow, orange, green, blue, purple, brown, black, red — yet the
+measured heading overlap with that page is the lowest of the two at 7.1%. **Same
+ladder, different prose.** It does not confuse BJJ with kickboxing anywhere.
+
+**Recommendation: keep it, after the programme question is settled.** It is the
+only belt post covering a non-BJJ striking art in any depth and it does not
+cannibalise the BJJ cluster. But it is the **eleventh page selling a discipline
+with no programme page** (issue 39 addition above), and that is the thing to fix
+before anything else.
 
 #### The tenth kickboxing page, and it is the LEAST duplicative of the ten
 
@@ -22039,6 +22132,144 @@ it means the post sits in no archive and gets no internal links from the
 taxonomy. **Three or four accurate tags carrying Coppell and "kids BJJ" would
 be an improvement**, and unlike the other recent pages there is nothing here to
 remove first.
+
+### 111. A belt system presented as THE kickboxing ranking, with one federation cited for standards it does not set — CONTENT (accuracy), SEO — **Medium** (the programme half is HIGH, logged at issue 39)
+
+Kickboxing has **no single governing body and no universal belt system.**
+Different sanctioning organisations grade differently and a large share of
+kickboxing gyms award no belts at all. This page is accurate about that in two
+places and overstates it in two others, and the mix is worth recording because
+practitioners spot it immediately.
+
+#### (a) One system as universal, or systems that vary? BOTH, in the same page
+
+**It hedges where it matters most, in the FAQ:**
+
+> "**No, not all gyms use belts.** Competitive styles like K-1 rank fighters by
+> fight records. However, most traditional kickboxing schools use a structured
+> belt system to track progress and reward dedication."
+
+> "It is important to note that **timelines vary depending on the school**,
+> training frequency, and individual progress. Additionally, **some schools
+> include a red belt** at the beginning or between certain ranks. Therefore,
+> **always check with your specific gym** about their exact ranking structure."
+
+**That is the honest framing, and it is good.** But the heading and the lead-in
+to the table assert a single standard:
+
+> "**Full Kickboxing Belt Rankings Order**"
+
+> "**The standard kickboxing belt rankings system** followed by most schools
+> goes in this order from beginner to advanced."
+
+**"The standard … system" is the overstatement.** There is no standard. The
+fix is one word: "a common ordering used by many schools". The FAQ already says
+the right thing, so the page contradicts itself rather than being wrong
+throughout.
+
+#### (b) Governing body named: ONE, and it is cited for the wrong thing
+
+> "Belt ranking standards are **recognized globally by organizations such as the
+> [World Association of Kickboxing Organizations](https://www.wako.sport/)**."
+
+**WAKO is a real sanctioning body** — it governs competition rules, weight
+classes and world championships. **It is not the authority for the coloured-belt
+ladder in the table above it**, and the sentence invites the reader to think the
+two are connected. No other federation, association or sanctioning organisation
+is named anywhere on the page.
+
+**The link itself is the client's own and was reproduced as published**, with
+`target="_blank" rel="noopener"`. It is the only external reference on the page,
+and **it is at least a real governing body** — a marked improvement on
+`/preschool-jiu-jitsu-…/`, whose single outbound link went to a competitor
+(issue 40).
+
+#### (c) Every colour, order and time-in-rank figure given
+
+Reproduced verbatim from the page's table:
+
+| Belt Color | Level | Estimated Time to Earn |
+|---|---|---|
+| White | Beginner | Starting rank |
+| Yellow | Elementary | 3 to 6 months |
+| Orange | Novice | 6 to 9 months |
+| Green | Intermediate | 9 to 12 months |
+| Blue | Upper Intermediate | 12 to 18 months |
+| Purple | Advanced | 18 to 24 months |
+| Brown | Pre-Black | 24 to 36 months |
+| Black | Master Level | 3 to 7 years total |
+
+Plus, in the prose: a **red belt** "at the beginning or between certain ranks"
+at some schools; **white belt three to six months**; **yellow through orange six
+to twelve months**; **blue around two years in**; **one belt to the next, four to
+six months**; **white to black, three to seven years**; and above black, the
+**dan system from 1st Dan**, with **5th Dan "the mark of a master"** taking
+**over twenty years**.
+
+**Two internal inconsistencies, both minor and both left as published:**
+
+1. The table gives **yellow 3–6 months and orange 6–9 months**; the prose says
+   transitioning through both "typically takes **six to twelve months**". The
+   table totals 9 months at the top of its range, the prose 12.
+2. **"Black — Master Level"** in the table, against the body text: "the black
+   belt is **not the end of the journey**… reaching **5th Dan** is considered
+   the mark of a master". The table calls black belt master level; the prose
+   explicitly says it is not.
+
+#### (d) Does it claim the gym grades kickboxing belts? YES — logged at issue 39
+
+Three first-person sentences claim a kickboxing programme with belt grading.
+**Full quotes and the analysis are in the issue 39 addition above**, at HIGH
+priority, because it is a service claim rather than an accuracy one.
+
+#### Against the belt cluster: five different black-belt timeframes now
+
+Differences between BJJ and kickboxing are expected — they are different
+systems. **The problem is that a reader moving through the cluster meets five
+different answers to "how long to black belt":**
+
+| Page | Black belt in |
+|---|---|
+| **this page (kickboxing)** | **3 to 7 years** |
+| `/brazilian-jiu-jitsu-belt-ranks/` | 5 years |
+| `/brazilian-jiu-jitsu-belts/` | 8 to 12 years |
+| `/bjj-belt-ranks-in-coppell/` | about 10 years |
+| `/bjj-belt-ranks/` | 16 years |
+
+**The kickboxing figure is the lowest of the five and is not wrong** — three to
+seven years is a normal kickboxing claim, and kickboxing is genuinely faster
+than BJJ. **But the four BJJ figures contradict each other**, which is a
+pre-existing problem this page makes more visible rather than one it causes.
+
+#### Clean on everything else
+
+| Check | Result |
+|---|---|
+| Safety claims to omit | **none.** "Safe", "injury", "concussion" and "prevent" occur **zero times**. The first page in many with nothing to cut |
+| Editorial markers ("H2:", "(Use bullets)", "(Use table format)", "Call to Action:") | **none** |
+| Empty ChatGPT citation anchors | **zero** |
+| `/landing-page/` placeholder link | **none** |
+| Casino spam block | present in the source at `left:-35255px` with all eight domains, **excluded** |
+| Other gym names | **none.** No "Academy", no Gracie, no Georges, no Superfly |
+| Address, phone, email | **all three correct** — 817 S MacArthur Blvd #100, (469) 972-7800, info@sixthsensemma.com |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times** |
+| Pricing section or figure | **none.** No dollar amount, no membership, no cost |
+| Free trial | mentioned once, "Come in for a free trial class" |
+| Age range | **none given.** No age, no minimum, no "all ages" — so **no conflict** with `kids-bjj-classes.html` (4–12, Little Champions 4–7) |
+| Tags | **zero.** The second post in a row with none (see issue 110) |
+| Reviews or testimonials | **none**, and none invented. No Review or AggregateRating JSON-LD |
+| Brand-name variants | **"Kick boxing" and "Kick Boxing" do not appear at all.** 25 × "kickboxing", 6 × "Kickboxing" — sentence-initial or in a heading each time. **The first kickboxing page in the cluster with consistent spelling** |
+
+**The images carry no identifiable faces** — three WebP files, all belt and
+equipment imagery, no children, no before-and-after. The same alt text
+("kickboxing belt rankings") on all three, which is the accessibility weakness
+already logged at issue 98: a screen-reader user hears the same three words
+three times.
+
+**The table has no `<thead>` and no `<th>`** in the client's markup — the header
+row is `<td><b>Belt Color</b></td>`. Reproduced as published, which means the
+shared stylesheet's header wash and red underline cannot reach it. Same defect
+as the preschool table; fixing it means editing the markup, not the CSS.
 
 ## How these were checked
 

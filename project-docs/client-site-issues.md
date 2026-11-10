@@ -390,8 +390,41 @@ the youngest audience in the project.
 **Two borderlines on one page is the most in the project**, and both are
 recorded here so the client can decide them rather than discover them.
 
-Running total: **68 sentences across twenty-one posts.** Thirteen of the last
-fifteen builds needed no omission.
+Running total: **69 sentences across twenty-two posts.** Thirteen of the last
+seventeen builds needed no omission.
+
+#### 2026-11-10 — `/martial-arts-coppell-the-best-gym-for-kids/`: one sentence,
+#### and it is the first to attribute the protection to a named coach
+
+**Omitted:**
+
+> "Coach Anthony ensures that proper form and technique always come before
+> intensity, **which protects students from injury** and builds a foundation
+> that lasts for years."
+
+**"Protects students from injury" is an absolute.** It is not "reduces the
+risk of" or "helps prevent", both of which have been kept throughout this
+audit as honest hedges. It states that the coaching prevents injury, which no
+gym can promise for a full-contact striking art.
+
+**What makes this one different from the previous sixty-eight: it names the
+person.** Every earlier omission was impersonal ("safety rules prevent
+injury", "good gear prevents…"). This sentence attaches the guarantee to
+**Coach Anthony Wikstrom by name**, which turns a marketing overstatement into
+a statement about an identified individual's results. If a student is injured
+in his class, this is the sentence that gets quoted back.
+
+**The sibling page published nine days earlier says the defensible version**:
+"the coaches focus on proper form first **which helps prevent injuries**"
+(`/martial-arts-coppell-your-guide-to-the-best-training-in-town/`, kept in
+full). **The fix is to use that wording here too** — the two pages are already
+near-duplicates, so aligning them costs nothing.
+
+**Everything else on the page was reproduced**, including "Children learn
+age-appropriate BJJ techniques in a safe and encouraging environment" and
+"Classes are age-appropriate, safe, and designed to build confidence", both of
+which describe the environment rather than promise an absence of injury, and
+both consistent with the rulings on earlier pages.
 
 #### A fourteenth page that needed no omission, and it is a children's page
 
@@ -6392,6 +6425,69 @@ page.
 
 **"Little Champions" is never named**, the fifth page running to omit it.
 
+**2026-11-10 addition, HIGH — `/martial-arts-coppell-the-best-gym-for-kids/`
+is the FIFTH page selling the women's self-defence programme as if it exists,
+and it CONTRADICTS the page published nine days before it.**
+
+| Source | What it says | Status implied |
+|---|---|---|
+| Homepage | "Women's Self Defense — **Coming Soon**" | **does not exist yet** |
+| `/martial-arts-coppell-your-guide-to-the-best-training-in-town/` (4 Jul) | "has been **developing** a dedicated self defense program" | **does not exist yet** — correct |
+| **this page (13 Jul)** | "**has developed** a dedicated self-defense program specifically designed for women at all fitness levels" | **exists** |
+| **this page, FAQ 5** | "**Yes**, Sixth Sense Martial Arts **offers** self-defense training specifically for women" | **exists, and answers a direct question** |
+
+**The FAQ is the damaging one.** A prospective customer asks "Does Sixth Sense
+Martial Arts in Coppell offer self defense classes for women?" and the page
+answers **"Yes"**, then describes the environment they will train in. That is
+the clearest version of this claim anywhere on the site.
+
+**And the two pages disagree.** One tense change — "has been developing" to
+"has developed" — moves the programme from forthcoming to available, nine days
+apart, on two pages targeting the same keyword. **Whichever is true, one of
+them is wrong.**
+
+**Section heading on this page: "Self Defense Training Women Can Rely On".**
+
+#### The thirteenth page to promise pricing, and the first whose FAQ asks the question outright
+
+> **Q: "How much do martial arts classes cost in Coppell TX?"**
+> A: "Sixth Sense Martial Arts offers **competitive and reasonable pricing
+> compared to other gyms in the Coppell and DFW area**. Members consistently
+> report excellent value… **Contact the gym directly at (469) 972-7800 for
+> current membership pricing details.**"
+
+**Twelve pages promised pricing and published none. This one puts the question
+in an FAQ and still publishes none.** It is worse than the previous twelve in
+three ways:
+
+1. **It is structured data.** The answer goes into FAQPage JSON-LD, so a search
+   engine may surface "How much do martial arts classes cost in Coppell TX"
+   with an answer that contains no price.
+2. **It makes a comparative price claim** — "competitive and reasonable pricing
+   compared to other gyms in the Coppell and DFW area" — **without naming a
+   figure for itself or for any competitor.** An unverifiable price comparison
+   is a different category from simply withholding a price.
+3. **It asserts customer sentiment as fact**: "Members consistently report
+   excellent value", with no source.
+
+**Publishing a single starting price would fix all three.**
+
+#### Everything else on this page is accurate
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu and Muay Thai only** — both real, both with programme pages |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times**. Credentials claimed are "over 15 years of hands-on BJJ experience" (Matheus) and "technical precision" (Anthony Wikstrom), neither tied to an awarding body |
+| Free trial | "free no-obligation **three day trial**", twice — **and this contradicts the 4 July page's single free class** |
+
+**A second coach is named for the first time in this audit: Anthony Wikstrom,
+leading Muay Thai.** He appears on no programme page and nowhere else in the
+rebuild. **The client should confirm he is current staff**, because the site
+now names two coaches, spells the head coach's forename two ways across two
+pages ("Matheus" here and on 4 July, "Mattheus Galvao" elsewhere), and gives
+Wikstrom no bio anywhere.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -10343,6 +10439,114 @@ site's own three internal links already point at, and the `-2` suffix on the
 other is a WordPress artefact that should not be a public URL in any case.
 
 ### 7. Near-duplicate posts competing for the same searches: TEN on one question, SEVEN on Muay Boran, SEVEN on belt progression, SIX on Muay Thai origins, SIX on Sambo, four versus posts, two on gear — SEO — **CRITICAL**
+
+#### ⚠ THE MOST DAMAGING CLUSTER IN THE PROJECT — READ THIS FIRST
+
+**Five pages now target general martial arts in Coppell, two of them on the
+same keyword with near-identical slugs built a day apart. "Martial arts
+coppell" is the highest-value query this business has. Splitting it five ways
+means none of them will rank as well as one consolidated page would.
+Recommend keeping one, 301ing the rest into it, and stopping further pages on
+this term.**
+
+| Page | Primary target | Published |
+|---|---|---|
+| `/martial-arts-coppell-your-guide-to-the-best-training-in-town/` | **martial arts coppell** | 4 Jul 2026 |
+| `/martial-arts-coppell-the-best-gym-for-kids/` | **martial arts coppell** | **13 Jul 2026** |
+| `/martial-arts-near-me-in-coppell-texas/` | martial arts near me + Coppell | 13 Dec 2025 |
+| `/martial-arts-near-me-classes/` | martial arts near me + classes | — |
+| `/martial-arts-near-me/` | martial arts near me | 18 Oct 2025 |
+
+Plus `/martial-arts-gyms-near-me/`, `/choosing-a-martial-arts-gym-in-dfw/` and
+the `/martial-arts-classes/` · `/martial-arts-classes-2/` duplicate pair at
+issue 24.
+
+#### The two "martial arts coppell" pages are the same article rewritten
+
+Nine days apart, same keyword, slugs that both begin `martial-arts-coppell-`.
+**Measured against each other:**
+
+| Measure | Result |
+|---|---|
+| Exact heading matches | 4 of 16 (25.0%) — **all four are site boilerplate** |
+| Heading-word overlap | **66.7%** |
+| Headings that are near-duplicates of each other | **8 of the 12 editorial headings** |
+| Sentences at ≥55% word overlap with the other page | **41 of 103 — 39.8% of this page** |
+| Sentences that are word-for-word identical | at least 2 |
+
+**The eight near-duplicate headings, side by side:**
+
+| 13 July page | 4 July page | Overlap |
+|---|---|---|
+| "Kids Martial Arts Programs **That** Parents Trust" | "Kids Martial Arts Programs Parents Trust" | **86%** — one word apart |
+| "How to Pick the Right Martial Arts Gym **in Coppell**" | "How to Pick the Right Martial Arts Gym" | **80%** |
+| "Why **Coppell Families Are Choosing** Martial Arts Right Now" | "Why Martial Arts **in Coppell is Booming** Right Now" | 67% |
+| "Muay Thai **Classes** That Build**s** Real **Striking** Power" | "Muay Thai Training That Builds Real Power" | 63% |
+| "Self Defense Training Women Can Rely On" | "Women Self Defense Training in Coppell" | 57% |
+| "Flexible **Class** Schedule for Busy **Coppell Residents**" | "Flexible Schedule for Busy **Lives**" | 57% |
+| "**A** Community That Feels Like **a Second Home**" | "Community That Feels Like **Family**" | 57% |
+| "Brazilian Jiu Jitsu **Training** for **All Skill Levels**" | "Brazilian Jiu Jitsu **Classes** for **Every Level**" | 50% |
+
+**Sentences that are the same sentence:**
+
+> **Both pages, identically:** "Your journey starts with a single step on the
+> mat."
+
+> 13 Jul: "The techniques taught focus on real-world scenarios **including**
+> escaping grabs, controlling distance, and staying calm under pressure."
+> 4 Jul: "The techniques taught focus on real world scenarios **like** escaping
+> grabs controlling distance and staying calm under pressure." — **94%**
+
+> 13 Jul: "**Head coach Matheus** brings over 15 years of hands-on **BJJ**
+> experience to every single class."
+> 4 Jul: "**The head coach Matheus** brings over 15 years of hands on
+> experience to every class." — **88%**
+
+> 13 Jul: "**Parents across Coppell consistently share** that their children
+> show improved behavior at school and at home after just a few months of
+> training at Sixth Sense."
+> 4 Jul: "**Parents in Coppell have shared** that their children show improved
+> behavior at school and at home after just a few months of consistent
+> training." — **79%**
+
+#### What actually distinguishes them: six differences, and two are CONTRADICTIONS
+
+| | 4 July page | 13 July page |
+|---|---|---|
+| Coaches named | Matheus only | Matheus **and Anthony Wikstrom** |
+| Pricing | no pricing content | **an FAQ headed "How much do martial arts classes cost"** with no figure |
+| **Free trial** | "a **free no obligation trial class**" | "a free no-obligation **three day trial**" |
+| **Women's self-defence** | "has been **developing** a dedicated self defense program" | "**has developed** a dedicated self-defense program" |
+| Voice | first-person singular reviewer ("I have spent time looking into") | first-person plural gym ("we see new students") |
+| Sections unique to the other | "Anti Bullying Program", "What to Expect in Your First Class" | none |
+| External source | gymdesk.com (a gym-software blog) | **pmc.ncbi.nlm.nih.gov** (a real research paper) |
+| Coppell mentions | 15 | **33** |
+
+**The two contradictions are the finding.** The site now tells a prospective
+customer **two different things about the free trial** (one class vs three
+days) and **two different things about whether the women's programme exists**,
+on two pages published nine days apart under the same keyword. Both are logged
+in their own sections below.
+
+#### Against the two "near me" Coppell pages, the overlap is editorial, not textual
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/martial-arts-near-me-in-coppell-texas/` | 3 of 16 (18.8%), all boilerplate | **52.0%** | **1 of 103 (1.0%)** |
+| `/martial-arts-near-me-classes/` | 4 of 16 (25.0%), all boilerplate | **48.0%** | **0 of 103 (0.0%)** |
+
+**Those two are genuinely different articles** that happen to answer the same
+question. **The two `martial-arts-coppell-` pages are one article, twice.**
+
+#### Which one to keep
+
+**Keep `/martial-arts-coppell-the-best-gym-for-kids/`** and 301 the other four
+into it — but **fix its slug first**. It has 33 Coppell mentions to the 4 July
+page's 15, names both coaches, cites a real research source rather than a
+software vendor's blog, and covers kids, teens, adults and women in one place.
+**Its weaknesses are fixable in an afternoon**; the duplication is not fixable
+by editing.
+
 
 Several posts target the same keywords as each other, or as a program page.
 Google then has to pick one and ranks all of them weaker.
@@ -18564,6 +18768,76 @@ site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
 
+### 2026-11-10 — `/martial-arts-coppell-the-best-gym-for-kids/`: a slug that
+### promises a kids page, a hero full of children sparring, and no age anywhere
+
+**The page is sold on children and gives no age for them.**
+
+| Group | What this page says | Programme pages |
+|---|---|---|
+| Kids | "Children learn **age-appropriate** BJJ techniques" — **no number anywhere on the page** | `kids-bjj-classes.html`: **4 to 12**, Little Champions **4 to 7** |
+| Teens | "specifically designed for **ages 13 to 17**" | teen pages cover 13–17 — **matches** |
+| Adults | "adults", "all fitness levels" | adult pages |
+
+**No contradiction, because no age is stated** — the same gap as the 4 July
+page, which said "at a young age". **Two consecutive pages targeting
+"martial arts coppell" both decline to say how young a child can start**, and
+this one does it on a page whose slug literally ends `-for-kids` and whose
+second FAQ is "What martial arts classes are available in Coppell for kids?".
+**That FAQ would be the natural place to answer it and it does not.**
+
+**"Little Champions" is not named**, the sixth page running.
+
+#### Does it claim training keeps a child safe?
+
+**No direct claim, and the one that came closest was omitted.** The sentence
+cut under the safety rule (issue 0) was about adult Muay Thai, not children.
+What remains about kids is environmental rather than protective:
+
+> "Children learn age-appropriate BJJ techniques **in a safe and encouraging
+> environment** where every instructor understands how young minds work."
+
+> FAQ 2: "Classes are **age-appropriate, safe**, and designed to build
+> confidence, discipline, and focus…"
+
+**Both describe the setting, neither promises an absence of injury**, and both
+were kept, consistently with the earlier rulings. **The anti-bullying claim is
+also appropriately framed** — "empowers kids to handle difficult social
+situations with confidence rather than aggression" — with no claim that it
+stops bullying.
+
+#### Children sparring: described in no text, shown in the hero image
+
+**The body text describes no child sparring** — kids are "learning
+age-appropriate BJJ techniques", and the only partner work described is adult
+("controlled partner drilling" in Muay Thai, "rolling" for adult BJJ). **This
+is good practice and better than `/mma-classes-for-kids/`.**
+
+**The hero image is a different matter.** It is a wide shot of a full mat with
+roughly **ten to twelve children in gis, several of them grappling with each
+other and with adults**, under the caption "Martial Arts Coppell". So the page
+shows children sparring while the text avoids saying so.
+
+#### Identifiable children: yes, in one of three images
+
+| File | What it shows | Children |
+|---|---|---|
+| `martial-arts-coppell-3-1024x536.webp` (hero) | a packed mat, red-and-black room, around twenty-five people training | **ten to twelve children**, several discernible in the foreground, none in close-up |
+| `martial-arts-coppell-1-1.webp` | two adult men rolling in white gis, coach watching, blue mats | children visible seated in the background |
+| `martial-arts-coppell-2-1.webp` | three adult women, one applying an armlock, blue mats | **none** |
+
+**Less exposed than `/preschool-jiu-jitsu-…/` or the 4 July page**, both of
+which used close-up portraits of children's faces. Here the children are at a
+distance and most are not individually identifiable. **The consent requirement
+still applies to the foreground children in the hero.**
+
+**And the facilities do not match, again.** Three images, three rooms: a
+red-and-black room with red-and-black mats, a grey room with blue mats, a room
+with blue mats and red-and-black bag racks. **Yesterday's three images showed
+three other rooms.** Six images across two pages, six different interiors, all
+presented as one gym on MacArthur Blvd — see issue 98.
+
+
 ### 109. The site now advertises the same children's class to three-year-olds and to seven-year-olds-and-up, and neither matches the programme — CONTENT (accuracy), SAFEGUARDING — **High, the client must resolve the age bands before any kids page goes live**
 
 `/preschool-jiu-jitsu-builds-confidence-and-discipline-in-young-kids/`
@@ -22555,6 +22829,77 @@ publishes it two ways.
 discipline, no competitor tag, and **no tag carrying the city** — which on the
 page targeting "martial arts coppell" is a missed internal-linking signal rather
 than a risk.
+
+**2026-11-10 addition — `/martial-arts-coppell-the-best-gym-for-kids/`: a slug
+that promises one audience, a title that promises two, and an ADDRESS marked up
+as a heading.**
+
+#### The slug says kids, everything else says both
+
+| Element | Audience |
+|---|---|
+| **Slug** | `…-the-best-gym-**for-kids**` — **kids only** |
+| Title and H1 | "The Best Gym for **Kids and Adults**" — **both** |
+| Meta description | "the top choice for **kids and adults**" — **both** |
+| **Body** | **both, and adults get more of it** |
+
+**Measured by section, the body is majority adult.** Of the eleven editorial
+sections, **one** is about children ("Kids Martial Arts Programs That Parents
+Trust"), **one** about teens, **one** about women, and the remaining eight are
+general or adult-facing — adult BJJ, Muay Thai, physical and mental
+transformation, scheduling, choosing a gym, community, conclusion, contact.
+**The opening sentence addresses "families and adults".**
+
+**So the slug is the odd one out.** It is a minor signal problem rather than a
+serious one: a URL promising kids content on a page that is mostly for adults
+weakens the match for both queries, and a user who sees `-for-kids` in a search
+result may skip a page that would have answered their adult query. **If the
+consolidation above goes ahead, this slug should be replaced anyway**, and
+`/martial-arts-coppell/` is the obvious destination.
+
+#### An address marked up as an H2
+
+The contact block renders the street address as a **heading**:
+
+> `<h2><span style="font-size: 16px;">📍 817 S MacArthur Blvd #100 Coppell TX
+> 75019</span></h2>`
+
+**The author set it as an H2 and then shrank it to 16px with an inline style so
+it would not look like a heading.** The result is a document outline in which a
+street address is a top-level section, which is wrong for screen readers and
+for any tool that reads the heading structure.
+
+**Reproduced as an `h2` with the text verbatim**, because the rule is faithful
+replication of content; **the inline `font-size` was dropped**, because the
+rebuild carries zero inline styles. It was **kept out of the table of
+contents**, since it is not a section. **Recommendation: make it a paragraph.**
+
+#### Leaked chat markup, again, but only in two blocks
+
+Two elements carry `font-claude-response-body break-words whitespace-normal`
+and `data-sourcepos` (the phone and email lines) — **down from seven on the
+4 July page**, because most of this page's contact block was retyped. The
+`data-sourcepos` values are **identical to the 4 July page's**
+(`73:1-73:18;11090-11107` and `75:1-75:26;11109-11134`), which confirms the two
+pages were produced from the same source document.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Address heading | "817 S MacArthur Blvd #100**␣**Coppell**␣**TX 75019" — **no commas** |
+| "How to Pick the Right Martial Arts Gym in Coppell" | "Are they patient, encouraging, and technically precise or do they simply go through the motions**.**" — **a question ending in a full stop**, the same defect as the 4 July page |
+| Throughout | "Moreover adults are realizing…", "Furthermore the demand…", "Additionally coach Anthony…" — **conjunctive adverbs with no following comma**, around thirty instances |
+| Head coach | "Head coach **Matheus**" — one T, no surname, where the rest of the site has **Mattheus Galvao** |
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table format)",
+"Call to Action:") anywhere on the page.
+
+#### No tags
+
+**Zero tags, the fourth post in a row with none.** No tag naming an untaught
+discipline, none naming a competitor, and **none carrying the city** — on the
+second page in nine days targeting "martial arts coppell".
 
 ## How these were checked
 

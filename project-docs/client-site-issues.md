@@ -6341,6 +6341,57 @@ schedule and a published grading syllabus, because a page selling a grading
 with no syllabus anywhere on the site is the same gap as the twelve pages that
 promise pricing and publish none.
 
+**2026-11-10 addition — `/martial-arts-coppell-your-guide-to-the-best-training-in-town/`:
+the most ACCURATE programme page in the audit, and the first to describe the
+women's programme honestly.**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu and Muay Thai only.** "Karate", "taekwondo", "kickboxing", "judo", "wrestling" and "MMA as a taught art" occur **zero times** |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times** — the page says "check the credentials and experience of the instructors" as advice to the reader, and claims only "over 15 years of hands on experience" for the head coach |
+| Pricing section or figure | **none.** No dollar amount, no package, no "membership" except "a regular gym membership" as a comparison |
+| Free trial | mentioned twice, "free no obligation trial class" |
+
+**The self-defence handling is the thing to note, because four earlier pages got
+it wrong.** This page does **not** advertise self-defence as a distinct class.
+It says:
+
+> "Sixth Sense MMA recognizes this and **has been developing a dedicated self
+> defense program specifically for women**. **The gym already welcomes women
+> into all its BJJ and Muay Thai classes.**"
+
+> FAQ: "There is also a dedicated anti bullying program for kids and **a
+> developing self defense program for women**."
+
+**"Developing" matches the homepage's "Coming Soon" exactly.** After
+`/womens-bjj-classes-near-me/` became the fourth page selling a women's
+programme that has not launched, **this is the first page to describe its status
+correctly**, and it does so twice. The client should be told this page got it
+right, because it is the model for fixing the other four.
+
+**The only self-defence link on the page** goes to `/womens-self-defense-class/`
+— a blog post, not a programme page — and was reproduced as published. **No
+programme link was created for self-defence.**
+
+#### Age groups: one gap, and it is the kids band again
+
+| Group | What this page says | kids-bjj-classes.html |
+|---|---|---|
+| Kids | "**Children can start learning BJJ at a young age**" — **no number given anywhere** | **4 to 12**, Little Champions **4 to 7** |
+| Teens | "**ages 13 to 17**", stated twice | teen pages cover 13–17 |
+| Adults | "Adults of all fitness levels" | adult pages |
+
+**No contradiction, because the page gives no kids age at all.** "A young age"
+is the vaguest formulation used on any kids-mentioning page in the audit. **It
+does not conflict with 4–12 and it does not confirm it.** On a page whose own
+FAQ is headed "What age groups can join martial arts classes in Coppell",
+**declining to answer for the youngest group is a missed opportunity rather than
+an error** — one sentence ("from age 4") would close it and match the programme
+page.
+
+**"Little Champions" is never named**, the fifth page running to omit it.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11326,6 +11377,54 @@ a programme called "BJJ Training Tips".
 
 The kickboxing page's recovery and rest-day paragraph is the one passage worth
 carrying over wholesale, because the BJJ page lacks it entirely (issue 96b).
+
+#### CRITICAL — the FOURTH general martial arts page for Coppell, and it targets
+#### the single most valuable query this business has
+
+`/martial-arts-coppell-your-guide-to-the-best-training-in-town/` (4 July 2026)
+is the **eighteenth local page** and the **fourth general martial arts page
+aimed at Coppell**. Its primary keyword is **"martial arts coppell"**, which is
+almost certainly the highest-value query this gym can rank for — a person in
+Coppell looking for a martial arts gym, with no discipline preference and no
+brand in mind. **That query is currently split across at least four pages the
+client owns, and one of them is a duplicate URL.**
+
+| Page | Framing | Published |
+|---|---|---|
+| `/martial-arts-near-me-in-coppell-texas/` | "near me" + Coppell | 13 Dec 2025 |
+| `/martial-arts-near-me/` | "near me", no city | 18 Oct 2025 |
+| `/martial-arts-near-me-classes/` | "near me" + classes | — |
+| **this page** | **"martial arts coppell" + guide + best** | **4 Jul 2026** |
+| `/martial-arts-gyms-near-me/` | gyms, "near me" | 5 Aug 2025 |
+| `/choosing-a-martial-arts-gym-in-dfw/` | how to choose, DFW | 27 Apr 2026 |
+| `/martial-arts-classes-2/` and `/martial-arts-classes/` | the duplicate pair at issue 24 | — |
+
+**Measured heading overlap against the two closest siblings:**
+
+| Sibling | Exact heading matches | Heading-word overlap |
+|---|---|---|
+| `/martial-arts-near-me-in-coppell-texas/` | **3 of 18 (16.7%)** | **50.0%** |
+| `/martial-arts-near-me-classes/` | **4 of 18 (22.2%)** | **52.7%** |
+
+**Every one of those seven matches is site-wide boilerplate** — "Conclusion",
+"Contact Us", "Follow Us on Social Media" and "FAQ's". **Zero editorial headings
+match either sibling.** On headings alone the page is distinct.
+
+**But heading distinctness is the wrong measure for this problem.** These pages
+do not compete on their headings, they compete on **intent**, and all four
+answer the same question: *where should I train martial arts in Coppell?* The
+**50–53% heading-word overlap** is the number that matters here, and it is the
+highest recorded for any sibling pair in this audit outside the deliberate
+template twins.
+
+**Recommendation, and this one is urgent.** Pick **one** URL for "martial arts
+coppell" and 301 the rest into it. **This page is the strongest candidate** — it
+has the city in the H1, mentions Coppell 15 times, names the real disciplines,
+covers every age group in one place and has the most complete local signal set
+of the four. The "near me" pages have no city in their titles and should
+consolidate into it.
+
+**Until that happens the client is bidding against itself on its best query.**
 
 #### The eighth belt post and the eleventh kickboxing page, and the first for a
 #### discipline with neither a programme nor a governing body
@@ -20788,6 +20887,48 @@ three words three times).
 **No other gym's logo or watermark**, and the brand renders correctly as "SIXTH
 SENSE MARTIAL ARTS" — **no "Sixth Sense Academy"**, unlike the six April pages.
 
+
+**2026-11-10 addition — `/martial-arts-coppell-your-guide-to-the-best-training-in-town/`:
+eleven children's faces across two images, and THREE DIFFERENT GYMS in three
+photographs of one gym.**
+
+| File | Dimensions | What it shows |
+|---|---|---|
+| `martial-arts-coppell-1024x536.webp` (hero) | 1024×536 | a large mixed class mid-stretch in a **red and black room** with a cage, heavy bags and rubber tile flooring. **Four children's faces clearly identifiable** among roughly twenty adults. "SIXTH SENSE MARTIAL ARTS" logo top-left, caption bar "Martial Arts Coppell" |
+| `martial-arts-coppell-1.webp` | 1200×628 | two adult men rolling in white gis on **blue mats in a grey and black room**, a coach kneeling beside them. No children |
+| `martial-arts-coppell-2.webp` | 1200×628 | **seven children knelt in a row, all facing camera, all giving a thumbs up**, in white gis with yellow, orange, grey and white belts, in a **blue-walled room** with heavy bags |
+
+#### Three images, three different facilities
+
+**This is the clearest instance of the problem logged at issue 98 so far.** The
+three images are presented as one gym and show three visibly different rooms:
+**red and black with a cage**, **grey and black with blue mats**, **blue walls
+with blue mats**. The Sixth Sense roundel is rendered differently in each — the
+hero carries a full wordmark, the second a small patch version, the third a
+simplified disc — and the gi patches in the second image carry garbled text.
+
+**Taken with the flawless lighting and the absence of any real-world clutter,
+these read as generated imagery**, consistent with the April batch (issue 98)
+and the preschool batch.
+
+#### Identifiable children: eleven faces, and consent must be confirmed
+
+**Four children in the hero, seven in the third image, all front-facing and in
+focus.** The third image is a posed group portrait of children — the same
+framing flagged on `/preschool-jiu-jitsu-…/`.
+
+**The standing requirement applies:** if these are real pupils, **written
+parental consent must be on file for each child before this page is published.**
+If they are generated, the page shows **invented children to parents choosing a
+gym**, which is the representation problem at issues 0c, 0d and 98.
+
+**Reproduced exactly as published**, at their real dimensions, with the live alt
+text — **"martial arts coppell" on all three**, the same-alt accessibility
+weakness already logged.
+
+**No other gym's logo or watermark**, and the brand renders as "SIXTH SENSE
+MARTIAL ARTS" throughout — **no "Sixth Sense Academy"**.
+
 ### 99. A page optimised for Valley Ranch that gives a Coppell address and claims the Coppell unit is "near the valley ranch parkway south corridor" — GEOGRAPHIC TARGETING, SEO — **High**
 
 `/mma-gym-valley-ranch-tx/` (26 April 2026) is the **fourteenth "near me" or local
@@ -22270,6 +22411,150 @@ three times.
 row is `<td><b>Belt Color</b></td>`. Reproduced as published, which means the
 shared stylesheet's header wash and red underline cannot reach it. Same defect
 as the preschool table; fixing it means editing the markup, not the CSS.
+
+### 112. A page titled as an impartial guide, written in the first person by a reviewer who is the business — CONTENT (accuracy), LEGAL (advertising) — **Medium**
+
+This is the second page to raise the question logged against
+`/choosing-a-martial-arts-gym-in-dfw/`, and it raises it more sharply, so the
+two should be read together.
+
+#### (a) Does it name or describe any competing Coppell gym? NO, and that is the problem
+
+**No competitor is named, described, linked or tagged.** "Gracie", "Georges",
+"Academy", "Superfly" and every other gym name in this audit occur **zero
+times**. After `/mma-gym-valley-ranch-tx/` (issue 0a) and
+`/choosing-a-martial-arts-gym-in-dfw/` (issue 0b), **that is a clean result and
+worth saying plainly.**
+
+**The difficulty is what the page does instead.** It refers to competitors only
+as an undifferentiated worse alternative:
+
+> "Sixth Sense Martial Arts **stands out because it focuses on authentic
+> training rather than flashy marketing**."
+
+> "**Many gyms pack classes with too many students** but here quality always
+> comes before quantity."
+
+> "**Not every gym in Coppell is built the same.**"
+
+> "quality martial arts Coppell has a **hidden gem that most people overlook**"
+
+#### (b) Comparative claims: general, not specific — which is the safer side
+
+**Every comparative claim is general.** None names a gym, cites a class size, or
+quotes a price. "Many gyms pack classes with too many students" is the
+strongest of them and it is unfalsifiable as written, which is both why it
+carries **far less legal risk than issue 0b's three named DFW businesses** and
+why it is worth little to a reader.
+
+**One claim is checkable and should be checked:**
+
+> "In fact **many members say that Muay Thai burns more calories than any gym
+> routine they have tried before**."
+
+That is a member-attributed comparative fitness claim with no figure behind it.
+It does **not** join the five-way calorie contradiction at issue 103 because it
+quotes no number, but it is the same category of claim.
+
+#### (c) Impartial guide while recommending only itself? YES, and the first person is new
+
+**This is the finding.** The page is titled "**Your Guide to the Best Training
+in Town**" and opens in the voice of an independent reviewer:
+
+> "**I have spent time looking into what makes this place stand out** from other
+> options in the DFW area. So **in this guide I will walk you through**
+> everything you need to know before you step on the mat for the first time."
+
+**"I have spent time looking into" presents the author as someone who surveyed
+the Coppell market and reached a conclusion.** The author is the gym. No other
+page in this audit uses a first-person singular reviewer voice.
+
+**The section that makes this concrete is "How to Pick the Right Martial Arts
+Gym".** It gives four genuinely neutral criteria — instructor credentials,
+facility cleanliness, how the coach interacts with students, member reviews —
+and then closes:
+
+> "**Sixth Sense MMA checks every one of these boxes** which is why it has
+> earned a strong reputation in Coppell."
+
+**A checklist that the author scores itself against, in a page titled "Guide to
+the Best", is advice-shaped marketing.** It is not dishonest — the gym never
+hides that it is the subject, the brand is named nineteen times in the body, and
+the footer is its own. **But a reader arriving from a "martial arts coppell"
+search may reasonably read the first two paragraphs as a third-party
+recommendation**, and that is what the client should decide about.
+
+**Same pattern as `/choosing-a-martial-arts-gym-in-dfw/`, one step further.**
+That page gave neutral selection advice and recommended itself at the end. This
+one adds a first-person reviewer and the word "Best" in the title.
+
+**The simplest fix keeps all the value:** change "I have spent time looking
+into" to "We have built this gym around", and the page becomes an honest
+first-party pitch with the same content. **No sentence needs deleting.**
+
+#### One more thing on the credibility framing
+
+> "Finally **read reviews from real members** because their experiences tell you
+> what marketing cannot."
+
+The page tells readers to trust member reviews over marketing, then supplies
+**three unattributed member quotes of its own**:
+
+> "**One parent shared that their son** used to come home upset every day but
+> after joining Sixth Sense he now stands up for himself calmly."
+
+> "**As one member put it** the gym has become their second home."
+
+> "**Parents in Coppell have shared** that their children show improved behavior
+> at school and at home after just a few months of consistent training."
+
+**All three reproduced verbatim and none invented.** No name, no date, no
+source for any of them. They belong with the testimonial concerns at issue 104.
+**No Review or AggregateRating JSON-LD was added**, correctly.
+
+**2026-11-10 addition — the same leakage on
+`/martial-arts-coppell-your-guide-to-the-best-training-in-town/`, now with a
+SECOND marker type that encodes line numbers from the source document.**
+
+Seven elements carry `font-claude-response-body break-words whitespace-normal`,
+as at issue 110. **New on this page: seven `data-sourcepos` attributes**, which
+record the line and byte offsets of each block in the document it was copied
+from:
+
+> `data-sourcepos="69:1-69:176;10866-11041"`
+
+**That is a Markdown renderer's source-mapping attribute.** It confirms the
+contact block was authored as Markdown elsewhere, rendered in a chat interface,
+and pasted into WordPress with the rendered HTML intact. Two headings also carry
+Tailwind utility classes from that interface (`text-text-100 mt-3 -mb-1
+text-[1.125rem] font-bold`), and the email link carries six more
+(`underline underline-offset-2 decoration-1 decoration-current/40 …`).
+
+**All of it dropped from the rebuild**, as before. Logged because the
+`data-sourcepos` values give the line numbers of the original document, which
+is a small information leak about how the client's content is produced.
+
+#### Typos and missing separators reproduced verbatim on this page
+
+| Where | As published | Note |
+|---|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" | **a question ending in a full stop** |
+| Address line | "817 S MacArthur Blvd #100**␣**Coppell**␣**TX 75019" | **no commas**, unlike every other page |
+| Follow Us paragraph | "training tips belt grading updates student highlights and exclusive offers" | **no commas**, where `/kickboxing-belt-rankings/` has them |
+| All six FAQ questions | "What age groups can join martial arts classes in Coppell" | **not one question mark in the whole FAQ** |
+| Body prose throughout | "As a result martial arts schools…", "However Sixth Sense MMA…", "Moreover parents are realizing…" | **conjunctive adverbs never followed by a comma**, roughly forty instances |
+| Head coach | "The head coach **Matheus**" | elsewhere on the site he is **Mattheus Galvao** — one T here, two there. **No surname given** |
+
+**All reproduced exactly.** The "Matheus" spelling is worth the client's
+attention because the instructor's name is a brand asset and the site now
+publishes it two ways.
+
+#### No tags
+
+**Zero tags, the third post in a row with none.** No tag naming an untaught
+discipline, no competitor tag, and **no tag carrying the city** — which on the
+page targeting "martial arts coppell" is a missed internal-linking signal rather
+than a risk.
 
 ## How these were checked
 

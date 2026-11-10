@@ -390,8 +390,40 @@ the youngest audience in the project.
 **Two borderlines on one page is the most in the project**, and both are
 recorded here so the client can decide them rather than discover them.
 
-Running total: **69 sentences across twenty-two posts.** Thirteen of the last
-seventeen builds needed no omission.
+Running total: **70 sentences across twenty-three posts.** Thirteen of the last
+eighteen builds needed no omission.
+
+#### 2026-11-10 — `/muay-thai-for-teens-how-it-builds-confidence/`: one
+#### sentence, on a page about minors and head strikes
+
+**Omitted:**
+
+> "Sixth Sense takes every precaution **to ensure your teen trains hard but
+> stays safe**."
+
+**"Ensure … stays safe" is a guarantee**, and it is the same construction cut
+from `/preschool-jiu-jitsu-…/` ("ensure that falls and rolls happen safely").
+It closes a section headed "Is Muay Thai Safe for Teenagers" that is addressed
+to the parents of 13-to-17-year-olds, about a striking art that permits head
+contact. **It is the highest-stakes instance of this phrasing in the audit.**
+
+**Two sentences in the same paragraph were KEPT, and the client should know
+why:**
+
+| Sentence | Kept because |
+|---|---|
+| "the teen classes are kept separate from adult sessions **so there is no risk** of a 15 year old being paired with a fully grown adult" | "no risk" here attaches to **being paired with an adult**, not to injury. It is a claim about class scheduling, which the gym controls and can honour |
+| "**the injury rate in teen Muay Thai is actually lower than many traditional school sports**" | a comparative **rate** claim, not a claim that injury does not occur. **But it is uncited and it is about minors** — logged separately below |
+
+**The uncited injury-rate comparison is the one to fix.** It is the only
+factual assertion on the page with no source, it is the claim a parent is most
+likely to rely on, and "many traditional school sports" is vague enough that
+it cannot be checked. **Either cite it or cut it.** The page is otherwise
+unusually careful, which makes this sentence stand out rather than blend in.
+
+**Everything else was reproduced**, including "Muay Thai at Sixth Sense is
+designed with safety as a top priority" (a statement of intent) and the FAQ's
+"Yes safety is a top priority" (likewise).
 
 #### 2026-11-10 — `/martial-arts-coppell-the-best-gym-for-kids/`: one sentence,
 #### and it is the first to attribute the protection to a named coach
@@ -6488,6 +6520,78 @@ now names two coaches, spells the head coach's forename two ways across two
 pages ("Matheus" here and on 4 July, "Mattheus Galvao" elsewhere), and gives
 Wikstrom no bio anywhere.
 
+**2026-11-10 addition — `/muay-thai-for-teens-how-it-builds-confidence/`: a
+POSITIVE. Every age on the page is consistent, every discipline is real, and
+nothing is promised that the gym does not offer.**
+
+This joins `/martial-arts-near-me-classes/`, `/adult-beginner-martial-arts/`,
+`/muay-thai-classes-coppell/` and `/bjj-beginners-in-coppell-tx/` as a page
+that needs no programme correction.
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Muay Thai only**, plus "teen kickboxing classes" (3×) as a synonym for it. BJJ, karate, taekwondo, judo and wrestling occur **zero times** |
+| Any discipline lacking a programme page | **none** — teen Muay Thai is one of the five real programmes |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times**; the only credential is "over 15 years of hands-on experience" for the head coach |
+| Pricing section or figure | **none.** No dollar amount, no package. "Membership" appears twice, both times as "a gym membership" by way of contrast. **Not a fourteenth pricing page** |
+| Free trial | "the free trial class", twice — **consistent with the 4 July page and with the five programme pages, and inconsistent with the 13 July page's "three day trial"** |
+
+#### Ages: consistent on every one of the four checks
+
+**(a) The body states 13 to 17, three times, twice in the body and once in the
+FAQ:**
+
+> "the teen Muay Thai program gives young people **aged 13 to 17** something
+> most activities simply cannot"
+
+> "At Sixth Sense the teen program is designed for **ages 13 to 17** which is
+> an ideal window for martial arts for teenagers"
+
+> FAQ 1: "The teen program at Sixth Sense is designed for **ages 13 to 17**."
+
+**(b) Against `teen-muay-thai-classes.html`: no conflict, but no confirmation
+either — and that is a finding of its own.** The programme page **states no
+age range at all**. Nor does `teen-bjj-classes.html`, nor
+`kids-bjj-classes.html`. **The gym's own programme pages are silent on who
+their classes are for**, while the blog posts carry the numbers. The 13–17 band
+also matches the two `martial-arts-coppell-` pages, so three blog posts now
+agree and no programme page says anything. **The ages should move onto the
+programme pages.**
+
+**(c) Against the kids band: no overlap and no gap.** "Intro to Jiu Jitsu
+(Ages 4 to 12)" and "Little Champions (Ages 4 to 7)" are recorded elsewhere on
+the site. **4–12 then 13–17 is a clean join.** This page does **not** repeat
+the `/martial-arts-for-kids-strenght/` error, which claimed "ages 7 and up"
+against a programme starting at 4.
+
+**(d) It claims a teen Muay Thai class exists, which it does, and describes it
+accurately:** dedicated teen classes "separate from both kids and adult
+programs", about an hour long, no experience needed, multiple evening and
+weekend times. **Nothing in that description contradicts the programme page.**
+
+#### The one uncited claim on the page
+
+> "Because of this **the injury rate in teen Muay Thai is actually lower than
+> many traditional school sports**."
+
+**No source, and the comparison group is unnamed.** It is the only factual
+assertion here without support, and it is the claim a parent weighing Muay
+Thai against football is most likely to act on. **Logged in full under the
+safety entry at issue 0.**
+
+#### Local signals: thin for a page whose meta description names the city
+
+| Signal | Result |
+|---|---|
+| H1 contains "Coppell" | **No** — "Muay Thai for Teens How It Builds Confidence Discipline and Real Strength" |
+| "Coppell" in the body | **5 times** — against 15 and 33 on the two `martial-arts-coppell-` pages |
+| Other locations | DFW (2), Valley Ranch, Irving, Carrollton, Grapevine, Lewisville (1 each), TX (3) |
+| Tags carrying the city | **no tags at all** |
+
+**The meta description names Coppell TX and the H1 does not.** For a local
+service page that is a missed signal, though a mild one — the keyword is
+"muay thai for teens", which is not a local query.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11629,6 +11733,49 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The teen cluster: four pages, and the LOWEST overlap of any cluster here
+
+`/muay-thai-for-teens-how-it-builds-confidence/` (20 July 2026) is the **first
+dedicated teen Muay Thai blog post** on the site. The teen cluster is now:
+
+| Page | Type | Discipline |
+|---|---|---|
+| `/teen-bjj-classes/` | **programme page** | teen BJJ |
+| `/teen-muay-thai-classes/` | **programme page** | teen Muay Thai |
+| `/teens-bjj-near-me/` | blog post | teen BJJ |
+| **this page** | blog post | **teen Muay Thai** |
+
+**One blog post per discipline, each with its own programme page. That is what
+a healthy cluster looks like**, and it is the only one in this document that
+can be described that way.
+
+**Measured overlap:**
+
+| Sibling | Exact heading matches | Heading-word overlap |
+|---|---|---|
+| `/teens-bjj-near-me/` | **3 of 19 (15.8%)** | **34.7%** |
+| `/martial-arts-confidence-building/` | **4 of 19 (21.1%)** | **27.8%** |
+
+**All seven matches are site boilerplate** — "Conclusion", "Contact Us",
+"Follow Us on Social Media", "FAQ's". **Zero editorial headings match either
+page.**
+
+**27.8% and 34.7% are the lowest heading-word figures recorded in this
+document.** For comparison, the two `martial-arts-coppell-` pages sit at
+**66.7%** and the Coppell "near me" group at **48–53%**. The confidence page
+overlaps least of all, despite "confidence" being in both titles, because it
+is about martial arts generally and adults mostly, while this one is about one
+art and one age band.
+
+**Recommendation: keep all four, and change nothing.** The two blog posts
+should each link to their matching programme page — **this one already does**,
+with "teen Muay Thai" pointing at `teen-muay-thai-classes.html` in its first
+paragraph. **`/teens-bjj-near-me/` should do the same for teen BJJ.**
+
+**The one thing to fix is upstream:** the two teen programme pages state no
+age range, while this post states 13–17 three times. **The programme pages
+should carry the ages**, not the blog.
 
 #### The eighth belt post and the eleventh kickboxing page, and the first for a
 #### discipline with neither a programme nor a governing body
@@ -18768,6 +18915,123 @@ site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
 
+### 2026-11-10 — `/muay-thai-for-teens-how-it-builds-confidence/`: the most
+### RESPONSIBLE minors page in the audit, with three things still to settle
+
+This page is addressed to 13-to-17-year-olds and their parents, about a
+striking art. **On the checks that have caught every other children's page in
+this document, it passes.** That is worth recording as plainly as the failures
+have been.
+
+| Check | Result |
+|---|---|
+| Weight, body image, dieting or supplement content | **NONE.** "Weight", "calories", "diet", "nutrition", "supplement", "lean", "body fat" occur **zero times**. The conditioning section talks about coordination, balance, power and endurance and **never about how a teenager looks** |
+| Invented statistics | **NONE.** No percentage, no "studies show", no "research shows" anywhere on the page — **the first page in a long run with zero fabricated figures** |
+| Clinical conditions named | **none diagnosed or treated** — see below |
+| Academic-performance claim | **none.** School is mentioned nine times, always as a source of stress or a social contrast, **never as something training improves** |
+| Screen-time claim | **none** |
+| Protective equipment | **named specifically** — "gloves shin guards and mouthguards during every session" |
+| Supervision | **described** — "The coaches closely monitor all contact drills and step in immediately if anything gets too intense" |
+| Contact limits | **described** — sparring is "always controlled", "light controlled", and "only introduced once a student has developed solid fundamentals" |
+| Adult/minor separation | **stated** — "the teen classes are kept separate from adult sessions" |
+
+#### (g) Weight and body content: the check that mattered most, and it is clean
+
+**This was the check to flag hardest if present, and there is nothing to
+flag.** `/muay-thai-for-weight-loss-coppell/` needed a full review for weight
+content aimed at adults. A page selling combat training to teenagers could
+easily have carried body-composition language and **it carries none**.
+
+**The closest it comes is this, and it is about capability, not appearance:**
+
+> "Teens throw punches, elbows, knees and kicks on pads and heavy bags which
+> builds full body strength naturally. As a result they develop coordination,
+> balance explosive power and cardiovascular endurance **without it feeling
+> like a boring workout**."
+
+**Recommendation: keep this page as the template** for any future content
+aimed at minors.
+
+#### (e) Stress and anxiety: named, but not as conditions to be treated
+
+A section is headed "How It Helps Teens Deal with Stress and Anxiety", so the
+words appear. **The page does not claim to treat, cure or improve a clinical
+condition**, and one sentence goes out of its way to say so:
+
+> "**Mental health matters and youth combat sports like Muay Thai address it
+> in a way that feels natural not clinical.**"
+
+**That is the disclaimer `/martial-arts-stress-relief-coppell-adults/` was
+missing.** ADHD, depression, autism and every other diagnosis occur **zero
+times**, against `/mma-classes-for-kids/`'s 78% ADHD figure (issue 107) and the
+preschool page's academic-performance claim.
+
+**The mechanism is cited, to a credible source.** "their body
+[releases endorphins](https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469)
+which naturally reduce stress and improve mood" links to **Mayo Clinic**.
+**This is the first time in the audit that a health claim on this site is
+linked to a medical source.** (The URL returns 403 to automated requests, which
+is Mayo Clinic's bot policy rather than a broken link; the path is a genuine
+article.)
+
+**What remains is reported outcome rather than evidence** — "many teens who
+train regularly **report** feeling calmer", "Many teens **report** feeling
+calmer and more in control" — unattributed but honestly framed as self-report.
+**It joins the psychological-claims group at `/martial-arts-confidence-building/`
+and `/martial-arts-stress-relief-coppell-adults/` as the mildest instance, not
+the worst.**
+
+#### (i) Sparring: described in detail, and the detail is reassuring
+
+> "After that the class moves into combination drills and **light controlled
+> sparring for more experienced students**."
+
+> "**sparring is always controlled and only introduced once a student has
+> developed solid fundamentals**. The coaches closely monitor all contact
+> drills and **step in immediately if anything gets too intense**."
+
+> "Teens wear **proper protective gear including gloves shin guards and
+> mouthguards during every session**."
+
+**No head-contact description, no force or target detail, no striking-zone
+instruction anywhere on the page.** The technique content is limited to naming
+the weapons of the art ("punches, elbows, knees and kicks on pads and heavy
+bags") with no instruction attached. **Reproduced word for word; zero original
+words were added to any technique or sparring passage.**
+
+**One gap worth naming: headgear is not mentioned.** Gloves, shin guards and
+mouthguards are listed; a striking art that permits head contact would
+normally list headgear for sparring minors, and the third image shows headgear
+on the mat. **One word would close it.**
+
+#### (j) Identifiable minors in all three images, one of them a portrait
+
+| File | What it shows | Minors |
+|---|---|---|
+| `muay-thai-for-teens-1024x536.webp` (hero) | a teenage boy throwing a high kick into a coach's pad, red-and-black gym, caption "Muay Thai for Teens" | **one, face clear in profile** |
+| `muay-thai-for-teens-1.webp` | **a close-up portrait of a teenage girl wrapping her hands, seated in a ring, looking straight at the camera** | **one, fully identifiable** |
+| `muay-thai-for-teens-2.webp` | overhead shot of a coach fitting a shin guard on a teenage boy, two more teens beside him, headgear, gloves and shin guards laid out on blue mats | **three, two faces visible** |
+
+**Five minors across three images, and the second is a direct front-facing
+portrait** — the same framing flagged on `/preschool-jiu-jitsu-…/`. **The
+client must confirm written parental consent is on file for every young person
+pictured**, and for a page addressed to under-18s that confirmation should
+precede publication.
+
+**A mismatch between image and text:** the hero shows the teenager kicking
+**barefoot with no shin guards and no gloves**, while the body text says teens
+wear "gloves shin guards and mouthguards **during every session**". **The
+third image contradicts the first** by showing exactly the gear the text
+promises. A parent comparing the two will notice.
+
+**And the rooms do not match, again.** The hero is a red-and-black facility
+with a cage; the second is a boxing ring; the third is a blue-matted room.
+**Three more interiors, bringing the running count to nine across three pages
+in two days** — see issue 98. The gloves in the third image also carry a
+**"9" roundel** in places where the shin guards carry the Sixth Sense **"6"**,
+which is the garbled-branding tell logged there.
+
+
 ### 2026-11-10 — `/martial-arts-coppell-the-best-gym-for-kids/`: a slug that
 ### promises a kids page, a hero full of children sparring, and no age anywhere
 
@@ -22900,6 +23164,71 @@ pages were produced from the same source document.
 **Zero tags, the fourth post in a row with none.** No tag naming an untaught
 discipline, none naming a competitor, and **none carrying the city** — on the
 second page in nine days targeting "martial arts coppell".
+
+**2026-11-10 addition — `/muay-thai-for-teens-how-it-builds-confidence/`: the
+address-as-a-heading defect is now on THREE consecutive pages, with the same
+two leaked `data-sourcepos` values each time.**
+
+#### The same `<h2>` address, for the third page running
+
+> `<h2><span style="font-size: 16px;">📍 817 S MacArthur Blvd #100 Coppell TX
+> 75019</span></h2>`
+
+**Byte-identical to the block on `/martial-arts-coppell-the-best-gym-for-kids/`
+and `/martial-arts-coppell-your-guide-…/`.** A street address set as a
+top-level heading and then shrunk to 16px with an inline style so it does not
+look like one. **Reproduced as an `h2` with the text verbatim, inline style
+dropped, kept out of the table of contents.**
+
+**The two leaked attributes are identical across all three pages:**
+`data-sourcepos="73:1-73:18;11090-11107"` on the phone line and
+`data-sourcepos="75:1-75:26;11109-11134"` on the email line. **Same line
+numbers, same byte offsets, three pages, three publication dates across
+sixteen days.** That is not three documents that happen to match — it is one
+boilerplate block pasted from the same chat output each time, and it confirms
+the production method behind every accuracy finding in this file.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to the 4 July page |
+| Address heading | "817 S MacArthur Blvd #100**␣**Coppell**␣**TX 75019" — **no commas** |
+| Follow Us paragraph | "training tips belt grading updates student highlights and exclusive offers" — **no commas**, and **it advertises BELT GRADING on a Muay Thai page** (see below) |
+| **All six FAQ questions** | "What age group is the teen Muay Thai program designed for", "Is Muay Thai safe for my teenager" | **not one question mark in the whole FAQ**, the third page running |
+| "How to Pick…"-style rhetorical question | "Are they patient, encouraging, and technically precise or do they simply go through the motions**.**" — **absent from this page**; this one has no rhetorical questions |
+| Body prose throughout | "Moreover teens today face…", "However Muay Thai makes…", "Furthermore the coaching staff…" | **conjunctive adverbs with no following comma**, around forty instances |
+| Head coach | "The head coach **Matheus**" — one T, no surname, where the rest of the site has **Mattheus Galvao** |
+
+#### "Belt grading updates" on a page about Muay Thai
+
+The Follow Us block invites readers to follow the gym for "**belt grading
+updates**". **Muay Thai is not belt-graded at this gym** — no Muay Thai
+programme page mentions a belt, a stripe or a grading, which is the same gap
+logged against `/kickboxing-belt-rankings/` at issue 39.
+
+**It is boilerplate rather than a claim about this programme** — the identical
+sentence appears on `/kickboxing-belt-rankings/` — but on a page whose subject
+is teen Muay Thai it reads as a promise of teen Muay Thai gradings. **The
+generic version ("class updates, training tips, student highlights") used on
+`/preschool-jiu-jitsu-…/` is the one to standardise on.**
+
+#### No editorial markers, no tags
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table format)",
+"Call to Action:") anywhere on the page. **No empty ChatGPT citation anchors.**
+**No `/landing-page/` link.**
+
+**Zero tags, the fifth post in a row with none.** No tag naming an untaught
+discipline, none naming a competitor, none carrying the city.
+
+#### Branding: clean
+
+**No gym name other than Sixth Sense Martial Arts.** "Gracie", "Georges",
+"Academy", "Superfly" — **zero occurrences**. Address, phone and email all
+match the client's Coppell details: 817 S MacArthur Blvd #100, (469) 972-7800,
+info@sixthsensemma.com. **No different phone number found anywhere on the
+page.**
 
 ## How these were checked
 

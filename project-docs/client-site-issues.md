@@ -23,6 +23,145 @@ a competing gym.
 
 ## Most urgent — act on this before anything else
 
+### ⚠⚠ 0₂. A page that names a CLINICAL DIAGNOSIS in its title and URL and claims improvement in its symptoms — CONTENT (accuracy), LEGAL (health claims), SAFEGUARDING — **THE MOST SIGNIFICANT HEALTH CLAIM IN THE CONTENT LIBRARY**
+
+**`/how-martial-arts-for-adhd-improves-focus/` targets parents of children
+with a clinical diagnosis and claims improvement in ADHD symptoms. This is the
+most significant health claim in the content library, above the cortisol claims
+on the stress relief pages and the developmental claims on the confidence,
+discipline and preschool posts. Six pages in the wellbeing cluster now carry
+health or psychological claims, and this one names a specific diagnosis in its
+title and URL.**
+
+**Sentences claiming clinical outcomes have been HELD from the rebuild pending
+client instruction.**
+
+**Recommend the client have this page reviewed before it goes live, add a clear
+disclaimer advising parents to consult their child's doctor, and remove any
+implication that training substitutes for prescribed treatment.**
+
+**Note the live page carries these claims today.**
+
+#### The five sentences held from the rebuild
+
+Each is replaced in `dist/how-martial-arts-for-adhd-improves-focus.html` by:
+
+> `<!-- HELD: clinical claim about ADHD, see client-site-issues.md, awaiting
+> client decision before publication -->`
+
+**1. An unverifiable Yale study with two invented-looking percentages**
+
+> "A study from the **Yale Child Study Center** followed children with ADHD who
+> trained in martial arts for six months and found a **30 percent improvement
+> in sustained attention** along with a **25 percent reduction in impulsive
+> behavior**."
+
+**Held because it claims specific clinical outcomes.** No author, no year, no
+title, no link. **A PubMed search for a Yale Child Study Center trial of
+martial arts in ADHD returns no matching record.** The Yale Child Study Center
+is a real and prominent institution, which makes the unsupported attribution
+worse rather than better: it borrows the credibility of a named children's
+research centre for figures that cannot be checked.
+
+**2. A real study, correctly described — and still held**
+
+> "Moreover research published in **NeuroImage Clinical** showed that a **12
+> week judo program increased working memory capacity in children with ADHD**."
+
+**Held because it claims a specific clinical outcome, which is the rule as
+written. But the client should know this one is true.** It corresponds to a
+real randomised controlled trial:
+
+> Ludyga S, Mücke M, Leuenberger R, et al. *Behavioral and neurocognitive
+> effects of judo training on working memory capacity in children with ADHD: A
+> randomized controlled trial.* **NeuroImage: Clinical, 2022.** PMID 35988343.
+
+**This is the only properly grounded research claim on any wellbeing page in
+this audit.** **Recommendation: restore this sentence with the full citation
+and a link**, and delete the Yale sentence beside it. The page already links
+the same PMID elsewhere, under the anchor "working memory" in the Muay Thai
+section — **it cites the right study in the wrong paragraph.**
+
+**3 and 4. The medication comparison, which is the passage that matters most**
+
+> "When kids train hard their brain releases dopamine and norepinephrine which
+> are **the exact chemicals that ADHD medications target**."
+
+> "Furthermore **unlike medication this benefit comes with zero side effects**
+> and plenty of bonus perks like better fitness and confidence."
+
+**Held because together they present training as an alternative to
+medication.** The first establishes equivalence — training does what the drug
+does. The second establishes superiority — and does it without side effects.
+**A parent reading those two sentences in sequence is being given a reason to
+reduce or stop a prescription**, and the page is not qualified to offer one.
+
+**"Zero side effects" is separately an absolute claim** of the kind held
+throughout this audit (issue 0).
+
+**Holding the first of the two is a judgement call and the client may
+disagree.** On its own, "exercise releases dopamine and norepinephrine" is an
+ordinary statement about exercise physiology. **It was held because its only
+function in this paragraph is to set up the sentence that follows it**, and
+with that sentence gone it dangles. If the client removes only the
+"unlike medication" sentence, the first can safely return.
+
+**5. An uncited clinical-outcome claim inside FAQPage structured data**
+
+> FAQ 1: "**Studies have shown improvements in sustained attention working
+> memory and impulse control among children with ADHD who train regularly.**"
+
+**Held because it claims specific clinical outcomes with no source**, and
+because it sits in **FAQPage JSON-LD**, where a search engine may surface it
+as the answer to "can martial arts help a child with ADHD" without the
+surrounding context. **The two sentences around it were kept**, including the
+qualifier that follows it.
+
+#### What the page gets RIGHT, and it is more than any other wellbeing page
+
+**This must be recorded alongside the holds, because the page is not reckless
+— it is a careful page with four sentences that go too far.**
+
+| The page says | Where |
+|---|---|
+| "martial arts works best **alongside proper medical care not as a replacement for it**" | the Science section, immediately after the held statistics |
+| "many experts now view structured martial arts as a **valuable complement to traditional ADHD support**" | the Science section |
+| "Martial arts for ADHD is **not a magic cure**" | Conclusion |
+| "Remember that martial arts works best **alongside the guidance of your child's doctor**" | Conclusion |
+| **"Will martial arts replace my child's ADHD medication" — "No and it should not be viewed that way… Always talk to your child's doctor before making any changes to their medication or care plan."** | **FAQ 4, in full** |
+| "martial arts should **complement not replace the treatment plan your child's doctor recommends**" | FAQ 1 |
+
+**FAQ 4 is the strongest piece of health-claim hygiene anywhere on this site.**
+It anticipates the exact question a parent would ask, answers "No", and sends
+them to their doctor. **Nothing comparable appears on the confidence, stress
+relief, discipline or preschool pages.**
+
+**The problem is that the page does both things at once.** It tells parents
+six times to keep their doctor involved, and in between tells them training
+does what medication does with zero side effects. **The held sentences are the
+contradiction, not the page.**
+
+#### What is still missing
+
+**There is no disclaimer as such** — no "this is not medical advice", no
+"consult a qualified professional" in the standing sense. The doctor references
+are woven into the prose, which is better than nothing and **weaker than a
+labelled disclaimer at the top or foot of a page about a diagnosed condition**.
+
+**The page never advises involving the child's school or clinician in the
+decision to start**, although it mentions teachers observing changes and
+school meetings in passing.
+
+#### The images are their own problem — see CHILD SAFETY CONTENT
+
+**All three images show clearly identifiable children, and the hero carries the
+caption "Martial Arts for ADHD" directly over a photograph of a named-brand
+child's face.** On a page about a clinical diagnosis, that juxtaposition
+implies the children pictured have ADHD. **Logged in full below.**
+
+---
+
+
 ### 0b. The second page naming other gyms — three real DFW businesses, in the body, one of them inside a testimonial — CONTENT (accuracy), LEGAL, BRANDING — **CRITICAL**
 
 `/choosing-a-martial-arts-gym-in-dfw/` (27 April 2026, 3,097 words) was checked
@@ -6653,6 +6792,57 @@ duplicates. For the keyword "martial arts stress relief" that is defensible;
 **if this page becomes the canonical one after the 301, the city should go into
 the H1.**
 
+**2026-11-10 addition, HIGH — `/how-martial-arts-for-adhd-improves-focus/`
+raises the need for specialist staff training and then does NOT claim it.**
+
+**This was the check to watch, and the page threads the needle.** It tells
+parents what to look for and then describes what the gym actually has:
+
+> "When looking for martial arts for ADHD you want **instructors who
+> understand how to work with neurodiverse kids**. At Sixth Sense head coach
+> Matheus brings **over 15 years of experience** and knows how to keep every
+> child engaged and included."
+
+> FAQ 6: "The coaches at Sixth Sense are **experienced with energetic and
+> neurodiverse kids**."
+
+| Check | Result |
+|---|---|
+| Claims specialist ADHD or special-needs training | **NO** |
+| Claims a qualification in child development | **NO** — the phrase does not appear, unlike `/preschool-jiu-jitsu-…/` which claimed instructors "trained in child development" |
+| "Certified" or "certification" | **zero occurrences** |
+| What IS claimed | **"over 15 years of experience"** and being **"experienced with… neurodiverse kids"** |
+
+**"Experienced with neurodiverse kids" is a soft claim and still a checkable
+one.** It is not a qualification, it is a statement about who the coaches have
+taught, and the client should be able to stand behind it. **The structural
+problem is the sequence:** the page spends a paragraph telling parents that
+specialist understanding is what to look for, then offers general experience
+as the answer. **A parent reads that as a specialist claim even though the
+page does not make one.**
+
+**Recommendation:** if any coach has safeguarding, SEN or child-development
+training, name it — it would be the strongest line on the page. If none does,
+**the "instructors who understand how to work with neurodiverse kids"
+sentence should be softened**, because it sets a bar the next sentence does
+not clear.
+
+#### Everything else on the page is accurate
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu and Muay Thai only.** Karate, taekwondo, kickboxing, judo (except inside the held NeuroImage citation) and wrestling occur **zero times** as offerings |
+| Any discipline lacking a programme page | **none** |
+| Pricing section or figure | **none.** No dollar amount, no "pricing", no "membership", no "cost". **Not a fourteenth pricing page** |
+| Free trial | "a free trial class so your child can experience it with no pressure and no commitment" — **a single class**, consistent with the site |
+| Other gym names | **none.** "Gracie", "Georges", "Academy", "Superfly" — zero |
+| Address, phone, email | **no phone number and no email in the body at all**; the one address mention, "817 S MacArthur Blvd in Coppell TX", is correct |
+
+#### Local signals
+
+**Coppell ×3, TX ×3, plus Valley Ranch, Irving, Carrollton, Grapevine and
+Lewisville once each. The H1 does not name the city. Zero tags.**
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11794,6 +11984,45 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The wellbeing cluster reaches SIX, and the newest one names a diagnosis
+
+`/how-martial-arts-for-adhd-improves-focus/` (13 August 2026) is the sixth
+page in the cluster and **the first to target a clinical search term**.
+
+| Page | Subject | Health or psychological claims |
+|---|---|---|
+| `/martial-arts-confidence-building/` | confidence | yes |
+| `/martial-arts-stress-relief-coppell-adults/` | stress, adults | yes |
+| `/martial-arts-discipline/` | discipline | yes (issue 113) |
+| `/martial-arts-stress-relief/` | stress | yes (issue 114) |
+| **`/how-martial-arts-for-adhd-improves-focus/`** | **ADHD** | **yes — see the top of this file** |
+| `/muay-thai-thai-boxing/` | confidence, despite its title | — |
+| plus `/preschool-jiu-jitsu-…/` | developmental claims | yes |
+
+**Measured overlap:**
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/martial-arts-discipline/` | 4 of 16 (25.0%), all boilerplate | **45.3%** | **9 of 104 (8.7%)** |
+| `/martial-arts-confidence-building/` | 4 of 16 (25.0%), all boilerplate | **39.6%** | **0 of 104 (0.0%)** |
+
+**All nine near-duplicate sentences against the discipline page are the shared
+closing boilerplate** — Contact Us, Follow Us, the CTA. **Zero editorial
+sentences are shared with either page.**
+
+**45.3% against the discipline page is the highest in the cluster**, and the
+reason is vocabulary rather than copying: both pages are built around "focus",
+"self control", "structure" and "discipline". **`/martial-arts-discipline/`
+already claims that training "literally rewires how your brain handles focus"
+(issue 113) and that it "shows up in their grades". This page makes the same
+kind of claim about a diagnosed population.**
+
+**Recommendation: do NOT consolidate this one.** The ADHD page serves a
+genuinely distinct search intent and a distinct reader. **It should be fixed
+and kept separate** — but it should be the first of the six reviewed, because
+it is the one where a wrong claim reaches a parent making a decision about a
+child's treatment.
 
 #### ⚠ CRITICAL — a SECOND duplicate pair: two stress relief pages, slugs
 #### differing only by a suffix
@@ -19127,6 +19356,82 @@ site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
 
+### 2026-11-10 — `/how-martial-arts-for-adhd-improves-focus/`: seven
+### identifiable children on a page about a clinical diagnosis
+
+**This is the most sensitive image set in the audit, and the reason is the
+caption, not the photographs.**
+
+| File | What it shows | Children |
+|---|---|---|
+| `martial-arts-for-adhd-1024x536.webp` (hero) | a boy of about seven in a white gi, kneeling, face in three-quarter view, a coach crouched beside him pointing; more children on the mat behind | **one in close focus, four more discernible** |
+| `martial-arts-for-adhd1.webp` | **five children seated in a row on blue mats, all facing camera, all faces fully identifiable**, white gis with grey belts | **five** |
+| `martial-arts-for-adhd2.webp` | a boy of about eleven in gloves punching a coach's focus pad, face fully visible | **one** |
+
+#### The caption is the safeguarding issue
+
+**The hero image carries the words "Martial Arts for ADHD" printed across the
+bottom, directly beneath an identifiable child's face.** The page URL, the
+title, the H1 and the caption all name the diagnosis.
+
+**The implication a reader draws is that the children pictured have ADHD.**
+That is health information about identifiable minors, inferred from their
+appearance on the page. **It is a different and more serious category than the
+consent question logged against `/preschool-jiu-jitsu-…/` and the two
+`martial-arts-coppell-` pages**, where the images illustrated classes rather
+than a medical condition.
+
+**What the client must confirm before this page is published:**
+
+1. **Written parental consent for every child pictured**, as with every other
+   page carrying children's faces.
+2. **Specific consent for use on this page**, because consent to appear in
+   gym marketing is not consent to appear under a diagnosis.
+3. **Whether any child pictured actually has an ADHD diagnosis.** If one does,
+   this is health data and needs handling as such. If none does, the page is
+   implying something untrue about identifiable children.
+
+**The simplest fix removes the problem entirely:** use images that do not show
+faces, or move the caption off the photograph. **The third image, shot from
+behind or in silhouette, would carry the same message with none of the risk.**
+
+#### Ages: none given, and the FAQ declines to answer
+
+| Group | What this page says | `kids-bjj-classes.html` |
+|---|---|---|
+| Kids | "**Children can start young** and benefit from the structure right away" — **no number anywhere on the page** | **4 to 12**, Little Champions **4 to 7** |
+
+**FAQ 3 is headed "At what age can a child with ADHD start martial arts" and
+gives no age.** The answer is "Children can start young… the coaches adapt
+their teaching to each child's age and developmental level". **That is the
+fourth page in this batch to write about children and decline to say how young
+they can begin**, and the first to do it in an FAQ that asks the question
+directly.
+
+**No contradiction with the programme pages, because no age is stated.**
+"Little Champions" is not named, the eighth page running.
+
+#### Safety claims: none to omit
+
+**No sentence claims an absence of injury risk or guarantees a child's
+physical safety.** The only use of the word is FAQ 3's "even younger kids can
+**participate safely and successfully**", which describes participation rather
+than promising an absence of harm, and was kept consistently with earlier
+rulings. **"Zero side effects" was held, but as a medication claim rather than
+an injury claim** (see the top of this file).
+
+#### No testimonial describes a named child
+
+**(g): no.** The page reports outcomes in aggregate — "many families notice
+their child listening better", "teachers frequently comment on improved
+behavior", "many parents at Sixth Sense find that BJJ holds their child's
+attention better than any team sport" — and **never quotes a parent, names a
+child, or describes an individual case.** After the fabricated transformation
+story at issue 104 and the "one parent shared that their son…" testimonial on
+`/martial-arts-coppell-your-guide-…/`, **this page's restraint is worth
+recording.**
+
+
 ### 2026-11-10 — `/martial-arts-discipline/`: a kids section with no age, no
 ### images of children, and one behaviour claim
 
@@ -23920,6 +24225,71 @@ matching checksum. **No identifiable children in any of them.**
 #### No tags
 
 **Zero tags, the seventh post in a row with none.**
+
+**2026-11-10 addition — `/how-martial-arts-for-adhd-improves-focus/`: the
+first page in the audit to cite a real study by its PubMed ID, and it attaches
+it to the wrong sentence.**
+
+#### Sources on this page, all three of them
+
+| Anchor | Target | Resolves | Credible |
+|---|---|---|---|
+| "working memory" | **`pubmed.ncbi.nlm.nih.gov/35988343/`** | **yes** — PubMed returns a bot-check page to automated requests, but the record resolves through the NCBI API | **yes** — Ludyga et al., *NeuroImage: Clinical*, 2022, a randomised controlled trial of judo training and working memory in children with ADHD |
+| "belt ranking" | `/bjj-belt-ranks-explained/` | internal | the client's own post |
+| "cognitive flexibility" | `/top-fighting-styles/` | internal | **the client's own blog post, cited for a cognitive-science term** |
+
+**The PubMed citation is a genuine first for this site.** Across the whole
+audit the pattern has been a credible organisation named for a claim it did
+not make — Mayo Clinic, Harvard Health, the APA. **This is a specific paper,
+correctly identified, that says what the page says it says.**
+
+**But it is linked from the wrong paragraph.** The PMID sits under "working
+memory" in the **Muay Thai** section, supporting the claim that Muay Thai
+combinations strengthen working memory. **The study is about judo**, and the
+page's own judo sentence — two sections earlier, in "What the Science Says" —
+names *NeuroImage Clinical* with **no link at all**. **Moving the link up one
+paragraph would make one claim properly sourced and remove an unsupported
+one.**
+
+**"Cognitive flexibility" linking to the client's own `/top-fighting-styles/`
+post is the weaker of the three.** The anchor is a term from cognitive
+psychology and the destination is a martial arts listicle. **It is
+self-citation dressed as a definition**, the same defect as the "Muay Thai
+program" → gear-article link logged on `/martial-arts-coppell-the-best-gym-for-kids/`.
+
+#### Typos and markup reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Third image | `alt="martial arts for adhd␣"` — **a trailing space in the alt text**, where the other two have none |
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to five earlier pages |
+| **All six FAQ questions** | "Can martial arts really help a child with ADHD", "Will martial arts replace my child's ADHD medication" — **not one question mark**, the sixth page running |
+| Body prose throughout | "However more and more families…", "Moreover the clear rules…", "Consequently the ADHD brain…" — **conjunctive adverbs with no following comma**, roughly forty instances |
+| Run-on sentences | "Let me be clear this is not just feel good marketing", "Furthermore these are not accidental side effects they are the core mental demands of the sport", "The right gym does not just teach techniques it helps your child thrive" |
+| Lists without separators | "doctors appointments school meetings and endless advice", "Valley Ranch Irving Carrollton Grapevine and Lewisville", "sit still stop fidgeting and pay attention" |
+| Head coach | "head coach **Matheus**" — one T, no surname. **Sixth page running** |
+| Keyword phrase as a noun | "**martial arts for ADHD**" appears **23 times**, including in **twelve of the fourteen editorial headings** |
+
+**No trailing space in the title or H1 on this page** — the defect that hit
+`/martial-arts-discipline/` and `/martial-arts-stress-relief/` is absent here.
+
+**No leaked chat markup.** The `font-claude-response-body` classes, the
+`data-sourcepos` attributes and the `<h2>`-wrapped street address are all
+absent, as on the two previous builds.
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table format)",
+"Call to Action:"). **No empty ChatGPT citation anchors. No `/landing-page/`
+link. Casino spam present in the source at `left:-35255px` with all eight
+domains and excluded.**
+
+#### No tags — and on this page that is the right outcome
+
+**Zero tags, the eighth post in a row with none.**
+
+**This is the one page where the absence is actively good.** The brief flagged
+that a tag such as "ADHD treatment" would be a stronger claim than the body
+text, and would create a taxonomy archive URL on the client's domain built
+around a clinical term. **There is no such tag, and none naming any condition.**
 
 ## How these were checked
 

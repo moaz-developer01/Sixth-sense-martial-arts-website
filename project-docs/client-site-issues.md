@@ -6592,6 +6592,36 @@ safety entry at issue 0.**
 service page that is a missed signal, though a mild one — the keyword is
 "muay thai for teens", which is not a local query.
 
+**2026-11-10 addition — `/martial-arts-discipline/`: clean on programmes, and
+it is the fourth page in a row with no pricing promise.**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu and Muay Thai only.** Karate, taekwondo, kickboxing, judo and wrestling occur **zero times** |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times**; the only credential is "Head coach Matheus with over 15 years of experience" |
+| Pricing section or figure | **none.** No dollar amount, no "pricing", no "membership", no "cost" except "can cost you a position" in a BJJ sentence. **Not a fourteenth pricing page** |
+| Free trial | "the free trial class", and FAQ 6 "a completely free no obligation trial class" — **a single class, consistent with every page except `/martial-arts-coppell-the-best-gym-for-kids/`, which says three days** |
+| Age ranges | **none stated anywhere.** "Kids", "teens" and "adults" are used throughout with **no number attached to any of them** |
+
+**No age means no contradiction with `kids-bjj-classes.html` (4–12, Little
+Champions 4–7), but it is the third page in four days to write about children
+without saying how young they can start.** "Little Champions" is not named,
+the seventh page running.
+
+#### Local signals: the thinnest of any page in this batch
+
+| Signal | Result |
+|---|---|
+| H1 contains "Coppell" | **No** — "Martial Arts Discipline How Training Shapes Your Mind and Character" |
+| "Coppell" in the body | **3 times** — against 5, 15 and 33 on the other pages in this batch |
+| Other locations | **none.** No DFW, no Valley Ranch, no Irving, no Carrollton, no Grapevine, no Lewisville — **the first page in this batch to name no surrounding city at all** |
+| Tags carrying the city | **no tags at all** |
+
+**The meta description names Coppell TX and the body barely does.** For a
+non-local keyword ("martial arts discipline") that is defensible, and arguably
+better than the city-stuffing on the two `martial-arts-coppell-` pages.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11733,6 +11763,64 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The wellbeing cluster: four pages on the same territory, and — unexpectedly — almost no textual overlap
+
+`/martial-arts-discipline/` (27 July 2026) completes a group of four pages that
+cover confidence, stress and discipline, which is one subject split three ways:
+
+| Page | Nominal subject | What it is actually about |
+|---|---|---|
+| `/martial-arts-confidence-building/` | confidence | confidence |
+| `/martial-arts-stress-relief-coppell-adults/` | stress relief | stress and mental health, adults |
+| **`/martial-arts-discipline/`** | **discipline** | **discipline, self control, focus, resilience** |
+| `/muay-thai-thai-boxing/` | **Muay Thai, by its title** | **confidence** — the whole article |
+
+Plus the confidence sections inside the four benefits pages and the eight kids
+pages, which are not standalone but target the same intent.
+
+#### Measured against the two named siblings, and the numbers do not support consolidation
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/martial-arts-confidence-building/` | **4 of 18 (22.2%)**, all boilerplate | **40.9%** | **0 of 130 (0.0%)** |
+| `/martial-arts-stress-relief-coppell-adults/` | **1 of 18 (5.6%)** — just "FAQ's" | **33.3%** | **0 of 130 (0.0%)** |
+| `/muay-thai-thai-boxing/` | 2 of 18 (11.1%) | 45.5% | 0 of 130 (0.0%) |
+| `/muay-thai-for-teens-…/` (closest pair from this build) | 4 of 18 (22.2%), all boilerplate | 36.4% | **8 of 130 (6.2%)**, all boilerplate |
+
+**Zero sentences on this page duplicate any sentence on any of the three
+wellbeing siblings.** The highest single-sentence similarity against the
+confidence page is **50%**, and it is two different writers reaching for the
+same stock phrase:
+
+> **this page:** "Over time this builds resilience and the ability to **stay
+> calm under pressure** which are the core elements of mental toughness."
+> **confidence page:** "Practitioners develop mental toughness **calm under
+> pressure** and the ability to tackle life's challenges with resilience…"
+
+**So: the overlap is NOT high, and this entry does not recommend
+consolidation.** That is the opposite of the finding for the two
+`martial-arts-coppell-` pages above (66.7% heading-word, 39.8% of sentences
+near-duplicated) and it should not be conflated with them. **These four are
+genuinely different articles.**
+
+#### What the real risk is, and it is not duplication
+
+**It is intent.** A reader searching "martial arts confidence", "martial arts
+discipline" or "martial arts for stress" is the same person with the same
+problem, and the client now has four pages competing for them. **Nothing in
+the text needs merging; the internal linking needs fixing.**
+
+| Recommendation | Why |
+|---|---|
+| **Keep all four** | the prose is distinct and each has its own angle |
+| **Link them to each other** | none of the four links to any of the others. `/martial-arts-discipline/` links only to `adult-bjj-classes.html`, `teen-bjj-classes.html` and Harvard Health |
+| **Retitle `/muay-thai-thai-boxing/`** | its title promises a Muay Thai explainer and the article is entirely about confidence. **That is the one genuine mismatch in the group** (issue 41 logs the same defect elsewhere) |
+| **Pick one as the hub** | `/martial-arts-discipline/` is the best candidate: it is the only one covering kids, teens and adults in a single article, and it is the cleanest on claims (issue 113) |
+
+**This cluster is a linking problem, not a cannibalisation problem.** Recording
+it that way because the file would otherwise imply a merge that the measurements
+do not justify.
 
 #### The teen cluster: four pages, and the LOWEST overlap of any cluster here
 
@@ -18915,6 +19003,49 @@ site currently answers five different ways (issue 72).
 
 ## CHILD SAFETY CONTENT
 
+### 2026-11-10 — `/martial-arts-discipline/`: a kids section with no age, no
+### images of children, and one behaviour claim
+
+The page has one section addressed to parents of children ("How Kids Learn
+Discipline Through Martial Arts") and one FAQ ("How does martial arts build
+discipline in children").
+
+| Check | Result |
+|---|---|
+| Age range stated | **none, anywhere on the page.** "Kids", "children" and "teens" carry no number |
+| Conflict with `kids-bjj-classes.html` (4–12, Little Champions 4–7) | **none possible**, because no age is given |
+| Identifiable children in images | **NO** — all three images show adults only |
+| Claim that training keeps a child safe | **none** |
+| Children sparring described | **none.** Sparring is described once, in the adult-facing "Self Control" section |
+
+**This is the first page in six builds with no children in any image.** The
+three images are a wrapped fist on a wooden surface, two adult men rolling in
+gis, and an adult man seated on a bench after training. **No consent question
+arises.**
+
+**The one claim to note is behavioural, not safety-related:**
+
+> "**Parents consistently report** that their kids start making their beds
+> doing homework without being told and showing more respect after a few
+> months of training."
+
+**Unattributed, unverifiable, and presented as a pattern** ("consistently").
+It is mild compared with the invented child statistics at issues 106 and 107,
+**but it is the page's only claim about children and it has nothing behind
+it.** Logged in full at issue 113(b) alongside the grades claim.
+
+**One structural point about the discipline framing.** The page opens its kids
+section by contrasting martial arts with punishment:
+
+> "most traditional methods involve **punishment or fear** which only creates
+> short term obedience. However martial arts takes a completely different
+> approach… **structure repetition and positive reinforcement**."
+
+**That is the right framing for a children's discipline page** and worth
+recording as a positive: a page selling "discipline" to parents could easily
+have promised compliance, and this one explicitly rejects it.
+
+
 ### 2026-11-10 — `/muay-thai-for-teens-how-it-builds-confidence/`: the most
 ### RESPONSIBLE minors page in the audit, with three things still to settle
 
@@ -23229,6 +23360,209 @@ discipline, none naming a competitor, none carrying the city.
 match the client's Coppell details: 817 S MacArthur Blvd #100, (469) 972-7800,
 info@sixthsensemma.com. **No different phone number found anywhere on the
 page.**
+
+### 113. A brain-rewiring claim, an unsourced grades claim, and no disclaimer anywhere — on the page that spans every audience the gym markets to — CONTENT (accuracy) — **High**
+
+`/martial-arts-discipline/` (27 July 2026) covers kids, teens and adults in one
+article, so its claims reach every group on the site. **It is much cleaner than
+the three pages it joins in the wellbeing cluster, and it fails on two specific
+sentences rather than throughout.**
+
+#### (a) Clinical or developmental conditions: NONE. Zero.
+
+**This was the check most likely to fail and it passes completely.** The
+following words occur **zero times** on the page:
+
+> ADHD · ADD · autism · anxiety · anxious · depression · ODD · oppositional ·
+> diagnosis · disorder · symptom · treatment · cure · clinical
+
+**Discipline content aimed at parents is where an ADHD claim would normally
+appear**, because that is what parents search for, and `/mma-classes-for-kids/`
+already carries a 78% ADHD improvement figure (issue 107). **This page names no
+condition at all.** The nearest it comes is behavioural and framed as habit:
+
+> "Kids are not born with discipline it has to be taught… At Sixth Sense kids
+> learn discipline through **structure repetition and positive
+> reinforcement**."
+
+#### (b) Academic performance: ONE claim, unsourced, and it is about grades
+
+> "Consequently teens who train regularly develop focus and concentration that
+> **shows up in their grades** their relationships and their decision making."
+
+**That is a direct academic-performance claim with no evidence behind it.** It
+is the same class of claim as the preschool page's "studies show that children
+involved in martial arts tend to perform better in academic settings", but
+weaker: **the preschool page at least gestured at studies; this one asserts it
+flatly.**
+
+**A second, softer behaviour claim is attributed to parents:**
+
+> "**Parents consistently report** that their kids start making their beds
+> doing homework without being told and showing more respect after a few months
+> of training."
+
+**Unattributed but honestly framed as self-report**, so it belongs with the
+testimonial concerns at issue 104 rather than with the invented statistics.
+
+#### (c) Brain and neuroscience: ONE claim, and it is the worst sentence on the page
+
+> "This is not a coincidence. **Mental toughness training through martial arts
+> literally rewires how your brain handles focus.**"
+
+**"Literally rewires how your brain handles focus" is a neuroplasticity claim
+stated as established fact, with no citation.** Three things make it the
+sentence to fix:
+
+1. **The word "literally"** removes the metaphorical reading that would make it
+   harmless. The page is asserting a physical change in the brain.
+2. **"This is not a coincidence" immediately precedes it**, which frames what
+   follows as a causal mechanism rather than an impression.
+3. **It sits in a paragraph about attention spans aimed partly at parents**,
+   next to "Social media notifications constant screen time and information
+   overload are **destroying attention spans across all age groups**" — a second
+   unsourced claim about cognition.
+
+**A martial arts gym is not in a position to make a claim about brain
+function.** The fix is one word: "changes how your brain handles focus" would
+be defensible; "literally rewires" is not.
+
+**A milder self-regulation claim was also made and is fine as written:** "this
+**emotional regulation** becomes second nature over time" — ordinary language
+about a learned skill, not a clinical assertion.
+
+#### (d) Statistics and studies: NONE, and one real citation
+
+**Zero percentages. Zero "studies show". Zero "research shows". Zero survey
+references.** After the run of invented figures at issues 100–107, **this page
+fabricates nothing.**
+
+**It carries one outbound citation, and the source is credible:**
+
+> "students who train at Sixth Sense develop a
+> **[growth mindset](https://www.health.harvard.edu/blog/life-can-be-challenging-build-your-own-resilience-plan-202406123049)**
+> that helps them take risks try new things and bounce back from setbacks
+> faster…"
+
+**Harvard Health Publishing**, the consumer-health arm of Harvard Medical
+School. **The link resolves** (301 to `harvardhealth.org`, final status 200)
+and the article is about building a resilience plan, which is on topic for the
+sentence it supports. **This is the second page running to cite a real medical
+source**, after `/muay-thai-for-teens-…/` cited Mayo Clinic. **Two in a row is
+a trend worth encouraging.**
+
+**The sentence it supports still overreaches slightly** — Harvard's article
+does not say martial arts students bounce back "faster than people who have
+never been on the mat", which is the page's own comparative addition. **But the
+mechanism is sourced, which is new for this site.**
+
+#### (e) Disclaimer: NONE
+
+**The page carries no disclaimer of any kind.** "Disclaimer", "not medical
+advice", "not a substitute", "consult", "professional advice" and "qualified
+professional" occur **zero times**.
+
+**Given (a), that matters less here than it would elsewhere** — a page that
+names no condition has less to disclaim. **But it makes a brain claim and an
+academic claim**, and one line ("this article describes general benefits and is
+not medical or educational advice") would cover both. **None of the four
+wellbeing pages carries one.**
+
+#### (f) Substitute for therapy or medical care: NO
+
+**Nothing on the page positions training as an alternative to professional
+help.** "Therapy", "therapist", "counselling", "medication" and "mental health"
+occur **zero times** — the page does not raise the subject at all.
+
+**This is the cleanest result of the four wellbeing pages on this specific
+point.** `/martial-arts-stress-relief-coppell-adults/` needed a full review for
+exactly this, because it positioned exercise against professional mental health
+care. **This page never goes near it.**
+
+#### Summary for the client
+
+| Check | Result |
+|---|---|
+| (a) Clinical or developmental condition claim | **none** |
+| (b) Academic performance | **one, unsourced** — "shows up in their grades" |
+| (c) Brain / neuroscience | **one, unsourced** — "literally rewires how your brain handles focus" |
+| (d) Statistics or studies | **none invented**; one real Harvard Health citation |
+| (e) Disclaimer | **none** |
+| (f) Substitute for therapy | **no** |
+
+**Two sentences need editing and the page is sound.** That is a much shorter
+list than this file has produced for any other wellbeing page.
+
+**2026-11-10 addition — `/martial-arts-discipline/`: a TRAILING SPACE in the
+title, the H1 and every image title attribute, and the first page in four
+with no leaked chat markup.**
+
+#### A trailing space that reached four places
+
+> `<title>Martial Arts Discipline How Training Shapes Your Mind and Character
+> ␣␣- Sixth Sense Martial Arts</title>`
+
+The title ends with a space before the separator, giving a **double space**
+before "- Sixth Sense Martial Arts". The same trailing space appears in:
+
+| Where | As published |
+|---|---|
+| `<title>` | "…Mind and Character␣␣- Sixth Sense Martial Arts" |
+| `<h1>` | "…Mind and Character␣" |
+| `title=` on all three images | "…Mind and Character␣" |
+
+**It originates in the post title field in WordPress** and propagates to
+everything generated from it. **Cosmetically invisible** — HTML collapses
+trailing whitespace — **but it is in the `<title>` element, which is what a
+search result prints**, and some crawlers do not normalise it.
+
+**In the rebuild the clean title and H1 were used**, on the client's
+instruction. **Fix is one keystroke in the WordPress title field.**
+
+#### No leaked chat markup, and no address heading
+
+**The `font-claude-response-body` classes, the `data-sourcepos` attributes and
+the `<h2>`-wrapped street address are all ABSENT from this page** — the first
+in four builds without them. The contact block here is three ordinary
+paragraphs with no address, phone or email line at all, which is why.
+
+**That also means the page gives no contact details in its body.** The only
+address on it is in prose ("The facility at 817 S MacArthur Blvd in Coppell"),
+and there is **no phone number and no email anywhere in the article**. For a
+page ending "Reach out to us today", **that is a conversion gap**, not an
+accuracy problem — the rebuild's footer supplies both.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to three earlier pages |
+| **All six FAQ questions** | "How does martial arts build discipline in children", "Does Sixth Sense MMA offer a free trial class" — **not one question mark**, the fourth page running |
+| Body prose throughout | "However the truth is…", "Moreover martial arts teaches…", "Consequently students learn…" — **conjunctive adverbs with no following comma**, roughly fifty instances |
+| Run-on sentences | "Kids are not born with discipline it has to be taught", "Discipline is not a feeling it is a habit", "Mental toughness is not about being hard it is about being resilient" — **comma splices with no punctuation at all** |
+| Head coach | "Head coach **Matheus**" — one T, no surname, where the rest of the site has **Mattheus Galvao**. **Fourth page running** |
+| Keyword phrases used as nouns | "character building through martial arts" (×4), "mental toughness training" (×4), "self control martial arts" (×3) — **ungrammatical keyword insertions**, e.g. "the benefits of self control martial arts offer" |
+
+**The keyword-phrase insertions are the most visible writing defect.** "That
+moment teaches self control martial arts practitioners carry into their daily
+lives" reads as a broken sentence because the exact-match keyword has been
+dropped into it whole. **Six instances across the page. All reproduced.**
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table format)",
+"Call to Action:"). **No empty ChatGPT citation anchors. No `/landing-page/`
+link. No casino spam reproduced** (the block is present in the source at
+`left:-35255px` with all eight domains and was excluded).
+
+#### Branding: clean
+
+**No gym name other than Sixth Sense Martial Arts.** "Gracie", "Georges",
+"Academy", "Superfly" — **zero occurrences**. **No phone number or email
+appears in the body at all**, so nothing can differ from the client's details;
+the one address mention is correct.
+
+#### No tags
+
+**Zero tags, the sixth post in a row with none.**
 
 ## How these were checked
 

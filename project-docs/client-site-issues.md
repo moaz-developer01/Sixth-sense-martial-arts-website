@@ -6622,6 +6622,37 @@ the seventh page running.
 non-local keyword ("martial arts discipline") that is defensible, and arguably
 better than the city-stuffing on the two `martial-arts-coppell-` pages.
 
+**2026-11-10 addition — `/martial-arts-stress-relief/`: clean on programmes,
+and it is the page that shows the Karate title on its sibling was avoidable.**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu and Muay Thai only.** **"Karate" occurs ZERO times** — against the sibling page, which carries it in the title |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified" and "certification" occur **zero times**; the only credential is "Head coach Matheus with over 15 years of experience" |
+| Pricing section or figure | **none.** No dollar amount, no "pricing", no "membership", no "cost". **Not a fourteenth pricing page** |
+| Free trial | "a free trial class where you can experience a full session with zero pressure to commit" — **a single class**, consistent with every page except `/martial-arts-coppell-the-best-gym-for-kids/` |
+| Age ranges | **none stated.** "Teens" and "parents" appear with no numbers |
+
+**The Karate finding is worth the client's attention as a positive.** Two pages
+on the same subject, written for the same gym; one put an untaught discipline
+in its title and the other names only what the gym teaches. **Whoever wrote the
+August page got it right, and that page should be the one that survives.**
+
+#### Local signals: the thinnest in the cluster
+
+| Signal | Result |
+|---|---|
+| H1 contains "Coppell" | **No** |
+| "Coppell" in the body | **2 times** |
+| Other locations | Valley Ranch, Irving, Carrollton, Grapevine, Lewisville (1 each), TX ×2 |
+| Tags carrying the city | **no tags at all** |
+
+**The slug has no city and the H1 has no city**, unlike the sibling it
+duplicates. For the keyword "martial arts stress relief" that is defensible;
+**if this page becomes the canonical one after the 301, the city should go into
+the H1.**
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -11763,6 +11794,99 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### ⚠ CRITICAL — a SECOND duplicate pair: two stress relief pages, slugs
+#### differing only by a suffix
+
+| Page | Slug | Published |
+|---|---|---|
+| the existing one | `/martial-arts-stress-relief-**coppell-adults**/` | 27 Apr 2026 |
+| **the new one** | `/martial-arts-stress-relief/` | **4 Aug 2026** |
+
+**The second `martial-arts-*` duplicate pair in this document**, after the two
+`martial-arts-coppell-` pages above. **Same pattern: one page, then a near
+sibling whose slug is the first one plus or minus a qualifier.**
+
+#### (f) and (g) — the measurements, which are NOT what the slugs suggest
+
+| Measure | Result |
+|---|---|
+| Exact heading matches | **1 of 17 (5.9%)** — and it is "FAQ's" |
+| Heading-word overlap | **48.3%** |
+| Near-duplicate headings | **2 of 15 editorial headings** |
+| **Sentences at ≥55% word overlap** | **0 of 118 — 0.0%** |
+
+**(g): no, they do not share paragraphs.** Not one sentence on the new page
+reaches 55% word overlap with any sentence on the Coppell page. **That is a
+materially different finding from the two `martial-arts-coppell-` pages, where
+39.8% of sentences were near-duplicates and two were word for word.**
+
+The only two headings that come close are differently framed:
+
+| New page | Coppell page | Overlap |
+|---|---|---|
+| "**The Science** Behind Martial Arts **Stress Relief**" | "**The Data** Behind Martial Arts **Mental Health Benefits**" | 50% |
+| "**Starting Your** Martial Arts Stress Relief **Journey at Sixth Sense**" | "**Adult Program Breakdown at** Sixth Sense Martial Arts **Coppell**" | 50% |
+
+#### (h) What genuinely distinguishes them
+
+| | `/martial-arts-stress-relief-coppell-adults/` | `/martial-arts-stress-relief/` |
+|---|---|---|
+| Audience | **adults only** | **professionals, parents AND teens** — three audience sections |
+| Geography | Coppell in the slug, title and throughout | **Coppell twice, not in the H1** |
+| **Karate** | **in the page title** — "Fitness & Karate" | **zero mentions anywhere** |
+| Named coach | Coach Mattheus Galvao | "Head coach Matheus" |
+| Structure | adult programme breakdown | mechanism-first: science, then BJJ, then Muay Thai, then audience by audience |
+| Citations | — | APA link, Journal of Sports Science and Medicine named |
+| Unique sections | adult programme detail | **sleep quality, mindfulness, community and belonging** — three subjects the sibling does not cover |
+
+#### Which one to keep: the new one, and the Karate line is why
+
+**Agreed with the brief.** `/martial-arts-stress-relief-coppell-adults/` carries
+**Karate in its title** — a discipline the gym does not teach, with no
+programme page, no instructor and no schedule (issue 39). **A title is the
+hardest thing on a page to walk back**, because it is what a search result
+prints and what every inbound link quotes.
+
+**The new page names only Brazilian Jiu Jitsu and Muay Thai** — both real,
+both with programme pages — and covers three audiences rather than one.
+
+**Recommendation: keep `/martial-arts-stress-relief/`, 301 the Coppell page
+into it, and fix the health claims on the survivor (issue 114) before
+consolidating.** Merging first would carry the cortisol and "therapy without
+the couch" problems onto the canonical URL.
+
+**One thing the Coppell page has that the survivor lacks: the city.** If the
+client wants the local signal, add "in Coppell TX" to the new page's H1 — it
+currently names the city twice in 2,357 words and not at all in the heading.
+
+#### The wellbeing cluster is now FIVE pages
+
+| Page | Subject | Health/psych claims logged |
+|---|---|---|
+| `/martial-arts-confidence-building/` | confidence | yes |
+| `/martial-arts-stress-relief-coppell-adults/` | stress, adults | yes |
+| `/martial-arts-discipline/` | discipline | yes (issue 113) |
+| **`/martial-arts-stress-relief/`** | **stress** | **yes (issue 114)** |
+| `/muay-thai-thai-boxing/` | confidence, despite its title | — |
+| plus the preschool post | developmental claims | yes |
+
+**Overlap of the new page against the other two measured siblings:**
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/martial-arts-discipline/` | 4 of 17 (23.5%), all boilerplate | **41.7%** | **5 of 118 (4.2%)**, all five boilerplate |
+| `/martial-arts-confidence-building/` | 4 of 17 (23.5%), all boilerplate | **30.0%** | **0 of 118 (0.0%)** |
+
+**So the cluster holds: five pages, same territory, almost no shared text.**
+As recorded against `/martial-arts-discipline/` above, **this is a linking and
+claims problem, not a text-duplication one** — with the exception of the
+stress-relief pair, whose slugs alone will split the query.
+
+**The claims are the reason to act on all five together.** Four of the five
+carry health or psychological assertions, none carries a disclaimer, and three
+now cite real medical bodies for figures those bodies did not publish in the
+form quoted. **One review pass across the five, not five separate fixes.**
 
 #### The wellbeing cluster: four pages on the same territory, and — unexpectedly — almost no textual overlap
 
@@ -23563,6 +23687,239 @@ the one address mention is correct.
 #### No tags
 
 **Zero tags, the sixth post in a row with none.**
+
+### 114. A gym publishing hormone claims: cortisol, endorphins and dopamine, one misquoted journal, one misattributed statistic, two "therapy" framings and no disclaimer — CONTENT (accuracy), LEGAL (health claims) — **HIGH**
+
+**This page makes specific physiological claims about hormone levels. A martial
+arts gym stating that its classes lower cortisol is a health claim requiring
+evidence, and it sits alongside the ADHD, anxiety and depression claims already
+flagged on `/martial-arts-confidence-building/`,
+`/martial-arts-stress-relief-coppell-adults/`, `/martial-arts-discipline/` and
+the preschool post.**
+
+**Five pages in this cluster now carry health or psychological claims.
+Recommend one review pass across all five rather than page-by-page fixes.**
+
+#### (a) Biochemical claims: fifteen sentences, naming four mechanisms
+
+The claims are not incidental — **an entire section is headed "The Science
+Behind Martial Arts Stress Relief"** and the meta description leads with them.
+
+| Mechanism | Claim, verbatim |
+|---|---|
+| **Cortisol** | "When you train in martial arts **your body reduces cortisol** which is **the hormone responsible for stress and anxiety**." |
+| **Endorphins + dopamine** | "your brain **releases endorphins and dopamine** which are natural chemicals that **elevate your mood and create a sense of calm**." |
+| **Cortisol, again** | "structured physical activity like martial arts **lowers cortisol and endorphins levels balance out** more effectively than standard cardio exercises." |
+| **Cortisol + endorphins** | "the intense cardio involved in Muay Thai **floods your system with cortisol and endorphins** balancing chemicals that leave you feeling **euphoric** after class." |
+| **Endorphins** | "**group exercise produces higher endorphin release than solo workouts**… the social aspect of martial arts **directly amplifies** the stress relieving effects." |
+| **Nervous system** | "BJJ… **directly trains your nervous system** to handle emotional pressure off the mat" · "the mental focus required during class **calms your nervous system**" · "consistent training **teaches your nervous system** to stay calm under pressure" |
+| **Brain** | "you are not just burning calories you are **rewiring how your brain responds to pressure**" |
+| **FAQ 1, in structured data** | "Martial arts training **lowers cortisol levels and triggers endorphin release** which naturally reduces stress and improves mood." |
+
+**Two of these are self-contradictory as written and should be flagged to the
+client as errors rather than as claims:**
+
+1. **"lowers cortisol and endorphins levels balance out"** is not a sentence.
+   Something was cut during editing. As published it is unparseable.
+2. **"Muay Thai floods your system with cortisol and endorphins"** says the
+   opposite of the page's own thesis. **Cortisol is the stress hormone the
+   article spends its length promising to reduce**, and here training is said
+   to flood the reader with it. A reader who knows what cortisol is will read
+   this as the gym not understanding its own claim.
+
+#### (b) Sources: one named journal with no citation, one misattributed figure, three bare "studies have shown"
+
+| Claim | Source given | Verdict |
+|---|---|---|
+| "**Research published in the Journal of Sports Science and Medicine** confirms…" | **a journal name, and nothing else** — no author, no year, no title, **no link** | **uncheckable.** JSSM is a real open-access journal, which makes the bare name more persuasive and no more verifiable |
+| "a **2017 study** found that people who exercise regularly report **43 percent fewer days of poor mental health**" | **linked — but to an APA topic page**, not to the study | **the figure is real and the attribution is wrong**, see below |
+| "**studies have shown** that physical activity stress management… improves overall sleep quality more effectively than passive relaxation techniques" | none | uncited |
+| "**Studies have shown** that group exercise produces higher endorphin release than solo workouts" | none | uncited |
+| FAQ 1: "**Studies confirm** that people who train regularly experience significantly fewer days of poor mental health" | none | uncited, **and it is in FAQPage JSON-LD** |
+| "what **psychologists call destructive therapy**" | none | **no such recognised term**, see (d) |
+| "this is what **experts call** mindfulness through martial arts" | none | the "term" is the page's own keyword phrase |
+
+**On the 43 percent figure.** The number is close to a real finding — Chekroud
+et al., *Lancet Psychiatry* **2018**, reported that people who exercised had
+**43.2% fewer days of poor mental health** than those who did not. The page
+calls it **"a 2017 study"** and links not to the study, nor to the Lancet, but
+to **`apa.org/topics/exercise-fitness/stress`**, an American Psychological
+Association topic page.
+
+**The link works** (HTTP 200) **and the APA is a credible body** — that part is
+a genuine improvement on the uncited claims elsewhere in this file. **But the
+page attributes a specific figure to a source that does not state it, and gets
+the year wrong.** A reader who follows the link will not find "43 percent"
+there. **Fix: cite Chekroud et al. 2018 directly, or drop the number.**
+
+**This is the pattern to note across the cluster:** the site is now citing real
+organisations (Mayo Clinic, Harvard Health, APA) for claims those organisations
+did not make in the form quoted. **Three pages running.** A credible logo
+behind a misquoted figure is worse than no citation, because it transfers
+authority the source did not grant.
+
+#### (c) Clinical conditions: anxiety named six times, insomnia once, no diagnosis claimed
+
+> "cortisol which is the hormone responsible for **stress and anxiety**"
+
+> "This kind of **combat sports anxiety relief** is something no treadmill can
+> replicate."
+
+> "the **combat sports anxiety relief** teens experience on the mat…"
+
+> "channeling negative emotions like frustration anger or **anxiety** into
+> controlled powerful strikes"
+
+> "If you have been struggling with **insomnia** or restless nights **martial
+> arts might be the solution** you have been overlooking."
+
+> **FAQ 5, in structured data:** "**Can martial arts help with anxiety and not
+> just everyday stress**… **Yes** many members who deal with anxiety have
+> reported **significant improvements** after training consistently."
+
+**"Combat sports anxiety relief" is used as a product name**, twice, including
+once about teenagers. **Depression, PTSD and burnout are never named**, which
+keeps this below `/mma-classes-for-kids/`'s ADHD figure (issue 107).
+
+**FAQ 5 is the one to fix first.** It takes a direct question about a clinical
+condition, answers **"Yes"**, and goes into FAQPage JSON-LD where a search
+engine may surface it as the answer to "can martial arts help with anxiety".
+**The honest version is already half-written** — "many members… have reported"
+is self-report framing, and the sentence would be defensible if it did not open
+with an unqualified "Yes".
+
+#### (d) Substitute for professional care: TWO framings, and this is the finding
+
+> "Many members at Sixth Sense describe their BJJ sessions as **therapy without
+> the couch**."
+
+> "Muay Thai offers martial arts stress relief through what **psychologists
+> call destructive therapy**."
+
+**Neither says "instead of therapy" outright, and both do the work of saying
+it.**
+
+**"Therapy without the couch" is the more serious of the two.** It names the
+thing it is replacing. The couch is psychotherapy; the sentence tells a reader
+that training is that, minus the clinician. **It is attributed to members
+rather than asserted by the gym**, which is the only thing holding it back from
+being a direct claim, and the page does not then say "this is not a substitute
+for professional help" — **because the page carries no disclaimer at all.**
+
+**"What psychologists call destructive therapy" is a fabricated credential.**
+There is no recognised clinical modality by that name. "Destruction therapy"
+exists as a term for rage rooms and similar, and **it is not a psychological
+treatment, is not what Muay Thai pad work is, and psychologists do not call it
+that**. The phrase attributes the gym's own framing to a profession.
+
+**This is exactly the concern logged against
+`/martial-arts-stress-relief-coppell-adults/`**, where a commercial page
+positioned exercise as an alternative to professional mental health care. **The
+sibling page did it once. This page does it twice, in two different sections,
+and reaches the same readers.**
+
+#### (e) Disclaimer: NONE
+
+**"Disclaimer", "not medical advice", "not a substitute", "consult",
+"professional advice" and "qualified professional" occur zero times.**
+
+**On a page that names cortisol, dopamine, endorphins, anxiety and insomnia,
+cites a medical journal and the APA, and twice uses the word "therapy", the
+absence of one line is the single cheapest fix in this entire file:**
+
+> *Martial arts training supports general wellbeing. It is not a treatment for
+> any medical or mental health condition. If you are struggling, speak to a
+> qualified professional.*
+
+**None of the five wellbeing pages carries one.**
+
+#### Summary for the client
+
+| Check | Result |
+|---|---|
+| (a) Biochemical claims | **cortisol ×4, endorphins ×4, dopamine ×1, nervous system ×3, brain ×1** — and two of them are self-contradictory |
+| (b) Sourced? | **one journal named with no citation, one real figure misattributed by year and source, three bare "studies have shown"** |
+| (c) Clinical conditions | **anxiety ×6, insomnia ×1**; no depression, PTSD or burnout |
+| (d) Substitute for care | **yes, twice** — "therapy without the couch" and "what psychologists call destructive therapy" |
+| (e) Disclaimer | **none** |
+
+**Nothing was omitted from the rebuild**, because no sentence claims an absence
+of injury risk or guarantees safety — the standing omission rule does not reach
+health claims, and these are reproduced verbatim as instructed. **They need the
+client's decision, not a silent edit.**
+
+**2026-11-10 addition — `/martial-arts-stress-relief/`: the trailing-space
+defect for the SECOND page running, and a link whose anchor swallows the full
+stop.**
+
+#### The trailing space again
+
+> `<title>Martial Arts Stress Relief How Training Helps You Stay Calm and
+> Focused␣␣- Sixth Sense Martial Arts</title>`
+
+**Same defect as `/martial-arts-discipline/` published a week earlier**, and it
+reaches the same four places: the `<title>`, the `<h1>`, and the `title=`
+attribute on all three images. **Two consecutive posts** now carry a stray
+space in the WordPress title field. **The clean title and H1 were used in the
+rebuild**, on the client's instruction.
+
+#### A full stop inside the link text
+
+> "…report 43 percent fewer days of
+> [**poor mental health.**](https://www.apa.org/topics/exercise-fitness/stress)
+> Because of this…"
+
+**The anchor text ends with the sentence's full stop**, so the period renders
+underlined and in link colour. Cosmetic, reproduced exactly, **and it is the
+tell that the link was inserted by selecting to the end of the sentence**
+rather than to the end of the phrase.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| "The Science Behind…" | "lowers cortisol **and endorphins levels balance out** more effectively than standard cardio exercises" — **a sentence with words missing** (issue 114) |
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to four earlier pages |
+| **All six FAQ questions** | "Can martial arts actually reduce stress or is it just hype", "Will I have time for martial arts if I work full time" — **not one question mark**, the fifth page running |
+| Body prose throughout | "However martial arts stress relief works differently…", "Moreover the discipline required…", "Consequently many members…" — **conjunctive adverbs with no following comma**, roughly forty-five instances |
+| Run-on sentences | "This is not just about feeling good it is backed by real science", "Martial arts does not add to your stress it systematically removes it", "the gym becomes more than a place to exercise it becomes a community" — **comma splices with no punctuation** |
+| Lists without separators | "The emails the deadlines the arguments they all disappear", "Valley Ranch Irving Carrollton Grapevine and Lewisville", "frustration anger or anxiety" |
+| Head coach | "Head coach **Matheus**" — one T, no surname. **Fifth page running**, and the sibling stress-relief page says **Mattheus Galvao** |
+| Keyword phrase as a noun | "**martial arts stress relief**" appears **26 times**, including in all 14 editorial headings bar one, e.g. "the **physical activity stress management** habits you develop" |
+
+**The keyword density is the most visible writing defect on this page.** The
+exact phrase "martial arts stress relief" opens or appears in **thirteen of the
+fifteen headings** and 26 times in the body of a 2,357-word article. **All
+reproduced.**
+
+#### No leaked chat markup, no address heading, no contact details in the body
+
+**The `font-claude-response-body` classes, the `data-sourcepos` attributes and
+the `<h2>`-wrapped street address are all absent** — as on
+`/martial-arts-discipline/`. The contact block is two paragraphs with **no
+phone number and no email anywhere in the article**; the only address is in
+prose ("817 S MacArthur Blvd in Coppell TX"). **The rebuild's footer supplies
+both.**
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table format)",
+"Call to Action:"). **No empty ChatGPT citation anchors. No `/landing-page/`
+link. Casino spam present in the source at `left:-35255px` with all eight
+domains and excluded.**
+
+#### Branding and images: clean
+
+**No gym name other than Sixth Sense Martial Arts.** "Gracie", "Georges",
+"Academy", "Superfly" — **zero**. **No phone number or email in the body at
+all**, so nothing can differ from the client's details; the one address mention
+is correct.
+
+**Three WebP images, none duplicating the Coppell stress-relief post's three
+PNGs** — different format, different dimensions, no matching byte size, no
+matching checksum. **No identifiable children in any of them.**
+
+#### No tags
+
+**Zero tags, the seventh post in a row with none.**
 
 ## How these were checked
 

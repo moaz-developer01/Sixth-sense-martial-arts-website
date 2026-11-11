@@ -6843,6 +6843,88 @@ not clear.
 **Coppell ×3, TX ×3, plus Valley Ranch, Irving, Carrollton, Grapevine and
 Lewisville once each. The H1 does not name the city. Zero tags.**
 
+**2026-11-11 addition — `/jiu-jitsu-for-seniors-stay-fit-strong/`: a POSITIVE
+in the body and a SERVICE CLAIM in the contact block. The page says two
+different things about whether a seniors class exists.**
+
+#### (l) The body is accurate. The furniture is not.
+
+**What the body says — correct, and the model for how to do this:**
+
+> "Sixth Sense Martial Arts in Coppell, TX, is **designed to serve students of
+> all ages including older adults** who are completely new to martial arts."
+
+> "we **welcome seniors onto the mat** every single week"
+
+**That is exactly the honest formulation**: older adults are welcome in the
+existing adult class. **No separate programme is claimed, and none exists.**
+This is the formulation `/martial-arts-coppell-your-guide-…/` used correctly
+for the women's programme and `/martial-arts-coppell-the-best-gym-for-kids/`
+got wrong. **Logged as a POSITIVE.**
+
+**But three pieces of page furniture claim a distinct class:**
+
+| Where | As published |
+|---|---|
+| Section heading | "What to Expect in Your First **Senior BJJ Class**" |
+| Contact Us paragraph | "Have questions about **our senior jiu jitsu classes** in Coppell?" |
+| Follow Us paragraph | "Follow us for **senior training highlights, class schedules**…" |
+
+**"Our senior jiu jitsu classes" is the problem phrase.** It is possessive,
+plural and definite. A reader who has just been told the gym serves "students
+of all ages" then reads that the gym has senior classes, and the two are not
+the same offer.
+
+**This is a much milder instance than the kickboxing-grading claim (issue 39
+above) or the women's-programme contradiction**, because the body corrects it
+twice. **It is an inconsistency to tidy, not a service the gym cannot
+deliver.** Changing "our senior jiu jitsu classes" to "our classes for older
+adults" and the heading to "Your First BJJ Class" would close it.
+
+#### (m) No schedule for a seniors class
+
+**No days, no times, no seniors-specific session is given.** The only
+scheduling statement is about the gym as a whole:
+
+> "the flexible class schedule includes **morning and evening sessions that
+> suit retired adults and working seniors alike**"
+
+**That describes who the existing timetable suits, not a separate timetable.**
+Correct as written.
+
+#### (n) No instructor is named as experienced with older adults
+
+> "Head coach Matheus brings over 15 years of hands-on BJJ experience and **a
+> genuine passion for age-appropriate instruction**."
+
+**"A genuine passion for" is not a qualification and does not claim to be
+one.** No coach is described as trained in working with older adults, and no
+certification is claimed anywhere. **Compare the ADHD page, which raised
+specialist understanding as the thing to look for and then offered general
+experience — this page does not set that trap.**
+
+#### (o) No pricing
+
+**No dollar amount, no "pricing", no "membership", no "cost".** "Come in for a
+**free trial class**" is the only commercial offer. **Not a fourteenth pricing
+page.**
+
+#### Disciplines and branding
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu-Jitsu only.** Muay Thai, karate, taekwondo, kickboxing, judo and wrestling occur **zero times** — the most tightly scoped page in the audit |
+| Any discipline lacking a programme page | **none** |
+| Other gym names | **one, and it is linked** — see below |
+| Address, phone, email | **none appear in the body at all**, so nothing can differ from the client's details |
+
+#### Local signals
+
+**Coppell ×7 — the highest of any page in this batch except the two
+`martial-arts-coppell-` pages.** Plus TX ×4, Irving ×2, Carrollton ×2,
+Grapevine ×2, DFW ×2, Valley Ranch ×1, Lewisville ×1. **The H1 does not name
+the city. Zero tags.**
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -7055,6 +7137,48 @@ rather than the three-part problem above.
 non-breaking space and is given an `aria-label` naming its destination; the
 split "s" link is left split.
 
+
+**2026-11-11 addition — `/jiu-jitsu-for-seniors-stay-fit-strong/` carries a
+VISIBLE, FOLLOWED outbound link to a competing martial arts school. This is
+the second such link found, after `superflybjj.com` on the preschool page.**
+
+> "Consistency **[combined with
+> patience](https://midamericamartialarts.com/benefits-of-jiu-jitsu-for-older-adults/)**
+> is always the winning formula for seniors who are just starting their jiu
+> jitsu journey."
+
+**`midamericamartialarts.com` is Mid-America Martial Arts, a martial arts
+school.** The destination is their article "Benefits of Jiu Jitsu for Older
+Adults" — **the same subject as this page, aimed at the same reader.** The
+link returns HTTP 200.
+
+| Problem | Why |
+|---|---|
+| **Link equity** | `rel="noopener"` but **no `nofollow` or `sponsored`**, so it passes authority to a competing school on this page's own topic |
+| **Traffic** | a senior reading the safety tips clicks through to a rival school's article about exactly what they were researching |
+| **Anchor text** | "combined with patience" — **the anchor is a fragment of a sentence and describes nothing about the destination**, which is how this kind of link survives a proofread |
+
+**It is less damaging than the preschool page's `superflybjj.com` link**,
+which sat on the money keyword "Brazilian Jiu-Jitsu" in paragraph two. **This
+one is buried in the tenth section under a meaningless anchor.** But it is the
+same defect, in the same place in the production process, and **it is now a
+pattern rather than an incident.**
+
+**Reproduced exactly as published** with `target="_blank" rel="noopener"`, per
+the replication rule. **Recommendation: remove it.** Nothing in the sentence
+needs a citation — "consistency combined with patience" is the author's own
+advice.
+
+#### And one internal link points at the wrong audience entirely
+
+> "seniors become part of a **[warm and welcoming
+> community](https://sixthsensemma.com/martial-arts-for-kids/)** where every
+> member genuinely supports each other"
+
+**A page about older adults links the word "community" to the KIDS page.**
+Reproduced and mapped to `martial-arts-for-kids.html` per the replication
+rule. **It should point at `/adult-bjj-classes/`**, which is the programme
+these readers would actually join, and which this page never links to at all.
 ### 41. A page whose title promises techniques and whose content is about confidence — SEO — Medium
 
 `/muay-thai-thai-boxing/` sells one thing in search results and delivers
@@ -11984,6 +12108,47 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The sixth audience segment — and only three of the six have a programme page
+
+`/jiu-jitsu-for-seniors-stay-fit-strong/` (21 August 2026) completes a set of
+six audience segments. **Segmenting content by audience is good practice, and
+it only works if each segment describes something the gym actually runs.**
+
+| Audience | Blog coverage | Matching programme page | Verdict |
+|---|---|---|---|
+| **Preschoolers** | `/preschool-jiu-jitsu-…/` | **NONE** — the youngest band sits inside `kids-bjj-classes.html` (Little Champions, 4–7) | **partial** — the age band exists, the page does not |
+| **Kids** | eight pages | **`kids-bjj-classes.html`** | **real** |
+| **Teens** | `/teens-bjj-near-me/`, `/muay-thai-for-teens-…/` | **`teen-bjj-classes.html`, `teen-muay-thai-classes.html`** | **real** |
+| **Adults** | many | **`adult-bjj-classes.html`, `adult-muay-thai-classes.html`** | **real** |
+| **Women** | four pages, incl. `/womens-bjj-classes-near-me/` | **NONE** — homepage says "Coming Soon" | **does not exist** |
+| **Seniors** | **this page** | **NONE** | **no separate class is claimed in the body** — see the programme entry above |
+
+**Three of six are backed by a programme page: kids, teens and adults.**
+
+**The three that are not divide into two very different cases.** The women's
+pages sell a programme the homepage says has not launched — that is a service
+claim and it is logged as one. **The preschool and seniors pages describe
+audiences served inside existing classes**, which is legitimate, and the
+seniors page says so explicitly in its body.
+
+**Recommendation: keep the segmentation and fix the backing.** Either add a
+line to `adult-bjj-classes.html` saying older adults are welcome and what
+adaptations are offered, or let this page link to it — **which it currently
+does not do at all.** This page links to the kids page, an MMA self-defence
+post and a competing school, and **never once to `adult-bjj-classes.html`,
+the programme its readers would actually join.**
+
+**Measured overlap with the two nearest BJJ siblings:**
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/benefits-of-bjj/` | 4 of 15 (26.7%), all boilerplate | **40.3%** | **1 of 88 (1.1%)** |
+| `/adult-beginner-martial-arts/` | 4 of 15 (26.7%), all boilerplate | **48.4%** | **0 of 88 (0.0%)** |
+
+**Zero editorial headings match either page, and essentially no shared
+sentences.** The audience framing does its job: a page about seniors reads
+nothing like a page about benefits in general. **No consolidation needed.**
 
 #### The wellbeing cluster reaches SIX, and the newest one names a diagnosis
 
@@ -19354,6 +19519,189 @@ how long promotions take here, whether there is a grading fee, what the kids bel
 path is, and at what age a child moves to adult classes — the last of which the
 site currently answers five different ways (issue 72).
 
+## SENIOR AUDIENCE CONTENT
+
+*A new section, opened 2026-11-11 for
+`/jiu-jitsu-for-seniors-stay-fit-strong/` (21 August 2026). Cross-referenced
+to the wellbeing cluster, where the ADHD claims (top of this file), the
+cortisol claims (issue 114) and the confidence, discipline and developmental
+claims (issues 113 and the preschool entries) are already logged. **This page
+makes the cluster seven.***
+
+**Claims aimed at older adults carry more weight than the same claims aimed at
+a twenty-five year old**, because seniors are more likely to have existing
+conditions, take medication, and be at risk from falls or joint injury.
+
+### The headline: this is the most RESPONSIBLE health-claims page in the audit
+
+**It is the only page in the whole project that tells its reader to get
+medical clearance before starting**, and it does so first, in a numbered list,
+naming the two risks that matter:
+
+> "**First always consult your doctor before starting especially if you have
+> existing joint or cardiovascular conditions.**"
+
+**That single sentence is what the ADHD page, both stress relief pages, the
+confidence page and the discipline page all lack.** On a page selling grappling
+to people in their sixties and seventies it is the most important line on the
+site, and the client's writer put it there unprompted. **It should be copied
+onto every other wellbeing page.**
+
+**The same section then does four more things right:**
+
+> "Second **communicate openly with your instructor about any physical
+> limitations** before your first class."
+
+> "Third prioritize **warming up thoroughly and never skip the cool down**."
+
+> "listen to your body carefully and **give yourself adequate rest** between
+> training days in the early weeks."
+
+> "invest in **proper protective gear including knee support**."
+
+### (a) Medical conditions: four claims, all hedged, none naming a diagnosis
+
+**Arthritis, osteoporosis, high blood pressure, dementia and cognitive decline
+are named ZERO times.** What the page does claim:
+
+| Claim, verbatim | Category |
+|---|---|
+| "improved flexibility **reduces chronic pain** in common problem areas like the lower back, hips, and shoulders" | **chronic pain** — a reduction claim, uncited |
+| FAQ 5: "Consistent training **often reduces chronic joint discomfort** over time by improving surrounding muscle strength and mobility" | **joint discomfort** — hedged with "often", uncited |
+| "consistent training **improves cardiovascular endurance**" | fitness, not a condition |
+| "learning new techniques **stimulates neuroplasticity**… particularly valuable for older adults looking to **maintain cognitive sharpness** as they age" | **the closest thing to a cognitive-decline claim**, and it stops short — "maintain sharpness", not "prevent dementia" |
+
+**None of the four is a treatment claim and none names a diagnosis.** Compared
+with the ADHD page, which names a condition in its URL, **this page stays on
+the right side of the line throughout.** The two chronic-pain claims are the
+ones to source or soften.
+
+### (b) Fall prevention: claimed four times, sourced zero times
+
+**This is the finding the brief anticipated, and it is real.** An entire
+section is headed "Balance Coordination and **Fall Prevention** Through BJJ",
+and an FAQ asks "Does jiu jitsu help seniors with balance and **fall
+prevention**?" — answered "Yes".
+
+| Claim | Source |
+|---|---|
+| "Seniors learn proper falling techniques from their very first classes which **dramatically reduces the risk of injury in real life situations**" | **none** |
+| "the grappling movements involved in BJJ **strengthen the stabilizer muscles responsible for balance and coordination**" | **none** |
+| "the body awareness gained through jiu jitsu practice carries over into daily activities **making everyday life noticeably safer**" | **none** |
+| FAQ 4: "BJJ teaches proper falling techniques and strengthens stabilizer muscles which **directly improves balance, coordination, and physical confidence**" | **none**, and it is in FAQPage JSON-LD |
+
+**"Dramatically reduces the risk of injury" is the strongest of the four.** It
+is a risk-*reduction* claim rather than a risk-*absence* claim, so it was not
+omitted under the standing rule — **but falls are the leading cause of injury
+death in adults over 65, and an unsourced promise to dramatically reduce that
+risk is a health claim, not marketing copy.**
+
+**Logged with the other uncited statistics.** There is real literature on
+exercise and fall risk in older adults; **one citation would convert the whole
+section from a liability into the page's strongest asset.**
+
+### (c) Bone density, joint health and mobility
+
+**"Bone density" and "osteoporosis" are never mentioned** — a notable omission
+given how often they appear in senior fitness marketing, and a welcome one.
+
+**Joint claims, all uncited:**
+
+> "**joint health in key areas like the hips, knees, and shoulders improves
+> significantly** through the controlled range of motion that jiu jitsu
+> naturally demands during every class"
+
+> "Training involves grappling, rolling, positional drills, and partner work
+> that build muscle strength and **improve joint mobility** simultaneously"
+
+**"Improves significantly" is the overstatement.** BJJ involves joint locks;
+a page telling a 65-year-old that it significantly improves the health of the
+hips, knees and shoulders is making a claim that needs evidence, and **the
+page gives none.**
+
+### (d) Statistics and sources: one named institution, no citation
+
+> "Furthermore **research from Southern Cross University confirms** that BJJ
+> delivers cardiovascular exercise and meaningful resistance training for older
+> adults."
+
+**Southern Cross University is a real Australian university that has published
+BJJ research**, so unlike the "Yale Child Study Center" claim on the ADHD page
+this is plausible. **But there is no author, no year, no title and no link**,
+so a reader cannot check it. **Same defect as the "Journal of Sports Science
+and Medicine" reference on `/martial-arts-stress-relief/`.**
+
+**Two softer appeals to evidence:** "their impact on wellbeing is **well
+documented**" (loneliness) and "**The IBJJF even has dedicated Masters
+divisions** for older practitioners" — the second is **true and checkable**,
+and is the only verifiable factual claim on the page.
+
+**Zero percentages. Zero invented figures.** After the 30%/25% pair on the ADHD
+page and the 43% figure on the stress relief page, **this page fabricates
+nothing.**
+
+### (e) and (f) Medical clearance YES, labelled disclaimer NO
+
+| Check | Result |
+|---|---|
+| Advises consulting a doctor | **YES** — once, prominently, as the first of five numbered tips |
+| Labelled disclaimer | **no.** "Disclaimer", "not medical advice", "professional advice" occur zero times |
+
+**The advice is in the body rather than in a labelled disclaimer**, and it
+appears in the tenth of twelve sections — after nine sections of benefits. **A
+reader who stops at "Mental Sharpness" never sees it.** Moving it into the
+opening section, or repeating it at the foot, would cost nothing.
+
+### (g) No age range is given for "seniors"
+
+**The page never defines the word.** The only numbers are illustrative:
+
+> FAQ 2: "There is no age too old to start. **People have begun BJJ in their
+> 60s and 70s** with remarkable results."
+
+**That is an example, not a definition.** "Senior" is used 20+ times with no
+lower bound, which matters less here than an undefined kids age would — but it
+means the page cannot be checked against any programme age band, because
+neither it nor the programme pages state one.
+
+### (h) to (k) Physical safety and adaptation
+
+| Check | Result |
+|---|---|
+| **(h) Rolling, sparring or submissions described** | **rolling and grappling, yes; sparring and submissions, no.** "grappling, rolling, positional drills, and partner work", "every roll requires constant problem solving", "the rolling and positional movements in BJJ naturally stretch muscles". **The words "sparring", "submission" and "tap" do not appear once** |
+| **(i) Adapted training** | **yes, three times.** "instructors **tailor the pace and intensity** to match each individual student's current fitness level and physical condition" · "seniors with varying fitness levels can **participate comfortably and progress at their own pace**" · FAQ 5: "**coaches modify techniques to accommodate joint sensitivities**" |
+| **(j) Supervision and partner selection** | **yes.** "**training partners are carefully selected** to ensure new seniors work with patient and supportive teammates from the very start" · "communicate openly with your instructor about any physical limitations" |
+| **(k) Claims it is safe or low impact** | **yes.** "**BJJ is low impact by nature** it places far less stress on the body than high intensity sports like running or weightlifting" · FAQ 1: "**BJJ is low impact** and built on technique rather than force" · "Classes begin with a gentle warm up designed to ease the body into movement **safely**" · "a layout that **prioritizes comfort and safety**" |
+
+**No opt-out from live rolling is mentioned.** The page describes rolling as
+part of training from the outset and never says a senior can decline it, drill
+only, or train positionally without resistance. **For the stated audience that
+is the gap worth closing** — one sentence saying live rolling is optional would
+match what the adaptation sentences already promise.
+
+**"Low impact" is a defensible characterisation of BJJ relative to running**,
+and it was kept. **It is also the claim a reader will remember**, and BJJ
+involves joint locks and bodyweight pressure, so it should sit next to the
+doctor sentence rather than nine sections away from it.
+
+### The one sentence omitted
+
+> FAQ 1: "Qualified coaches tailor sessions to each student's fitness level
+> **ensuring seniors train safely and comfortably from day one**."
+
+**"Ensuring… train safely" is a guarantee**, the same construction cut from
+`/preschool-jiu-jitsu-…/` ("ensure that falls and rolls happen safely") and
+`/muay-thai-for-teens-…/` ("ensure your teen trains hard but stays safe").
+**It answers the question "Is jiu jitsu safe for seniors to practice?" with a
+promise**, in FAQPage structured data, to an audience at elevated risk of
+joint injury. **The first sentence of that answer was kept.**
+
+**Note what else went with it:** "**Qualified** coaches" is the only use of a
+qualification word anywhere on the page, and it is unspecified. The page makes
+**no certification claim at all** otherwise.
+
+**Running total: 71 sentences across twenty-four posts.**
+
 ## CHILD SAFETY CONTENT
 
 ### 2026-11-10 — `/how-martial-arts-for-adhd-improves-focus/`: seven
@@ -24290,6 +24638,85 @@ domains and excluded.**
 that a tag such as "ADHD treatment" would be a stronger claim than the body
 text, and would create a taxonomy archive URL on the client's domain built
 around a clinical term. **There is no such tag, and none naming any condition.**
+
+**2026-11-11 addition — `/jiu-jitsu-for-seniors-stay-fit-strong/`: the
+trailing-space defect returns, the FAQ gets its question marks back, and the
+imagery finally matches the audience.**
+
+#### The trailing space, third occurrence
+
+> `<title>Jiu Jitsu for Seniors Stay Fit Strong and Confident at Any Age␣␣-
+> Sixth Sense Martial Arts</title>`
+
+**Same defect as `/martial-arts-discipline/` and `/martial-arts-stress-relief/`**,
+reaching the `<title>`, the `<h1>` and the `title=` attribute on all three
+images. **Three of the last five posts.** The clean title and H1 were used in
+the rebuild, on the client's instruction.
+
+#### The FAQ punctuation is FIXED on this page
+
+**All six FAQ questions end in a question mark** — "Is jiu jitsu safe for
+seniors to practice?", "What age is too old to start jiu jitsu?", "Can seniors
+with joint problems practice jiu jitsu?".
+
+**That ends a run of six consecutive posts with no question marks in the FAQ
+at all.** Worth recording because it shows the defect is not systemic —
+somebody proofread this one.
+
+**The Contact Us paragraph also ends in a question mark here** — "Have
+questions about our senior jiu jitsu classes in Coppell?" — where five earlier
+pages carried the byte-identical sentence ending in a full stop. **This page
+has a different, correctly punctuated contact block.**
+
+#### Typos and missing separators still reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Body prose throughout | "However jiu jitsu for seniors training directly addresses…", "Moreover because BJJ is low impact…", "Consequently seniors who train consistently…" — **conjunctive adverbs with no following comma**, roughly thirty-five instances |
+| Run-on sentences | "Moreover because BJJ is low impact by nature **it places** far less stress…", "**Jiu jitsu for seniors is not just possible. It is genuinely transformative**…" |
+| Keyword phrase as a noun | "**jiu jitsu for seniors**" appears **13 times**, including "jiu jitsu for seniors **training** directly addresses this challenge" and "starting your jiu jitsu for seniors **journey**" — **ungrammatical keyword insertions** |
+| Head coach | "Head coach **Matheus**" — one T, no surname. **Seventh page running** |
+
+**Unusually, this page uses the Oxford comma correctly throughout** —
+"technique, leverage, and strategy", "grappling, rolling, positional drills,
+and partner work", "the hips, knees, and shoulders". **It is the
+best-punctuated page in this batch by a distance**, which makes the remaining
+conjunctive-adverb omissions look like a house style rather than carelessness.
+
+#### No leaked chat markup, no address heading
+
+**The `font-claude-response-body` classes, the `data-sourcepos` attributes and
+the `<h2>`-wrapped street address are all absent.** The contact block is two
+paragraphs with **no address, phone number or email in the body at all**.
+
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table
+format)", "Call to Action:"). **No empty ChatGPT citation anchors. No
+`/landing-page/` link. Casino spam present in the source at `left:-35255px`
+with all eight domains and excluded.**
+
+#### The imagery finally matches the audience
+
+| File | Dimensions | What it shows |
+|---|---|---|
+| `jiu-jitsu-for-seniors-1024x536.webp` (hero) | 1024×536 | **a grey-haired man of about seventy in a white gi and blue belt**, smiling at camera, heavy bags behind. Caption "Jiu Jitsu for Seniors" |
+| `jiu-jitsu-for-seniors-1.webp` | 1200×628 | **an older man seated on the mat being coached by a younger instructor**, two more pairs training behind |
+| `jiu-jitsu-for-seniors-2.webp` | 1200×628 | **five older adults, four men and one woman, seated in a circle in gis, laughing together** |
+
+**All three show older adults. No children appear in any of them, and no
+younger demographic is substituted for the stated audience.** After the
+repeated mismatches elsewhere in this file, **this is the first page in the
+audit whose imagery matches its subject exactly.**
+
+**The usual tells are still there:** three visibly different rooms (dark wood
+and black with heavy bags, blue mats with black wall padding, red walls with
+blue mats), and the gi patches mix the Sixth Sense roundel with a **FUJI**
+logo in the third image. **Consistent with the generated imagery at issue 98.**
+
+#### No tags
+
+**Zero tags, the ninth post in a row with none.** No tag naming a medical
+condition — which on a page claiming fall-prevention and chronic-pain benefits
+would have been a stronger claim than the body text. **None carries the city.**
 
 ## How these were checked
 

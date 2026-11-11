@@ -3699,6 +3699,67 @@ as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
 
+#### ★ 2026-11-11 — THE FIFTH WOMEN'S PAGE, AND IT IS THE ONE THAT GETS IT RIGHT
+
+**`/muay-thai-for-women-building-strength-confidence/` (30 August 2026) is the
+fifth page selling women's classes while the homepage says the programme has
+not launched.** The four before it are `/martial-arts-near-me/`,
+`/martial-arts-gyms-near-me/`, `/self-defense-classes-for-women/` and
+`/womens-bjj-classes-near-me/`.
+
+**This one does not make the claim. It explicitly denies it.**
+
+> **FAQ 5: "Will I be training with men or is there a separate class for
+> women?"**
+> "**Women train alongside men in the same classes at Sixth Sense** which
+> creates a genuinely inclusive environment. Many women say training in a
+> mixed setting actually builds more confidence than **a women only space**
+> would."
+
+**That is the exact question a reader would ask, answered accurately, in
+FAQPage structured data.** The body says the same thing again:
+
+> "many gyms including Sixth Sense **actively welcome women into every class
+> alongside men** creating an inclusive environment **rather than a separate
+> lesser version of training**"
+
+**Logged as a POSITIVE.** Adult Muay Thai is a real programme and it is open
+to women. This page sells exactly that and nothing more.
+
+| Check | Result |
+|---|---|
+| **(a) Claims a women's Muay Thai class runs** | **NO.** The page never claims a separate class and twice denies one. Adult Muay Thai is real and open to women — **accurate as written** |
+| **(b) Class times, days or schedule** | **no specifics.** "classes run throughout the day including mornings evenings and weekends" describes the existing timetable, not a women's one |
+| **(c) Women-only or mixed** | **MIXED, stated explicitly twice** — see the quotes above |
+| **(d) Female instructor named** | **NO.** The only named coach is "**Head coach Matheus**", who is male. The page says "experienced **female members** often mentor newer students" — members, not staff |
+| **(e) Trial, price, membership or discount** | **a free trial only, no figure.** "a completely free trial class", "the free trial class removes all pressure to commit". **No price, no membership, no discount, no dollar amount anywhere** |
+
+#### The one phrase that cuts against it
+
+> "A typical **Muay Thai for women class at Sixth Sense** starts with a dynamic
+> warm up…"
+
+**The section heading is "What a Beginner Muay Thai Class Looks Like for
+Women" and the sentence reads as though a women's class exists.** It does not
+survive contact with FAQ 5, which a reader will probably reach, **but it is
+the same furniture-versus-body inconsistency logged on
+`/jiu-jitsu-for-seniors-…/`**, where the body was accurate and the headings
+were not. **Changing it to "a typical beginner Muay Thai class" would remove
+the ambiguity.**
+
+#### What this means for the other four pages
+
+**This page is the template for fixing them.** It demonstrates that the
+honest version sells perfectly well: a full-length article aimed at women,
+promoting a real class, with a clear answer to the women-only question. **The
+four pages that advertise a women's programme as available should be rewritten
+to say what this one says.**
+
+**The underlying question is unchanged and still needs the client's answer:**
+the homepage says "Self-Defense for Women (Coming Soon)". **Either launch it
+or remove the four claims.**
+
+
 **2026-11-04 addition, HIGH — the approved meta description for
 `/kids-martial-arts-classes-irving-tx/` names TAEKWONDO, which the gym does not
 teach.**
@@ -12108,6 +12169,61 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The women's cluster: FOUR pages, and the overlap does NOT justify a merge
+
+`/muay-thai-for-women-building-strength-confidence/` (30 August 2026) makes
+four:
+
+| Page | Discipline | Angle |
+|---|---|---|
+| `/self-defense-classes-for-women/` | general | self-defence course framing |
+| `/womens-self-defense-class/` | general | self-defence |
+| `/womens-bjj-classes-near-me/` | **BJJ** | grappling for women |
+| **this page** | **Muay Thai** | striking for women |
+
+**Measured against the three siblings:**
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/self-defense-classes-for-women/` | 4 of 17 (23.5%), all boilerplate | **38.7%** | **0 of 109 (0.0%)** |
+| `/womens-bjj-classes-near-me/` | **1 of 17 (5.9%)** — just "FAQ's" | **33.9%** | **0 of 109 (0.0%)** |
+| `/womens-self-defense-class/` | 3 of 17 (17.6%), all boilerplate | **27.4%** | **0 of 109 (0.0%)** |
+
+**Zero shared sentences against any of the three, and no editorial heading
+matches any of them.** The highest heading-word figure is 38.7%, which is the
+lowest for any four-page cluster in this document.
+
+**So this is NOT logged at CRITICAL for duplication.** The brief asked for
+that conditional on high overlap and the overlap is low. **The two BJJ and
+Muay Thai pages are genuinely different articles about different disciplines
+for the same audience, which is correct segmentation.**
+
+**What DOES need consolidating is the pair that covers the same ground:**
+`/self-defense-classes-for-women/` and `/womens-self-defense-class/` are two
+pages on women's self-defence with near-identical slugs. **That pair, not this
+page, is the duplication problem in this cluster** — and it should be settled
+at the same time as the programme question, because both pages sell a
+programme the homepage says has not launched.
+
+#### Audience segmentation across the site: six segments, three programme pages
+
+| Audience | Blog coverage | Matching programme page |
+|---|---|---|
+| Preschool | 1 page | **none** — the band sits inside Kids BJJ (Little Champions 4–7) |
+| Kids | 8 pages | **`kids-bjj-classes.html`** |
+| Teens | 2 pages | **`teen-bjj-classes.html`, `teen-muay-thai-classes.html`** |
+| Adults | many | **`adult-bjj-classes.html`, `adult-muay-thai-classes.html`** |
+| **Women** | **4 pages** | **none** — homepage says "Coming Soon" |
+| Seniors | 1 page | **none** |
+
+**Three of six are backed: kids, teens, adults.** Unchanged from the seniors
+entry above — **but the women's row improves slightly with this page**, which
+is the first of the four to say plainly that women train in the existing mixed
+classes rather than a programme of their own.
+
+**Recommendation: keep all four women's pages, merge the two self-defence
+ones, and rewrite the remaining claims to match this page's framing.**
 
 #### The sixth audience segment — and only three of the six have a programme page
 
@@ -24717,6 +24833,195 @@ logo in the third image. **Consistent with the generated imagery at issue 98.**
 **Zero tags, the ninth post in a row with none.** No tag naming a medical
 condition — which on a page claiming fall-prevention and chronic-pain benefits
 would have been a stronger claim than the body text. **None carries the city.**
+
+### 115. A COMPETITOR'S GYM NAME printed on the shorts in the client's own photograph, on a page about women's safety — BRANDING, CONTENT — **High**
+
+#### The image
+
+`muay-thai-for-women-1.webp` (1734×907) shows a woman striking focus pads held
+by a male coach. Both wear the Sixth Sense roundel — **and her Muay Thai
+shorts read, in large gold lettering across the thigh:**
+
+> **SITAN GYM**
+
+**Sitan Gym is an established Muay Thai brand with gyms of its own.** It is
+not Sixth Sense, and it is the most legible text in the photograph after the
+client's own logo.
+
+**This is the same class of finding as issue 0d** ("SIXTH SENSE ACADEMY —
+IRVING, TX" on a wall sign) and issue 0b (three named DFW competitors in the
+body copy), **but it arrives by a different route**: not invented branding and
+not written copy, but **another gym's name physically present in a photograph
+the client is using to advertise its own classes.**
+
+**What the client must confirm:**
+
+1. **Is this photograph of a Sixth Sense member?** If she trains at Sitan Gym,
+   the image is not of this gym and should not illustrate this page.
+2. **If she is a member wearing shorts bought elsewhere**, which is entirely
+   ordinary in Muay Thai, the shot still advertises a competing brand on the
+   client's own page and **should be reshot or cropped.**
+3. **Was this image licensed or taken in-house?** Unlike the generated imagery
+   at issue 98, **these three photographs look genuine** — real signage, real
+   clutter, correctly rendered logos — which makes provenance a real question
+   rather than a rhetorical one.
+
+#### A positive worth recording in the same breath
+
+**All three images show women, which is what the page is about.** After the
+demographic mismatches logged elsewhere in this file, **the imagery matches
+the audience** — a woman in a fighting stance by the bags (hero), a woman
+doing pad work, and a woman arriving at the gym with a kit bag.
+
+**And these look like real photographs rather than generated ones.** The third
+shows a genuine "Please Remove Shoes Before Entering" sign, scuffed door
+frames and an out-of-focus class in the background. **That is the first
+plausibly authentic image set in this audit.**
+
+**One small mismatch:** the third image, on a **Muay Thai** page, shows a mat
+full of students in **BJJ gis**. Illustrative rather than wrong, but it is not
+a Muay Thai class.
+
+#### Sensitive content on this page: cleaner than expected
+
+This page was checked against the concerns logged for
+`/self-defense-classes-for-women/`, `/muay-thai-vs-kickboxing/`,
+`/martial-blade-concepts/` and the weapons pages.
+
+| Check | Result |
+|---|---|
+| **(f) Claims training will keep a woman safe or guarantee protection** | **NO.** Nothing on the page promises safety. The closest are "Personal safety remains a real concern for women everywhere" (a framing, not a claim) and "the confidence to protect yourself" (confidence, not protection). **Nothing met the omission rule** |
+| **(g) Statistics about assault, harassment or violence** | **NONE. Zero.** "Assault", "harassment", "violence", "attack", "victim" and "abuse" occur **zero times**, and there is no percentage anywhere on the page |
+| **(h) Legal claims about using force** | **NONE.** "Legal", "law", "court", "reasonable force" and "justified" occur **zero times** |
+| **(j) Disclaimer** | **none**, and **no support-service signposting either** — no hotline, helpline or organisation is named |
+
+**(g) is the notable one.** `/self-defense-classes-for-women/` and
+`/womens-bjj-classes-near-me/` both needed review for invented statistics
+about violence against women. **This page makes the same argument without a
+single number**, and is stronger for it.
+
+**Two uncited appeals to research remain**, and both are mild:
+
+> "**research consistently shows** that practical striking techniques including
+> punches kicks elbows and knees **prove effective for real world self defense
+> situations**"
+
+> "**research shows** that contact sports like Muay Thai can boost self esteem
+> and improve overall mood which makes it **an effective tool against anxiety
+> and low mood**"
+
+**The second names a mood state and should be hedged or sourced**, joining the
+wellbeing-cluster claims at issues 113 and 114. **The page does carry one real
+citation:** "your body **[releases
+endorphins](https://www.health.harvard.edu/staying-healthy/exercising-to-relax)**"
+links to **Harvard Health Publishing**, which resolves (301 to
+`harvardhealth.org`, final 200). **Third page running to cite a genuine
+medical source.**
+
+#### (i) Body image content: present, and framed as a rejection of body image
+
+**The page opens its strength section by explicitly rejecting appearance as
+the goal:**
+
+> "Traditional workouts often focus on **how your body looks**. Muay Thai for
+> women flips that entire mindset upside down. **Instead of chasing a certain
+> body type** training becomes about **what your body can actually do**."
+
+> "the strength gained through Muay Thai feels **earned and useful rather than
+> purely cosmetic**"
+
+**Then, in the same paragraph, it describes the body anyway:**
+
+> "every kick punch elbow and knee strike engages multiple muscle groups at
+> once which **builds a lean powerful physique naturally**"
+
+> "many women report noticing **stronger arms more defined legs** and improved
+> core stability within just a few weeks"
+
+> "you are **burning calories building lean muscle**"
+
+**That is a contradiction rather than a harm.** The page says appearance is
+not the point and then sells on appearance three sentences later. **It is much
+milder than the weight-loss framing at `/muay-thai-for-weight-loss-coppell/`
+— no target weight, no before-and-after, no dieting advice, no supplement
+content** — and it is logged with that entry and the teen post for
+consistency rather than because it is serious.
+
+**The strongest version of this page deletes "lean powerful physique" and
+keeps everything else.**
+
+#### One unattributed testimonial
+
+> "**One woman who trains at Sixth Sense shared** that Muay Thai helped her set
+> boundaries at work she never would have set before."
+
+**No name, no date, no source.** Reproduced verbatim and **not invented**. It
+belongs with the testimonial concerns at issue 104, and it is the mildest
+instance there — a workplace anecdote rather than a claimed outcome.
+
+**2026-11-11 addition — `/muay-thai-for-women-building-strength-confidence/`:
+a stray question mark inside an FAQ answer, and the trailing-space defect is
+absent again.**
+
+#### A question mark in the middle of a sentence
+
+> FAQ 3: "…This kind of muscle memory is far more useful than a one time self
+> defense seminar**.?**"
+
+**The answer ends with a full stop followed by a question mark.** It is a
+paste artefact — the question's punctuation left behind in the answer field.
+**Reproduced verbatim**, including in the FAQPage JSON-LD, where it will be
+read by a search engine.
+
+**All six FAQ questions end correctly in a question mark**, as on
+`/jiu-jitsu-for-seniors-…/`. **Two pages running with correct FAQ
+punctuation**, after the run of six that had none.
+
+#### No trailing space in the title
+
+**The `<title>`, `<h1>` and image `title=` attributes are all clean**, unlike
+`/martial-arts-discipline/`, `/martial-arts-stress-relief/` and
+`/jiu-jitsu-for-seniors-…/`. **The defect appears to be per-post rather than
+systemic.**
+
+#### Programme accuracy
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Muay Thai only.** BJJ, karate, taekwondo, kickboxing, judo and wrestling occur **zero times** as offerings |
+| Any discipline lacking a programme page | **none** — Adult Muay Thai is real |
+| Certified instructors | **not claimed.** "Certified", "certification", "qualified", "licensed" and "accredited" occur **zero times**. The only credential is "Head coach Matheus brings over 15 years of experience" |
+| Pricing section or figure | **none.** No dollar amount, no "price", "pricing", "cost", "membership", "discount" or "fee". **Not a fourteenth pricing page** |
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to six earlier pages |
+| Body prose throughout | "Moreover every kick punch elbow and knee strike…", "Furthermore this newfound confidence…", "Consequently the old narrative…" — **conjunctive adverbs with no following comma**, roughly forty instances |
+| Lists without separators | "every kick punch elbow and knee strike", "careers relationships and personal decision making", "strikes distance control and body awareness", "Valley Ranch Irving Carrollton Grapevine and Lewisville", "women of every shape size and background" |
+| Run-on sentences | "Women are no longer the minority on the mat **they are** a driving force", "Muay Thai for women is far more than a fitness trend **it is** a complete transformation", "this transformation is not about becoming aggressive **it is** about knowing your own strength" |
+| Head coach | "Head coach **Matheus**" — one T, no surname. **Eighth page running** |
+| Keyword phrase as a noun | "**Muay Thai for women**" appears **19 times**, including in **twelve of the fifteen headings** and in "Many women who start **Muay Thai for women** are looking for a workout" — **ungrammatical** |
+
+#### Clean on everything else
+
+**No leaked chat markup** — no `font-claude-response-body`, no
+`data-sourcepos`, no `<h2>`-wrapped address. **No editorial markers** ("H2:",
+"H3:", "(Use bullets)", "(Use table format)", "Call to Action:"). **No empty
+ChatGPT citation anchors. No `/landing-page/` link. Casino spam present in the
+source at `left:-35255px` with all eight domains and excluded.**
+
+**Branding:** no gym name other than Sixth Sense **in the text** — "Gracie",
+"Georges", "Academy", "Superfly" all zero. **The competitor name is in an
+image, not the copy** (issue 115). **No phone number or email appears in the
+body at all**, so nothing can differ from the client's details; the one
+address mention is correct.
+
+**Local signals:** Coppell ×3, TX ×3, plus Valley Ranch, Irving, Carrollton,
+Grapevine and Lewisville once each. **The H1 does not name the city. Zero
+tags** — the tenth post in a row with none, so **no Krav Maga tag, no
+competitor tag and no city tag.**
 
 ## How these were checked
 

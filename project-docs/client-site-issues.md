@@ -6986,6 +6986,74 @@ page.**
 Grapevine ×2, DFW ×2, Valley Ranch ×1, Lewisville ×1. **The H1 does not name
 the city. Zero tags.**
 
+**2026-11-11 addition — `/bjj-no-gi-vs-gi-which-style-is-right-for-you/`:
+the page claims the gym runs BOTH formats, which the programme pages do not
+say either way. One question for the client, otherwise clean.**
+
+| Check | Result |
+|---|---|
+| **(a) States which format the gym teaches** | **yes, both** — see the three quotes below |
+| **(b) Claims both gi and no gi run here** | **YES.** "**at Sixth Sense students have access to both formats**" · "many gyms **including Sixth Sense** recommend trying both during your first few months" · "At Sixth Sense Martial Arts in Coppell TX **students have the opportunity to explore both formats**" |
+| **(c) Class times or schedule for either** | **none.** No day, time or session is given for gi or no gi |
+| **(d) Advises buying a gi; names a brand or supplier** | **advises, names nothing.** FAQ 2: "**a gi is only required if you plan to train the gi format**. For no gi classes you just need a rash guard and shorts or spats **which are much more affordable than a traditional kimono**." **No brand, no retailer, no price, no suggestion the gym sells anything** |
+
+#### The one thing the client must confirm
+
+**Do both formats actually run?** The three BJJ programme pages —
+`adult-bjj-classes.html`, `teen-bjj-classes.html`, `kids-bjj-classes.html` —
+**do not state whether classes are gi, no gi or both.** They are silent, as
+they are on ages (see the seniors and teen entries above).
+
+**So this page cannot be contradicted by the programme pages, and it cannot be
+confirmed by them either.** The claim is specific and checkable, and a reader
+who picks no gi on the strength of this page and finds only gi classes has
+been misled.
+
+| If… | Then… |
+|---|---|
+| **both formats run** | **this page is accurate and useful, and should be logged as a POSITIVE** — it is a genuinely helpful explainer that sends readers to the right class |
+| **only gi runs** | the page invites a choice the gym cannot honour, and "students have access to both formats" must come out |
+
+**Either way the fix is the same and it is upstream:** the BJJ programme pages
+should say which format each class uses. **That one line would settle this
+page, and would also let the gi/no-gi cluster link somewhere useful.**
+
+#### (d) in context: the equipment question stays open, and this page does not worsen it
+
+`/brazilian-jiu-jitsu-gi/` and `/muay-thai-gear-for-safety/` both raised
+whether the gym sells equipment, which has never been confirmed. **This page
+adds nothing to that.** It tells a reader what to wear and says a rash guard
+is cheaper than a kimono — **no brand, no shop, no price.**
+
+**Worth noting by contrast:** `/brazilian-jiu-jitsu-gi/` **does** publish a
+figure — "A beginner BJJ gi costs around $60–$100" — which is the only
+price anywhere in the BJJ cluster, on a page that does not say where to buy
+one.
+
+#### Everything else
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu only**, plus MMA twice as a reference point ("mirrors the submission grappling you would see in MMA"), not as an offering. Karate, taekwondo, kickboxing, judo and Muay Thai occur **zero times** |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified", "certification" and "qualified" occur **zero times** — the only match for "qualified" is inside "**dis**qualified" |
+| Pricing section or figure | **none** |
+| Age range | **none stated**, so **no conflict** with `kids-bjj-classes.html` (4–12, Little Champions 4–7). The page never mentions children |
+| Tapping or submission-safety advice | **none.** "Tap", "tapping" and "submission safety" occur **zero times** — see the note below |
+
+#### No tapping advice, on a page that names heel hooks
+
+**The page names heel hooks and leg entanglements** and correctly explains why
+they are restricted in gi competition — "**due to injury risk from the added
+friction**" — **but gives no tapping or submission-safety guidance at all.**
+
+**That is a gap rather than a defect.** The page is a format comparison, not a
+technique guide, and it adds **zero instructional detail** about how any
+submission is applied. **Compared with `/bjj-training-tips/`, where the
+tapping question was flagged, this page says nothing that could encourage a
+reader to train through a submission.** Recorded here so the cluster's
+coverage of the issue is visible in one place.
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -12169,6 +12237,45 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The gi / no-gi trio, and a BJJ cluster past twenty pages
+
+`/bjj-no-gi-vs-gi-which-style-is-right-for-you/` (6 September 2026) is the
+third page on the same distinction:
+
+| Page | Nominal subject | What it actually covers |
+|---|---|---|
+| `/nogi-brazilian-jiu-jitsu/` | no-gi BJJ | no-gi, **with a gi comparison and a competition-rules table** |
+| `/brazilian-jiu-jitsu-gi/` | **how to buy a gi** | gi buying guide, **with a full eight-row gi-versus-no-gi comparison table** |
+| **this page** | **the comparison itself** | the comparison, and nothing else |
+
+**Measured overlap is very low — 11.8% exact headings and 29–33% heading-word
+against both, with zero shared sentences** — and the numbers mislead.
+**Each of the two older pages already contains a comparison table that answers
+this page's entire question.** The duplication is functional, not textual.
+
+**See issue 116 for the full comparison, including the one place where two of
+the three argue opposite cases.**
+
+#### The BJJ cluster is now past twenty pages
+
+| Group | Pages |
+|---|---|
+| Belts and progression | **8** (issue 7 above) |
+| Local BJJ variants | `/brazilian-jiu-jitsu-coppell-tx/`, `/bjj-beginners-in-coppell-tx/`, `/brazilian-jiu-jitsu-near-me/`, `/bjj-classes-near-me/`, `/jiu-jitsu-near-me/`, `/brazilian-jiu-jitsu-orlando/` |
+| Benefits and tips | `/benefits-of-bjj/`, `/bjj-training-tips/` |
+| Gi and no-gi | **3** — this page, `/nogi-brazilian-jiu-jitsu/`, `/brazilian-jiu-jitsu-gi/` |
+| Technique | `/jiu-jitsu-guard-position/` |
+| Audience segments | `/preschool-jiu-jitsu-…/`, `/kids-bjj-classes/`, `/teens-bjj-near-me/`, `/womens-bjj-classes-near-me/`, `/jiu-jitsu-for-seniors-…/` |
+| Programme pages | **3** — adult, teen, kids BJJ |
+
+**No individual pair here is a duplicate.** The problem is proportion: **more
+than twenty blog pages supported by three programme pages**, which between
+them state neither an age range nor whether classes are gi or no gi.
+
+**Recommendation, unchanged from the belt and local clusters above:** the fix
+is not more consolidation of the blog, it is **putting the missing facts onto
+the three programme pages** so the cluster has something real to point at.
 
 #### The women's cluster: FOUR pages, and the overlap does NOT justify a merge
 
@@ -25022,6 +25129,165 @@ address mention is correct.
 Grapevine and Lewisville once each. **The H1 does not name the city. Zero
 tags** — the tenth post in a row with none, so **no Krav Maga tag, no
 competitor tag and no city tag.**
+
+### 116. Three pages on the gi / no-gi distinction, and two of them argue the OPPOSITE case from the same premise — CONTENT (accuracy), SEO — **Medium**
+
+`/bjj-no-gi-vs-gi-which-style-is-right-for-you/` (6 September 2026) is the
+third page covering this distinction, after `/nogi-brazilian-jiu-jitsu/` and
+`/brazilian-jiu-jitsu-gi/`. **BJJ practitioners are the audience most likely to
+read all three**, which is why the disagreements matter more here than
+elsewhere in this file.
+
+#### The contradiction: which format suits real-world self-defence
+
+**Both pages argue from how people dress in daily life. They reach opposite
+conclusions.**
+
+> **`/nogi-brazilian-jiu-jitsu/`:** "**Nogi is more representative of actual
+> grappling situations because of how people normally dress.**"
+
+> **this page:** "Gi techniques teach you how to use clothing against an
+> attacker including grabbing sleeves to block strikes or using a collar for
+> control **which is highly relevant since most people wear jackets hoodies or
+> shirts in everyday life**."
+
+**One says people are effectively unclothed for grappling purposes; the other
+says they are wearing jackets and hoodies.** They cannot both be the site's
+position. **This page is the more defensible of the two** — it concludes "both
+offer real value but in different ways" and recommends training both, where
+the older page asserts no-gi's superiority outright.
+
+**Recommendation: amend `/nogi-brazilian-jiu-jitsu/`**, which is the page
+making the unqualified claim.
+
+#### The other three checks: no contradiction
+
+| Topic | Verdict |
+|---|---|
+| **Which suits beginners** | **consistent.** This page: "Gi training is often recommended first because the slower pace gives beginners more time to understand positioning". `/brazilian-jiu-jitsu-gi/`: "**Most beginners start with the brazilian jiu jitsu gi**". `/nogi-brazilian-jiu-jitsu/` positions no-gi as something you move to once "you have functional strength" — **a difference of emphasis, not a conflict** |
+| **Grip and control differences** | **consistent, almost word for word.** `/brazilian-jiu-jitsu-gi/` carries a comparison table reading "Grip Type: Use of clothing for grips / Body grips only" and "Techniques: Collar chokes, sleeve grips, lapel wraps / Underhooks, overhooks, clinch work". **This page describes exactly the same split in prose** |
+| **Competition rule differences** | **consistent.** All three say IBJJF restricts leg attacks and ADCC permits heel hooks. `/nogi-brazilian-jiu-jitsu/` has it in a table ("IBJJF Nogi … Limited leg locks / ADCC … Heel hooks allowed"); this page has it in prose. **No disagreement** |
+
+#### The cannibalisation finding is sharper than the overlap numbers suggest
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/nogi-brazilian-jiu-jitsu/` | **2 of 17 (11.8%)** — "Conclusion", "FAQ's" | **32.8%** | **0 of 94 (0.0%)** |
+| `/brazilian-jiu-jitsu-gi/` | **2 of 17 (11.8%)** — "Conclusion", "FAQ's" | **29.5%** | **0 of 94 (0.0%)** |
+
+**Those are among the lowest figures in this document, and they understate the
+problem.** The duplication is not textual, it is **functional**:
+`/brazilian-jiu-jitsu-gi/` is nominally a guide to buying a gi, and **it
+already contains a full gi-versus-no-gi comparison table** covering clothing,
+grip type, speed, techniques, competition rules and "Best For". **That table
+answers this page's entire question in eight rows.**
+
+**Recommendation:** keep this page as the canonical answer to "bjj no gi vs
+gi" — it is the only one of the three whose title and URL target that query —
+and **remove the comparison table from `/brazilian-jiu-jitsu-gi/`**, replacing
+it with a link here. That page should be about buying a gi.
+
+#### The wider BJJ cluster is now past twenty pages
+
+Belts and progression (8, issue 7 above), local BJJ variants, benefits,
+training tips, guard position, gi, no-gi, this page, the beginners pages, the
+women's and seniors BJJ pages, plus the three BJJ programme pages. **No
+individual pair is a duplicate; the cluster as a whole is far larger than the
+gym's three BJJ programmes can support.**
+
+#### One link defect: the anchor says rules, the destination sells books
+
+> "In gi competitions particularly under **[IBJJF
+> rules](https://ibjjf.com/rules/)** certain leg attacks…"
+
+**`ibjjf.com/rules/` now 301-redirects to `ibjjf.com/books-videos`.** The link
+resolves (final HTTP 200) and the IBJJF is the sport's governing body, so this
+is **not** a competitor or an unrelated retailer — but **a reader clicking
+"IBJJF rules" lands on a page selling books and videos, not the rulebook.**
+
+**Reproduced exactly as published.** **Recommendation: repoint it at the
+current rulebook URL.** This is link rot on the client's side rather than a
+bad choice of source.
+
+**No Wikipedia link appears on this page**, so **the "Nogi, Tochigi" error
+from `/nogi-brazilian-jiu-jitsu/` is NOT repeated here.** That page linked the
+Wikipedia article for a town in Japan from a grappling term; this page links
+nothing of the kind.
+
+**2026-11-11 addition — `/bjj-no-gi-vs-gi-which-style-is-right-for-you/`:
+THREE spellings of the no-gi term in one article, a missing space, and the
+first clean title in four.**
+
+#### No-gi spelling: three variants, all space-separated
+
+| Variant | Count |
+|---|---|
+| "**no gi**" (lower case) | **42** |
+| "**No Gi**" (title case) | **6** |
+| "**No gi**" (sentence case) | **1** |
+| "Nogi" | **0** |
+| "no-gi" / "No-Gi" (hyphenated) | **0** |
+
+**Three variants, as on `/nogi-brazilian-jiu-jitsu/` — but a different three.**
+That page used "Nogi", "No Gi" and "nogi"; this one uses "no gi", "No Gi" and
+"No gi". **Across the two pages the site now spells the term five ways**, and
+the single-word form "nogi" survives in the older page's URL.
+
+**The six "No Gi" instances are all heading-initial or title case**, so they
+are defensible. **The one "No gi" is the odd one out**, mid-sentence in the
+FAQ. The hyphenated form, which is the most common convention in the sport,
+appears nowhere on either page.
+
+**Recommendation: pick one.** "No-gi" is standard; whatever the client
+chooses, it should match the URL of whichever page survives consolidation.
+
+#### A missing space
+
+> "the pace becomes noticeably faster and far more **dynamic.In addition** no
+> gi training closely mirrors the submission grappling…"
+
+**Reproduced verbatim.** Two sentences run together with no space after the
+full stop, in the middle of the no-gi definition paragraph.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to seven earlier pages |
+| **All six FAQ questions** | "Which is harder gi or no gi BJJ", "Should I train both gi and no gi or just pick one" — **not one question mark**. The run resumes after two clean pages |
+| Lists without separators | "a jacket pants and a colored belt", "every collar sleeve and pant leg", "wrist grips underhooks overhooks and head position", "collar chokes lapel guards and grip based sweeps", "patience precision and a strong technical foundation" |
+| Run-on sentences | "Neither format is objectively harder **they simply** challenge you in different ways", "there is no fabric to grab onto… **As a result** the entire game shifts" |
+| Body prose throughout | "Moreover the friction created by the fabric…", "Furthermore these fabric dependent techniques…", "Consequently practitioners who train both formats…" — **conjunctive adverbs with no following comma**, roughly forty-five instances |
+| Keyword phrase as a noun | "**BJJ no gi vs gi**" appears **9 times** in the body, including "deciding where to start in the BJJ no gi vs gi **debate**" and "the BJJ no gi vs gi **comparison**" |
+
+**No trailing space in the title or H1** — clean, like `/muay-thai-for-women-…/`
+and unlike the three before it.
+
+**No leaked chat markup.** No `font-claude-response-body`, no
+`data-sourcepos`, no `<h2>`-wrapped address. **No editorial markers** ("H2:",
+"H3:", "(Use bullets)", "(Use table format)", "Call to Action:"). **No empty
+ChatGPT citation anchors. No `/landing-page/` link. Casino spam present in the
+source at `left:-35255px` with all eight domains and excluded.**
+
+#### Branding, images and tags
+
+**No gym name other than Sixth Sense.** "Gracie", "Georges", "Academy",
+"Superfly", "Sitan" — **all zero**. **No phone number, email or address
+appears in the body at all**, so nothing can differ from the client's details.
+
+**Three images, all adults, all genuine-looking BJJ training** — the hero is a
+**side-by-side gi and no-gi split**, which is exactly right for the subject;
+the second is two men rolling in rash guards; the third is a man in a gi
+resting beside a class. **No children. No demographic mismatch.** One
+observation: the third image carries a wall banner reading "**DISCIPLINE
+BUILDS FREEDOM**", which is not a Sixth Sense slogan used anywhere else on
+the site, and the gi in that shot carries non-Sixth-Sense patches — **milder
+than the SITAN GYM shorts at issue 115, but the same question about where
+these photographs come from.**
+
+**Zero tags, the eleventh post in a row with none** — so no tag targeting an
+untaught discipline, none naming a competitor, and none carrying a typo of the
+"Nogi" kind.
 
 ## How these were checked
 

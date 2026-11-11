@@ -3699,6 +3699,116 @@ as an H3. One edit in the editor, and the TOC drops from 13 entries to 10.
 
 ### 39. Posts advertising classes and certified instructors the gym may not have, including a Sambo academy — CONTENT (accuracy) — **CRITICAL, the client must confirm before this goes live**
 
+#### ⚠⚠ 2026-11-11 — PRIVATE COACHING: SIX PAGES, A BOOKING INVITATION, AND NO PROGRAMME PAGE
+
+**Six pages now advertise private coaching, and this one is dedicated to it
+with a booking invitation. Nothing on the five programme pages mentions
+private lessons. The client must confirm this service exists, who delivers it,
+and how someone books, before any of the six goes live. A reader acting on
+this page is attempting to buy a service the site cannot otherwise
+substantiate.**
+
+| Page | How it mentions private coaching |
+|---|---|
+| `/jiu-jitsu-near-me/` | in passing |
+| `/bjj-classes-near-me/` | in passing |
+| `/mma-gyms-near-me/` | in passing |
+| `/martial-arts-for-self-defense/` | in passing |
+| `/martial-arts-near-me-classes/` | in passing |
+| **`/martial-arts-private-lessons/`** (21 Sep 2026) | **the entire page, 2,010 words, ending "Reach out to the team today"** |
+
+#### (a) Yes, it states the service is available — twice, in the gym's own voice
+
+> "At Sixth Sense Martial Arts in Coppell TX **private sessions are available
+> for students who want that extra edge** whether you are working toward a
+> belt promotion preparing for competition or simply chasing faster progress."
+
+> "**Booking your first martial arts private lesson at Sixth Sense is a simple
+> and welcoming process.**"
+
+> "However **many gyms including Sixth Sense offer flexible options such as
+> booking a single lesson occasionally** rather than committing to a weekly
+> private schedule."
+
+**This is no longer an aside. It is a service page with a call to action**,
+and it is the only page in the project that describes what buying the service
+is like step by step.
+
+#### (b) No instructor is named, and none is credentialled
+
+**"Matheus" does not appear on this page at all** — the first time in nine
+builds that the head coach is not named. The page refers only to "your
+instructor", "the coach" and "instructors" in the generic.
+
+**"Certified", "certification", "qualified", "licensed" and "accredited" occur
+zero times.** **So the page sells one-to-one coaching without saying who
+delivers it or what qualifies them**, which is the single most important fact
+a buyer of a private lesson wants.
+
+#### (c) The booking route is "reach out", and nothing else
+
+> "**Reach out to the team today** to discuss whether private coaching is the
+> right fit for you."
+
+**No booking link, no form, no phone number, no email address anywhere in the
+body.** The only mechanism is the boilerplate CONTACT US button, which points
+at the homepage. **A reader who has just read 2,010 words arguing that this is
+worth paying for cannot act on it from this page.**
+
+#### (d) Session length yes, availability no
+
+> "The session **typically runs about an hour** and moves at whatever pace
+> suits your learning style."
+
+**That is the only concrete operational detail on the page.** On availability
+it stays generic and does not claim it for Sixth Sense:
+
+> "Because private sessions are booked directly with an instructor **they can
+> often be scheduled early in the morning late in the evening** or on days
+> when the regular schedule does not fit your life."
+
+**No day, no time, no booking window.** The schedule gap logged at issue 117
+is unchanged.
+
+#### (e) NO discipline is named at all — and that is why the urgent flag does NOT fire
+
+**This was the check that could have compounded two unconfirmed claims, and it
+comes back clean.** The following occur **zero times** on the page:
+
+> Sambo · Kali · Karate · weapons · Taekwondo · Judo · wrestling · Krav Maga ·
+> Capoeira · Kung Fu · Tai Chi · boxing · kickboxing · Muay Thai · BJJ ·
+> Brazilian Jiu Jitsu · MMA
+
+**The page says "martial arts" throughout and never specifies a style.** So
+it offers private lessons in nothing the gym does not teach — because it
+offers them in nothing specific at all. **No urgent flag.**
+
+**The one discipline signal is a link, not a claim:** "if your goal is purely
+[recreational fitness](adult-muay-thai-classes.html)" points at the Adult Muay
+Thai programme page.
+
+#### (f) No minimum age, and no age anywhere
+
+**No age range, no minimum, no mention of children or teenagers.** "Kids",
+"child", "children", "teen" and "minor" occur **zero times**. **No conflict
+with `kids-bjj-classes.html` (4–12, Little Champions 4–7)**, and no indication
+whether a parent could book a private lesson for a child — **which, for a
+one-to-one service involving a minor, is a gap the client should close
+deliberately rather than by omission.**
+
+#### What the client must answer before any of the six pages goes live
+
+1. **Does Sixth Sense offer private lessons?**
+2. **Who teaches them, and what are their credentials?**
+3. **How does someone book — phone, email, form, in person?**
+4. **What does a session cost at this gym?** (see the pricing entry below)
+5. **Are they available to under-18s, and under what supervision arrangement?**
+
+**Five answers would turn the strongest commercial page in the project into a
+working one.** Until then it is an advertisement for a service the website
+cannot confirm, with no way to buy it.
+
+
 #### ★ 2026-11-11 — THE FIFTH WOMEN'S PAGE, AND IT IS THE ONE THAT GETS IT RIGHT
 
 **`/muay-thai-for-women-building-strength-confidence/` (30 August 2026) is the
@@ -7713,6 +7823,83 @@ during the rebuild, and the build fails if any of those headings is reworded.
 This entry is the flag; the page itself is an exact copy of what is live.
 
 ### 48. Pricing sections that name no price, and programs advertised nowhere else — CONTENT (accuracy), TRUST — **CRITICAL**
+
+#### ★ 2026-11-11 — THE PRICING PAGE THAT FINALLY PUBLISHES NUMBERS, AND THEY ARE NOT THE GYM'S
+
+**The brief expected this to be the clearest example of the pricing gap: a
+page whose central question is cost, with no cost on it. It is not that.**
+**`/martial-arts-private-lessons/` publishes four figures — the first prices
+anywhere in the project — and every one of them is about the industry rather
+than about Sixth Sense.**
+
+#### (g) Yes, figures appear. Four of them.
+
+> "Private one on one martial arts training sessions **typically range
+> anywhere from 50 to 200 dollars per hour** depending on the instructor's
+> experience and location."
+
+> "This is noticeably more expensive than a monthly group class membership
+> **which usually runs between 125 and 250 dollars for unlimited sessions**."
+
+> **FAQ 1: "How much do martial arts private lessons typically cost?"** —
+> "**Prices generally range from 50 to 200 dollars per hour** depending on the
+> instructor's experience and **the gym's location**."
+
+**Read the qualifiers.** "Typically range", "usually runs", "generally range",
+"depending on the instructor's experience and the gym's location". **These are
+market averages, not a price list.** The page never says what Sixth Sense
+charges for anything.
+
+#### Why that is arguably worse than publishing nothing
+
+**A reader will take 50 to 200 dollars an hour as this gym's rate.** It is on
+a page headed "Martial Arts Private Lessons **Cost**", on the client's own
+domain, two sentences after "At Sixth Sense Martial Arts in Coppell TX we get
+this question regularly". **The qualifier that makes it generic is one word
+long and sits mid-sentence.**
+
+**Three concrete risks:**
+
+1. **The range is enormous.** A reader budgeting at 50 who is quoted 200 has
+   been misled by the client's own page. **A four-fold spread is not useful
+   guidance; it is a number that cannot be wrong and cannot be relied on.**
+2. **The group-class figure is a second unverified price.** "125 to 250
+   dollars for unlimited sessions" is the first monthly membership figure
+   published anywhere on this site, and **the twelve pages that promise
+   pricing still publish none** — so a reader now has a number for the
+   industry and still none for the gym.
+3. **It is in FAQPage structured data.** FAQ 1 goes into the JSON-LD, so a
+   search engine may surface "How much do martial arts private lessons cost?"
+   → "50 to 200 dollars per hour" **attributed to Sixth Sense Martial Arts**.
+
+#### (h) and (i) Cost and value are discussed throughout, and compared directly
+
+**(h) Extensively.** "worth the extra cost" · "a real price tag attached" ·
+"fits your goals and your budget" · "a smart cost effective strategy" · "may
+genuinely be worth the investment" · "the more return you will get on your
+investment" · "more financially sustainable" · "can quickly become expensive
+for most budgets" · "your goals timeline and budget" (twice).
+
+**(i) Yes, explicitly**, in the sentence quoted above: private hourly rate
+against monthly unlimited group membership. **It is the only cost comparison
+on the site**, and it compares two industry averages rather than two of the
+client's own prices.
+
+#### What the client should do
+
+**Publish the gym's own private lesson rate on this page.** The article is
+well argued and honest about when private coaching is not needed — "Not every
+student needs private lessons to progress and improve" — which makes it
+persuasive. **One real number would convert it from an essay into a sales
+page.**
+
+**If the client will not publish a rate, the industry figures should come
+out**, because they currently function as a price quote the gym has not
+agreed to.
+
+**Running position: twelve pages promise pricing and publish none; this
+thirteenth publishes four figures, none of which are the client's.**
+
 
 **An eighth local page promises affordability and publishes no figure.**
 `/martial-arts-near-me-in-coppell-texas/` has **no pricing section** — which is
@@ -12265,6 +12452,37 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### Private lessons: not a duplication problem, an UNCONFIRMED OFFERING problem
+
+`/martial-arts-private-lessons/` (21 September 2026) is the dedicated page for
+a service mentioned on five others. **Unlike every other cluster in this
+section, the issue here is not that the pages repeat each other — it is that
+they repeat a claim the site cannot substantiate.**
+
+**Measured overlap is low, as with the rest of the recent batch:**
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/bjj-training-tips/` | 4 of 16 (25.0%), all boilerplate | **30.6%** | **0 of 88 (0.0%)** |
+| `/adult-beginner-martial-arts/` | 4 of 16 (25.0%), all boilerplate | **41.7%** | **0 of 88 (0.0%)** |
+
+**Zero editorial headings match either sibling and no sentence is shared.**
+The 41.7% against `/adult-beginner-martial-arts/` is vocabulary — both pages
+discuss instruction, progress and beginners — not duplication.
+
+**So the recommendation is the opposite of the usual one.** Do not
+consolidate. **Confirm the service, then make this the single destination for
+it** and have the other five link here instead of each describing it
+independently. At present a reader can encounter private coaching on six
+pages and find a booking route on none.
+
+**The pattern across the last six builds is worth stating plainly:** the
+duplication problems in this document belong to the older content (the belt
+cluster, the "near me" cluster, the two `martial-arts-coppell-` pages). **The
+newer pages are editorially distinct and fail instead on unconfirmed
+offerings, missing operational detail and claims without sources.** Those are
+cheaper to fix, and they are the client's to fix rather than the writer's.
 
 #### The open mat page: the most distinct angle in the BJJ cluster
 
@@ -25543,6 +25761,159 @@ about where these photographs were taken.
 
 **Zero tags, the twelfth post in a row with none.** None targeting an untaught
 discipline, none naming a competitor, none carrying the city.
+
+### 118. A paid service making outcome promises, and the phrase "crowded class" linked to a clinical anxiety-disorder page — CONTENT (accuracy) — **Medium**
+
+`/martial-arts-private-lessons/` (21 September 2026).
+
+#### Outcome claims on a page selling a paid one-to-one service
+
+**A commercial service page promising results is a different category from a
+blog post describing benefits.** This page makes four claims about what the
+buyer will get, and two of them are specific.
+
+| Claim, verbatim | Assessment |
+|---|---|
+| "**flaws that might take months to fix in group settings often get corrected within a single private session**" | **the strongest claim on the page.** A specific before/after — months versus one session — with no evidence and no hedge beyond "often" |
+| **FAQ 5: "Will one private lesson actually make a noticeable difference?"** — "**Yes** many students see meaningful improvement after just a single focused session" | **an unqualified "Yes" to a results question, in FAQPage structured data** |
+| "students who occasionally book private sessions alongside their regular group attendance **tend to see noticeably faster overall improvement** than those who rely on just one training format" | a comparative progress claim, uncited |
+| "the **accelerated progress** from private coaching **may genuinely be worth the investment**" | **properly hedged** — "may" |
+
+**What it does NOT promise, and this matters:**
+
+| | |
+|---|---|
+| Belt promotion | **not guaranteed.** "intermediate students preparing for a belt promotion **can use** private time to sharpen the exact skills their instructor wants to see" — preparation, not outcome |
+| Competition results | **not guaranteed.** "can make a significant difference in **how prepared you feel**" and "the difference between feeling nervous and **feeling genuinely ready**" — both about feeling, not winning |
+| Necessity | **explicitly denied.** "**Not every student needs private lessons to progress and improve.** Many practitioners train for years using only group classes and become highly skilled" |
+
+**The page is unusually honest for a sales page** — it opens "instead of
+giving you a sales pitch", tells readers group classes alone are "often more
+than sufficient" for general fitness, and warns that private lessons "can
+quickly become expensive for most budgets". **The two specific claims above
+sit oddly against that restraint and should be hedged to match it.**
+
+#### "Crowded class" links to the NIMH page on Social Anxiety Disorder
+
+> "Many students feel intimidated asking questions in a **[crowded
+> class](https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness)**
+> or worry about looking foolish in front of their peers."
+
+**The anchor is an ordinary descriptive phrase. The destination is the
+National Institute of Mental Health's clinical publication "Social Anxiety
+Disorder: More Than Just Shyness".**
+
+**The link resolves (HTTP 200) and the NIMH is as credible a source as
+exists.** The problem is the pairing:
+
+1. **It medicalises ordinary self-consciousness.** Feeling awkward asking a
+   question in a busy class is not social anxiety disorder, and linking the
+   two implies a clinical frame the sentence does not support.
+2. **It is a bait-and-switch for the reader.** Someone clicking "crowded
+   class" expects something about class sizes and lands on a mental-health
+   diagnosis page.
+3. **It puts a clinical condition behind a sales argument.** The paragraph's
+   purpose is to sell private lessons; the NIMH link lends medical weight to
+   that pitch.
+
+**This is the same defect class as the "Nogi, Tochigi" Wikipedia link on
+`/nogi-brazilian-jiu-jitsu/` and the "IBJJF rules" link that lands on a books
+page (issue 116)** — an anchor that does not describe its destination — but
+it is the most consequential of the three because of what the destination is.
+
+**Reproduced exactly as published** with `target="_blank" rel="noopener"`.
+**Recommendation: remove the link.** The sentence needs no citation.
+
+**It also joins the wellbeing cluster** (issues 113, 114 and the ADHD entry at
+the top of this file) as the seventh page to attach a clinical reference to a
+marketing claim.
+
+#### A paragraph whose sentences are in the wrong order
+
+> "Beyond pure technique martial arts private lessons offer something less
+> tangible but equally valuable which is confidence built through personalized
+> attention. **Individual coaching removes a lot of that pressure.** Many
+> students feel intimidated asking questions in a crowded class or worry about
+> looking foolish in front of their peers. **However a private setting removes
+> that pressure entirely**…"
+
+**"Removes a lot of that pressure" appears before the pressure is
+described**, and then the pressure is removed a second time two sentences
+later. **An editing artefact, reproduced verbatim.** Deleting the second
+sentence fixes the paragraph.
+
+**2026-11-11 addition — `/martial-arts-private-lessons/`: FAQ punctuation
+correct for the third time in five, and the thinnest local signal in the
+batch.**
+
+#### FAQ punctuation
+
+**All six FAQ questions end in a correctly placed question mark**, with no
+leading space — unlike `/bjj-open-mat-…/`, which put a space before every
+one. **Three of the last five pages are now correct**, which continues to
+suggest the defect is per-post rather than systemic.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Confidence section | **a sentence in the wrong position** — "Individual coaching removes a lot of that pressure" appears before the pressure is described (issue 118) |
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to nine earlier pages |
+| FAQ 2 | "**No private lessons benefit every skill level**" — a bare "No" running straight into the next clause with no punctuation |
+| Lists without separators | "the honest pros cons and real value", "your goals timeline and budget" (×2), "demanding jobs unpredictable travel schedules or family obligations", "fixing a technical issue building overall fundamentals or preparing for a specific event" |
+| Numbers spelled as words mid-sentence | "**50 to 200 dollars**", "**125 and 250 dollars**" — **no currency symbol anywhere on the page**, which is why a `$` scan of the body returns nothing |
+| Body prose throughout | "Moreover there is no waiting your turn…", "Furthermore coaches can identify…", "Consequently many students report…" — **conjunctive adverbs with no following comma**, roughly forty instances |
+| Keyword phrase as a noun | "**martial arts private lessons**" appears **16 times**, including in **nine of the fourteen headings** |
+
+**Note on the currency point**, because it affects how the pricing entry
+reads: the figures are written "50 to 200 dollars" rather than "$50–$200".
+**A naive scan for `$` finds no price on this page.** The prices are there;
+they are just spelled out. Recorded so the next audit pass does not miss them.
+
+**No trailing space in the title or H1. No leaked chat markup** — no
+`font-claude-response-body`, no `data-sourcepos`, no `<h2>`-wrapped address.
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table
+format)", "Call to Action:"). **No empty ChatGPT citation anchors. No
+`/landing-page/` link. Casino spam present in the source at `left:-35255px`
+with all eight domains and excluded.**
+
+#### Branding and local signals
+
+**No gym name other than Sixth Sense.** "Gracie", "Georges", "Academy",
+"Superfly", "Sitan" — all zero. **No phone number, email or street address
+appears in the body at all** — the first page in this batch with no address
+mention whatsoever — so nothing can differ from the client's details, **and
+nothing tells a reader how to reach the gym** (see the booking point at issue
+39 above).
+
+**Coppell ×2, TX ×2, no DFW, no surrounding cities. The H1 does not name the
+city. Zero tags, the thirteenth post in a row with none** — so none targeting
+an untaught discipline, none naming a competitor, none carrying the city.
+
+#### Images: adults only, and one of them shows a time
+
+| File | Dimensions | What it shows |
+|---|---|---|
+| `martial-arts-private-lessons-1024x536.webp` (hero) | 1024×536 | **a coach in a Sixth Sense polo adjusting a young man's guard position one-to-one**, empty gym behind. Caption "Martial Arts Private Lessons" |
+| `martial-arts-private-lessons-1.webp` | 1200×628 | a woman throwing a kick into a heavy bag, alone |
+| `martial-arts-private-lessons-2.webp` | 1200×628 | **over-the-shoulder shot of a man packing a kit bag while holding a phone showing a calendar entry "Training Session 9:00 AM – 10:00 AM"** |
+
+**No identifiable children in any image.** All three subjects are adults —
+**the consent note for one-to-one coaching imagery involving a minor does not
+apply here.** The hero is well matched to the subject: it is the only
+genuinely one-to-one coaching image in the project.
+
+**One small irony worth recording:** the third image shows a **9:00 AM –
+10:00 AM training session** on a phone screen. **That is the only time of day
+attached to any session anywhere in this project**, and it is a picture of a
+generic calendar rather than the gym's schedule. It is not a schedule claim
+and should not be read as one.
+
+**The recurring wall-art question continues:** the hero carries "DISCIPLINE
+BUILDS FREEDOM", the second "BETTER DISCIPLINE STRONGER YOU", and the third a
+mug reading "Good Days Stronger You" — **none of which is a Sixth Sense
+slogan used in the site's own copy**, while the roundel itself renders
+correctly on the coach's polo. Same open question as issues 98 and 115.
 
 ## How these were checked
 

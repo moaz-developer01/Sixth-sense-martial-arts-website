@@ -7054,6 +7054,34 @@ tapping question was flagged, this page says nothing that could encourage a
 reader to train through a submission.** Recorded here so the cluster's
 coverage of the issue is visible in one place.
 
+**2026-11-11 addition — `/bjj-open-mat-what-it-is-and-why-you-should-join/`:
+clean on programmes, and it confirms the open mat offering without confirming
+when it runs.**
+
+| Check | Result |
+|---|---|
+| Disciplines named | **Brazilian Jiu Jitsu only.** Muay Thai, karate, taekwondo, kickboxing, judo and wrestling occur **zero times**. "MMA" does not appear |
+| Any discipline lacking a programme page | **none** |
+| Certified instructors | **not claimed.** "Certified", "certification", "qualified" and "licensed" occur **zero times**. The only staff reference is "Head coach Matheus and the experienced coaching staff" |
+| Pricing section or figure | **none.** No dollar amount, no "pricing", no "membership", no "fee". **Not a fourteenth pricing page** |
+| Age range | **none stated anywhere**, so **no conflict** with `kids-bjj-classes.html` (4–12, Little Champions 4–7). The page never mentions children |
+| Open mat offering | **confirmed as running** — "Sixth Sense Martial Arts in Coppell TX offers regular sessions for students of every rank and background" — **but with no day, time or cost**, see issue 117 |
+
+**This is the third offering the site describes accurately in its body**,
+after the mixed-class framing on `/muay-thai-for-women-…/` and the
+all-ages framing on `/jiu-jitsu-for-seniors-…/`. **Open mat was already
+confirmed on the homepage and two other pages, so nothing here is new or
+contradicted** — the only thing missing is the detail.
+
+#### Local signals
+
+**Coppell ×4, TX ×3, DFW ×1. The H1 does not name the city. Zero tags.**
+**No phone number or email appears in the body at all**, and the one address
+mention — "the gym is located at 817 S MacArthur Blvd" — is correct. **No gym
+name other than Sixth Sense in the text**; "Gracie", "Georges", "Academy",
+"Superfly" and "Sitan" are all zero. **The competitor name is in a link, not
+the copy** (issue 117).
+
 ### 40. Invisible ChatGPT citation links, one of them to a competing gym — SEO, ACCESSIBILITY, CONTENT — **CRITICAL**
 
 **Raised to CRITICAL.** When this was first written it covered one post and read
@@ -12237,6 +12265,28 @@ of the four. The "near me" pages have no city in their titles and should
 consolidate into it.
 
 **Until that happens the client is bidding against itself on its best query.**
+
+#### The open mat page: the most distinct angle in the BJJ cluster
+
+`/bjj-open-mat-what-it-is-and-why-you-should-join/` (14 September 2026) is the
+newest BJJ page and **the least duplicative of the group**:
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/bjj-training-tips/` | 4 of 17 (23.5%), all boilerplate | **28.6%** | **0 of 99 (0.0%)** |
+| `/benefits-of-bjj/` | 4 of 17 (23.5%), all boilerplate | **27.0%** | **0 of 99 (0.0%)** |
+
+**Zero editorial headings match either, and 27.0% is the lowest heading-word
+figure recorded against `/benefits-of-bjj/` by any page in the cluster.**
+
+**Open mat is a subject none of the other twenty-plus BJJ pages covers**, and
+unlike the gi/no-gi trio at issue 116 **no sibling contains a section that
+duplicates it. Keep it as is.**
+
+**The schedule point belongs here too.** This page was the best candidate in
+the project to publish a class time, and it does not — **see issue 117.** The
+missing schedule has been open since the original audit and remains open at
+136 posts.
 
 #### The gi / no-gi trio, and a BJJ cluster past twenty pages
 
@@ -25288,6 +25338,211 @@ these photographs come from.**
 **Zero tags, the eleventh post in a row with none** — so no tag targeting an
 untaught discipline, none naming a competitor, and none carrying a typo of the
 "Nogi" kind.
+
+### 117. The open mat page: the BEST safety writing in the project, and it still publishes no schedule — CONTENT (accuracy), SEO — **Low**
+
+`/bjj-open-mat-what-it-is-and-why-you-should-join/` (14 September 2026).
+
+#### The tapping advice is exactly right, and it is the first time
+
+**This was the check to flag hardest. The page gets it completely right:**
+
+> "Furthermore **tapping early and often when caught in a submission is
+> expected and encouraged rather than seen as a weakness**."
+
+**That is the sentence every BJJ article should contain and almost none do.**
+`/bjj-training-tips/` was checked for the opposite framing and did not carry
+it; this page states the correct position outright, in the same words a good
+coach would use. **Logged as a POSITIVE and the model for the cluster.**
+
+**The rest of the etiquette section is equally sound:**
+
+> "Before rolling with someone new it is **common courtesy to ask about any
+> injuries** so you can train around them safely."
+
+> "**matching your intensity to your partner's skill level** and goals for the
+> session matters a great deal. **If a lower belt wants to work on technique
+> slowly rolling at full intensity against them defeats the purpose** and can
+> even discourage them from coming back."
+
+> "**Respecting your academy's specific rules and asking staff if you are ever
+> unsure** is always the right move."
+
+**And the one technique passage is the safe version of itself:**
+
+> "many pairs use a **catch and release method where a submission is
+> acknowledged rather than fully applied** which keeps the drilling safe while
+> still reinforcing the skill"
+
+**Zero instructional detail about pressure, submission depth or application
+anywhere on the page.** It names closed guard and side control as starting
+positions and nothing more.
+
+#### The gap: no supervision, stated plainly, with beginners invited
+
+**The page says twice that no instructor runs the session:**
+
+> "A BJJ open mat sits quietly on the calendar between regular classes **often
+> with no instructor leading it** and no set curriculum to follow."
+
+> "**There is no instructor standing in front of the room** teaching a
+> technique and there is no fixed curriculum everyone follows together."
+
+**And it invites beginners in, repeatedly** — an entire section is headed "Why
+White Belts Should **Never** Skip Open Mat", and FAQ 1 answers "Do I need to
+be a certain belt level" with "**No** open mat welcomes students of every rank".
+
+| | |
+|---|---|
+| **Coach presence** | **not claimed for the session itself.** Staff are referenced twice — "asking staff if you are ever unsure" and "Head coach Matheus and the experienced coaching staff create a welcoming environment" — but neither says a coach supervises the mat |
+| **Disclaimer** | **none.** "Disclaimer", "consult" and "at your own risk" occur zero times |
+
+**This is honest rather than misleading** — unsupervised open mat is the norm
+in BJJ and the page does not pretend otherwise. **It is logged in the
+liability group with `/bjj-training-tips/`, `/sambo-techniques-for-beginners/`
+and the neck bridge pages because the combination matters**: unstructured live
+rolling, no instructor, beginners explicitly encouraged, no disclaimer.
+
+**The mitigation is already written.** The etiquette section covers injuries,
+intensity matching and tapping. **One sentence confirming that a coach is on
+the mat during open mat at Sixth Sense — if one is — would close the gap
+entirely**, and it is the kind of detail a parent or a nervous beginner looks
+for.
+
+#### The open mat offering: no schedule, and no mention that it is free
+
+**This was expected to be the one page that publishes times. It does not.**
+
+| Check | Result |
+|---|---|
+| **(a) When open mat runs** | **NO day, NO time, NO session named.** The page refers to "the weekly schedule" and "open mat listed on the schedule" and then tells the reader to go and look: "**checking your gym's schedule in advance ensures you know exactly when the session starts**" |
+| **(b) Whether it is free** | **the page never mentions cost at all.** "Free" appears six times and every one is "free rolling", "freedom" or "freely" — **not one refers to price.** The homepage advertises **free open mat**; this page does not repeat it |
+| **(c) Who can attend** | **every rank, no restriction.** "Sixth Sense Martial Arts in Coppell TX offers regular sessions for **students of every rank and background**" · FAQ 1: "**open mat welcomes students of every rank from white belt to black belt**". On visitors it is generic, not a Sixth Sense claim: "**many academies** welcome visitors from other gyms during open mat" |
+| **(d) Minimum age or belt** | **neither.** No age appears anywhere; FAQ 1 explicitly rules out a belt requirement |
+
+**So the schedule item stays open.** **No page in this project has yet
+published a class time**, and the page most likely to have done so instead
+tells the reader to check a schedule the website does not contain.
+
+**Two things the client should fix together:**
+
+1. **Put the open mat day and time on this page**, and on
+   `adult-bjj-classes.html`. The page is built around a session the reader
+   cannot find.
+2. **Say it is free.** The homepage already does. **A page devoted to open mat
+   that omits the single most persuasive fact about it is a wasted
+   opportunity**, and the omission also makes the homepage claim look
+   unsupported.
+
+#### A THIRD outbound link to a competing academy
+
+> "Many students use a technique called **[positional
+> rolling](https://www.lineagebjj-blog.com/blog/lineage-bjj-open-mat-guidelines-train-smart-stay-safe-and-respect-all)**
+> to sharpen a specific part of their game."
+
+**`lineagebjj-blog.com` is Lineage BJJ, another jiu-jitsu academy**, and the
+destination is their own open mat guidelines article — **the same subject as
+this page**. The link returns HTTP 200 and carries `rel="noopener"` but **no
+`nofollow`**, so it passes authority.
+
+**This is the third competitor link found in the rebuild:**
+
+| Page | Destination | Anchor |
+|---|---|---|
+| `/preschool-jiu-jitsu-…/` | `superflybjj.com` | "Brazilian Jiu-Jitsu" — **the money keyword** |
+| `/jiu-jitsu-for-seniors-…/` | `midamericamartialarts.com` | "combined with patience" |
+| **this page** | **`lineagebjj-blog.com`** | **"positional rolling"** |
+
+**Three different competing academies, three different pages, all within the
+BJJ cluster, all followed.** Issue 40 logged the first as an isolated finding;
+**it is now a production habit.** Whoever writes these articles is sourcing
+definitions from rival gyms' blogs and linking them.
+
+**Recommendation: a standing rule — no outbound link to another martial arts
+school, ever.** Where a definition needs a source, use a governing body
+(IBJJF), a medical body, or the client's own content.
+
+#### Cannibalisation: the most distinct angle in the BJJ cluster
+
+| Sibling | Exact headings | Heading-word overlap | Sentences ≥55% |
+|---|---|---|---|
+| `/bjj-training-tips/` | 4 of 17 (23.5%), all boilerplate | **28.6%** | **0 of 99 (0.0%)** |
+| `/benefits-of-bjj/` | 4 of 17 (23.5%), all boilerplate | **27.0%** | **0 of 99 (0.0%)** |
+
+**Confirmed: the overlap is low, as expected.** 27.0% is the lowest
+heading-word figure recorded against `/benefits-of-bjj/` by any page in the
+cluster, and **zero editorial headings match either sibling**.
+
+**This page earns its place.** Open mat is a real, distinct subject that none
+of the other twenty-plus BJJ pages covers, and unlike the gi/no-gi trio
+(issue 116) **no sibling contains a section that duplicates it.** **No
+consolidation needed.**
+
+**2026-11-11 addition — `/bjj-open-mat-what-it-is-and-why-you-should-join/`:
+a new FAQ punctuation defect — a SPACE before every question mark.**
+
+#### Space before the question mark, all six FAQs
+
+> "Do I need to be a certain belt level to attend open mat **␣?**"
+> "Is open mat the same as a regular BJJ class **␣?**"
+> "What should I do if I do not know anyone at open mat **␣?**"
+> "Can I only drill instead of rolling during open mat **␣?**"
+> "How often should I attend open mat as a beginner **␣?**"
+> "Is open mat only for gi training or can I do no gi as well **␣?**"
+
+**A third variant of the same underlying problem.** Six consecutive pages had
+**no** question marks in the FAQ; `/jiu-jitsu-for-seniors-…/` and
+`/muay-thai-for-women-…/` had them correctly; `/bjj-no-gi-vs-gi-…/` went back
+to none; **this page has them with a leading space**, which is a French
+typographic convention and wrong in English.
+
+**All six reproduced verbatim, including in the FAQPage JSON-LD**, where the
+question strings are what a search engine reads.
+
+#### Typos and missing separators reproduced verbatim
+
+| Where | As published |
+|---|---|
+| Contact Us paragraph | "Have questions about our classes or training programs**.**" — **a question ending in a full stop**, byte-identical to eight earlier pages |
+| Run-on sentences | "**No** open mat welcomes students of every rank…", "**No** regular classes follow a structured curriculum…" — **two FAQ answers open with a bare "No" and run straight into the next clause with no comma or full stop** |
+| Lists without separators | "you simply nod point to an open spot on the mat and begin", "students trickle in over the course of the session stretch on their own and start looking for training partners", "this process of trial error and adjustment" |
+| Body prose throughout | "Moreover this format can include gi training…", "Furthermore the atmosphere tends to be…", "Consequently open mat becomes the bridge…" — **conjunctive adverbs with no following comma**, roughly forty-five instances |
+| Head coach | "Head coach **Matheus**" — one T, no surname. **Ninth page running** |
+| Keyword phrase as a noun | "**BJJ open mat**" appears **11 times**, including "A common misconception is that **BJJ open mat sessions** are only useful…" |
+
+**No trailing space in the title or H1.** **No leaked chat markup** — no
+`font-claude-response-body`, no `data-sourcepos`, no `<h2>`-wrapped address.
+**No editorial markers** ("H2:", "H3:", "(Use bullets)", "(Use table
+format)", "Call to Action:"). **No empty ChatGPT citation anchors. No
+`/landing-page/` link. Casino spam present in the source at `left:-35255px`
+with all eight domains and excluded.**
+
+#### Images: the best-matched set in the project
+
+| File | Dimensions | What it shows |
+|---|---|---|
+| `bjj-open-mat-1024x536.webp` (hero) | 1024×536 | **a full mat of roughly twenty-five adults rolling in gis and rash guards**, some pairs working, others sitting and talking — **exactly what the article describes.** Caption "BJJ Open Mat" |
+| `bjj-open-mat-1.webp` | 1734×907 | adults rolling |
+| `bjj-open-mat-2.webp` | 1734×907 | **an open kit bag on a locker-room bench** — Sixth Sense rash guard, branded water bottle, mouthguard case, towel, sandals — **illustrating the "What to Bring" section precisely** |
+
+**No children in any image. No demographic mismatch. The hero is the single
+most on-topic image in this audit** — it shows an actual open mat rather than
+a posed shot.
+
+**The recurring wall-art question, noted once for the record.** The hero
+carries three painted wall slogans — "JIU-JITSU BUILDS BETTER PEOPLE",
+"DISCIPLINE CONSISTENCY PROGRESS A STRONGER YOU", "GOOD TRAINING BETTER
+HUMANS" — and the third image repeats "**DISCIPLINE BUILDS FREEDOM**", which
+also appeared on `/bjj-no-gi-vs-gi-…/`. **None of these is a Sixth Sense
+slogan used anywhere in the site's own copy.** The Sixth Sense roundel does
+appear correctly on the gis, the bottle and the shirt, so this is **milder
+than the SITAN GYM shorts at issue 115** — but it is the same open question
+about where these photographs were taken.
+
+#### No tags
+
+**Zero tags, the twelfth post in a row with none.** None targeting an untaught
+discipline, none naming a competitor, none carrying the city.
 
 ## How these were checked
 
